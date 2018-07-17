@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "666Ohayo",
+    "id" : 26159005,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159005?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/666Ohayo",
+    "html_url" : "https://github.com/666Ohayo",
+    "followers_url" : "https://api.github.com/users/666Ohayo/followers",
+    "following_url" : "https://api.github.com/users/666Ohayo/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/666Ohayo/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/666Ohayo/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/666Ohayo/subscriptions",
+    "organizations_url" : "https://api.github.com/users/666Ohayo/orgs",
+    "repos_url" : "https://api.github.com/users/666Ohayo/repos",
+    "events_url" : "https://api.github.com/users/666Ohayo/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/666Ohayo/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 71,
+    "additions" : 62,
+    "deletions" : 9
+  },
+  "author" : {
+    "login" : "666Ohayo",
+    "id" : 26159005,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159005?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/666Ohayo",
+    "html_url" : "https://github.com/666Ohayo",
+    "followers_url" : "https://api.github.com/users/666Ohayo/followers",
+    "following_url" : "https://api.github.com/users/666Ohayo/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/666Ohayo/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/666Ohayo/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/666Ohayo/subscriptions",
+    "organizations_url" : "https://api.github.com/users/666Ohayo/orgs",
+    "repos_url" : "https://api.github.com/users/666Ohayo/repos",
+    "events_url" : "https://api.github.com/users/666Ohayo/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/666Ohayo/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f526584c515041d50761fefff527bf02bc592e98",
+  "commit" : {
+    "author" : {
+      "name" : "666Ohayo",
+      "email" : "806123681@qq.com",
+      "date" : "2017-06-08T08:04:44Z"
+    },
+    "committer" : {
+      "name" : "666Ohayo",
+      "email" : "806123681@qq.com",
+      "date" : "2017-06-08T08:04:44Z"
+    },
+    "message" : "#5 #29 第五次作业",
+    "tree" : {
+      "sha" : "0c1e725f5df01ff0527b8191e6a3f56818204824",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0c1e725f5df01ff0527b8191e6a3f56818204824"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f526584c515041d50761fefff527bf02bc592e98",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f526584c515041d50761fefff527bf02bc592e98/comments",
+  "files" : [ {
+    "sha" : "4d2b520a7df307e22510a59e47488683e309b0a5",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140Bean.java",
+    "status" : "added",
+    "additions" : 26,
+    "deletions" : 0,
+    "changes" : 26,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140Bean.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140Bean.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140Bean.java?ref=f526584c515041d50761fefff527bf02bc592e98",
+    "patch" : "@@ -0,0 +1,26 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903140;\r\n+\r\n+/**\r\n+ * Created by Administrator on 2017/5/18.\r\n+ */\r\n+\r\n+public class Net1414080903140Bean {\r\n+    String date;\r\n+    int score;\r\n+\r\n+    public String getDate() {\r\n+        return date;\r\n+    }\r\n+\r\n+    public void setDate(String date) {\r\n+        this.date = date;\r\n+    }\r\n+\r\n+    public int getScore() {\r\n+        return score;\r\n+    }\r\n+\r\n+    public void setScore(int score) {\r\n+        this.score = score;\r\n+    }\r\n+}\r"
+  }, {
+    "sha" : "9b6bcabe4a2d432a8a04a80bfa1e5a42f0638649",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140GameActivity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 3,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140GameActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140GameActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140GameActivity.java?ref=f526584c515041d50761fefff527bf02bc592e98",
+    "patch" : "@@ -30,7 +30,7 @@\n     int choose = 0;\r\n     int bt = 0;\r\n     int current=1;\r\n-    MyOpenHelper helper;\r\n+    Net1414080903140MyOpenHelper helper;\r\n \r\n     int[] pictures = new int[]{R.drawable.one, R.drawable.two, R.drawable.three, R.drawable.five, R.drawable.four, R.drawable.six};\r\n \r\n@@ -46,7 +46,7 @@ protected void onCreate(Bundle savedInstanceState) {\n         tvResult = (TextView) findViewById(R.id.tv_game_result);\r\n         tvCurrent= (TextView) findViewById(R.id.tv_current);\r\n         tvCurrent.setText(\"1\");\r\n-        helper=new MyOpenHelper(this);\r\n+        helper=new Net1414080903140MyOpenHelper(this);\r\n         btStart.setOnClickListener(new View.OnClickListener() {\r\n             @Override\r\n             public void onClick(View v) {\r\n@@ -116,8 +116,8 @@ public boolean Start() {\n     public void save(){\r\n         SQLiteDatabase db=helper.getWritableDatabase();\r\n         ContentValues values=new ContentValues();\r\n-        values.put(\"play_time\",getDate());\r\n         values.put(\"score\",current);\r\n+        values.put(\"play_time\",getDate());\r\n         db.insert(\"record\",null,values);\r\n         db.close();\r\n     }\r"
+  }, {
+    "sha" : "c554eb94826fe774a9e62d5d669d95fe0e179d03",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140MyOpenHelper.java",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140MyOpenHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140MyOpenHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140MyOpenHelper.java?ref=f526584c515041d50761fefff527bf02bc592e98",
+    "patch" : "@@ -0,0 +1,27 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903140;\r\n+\r\n+import android.content.Context;\r\n+import android.database.sqlite.SQLiteDatabase;\r\n+import android.database.sqlite.SQLiteOpenHelper;\r\n+\r\n+/**\r\n+ * Created by Administrator on 2017/5/18.\r\n+ */\r\n+\r\n+public class Net1414080903140MyOpenHelper extends SQLiteOpenHelper {\r\n+    public Net1414080903140MyOpenHelper(Context context) {\r\n+        super(context, \"game\", null, 1);\r\n+    }\r\n+\r\n+    @Override\r\n+    public void onCreate(SQLiteDatabase db) {\r\n+\r\n+\r\n+        db.execSQL(\"create table record(play_time varchar(20),score integer);\");\r\n+    }\r\n+\r\n+    @Override\r\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\r\n+\r\n+    }\r\n+}\r"
+  }, {
+    "sha" : "a3e65c4c4267d464ae5831ac1b8ace54dad03abc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140RecordActivity.java",
+    "status" : "modified",
+    "additions" : 6,
+    "deletions" : 6,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140RecordActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f526584c515041d50761fefff527bf02bc592e98/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140RecordActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903140/Net1414080903140RecordActivity.java?ref=f526584c515041d50761fefff527bf02bc592e98",
+    "patch" : "@@ -23,7 +23,7 @@\n     protected void onCreate(Bundle savedInstanceState) {\r\n         super.onCreate(savedInstanceState);\r\n         setContentView(R.layout.activity_net1414080903140_record);\r\n-        final List<Bean> list=getData();\r\n+        final List<Net1414080903140Bean> list=getData();\r\n         rv= (RecyclerView) findViewById(R.id.rv);\r\n         rv.setLayoutManager(new LinearLayoutManager(this));\r\n         rv.setAdapter(new RecyclerView.Adapter() {\r\n@@ -58,15 +58,15 @@ private MyHolder(View itemView) {\n             tvTime= (TextView) itemView.findViewById(R.id.tv_item_time);\r\n         }\r\n     }\r\n-    public List<Bean> getData(){\r\n-        List<Bean> list=new ArrayList<>();\r\n-        MyOpenHelper helper=new MyOpenHelper(this);\r\n+    public List<Net1414080903140Bean> getData(){\r\n+        List<Net1414080903140Bean> list=new ArrayList<>();\r\n+        Net1414080903140MyOpenHelper helper=new Net1414080903140MyOpenHelper(this);\r\n         SQLiteDatabase db=helper.getReadableDatabase();\r\n         Cursor cursor=db.query(\"record\",null,null,null,null,null,null);\r\n         while (cursor.moveToNext()){\r\n-            Bean bean=new Bean();\r\n-            bean.setDate(cursor.getString(cursor.getColumnIndex(\"play_time\")));\r\n+            Net1414080903140Bean bean=new Net1414080903140Bean();\r\n             bean.setScore(cursor.getInt(cursor.getColumnIndex(\"score\")));\r\n+            bean.setDate(cursor.getString(cursor.getColumnIndex(\"play_time\")));\r\n             list.add(bean);\r\n         }\r\n         cursor.close();\r"
+  } ],
+  "sha" : "f526584c515041d50761fefff527bf02bc592e98",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f526584c515041d50761fefff527bf02bc592e98",
+  "parents" : [ {
+    "sha" : "a5aa145f8645c135b64fcc864fdd914b527aae34",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a5aa145f8645c135b64fcc864fdd914b527aae34",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a5aa145f8645c135b64fcc864fdd914b527aae34"
+  } ]
+}

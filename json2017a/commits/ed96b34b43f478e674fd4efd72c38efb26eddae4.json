@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "anzhoulin",
+    "id" : 26320611,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26320611?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/anzhoulin",
+    "html_url" : "https://github.com/anzhoulin",
+    "followers_url" : "https://api.github.com/users/anzhoulin/followers",
+    "following_url" : "https://api.github.com/users/anzhoulin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/anzhoulin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/anzhoulin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/anzhoulin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/anzhoulin/orgs",
+    "repos_url" : "https://api.github.com/users/anzhoulin/repos",
+    "events_url" : "https://api.github.com/users/anzhoulin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/anzhoulin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 148,
+    "additions" : 148,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "anzhoulin",
+    "id" : 26320611,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26320611?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/anzhoulin",
+    "html_url" : "https://github.com/anzhoulin",
+    "followers_url" : "https://api.github.com/users/anzhoulin/followers",
+    "following_url" : "https://api.github.com/users/anzhoulin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/anzhoulin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/anzhoulin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/anzhoulin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/anzhoulin/orgs",
+    "repos_url" : "https://api.github.com/users/anzhoulin/repos",
+    "events_url" : "https://api.github.com/users/anzhoulin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/anzhoulin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ed96b34b43f478e674fd4efd72c38efb26eddae4",
+  "commit" : {
+    "author" : {
+      "name" : "anzhoulin",
+      "email" : "631874079@qq.com",
+      "date" : "2017-06-12T03:03:37Z"
+    },
+    "committer" : {
+      "name" : "anzhoulin",
+      "email" : "631874079@qq.com",
+      "date" : "2017-06-12T03:03:37Z"
+    },
+    "message" : "#4 #158 第四次作业",
+    "tree" : {
+      "sha" : "42140738faafec180f24776d32bc359653f11a11",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/42140738faafec180f24776d32bc359653f11a11"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ed96b34b43f478e674fd4efd72c38efb26eddae4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed96b34b43f478e674fd4efd72c38efb26eddae4/comments",
+  "files" : [ {
+    "sha" : "5b680168578b291bf4591ea0c0bf21013881455b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903119_add.xml",
+    "status" : "added",
+    "additions" : 93,
+    "deletions" : 0,
+    "changes" : 93,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed96b34b43f478e674fd4efd72c38efb26eddae4/AndroidLabs/app/src/main/res/layout/activity_net1414080903119_add.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed96b34b43f478e674fd4efd72c38efb26eddae4/AndroidLabs/app/src/main/res/layout/activity_net1414080903119_add.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903119_add.xml?ref=ed96b34b43f478e674fd4efd72c38efb26eddae4",
+    "patch" : "@@ -0,0 +1,93 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"10dp\"\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"姓名：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_add_name\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+    <LinearLayout\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"年龄：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_add_age\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"学校：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_add_school\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"工作小时：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_add_hours\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+\n+\n+    <Button\n+        android:id=\"@+id/bt_add\"\n+        android:background=\"@color/colorPrimary\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"添         加\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_margin=\"20dp\"\n+        android:layout_height=\"wrap_content\" />\n+\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "a69d1d4aa6d6355f7b4927267588f11d8a903d84",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903119_list.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed96b34b43f478e674fd4efd72c38efb26eddae4/AndroidLabs/app/src/main/res/layout/activity_net1414080903119_list.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed96b34b43f478e674fd4efd72c38efb26eddae4/AndroidLabs/app/src/main/res/layout/activity_net1414080903119_list.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903119_list.xml?ref=ed96b34b43f478e674fd4efd72c38efb26eddae4",
+    "patch" : "@@ -0,0 +1,11 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <ListView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:id=\"@+id/lv\"/>\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "4d73161e81bf544079e98353fc0fce8c78da6630",
+    "filename" : "AndroidLabs/app/src/main/res/layout/item_net1414080903119.xml",
+    "status" : "added",
+    "additions" : 44,
+    "deletions" : 0,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed96b34b43f478e674fd4efd72c38efb26eddae4/AndroidLabs/app/src/main/res/layout/item_net1414080903119.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed96b34b43f478e674fd4efd72c38efb26eddae4/AndroidLabs/app/src/main/res/layout/item_net1414080903119.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/item_net1414080903119.xml?ref=ed96b34b43f478e674fd4efd72c38efb26eddae4",
+    "patch" : "@@ -0,0 +1,44 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:padding=\"15dp\">\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:text=\"姓名：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\" />\n+        <TextView\n+            android:layout_weight=\"1\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/tv_item_name\"/>\n+        <TextView\n+            android:text=\"年龄：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\" />\n+        <TextView\n+            android:layout_marginRight=\"120dp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/tv_item_age\"/>\n+    </LinearLayout>\n+\n+    <TextView\n+        android:layout_marginTop=\"3dp\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/tv_item_hours\"/>\n+\n+    <TextView\n+        android:layout_marginTop=\"3dp\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/tv_item_school\"/>\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "ed96b34b43f478e674fd4efd72c38efb26eddae4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed96b34b43f478e674fd4efd72c38efb26eddae4",
+  "parents" : [ {
+    "sha" : "d98c23542324a70be310c066bfc28726c461b6d7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d98c23542324a70be310c066bfc28726c461b6d7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d98c23542324a70be310c066bfc28726c461b6d7"
+  } ]
+}

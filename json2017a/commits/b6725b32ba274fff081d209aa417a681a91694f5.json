@@ -1,0 +1,162 @@
+{
+  "committer" : {
+    "login" : "Qlzr",
+    "id" : 26007287,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26007287?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Qlzr",
+    "html_url" : "https://github.com/Qlzr",
+    "followers_url" : "https://api.github.com/users/Qlzr/followers",
+    "following_url" : "https://api.github.com/users/Qlzr/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Qlzr/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Qlzr/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Qlzr/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Qlzr/orgs",
+    "repos_url" : "https://api.github.com/users/Qlzr/repos",
+    "events_url" : "https://api.github.com/users/Qlzr/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Qlzr/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 314,
+    "additions" : 275,
+    "deletions" : 39
+  },
+  "author" : {
+    "login" : "Qlzr",
+    "id" : 26007287,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26007287?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Qlzr",
+    "html_url" : "https://github.com/Qlzr",
+    "followers_url" : "https://api.github.com/users/Qlzr/followers",
+    "following_url" : "https://api.github.com/users/Qlzr/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Qlzr/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Qlzr/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Qlzr/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Qlzr/orgs",
+    "repos_url" : "https://api.github.com/users/Qlzr/repos",
+    "events_url" : "https://api.github.com/users/Qlzr/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Qlzr/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b6725b32ba274fff081d209aa417a681a91694f5",
+  "commit" : {
+    "author" : {
+      "name" : "LZR-PC",
+      "email" : "850048573@qq.com",
+      "date" : "2017-06-01T14:50:43Z"
+    },
+    "committer" : {
+      "name" : "LZR-PC",
+      "email" : "850048573@qq.com",
+      "date" : "2017-06-01T14:50:43Z"
+    },
+    "message" : "#5 #21 第五次作业",
+    "tree" : {
+      "sha" : "104d00fdc3496e74957ec1f1a14f3308c1176523",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/104d00fdc3496e74957ec1f1a14f3308c1176523"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b6725b32ba274fff081d209aa417a681a91694f5",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b6725b32ba274fff081d209aa417a681a91694f5/comments",
+  "files" : [ {
+    "sha" : "b420e936d6e1a53c0bb3563087ae85290fe269ff",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116Index.java",
+    "status" : "modified",
+    "additions" : 83,
+    "deletions" : 18,
+    "changes" : 101,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116Index.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116Index.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116Index.java?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -1,21 +1,31 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903116;\n \n+import android.content.DialogInterface;\n import android.content.Intent;\n+import android.support.v7.app.AlertDialog;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.view.ViewGroup;\n import android.widget.BaseAdapter;\n+import android.widget.Button;\n+import android.widget.EditText;\n import android.widget.ListView;\n import android.widget.TextView;\n-\n+import java.util.List;\n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903116Index extends AppCompatActivity {\n     private TextView show_name;\n-    private ListView mListView;\n-    //由于还没有连接数据库，所以暂时使用String类型的数组代替需要适配的数据\n-    private String[] names={\"我是动态一\",\"我是动态二\",\"我是动态三\",\"我是动态四\"};\n+    //需要适配的数据合集\n+    private List<Net1414080903116TextDynamic> list;\n+    //数据库操作类\n+    private Net1414080903116TextDynamicDao dao;\n+    private EditText text_dynamic;\n+    //适配器\n+    private MyBaseAdapter adapter;\n+    //ListView\n+    private ListView dynamicLV;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n@@ -24,37 +34,92 @@ protected void onCreate(Bundle savedInstanceState) {\n         Intent intent=getIntent();\n         String name=intent.getStringExtra(\"name\");\n         show_name=(TextView) findViewById(R.id.show_name);\n-        show_name.setText(\"欢迎你，\"+name);\n-        mListView=(ListView) findViewById(R.id.lv);\n-        //创建一个Adapter的实例\n-        MyBaseAdapter mAdapter=new MyBaseAdapter();\n-        //设置Adapter\n-        mListView.setAdapter(mAdapter);//\n+        show_name.setText(\"欢迎你:\"+name);\n+        //初始化控件\n+        initView();\n+        dao=new Net1414080903116TextDynamicDao(this);\n+        //从数据库查询出所有数据\n+        list=dao.queryAll();\n+        adapter=new MyBaseAdapter();\n+        dynamicLV.setAdapter(adapter);//给ListView添加适配器\n+    }\n+    //初始化控件\n+    private void initView(){\n+        dynamicLV=(ListView) findViewById(R.id.lv);\n+        text_dynamic=(EditText) findViewById(R.id.text_dynamic);\n+    }\n+    public void add(View v){\n+        Intent intent=getIntent();\n+        String promulgator=intent.getStringExtra(\"name\");\n+        String textdynamic=text_dynamic.getText().toString().trim();\n+        Net1414080903116TextDynamic a=new Net1414080903116TextDynamic(promulgator,textdynamic);\n+        dao.insert(a);\n+        list.add(a);\n+        adapter.notifyDataSetChanged();\n+        //选中最后一个\n+        dynamicLV.setSelection(dynamicLV.getCount()-1);\n+        text_dynamic.setText(\"\");\n     }\n     //创建一个类继承BaseAdapter\n     class MyBaseAdapter extends BaseAdapter {\n         //得到Item的总数\n         public int getCount() {\n-            return names.length;\n+            return list.size();\n         }\n         //得到Item代表的对象\n         public Object getItem(int position){\n-            return names[position];\n+            return list.get(position);\n         }\n         //得到Item的id\n         public long getItemId(int position){\n             return position;\n         }\n         //得到Item的视图\n         public View getView(int position, View convertView, ViewGroup parent){\n-            View view=View.inflate(Net1414080903116Index.this,R.layout.list_item1414080903116,null);\n-            TextView mTextView=(TextView) view.findViewById(R.id.tv_list);\n-            mTextView.setText(names[position]);\n-            return view;\n+            //重用convertView\n+            View item=convertView!=null?convertView:View.inflate(getApplicationContext(),R.layout.list_item1414080903116,null);\n+            //获取该视图中的TextView\n+            TextView tv_promulgator=(TextView) item.findViewById(R.id.tv_promulgator);\n+            TextView tv_list=(TextView) item.findViewById(R.id.tv_list);\n+            //根据当前位置获取Net1414080903116TextDynamic对象\n+            final Net1414080903116TextDynamic a=list.get(position);\n+            tv_promulgator.setText(a.getPromulgator());\n+            tv_list.setText(a.getText_dynamic());\n+            Button deleteTV=(Button) item.findViewById(R.id.tv_delete);\n+            Button commentTV=(Button) item.findViewById(R.id.tv_comment);\n+            commentTV.setOnClickListener(new View.OnClickListener() {\n+                @Override\n+                public void onClick(View v) {\n+                    Intent intent=new Intent();\n+                    intent.setClass(Net1414080903116Index.this,Net1414080903116SendText.class);\n+                    startActivity(intent);\n+                }\n+            });\n+            deleteTV.setOnClickListener(new View.OnClickListener() {\n+                @Override\n+                public void onClick(View v) {\n+                    //删除数据之前首先弹出一个对话框\n+                android.content.DialogInterface.OnClickListener listener=new android.content.DialogInterface.OnClickListener(){\n+                    public void onClick(DialogInterface dialog,int which){\n+                        list.remove(a);\n+                        dao.delete(a.getId());\n+                        notifyDataSetChanged();\n+                    }\n+                };\n+                //创建对话框\n+                    AlertDialog.Builder builder=new AlertDialog.Builder(Net1414080903116Index.this);\n+                    builder.setTitle(\"确定要删除吗？\");\n+                    builder.setPositiveButton(\"确定\",listener);\n+                    builder.setNegativeButton(\"取消\",null);\n+                    builder.show();\n+                }\n+            });\n+            return item;\n         }\n     }\n-    public void click(View view){\n+    /*public void click(View view){\n         Intent intent=new Intent(this,Net1414080903116SendText.class);\n+        intent.putExtra(\"name\",show_name.getText().toString().trim());\n         startActivity(intent);\n-    }\n+    }*/\n }"
+  }, {
+    "sha" : "e4cd3a6d21c666a8ba56dfafb3a17f96f82f561a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116SendText.java",
+    "status" : "modified",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116SendText.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116SendText.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116SendText.java?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -1,15 +1,32 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903116;\n \n+import android.content.Intent;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.View;\n+import android.widget.EditText;\n+import android.widget.TextView;\n \n import edu.hzuapps.androidlabs.R;\n \n+\n public class Net1414080903116SendText extends AppCompatActivity {\n+    private Net1414080903116TextDynamicDao dao;\n+    private EditText text_dynamic;\n+    private TextView show_name1;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903116_send_text);\n     }\n+\n+    public void add(View v){\n+        String promulgator=show_name1.getText().toString().trim();\n+        String textdynamic=text_dynamic.getText().toString().trim();\n+        Net1414080903116TextDynamic a=new Net1414080903116TextDynamic(promulgator,textdynamic);\n+        dao.insert(a);\n+        Intent intent1=new Intent(this,Net1414080903116SendText.class);\n+        startActivity(intent1);\n+    }\n }"
+  }, {
+    "sha" : "f333337ef308ded4031021ab74b7f6202a7280ad",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDatabase.java",
+    "status" : "added",
+    "additions" : 19,
+    "deletions" : 0,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDatabase.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDatabase.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDatabase.java?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -0,0 +1,19 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903116;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+public class Net1414080903116TextDatabase extends SQLiteOpenHelper{\n+    public Net1414080903116TextDatabase(Context context){\n+\n+        super(context,\"social.db\",null,2);\n+    }\n+    public void onCreate(SQLiteDatabase db){\n+        System.out.println(\"onCreate\");\n+        db.execSQL(\"CREATE TABLE text_database(_id INTEGER PRIMARY KEY AUTOINCREMENT,promulgator VARCHAR(20) not null,text_dynamic VARCHAR(80) not null)\");\n+    }\n+    public void onUpgrade(SQLiteDatabase db,int oldVersion,int newVersion){\n+        System.out.println(\"onUpgrade\");\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "dcbb4057a0e0436c42eb7d90ec7eb4f49126250e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamic.java",
+    "status" : "added",
+    "additions" : 41,
+    "deletions" : 0,
+    "changes" : 41,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamic.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamic.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamic.java?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -0,0 +1,41 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903116;\n+\n+\n+public class Net1414080903116TextDynamic {\n+    private Long id;\n+    private String promulgator;\n+    private String text_dynamic;\n+\n+    public Long getId(){\n+        return id;\n+    }\n+    public void setId(Long id){\n+        this.id=id;\n+    }\n+    public String getPromulgator(){\n+        return promulgator;\n+    }\n+    public void setPromulgator(String promulgator){\n+        this.promulgator=promulgator;\n+    }\n+    public String getText_dynamic(){\n+        return text_dynamic;\n+    }\n+    public void setText_dynamic(String text_dynamic){\n+        this.text_dynamic=text_dynamic;\n+    }\n+    public Net1414080903116TextDynamic(long id,String promulgator,String text_dynamic){\n+        super();\n+        this.id=id;\n+        this.promulgator=promulgator;\n+        this.text_dynamic=text_dynamic;\n+    }\n+    public Net1414080903116TextDynamic(String promulgator,String text_dynamic){\n+        super();\n+        this.promulgator=promulgator;\n+        this.text_dynamic=text_dynamic;\n+    }\n+    public Net1414080903116TextDynamic(){\n+        super();\n+    }\n+}"
+  }, {
+    "sha" : "4bba53c5d969e5bff6876904b81c6c5533164aac",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamicDao.java",
+    "status" : "added",
+    "additions" : 53,
+    "deletions" : 0,
+    "changes" : 53,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamicDao.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamicDao.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net1414080903116TextDynamicDao.java?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -0,0 +1,53 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903116;\n+\n+import android.content.ContentValues;\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+public class Net1414080903116TextDynamicDao {\n+    private Net1414080903116TextDatabase helper;\n+    public Net1414080903116TextDynamicDao(Context context){\n+        helper=new Net1414080903116TextDatabase(context);\n+    }\n+    public void insert(Net1414080903116TextDynamic textdynamic){\n+        //获取数据库对象\n+        SQLiteDatabase db=helper.getWritableDatabase();\n+        //用来装载要插入的数据的Map<列名，列的值>\n+        ContentValues values=new ContentValues();\n+        values.put(\"promulgator\",textdynamic.getPromulgator());\n+        values.put(\"text_dynamic\",textdynamic.getText_dynamic());\n+        long id =db.insert(\"text_database\",null,values);\n+        textdynamic.setId(id);\n+        db.close();\n+    }\n+    //根据id删除数据\n+    public  int delete(long id){\n+        SQLiteDatabase db=helper.getWritableDatabase();\n+        //按条件删除指定表中的数据，返回受影响的数据行数\n+        int count=db.delete(\"text_database\",\"_id=?\",new String[] {id+\"\"});\n+        db.close();\n+        return count;\n+    }\n+\n+    //查询所有数据的倒序排列\n+    public List<Net1414080903116TextDynamic> queryAll(){\n+        SQLiteDatabase db=helper.getReadableDatabase();\n+        Cursor c=db.query(\"text_database\",null,null,null,null,null,\"_id DESC\");\n+        List<Net1414080903116TextDynamic> list=new ArrayList<>();\n+        while (c.moveToNext()){\n+            //可以根据列名获取索引\n+            long id=c.getLong(c.getColumnIndex(\"_id\"));\n+            String promulgator=c.getString(1);\n+            String text_dynamic=c.getString(2);\n+            list.add(new Net1414080903116TextDynamic(id,promulgator,text_dynamic));\n+        }\n+        c.close();\n+        db.close();\n+        return list;\n+\n+    }\n+}"
+  }, {
+    "sha" : "1976a36298762b73b400712791bbb7ed3ff5ee05",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903116_index.xml",
+    "status" : "modified",
+    "additions" : 26,
+    "deletions" : 16,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/res/layout/activity_net1414080903116_index.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/res/layout/activity_net1414080903116_index.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903116_index.xml?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -15,23 +15,14 @@\n         android:layout_marginTop=\"10dp\"\n         android:textSize=\"20dp\"/>\n \n-    <Button\n-        android:text=\"文字\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginTop=\"26dp\"\n-        android:id=\"@+id/text\"\n-        android:onClick=\"click\"\n-        android:layout_below=\"@+id/show_name\"\n-        android:layout_alignParentStart=\"true\" />\n+    <EditText\n+        android:id=\"@+id/text_dynamic\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"100dp\"\n+        android:layout_below=\"@id/show_name\"\n+        android:background=\"#FFFFFF\"\n+        android:hint=\"请输入你的文字动态......\"/>\n \n-    <Button\n-        android:text=\"图片\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:id=\"@+id/picture\"\n-        android:layout_above=\"@+id/lv\"\n-        android:layout_toEndOf=\"@+id/text\" />\n     <ListView\n         android:id=\"@+id/lv\"\n         android:layout_width=\"match_parent\"\n@@ -41,5 +32,24 @@\n         android:layout_marginTop=\"19dp\"\n         android:layout_alignParentEnd=\"true\" />\n \n+    <Button\n+        android:text=\"图片\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/picture\"\n+        android:layout_below=\"@+id/text_dynamic\"\n+        android:layout_alignParentEnd=\"true\"\n+        android:layout_marginTop=\"5dp\" />\n+\n+    <Button\n+        android:text=\"发送\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/text\"\n+        android:onClick=\"add\"\n+        android:layout_alignBaseline=\"@+id/picture\"\n+        android:layout_alignBottom=\"@+id/picture\"\n+        android:layout_toStartOf=\"@+id/picture\" />\n+\n \n </RelativeLayout>"
+  }, {
+    "sha" : "7554aae8f4909751747a5c836e726b2c327b6668",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903116_send_text.xml",
+    "status" : "modified",
+    "additions" : 11,
+    "deletions" : 2,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/res/layout/activity_net1414080903116_send_text.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/res/layout/activity_net1414080903116_send_text.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903116_send_text.xml?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -7,12 +7,20 @@\n     android:background=\"@drawable/timg\"\n     tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903116.Net1414080903116SendText\">\n \n+    <TextView\n+        android:id=\"@+id/show_name1\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20dp\"/>\n     <EditText\n         android:id=\"@+id/text_dynamic\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"100dp\"\n+        android:layout_below=\"@+id/show_name1\"\n         android:background=\"#FFFFFF\"\n-        android:hint=\"请输入你的文字动态......\"/>\n+        android:hint=\"请输入你的评论内容......\"/>\n \n     <Button\n         android:text=\"发送\"\n@@ -22,6 +30,7 @@\n         android:id=\"@+id/send\"\n         android:layout_below=\"@+id/text_dynamic\"\n         android:layout_alignParentEnd=\"true\"\n-        android:layout_marginEnd=\"28dp\" />\n+        android:layout_marginEnd=\"28dp\"\n+        android:onClick=\"add\"/>\n \n </RelativeLayout>"
+  }, {
+    "sha" : "56d53e5555415bbaf20d924976cddc0b988a25e3",
+    "filename" : "AndroidLabs/app/src/main/res/layout/list_item1414080903116.xml",
+    "status" : "modified",
+    "additions" : 25,
+    "deletions" : 3,
+    "changes" : 28,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/res/layout/list_item1414080903116.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b6725b32ba274fff081d209aa417a681a91694f5/AndroidLabs/app/src/main/res/layout/list_item1414080903116.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/list_item1414080903116.xml?ref=b6725b32ba274fff081d209aa417a681a91694f5",
+    "patch" : "@@ -3,12 +3,34 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"wrap_content\">\n     <TextView\n+        android:id=\"@+id/tv_promulgator\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"18dp\"\n+        android:hint=\"发布者\"/>\n+    <TextView\n         android:id=\"@+id/tv_list\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"80dp\"\n+        android:layout_height=\"wrap_content\"\n         android:gravity=\"center\"\n         android:layout_centerInParent=\"true\"\n-        android:textSize=\"18sp\"\n-        android:hint=\"ListView的Item布局\"/>\n+        android:layout_below=\"@id/tv_promulgator\"\n+        android:textSize=\"18sp\" />\n+\n+    <Button\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/tv_comment\"\n+        android:layout_below=\"@+id/tv_list\"\n+        android:layout_alignParentEnd=\"true\"\n+        android:text=\"评论\"/>\n+\n+    <Button\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/tv_delete\"\n+        android:text=\"删除\"\n+        android:layout_alignBaseline=\"@+id/tv_comment\"\n+        android:layout_alignBottom=\"@+id/tv_comment\"\n+        android:layout_toStartOf=\"@+id/tv_comment\" />\n \n </RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "b6725b32ba274fff081d209aa417a681a91694f5",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b6725b32ba274fff081d209aa417a681a91694f5",
+  "parents" : [ {
+    "sha" : "0689da9814e740751dc2e7a8fefcd48f3c2fa584",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0689da9814e740751dc2e7a8fefcd48f3c2fa584",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0689da9814e740751dc2e7a8fefcd48f3c2fa584"
+  } ]
+}

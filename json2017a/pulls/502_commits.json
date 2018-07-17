@@ -1,0 +1,139 @@
+[ {
+  "sha" : "9cd7e897fce1f646f9986872fdfe322a61d10343",
+  "commit" : {
+    "author" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-24T09:03:45Z"
+    },
+    "committer" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-24T09:03:45Z"
+    },
+    "message" : "#6 #35 第六次作业",
+    "tree" : {
+      "sha" : "cd475ceafe5b0ff73472dfe4adc779684fdaf9ef",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/cd475ceafe5b0ff73472dfe4adc779684fdaf9ef"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9cd7e897fce1f646f9986872fdfe322a61d10343",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9cd7e897fce1f646f9986872fdfe322a61d10343",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9cd7e897fce1f646f9986872fdfe322a61d10343",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9cd7e897fce1f646f9986872fdfe322a61d10343/comments",
+  "author" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "271d8997129c1ee9bbb385785afb61f4cac1559e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/271d8997129c1ee9bbb385785afb61f4cac1559e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/271d8997129c1ee9bbb385785afb61f4cac1559e"
+  } ]
+}, {
+  "sha" : "d39d4a696a05d67815e5dc9e51499665f72e6599",
+  "commit" : {
+    "author" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-24T09:08:04Z"
+    },
+    "committer" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-24T09:08:04Z"
+    },
+    "message" : "#6 #35 第六次作业",
+    "tree" : {
+      "sha" : "608709f142f8e7e7695abacd30642229893e0f20",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/608709f142f8e7e7695abacd30642229893e0f20"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/d39d4a696a05d67815e5dc9e51499665f72e6599",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d39d4a696a05d67815e5dc9e51499665f72e6599",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d39d4a696a05d67815e5dc9e51499665f72e6599",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d39d4a696a05d67815e5dc9e51499665f72e6599/comments",
+  "author" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9cd7e897fce1f646f9986872fdfe322a61d10343",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9cd7e897fce1f646f9986872fdfe322a61d10343",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9cd7e897fce1f646f9986872fdfe322a61d10343"
+  }, {
+    "sha" : "84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1"
+  } ]
+} ]

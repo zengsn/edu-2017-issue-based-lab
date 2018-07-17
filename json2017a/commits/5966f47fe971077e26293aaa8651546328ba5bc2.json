@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "1414080903104",
+    "id" : 26102070,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26102070?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1414080903104",
+    "html_url" : "https://github.com/1414080903104",
+    "followers_url" : "https://api.github.com/users/1414080903104/followers",
+    "following_url" : "https://api.github.com/users/1414080903104/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1414080903104/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1414080903104/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1414080903104/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1414080903104/orgs",
+    "repos_url" : "https://api.github.com/users/1414080903104/repos",
+    "events_url" : "https://api.github.com/users/1414080903104/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1414080903104/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 219,
+    "additions" : 218,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "1414080903104",
+    "id" : 26102070,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26102070?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1414080903104",
+    "html_url" : "https://github.com/1414080903104",
+    "followers_url" : "https://api.github.com/users/1414080903104/followers",
+    "following_url" : "https://api.github.com/users/1414080903104/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1414080903104/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1414080903104/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1414080903104/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1414080903104/orgs",
+    "repos_url" : "https://api.github.com/users/1414080903104/repos",
+    "events_url" : "https://api.github.com/users/1414080903104/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1414080903104/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5966f47fe971077e26293aaa8651546328ba5bc2",
+  "commit" : {
+    "author" : {
+      "name" : "1414080903104",
+      "email" : "937671117@qq.com",
+      "date" : "2017-06-15T10:38:17Z"
+    },
+    "committer" : {
+      "name" : "1414080903104",
+      "email" : "937671117@qq.com",
+      "date" : "2017-06-15T10:38:17Z"
+    },
+    "message" : "#6 #22 第六次实验",
+    "tree" : {
+      "sha" : "f852ac89f6c8b090fe87e26523c35f32efaf4591",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f852ac89f6c8b090fe87e26523c35f32efaf4591"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5966f47fe971077e26293aaa8651546328ba5bc2",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5966f47fe971077e26293aaa8651546328ba5bc2/comments",
+  "files" : [ {
+    "sha" : "fcf616919a9b92bd92c1d981113f7b97ebfbf717",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 1,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java?ref=5966f47fe971077e26293aaa8651546328ba5bc2",
+    "patch" : "@@ -15,7 +15,7 @@\n import edu.hzuapps.androidlabs.homeworks.net1414080903104.Net1414080903104lookActivity;\n \n public class Net1414080903104Activity<btn1, Button> extends ActionBarActivity {\n-\tButton btn1, btn2;\n+\tButton btn1, btn2,btn3;\n     \n \tclass MyClickListener implements OnClickListener {\t\t  \n \t\tpublic void onClick(View v) {\n@@ -32,6 +32,12 @@ public void onClick(View v) {\n \t\t    \tstartActivity(intent1);\n \n \t\t        break;\n+\t\t    case R.id.button3:\n+\t\t    \t//��ת������һ��ҳ��\n+\t\t    \tIntent intent2=new Intent(Net1414080903104Activity.this,Net1414080903104obtainjsonActivity.class);\n+\t\t    \tstartActivity(intent2);\n+\n+\t\t        break;\n \t\t    default:\n \t\t    break;\n \t\t    }\n@@ -47,9 +53,11 @@ protected void onCreate(Bundle savedInstanceState) {\n         \n         btn1 = (Button) findViewById(R.id.button1);\n         btn2 = (Button) findViewById(R.id.button2);\n+        btn3 = (Button) findViewById(R.id.button3);\n      \n         ((View) btn1).setOnClickListener(new MyClickListener());\n         ((View) btn2).setOnClickListener(new MyClickListener());\n+        ((View) btn3).setOnClickListener(new MyClickListener());\n \n     }\n "
+  }, {
+    "sha" : "727f21327390aa7ec825fa414345c87202edd0df",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104obtainjsonActivity.java",
+    "status" : "added",
+    "additions" : 148,
+    "deletions" : 0,
+    "changes" : 148,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104obtainjsonActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104obtainjsonActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104obtainjsonActivity.java?ref=5966f47fe971077e26293aaa8651546328ba5bc2",
+    "patch" : "@@ -0,0 +1,148 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903104;\n+/*\n+ * ������⣺\n+ * 1��api��ʹ��  ��url��ʹ��\n+ * 2��Ҫ��handler �ο���http://blog.csdn.net/superjunjin/article/details/7540064\n+ */\n+import java.io.BufferedReader;\n+import java.io.IOException;\n+import java.io.InputStreamReader;\n+import java.net.HttpURLConnection;\n+import java.net.URL;\n+\n+import org.json.JSONException;\n+import org.json.JSONObject;\n+import org.json.JSONTokener;\n+\n+import com.google.gson.Gson;\n+\n+import android.os.Bundle;\n+import android.os.Handler;\n+import android.os.Message;\n+import android.support.v7.app.ActionBarActivity;\n+import android.util.Log;\n+import android.widget.TextView;\n+import android.widget.Toast;\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903104obtainjsonActivity extends ActionBarActivity {\n+\tprivate static final int UPDATE_UI = 1;  \n+\tprivate static final int ERROR = 2; \n+\n+\tprivate static String jsonData;//���ڴ�Ż�ȡ�õ���json���\n+\tprivate Sentence sentence;//���ڴ�Ž���json�õ������\n+\tprivate TextView tv;//������ʾjson���\n+\tprivate TextView tv1;\n+\tprivate TextView tv2;\n+\tprivate Handler handler=new Handler(){  \n+        // ��������Ϣʱ����  \n+        @Override  \n+        public void handleMessage(Message msg) {  \n+            if (msg.what == UPDATE_UI) {  \n+                // ��ȡ��Ϣ����  \n+            \tString ou=(String) msg.obj;\n+            \tSystem.out.println(ou);\n+            \ttry {\n+\t\t\t\t\tsentence=parseJsonByOrgJson(ou);\n+\t\t\t\t\ttv.setText(sentence.getName());\n+\t\t\t\t\ttv1.setText(sentence.getTime());\n+\t\t\t\t\ttv2.setText(sentence.getOffer());\n+\t\t\t\t} catch (JSONException e) {\n+\t\t\t\t\t// TODO Auto-generated catch block\n+\t\t\t\t\te.printStackTrace();\n+\t\t\t\t}\n+            \t\n+            } else if (msg.what == ERROR) {  \n+                // ToastҲ������UI�ĸ���  \n+                Toast.makeText(getApplicationContext(), \"��ȡʧ�ܣ�\", 0).show();  \n+            }  \n+        }  ;\n+    }; \n+\t\n+\n+\tprotected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.obtainjson_net1414080903104);\n+        tv=(TextView)findViewById(R.id.jsoninfo);\n+        tv1=(TextView)findViewById(R.id.jsoninfo1);\n+        tv2=(TextView)findViewById(R.id.jsoninfo2);\n+        new Thread(){\n+        \tpublic void run() {\n+        \t\ttry {\n+        \t\t\tgetJsonData();\n+\n+        \t\t}catch (Exception e) {\n+        \t\t\te.printStackTrace();\n+        \t\t\tSystem.out.println(\"worry!\");\n+       \t\t}\n+            }\n+        }.start();\n+\t}\n+\t/**\n+     * �������������ݣ�����ʹ��HttpURLConnection\n+     */\n+    public void getJsonData() {\n+    \t URL url = null;\n+\t\t\t//String jsonData1 = \"\"; //���������ص�json�ַ���� \n+\t\t\tInputStreamReader in = null; //��ȡ�����ݣ�������\n+\t\t\ttry {\n+\t\t\t    url = new URL(\"https://raw.githubusercontent.com/1414080903104/android-labs-2017/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/jsoninfornation.json\");\n+\t\t\t    //���ط���url���ԣ���Ҫ��ȡ��github��api�ӿڡ�\n+\t\t\t    HttpURLConnection conn = (HttpURLConnection) url.openConnection();\n+\t\t\t    conn.setRequestMethod(\"GET\");  \n+                // ���ó�ʱʱ��  \n+                conn.setConnectTimeout(10000);  \n+                int code = conn.getResponseCode();  \n+                if (code == 200) {  \n+\t\t\t    //��һ�����������õ�������\n+\t\t\t    in = new InputStreamReader(conn.getInputStream());\n+\t\t\t // Ϊ���봴��BufferedReader\n+\t            BufferedReader br = new BufferedReader(in);\n+\t            String inputLine = null;\n+\t            while (((inputLine = br.readLine()) != null)) {\n+\t                jsonData += inputLine;\n+\t            }\n+\t            in.close(); // �ر�InputStreamReader\n+\t           // System.out.println(jsonData);\n+\t\t\t // �������߳�һ����Ϣ�����Ҹ���ui�����ݣ�bitmap  \n+                Message msg = new Message();  \n+                // ��Ϣ�Ĵ�ţ���һ��int����  \n+                msg.what = UPDATE_UI;  \n+                // Ҫ���ݵ���Ϣ����  \n+                msg.obj = jsonData;  \n+                // ����handler������Ϣ  \n+                handler.sendMessage(msg);  \n+            } else {  \n+                Message msg = new Message();  \n+                msg.what = ERROR;  \n+                handler.sendMessage(msg);  \n+            }  \n+\t\t\t} catch (Exception ex) {\n+\t\t\t    ex.printStackTrace();\n+\t\t\t    Message msg = new Message();  \n+                msg.what = ERROR;  \n+                handler.sendMessage(msg);  \n+\t\t\t}\n+\t\t\t\n+    }\n+    /**\n+     * ͨ��org.json����json\n+     */\n+    public static Sentence parseJsonByOrgJson(String jsonStr) throws JSONException{\n+    \t// ʹ�ø÷�������˼·����������JsonObject���������JsonArray\n+        // ��һ���Ǵ����\n+        JSONObject jsonObj = new JSONObject(jsonStr.replaceAll(\"null\", \"\"));\n+        //��֪��ΪɶHttpURLConnection������ȡ����json��ݣ�ǰ�����null��ͷ������ȡ������ݸ�ʽΪ��null[\"xxx\":\"xxx\"]\n+        //����������replaceALLȥ��null���ɽ���ɹ�\n+        \n+        // �½�Sentence����\n+        Sentence sen = new Sentence();\n+        sen.setName(jsonObj.getString(\"name\")); \n+        sen.setTime(jsonObj.getString(\"time\") ); \n+        sen.setOffer(jsonObj.getString(\"offer\") );\n+        \n+\n+        return sen;  \n+    }\n+\n+}"
+  }, {
+    "sha" : "0adfaf25dbc7ba211061f448c636578bf630645b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Sentence.java",
+    "status" : "added",
+    "additions" : 24,
+    "deletions" : 0,
+    "changes" : 24,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Sentence.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Sentence.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Sentence.java?ref=5966f47fe971077e26293aaa8651546328ba5bc2",
+    "patch" : "@@ -0,0 +1,24 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903104;\n+\n+public class Sentence {\n+\tpublic String name;\n+\tpublic String time;\n+\tpublic String offer;\n+\tpublic String toString() {\n+\t\treturn name+\"/n\"+time+\"/n\"+offer;\n+\t\t\n+\t}\n+\tpublic void setName(String name){this.name=name;}\n+\tpublic String getName(){\n+\t\treturn name;\n+\t}\n+\tpublic void setTime(String time){this.time=time;}\n+\tpublic String getTime(){\n+\t\treturn time;\n+\t}\n+\tpublic void setOffer(String offer){this.offer=offer;}\n+\tpublic String getOffer(){\n+\t\treturn offer;\n+\t}\n+\n+}"
+  }, {
+    "sha" : "89931ed5297d0ecdb1031f3760419d0f6fe59fe8",
+    "filename" : "AndroidLabs/app/src/main/res/layout/obtainjson_net1414080903104.xml",
+    "status" : "added",
+    "additions" : 37,
+    "deletions" : 0,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/res/layout/obtainjson_net1414080903104.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5966f47fe971077e26293aaa8651546328ba5bc2/AndroidLabs/app/src/main/res/layout/obtainjson_net1414080903104.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/obtainjson_net1414080903104.xml?ref=5966f47fe971077e26293aaa8651546328ba5bc2",
+    "patch" : "@@ -0,0 +1,37 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+\n+<TableLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+     xmlns:tools=\"http://schemas.android.com/tools\"\n+     android:layout_width=\"match_parent\"\n+     android:layout_height=\"match_parent\"\n+     android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+     android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+     android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+     android:paddingTop=\"@dimen/activity_vertical_margin\"\n+     tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903104.Net1414080903104obtainjsonActivity\" \n+     >\n+     \n+\n+ \n+ \t<!--显示解析结果-->\n+ \t<TableRow>\n+         <TextView\n+             android:id=\"@+id/jsoninfo\"\n+             android:layout_width=\"match_parent\"\n+             android:layout_height=\"match_parent\" />\n+         </TableRow>\n+     <TableRow>\n+         <TextView\n+             android:id=\"@+id/jsoninfo1\"\n+             android:layout_width=\"match_parent\"\n+             android:layout_height=\"match_parent\" />\n+         </TableRow>\n+      <TableRow>\n+         <TextView\n+             android:id=\"@+id/jsoninfo2\"\n+             android:layout_width=\"match_parent\"\n+             android:layout_height=\"match_parent\" />\n+         </TableRow>\n+         \n+ \n+ </TableLayout>"
+  } ],
+  "sha" : "5966f47fe971077e26293aaa8651546328ba5bc2",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5966f47fe971077e26293aaa8651546328ba5bc2",
+  "parents" : [ {
+    "sha" : "051225a6eac5cb478caf4662f700dc1fcc87f54a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/051225a6eac5cb478caf4662f700dc1fcc87f54a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/051225a6eac5cb478caf4662f700dc1fcc87f54a"
+  } ]
+}

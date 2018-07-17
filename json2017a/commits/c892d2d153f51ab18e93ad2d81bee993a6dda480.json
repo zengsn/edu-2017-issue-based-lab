@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "14YuQingBin",
+    "id" : 26153217,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26153217?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14YuQingBin",
+    "html_url" : "https://github.com/14YuQingBin",
+    "followers_url" : "https://api.github.com/users/14YuQingBin/followers",
+    "following_url" : "https://api.github.com/users/14YuQingBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14YuQingBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14YuQingBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14YuQingBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14YuQingBin/orgs",
+    "repos_url" : "https://api.github.com/users/14YuQingBin/repos",
+    "events_url" : "https://api.github.com/users/14YuQingBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14YuQingBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 101,
+    "additions" : 101,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "14YuQingBin",
+    "id" : 26153217,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26153217?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14YuQingBin",
+    "html_url" : "https://github.com/14YuQingBin",
+    "followers_url" : "https://api.github.com/users/14YuQingBin/followers",
+    "following_url" : "https://api.github.com/users/14YuQingBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14YuQingBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14YuQingBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14YuQingBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14YuQingBin/orgs",
+    "repos_url" : "https://api.github.com/users/14YuQingBin/repos",
+    "events_url" : "https://api.github.com/users/14YuQingBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14YuQingBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c892d2d153f51ab18e93ad2d81bee993a6dda480",
+  "commit" : {
+    "author" : {
+      "name" : "14YuQingBin",
+      "email" : "452798073@qq.com",
+      "date" : "2017-06-17T11:35:33Z"
+    },
+    "committer" : {
+      "name" : "14YuQingBin",
+      "email" : "452798073@qq.com",
+      "date" : "2017-06-17T11:35:33Z"
+    },
+    "message" : "#6 #129 第六次作业",
+    "tree" : {
+      "sha" : "43183406c24ffe3ac74c7cdbe201d57723698a55",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/43183406c24ffe3ac74c7cdbe201d57723698a55"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c892d2d153f51ab18e93ad2d81bee993a6dda480/comments",
+  "files" : [ {
+    "sha" : "bfad69b36154174b7c1811d89731032d684e940b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130JsonActivity.java",
+    "status" : "added",
+    "additions" : 71,
+    "deletions" : 0,
+    "changes" : 71,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130JsonActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130JsonActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130JsonActivity.java?ref=c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "patch" : "@@ -0,0 +1,71 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903130;\n+\n+import android.os.Handler;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.widget.TextView;\n+\n+import org.json.JSONArray;\n+import org.json.JSONObject;\n+\n+import edu.hzuapps.androidlabs.R;\n+import okhttp3.OkHttpClient;\n+import okhttp3.Request;\n+import okhttp3.Response;\n+\n+public class Net1414080903130JsonActivity extends AppCompatActivity {\n+    private String grade;\n+    private String name;\n+    private String number;\n+    private TextView GithubResponse;\n+    private Handler handler = null;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903130_json);\n+        handler = new Handler();\n+        GithubResponse = (TextView) findViewById(R.id.response_info);\n+        sendRequest();\n+    }\n+\n+    private void sendRequest() {\n+        new Thread(){\n+            @Override\n+            public void run() {\n+                try {\n+                    OkHttpClient client = new OkHttpClient();\n+                    Request request = new Request.Builder().url(\"https://raw.githubusercontent.com/14YuQingBin/android-labs-2017/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/yqb.json\").build();//目标地址\n+                    Response response = client.newCall(request).execute();\n+                    String responseData = response.body().string();\n+                    ParseJson(responseData);\n+                } catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+                handler.post(runnableUi);\n+            }\n+        }.start();\n+    }\n+\n+    /*解析json文件*/\n+    private void ParseJson(String jsonData) {\n+        try {\n+            JSONArray jsonArray = new JSONArray(jsonData);\n+            for (int i = 0; i < jsonArray.length(); i++) {\n+                JSONObject jsonObject = jsonArray.getJSONObject(i);\n+                grade = jsonObject.getString(\"grade\");\n+                name = jsonObject.getString(\"name\");\n+                number = jsonObject.getString(\"number\");\n+            }\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+    }\n+\n+    /*更新UI*/\n+    Runnable runnableUi = new Runnable() {\n+        public void run() {\n+            GithubResponse.setText(\"班级: \" + grade + \"\\n\" + \"\\n\" + \"姓名: \" + name + \"\\n\" + \"\\n\" + \"学号: \" + number + \"\\n\" + \"\\n\");//显示解析结果\n+        }\n+    };\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "fdd6f4677a21ed6f116e4da18fd50349bfbdd221",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130LoginActivity.java",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/Net1414080903130LoginActivity.java?ref=c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "patch" : "@@ -51,6 +51,14 @@ public void onClick(View v) {\n \n             }\n         });\n+        Button c = (Button)findViewById(R.id.json_login);\n+        b.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903130LoginActivity.this,Net1414080903130JsonActivity.class);\n+                startActivity(intent);\n+            }\n+        });\n     }\n \n     public int check(String username,String password){"
+  }, {
+    "sha" : "591fc8800c9c20981b9e24c4ab2a53b3ac038633",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903130_json.xml",
+    "status" : "added",
+    "additions" : 16,
+    "deletions" : 0,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/res/layout/activity_net1414080903130_json.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/res/layout/activity_net1414080903130_json.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903130_json.xml?ref=c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "patch" : "@@ -0,0 +1,16 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903130_json\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903130.Net1414080903130JsonActivity\">\n+    <TextView\n+        android:id=\"@+id/response_info\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\" />\n+</RelativeLayout>"
+  }, {
+    "sha" : "b92523316c3b797503aaa3fd7b73f4176756a184",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903130_login.xml",
+    "status" : "modified",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/res/layout/activity_net1414080903130_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c892d2d153f51ab18e93ad2d81bee993a6dda480/AndroidLabs/app/src/main/res/layout/activity_net1414080903130_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903130_login.xml?ref=c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "patch" : "@@ -87,5 +87,11 @@\n             android:layout_height=\"wrap_content\"\n             android:layout_weight=\"4\"\n             android:text=\"登录\" />\n+        <Button\n+            android:id=\"@+id/json_login\"\n+            android:layout_width=\"0dp\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_weight=\"4\"\n+            android:text=\"解析json\" />\n     </LinearLayout>\n </RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "c892d2d153f51ab18e93ad2d81bee993a6dda480",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c892d2d153f51ab18e93ad2d81bee993a6dda480",
+  "parents" : [ {
+    "sha" : "d235ea353469ff8cb646e33023718de093fdf534",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d235ea353469ff8cb646e33023718de093fdf534",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d235ea353469ff8cb646e33023718de093fdf534"
+  } ]
+}

@@ -1,0 +1,161 @@
+{
+  "committer" : {
+    "login" : "zzh1414080903218",
+    "id" : 26100430,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26100430?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zzh1414080903218",
+    "html_url" : "https://github.com/zzh1414080903218",
+    "followers_url" : "https://api.github.com/users/zzh1414080903218/followers",
+    "following_url" : "https://api.github.com/users/zzh1414080903218/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zzh1414080903218/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zzh1414080903218/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zzh1414080903218/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zzh1414080903218/orgs",
+    "repos_url" : "https://api.github.com/users/zzh1414080903218/repos",
+    "events_url" : "https://api.github.com/users/zzh1414080903218/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zzh1414080903218/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 493,
+    "additions" : 435,
+    "deletions" : 58
+  },
+  "author" : {
+    "login" : "zzh1414080903218",
+    "id" : 26100430,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26100430?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zzh1414080903218",
+    "html_url" : "https://github.com/zzh1414080903218",
+    "followers_url" : "https://api.github.com/users/zzh1414080903218/followers",
+    "following_url" : "https://api.github.com/users/zzh1414080903218/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zzh1414080903218/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zzh1414080903218/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zzh1414080903218/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zzh1414080903218/orgs",
+    "repos_url" : "https://api.github.com/users/zzh1414080903218/repos",
+    "events_url" : "https://api.github.com/users/zzh1414080903218/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zzh1414080903218/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+  "commit" : {
+    "author" : {
+      "name" : "zzh1414080903218",
+      "email" : "1290040567@qq.com",
+      "date" : "2017-05-05T09:36:00Z"
+    },
+    "committer" : {
+      "name" : "zzh1414080903218",
+      "email" : "1290040567@qq.com",
+      "date" : "2017-05-05T09:36:00Z"
+    },
+    "message" : "#3 #24 第三次实验",
+    "tree" : {
+      "sha" : "bb4975c726ebfe35fa6033100f2df3348029f9f0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/bb4975c726ebfe35fa6033100f2df3348029f9f0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/comments",
+  "files" : [ {
+    "sha" : "6a9d12d2f41aeb9e23267f03d33422a5507eedb7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java",
+    "status" : "added",
+    "additions" : 30,
+    "deletions" : 0,
+    "changes" : 30,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java?ref=e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+    "patch" : "@@ -0,0 +1,30 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n+\n+/**\n+ * Created by zzh on 2017/5/1.\n+ */\n+public class AutoPlayer extends Player {\n+    private int putR;\n+    private int putC;\n+    public AutoPlayer(boolean first,Board b) {\n+        super(first,b);\n+        putR = 0;\n+        putC = 0;\n+    }\n+    public boolean putPiece(){\n+        findPutRC();\n+        if(!board.putPiece(first,putR,putC))return false;\n+        return true;\n+    }\n+    public void findPutRC(){\n+        for(int i=0;i<board.getRow();i++) {\n+            for (int j = 0; j < board.getCol(); j++) {\n+                if(board.isEmpty(i,j)){\n+                    putR = i;\n+                    putC = j;\n+                    return;\n+                }\n+            }\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "21f9d542ead25bd19fa86b8921ac54852014f1a5",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "status" : "added",
+    "additions" : 152,
+    "deletions" : 0,
+    "changes" : 152,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java?ref=e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+    "patch" : "@@ -0,0 +1,152 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n+\n+import android.graphics.Color;\n+import android.widget.Toast;\n+\n+import static android.widget.Toast.LENGTH_SHORT;\n+\n+/**\n+ * Created by zzh on 2017/4/14.\n+ */\n+public class Board {\n+    private boolean display[][];\n+    private boolean first[][];\n+    private int firstColor;\n+    private int laterColor;\n+    private int countPieces;\n+    private int col;\n+    private int row;\n+    private boolean gameover;\n+    private boolean win;\n+    public Board(int r,int c){\n+        row = r;\n+        col = c;\n+        firstColor = Color.BLACK;\n+        laterColor = Color.WHITE;\n+        countPieces = 0;\n+        gameover = false;\n+        display = new boolean[row][col];\n+        first = new boolean[row][col];\n+        for(int i=0;i<row;i++){\n+            for(int j=0;j<col;j++){\n+                display[i][j] = false;\n+            }\n+        }\n+    }\n+    public Board(){\n+        row = 10;\n+        col = 12;\n+        firstColor = Color.BLACK;\n+        laterColor = Color.WHITE;\n+        countPieces = 0;\n+        gameover = false;\n+        display = new boolean[row][col];\n+        first = new boolean[row][col];\n+        for(int i=0;i<row;i++){\n+            for(int j=0;j<col;j++){\n+                display[i][j] = false;\n+            }\n+        }\n+    }\n+    public boolean putPiece(boolean first,int r,int c){\n+        if(gameover)return false;\n+        if(!isEmpty(r,c))return false;\n+        this.first[r][c] = first;\n+        display[r][c] = true;\n+        checkWin(first,r,c);\n+        return true;\n+    }\n+    public void clearPieces(){\n+        for(int i=0;i<row;i++){\n+            for(int j=0;j<col;j++){\n+                display[i][j] = false;\n+            }\n+        }\n+    }\n+    public boolean isEmpty(int r,int c){\n+        if(display[r][c])return false;\n+        return true;\n+    }\n+    public boolean checkWin(boolean first,int x,int y){\n+        int i;\n+        int link[] = new int[8];\n+        boolean stop[] = new boolean[8];\n+        for(i=0;i<8;i++){\n+            link[i]=0;\n+            stop[i]=false;\n+        }\n+        for(i=1;i<5;i++){\n+            if(y-i>=0) {\n+                if (display[x][y - i] == true && this.first[x][y - i] == first) {\n+                    if (!stop[0]) link[0]++;\n+                } else stop[0] = true;\n+            }\n+            if(x+i<row && y-i>=0) {\n+                if (display[x + i][y - i] == true && this.first[x + i][y - i] == first) {\n+                    if (!stop[1]) link[1]++;\n+                } else stop[1] = true;\n+            }\n+            if(x+i<row) {\n+                if (display[x + i][y] == true && this.first[x + i][y] == first) {\n+                    if (!stop[2]) link[2]++;\n+                } else stop[2] = true;\n+            }\n+            if(x+i<row && y+i<col) {\n+                if (display[x + i][y + i] == true && this.first[x + i][y + i] == first) {\n+                    if (!stop[3]) link[3]++;\n+                } else stop[3] = true;\n+            }\n+            if(y+i<col) {\n+                if (display[x][y + i] == true && this.first[x][y + i] == first) {\n+                    if (!stop[4]) link[4]++;\n+                } else stop[4] = true;\n+            }\n+            if(x-i>=0 && y+i<col) {\n+                if (display[x - i][y + i] == true && this.first[x - i][y + i] == first) {\n+                    if (!stop[5]) link[5]++;\n+                } else stop[5] = true;\n+            }\n+            if(x-i>=0) {\n+                if (display[x - i][y] == true && this.first[x - i][y] == first) {\n+                    if (!stop[6]) link[6]++;\n+                } else stop[6] = true;\n+            }\n+            if(x-i>=0 && y-i>=0) {\n+                if (display[x - i][y - i] == true && this.first[x - i][y - i] == first) {\n+                    if (!stop[7]) link[7]++;\n+                } else stop[7] = true;\n+            }\n+        }\n+        for(i=0;i<4;i++){\n+            if(link[i]+link[i+4]+1>=5){\n+                gameover = true;\n+                win = first;\n+                return true;\n+            }\n+        }\n+        return false;\n+    }\n+    public boolean[][] getDisplay(){\n+        return display;\n+    }\n+    public boolean[][] getFirst(){\n+        return first;\n+    }\n+    public int getFirstColor(){\n+        return firstColor;\n+    }\n+    public int getLaterColor(){\n+        return laterColor;\n+    }\n+    public int getCountPieces(){\n+        return countPieces;\n+    }\n+    public int getRow(){\n+        return row;\n+    }\n+    public int getCol(){\n+        return col;\n+    }\n+    public boolean isGameover(){return gameover;}\n+    public boolean isFirstWin(){return win;}\n+}"
+  }, {
+    "sha" : "8b1e5acfd4d876a51e99d8cd19e7c45c9439bc60",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/BoardPrecenter.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 7,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5a9f41741642e79df37d485e33833c8489646ccf/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/BoardPrecenter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5a9f41741642e79df37d485e33833c8489646ccf/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/BoardPrecenter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/BoardPrecenter.java?ref=5a9f41741642e79df37d485e33833c8489646ccf",
+    "patch" : "@@ -1,7 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n-\n-/**\n- * Created by zzh on 2017/4/14.\n- */\n-public class BoardPrecenter {\n-}"
+  }, {
+    "sha" : "12f74558856c75a4479da9ad89ab77e2152df3d9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessBoard.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 49,
+    "changes" : 49,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5a9f41741642e79df37d485e33833c8489646ccf/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessBoard.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5a9f41741642e79df37d485e33833c8489646ccf/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessBoard.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessBoard.java?ref=5a9f41741642e79df37d485e33833c8489646ccf",
+    "patch" : "@@ -1,49 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n-\n-import android.content.Context;\n-import android.graphics.Canvas;\n-import android.graphics.Color;\n-import android.graphics.Paint;\n-import android.graphics.Point;\n-import android.graphics.Rect;\n-import android.util.AttributeSet;\n-import android.view.View;\n-\n-/**\n- * Created by zzh on 2017/4/15.\n- */\n-public class ChessBoard extends View {\n-    protected float boardSX;\n-    protected float boardSY;\n-    protected float boardEX;\n-    protected float boardEY;\n-    protected float grapX;\n-    protected float grapY;\n-    protected int countX;\n-    protected int countY;\n-    public ChessBoard(Context context, AttributeSet attrs){\n-        super(context,attrs);\n-        boardSX=20;boardSY=260;\n-        boardEX=420;boardEY=660;\n-        countX=10;countY=10;\n-        grapX=(boardEX-boardSX)/countX;\n-        grapY=(boardEY-boardSY)/countY;\n-    }\n-\n-    @Override\n-    protected void onDraw(Canvas canvas){\n-        super.onDraw(canvas);\n-        Paint paint=new Paint();\n-        paint.setColor(Color.rgb(150,200,0));\n-        paint.setShadowLayer(2,3,3,Color.BLACK);\n-        Rect RectBoard=new Rect(0,0,448,687);\n-        canvas.drawRect(RectBoard,paint);\n-        paint.setColor(Color.BLACK);\n-         for(int i=0;i<=countX;i++){\n-            canvas.drawLine(boardSX+grapX*i,boardSY,boardSX+grapX*i,boardEY,paint);\n-        }\n-        for(int j=0;j<=countY;j++){\n-            canvas.drawLine(boardSX,boardSY+grapY*j,boardEX,boardSY+grapY*j,paint);\n-        }\n-    }\n-}"
+  }, {
+    "sha" : "593da881fbe11d55f225bd1fb2fbdeb6cddff4a3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java",
+    "status" : "added",
+    "additions" : 185,
+    "deletions" : 0,
+    "changes" : 185,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java?ref=e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+    "patch" : "@@ -0,0 +1,185 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n+\n+import android.app.Activity;\n+import android.content.Context;\n+import android.graphics.Canvas;\n+import android.graphics.Color;\n+import android.graphics.Paint;\n+import android.graphics.Point;\n+import android.graphics.PointF;\n+import android.graphics.Rect;\n+import android.util.AttributeSet;\n+import android.util.DisplayMetrics;\n+import android.view.MotionEvent;\n+import android.view.View;\n+import android.widget.Toast;\n+\n+import java.util.ArrayList;\n+\n+import static android.widget.Toast.*;\n+\n+/**\n+ * Created by zzh on 2017/4/15.\n+ */\n+public class ChessView extends View {\n+    //protected Canvas myCanvas;\n+    protected Paint myPaint;\n+    protected int width;\n+    protected int height;\n+    protected float boardSX;\n+    protected float boardSY;\n+    protected float boardEX;\n+    protected float boardEY;\n+    protected float grapX;\n+    protected float grapY;\n+    protected float chessRadeus;\n+    protected Net1414080903218BoardActivity controller;\n+    private int n;\n+/*    Paint paint;\n+    private ArrayList<PointF> graphics = new ArrayList<PointF>();\n+    PointF point;*/\n+    public ChessView(Context context, AttributeSet attrs){\n+        super(context,attrs);\n+        if (context instanceof Net1414080903218BoardActivity)\n+        {\n+            controller = (Net1414080903218BoardActivity)context;\n+        }\n+/*        paint = new Paint(); //设置一个笔刷大小是3的黄色的画笔\n+        paint.setColor(Color.YELLOW);\n+        paint.setStrokeJoin(Paint.Join.ROUND);\n+        paint.setStrokeCap(Paint.Cap.ROUND);\n+        paint.setStrokeWidth(30);*/\n+    }\n+\n+    @Override\n+    protected void onDraw(Canvas canvas){\n+        //for (PointF point : graphics) {\n+        //    canvas.drawPoint(point.x, point.y, paint);\n+        //}\n+        //Toast.makeText(getContext(),Integer.valueOf(width)+\",\"+Integer.valueOf(height),Toast.LENGTH_SHORT).show();\n+       //super.onDraw(canvas);\n+        myPaint=new Paint();\n+        myPaint.setColor(Color.rgb(150,200,0));\n+        myPaint.setShadowLayer(2,3,3,Color.BLACK);\n+        Rect RectBoard=new Rect(0,0,width,height);\n+        canvas.drawRect(RectBoard,myPaint);\n+        myPaint.setColor(Color.BLACK);\n+        for(int i=0;i<controller.board.getRow();i++){\n+            canvas.drawLine(boardSX+grapX*i,boardSY,boardSX+grapX*i,boardEY,myPaint);\n+        }\n+        for(int j=0;j<controller.board.getCol();j++){\n+            canvas.drawLine(boardSX,boardSY+grapY*j,boardEX,boardSY+grapY*j,myPaint);\n+        }\n+        int oldColor;\n+        for(int i=0;i<controller.board.getRow();i++){\n+            for(int j=0;j<controller.board.getCol();j++){\n+                if(controller.board.getDisplay()[i][j]){\n+                    oldColor = myPaint.getColor();\n+                    if(controller.board.getFirst()[i][j]) {\n+                        myPaint.setColor(controller.board.getFirstColor());\n+                    }\n+                    else{\n+                        myPaint.setColor(controller.board.getLaterColor());\n+                    }\n+                    canvas.drawCircle(boardSX+grapX*i,boardSY+grapY*j,chessRadeus,myPaint);\n+                    myPaint.setColor(oldColor);\n+                }\n+            }\n+        }\n+//        myCanvas=canvas;\n+        //drawChess(1,1,Color.BLACK);\n+/*        this.setOnTouchListener(new OnTouchListener() {\n+            @Override\n+            public boolean onTouch(View v, MotionEvent event) {\n+               try {\n+                    float x = event.getX();\n+                    float y = event.getY();\n+                    if (x + grapX / 2 > boardSX && x - grapX / 2 < boardEX\n+                            && y + grapY / 2 > boardSY && y - grapY / 2 < boardEY) {\n+                        int row = (int) ((x - boardSX + grapY / 2) / grapX);\n+                        int col = (int) ((y - boardSY + grapX / 2) / grapY);\n+                        Toast.makeText(getContext(), String.valueOf(row) + \"  \" + String.valueOf(col), Toast.LENGTH_SHORT).show();\n+                        drawChess(row, col, Color.BLACK);\n+                    }\n+               }catch (Exception e){\n+\n+               }\n+                //return true;\n+               return false;\n+            }\n+        });*/\n+ /*       try {\n+            float x = event.getX();\n+            float y = event.getY();\n+            //ChessBoard chessBoard=(ChessBoard) findViewById(R.id.ChessBosrd);\n+            if (x + grapX / 2 > boardSX && x - grapX / 2 < boardEX\n+                    && y + grapY / 2 > boardSY && y - grapY / 2 < boardEY) {\n+                int row = (int) ((x - boardSX + grapY / 2) / grapX);\n+                int col = (int) ((y - boardSY + grapX / 2) / grapY);\n+                Toast.makeText(getContext(), String.valueOf(row) + \"  \" + String.valueOf(col), Toast.LENGTH_SHORT).show();\n+                drawChess(row, col, Color.BLACK);\n+            }\n+         }catch (Exception e){\n+\n+            }\n+            return true;*/\n+    }\n+    @Override\n+    public boolean onTouchEvent(MotionEvent event) {\n+\n+        //graphics.add(new PointF(event.getX(),event.getY()));\n+        if(event.getAction() == MotionEvent.ACTION_UP) {\n+            try {\n+                float x = event.getX();\n+                float y = event.getY();\n+                if (x + grapX / 2 > boardSX && x - grapX / 2 < boardEX\n+                        && y + grapY / 2 > boardSY && y - grapY / 2 < boardEY) {\n+                    int row = (int) ((x - boardSX + grapY / 2) / grapX);\n+                    int col = (int) ((y - boardSY + grapX / 2) / grapY);\n+                    n++;\n+                    if(controller.firstPlayer.putPiece(row, col)) {\n+                        controller.laterPlayer.putPiece();\n+                    }\n+                    if(controller.board.isGameover()){\n+                        if(controller.board.isFirstWin()){\n+                            Toast.makeText(this.getContext(),\"黑方胜利！\", Toast.LENGTH_SHORT).show();\n+                        }else {\n+                            Toast.makeText(this.getContext(),\"白方胜利！\", Toast.LENGTH_SHORT).show();\n+                        }\n+\n+                    }\n+                }\n+            } catch (Exception e) {\n+            }\n+            //controller.laterPlayer.putPiece();\n+            //controller.laterPut();\n+            invalidate(); //重新绘制区域\n+        }\n+        return true;\n+    }\n+    public boolean start(int r,int c){\n+        //DisplayMetrics metric = new DisplayMetrics();\n+        DisplayMetrics metric = getResources().getDisplayMetrics();\n+        //getWindowManager().getDefaultDisplay().getMetrics(metric);\n+        width = metric.widthPixels-50;  // 屏幕宽度（像素）\n+        height = metric.heightPixels-220;  // 屏幕高度（像素）\n+        //float density = metric.density;  // 屏幕密度（0.75 / 1.0 / 1.5）\n+        //int densityDpi = metric.densityDpi;  // 屏幕密度DPI（120 / 160 / 240\n+        //countX=10;countY=15;\n+        grapX = width/(controller.board.getRow()+1);\n+        grapY = grapX;\n+        boardSX = grapX;\n+        boardEX = boardSX + grapX*(controller.board.getRow()-1);\n+        boardEY = height - grapY;\n+        boardSY = boardEY - grapY*(controller.board.getCol()-1);\n+        //boardSX=20;boardSY=260;\n+        //boardEX=420;boardEY=660;\n+        //grapX=(boardEX-boardSX)/countX;\n+        //grapY=(boardEY-boardSY)/countY;\n+        chessRadeus=(grapX<grapY?grapX:grapY)/3;\n+        //controller.laterPut();\n+        //activity.board.\n+        invalidate();\n+        return true;\n+    }\n+}"
+  }, {
+    "sha" : "d2d52024fabcfdfee8351c1d2c57b6091814f9fe",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java",
+    "status" : "modified",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java?ref=e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+    "patch" : "@@ -1,13 +1,52 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n \n+import android.graphics.Canvas;\n+import android.graphics.Color;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.util.DisplayMetrics;\n+import android.view.MotionEvent;\n+import android.widget.Toast;\n \n public class Net1414080903218BoardActivity extends AppCompatActivity {\n+    public Board board;\n+    public Player firstPlayer;\n+    public AutoPlayer laterPlayer;\n+    private ChessView view;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903218_board);\n+        start();\n+        //Canvas myCanvas = new Canvas();\n+        /*DisplayMetrics metric = new DisplayMetrics();\n+        getWindowManager().getDefaultDisplay().getMetrics(metric);\n+        int width = metric.widthPixels;  // 屏幕宽度（像素）\n+        int height = metric.heightPixels;  // 屏幕高度（像素）\n+        float density = metric.density;  // 屏幕密度（0.75 / 1.0 / 1.5）\n+        int densityDpi = metric.densityDpi;  // 屏幕密度DPI（120 / 160 / 240\n+    */    //Toast.makeText(this,Integer.valueOf(width)+\",\"+Integer.valueOf(height),Toast.LENGTH_SHORT).show();\n     }\n+    public void start(){\n+        board = new Board();\n+        firstPlayer = new Player(true,board);\n+        laterPlayer = new AutoPlayer(false,board);\n+        view = (ChessView)findViewById(R.id.ChessView);\n+        view.start(board.getRow(),board.getCol());\n+    }\n+/*    @Override\n+    public boolean onTouchEvent(MotionEvent event){\n+        float x=event.getX();\n+        float y=event.getY();\n+        ChessBoard chessBoard=(ChessBoard) findViewById(R.id.ChessBosrd);\n+        if(x+chessBoard.grapX/2>chessBoard.boardSX && x-chessBoard.grapX/2<chessBoard.boardEX\n+                && y+chessBoard.grapY/2>chessBoard.boardSY && y-chessBoard.grapY/2<chessBoard.boardEY){\n+            int row=(int)((x-chessBoard.boardSX+chessBoard.grapY/2)/chessBoard.grapX);\n+            int col=(int)((y-chessBoard.boardSY+chessBoard.grapX/2)/chessBoard.grapY);\n+            Toast.makeText(chessBoard.getContext(),String.valueOf(row)+\"  \"+String.valueOf(col),Toast.LENGTH_SHORT).show();\n+            chessBoard.drawChess(row,col,Color.BLACK);\n+        }\n+        return true;\n+    }*/\n }"
+  }, {
+    "sha" : "c54fc966a37d3902358ec3e57ec5cd1d2f1039cf",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Player.java",
+    "status" : "modified",
+    "additions" : 29,
+    "deletions" : 2,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Player.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Player.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Player.java?ref=e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+    "patch" : "@@ -5,6 +5,33 @@\n  */\n public class Player {\n     protected int countPieces;\n-    protected boolean isWin;\n-    protected boolean isFirst;\n+    protected boolean win;\n+    protected boolean first;\n+    public Board board;\n+    public Player(boolean first,Board b){\n+        board = b;\n+        this.first = first;\n+        countPieces = 0;\n+        win = false;\n+    }\n+    public boolean isWin(){\n+        return win;\n+    }\n+    public boolean isFirst() {\n+        return first;\n+    }\n+    public int getCountPieces(){\n+        return countPieces;\n+    }\n+    public boolean putPiece(int r,int c){\n+        if(!board.putPiece(first,r,c)){\n+            if(board.isGameover()){\n+                win = board.isFirstWin();\n+                if(!first)win = !win;\n+            }\n+            return false;\n+        }\n+        countPieces++;\n+        return true;\n+    }\n }"
+  }, {
+    "sha" : "fba747b719e84457fd2c8820ddc4e385922df8df",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/image_net1414080903218_ic.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/res/drawable/image_net1414080903218_ic.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e75c15ae0a9257aa36b1d7a5db4228acf641edf0/AndroidLabs/app/src/main/res/drawable/image_net1414080903218_ic.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/image_net1414080903218_ic.png?ref=e75c15ae0a9257aa36b1d7a5db4228acf641edf0"
+  } ],
+  "sha" : "e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e75c15ae0a9257aa36b1d7a5db4228acf641edf0",
+  "parents" : [ {
+    "sha" : "5a9f41741642e79df37d485e33833c8489646ccf",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5a9f41741642e79df37d485e33833c8489646ccf",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5a9f41741642e79df37d485e33833c8489646ccf"
+  } ]
+}

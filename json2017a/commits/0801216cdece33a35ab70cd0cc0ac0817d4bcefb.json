@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 4,
+    "additions" : 4,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-26T01:53:25Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-26T01:53:25Z"
+    },
+    "message" : "#6 #15 第六次实验",
+    "tree" : {
+      "sha" : "e73d501f15f7794f1ba8e7627ff13318bfb0a03d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e73d501f15f7794f1ba8e7627ff13318bfb0a03d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0801216cdece33a35ab70cd0cc0ac0817d4bcefb/comments",
+  "files" : [ {
+    "sha" : "e6a22e0759f4d3259703fe2f4f3513cb639db277",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/data.xml",
+    "status" : "added",
+    "additions" : 4,
+    "deletions" : 0,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0801216cdece33a35ab70cd0cc0ac0817d4bcefb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/data.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0801216cdece33a35ab70cd0cc0ac0817d4bcefb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/data.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/data.xml?ref=0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+    "patch" : "@@ -0,0 +1,4 @@\n+\t<context>\n+        <param-name>first</param-name>\n+        <param-value>Hello World</param-value>\n+    </context>\n\\ No newline at end of file"
+  } ],
+  "sha" : "0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+  "parents" : [ {
+    "sha" : "95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/95c1a2246fef1e0435ba49a2c88db3c5e169faed"
+  } ]
+}

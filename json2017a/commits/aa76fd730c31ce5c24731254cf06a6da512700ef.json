@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 107,
+    "additions" : 100,
+    "deletions" : 7
+  },
+  "author" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/aa76fd730c31ce5c24731254cf06a6da512700ef",
+  "commit" : {
+    "author" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-06-02T15:39:23Z"
+    },
+    "committer" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-06-02T15:39:23Z"
+    },
+    "message" : "#5 #63 第五次作业",
+    "tree" : {
+      "sha" : "f684f47f8025030a4073a3a1eb3899409926930a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f684f47f8025030a4073a3a1eb3899409926930a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aa76fd730c31ce5c24731254cf06a6da512700ef/comments",
+  "files" : [ {
+    "sha" : "a2cc25fa3e118fbe82fc7b362147779eac51b290",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java",
+    "status" : "added",
+    "additions" : 23,
+    "deletions" : 0,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java?ref=aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "patch" : "@@ -0,0 +1,23 @@\n+//操作数据库时存放数据的类\n+package edu.hzuapps.androidlabs.homeworks.net1414080903224;\n+\n+public class N1414080903224Address {\n+    private Long id;\n+    private  String url;\n+    public Long getId(){\n+        return id;\n+    }\n+    public void setId(Long id){\n+        this.id=id;\n+    }\n+    public  String getUrl(){\n+        return url;\n+    }\n+    public void setUrl(String url){\n+        this.url=url;\n+    }\n+    public N1414080903224Address(String url){\n+        super();\n+        this.url=url;\n+    }\n+}"
+  }, {
+    "sha" : "0d1ec17b2e4b5dcc4a137ee4e798345f694c7bd2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java",
+    "status" : "added",
+    "additions" : 29,
+    "deletions" : 0,
+    "changes" : 29,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java?ref=aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "patch" : "@@ -0,0 +1,29 @@\n+//数据逻辑操作类\n+package edu.hzuapps.androidlabs.homeworks.net1414080903224;\n+\n+import android.content.ContentValues;\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+/**\n+ * Created by peng on 2017/6/1.\n+ */\n+public class N1414080903224Dao {\n+    private N1414080903224MyHelper helper;\n+    public N1414080903224Dao(Context context){\n+        helper=new N1414080903224MyHelper(context);\n+    }\n+    //插入数据方法\n+    public  void insert(N1414080903224Address address){\n+        SQLiteDatabase db=helper.getWritableDatabase(); //获取数据库对象\n+        ContentValues values=new ContentValues();\n+        values.put(\"url\",address.getUrl());\n+        long id =db.insert(\"address\",null,values); // 插入数据到 address 数据表里\n+        db.close();\n+    }\n+\n+}"
+  }, {
+    "sha" : "0a410bc95b0524c4046af5e976e2960fded978ce",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java",
+    "status" : "added",
+    "additions" : 23,
+    "deletions" : 0,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java?ref=aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "patch" : "@@ -0,0 +1,23 @@\n+//创建数据库的类\n+package edu.hzuapps.androidlabs.homeworks.net1414080903224;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+import android.provider.Settings;\n+\n+/**\n+ * Created by peng on 2017/6/1.\n+ */\n+public class N1414080903224MyHelper  extends SQLiteOpenHelper{\n+    public  N1414080903224MyHelper(Context context){\n+        super (context,\"item.db\",null,2);  // 创建数据库，数据库名为 item\n+    }\n+    public void onCreate(SQLiteDatabase db){\n+        System.out.println(\"onCreate\");\n+        db.execSQL(\"CREATE TABLE address(_id INTEGER KEY AUTOINCREMENT , url Varchar(20))\") ; //创建address 数据表，字段名为 id,url\n+    }\n+    public  void onUpgrade(SQLiteDatabase db,int oldVersion,int newVersion){\n+        System.out.println(\"onUpgrade\");\n+    }\n+}"
+  }, {
+    "sha" : "be944a2ea6b6cf87a9e8ecf9527dc99618d35e1e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java",
+    "status" : "modified",
+    "additions" : 24,
+    "deletions" : 7,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java?ref=aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "patch" : "@@ -1,31 +1,48 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903224;\n \n+import android.content.Context;\n import android.content.Intent;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n-\n+import android.widget.EditText;\n+import android.widget.ListView;\n+import java.io.FileOutputStream;\n public class Net1414080903224Internet extends AppCompatActivity {\n     private Button b_history;\n+    private Button b_search;\n+    private EditText e_input;\n+    private  N1414080903224Dao dao;  //数据库操作类\n+\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903224_internet);\n+        e_input=(EditText) findViewById(R.id.e_input);\n         b_history = (Button) findViewById(R.id.button1);\n+        b_search = (Button) findViewById(R.id.button);\n+        b_history.setOnClickListener(new ButtonListener());\n+        b_search.setOnClickListener(new ButtonListener());\n+        dao=new N1414080903224Dao(this);\n     }\n-        public  void onClick (View v) {\n-            switch ( v.getId()){\n+\n+    private class ButtonListener implements View.OnClickListener {\n+        public void onClick(View v) {\n+            switch (v.getId()) {\n                 case R.id.button1:\n-                    Intent intent = new Intent(this,N1414080903224history.class);\n+                    Intent intent = new Intent(Net1414080903224Internet.this, N1414080903224history.class);\n                     startActivity(intent);\n                     break;\n             }\n-            switch ( v.getId()){\n+            switch (v.getId()) {\n                 case R.id.button:\n-                    Intent intent = new Intent(this,N1414080903224page.class);\n+                    Intent intent = new Intent(Net1414080903224Internet.this, N1414080903224page.class);\n                     startActivity(intent);\n+                    String url=e_input.getText().toString().trim(); //获取用户输入的信息\n+                    N1414080903224Address a=new N1414080903224Address(url);\n+                    dao.insert(a);  //插入数据库\n                     break;\n             }\n         }\n     }\n-\n+}"
+  }, {
+    "sha" : "18b56f223e53746c6714b5e1aa21ba10bf6176fa",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/aa76fd730c31ce5c24731254cf06a6da512700ef/AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml?ref=aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "patch" : "@@ -25,6 +25,7 @@\n             android:paddingRight=\"5dp\"\n             android:text=\"网址：\" />\n         <EditText\n+            android:id=\"@+id/e_input\"\n             android:layout_width=\"match_parent\"\n             android:layout_height=\"wrap_content\"\n             android:hint=\"请输入网址 \""
+  } ],
+  "sha" : "aa76fd730c31ce5c24731254cf06a6da512700ef",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aa76fd730c31ce5c24731254cf06a6da512700ef",
+  "parents" : [ {
+    "sha" : "c49fadfc6d3503b76cc0f77384383071b1d56ad4",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c49fadfc6d3503b76cc0f77384383071b1d56ad4",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c49fadfc6d3503b76cc0f77384383071b1d56ad4"
+  } ]
+}

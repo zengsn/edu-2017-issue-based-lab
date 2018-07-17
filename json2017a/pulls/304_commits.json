@@ -1,0 +1,202 @@
+[ {
+  "sha" : "94ba6383b54442c7184d9435c4cb68d06eac8029",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T11:10:41Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T11:10:41Z"
+    },
+    "message" : "#4 #15 第四次实验",
+    "tree" : {
+      "sha" : "b3036e2f62110276406b087b8b367a9d9e0aa3b2",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b3036e2f62110276406b087b8b367a9d9e0aa3b2"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/94ba6383b54442c7184d9435c4cb68d06eac8029",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/94ba6383b54442c7184d9435c4cb68d06eac8029",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/94ba6383b54442c7184d9435c4cb68d06eac8029",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/94ba6383b54442c7184d9435c4cb68d06eac8029/comments",
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "026396d7edc4af7edb05f90345dd6f4dbf8505f3",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/026396d7edc4af7edb05f90345dd6f4dbf8505f3",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/026396d7edc4af7edb05f90345dd6f4dbf8505f3"
+  } ]
+}, {
+  "sha" : "ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T12:21:38Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T12:21:38Z"
+    },
+    "message" : "#4 #15 第四次实验",
+    "tree" : {
+      "sha" : "f936afd294df0db71f05bcea20d32ea32bdb9078",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f936afd294df0db71f05bcea20d32ea32bdb9078"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246/comments",
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "94ba6383b54442c7184d9435c4cb68d06eac8029",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/94ba6383b54442c7184d9435c4cb68d06eac8029",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/94ba6383b54442c7184d9435c4cb68d06eac8029"
+  } ]
+}, {
+  "sha" : "8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T12:23:29Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T12:23:29Z"
+    },
+    "message" : "#4 #15 第四次实验",
+    "tree" : {
+      "sha" : "f9a3b472382dd62e234af7e88076d32c6cf9be1c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f9a3b472382dd62e234af7e88076d32c6cf9be1c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2/comments",
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ee9dac189a49baf0306fc6c7d92f4802dc9c5246"
+  } ]
+} ]

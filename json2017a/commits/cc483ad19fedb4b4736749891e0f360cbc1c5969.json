@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 40,
+    "additions" : 37,
+    "deletions" : 3
+  },
+  "author" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cc483ad19fedb4b4736749891e0f360cbc1c5969",
+  "commit" : {
+    "author" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-06-02T06:53:17Z"
+    },
+    "committer" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-06-02T06:53:17Z"
+    },
+    "message" : "#5 #39 第五次作业",
+    "tree" : {
+      "sha" : "ba5d14dbe14820f165e73fe7af184b4033cbc88d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ba5d14dbe14820f165e73fe7af184b4033cbc88d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cc483ad19fedb4b4736749891e0f360cbc1c5969/comments",
+  "files" : [ {
+    "sha" : "4c67f690b6fede8ce9371962d5d8c3fb997c85f9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java",
+    "status" : "modified",
+    "additions" : 5,
+    "deletions" : 1,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cc483ad19fedb4b4736749891e0f360cbc1c5969/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cc483ad19fedb4b4736749891e0f360cbc1c5969/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java?ref=cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "patch" : "@@ -1,13 +1,13 @@\n package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n \n+import android.content.ContentValues;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n import android.widget.EditText;\n import android.widget.Toast;\n \n-import com.example.administrator.luyoucong.R;\n \n public class Net1409081602222ApplyBudgetActivity extends AppCompatActivity {\n \n@@ -31,6 +31,10 @@ public void onClick(View v) {\n                     if(budget>100000){\n                         Toast.makeText(Net1409081602222ApplyBudgetActivity.this,\"数值过大，请亲自与经理汇报！！\",Toast.LENGTH_LONG).show();\n                     }else{\n+                        Net1409081602222Helper net1409081602222Helper =new Net1409081602222Helper(Net1409081602222ApplyBudgetActivity.this);\n+                        ContentValues values=new ContentValues();\n+                        values.put(\"money\",budget);\n+                        net1409081602222Helper.getWritableDatabase().insert(\"budget\",null,values);\n                         Toast.makeText(Net1409081602222ApplyBudgetActivity.this,\"申请成功，请等待审核！！\",Toast.LENGTH_SHORT).show();\n                         finish();\n                     }"
+  }, {
+    "sha" : "ee7f569e041895f5ac0b75c08ea87ecc327fa721",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java",
+    "status" : "modified",
+    "additions" : 6,
+    "deletions" : 2,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cc483ad19fedb4b4736749891e0f360cbc1c5969/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cc483ad19fedb4b4736749891e0f360cbc1c5969/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java?ref=cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "patch" : "@@ -1,14 +1,13 @@\n package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n \n+import android.content.ContentValues;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n import android.widget.EditText;\n import android.widget.Toast;\n \n-import com.example.administrator.luyoucong.R;\n-\n public class Net1409081602222ApplyCertificateActivity extends AppCompatActivity {\n \n     EditText etName;\n@@ -33,6 +32,11 @@ public void onClick(View v) {\n                 String time=etTime.getText().toString();\n \n                 if(check(name)){\n+                    Net1409081602222Helper net1409081602222Helper =new Net1409081602222Helper(Net1409081602222ApplyCertificateActivity.this);\n+                    ContentValues values=new ContentValues();\n+                    values.put(\"name\",name);\n+                    values.put(\"apply_time\",time);\n+                    net1409081602222Helper.getWritableDatabase().insert(\"certificate\",null,values);\n                     Toast.makeText(Net1409081602222ApplyCertificateActivity.this,\"申请成功，请等待审核！！\",Toast.LENGTH_SHORT).show();\n                     finish();\n                 }else{"
+  }, {
+    "sha" : "8ef63cf34372677f3bf01754f4af30f94591a7d9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222Helper.java",
+    "status" : "added",
+    "additions" : 26,
+    "deletions" : 0,
+    "changes" : 26,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cc483ad19fedb4b4736749891e0f360cbc1c5969/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222Helper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cc483ad19fedb4b4736749891e0f360cbc1c5969/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222Helper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222Helper.java?ref=cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "patch" : "@@ -0,0 +1,26 @@\n+package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Administrator on 2017/6/2.\n+ */\n+\n+public class Net1409081602222Helper extends SQLiteOpenHelper {\n+    public Net1409081602222Helper(Context context) {\n+        super(context, \"record\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(\"create table certificate(name varchar(255),apply_time varchar(20));\");\n+        db.execSQL(\"create table budget(money varchar(255));\");\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  } ],
+  "sha" : "cc483ad19fedb4b4736749891e0f360cbc1c5969",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cc483ad19fedb4b4736749891e0f360cbc1c5969",
+  "parents" : [ {
+    "sha" : "8eaff1bf321bbe70a140d56575314bf552262ef3",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8eaff1bf321bbe70a140d56575314bf552262ef3",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8eaff1bf321bbe70a140d56575314bf552262ef3"
+  } ]
+}

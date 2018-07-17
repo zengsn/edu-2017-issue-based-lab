@@ -1,0 +1,151 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 240,
+    "additions" : 219,
+    "deletions" : 21
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-06-02T16:06:23Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-06-02T16:06:23Z"
+    },
+    "message" : "#6 #30 第六次实验",
+    "tree" : {
+      "sha" : "b9c71bd6345457adbf0e0ad1a5372f71d6435b78",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b9c71bd6345457adbf0e0ad1a5372f71d6435b78"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/comments",
+  "files" : [ {
+    "sha" : "0405660dca0c5bb49bab4b77554326864df1bb66",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -28,7 +28,7 @@ public void onClick(View v) {\n         btn_send2.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-                Intent intent1 = new Intent(Net1414080903240Activity.this,Net1414080903240_OrderRecord.class);\n+                Intent intent1 = new Intent(Net1414080903240Activity.this,Net1414080903240_chose.class);\n                 startActivity(intent1);\n             }\n         });"
+  }, {
+    "sha" : "51758f1339305411565e87ad5fc49a6cef08593c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java",
+    "status" : "modified",
+    "additions" : 31,
+    "deletions" : 2,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -1,13 +1,42 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n \n+import android.content.SharedPreferences;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.ArrayAdapter;\n+import android.widget.BaseAdapter;\n+import android.widget.ListView;\n+import android.widget.SimpleAdapter;\n+import android.widget.TextView;\n+\n+import java.util.ArrayList;\n+import java.util.HashMap;\n+import java.util.List;\n \n-public class Net1414080903240_AccountDetail extends AppCompatActivity {\n \n+public class Net1414080903240_AccountDetail extends AppCompatActivity {\n+    private ListView mListView;\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.accountdetail_1414080903240);\n+        SharedPreferences sp=getSharedPreferences(\"zhangmu\",MODE_PRIVATE);\n+        int sum0=sp.getInt(\"count\",0);\n+        ListView lv = (ListView) findViewById(R.id.lv);\n+        ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String,Object>>();\n+        for(int i=1;i<=sum0;i++)\n+        {\n+            String a=sp.getString(\"countnum\"+i,\"0\");\n+            String b=sp.getString(\"countclass\"+i,\"null\");\n+            HashMap<String, Object> map = new HashMap<String, Object>();\n+            map.put(\"tt_value\",a);\n+            map.put(\"project_value\",b);\n+            listItem.add(map);\n+        }\n+        SimpleAdapter mSimpleAdapter = new SimpleAdapter(this,listItem,R.layout.list_item, new String[] {\"tt_value\", \"project_value\"},new int[]{R.id.tt_value,R.id.project_value});\n+        lv.setAdapter(mSimpleAdapter);\n     }\n-}\n+\n+    }\n\\ No newline at end of file"
+  }, {
+    "sha" : "8b4cb1df380deca034a19ac9ccbb59655aae15df",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 2,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -55,12 +55,19 @@ public void onClick(View v) {\n                     int a = Integer.parseInt(str);\n                     int value=sp.getInt(str2,0);\n                     int value2=sp.getInt(\"sum\",0);\n+                    int count=sp.getInt(\"count\",0);\n+                    int count2=count+1;\n+                    String countnum=\"countnum\"+count2;\n+                    String countclass=\"countclass\"+count2;\n                     int sum=a+value2;\n                     int addvalue=a+value;\n                     al.putInt(\"sum\",sum);\n                     al.putInt(str2,addvalue);\n-                    //al.putInt(\"food\",0);\n-                    //al.putInt(\"sum\",0);\n+                    al.putInt(\"count\",count+1);\n+                    al.putString(countnum,str);\n+                    al.putString(countclass,str2);\n+                    //al.putInt(\"count\",0);\n+\n                     al.commit();\n                 intent.putExtra(\"value\",str);\n                 intent.putExtra(\"spinner1\",spinner1.getSelectedItem().toString().trim());"
+  }, {
+    "sha" : "323c8d24928c1fb86c7772eadbb62382f6b62742",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OldAccount.java",
+    "status" : "added",
+    "additions" : 135,
+    "deletions" : 0,
+    "changes" : 135,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OldAccount.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OldAccount.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OldAccount.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -0,0 +1,135 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n+\n+import android.content.SharedPreferences;\n+import android.content.pm.ProviderInfo;\n+import android.graphics.Bitmap;\n+import android.graphics.BitmapFactory;\n+import android.os.Message;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import android.os.Handler;\n+import android.util.Xml;\n+import android.widget.ListView;\n+import android.widget.SimpleAdapter;\n+\n+import org.xmlpull.v1.XmlPullParser;\n+\n+import java.io.InputStream;\n+import java.net.HttpURLConnection;\n+import java.net.URL;\n+import java.util.ArrayList;\n+import java.util.HashMap;\n+import java.util.List;\n+\n+import java.util.logging.LogRecord;\n+\n+public class Net1414080903240_OldAccount extends AppCompatActivity {\n+    private ListView mListView;\n+    private String path=\"https://raw.githubusercontent.com/mokulai/android-labs-2017/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/detailvalues.xml\";\n+    Handler mHandler=new Handler(){\n+        public void handleMessage(Message msg) {\n+            if(msg.what==1){\n+                try {\n+                    List<order> info=(List<order>) msg.obj;\n+                    initData(info);\n+                }catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+            }else{\n+                try {\n+                    List<order> info=getAccountInfos(getResources().getAssets().open(\"detailvalues.xml\"));\n+                    initData(info);\n+                }catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+            }\n+\n+     }\n+    };\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.old_account);\n+        getXml();\n+    }\n+    protected void initData(List<order> info) {\n+        ListView lv = (ListView) findViewById(R.id.lv);\n+        try {\n+            ArrayList<HashMap<String, Object>> listItem = new ArrayList<HashMap<String,Object>>();\n+            for(order infos:info)\n+            {\n+                HashMap<String, Object> map = new HashMap<String, Object>();\n+                map.put(\"tt_value\",infos.getClassname());\n+                map.put(\"project_value\",infos.getValue());\n+                listItem.add(map);\n+            }\n+            SimpleAdapter mSimpleAdapter = new SimpleAdapter(this,listItem,R.layout.list_item, new String[] {\"tt_value\", \"project_value\"},new int[]{R.id.tt_value,R.id.project_value});\n+            lv.setAdapter(mSimpleAdapter);\n+\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+    }\n+    public static List<order> getAccountInfos( InputStream is) throws Exception {\n+        XmlPullParser parser = Xml.newPullParser();\n+        parser.setInput(is, \"utf-8\");\n+        List<order> infos = null;\n+        order info = null;\n+        int type = parser.getEventType();\n+        while (type != XmlPullParser.END_DOCUMENT) {\n+            switch (type) {\n+                case XmlPullParser.START_TAG:\n+                    if (\"detail\".equals(parser.getName())) {\n+                        infos = new ArrayList<order>();\n+                    } else if (\"account\".equals(parser.getName())) {\n+                        info = new order();\n+                        String id = parser.getAttributeValue(0);\n+                        info.setId(Integer.parseInt(id));\n+                    } else if (\"classname\".equals(parser.getName())) {\n+                        String cla = parser.nextText();\n+                        info.setClassname(cla);\n+                    } else if (\"value\".equals(parser.getName())) {\n+                        String value = parser.nextText();\n+                        info.setValue(value);\n+                    }\n+                    break;\n+                case XmlPullParser.END_TAG:\n+                    if (\"account\".equals(parser.getName())) {\n+                        infos.add(info);\n+                        info = null;\n+                    }\n+                    break;\n+\n+            }\n+            type = parser.next();\n+        }\n+        return infos;\n+    }\n+\n+    public void getXml(){\n+            new Thread(new Runnable() {\n+                private HttpURLConnection conn;\n+                public void run() {\n+                    try {\n+                        URL url=new URL(path);\n+                        conn = (HttpURLConnection) url.openConnection();\n+                        conn.setReadTimeout(5000);\n+                        conn.setRequestMethod(\"GET\");\n+                        if (conn.getResponseCode()==200) {\n+                            InputStream inputStream=conn.getInputStream();\n+                            List<order> listNews=getAccountInfos(inputStream);\n+                            if(listNews.size()>0) {\n+                                Message msg = new Message();\n+                                msg.obj = listNews;\n+                                msg.what = 1;\n+                                mHandler.sendMessage(msg);\n+                            }\n+                        }\n+                    } catch (Exception e) {\n+                        e.printStackTrace();\n+                    }\n+                }\n+            }).start();\n+        }\n+\n+}"
+  }, {
+    "sha" : "fe7c7a6c98c0451cc4aa86f5d5e6edfa229848b2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -39,7 +39,6 @@ protected void onCreate(Bundle savedInstanceState) {\n         float dress_a=(float)dress/sum0*100;\n         float gift_a=(float)gift/sum0*100;\n \n-\n         String sum=String.valueOf(sum0);\n         String cheer_value=String.valueOf(cheer);\n         String food_value=String.valueOf(food);"
+  }, {
+    "sha" : "67063b92ef232a3f62a2cdce867517ef4cde31ac",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_chose.java",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_chose.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_chose.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_chose.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -0,0 +1,36 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+public class Net1414080903240_chose extends AppCompatActivity {\n+\n+    private Button btn_send1;\n+    private Button btn_send2;\n+\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.chose_1414080903240);\n+\n+\n+        btn_send1 = (Button) findViewById(R.id.button1);\n+        btn_send2 = (Button) findViewById(R.id.button2);\n+        btn_send1.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903240_chose.this, Net1414080903240_AccountDetail.class);\n+                startActivity(intent);\n+            }\n+        });\n+\n+        btn_send2.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent1 = new Intent(Net1414080903240_chose.this, Net1414080903240_OldAccount.class);\n+                startActivity(intent1);\n+            }\n+        });\n+    }}"
+  }, {
+    "sha" : "d585e4a440ef31243158c678400e734a1e9f8011",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 15,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java?ref=ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+    "patch" : "@@ -5,25 +5,17 @@\n  */\n \n public class order {\n+    private int id;\n     private String value;\n-    private String data;\n-    private String remark;\n-    private String project;\n+    private String classname;\n \n+    public String getId() { return value;  }\n+    public void setId(int id) { this.id =id;}\n \n-    public void order(String a,String b,String c,String d){\n-        value=a;\n-        data=c;\n-        remark=d;\n-        project=b;\n-    }\n     public String getValue() { return value;  }\n     public void setValue(String a) { this.value =a;}\n-    public String getData() { return data;  }\n-    public void setData(String a) { this.data =a;}\n-    public String getRemark() { return remark;  }\n-    public void setRemark(String a) { this.remark =a;}\n-    public String getProject() { return project;  }\n-    public void setProject(String a) { this.project =a;}\n+    public String getClassname() { return classname;  }\n+    public void setClassname(String a) { this.classname =a;}\n+\n \n }"
+  } ],
+  "sha" : "ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed5f82def88f5ad5e5c6fba219b3ed2d821a50d9",
+  "parents" : [ {
+    "sha" : "2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2092bda83e1e88ff73c7d9ea86664195bfef1da4"
+  } ]
+}

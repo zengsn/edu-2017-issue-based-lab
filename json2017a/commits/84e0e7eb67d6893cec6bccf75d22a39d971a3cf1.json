@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+  "commit" : {
+    "author" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-23T08:02:09Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-23T08:02:09Z"
+    },
+    "message" : "Update db1414080903101_SQLOperateImpl.java",
+    "tree" : {
+      "sha" : "0ec04e819708afe98df8fab7005d71dfcd888b5f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0ec04e819708afe98df8fab7005d71dfcd888b5f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1/comments",
+  "files" : [ {
+    "sha" : "a9e1c732398d2092bba6f10791b32f95f0e03cca",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/db1414080903101_SQLOperateImpl.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/db1414080903101_SQLOperateImpl.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/db1414080903101_SQLOperateImpl.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/db1414080903101_SQLOperateImpl.java?ref=84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+    "patch" : "@@ -1,4 +1,4 @@\n-package com.intelligent_chest.db;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903101;\n \n \n import android.content.Context;"
+  } ],
+  "sha" : "84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/84e0e7eb67d6893cec6bccf75d22a39d971a3cf1",
+  "parents" : [ {
+    "sha" : "0b261fdce1ad5b342d8220713b50d7feececa9bb",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0b261fdce1ad5b342d8220713b50d7feececa9bb",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0b261fdce1ad5b342d8220713b50d7feececa9bb"
+  } ]
+}

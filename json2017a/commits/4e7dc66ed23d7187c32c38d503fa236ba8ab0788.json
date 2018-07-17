@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 66,
+    "additions" : 23,
+    "deletions" : 43
+  },
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T12:47:40Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T12:47:40Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "a7756733930fdd148ec61548b4f87a55106e1c3e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a7756733930fdd148ec61548b4f87a55106e1c3e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/comments",
+  "files" : [ {
+    "sha" : "645dc230dcfa5c05240d3acd3d81633be0c1d468",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest1414080903212.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 1,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/AndroidManifest1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/AndroidManifest1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest1414080903212.xml?ref=4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "patch" : "@@ -1,7 +1,9 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     package=\"edu.hzuapps.androidlabs.homeworks.net1414080903212\">\n-\n+    <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n+    <uses-permission android:name=\"android.permission.INTERNET\" />\n+\t\n     <application\n         android:allowBackup=\"true\"\n         android:icon=\"@mipmap/ic_assignment_on\""
+  }, {
+    "sha" : "52f0478f7cf5b470d3266aa96f9cf981eedde255",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java?ref=4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "patch" : "@@ -85,7 +85,7 @@ public void hideAllFragment(android.app.FragmentTransaction transaction) {\n     public void onClick(View v) {\n         switch (v.getId())  {\n             case R.id.btn_login:\n-                //单击“登录”按钮时，获取帐号和密码\n+                //单击“登录”按钮时，获取账号和密码\n                 String number = etNumber.getText().toString().trim();\n                 String password = etPassword.getText().toString().trim();\n                 //检查帐号和密码是否正确\n@@ -145,7 +145,7 @@ public void onClick(View v) {\n                 selected();\n                 tab_xml.setSelected(true);\n                 if (fra_xml == null) {\n-                    fra_xml = new XmlFragment(\"\");\n+                    fra_xml = new XmlFragment();\n                     transaction.add(R.id.ly_content, fra_xml);\n                 }\n                 else {"
+  }, {
+    "sha" : "fb888977eefb887f74aa840dad11c71052374093",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java",
+    "status" : "modified",
+    "additions" : 11,
+    "deletions" : 22,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java?ref=4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "patch" : "@@ -3,7 +3,6 @@\n import android.app.Fragment;\n import android.os.Bundle;\n import android.os.Handler;\n-import android.support.annotation.Nullable;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n@@ -17,63 +16,53 @@\n import java.io.IOException;\n \n public class XmlFragment extends Fragment {\n-    private String context;\n-    private TextView mTextView;\n-    private Handler handler;\n+    private TextView mTextView=null;\n+    TextView text;\n+    private Handler handler=null;\n     private String hw=\"\";\n \n-    public XmlFragment(String context){\n-        this.context = context;\n-    }\n-\n-    @Nullable\n     @Override\n     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n         View view = inflater.inflate(R.layout.xml_fragment1414080903212,container,false);\n         handler = new Handler();\n \n         Button button = (Button)view.findViewById(R.id.xml_btn);\n-        mTextView = (TextView)view.findViewById(R.id.txt_xml);\n-        mTextView.setText(context);\n-        button.setOnClickListener(new submitOnClieckListener());\n+        text = (TextView) view.findViewById(R.id.txt_xml);\n+        mTextView = (TextView) view.findViewById(R.id.txt_xml);\n+        button.setOnClickListener(new submitOnClickListener());\n \n         return view;\n     }\n-    class submitOnClieckListener implements View.OnClickListener {\n+    class submitOnClickListener implements View.OnClickListener {\n         @Override\n         public void onClick(View v) {\n-            //从github上抓取数据\n+            //从github上采集数据\n             new Thread(){\n                 public void run(){\n                     try {\n-                        Document doc = Jsoup.connect(\"https://github.com/HardyYao/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml\").get();\n+                        Document docu = Jsoup.connect(\"https://github.com/HardyYao/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/data1414080903212.xml\").get();\n                         int i = 1;\n-                        Elements data = doc.select(\"DT\"+i);\n+                        Elements data = docu.select(\"#LC\"+i);\n                         while(!data.isEmpty()){\n                             hw += data.text();\n                             i++;\n-                            data = doc.select(\"#DT\"+i);\n+                            data = docu.select(\"#LC\"+i);\n                         }\n \n-                        //Log.d(\"test\",da);\n-                        //textView.setText(da);\n                     }catch(IOException e){\n                         System.out.println(\"catch IOException: \" + e);\n                     }\n-\n                     handler.post(runnableUi);\n                 }\n             }.start();\n         }\n-\n     }\n \n     Runnable   runnableUi=new  Runnable(){\n         @Override\n         public void run() {\n             //更新界面\n             mTextView.setText(hw);\n-\n         }\n \n     };"
+  }, {
+    "sha" : "b1c5a38dbe53ac39c73fedd9a547ac60412aa568",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 8,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml?ref=513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "patch" : "@@ -1,8 +0,0 @@\n-<context>\n-    <param-name>title</param-name>\n-    <param-value>第六次实验</param-value>\n-    <param-name>content</param-name>\n-    <param-value>xml解析</param-value>\n-    <param-name>sub_date</param-name>\n-    <param-value>2017-6-8</param-value>\n-</context>\n\\ No newline at end of file"
+  }, {
+    "sha" : "73b3bfddece7295e6ae83406724880f760aa2903",
+    "filename" : "AndroidLabs/app/src/main/res/layout/xml_fragment1414080903212.xml",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 10,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/res/layout/xml_fragment1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/AndroidLabs/app/src/main/res/layout/xml_fragment1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/xml_fragment1414080903212.xml?ref=4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "patch" : "@@ -1,18 +1,15 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_net1414080903212\"\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903212.Net1414080903212Activity\">\n+    android:orientation=\"vertical\"\n+    android:id=\"@+id/xml\">\n \n     <TextView\n         android:id=\"@+id/txt_xml\"\n-        android:layout_width=\"150dp\"\n-        android:layout_height=\"150dp\"\n-        android:gravity=\"center\"\n-        android:text=\"xml获取\"\n-        android:textColor=\"@android:color/black\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"\"\n         android:textSize=\"20sp\"/>\n \n     <Button\n@@ -22,4 +19,4 @@\n         android:layout_below=\"@+id/txt_xml\"\n         android:text=\"xml解析\"/>\n \n-</RelativeLayout>\n+</LinearLayout>"
+  } ],
+  "sha" : "4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+  "parents" : [ {
+    "sha" : "513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/513ce42a8dbcd33dc5d155ced045f16273e5f2ce"
+  } ]
+}

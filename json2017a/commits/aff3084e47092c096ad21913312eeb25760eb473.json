@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 0,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/aff3084e47092c096ad21913312eeb25760eb473",
+  "commit" : {
+    "author" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-04-28T15:28:27Z"
+    },
+    "committer" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-04-28T15:28:27Z"
+    },
+    "message" : "#2 #93 #第二次修改的作业",
+    "tree" : {
+      "sha" : "71e44b7212fee39c5af2e9e7809c20d01aeab610",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/71e44b7212fee39c5af2e9e7809c20d01aeab610"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/aff3084e47092c096ad21913312eeb25760eb473",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aff3084e47092c096ad21913312eeb25760eb473/comments",
+  "files" : [ {
+    "sha" : "a0fb2fc91cf3821ba0bdab6da35925906096b05b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/login_net1412070501227.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/aff3084e47092c096ad21913312eeb25760eb473/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/login_net1412070501227.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/aff3084e47092c096ad21913312eeb25760eb473/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/login_net1412070501227.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/login_net1412070501227.java?ref=aff3084e47092c096ad21913312eeb25760eb473",
+    "patch" : "@@ -2,7 +2,6 @@\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n-\n import edu.hzuapps.androidlabs.R;\n \n public class login_net1412070501227 extends AppCompatActivity {"
+  } ],
+  "sha" : "aff3084e47092c096ad21913312eeb25760eb473",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aff3084e47092c096ad21913312eeb25760eb473",
+  "parents" : [ {
+    "sha" : "fc6e8f30ce8e3cd5f72484719d54309b6ac0b464",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fc6e8f30ce8e3cd5f72484719d54309b6ac0b464",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fc6e8f30ce8e3cd5f72484719d54309b6ac0b464"
+  } ]
+}

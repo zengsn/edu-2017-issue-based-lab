@@ -1,0 +1,151 @@
+{
+  "committer" : {
+    "login" : "1414080903104",
+    "id" : 26102070,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26102070?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1414080903104",
+    "html_url" : "https://github.com/1414080903104",
+    "followers_url" : "https://api.github.com/users/1414080903104/followers",
+    "following_url" : "https://api.github.com/users/1414080903104/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1414080903104/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1414080903104/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1414080903104/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1414080903104/orgs",
+    "repos_url" : "https://api.github.com/users/1414080903104/repos",
+    "events_url" : "https://api.github.com/users/1414080903104/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1414080903104/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 290,
+    "additions" : 170,
+    "deletions" : 120
+  },
+  "author" : {
+    "login" : "1414080903104",
+    "id" : 26102070,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26102070?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1414080903104",
+    "html_url" : "https://github.com/1414080903104",
+    "followers_url" : "https://api.github.com/users/1414080903104/followers",
+    "following_url" : "https://api.github.com/users/1414080903104/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1414080903104/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1414080903104/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1414080903104/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1414080903104/orgs",
+    "repos_url" : "https://api.github.com/users/1414080903104/repos",
+    "events_url" : "https://api.github.com/users/1414080903104/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1414080903104/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+  "commit" : {
+    "author" : {
+      "name" : "1414080903104",
+      "email" : "937671117@qq.com",
+      "date" : "2017-05-28T05:51:10Z"
+    },
+    "committer" : {
+      "name" : "1414080903104",
+      "email" : "937671117@qq.com",
+      "date" : "2017-05-28T05:51:10Z"
+    },
+    "message" : "#5 #22 第五次实验 数据存储",
+    "tree" : {
+      "sha" : "f53373fcc0c12cb016aab892ab7925bbfb764487",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f53373fcc0c12cb016aab892ab7925bbfb764487"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/comments",
+  "files" : [ {
+    "sha" : "49f2d91e046a84967413d1b7bd41b39a52729258",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Accessdata.java",
+    "status" : "modified",
+    "additions" : 6,
+    "deletions" : 1,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Accessdata.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Accessdata.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Accessdata.java?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -2,7 +2,7 @@\n /*\n  * ʵ�ּ�¼��Ϣ��ݻ������ڶ������ݿ��ϵ����в���\n  * һ��javabean�࣬����ı����Ϊ���Ƶ�����\n- * ע��Accessdata����\n+ * \n  */\n public class Accessdata {\n \tprivate int id;//����˽�б��id��\n@@ -18,6 +18,11 @@ public Accessdata(int id,String name,String level,String background,String stren\n \t\tsetDefensive(defensive);\n \t\tsetHp(hp);\n \t}\n+\tpublic Accessdata(int id,String name,String level){\n+\t\tsetId(id);\n+\t\tsetName(name);\n+\t\tsetLevel(level);\n+\t}\n \tpublic int getId(){return id;}\n \tpublic void setId(int id){this.id=id;}\n \tpublic String getName(){return name;}"
+  }, {
+    "sha" : "7b0020ad85bbe15c3836b0c8cd5a3ccd28c58f5d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Linkdatabases.java",
+    "status" : "modified",
+    "additions" : 32,
+    "deletions" : 42,
+    "changes" : 74,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Linkdatabases.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Linkdatabases.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Linkdatabases.java?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -1,49 +1,39 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903104;\n /*\n- *ʵ����ݿ���Ӻ��ͷŵ��� \n- *����ο�javawebӦ�ÿ����̲��С���ݿ����javabean����ơ�\n- *��δ���Գɹ������޸ģ�\n+ *ʵ��sqlite��ݿ���Ӻʹ���\n+ *�Ѿ��������SQLite Expert Professional��ʼ����ݺ���\n+ *\n  */\n-import java.sql.Connection;\n-import java.sql.DriverManager;\n-import java.sql.ResultSet;\n-import java.sql.SQLException;\n-import java.sql.Statement;\n-import java.util.Properties;\n-public class Linkdatabases {\n-\tprivate static String driver ;\n-\tprivate static String url ;\n-\tprivate static String user ;\n-\tprivate static String password ;\n-    private static Properties pr=new Properties();\n-\tprivate Linkdatabases() {}\n-\tstatic { \n-\t   try {pr.load(Linkdatabases.class.getClassLoader().getResourceAsStream(\"db.properties\"));\n-\t\t  driver=pr.getProperty(\"driver\");\n-\t\t  url=pr.getProperty(\"url\");\n-\t\t  user=pr.getProperty(\"username\");\n-\t\t  password=pr.getProperty(\"password\");\n-\t\t  Class.forName(driver);\n-\t\t} catch (Exception e) {\n-\t\t\tthrow new ExceptionInInitializerError(e);\n-\t\t}\n+import android.content.ContentValues;\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+public class Linkdatabases extends SQLiteOpenHelper{\n+\tpublic Linkdatabases (Context context){\n+\t\tsuper(context,\"card.db\",null,1);\n \t}\n-\tpublic static Connection getConnection() throws SQLException {\n-\t\treturn DriverManager.getConnection(url, user, password);\n+\n+\t@Override\n+\tpublic void onCreate(SQLiteDatabase db) {\n+\t\t// TODO Auto-generated method stub\n+\t\tSystem.out.println(\"OnCreate\");\n+\t\tdb.execSQL(\"create table cards(id integer primary key,name varchar(20),level char(5),background varchar(50),strength char(5),defensive char(5),hp char(5) )\");\n+\t\t//db.execSQL(\"insert into cards values (1,'������Alter','SSR','��������','9999','9999','9999')\");\n+\t\t/*ContentValues cv = new ContentValues();\n+\t\tcv.put(\"id\",1);\n+        cv.put(\"name\", \"������Alter\");\n+        cv.put(\"level\", \"SSR\");\n+        cv.put(\"background\", \"��������\");\n+        cv.put(\"strength\", \"9999\");\n+        cv.put(\"defensive\", \"9999\");\n+        cv.put(\"hp\", \"9999\");\n+        db.insert(\"cards\", null, cv);\n+        */\n \t}\n-\tpublic static void free(ResultSet rs, Statement st, Connection conn) {\n-\t\ttry { if (rs != null) rs.close();\n-\t\t} catch (SQLException e) {e.printStackTrace();\n-\t\t} finally {\n-\t\t\ttry { if (st != null) st.close();\n-\t\t\t} catch (SQLException e) {e.printStackTrace();\n-\t\t\t} finally {\n-\t\t\t\t  if (conn != null)\n-\t\t\t\t    try { conn.close();\n-\t\t\t\t    } catch (SQLException e) {e.printStackTrace();\n-\t\t\t\t   }\n-\t\t             }\n-\t\t     }\n-\t    }\n \n+\t@Override\n+\tpublic void onUpgrade(SQLiteDatabase db, int arg1, int arg2) {\n+\t\t// TODO Auto-generated method stub\n+\t\tSystem.out.println(\"onUpGrade\");\n+\t}\n }"
+  }, {
+    "sha" : "f0cb28762a9e78598fc2c464b3a2cd036e1e5e42",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104extractActivity.java",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 16,
+    "changes" : 25,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104extractActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104extractActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104extractActivity.java?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -19,24 +19,18 @@\n public class Net1414080903104extractActivity extends ActionBarActivity {\n     int num;//用于存放随机得到的数字，该数字代表着卡牌的id\n     Accessdata U=new Accessdata();//定义一个Accessdata变量以便用于存放从数据库获取得到的某卡牌数据\n-\tVisitdatabases Visit=new Visitdatabases();//定义一个Visitdatabases变量以便想数据库传送数据或者从数据库内获取数据\n+\tVisitdatabases Visit;//定义一个Visitdatabases变量以便想数据库传送数据或者从数据库内获取数据\n     \n \tprotected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.extractactivity_net1414080903104);\n         \n         num=randomnum();\n-        /*System.out.print(num);//连接数据库失败\n-        \n-        try {\n-\t\t\tU=Visit.findonecard(num);\n-\t\t} catch (Exception e) {\n-\t\t\t// TODO Auto-generated catch block\n-\t\t\te.printStackTrace();\n-\t\t\tLog.e(\"android\", \"fail to connect!\"+\"  \"+e.getMessage());\n-\t\t}//将num利用Visitdatabases类（即上述创建的对象  V ）封装起来，并访问到数据库中相应的数据；\n-        //将对象Visit返回的类型赋值给对象U；*/\n         \n+        Visit=new Visitdatabases(this);\n+        U=Visit.queryOne(num);//有问题！\n+        //将num利用Visitdatabases类封装起来，并访问到数据库中相应的数据；\n+        //将对象Visit返回的类型赋值给对象U；*/       \n         //这时候对象U可以利用getXXX方法获取到数据库内的数据；\n         TextView textView2_1 = (TextView)findViewById(R.id.textView2_1);\n         TextView textView3_1 = (TextView)findViewById(R.id.textView3_1);\n@@ -45,25 +39,23 @@ protected void onCreate(Bundle savedInstanceState) {\n         TextView textView6_1 = (TextView)findViewById(R.id.textView6_1);\n         TextView textView7_1 = (TextView)findViewById(R.id.textView7_1);\n         TextView textView8_1 = (TextView)findViewById(R.id.textView8_1);       \n-        U=shuju(num);       \n+        //U=shuju(num);       \n         textView2_1.setText(String.valueOf(U.getId()));\n         textView3_1.setText(U.getName());\n         textView4_1.setText(U.getLevel());\n         textView5_1.setText(U.getBackground());\n         textView6_1.setText(U.getStrength());\n         textView7_1.setText(U.getDefensive());\n         textView8_1.setText(U.getHp());\n-        \n-        \n-        //将获得的数据显示出来(待编写代码)\n-         \n+\n     }\n \t\n \tpublic int randomnum(){//定义一个在0-9之间获得随机生成数的方法\n \t\tRandom random= new Random();\n \t\tint result=random.nextInt(10);\n \t\treturn result+1;\n \t}\n+\t/*\n \tpublic Accessdata shuju(int a){//由于数据库连接出现错误，暂时利用函数方法来实现数据内容的获取\n \t\tAccessdata U1 = null;\n \t\tif(a==1){U1=new Accessdata(1,\"库丘林Alter\",\"SSR\",\"凯尔特神话\",\"9999\",\"9999\",\"9999\");}\n@@ -78,5 +70,6 @@ public Accessdata shuju(int a){//由于数据库连接出现错误，暂时利\n \t\tif(a==10){U1=new Accessdata(10,\"贞德\",\"SR\",\"史实\",\"1111\",\"1111\",\"1111\");}\n \t\treturn U1;\n \t}\n+\t*/\n     \n }"
+  }, {
+    "sha" : "838633183e11d9f5eccb4ad9f1aa10f08ae212b9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104lookActivity.java",
+    "status" : "modified",
+    "additions" : 39,
+    "deletions" : 13,
+    "changes" : 52,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104lookActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104lookActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104lookActivity.java?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -2,35 +2,61 @@\n /*\n  * ʵ�֡��鿴���¿��Ƴء���ť���¼���\n  * ����һ��List�����ݿ������п��Ƶ�id��name��level������ʾ���\n+ * \n+ * �б���ʾ��ݵķ�����listview�����SimpleAdapter��\n  */\n import edu.hzuapps.androidlabs.R;\n import android.os.Bundle;\n import android.support.v7.app.ActionBarActivity;\n import android.util.Log;\n+import android.widget.ListView;\n+import android.widget.SimpleAdapter;\n+import android.widget.TextView;\n \n import java.util.*;\n import edu.hzuapps.androidlabs.homeworks.net1414080903104.Visitdatabases;\n import edu.hzuapps.androidlabs.homeworks.net1414080903104.Accessdata;\n \n public class Net1414080903104lookActivity extends ActionBarActivity {\n \tList<Accessdata> U=new ArrayList<Accessdata>();//���ڴ�Ŵ���ݿ��ȡ�õ��Ŀ������\n-\tVisitdatabases Visit=new Visitdatabases();//����һ��Visitdatabases����Ա�����ݿ⴫����ݻ��ߴ���ݿ��ڻ�ȡ���\n+\tVisitdatabases Visit;//����һ��Visitdatabases����Ա�����ݿ⴫����ݻ��ߴ���ݿ��ڻ�ȡ���\n+\tListView listView;\n \t\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.lookactivity_net1414080903104);\n-        /*\n-        try {\n-\t\t\tU=Visit.Querycard();\n-\t\t} catch (Exception e) {\n-\t\t\t// TODO Auto-generated catch block\n-\t\t\te.printStackTrace();\n-\t\t\tLog.e(\"android\", \"fail to connect!\"+\"  \"+e.getMessage());\n-\t\t}//����Visit����ִ�з���������ݿ������п��Ƶ�id��name��level��ݣ�\n-        //���ö���U��������ʵõ������ȫ������getXXX����ȡ��\n-        //����õ������ʾ�����(���д����)\n-         * \n-         */\n+        listView = (ListView) this.findViewById(R.id.listView);\n+        Visit=new Visitdatabases(this);\n+        U=Visit.queryAll();\n+        \n+        show();\n     }\n+\n+\tprivate void show() {\n+\t\t// TODO Auto-generated method stub\n+\t\tList<HashMap<String, Object>> data = new ArrayList<HashMap<String, Object>>();  \n+\t\tAccessdata g = new Accessdata();//����װ����List<Accessdata> U�ڵĵ���Accessdata g\n+\t\tfor(int i = 0;i < U.size();i++){\n+\t\t\tg=U.get(i);\n+\t\t\tHashMap<String, Object> map = new HashMap<String, Object>();\n+\t\t\tmap.put(\"id\", g.getId());  \n+            map.put(\"name\", g.getName());  \n+            map.put(\"level\", g.getLevel());  \n+            data.add(map);  \n+\t\t}\n+\t\t\n+\t\tSimpleAdapter adapter = new SimpleAdapter(this, data, R.layout.listview_net1414080903104,  new String[] { \"id\", \"name\", \"level\" }, new int[] {  R.id.id, R.id.name, R.id.level }); \n+\t\t/*SimpleAdapter�Ĳ���˵��\n+\t\t * ��һ����� ��ʾ�������androidӦ�ó���ӿڣ��������е��������Ҫ\n+\t\t * �ڶ�������ʾ���һ��Map(String ,Object)�б�ѡ��\n+\t\t * ���������ʾ���沼�ֵ�id  ��ʾ���ļ���Ϊ�б�������\n+\t\t * ���ĸ�����ʾ��Map�������Щkey��Ӧvalue�����б���\n+\t\t * ���������ʾ�������� Map����key��Ӧ����Դһ��������� ˳���ж�Ӧ��ϵ\n+\t\t * ע�����map�������key�����Ҳ��� ������ı���Ҫ����Դ���  ��Ϊ �Ҳ���keyҲ�᷵��null ��ʵ���൱�ڸ���һ��null��Դ\n+\t\t * ����ĳ�������� new String[] { \"name\", \"head\", \"desc\",\"name\" } new int[] {R.id.name,R.id.head,R.id.desc,R.id.head}\n+\t\t * ���head������ᱻname��Դ����\n+\t\t * */\n+        listView.setAdapter(adapter); \n+\t}\n     \n }"
+  }, {
+    "sha" : "ec303bff013e2d1dafd2adaea5e57e001835ae0e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Visitdatabases.java",
+    "status" : "modified",
+    "additions" : 50,
+    "deletions" : 48,
+    "changes" : 98,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Visitdatabases.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Visitdatabases.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Visitdatabases.java?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -1,59 +1,61 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903104;\n /*\n- * ʵ�ַ�װ�����ݿ�������\n- * ����ο�javawebӦ�ÿ����̲��С���ݿ����javabean����ơ�\n- * (δ���Գɹ������޸�)\n- * ע��Accessdata����\n+ * ����߼�������\n+ * ʵ�ֶ���ݿ�Ĳ�ѯ����\n+ * \n  */\n-import java.sql.*;\n import java.util.*;\n-import edu.hzuapps.androidlabs.homeworks.net1414080903104.Accessdata;\n-import edu.hzuapps.androidlabs.homeworks.net1414080903104.Linkdatabases;\n+\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+\n \n public class Visitdatabases {\n-\tpublic Accessdata findonecard(int id)throws Exception{//��Ӧ���鿨����ť��ʵ�ֹ���еĸ��id������ݿⲢ��ȡ������\n-\t\tConnection conn = null;\n-\t\tPreparedStatement ps = null;\n-\t\tResultSet rs = null;\n-\t\tAccessdata onecard=null;\n-\t\ttry {\n-\t\t\tconn = Linkdatabases.getConnection();\n-\t\t\tString sql = \"select *from cardgames where id=? \";\n-\t\t\tps = conn.prepareStatement(sql);\n-\t\t\tps.setInt(1,id);\n-\t\t\trs=ps.executeQuery();\n-\t\t\tif(rs.next()){\n-\t\t\t\tonecard=new Accessdata();\n-\t\t\t\tonecard.setId(rs.getInt(1));\n-\t\t\t\tonecard.setName(rs.getString(2));\n-\t\t\t\tonecard.setLevel(rs.getString(3));\n-\t\t\t\tonecard.setBackground(rs.getString(4));\n-\t\t\t\tonecard.setStrength(rs.getString(5));\n-\t\t\t\tonecard.setDefensive(rs.getString(6));\n-\t\t\t\tonecard.setHp(rs.getString(7));\n-\t\t\t}\n-\t\t}finally {Linkdatabases.free(rs, ps, conn);}\n+\tprivate Linkdatabases helper;\n+\tpublic Visitdatabases(Context context){\n+\t\thelper=new Linkdatabases(context);\n+\t}\n+\tpublic Accessdata queryOne(int num){\n+\t\tSQLiteDatabase db = helper.getReadableDatabase();\n+\t\tCursor c = db.rawQuery(\"select * from cards where id = ?\", new String[]{Integer.toString(num)});\n+\t\tc.moveToNext();\n+\t\t/*\n+\t\t * ԭ�ȴ������⣺05-27 23:16:34.134: E/AndroidRuntime(29343): \n+\t\t * java.lang.RuntimeException: Unable to start activity ComponentInfo\n+\t\t * {edu.hzuapps.androidlabs/edu.hzuapps.androidlabs.homeworks.net1414\n+\t\t * 080903104.Net1414080903104extractActivity}: android.database.Curso\n+\t\t * rIndexOutOfBoundsException: Index -1 requested, with a size of 1\n+\t\t * ԭ������Cursor�Ķ���cԭ�Ⱦ�ָ�����-1.\n+\t\t * ���������c.moveToNext();\n+\t\t*/\n+\t\tint id = c.getInt(c.getColumnIndex(\"id\"));\n+\t\tString name = c.getString(1);\n+\t\tString level = c.getString(2);\n+\t\tString background = c.getString(3);\n+\t\tString strength = c.getString(4);\n+\t\tString defensive = c.getString(5);\n+\t\tString hp = c.getString(6);\n+\t\tAccessdata onecard = new Accessdata(id,name,level,background,strength,defensive,hp);\n+\t\tc.close();\n+\t\tdb.close();\n \t\treturn onecard;\n+\t\t\n \t}\n-\tpublic List<Accessdata> Querycard()throws Exception{//��Ӧ���鿴ÿ�տ��Ƴء���ť��ʵ�ֹ���еķ�����ݿ������п��Ƶ�id��name��level\n-\t\tConnection conn = null;\n-\t\tPreparedStatement ps = null;\n-\t\tResultSet rs = null;\n-\t\tList<Accessdata> cardList=new ArrayList<Accessdata>();\n-\t\ttry {\n-\t\t\tconn = Linkdatabases.getConnection();\n-\t\t\tString sql = \"select id name level from cardgames\";\n-\t\t\tps = conn.prepareStatement(sql);\n-\t\t\trs=ps.executeQuery();\n-\t\t\tif(rs.next()){\n-\t\t\t\tAccessdata allcard=new Accessdata();\n-\t\t\t\tallcard.setId(rs.getInt(1));\n-\t\t\t\tallcard.setName(rs.getString(2));\n-\t\t\t\tallcard.setLevel(rs.getString(3));\n-\t\t\t\tcardList.add(allcard);\n-\t\t\t}\n-\t\t}finally {Linkdatabases.free(rs, ps, conn);}\n-\t\treturn cardList;\n+\tpublic List<Accessdata> queryAll(){\n+\t\tSQLiteDatabase db = helper.getReadableDatabase();\n+\t\tCursor c = db.query(\"cards\", null, null, null, null, null, null);\n+\t\tList<Accessdata> list = new ArrayList<Accessdata>();\n+\t\twhile(c.moveToNext()){\n+\t\t\tint id = c.getInt(c.getColumnIndex(\"id\"));\n+\t\t\tString name = c.getString(1);\n+\t\t\tString level = c.getString(2);\n+\t\t\t\n+\t\t\tlist.add(new Accessdata(id,name,level));\n+\t\t}\n+\t\tc.close();\n+\t\tdb.close();\n+\t\treturn list;\n \t}\n \n }"
+  }, {
+    "sha" : "28f375092d48f2910cc92a016e61e9a054f638dd",
+    "filename" : "AndroidLabs/app/src/main/res/layout/listview_net1414080903104.xml",
+    "status" : "added",
+    "additions" : 28,
+    "deletions" : 0,
+    "changes" : 28,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/res/layout/listview_net1414080903104.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/res/layout/listview_net1414080903104.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/listview_net1414080903104.xml?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -0,0 +1,28 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout\n+  xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+  android:orientation=\"horizontal\"\n+  android:layout_width=\"fill_parent\"\n+  android:layout_height=\"fill_parent\">\n+  <!-- id -->\n+  <TextView\n+   android:layout_width=\"100dp\"\n+   android:layout_height=\"wrap_content\"\n+   android:textColor=\"#000000\"\n+   android:id=\"@+id/id\"\n+  />\n+  <!-- name -->\n+  <TextView\n+   android:layout_width=\"100dp\"\n+   android:layout_height=\"wrap_content\"\n+   android:textColor=\"#000000\"\n+   android:id=\"@+id/name\"\n+  />\n+  <!-- level -->\n+  <TextView\n+   android:layout_width=\"fill_parent\"\n+   android:layout_height=\"wrap_content\"\n+   android:textColor=\"#000000\"\n+   android:id=\"@+id/level\"\n+  />\n+</LinearLayout>"
+  }, {
+    "sha" : "ae4fffc1cc992b7eccecffd7768af11b666e48c4",
+    "filename" : "AndroidLabs/app/src/main/res/layout/lookactivity_net1414080903104.xml",
+    "status" : "modified",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/res/layout/lookactivity_net1414080903104.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e/AndroidLabs/app/src/main/res/layout/lookactivity_net1414080903104.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/lookactivity_net1414080903104.xml?ref=98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+    "patch" : "@@ -41,5 +41,11 @@\n         android:textSize=\"20sp\"\n         android:text=\"level:\" />\n     </TableRow>\n+    <ListView  \n+        android:layout_width=\"fill_parent\" \n+        android:layout_height=\"fill_parent\" \n+        android:id=\"@+id/listView\"\n+        />\n+        \n     \n </TableLayout>"
+  } ],
+  "sha" : "98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/98edf6f44020fdacf09ebd0fb93c077bc5d7b32e",
+  "parents" : [ {
+    "sha" : "752c5179d7015763b321d1568dd0b8f0bcc5bc26",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/752c5179d7015763b321d1568dd0b8f0bcc5bc26",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/752c5179d7015763b321d1568dd0b8f0bcc5bc26"
+  } ]
+}

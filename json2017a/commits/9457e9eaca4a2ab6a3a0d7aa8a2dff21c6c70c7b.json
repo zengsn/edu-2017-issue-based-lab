@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 16,
+    "additions" : 8,
+    "deletions" : 8
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-05-17T08:36:26Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-05-17T08:36:26Z"
+    },
+    "message" : "#3 #30 第三次作业",
+    "tree" : {
+      "sha" : "e6bfd6c961331fabd035eabf33fa1c4141c3b89b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e6bfd6c961331fabd035eabf33fa1c4141c3b89b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/comments",
+  "files" : [ {
+    "sha" : "9d664b554c3d891af122c9d6bd37e608572a914f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 3,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java?ref=9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "patch" : "@@ -9,7 +9,7 @@\n public class Net1414080903240Activity extends AppCompatActivity {\n     private Button btn_send1;\n     private Button btn_send2;\n-    @Override\n+\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.main_1414080903240);\n@@ -28,8 +28,8 @@ public void onClick(View v) {\n         btn_send2.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-                Intent intent = new Intent(Net1414080903240Activity.this,Net1414080903240_OrderRecord.class);\n-                startActivity(intent);\n+                Intent intent1 = new Intent(Net1414080903240Activity.this,Net1414080903240_OrderRecord.class);\n+                startActivity(intent1);\n             }\n         });\n     }"
+  }, {
+    "sha" : "4ca99727338954a1eee2bfb062d9f518703e3982",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "status" : "modified",
+    "additions" : 5,
+    "deletions" : 1,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java?ref=9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "patch" : "@@ -7,6 +7,7 @@\n import android.widget.Button;\n import android.widget.EditText;\n import android.widget.Spinner;\n+import android.widget.Toast;\n \n import com.google.android.gms.common.api.GoogleApiClient;\n \n@@ -26,11 +27,14 @@ protected void onCreate(Bundle savedInstanceState) {\n         btn_send.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-\n+                if(!value.getText().toString().equals(\"\")){\n                 Intent intent = new Intent(Net1414080903240_NewAccount.this,Net1414080903240_OrderRecord.class);\n                 intent.putExtra(\"value\",value.getText().toString().trim());\n                 intent.putExtra(\"spinner1\",spinner1.getSelectedItem().toString().trim());\n                 startActivity(intent);\n+                }else if(value.getText().toString()==\"\"){\n+                    Toast.makeText(Net1414080903240_NewAccount.this,\"没有数据\", Toast.LENGTH_SHORT).show();\n+                }\n             }\n         });\n "
+  }, {
+    "sha" : "20f8cbc0f6527e3fd0b4206f0bbc19c6f8b6ff61",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 4,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -1,4 +0,0 @@\n-<resources>\n-    <string name=\"app_name\">net1414080903240</string>\n-    <string name=\"action_settings\">Settings</string>\n-</resources>"
+  } ],
+  "sha" : "9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+  "parents" : [ {
+    "sha" : "d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d4ae1a1a8606d726936992f1c3ecb94093b14376"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 8,
+    "additions" : 8,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1ca5d2ca7db4581c757505779a88eca612484964",
+  "commit" : {
+    "author" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-15T10:55:28Z"
+    },
+    "committer" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-15T10:55:28Z"
+    },
+    "message" : "#2 #172 #第二次实验",
+    "tree" : {
+      "sha" : "8aa71adb11d1c8d917b41a8e2de72b183464e107",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8aa71adb11d1c8d917b41a8e2de72b183464e107"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1ca5d2ca7db4581c757505779a88eca612484964",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1ca5d2ca7db4581c757505779a88eca612484964/comments",
+  "files" : [ {
+    "sha" : "bed7bdf9a398987741248273f5ede75006a8ef6b",
+    "filename" : "AndroidLabs/app/src/main/res/values/net1414080903132arr.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1ca5d2ca7db4581c757505779a88eca612484964/AndroidLabs/app/src/main/res/values/net1414080903132arr.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1ca5d2ca7db4581c757505779a88eca612484964/AndroidLabs/app/src/main/res/values/net1414080903132arr.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/net1414080903132arr.xml?ref=1ca5d2ca7db4581c757505779a88eca612484964",
+    "patch" : "@@ -0,0 +1,8 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <declare-styleable name=\"mapView\">\n+\n+        <attr name=\"pointSize\" format=\"integer\" />\n+\n+    </declare-styleable>\n+</resources>"
+  } ],
+  "sha" : "1ca5d2ca7db4581c757505779a88eca612484964",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1ca5d2ca7db4581c757505779a88eca612484964",
+  "parents" : [ {
+    "sha" : "35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/35c6f9abc5594054b92a0f307dd7c213c225a3ad"
+  } ]
+}

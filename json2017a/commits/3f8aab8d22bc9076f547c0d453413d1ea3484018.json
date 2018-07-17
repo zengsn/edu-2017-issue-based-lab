@@ -1,0 +1,49 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 61,
+    "additions" : 45,
+    "deletions" : 16
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3f8aab8d22bc9076f547c0d453413d1ea3484018",
+  "commit" : {
+    "author" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-05-29T14:21:35Z"
+    },
+    "committer" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-05-29T14:21:35Z"
+    },
+    "message" : "#5 #67 第五次作业",
+    "tree" : {
+      "sha" : "e932a0baaf039293b0af9fcadfb7327fa1222cec",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e932a0baaf039293b0af9fcadfb7327fa1222cec"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/3f8aab8d22bc9076f547c0d453413d1ea3484018",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f8aab8d22bc9076f547c0d453413d1ea3484018/comments",
+  "files" : [ {
+    "sha" : "0563d470c56ae57db941bf64715d531812167484",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "status" : "modified",
+    "additions" : 45,
+    "deletions" : 16,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/3f8aab8d22bc9076f547c0d453413d1ea3484018/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/3f8aab8d22bc9076f547c0d453413d1ea3484018/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java?ref=3f8aab8d22bc9076f547c0d453413d1ea3484018",
+    "patch" : "@@ -1,17 +1,25 @@\n ﻿package edu.hzuapps.androidlabs.homeworks.net1414080903108;\n \n-import android.graphics.Bitmap;\n-import android.graphics.Canvas;\n-import android.graphics.Color;\n-import android.graphics.Matrix;\n-import android.graphics.Paint;\n-import android.support.v7.app.AppCompatActivity;\n-import android.os.Bundle;\n-import android.view.MotionEvent;\n-import android.view.View;\n-import android.widget.ImageView;\n+        import android.content.Intent;\n+        import android.graphics.Bitmap;\n+        import android.graphics.Canvas;\n+        import android.graphics.Color;\n+        import android.graphics.Matrix;\n+        import android.graphics.Paint;\n+        import android.net.Uri;\n+        import android.os.Environment;\n+        import android.support.v7.app.AppCompatActivity;\n+        import android.os.Bundle;\n+        import android.view.MotionEvent;\n+        import android.view.View;\n+        import android.widget.ImageView;\n+        import android.widget.Toast;\n \n-import com.example.myapplication.R;\n+        import com.example.myapplication.R;\n+\n+        import java.io.File;\n+        import java.io.FileOutputStream;\n+        import java.io.OutputStream;\n \n public class Net1414080903108Activity extends AppCompatActivity {\n     private ImageView iv;\n@@ -21,21 +29,23 @@\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n+\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903108);\n+\n         this.iv = (ImageView) this.findViewById(R.id.iv);\n         // 创建一张空白图片\n-        baseBitmap = Bitmap.createBitmap(480, 640, Bitmap.Config.ARGB_8888);\n+        baseBitmap = Bitmap.createBitmap(1200, 1600, Bitmap.Config.ARGB_8888);\n         // 创建一张画布\n         canvas = new Canvas(baseBitmap);\n         // 画布背景为白色\n-        canvas.drawColor(Color.WHITE );\n+        canvas.drawColor(Color.WHITE);\n         // 创建画笔\n         paint = new Paint();\n         // 画笔颜色为黑色\n-        paint.setColor(Color.BLACK );\n+        paint.setColor(Color.BLACK);\n         // 宽度5个像素\n-        paint.setStrokeWidth(8);\n+        paint.setStrokeWidth(10);\n         // 先将白色背景画上\n         canvas.drawBitmap(baseBitmap, new Matrix(), paint);\n         iv.setImageBitmap(baseBitmap);\n@@ -68,4 +78,23 @@ public boolean onTouch(View v, MotionEvent event) {\n             }\n         });\n     }\n-}\n+\n+    public void save(View view) {\n+        try {\n+            File file = new File(Environment.getExternalStorageDirectory(),\n+                    System.currentTimeMillis() + \".jpg\");\n+            OutputStream stream = new FileOutputStream(file);\n+            baseBitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);\n+            stream.close();\n+            Intent intent = new Intent();\n+            intent.setAction(Intent.ACTION_MEDIA_MOUNTED);\n+            intent.setData(Uri.fromFile(Environment\n+                    .getExternalStorageDirectory()));\n+            sendBroadcast(intent);\n+        } catch (Exception e) {\n+            Toast.makeText(this, \"保存图片成功\", 0).show();\n+\n+            e.printStackTrace();\n+        }\n+    }\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "3f8aab8d22bc9076f547c0d453413d1ea3484018",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f8aab8d22bc9076f547c0d453413d1ea3484018",
+  "parents" : [ {
+    "sha" : "55686c46a043f7a23b56088997d03f53621ac3c0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/55686c46a043f7a23b56088997d03f53621ac3c0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/55686c46a043f7a23b56088997d03f53621ac3c0"
+  } ]
+}

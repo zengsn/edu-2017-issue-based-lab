@@ -1,0 +1,151 @@
+{
+  "committer" : {
+    "login" : "Lyonly",
+    "id" : 26104878,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26104878?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lyonly",
+    "html_url" : "https://github.com/Lyonly",
+    "followers_url" : "https://api.github.com/users/Lyonly/followers",
+    "following_url" : "https://api.github.com/users/Lyonly/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lyonly/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lyonly/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lyonly/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lyonly/orgs",
+    "repos_url" : "https://api.github.com/users/Lyonly/repos",
+    "events_url" : "https://api.github.com/users/Lyonly/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lyonly/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 387,
+    "additions" : 377,
+    "deletions" : 10
+  },
+  "author" : {
+    "login" : "Lyonly",
+    "id" : 26104878,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26104878?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lyonly",
+    "html_url" : "https://github.com/Lyonly",
+    "followers_url" : "https://api.github.com/users/Lyonly/followers",
+    "following_url" : "https://api.github.com/users/Lyonly/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lyonly/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lyonly/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lyonly/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lyonly/orgs",
+    "repos_url" : "https://api.github.com/users/Lyonly/repos",
+    "events_url" : "https://api.github.com/users/Lyonly/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lyonly/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/04f88e9e03d654283173d2dfbd3a0232b94070c8",
+  "commit" : {
+    "author" : {
+      "name" : "Lyonly",
+      "email" : "994638734@qq.com",
+      "date" : "2017-04-26T23:39:53Z"
+    },
+    "committer" : {
+      "name" : "Lyonly",
+      "email" : "994638734@qq.com",
+      "date" : "2017-04-26T23:39:53Z"
+    },
+    "message" : "#1 #31 第二次作业",
+    "tree" : {
+      "sha" : "a30affe86f93e0580467966efa4f0d6a38453b24",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a30affe86f93e0580467966efa4f0d6a38453b24"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/04f88e9e03d654283173d2dfbd3a0232b94070c8/comments",
+  "files" : [ {
+    "sha" : "1872224bba0bc145bcec4aaa0e55f9d404b446a0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoad.java",
+    "status" : "added",
+    "additions" : 55,
+    "deletions" : 0,
+    "changes" : 55,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoad.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoad.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoad.java?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -0,0 +1,55 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903209;\n+\n+/**\n+ * Created by Administrator on 2017/4/21.\n+ */\n+\n+import java.io.IOException;\n+import java.io.RandomAccessFile;\n+/**\n+ *\n+ * @author Administrator\n+ */\n+public class DownLoad {\n+    final int  THREADCOUNT = 3;\n+    String urlLocation;\n+    String filePath;\n+    long[] threadid;\n+    long contentLength;\n+    public DownLoad(String url,String filePath)throws IOException{\n+        this.urlLocation=url;\n+        this.filePath=filePath;\n+        contentLength =  DownLoadThread.getContentLength(urlLocation);\n+    }\n+    ThreadGroup tg = Thread.currentThread().getThreadGroup();\n+    boolean isNew = true;\n+    public void Start() throws IOException {\n+        if(isNew){\n+            String fileName = DownLoadThread.getFileName(urlLocation);\n+            RandomAccessFile accessfile = new RandomAccessFile(filePath + fileName, \"rw\");\n+            accessfile.setLength(contentLength);\n+        }\n+        long threadsize = contentLength / THREADCOUNT;\n+        for (int i = 0; i < THREADCOUNT; i++) {\n+            long start = i * threadsize;\n+            long end = (i + 1) * threadsize - 1;\n+            if (i == THREADCOUNT - 1) {\n+                end = contentLength - 1;\n+            }\n+            Thread downloadThread = new Thread(tg,new DownLoadThread(urlLocation, filePath, start, end, i),i+\"\");\n+            downloadThread.start();\n+\n+        }\n+    }\n+    public void pause()\n+    {\n+        tg.interrupt();\n+    }\n+\n+    public void goOn() throws IOException\n+    {\n+        this.isNew=false;\n+        Start();\n+    }\n+\n+}"
+  }, {
+    "sha" : "b4b91bdc00e3d7c947a05e01b9fafcab7a3ec80f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoadThread.java",
+    "status" : "added",
+    "additions" : 78,
+    "deletions" : 0,
+    "changes" : 78,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoadThread.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoadThread.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/DownLoadThread.java?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -0,0 +1,78 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903209;\n+\n+/**\n+ * Created by Administrator on 2017/4/21.\n+ */\n+\n+import java.io.*;\n+import java.net.*;\n+\n+/**\n+ *\n+ * @author Administrator\n+ */\n+public class DownLoadThread extends Thread {\n+\n+    private String urlLocation;\n+    private String filePath;\n+    private long start;\n+    private long end;\n+    private int threadID;\n+    private long currentPosition;\n+    public DownLoadThread(String UrlLocation,String FilePath,long Start,long End,int i)\n+    {\n+        this.urlLocation=UrlLocation;\n+        this.filePath=FilePath;\n+        this.start=Start;\n+        this.end=End;\n+        this.threadID=i;\n+        currentPosition = start;\n+    }\n+    @Override\n+    public void run() {\n+        try {\n+            if(new File(filePath+threadID).exists())\n+                start = Position.readPosition(filePath,threadID);\n+            HttpURLConnection conn = getConn(urlLocation);\n+            conn.setRequestProperty(\"Range\", \"bytes=\" + start + \"-\" + end);\n+            if (conn.getResponseCode() == 206) {\n+                RandomAccessFile raf = new RandomAccessFile(filePath + getFileName(urlLocation), \"rw\");\n+                raf.seek(start);\n+                InputStream in = conn.getInputStream();\n+                int len = -1;\n+                byte[] buffer = new byte[1024 * 1024 * 3];\n+                while ((len = in.read(buffer)) != -1) {\n+                    raf.write(buffer, 0, len);\n+                    currentPosition += len;\n+                    Position.writePosition(filePath, threadID, currentPosition);\n+                }\n+                Position.delPosition(filePath, threadID);\n+                raf.close();\n+            }\n+        } catch (IOException ex) {\n+        }\n+    }\n+\n+    public static long getContentLength(String urlLocation) throws IOException {\n+        long contentLength = 0;\n+        HttpURLConnection conn = getConn(urlLocation);\n+        if (conn.getResponseCode() == 200) {\n+            contentLength = conn.getContentLength();\n+        }\n+        return contentLength;\n+    }\n+\n+    public static HttpURLConnection getConn(String urlLocation) throws IOException {\n+        URL url = new URL(urlLocation);\n+        //获取HttpURLConnection对象 打开链接\n+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();\n+        conn.setRequestMethod(\"GET\");//设置发送get请求\n+        conn.setConnectTimeout(5000);//设置连接超时时间\n+        return conn;\n+    }\n+\n+    public static String getFileName(String urlLocation) {\n+        String[] str = urlLocation.split(\"/\");\n+        return str[str.length - 1];\n+    }\n+}"
+  }, {
+    "sha" : "a66be761ab9bcc71621d27573d9ea028b47ba2fd",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/MainActivity.java",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/MainActivity.java?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -0,0 +1,36 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903209;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.LinearLayout;\n+import android.widget.ProgressBar;\n+import android.widget.TextView;\n+\n+import java.io.IOException;\n+\n+public class MainActivity extends AppCompatActivity {\n+\n+    private Intent intent;\n+    private int size;\n+    private boolean add;\n+    private String fileName;\n+    private String path;\n+    private int lastPostion;\n+    @Override\n+\n+\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903209);\n+        //控件\n+        LinearLayout ll_pb = (LinearLayout) findViewById(R.id.ll_pb);\n+        View view = View.inflate(getApplicationContext(), R.layout.progressbar, null);\n+        TextView tv_fileName = (TextView) findViewById(R.id.tv_fileName);\n+        TextView tv_fileSize = (TextView) findViewById(R.id.tv_fileSize);\n+        ProgressBar pb = (ProgressBar) findViewById(R.id.pb);\n+\n+\n+    }\n+}"
+  }, {
+    "sha" : "62bfdb375cfd2266992c316572ffc976f1ed097f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java",
+    "status" : "modified",
+    "additions" : 53,
+    "deletions" : 2,
+    "changes" : 55,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -1,13 +1,64 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903209;\n \n+import android.content.Context;\n+import android.content.Intent;\n+import android.content.SharedPreferences;\n+import android.os.Environment;\n+import android.os.StrictMode;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.util.Log;\n+import android.view.View;\n+import android.view.Window;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n \n-public class Net1414080903209Activity extends AppCompatActivity {\n+import java.io.IOException;\n+\n+\n+public  class Net1414080903209Activity extends AppCompatActivity implements View.OnClickListener {\n+\n+    private String path;\n+    private Button btn_start;\n+    private EditText et_path;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n+\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_net1414080903209);\n+        StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()\n+                .detectDiskReads().detectDiskWrites().detectNetwork()\n+                .detectAll().penaltyLog().build());\n+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()\n+                .detectLeakedSqlLiteObjects().penaltyLog().penaltyDeath()\n+                .build());\n+        SharedPreferences shconfig = getSharedPreferences(\"ConFigShare\",\n+                Context.MODE_PRIVATE);\n+        setContentView(R.layout.newtask);\n+        btn_start= (Button) findViewById(R.id.btn_start);\n+        et_path= (EditText) findViewById(R.id.et_path);\n+        btn_start.setOnClickListener(this);\n     }\n+\n+    @Override\n+    public void onClick(View v) {\n+        switch(v.getId()) {\n+            case R.id.btn_start:\n+                try {\n+                    String url = et_path.getText().toString();\n+\n+                    String sdcardPath =  Environment.getExternalStorageDirectory().toString();\n+                    Log.i(\"System.out\",\"sdcardPath:\"+sdcardPath+\",url:\"+url);\n+                    DownLoad downLoad = new DownLoad(url, sdcardPath);\n+                    Log.i(\"System.out\",\"sdcardPath:\"+sdcardPath+\",url:\"+url);\n+                    Toast.makeText(this,\"下载文件\"+DownLoadThread.getFileName(url),Toast.LENGTH_LONG).show();\n+                    downLoad.Start();\n+                }catch (IOException ex){\n+\n+                }\n+        }\n+    }\n+\n+\n }"
+  }, {
+    "sha" : "b59374e6ed400970bf46800246e38011754ba0d8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Position.java",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Position.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Position.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Position.java?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -0,0 +1,42 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903209;\n+\n+/**\n+ * Created by Administrator on 2017/4/21.\n+ */\n+import java.io.BufferedReader;\n+import java.io.File;\n+import java.io.FileInputStream;\n+import java.io.IOException;\n+import java.io.InputStreamReader;\n+import java.io.RandomAccessFile;\n+\n+/**\n+ *\n+ * @author Administrator\n+ */\n+public class Position {\n+    public static long readPosition(String filePath, int threadID) throws IOException {\n+        long position = 0;\n+        File file = new File(filePath + threadID + \".txt\");\n+        if (file.exists() && file.length() > 0) {\n+            FileInputStream fis = new FileInputStream(file);\n+            BufferedReader buf = new BufferedReader(new InputStreamReader(fis));\n+            String lastPosition = buf.readLine();\n+            fis.close();\n+        }\n+        return position;\n+    }\n+\n+    public static boolean writePosition(String filePath, int threadID, long position) throws IOException {\n+        RandomAccessFile saveRaf = new RandomAccessFile(filePath + threadID + \".txt\", \"rwd\");\n+        saveRaf.write(String.valueOf(position).getBytes());\n+        saveRaf.close();\n+        return true;\n+    }\n+\n+    public static boolean delPosition(String filePath, int threadID) throws IOException {\n+        File delfile = new File(filePath + threadID + \".txt\");\n+        delfile.delete();\n+        return true;\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "c7914c77eaef56ef943950bbbf6eadfe7f52dcdb",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903209.xml",
+    "status" : "modified",
+    "additions" : 48,
+    "deletions" : 8,
+    "changes" : 56,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/res/layout/activity_net1414080903209.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/res/layout/activity_net1414080903209.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903209.xml?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -1,17 +1,57 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:id=\"@+id/activity_net1414080903209\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\"\n     android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"net1414080903209Activity.java.Net1414080903209Activity\">\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903209.Net1414080903209Activity\">\n \n-    <TextView\n+    <LinearLayout\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"wrap_content\"\n+    android:layout_margin=\"10dp\">\n+        <Button\n+            android:text=\"@string/bt_new\"\n+            android:layout_margin=\"5dp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_gravity=\"center\"\n+            android:id=\"@+id/bt_start\"\n+            android:layout_alignParentTop=\"true\" />\n+\n+    <Button\n+        android:id=\"@+id/bt_pause\"\n+        android:layout_margin=\"5dp\"\n+        android:text=\"@string/bt_pause\"\n+        android:layout_weight=\"1\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n-</RelativeLayout>\n+        android:layout_gravity=\"center\"\n+        android:layout_alignParentTop=\"true\" />\n+\n+    <Button\n+            android:text=\"@string/bt_del\"\n+        android:layout_margin=\"5dp\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_gravity=\"center\"\n+            android:id=\"@+id/bt_del\"\n+            android:layout_alignParentTop=\"true\" />\n+</LinearLayout>\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:layout_margin=\"10dp\"\n+        android:orientation=\"vertical\"\n+        android:id=\"@+id/ll_pb\">\n+\n+\n+\n+    </LinearLayout>\n+\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "6ebfcb918c1d9b94c31537291ba3b1853b1c5040",
+    "filename" : "AndroidLabs/app/src/main/res/layout/newtask.xml",
+    "status" : "added",
+    "additions" : 65,
+    "deletions" : 0,
+    "changes" : 65,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/res/layout/newtask.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04f88e9e03d654283173d2dfbd3a0232b94070c8/AndroidLabs/app/src/main/res/layout/newtask.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/newtask.xml?ref=04f88e9e03d654283173d2dfbd3a0232b94070c8",
+    "patch" : "@@ -0,0 +1,65 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <LinearLayout\n+        android:gravity=\"center\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_weight=\"2\"\n+        android:orientation=\"vertical\">\n+\n+        <TextView\n+            android:layout_gravity=\"left\"\n+            android:text=\"@string/tv_pathtip\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_margin=\"10dp\"\n+            android:textSize=\"18sp\"\n+            android:id=\"@+id/tv_tips\"\n+            />\n+\n+        <EditText\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_marginLeft=\"10dp\"\n+            android:layout_marginRight=\"10dp\"\n+            android:singleLine=\"true\"\n+            android:id=\"@+id/et_path\"\n+            android:layout_alignParentStart=\"true\" />\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"105dp\"\n+            android:orientation=\"horizontal\"\n+            >\n+            <Button\n+                style=\"@style/Button\"\n+                android:id=\"@+id/btn_start\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"match_parent\"\n+                android:text=\"@string/bt_start\"\n+                android:layout_margin=\"10dp\"\n+                android:layout_weight=\"1\"/>\n+            <Button\n+                style=\"@style/Button\"\n+                android:id=\"@+id/btn_back\"\n+                android:layout_margin=\"10dp\"\n+                android:text=\"@string/back\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"match_parent\"\n+                android:layout_weight=\"1\"/>\n+\n+        </LinearLayout>\n+    </LinearLayout>\n+\n+    <TextView\n+        android:singleLine=\"false\"\n+        android:textSize=\"30sp\"\n+        android:layout_weight=\"1\"\n+        android:text=\"·可以输入一个网址\\n·tip2\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginLeft=\"10dp\"/>\n+</LinearLayout>"
+  } ],
+  "sha" : "04f88e9e03d654283173d2dfbd3a0232b94070c8",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/04f88e9e03d654283173d2dfbd3a0232b94070c8",
+  "parents" : [ {
+    "sha" : "18ece1a644a471f79afc159c3c18bd43f8ca2769",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/18ece1a644a471f79afc159c3c18bd43f8ca2769",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/18ece1a644a471f79afc159c3c18bd43f8ca2769"
+  } ]
+}

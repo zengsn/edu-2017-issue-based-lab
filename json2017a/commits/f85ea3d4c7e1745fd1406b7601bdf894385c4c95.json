@@ -1,0 +1,184 @@
+{
+  "committer" : {
+    "login" : "14w2mary",
+    "id" : 26320629,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26320629?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14w2mary",
+    "html_url" : "https://github.com/14w2mary",
+    "followers_url" : "https://api.github.com/users/14w2mary/followers",
+    "following_url" : "https://api.github.com/users/14w2mary/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14w2mary/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14w2mary/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14w2mary/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14w2mary/orgs",
+    "repos_url" : "https://api.github.com/users/14w2mary/repos",
+    "events_url" : "https://api.github.com/users/14w2mary/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14w2mary/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 397,
+    "additions" : 375,
+    "deletions" : 22
+  },
+  "author" : {
+    "login" : "14w2mary",
+    "id" : 26320629,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26320629?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14w2mary",
+    "html_url" : "https://github.com/14w2mary",
+    "followers_url" : "https://api.github.com/users/14w2mary/followers",
+    "following_url" : "https://api.github.com/users/14w2mary/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14w2mary/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14w2mary/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14w2mary/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14w2mary/orgs",
+    "repos_url" : "https://api.github.com/users/14w2mary/repos",
+    "events_url" : "https://api.github.com/users/14w2mary/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14w2mary/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+  "commit" : {
+    "author" : {
+      "name" : "14w2mary",
+      "email" : "2934992529@qq.com",
+      "date" : "2017-05-31T13:26:19Z"
+    },
+    "committer" : {
+      "name" : "14w2mary",
+      "email" : "2934992529@qq.com",
+      "date" : "2017-05-31T13:26:19Z"
+    },
+    "message" : "#5 #153 第五次作业",
+    "tree" : {
+      "sha" : "288b7602a48aa8a89f36c6e9b2db53885c0cb5af",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/288b7602a48aa8a89f36c6e9b2db53885c0cb5af"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/comments",
+  "files" : [ {
+    "sha" : "c3e06088497dbd47b5bf7b3424f8b4a8ea1c03fd",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java",
+    "status" : "added",
+    "additions" : 95,
+    "deletions" : 0,
+    "changes" : 95,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -0,0 +1,95 @@\n+package homeworks.androids.hzuapps.edu.application.net1414080903219;\n+\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.ArrayAdapter;\n+import android.widget.BaseAdapter;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+\n+import java.util.ArrayList;\n+\n+import homeworks.androids.hzuapps.edu.application.R;\n+\n+public class DancibenActivity extends AppCompatActivity {\n+\n+    private MyDatabaseHelper dbHelper;\n+    private ArrayList<Word> wordlist;\n+    private ListView lv;\n+\n+    //private String[] data={\"1\",\"2\"};\n+\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.danciben_net1414080903219);\n+\n+        /*\n+       ArrayAdapter<String>adapter=new ArrayAdapter<String>(DancibenActivity.this,\n+                android.R.layout.simple_list_item_1,data);\n+        ListView listView=(ListView)findViewById(R.id.list_view);\n+        listView.setAdapter(adapter);\n+        */\n+        dbHelper=new MyDatabaseHelper(this,\"WordList.db\",null,1);\n+        SQLiteDatabase db=dbHelper.getWritableDatabase();\n+        wordlist=new ArrayList<>();\n+        //扫描数据库，将数据库信息放入wordlist\n+        Cursor cursor=db.query(\"Word\",null,null,null,null,null,null);\n+        while(cursor.moveToNext()){\n+            String english=cursor.getString(cursor.getColumnIndex(\"english\"));\n+            String mean=cursor.getString(cursor.getColumnIndex(\"mean\"));\n+            String status=cursor.getString(cursor.getColumnIndex(\"status\"));\n+            Word en=new Word(english,mean,status);//Word存一个条目的数据\n+            wordlist.add(en);//把数据库中的每一行加入到数组中\n+        }\n+\n+        //获取ListView,并通过Adapter把wordlist的信息显示到ListView\n+        //为ListView设置一个适配器，getCount()返回数据个数；getView()为每一行设置一个条目\n+        lv=(ListView)findViewById(R.id.list_view);\n+        lv.setAdapter(new BaseAdapter() {\n+            @Override\n+            public int getCount() {\n+                return wordlist.size();\n+            }\n+\n+            //ListView的每一个条目都是一个view对象\n+            @Override\n+            public View getView(int position, View convertView, ViewGroup parent) {\n+                View view;\n+                //对ListView的优化。convertView为空时，创建一个新视图；convertView不为空时，代表它是\n+                //滚出屏幕，放入Recycler中的视图，若需要用到其他layout，则用inflate()，同一视图，\n+                //用findViewById\n+                if(convertView==null){\n+                    view=View.inflate(getBaseContext(),R.layout.listitem_net1414080903219,null);\n+                }\n+                else {\n+                    view=convertView;\n+                }\n+                //从wordlist中取出一行数据，position相当于数组下标，可以实现逐行取数据\n+                Word en=wordlist.get(position);\n+                TextView english=(TextView)view.findViewById(R.id.tv_english);\n+                TextView mean=(TextView)view.findViewById(R.id.tv_mean);\n+                TextView status=(TextView)view.findViewById(R.id.tv_status);\n+                english.setText(en.getEnglish());\n+                mean.setText(en.getMean());\n+                status.setText(en.getStatus());\n+                return view;\n+            }\n+\n+            @Override\n+            public Object getItem(int position) {\n+                return null;\n+            }\n+\n+            @Override\n+            public long getItemId(int position) {\n+                return 0;\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "0bad8f81fcc0379ea79a4c9a4db9cf43df7f3d5b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/FirstActivity.java",
+    "status" : "added",
+    "additions" : 189,
+    "deletions" : 0,
+    "changes" : 189,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/FirstActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/FirstActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/FirstActivity.java?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -0,0 +1,189 @@\n+package homeworks.androids.hzuapps.edu.application.net1414080903219;\n+\n+import android.content.ContentValues;\n+import android.content.Intent;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.Toast;\n+\n+import homeworks.androids.hzuapps.edu.application.R;\n+\n+public class FirstActivity extends AppCompatActivity {\n+\n+    private MyDatabaseHelper dbHelper;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.first_net1414080903219);\n+\n+        dbHelper=new MyDatabaseHelper(this,\"WordList.db\",null,1);\n+        Button createDatabase=(Button)findViewById(R.id.create_database);\n+\n+        createDatabase.setOnClickListener(new View.OnClickListener(){\n+\n+            @Override\n+            public void onClick(View v){\n+                dbHelper.getWritableDatabase();\n+            }\n+        });\n+\n+       Button addData=(Button)findViewById(R.id.add_data);\n+        addData.setOnClickListener(new View.OnClickListener(){\n+            @Override\n+            public void onClick(View v){\n+                Toast.makeText(FirstActivity.this,\"开始插入数据\", Toast.LENGTH_SHORT).show();\n+                SQLiteDatabase db=dbHelper.getWritableDatabase();\n+                ContentValues values=new ContentValues();\n+                //组装数据\n+                values.put(\"english\",\"audience\");\n+                values.put(\"mean\",\"n,观众\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"background\");\n+                values.put(\"mean\",\"n,背景\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"challenge\");\n+                values.put(\"mean\",\"n,挑战;v,向...挑战\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"descend\");\n+                values.put(\"mean\",\"v,下降\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"elite\");\n+                values.put(\"mean\",\"n,精英,掌权人物\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"faculty\");\n+                values.put(\"mean\",\"n,能力,才能\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"grope\");\n+                values.put(\"mean\",\"v,摸索\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"hysterical\");\n+                values.put(\"mean\",\"adj,歇斯底里的,情绪激动的\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"infant\");\n+                values.put(\"mean\",\"n,婴儿;adj,婴儿的\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"loyalty\");\n+                values.put(\"mean\",\"n,忠诚\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"mobilize\");\n+                values.put(\"mean\",\"v,动员,组织\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"tedious\");\n+                values.put(\"mean\",\"adj,冗长乏味的\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"qualitative\");\n+                values.put(\"mean\",\"adj,质量的，定性的\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"dizzy\");\n+                values.put(\"mean\",\"adj,头昏眼花的;v,使眩晕\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"amend\");\n+                values.put(\"mean\",\"v,修改\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"blunt\");\n+                values.put(\"mean\",\"adj,迟钝的，直率的;v,使迟钝\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"culminate\");\n+                values.put(\"mean\",\"v,达到终点\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+\n+                values.put(\"english\",\"cater\");\n+                values.put(\"mean\",\"v,迎合\");\n+                values.put(\"status\",\"未学\");\n+                db.insert(\"Word\",null,values);\n+                values.clear();\n+                //Toast.makeText(FirstActivity.this,\"charuchenggong!!!!\", Toast.LENGTH_SHORT).show();\n+            }\n+        });\n+\n+        Button queryButton=(Button)findViewById(R.id.query_data);\n+        queryButton.setOnClickListener(new View.OnClickListener(){\n+            @Override\n+            public void onClick(View v){\n+                SQLiteDatabase db=dbHelper.getWritableDatabase();\n+                //查询Word表中所有的数据\n+                Cursor cursor=db.query(\"Word\",null,null,null,null,null,null);\n+                if(cursor.moveToFirst()){\n+                    do{\n+                        //Toast.makeText(FirstActivity.this,\"有返回结果\", Toast.LENGTH_SHORT).show();\n+                        //遍历Cursor对象，取出数据并打印\n+                        String english=cursor.getString(cursor.getColumnIndex(\"english\"));\n+                        String mean=cursor.getString(cursor.getColumnIndex(\"mean\"));\n+                        String status=cursor.getString(cursor.getColumnIndex(\"status\"));\n+                        Log.d(\"FirstActivity\",\"english is \"+english);\n+                        Log.d(\"FirstActivity\",\"mean is \"+mean);\n+                        Log.d(\"FirstActivity\",\"status is \"+status);\n+                    }while(cursor.moveToNext());\n+                }\n+                cursor.close();\n+            }\n+        });\n+\n+        Button bu1=(Button)findViewById(R.id.access);\n+\n+        bu1.setOnClickListener(new View.OnClickListener(){\n+            @Override\n+            public void onClick(View v){\n+                Intent intent=new Intent(FirstActivity.this,ZhujiemianActivity.class);\n+                startActivity(intent);\n+            }\n+        });\n+\n+    }\n+}"
+  }, {
+    "sha" : "c433dbdb8295ae0887934f1b563ece4129579b17",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -12,7 +12,7 @@\n public class MyDatabaseHelper extends SQLiteOpenHelper {\n     public static final String CREATE_WORD=\"create table Word(\"\n             +\"id integer primary key autoincrement,\"\n-            +\"word string,\"\n+            +\"english string,\"\n             +\"mean string,\"\n             +\"status string)\";\n "
+  }, {
+    "sha" : "e493e7f7d0a5df28e218c2bc8563cce57370880e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 8,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -1,22 +1,17 @@\n package homeworks.androids.hzuapps.edu.application.net1414080903219;\n \n-import android.database.Cursor;\n-import android.database.sqlite.SQLiteDatabase;\n import android.support.v7.app.ActionBar;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n-import android.util.Log;\n-import android.widget.Toast;\n \n import java.util.Queue;\n \n-import homeworks.androids.hzuapps.edu.application.FirstActivity;\n import homeworks.androids.hzuapps.edu.application.R;\n \n public class StudyActivity extends AppCompatActivity {\n-    private MyDatabaseHelper dbHelper;\n-    private Queue<Word> Words;\n-    private Word word = new Word();\n+    //private MyDatabaseHelper dbHelper;\n+    //private Queue<Word> Words;\n+    //private Word word = new Word();\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);"
+  }, {
+    "sha" : "d66c5085214e8d5fc1eeb4dc6756bafde3d7d87b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Word.java",
+    "status" : "modified",
+    "additions" : 19,
+    "deletions" : 1,
+    "changes" : 20,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Word.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Word.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Word.java?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -5,5 +5,23 @@\n  */\n \n public class Word {\n-    public String name, meaning, status;\n+    public String english, mean, status;\n+\n+    public Word(String english,String mean,String status){\n+        this.english=english;\n+        this.mean=mean;\n+        this.status=status;\n+    }\n+\n+    public String getEnglish(){\n+        return english;\n+    }\n+\n+    public String getMean(){\n+        return mean;\n+    }\n+\n+    public String getStatus(){\n+        return status;\n+    }\n }"
+  }, {
+    "sha" : "b60a0d4ebb1fded171e5b3911c6649f6430c7fa2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ZhujiemianActivity.java",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 9,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ZhujiemianActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ZhujiemianActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ZhujiemianActivity.java?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -27,15 +27,15 @@ public void onClick(View v) {\n             }\n         });\n \n-        //点击错词，跳转到LearnedActivity\n-        //Button button2 = (Button) findViewById(R.id.button_3);\n-        //button1.setOnClickListener(new View.OnClickListener() {\n-           // @Override\n-            //public void onClick(View v) {\n-               // Intent intent = new Intent(ZhujiemianActivity.this, LearnedActivity.class);\n-               // startActivity(intent);\n-           // }\n-       // });\n+        Button button2=(Button)findViewById(R.id.button_3);\n+        button2.setOnClickListener(new View.OnClickListener(){\n+            @Override\n+            public void onClick(View v){\n+                Intent intent=new Intent(ZhujiemianActivity.this,DancibenActivity.class);\n+                startActivity(intent);\n+            }\n+        });\n+\n \n \n     }"
+  }, {
+    "sha" : "5c673035d4ca4730350be0e3fa31c0c9ad174881",
+    "filename" : "AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -0,0 +1,11 @@\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"#E9967A\">\n+\n+    <ListView\n+        android:id=\"@+id/list_view\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"/>\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "30235d7fc900dffd1a316131627c80bc01891dbb",
+    "filename" : "AndroidLabs/app/src/main/res/layout/first_net1414080903219.xml",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/first_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/first_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/first_net1414080903219.xml?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -26,4 +26,11 @@\n         android:text=\"Query data\"\n         />\n \n+    <Button\n+        android:id=\"@+id/access\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Access\"\n+        />\n+\n     </LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "79d121fe660ecc2cc89837fc19ee36926e5414ea",
+    "filename" : "AndroidLabs/app/src/main/res/layout/listitem_net1414080903219.xml",
+    "status" : "added",
+    "additions" : 32,
+    "deletions" : 0,
+    "changes" : 32,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/listitem_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/listitem_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/listitem_net1414080903219.xml?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -0,0 +1,32 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <TextView\n+        android:id=\"@+id/tv_english\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"英语\"\n+        android:textSize=\"25sp\"/>\n+\n+    <LinearLayout\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_alignParentRight=\"true\"\n+        android:orientation=\"vertical\">\n+        <TextView\n+            android:id=\"@+id/tv_mean\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"释义\"/>\n+        <TextView\n+            android:id=\"@+id/tv_status\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"状态\"/>\n+    </LinearLayout>\n+\n+\n+\n+</RelativeLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "f93f777417b297be73e8cb24a8e53ca3981d22c7",
+    "filename" : "AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 3,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f85ea3d4c7e1745fd1406b7601bdf894385c4c95/AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml?ref=f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+    "patch" : "@@ -20,24 +20,30 @@ android:orientation=\"vertical\"\n         android:text=\"单词听写\"\n         />\n \n-\n     <Button\n         android:id=\"@+id/button_3\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n+        android:text=\"单词本\"\n+        />\n+\n+    <Button\n+        android:id=\"@+id/button_4\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n         android:text=\"错词\"\n         />\n \n \n     <Button\n-        android:id=\"@+id/button_4\"\n+        android:id=\"@+id/button_5\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n         android:text=\"已学习单词\"\n         />\n \n     <Button\n-        android:id=\"@+id/button_\"\n+        android:id=\"@+id/button_6\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n         android:text=\"退出\""
+  } ],
+  "sha" : "f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f85ea3d4c7e1745fd1406b7601bdf894385c4c95",
+  "parents" : [ {
+    "sha" : "22151865424cee71892f3f5f1952f8f4d6a4dcf2",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/22151865424cee71892f3f5f1952f8f4d6a4dcf2",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/22151865424cee71892f3f5f1952f8f4d6a4dcf2"
+  } ]
+}

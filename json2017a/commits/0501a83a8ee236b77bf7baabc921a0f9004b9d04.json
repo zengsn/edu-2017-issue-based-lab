@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 91,
+    "additions" : 71,
+    "deletions" : 20
+  },
+  "author" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0501a83a8ee236b77bf7baabc921a0f9004b9d04",
+  "commit" : {
+    "author" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-06-04T13:12:51Z"
+    },
+    "committer" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-06-04T13:12:51Z"
+    },
+    "message" : "#5 #71 第五次实验",
+    "tree" : {
+      "sha" : "33db0c64884b03407424cb2d1cdc8b96bb99756b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/33db0c64884b03407424cb2d1cdc8b96bb99756b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0501a83a8ee236b77bf7baabc921a0f9004b9d04",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0501a83a8ee236b77bf7baabc921a0f9004b9d04/comments",
+  "files" : [ {
+    "sha" : "cbf1f2da4eb99ef132a8795ccc6f7e0107e04051",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "status" : "modified",
+    "additions" : 41,
+    "deletions" : 2,
+    "changes" : 43,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0501a83a8ee236b77bf7baabc921a0f9004b9d04/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0501a83a8ee236b77bf7baabc921a0f9004b9d04/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java?ref=0501a83a8ee236b77bf7baabc921a0f9004b9d04",
+    "patch" : "@@ -1,15 +1,24 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903114;\n \n+import java.io.FileInputStream;\n+import java.io.FileNotFoundException;\n+import java.io.FileOutputStream;\n+import java.io.IOException;\n+\n import edu.hzuapps.androidlabs.homeworks.net1414080903114.hardwareinfo.RateDatas;\n import android.app.Activity;\n+import android.content.Context;\n import android.os.Bundle;\n import android.os.Handler;\n+import android.view.View;\n import android.widget.TextView;\n+import android.widget.Toast;\n \n public class MainActivity extends Activity {\n \tprivate TextView tv_readRate, tv_writeRate, tv_uploadRate, tv_downloadRate;\n \tprivate float virtualRate;\n \t\n+\t\n \tprivate Handler handler = new Handler( );\n \tprivate Runnable gsRateThread = new Runnable(){\n \t\t@Override\n@@ -52,14 +61,14 @@ public float getDiskWriteR() {\n     }\n     public float getNetUploadR(){\n     \tfloat uploadR = 0;\n-    \t//TODO code here to get diskUploadRate\n+    \t//TODO code here to get networkUploadRate\n     \tuploadR = virtualRate + 2;\n     \treturn uploadR;\n     \t\n     }\n     public float getNetDownloadR(){\n     \tfloat downloadR = 0;\n-    \t//TODO code here to get diskDownloadRate\n+    \t//TODO code here to get networkDownloadRate\n     \tdownloadR = virtualRate + 3;\n     \treturn downloadR;\n     \t\n@@ -89,6 +98,36 @@ public void setTextsValue(RateDatas rateD) {\n         tv_uploadRate.setText(\"UploadRate: \" + rateD.getUploadR() + \" KB/s\");\n         tv_downloadRate.setText(\"DownloadRate: \" + rateD.getDownloadR() + \" KB/s\");\n     }\n+    public void saveRate(View view) {\n+    \tFileOutputStream fos;\n+\t\tString rate = null;\n+\t\ttry {\n+\t\t\tfos = openFileOutput(\"rateDatas.txt\", MODE_APPEND);\n+\t\t\tRateDatas rateD = new RateDatas();\n+\t\t\trateD = getRateDatas();\n+\t\t\trate  = \"ReadRate = \" + rateD.getReadR() + \"\\n\" +\n+\t\t\t\t\t\t\t\"WriteRate = \" + rateD.getWriteR() + \"\\n\" +\n+\t\t\t\t\t\t\t\"UploadRate = \" + rateD.getUploadR() + \"\\n\" + \n+\t\t\t\t\t\t\t\"DownloadRate = \" + rateD.getDownloadR() + \"\\n\";\n+\t\t\tfos.write(rate.getBytes());\n+\t\t\tfos.close();\n+\t\t} catch (FileNotFoundException e) {\n+\t\t\t// TODO Auto-generated catch block\n+\t\t\te.printStackTrace();\n+\t\t} catch (IOException e) {\n+\t\t\t// TODO Auto-generated catch block\n+\t\t\te.printStackTrace();\n+\t\t}\n+\t\tToast.makeText(MainActivity.this, \"save successfully\", 0).show();\n+    }\n+    public void readRate(View view) throws IOException {\n+    \tFileInputStream fis = openFileInput(\"rateDatas.txt\");\n+    \tbyte[] buffer = new byte[fis.available()];\n+    \tfis.read(buffer);\n+    \tString rateDatas = new String(buffer);\n+    \tfis.close();\n+    \tToast.makeText(MainActivity.this, rateDatas, 0).show();\n+    }\n     \n }\n     "
+  }, {
+    "sha" : "1d5e5f434c0b658d7c7482d2ce1005877d955b1a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main_net1414080903114.xml",
+    "status" : "modified",
+    "additions" : 30,
+    "deletions" : 18,
+    "changes" : 48,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0501a83a8ee236b77bf7baabc921a0f9004b9d04/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903114.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0501a83a8ee236b77bf7baabc921a0f9004b9d04/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903114.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903114.xml?ref=0501a83a8ee236b77bf7baabc921a0f9004b9d04",
+    "patch" : "@@ -1,27 +1,39 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+<LinearLayout\txmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\" >\n-    \n+   \tandroid:layout_height=\"match_parent\"\n+   \tandroid:orientation=\"vertical\" >\n \t<TextView\n+\t    android:id=\"@+id/tv_diskReadRate\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:text=\"@string/net_hello\" />\n-\t<Button\n-        android:id=\"@+id/diskBtn\"\n+        android:layout_marginTop=\"10dp\" />\n+\t<TextView\n+\t    android:id=\"@+id/tv_diskWriteRate\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_alignParentLeft=\"true\"\n-        android:onClick=\"clickDisk\"\n-        android:text=\"@string/start_disk_activity\"/>\n-\n+        android:layout_marginTop=\"10dp\" />\n+\t\n+\t<TextView\n+\t    android:id=\"@+id/tv_networkReadRate\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginTop=\"10dp\" />\n+\t<TextView\n+\t    android:id=\"@+id/tv_networkWriteRate\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginTop=\"10dp\" />\t\n+    <Button\n+\t    android:id=\"@+id/btn_saveRateDatas\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:onClick=\"saveRate\"\n+        android:text=\"saveRateDatas\" />\t\n     <Button\n-        android:id=\"@+id/networkBtn\"\n+\t    android:id=\"@+id/btn_readRateDatas\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_alignParentRight=\"true\"\n-        android:onClick=\"clickNetwork\"\n-        android:text=\"@string/start_network_activity\"/>\n-</RelativeLayout>\n+        android:onClick=\"readRate\"\n+        android:text=\"readRateDatas\" />\t\n+</LinearLayout>\n+"
+  } ],
+  "sha" : "0501a83a8ee236b77bf7baabc921a0f9004b9d04",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0501a83a8ee236b77bf7baabc921a0f9004b9d04",
+  "parents" : [ {
+    "sha" : "5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6"
+  } ]
+}

@@ -1,0 +1,206 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 581,
+    "additions" : 150,
+    "deletions" : 431
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bec413137cc28e5e87314b84a29665e44235188a",
+  "commit" : {
+    "author" : {
+      "name" : "jackccc",
+      "email" : "mo_1905@163.com",
+      "date" : "2017-05-14T16:44:30Z"
+    },
+    "committer" : {
+      "name" : "jackccc",
+      "email" : "mo_1905@163.com",
+      "date" : "2017-05-14T16:44:30Z"
+    },
+    "message" : "#3 #12 第三次作业",
+    "tree" : {
+      "sha" : "b1421683c08be94d5f6bdf3b6b69b2003e410052",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b1421683c08be94d5f6bdf3b6b69b2003e410052"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/bec413137cc28e5e87314b84a29665e44235188a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bec413137cc28e5e87314b84a29665e44235188a/comments",
+  "files" : [ {
+    "sha" : "c8f458bc3bd3a43e00969fc49f9a59d75f52a122",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java",
+    "status" : "added",
+    "additions" : 33,
+    "deletions" : 0,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java?ref=bec413137cc28e5e87314b84a29665e44235188a",
+    "patch" : "@@ -0,0 +1,33 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903120.ui;\n+import java.io.IOException;\n+import java.io.ObjectOutputStream;\n+\n+\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.view.Window;\n+import android.view.View.OnClickListener;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class LoginActivity extends AppCompatActivity {\n+\tpublic static String userInfo;\n+\tEditText accountEt,passwordEt;\n+\t\n+\tprotected void onCreate(Bundle savedInstanceState) {\n+\t\tsuper.onCreate(savedInstanceState);\n+\t\trequestWindowFeature(Window.FEATURE_NO_TITLE);\n+\t    setContentView(R.layout.net1414080903120_activity_login);\n+\t    \n+\t    accountEt=(EditText) findViewById(R.id.et_account);\n+\t    passwordEt=(EditText) findViewById(R.id.et_password);\n+\t    Button btnLogin=(Button) findViewById(R.id.btn_login);\n+\t}\n+}"
+  }, {
+    "sha" : "c8a0f807d97a1f789138c93706c8d7b7703424ca",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/Net1414080903120LoginActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 354,
+    "changes" : 354,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/34db81fb6ebeda38d9f8e51f963ee161f4c159d0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/Net1414080903120LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/34db81fb6ebeda38d9f8e51f963ee161f4c159d0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/Net1414080903120LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/Net1414080903120LoginActivity.java?ref=34db81fb6ebeda38d9f8e51f963ee161f4c159d0",
+    "patch" : "@@ -1,354 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903120.ui;\n-\n-import android.animation.Animator;\n-import android.animation.AnimatorListenerAdapter;\n-import android.annotation.TargetApi;\n-import android.content.pm.PackageManager;\n-import android.support.annotation.NonNull;\n-import android.support.design.widget.Snackbar;\n-import android.support.v7.app.AppCompatActivity;\n-import android.app.LoaderManager.LoaderCallbacks;\n-\n-import android.content.CursorLoader;\n-import android.content.Loader;\n-import android.database.Cursor;\n-import android.net.Uri;\n-import android.os.AsyncTask;\n-\n-import android.os.Build;\n-import android.os.Bundle;\n-import android.provider.ContactsContract;\n-import android.text.TextUtils;\n-import android.view.KeyEvent;\n-import android.view.View;\n-import android.view.View.OnClickListener;\n-import android.view.inputmethod.EditorInfo;\n-import android.widget.ArrayAdapter;\n-import android.widget.AutoCompleteTextView;\n-import android.widget.Button;\n-import android.widget.EditText;\n-import android.widget.TextView;\n-import android.widget.Toast;\n-\n-import java.util.ArrayList;\n-import java.util.List;\n-\n-import edu.hzuapps.androidlabs.R;\n-\n-import static android.Manifest.permission.READ_CONTACTS;\n-\n-/**\n- * A login screen that offers login via email/password.\n- */\n-public class Net1414080903120LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {\n-\n-    /**\n-     * Id to identity READ_CONTACTS permission request.\n-     */\n-    private static final int REQUEST_READ_CONTACTS = 0;\n-\n-    /**\n-     * A dummy authentication store containing known user names and passwords.\n-     * TODO: remove after connecting to a real authentication system.\n-     */\n-    private static final String[] DUMMY_CREDENTIALS = new String[]{\n-            \"foo@example.com:hello\", \"bar@example.com:world\"\n-    };\n-    /**\n-     * Keep track of the login task to ensure we can cancel it if requested.\n-     */\n-    private UserLoginTask mAuthTask = null;\n-\n-    // UI references.\n-    private AutoCompleteTextView mEmailView;\n-    private EditText mPasswordView;\n-    private View mProgressView;\n-    private View mLoginFormView;\n-\n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_net1414080903120_login);\n-        // Set up the login form.\n-        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);\n-        populateAutoComplete();\n-\n-        mPasswordView = (EditText) findViewById(R.id.password);\n-        mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {\n-            @Override\n-            public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {\n-                if (id == R.id.login || id == EditorInfo.IME_NULL) {\n-                    attemptLogin();\n-                    return true;\n-                }\n-                return false;\n-            }\n-        });\n-\n-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);\n-        mEmailSignInButton.setOnClickListener(new OnClickListener() {\n-            @Override\n-            public void onClick(View view) {\n-                attemptLogin();\n-            }\n-        });\n-\n-        mLoginFormView = findViewById(R.id.login_form);\n-        mProgressView = findViewById(R.id.login_progress);\n-    }\n-\n-    private void populateAutoComplete() {\n-        if (!mayRequestContacts()) {\n-            return;\n-        }\n-\n-        getLoaderManager().initLoader(0, null, this);\n-    }\n-\n-    private boolean mayRequestContacts() {\n-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {\n-            return true;\n-        }\n-        if (checkSelfPermission(READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {\n-            return true;\n-        }\n-        if (shouldShowRequestPermissionRationale(READ_CONTACTS)) {\n-            Snackbar.make(mEmailView, R.string.permission_rationale, Snackbar.LENGTH_INDEFINITE)\n-                    .setAction(android.R.string.ok, new View.OnClickListener() {\n-                        @Override\n-                        @TargetApi(Build.VERSION_CODES.M)\n-                        public void onClick(View v) {\n-                            requestPermissions(new String[]{READ_CONTACTS}, REQUEST_READ_CONTACTS);\n-                        }\n-                    });\n-        } else {\n-            requestPermissions(new String[]{READ_CONTACTS}, REQUEST_READ_CONTACTS);\n-        }\n-        return false;\n-    }\n-\n-    /**\n-     * Callback received when a permissions request has been completed.\n-     */\n-    @Override\n-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,\n-                                           @NonNull int[] grantResults) {\n-        if (requestCode == REQUEST_READ_CONTACTS) {\n-            if (grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {\n-                populateAutoComplete();\n-            }\n-\n-        }\n-    }\n-\n-\n-    /**\n-     * Attempts to sign in or register the account specified by the login form.\n-     * If there are form errors (invalid email, missing fields, etc.), the\n-     * errors are presented and no actual login attempt is made.\n-     */\n-    private void attemptLogin() {\n-        if (mAuthTask != null) {\n-            return;\n-        }\n-\n-        // Reset errors.\n-        mEmailView.setError(null);\n-        mPasswordView.setError(null);\n-\n-        // Store values at the time of the login attempt.\n-        String email = mEmailView.getText().toString();\n-        String password = mPasswordView.getText().toString();\n-\n-        boolean cancel = false;\n-        View focusView = null;\n-\n-        // Check for a valid password, if the user entered one.\n-        if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {\n-            mPasswordView.setError(getString(R.string.error_invalid_password));\n-            focusView = mPasswordView;\n-            cancel = true;\n-        }\n-\n-        // Check for a valid email address.\n-        if (TextUtils.isEmpty(email)) {\n-            mEmailView.setError(getString(R.string.error_field_required));\n-            focusView = mEmailView;\n-            cancel = true;\n-        } else if (!isEmailValid(email)) {\n-            mEmailView.setError(getString(R.string.error_invalid_email));\n-            focusView = mEmailView;\n-            cancel = true;\n-        }\n-\n-        if (cancel) {\n-            // There was an error; don't attempt login and focus the first\n-            // form field with an error.\n-            focusView.requestFocus();\n-        } else {\n-            // Show a progress spinner, and kick off a background task to\n-            // perform the user login attempt.\n-            showProgress(true);\n-            mAuthTask = new UserLoginTask(email, password);\n-            mAuthTask.execute((Void) null);\n-        }\n-    }\n-\n-    private boolean isEmailValid(String email) {\n-        //TODO: Replace this with your own logic\n-        return email.contains(\"@\");\n-    }\n-\n-    private boolean isPasswordValid(String password) {\n-        //TODO: Replace this with your own logic\n-        return password.length() > 4;\n-    }\n-\n-    /**\n-     * Shows the progress UI and hides the login form.\n-     */\n-    @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)\n-    private void showProgress(final boolean show) {\n-        // On Honeycomb MR2 we have the ViewPropertyAnimator APIs, which allow\n-        // for very easy animations. If available, use these APIs to fade-in\n-        // the progress spinner.\n-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {\n-            int shortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);\n-\n-            mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);\n-            mLoginFormView.animate().setDuration(shortAnimTime).alpha(\n-                    show ? 0 : 1).setListener(new AnimatorListenerAdapter() {\n-                @Override\n-                public void onAnimationEnd(Animator animation) {\n-                    mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);\n-                }\n-            });\n-\n-            mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);\n-            mProgressView.animate().setDuration(shortAnimTime).alpha(\n-                    show ? 1 : 0).setListener(new AnimatorListenerAdapter() {\n-                @Override\n-                public void onAnimationEnd(Animator animation) {\n-                    mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);\n-                }\n-            });\n-        } else {\n-            // The ViewPropertyAnimator APIs are not available, so simply show\n-            // and hide the relevant UI components.\n-            mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);\n-            mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);\n-        }\n-    }\n-\n-    @Override\n-    public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {\n-        return new CursorLoader(this,\n-                // Retrieve data rows for the device user's 'profile' contact.\n-                Uri.withAppendedPath(ContactsContract.Profile.CONTENT_URI,\n-                        ContactsContract.Contacts.Data.CONTENT_DIRECTORY), ProfileQuery.PROJECTION,\n-\n-                // Select only email addresses.\n-                ContactsContract.Contacts.Data.MIMETYPE +\n-                        \" = ?\", new String[]{ContactsContract.CommonDataKinds.Email\n-                .CONTENT_ITEM_TYPE},\n-\n-                // Show primary email addresses first. Note that there won't be\n-                // a primary email address if the user hasn't specified one.\n-                ContactsContract.Contacts.Data.IS_PRIMARY + \" DESC\");\n-    }\n-\n-    @Override\n-    public void onLoadFinished(Loader<Cursor> cursorLoader, Cursor cursor) {\n-        List<String> emails = new ArrayList<>();\n-        cursor.moveToFirst();\n-        while (!cursor.isAfterLast()) {\n-            emails.add(cursor.getString(ProfileQuery.ADDRESS));\n-            cursor.moveToNext();\n-        }\n-\n-        addEmailsToAutoComplete(emails);\n-    }\n-\n-    @Override\n-    public void onLoaderReset(Loader<Cursor> cursorLoader) {\n-\n-    }\n-\n-    private void addEmailsToAutoComplete(List<String> emailAddressCollection) {\n-        //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.\n-        ArrayAdapter<String> adapter =\n-                new ArrayAdapter<>(Net1414080903120LoginActivity.this,\n-                        android.R.layout.simple_dropdown_item_1line, emailAddressCollection);\n-\n-        mEmailView.setAdapter(adapter);\n-    }\n-\n-\n-    private interface ProfileQuery {\n-        String[] PROJECTION = {\n-                ContactsContract.CommonDataKinds.Email.ADDRESS,\n-                ContactsContract.CommonDataKinds.Email.IS_PRIMARY,\n-        };\n-\n-        int ADDRESS = 0;\n-        int IS_PRIMARY = 1;\n-    }\n-\n-    /**\n-     * Represents an asynchronous login/registration task used to authenticate\n-     * the user.\n-     */\n-    public class UserLoginTask extends AsyncTask<Void, Void, Boolean> {\n-\n-        private final String mEmail;\n-        private final String mPassword;\n-\n-        UserLoginTask(String email, String password) {\n-            mEmail = email;\n-            mPassword = password;\n-        }\n-\n-        @Override\n-        protected Boolean doInBackground(Void... params) {\n-            // TODO: attempt authentication against a network service.\n-\n-            try {\n-                // Simulate network access.\n-                Thread.sleep(2000);\n-            } catch (InterruptedException e) {\n-                return false;\n-            }\n-\n-            for (String credential : DUMMY_CREDENTIALS) {\n-                String[] pieces = credential.split(\":\");\n-                if (pieces[0].equals(mEmail)) {\n-                    // Account exists, return true if the password matches.\n-                    return pieces[1].equals(mPassword);\n-                }\n-            }\n-\n-            // TODO: register the new account here.\n-            return true;\n-        }\n-\n-        @Override\n-        protected void onPostExecute(final Boolean success) {\n-            mAuthTask = null;\n-            showProgress(false);\n-\n-            if (success) {\n-                finish();\n-            } else {\n-                mPasswordView.setError(getString(R.string.error_incorrect_password));\n-                mPasswordView.requestFocus();\n-            }\n-        }\n-\n-        @Override\n-        protected void onCancelled() {\n-            mAuthTask = null;\n-            showProgress(false);\n-        }\n-    }\n-}\n-"
+  }, {
+    "sha" : "fd6fc3c14c5f3e62cac6654905b5d2d6b2e31916",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/cb_check.xml",
+    "status" : "added",
+    "additions" : 4,
+    "deletions" : 0,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/cb_check.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/cb_check.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/cb_check.xml?ref=bec413137cc28e5e87314b84a29665e44235188a",
+    "patch" : "@@ -0,0 +1,4 @@\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_checked=\"true\" android:drawable=\"@drawable/cb_on\"/>\n+    <item android:drawable=\"@drawable/cb_normal\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "35c3eca729b66b8c44899386ff3c35bc49d3f049",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/cb_normal.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/cb_normal.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/cb_normal.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/cb_normal.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "13b5086e0dd35ec06a61a29e0df7e5930fd3774f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/cb_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/cb_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/cb_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/cb_on.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "979f134bcb6242ab356a59b3685ccc8c075729a3",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/input_login.xml",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/input_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/input_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/input_login.xml?ref=bec413137cc28e5e87314b84a29665e44235188a",
+    "patch" : "@@ -0,0 +1,7 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<selector\n+  xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_enabled=\"false\" android:drawable=\"@drawable/input_normal\" />\n+    <item android:state_pressed=\"true\" android:drawable=\"@drawable/input_normal\" />\n+    <item android:state_focused=\"true\" android:drawable=\"@drawable/input_over\" />\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "ff7643d70d8001af0a795d45758840d45de936d7",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/input_normal.9.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/input_normal.9.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/input_normal.9.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/input_normal.9.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "1d268814a9b54af9e373d0c189e3ad850d15d4ad",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/input_over.9.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/input_over.9.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/input_over.9.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/input_over.9.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "6db1629174051fd94a94c4b1adcf1ecd723ceb40",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/login_bg.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_bg.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_bg.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/login_bg.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "be16a621704a01fb07ecdadefda22961689ac332",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/login_btn_selector.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_btn_selector.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_btn_selector.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/login_btn_selector.xml?ref=bec413137cc28e5e87314b84a29665e44235188a",
+    "patch" : "@@ -0,0 +1,8 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_focused=\"false\" android:state_selected=\"false\" android:state_pressed=\"false\" android:drawable=\"@drawable/login_button_nor\" />\n+    <item android:state_focused=\"false\" android:state_selected=\"true\" android:state_pressed=\"false\" android:drawable=\"@drawable/login_button_press\" />\n+    <item android:state_focused=\"true\" android:state_selected=\"false\" android:state_pressed=\"false\" android:drawable=\"@drawable/login_button_nor\" />\n+    <item android:state_focused=\"true\" android:state_selected=\"true\" android:state_pressed=\"false\" android:drawable=\"@drawable/login_button_press\" />\n+    <item android:state_pressed=\"true\" android:drawable=\"@drawable/login_button_press\" />\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "6bca6a229984d09acf3ef68bbcb33be0731e9b8f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/login_button_nor.9.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_button_nor.9.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_button_nor.9.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/login_button_nor.9.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "c77673ef365681e5be79f2aeaf15a0fb5f060055",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/login_button_press.9.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_button_press.9.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_button_press.9.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/login_button_press.9.png?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "7b658558cc40093425fe7ed0092ae10b8dd52ac7",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/login_head.xml",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_head.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_head.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/login_head.xml?ref=bec413137cc28e5e87314b84a29665e44235188a",
+    "patch" : "@@ -0,0 +1,10 @@\n+<layer-list xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+   <item android:id=\"@+id/user_faceback_drawable\" \n+       android:drawable=\"@drawable/head_bg\"/>\n+\t<item android:id=\"@+id/user_face_drawable\" \n+\t    android:drawable=\"@drawable/default_head\" \n+    \tandroid:left=\"10.0dip\" \n+    \tandroid:top=\"18.0dip\" \n+    \tandroid:right=\"25.0dip\" \n+    \tandroid:bottom=\"35.0dip\"/>\n+</layer-list>\n\\ No newline at end of file"
+  }, {
+    "sha" : "5e8b1c4b0443e5e1b77507ff0ef439c8fae4f3b4",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/login_logo.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_logo.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/drawable/login_logo.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/login_logo.jpg?ref=bec413137cc28e5e87314b84a29665e44235188a"
+  }, {
+    "sha" : "de8567540c98ca77dccca61c5d1d9e3eeef94670",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903120_login.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 77,
+    "changes" : 77,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/34db81fb6ebeda38d9f8e51f963ee161f4c159d0/AndroidLabs/app/src/main/res/layout/activity_net1414080903120_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/34db81fb6ebeda38d9f8e51f963ee161f4c159d0/AndroidLabs/app/src/main/res/layout/activity_net1414080903120_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903120_login.xml?ref=34db81fb6ebeda38d9f8e51f963ee161f4c159d0",
+    "patch" : "@@ -1,77 +0,0 @@\n-<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-              xmlns:tools=\"http://schemas.android.com/tools\"\n-              android:layout_width=\"match_parent\"\n-              android:layout_height=\"match_parent\"\n-              android:gravity=\"center_horizontal\"\n-              android:orientation=\"vertical\"\n-              android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-              android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-              android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-              android:paddingTop=\"@dimen/activity_vertical_margin\"\n-              tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903120.ui.Net1414080903120LoginActivity\">\n-\n-    <!-- Login progress -->\n-    <ProgressBar\n-        android:id=\"@+id/login_progress\"\n-        style=\"?android:attr/progressBarStyleLarge\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginBottom=\"8dp\"\n-        android:visibility=\"gone\"/>\n-\n-    <ScrollView\n-        android:id=\"@+id/login_form\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"match_parent\">\n-\n-        <LinearLayout\n-            android:id=\"@+id/email_login_form\"\n-            android:layout_width=\"match_parent\"\n-            android:layout_height=\"wrap_content\"\n-            android:orientation=\"vertical\">\n-\n-            <android.support.design.widget.TextInputLayout\n-                android:layout_width=\"match_parent\"\n-                android:layout_height=\"wrap_content\">\n-\n-                <AutoCompleteTextView\n-                    android:id=\"@+id/email\"\n-                    android:layout_width=\"match_parent\"\n-                    android:layout_height=\"wrap_content\"\n-                    android:hint=\"@string/prompt_email\"\n-                    android:inputType=\"textEmailAddress\"\n-                    android:maxLines=\"1\"\n-                    android:singleLine=\"true\"/>\n-\n-            </android.support.design.widget.TextInputLayout>\n-\n-            <android.support.design.widget.TextInputLayout\n-                android:layout_width=\"match_parent\"\n-                android:layout_height=\"wrap_content\">\n-\n-                <EditText\n-                    android:id=\"@+id/password\"\n-                    android:layout_width=\"match_parent\"\n-                    android:layout_height=\"wrap_content\"\n-                    android:hint=\"@string/prompt_password\"\n-                    android:imeActionId=\"@+id/login\"\n-                    android:imeActionLabel=\"@string/action_sign_in_short\"\n-                    android:imeOptions=\"actionUnspecified\"\n-                    android:inputType=\"textPassword\"\n-                    android:maxLines=\"1\"\n-                    android:singleLine=\"true\"/>\n-\n-            </android.support.design.widget.TextInputLayout>\n-\n-            <Button\n-                android:id=\"@+id/email_sign_in_button\"\n-                style=\"?android:textAppearanceSmall\"\n-                android:layout_width=\"match_parent\"\n-                android:layout_height=\"wrap_content\"\n-                android:layout_marginTop=\"16dp\"\n-                android:text=\"@string/action_sign_in\"\n-                android:textStyle=\"bold\"/>\n-\n-        </LinearLayout>\n-    </ScrollView>\n-</LinearLayout>"
+  }, {
+    "sha" : "ddba66ba1e3ba2d947468b24ba1989ab2caae31b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903120_activity_login.xml",
+    "status" : "added",
+    "additions" : 88,
+    "deletions" : 0,
+    "changes" : 88,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/layout/net1414080903120_activity_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bec413137cc28e5e87314b84a29665e44235188a/AndroidLabs/app/src/main/res/layout/net1414080903120_activity_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903120_activity_login.xml?ref=bec413137cc28e5e87314b84a29665e44235188a",
+    "patch" : "@@ -0,0 +1,88 @@\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/login_bg\" >\n+    <ImageView\n+        android:id=\"@+id/imageView1\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"120dp\"\n+        android:src=\"@drawable/login_logo\"\n+        android:background=\"@drawable/login_bg\"/>\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/imageView1\"\n+        android:layout_marginLeft=\"45dp\"\n+        android:layout_marginRight=\"60dp\"\n+        android:orientation=\"vertical\" >\n+\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:orientation=\"horizontal\" >\n+            <TextView\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:textSize=\"16sp\"\n+                android:text=\"账号：\" />\n+            <EditText\n+                android:id=\"@+id/et_account\"\n+                android:layout_width=\"200dp\"\n+                android:layout_height=\"wrap_content\"\n+                android:inputType=\"number\"\n+\t            android:maxLength=\"10\"\n+\t            android:textSize=\"16sp\"\n+\t            android:hint=\"输入账号\"\n+                android:background=\"@drawable/input_normal\" />\n+        </LinearLayout>\n+        <LinearLayout\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:orientation=\"horizontal\" >\n+            <TextView\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:textSize=\"16sp\"\n+                android:text=\"密码：\" />\n+            <EditText\n+                android:id=\"@+id/et_password\"\n+                android:layout_width=\"200dip\"\n+                android:layout_height=\"wrap_content\"\n+                android:textSize=\"16sp\"\n+                android:background=\"@drawable/input_normal\"\n+                android:hint=\"输入密码\"/>\n+        </LinearLayout>\n+        <LinearLayout\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:orientation=\"horizontal\" >\n+            <CheckBox\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:button=\"@drawable/cb_check\"\n+                android:textColor=\"#4F4F4F\"\n+                android:textSize=\"16sp\"\n+                android:text=\"记住密码\" />\n+        </LinearLayout>\n+        <LinearLayout\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_gravity=\"right\"\n+            android:orientation=\"horizontal\" >\n+            <Button\n+                android:id=\"@+id/btn_register\"\n+                android:layout_width=\"110dip\"\n+                android:layout_height=\"35dip\"\n+                android:background=\"@drawable/login_button_nor\"\n+                android:gravity=\"center\"\n+                android:text=\"注册\" />\n+            <Button\n+                android:id=\"@+id/btn_login\"\n+                android:layout_width=\"110dip\"\n+                android:layout_height=\"35dip\"\n+                android:background=\"@drawable/login_btn_selector\"\n+                android:gravity=\"center\"\n+                android:text=\"登陆\" />\n+        </LinearLayout>\n+    </LinearLayout>\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "bec413137cc28e5e87314b84a29665e44235188a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bec413137cc28e5e87314b84a29665e44235188a",
+  "parents" : [ {
+    "sha" : "34db81fb6ebeda38d9f8e51f963ee161f4c159d0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/34db81fb6ebeda38d9f8e51f963ee161f4c159d0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/34db81fb6ebeda38d9f8e51f963ee161f4c159d0"
+  } ]
+}

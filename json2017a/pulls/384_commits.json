@@ -1,0 +1,68 @@
+[ {
+  "sha" : "888a8ba754153d4d55578b1f429c9c68750f5c5e",
+  "commit" : {
+    "author" : {
+      "name" : "hizzj",
+      "email" : "1014779513@qq.com",
+      "date" : "2017-05-26T02:49:04Z"
+    },
+    "committer" : {
+      "name" : "hizzj",
+      "email" : "1014779513@qq.com",
+      "date" : "2017-05-26T02:49:04Z"
+    },
+    "message" : "#5 #36 第五次作业",
+    "tree" : {
+      "sha" : "2f11c7f24856f8d507f66beb3326925f90133a7d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2f11c7f24856f8d507f66beb3326925f90133a7d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/888a8ba754153d4d55578b1f429c9c68750f5c5e",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/888a8ba754153d4d55578b1f429c9c68750f5c5e",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/888a8ba754153d4d55578b1f429c9c68750f5c5e",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/888a8ba754153d4d55578b1f429c9c68750f5c5e/comments",
+  "author" : {
+    "login" : "hizzj",
+    "id" : 19361617,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/19361617?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hizzj",
+    "html_url" : "https://github.com/hizzj",
+    "followers_url" : "https://api.github.com/users/hizzj/followers",
+    "following_url" : "https://api.github.com/users/hizzj/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hizzj/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hizzj/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hizzj/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hizzj/orgs",
+    "repos_url" : "https://api.github.com/users/hizzj/repos",
+    "events_url" : "https://api.github.com/users/hizzj/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hizzj/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "hizzj",
+    "id" : 19361617,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/19361617?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hizzj",
+    "html_url" : "https://github.com/hizzj",
+    "followers_url" : "https://api.github.com/users/hizzj/followers",
+    "following_url" : "https://api.github.com/users/hizzj/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hizzj/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hizzj/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hizzj/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hizzj/orgs",
+    "repos_url" : "https://api.github.com/users/hizzj/repos",
+    "events_url" : "https://api.github.com/users/hizzj/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hizzj/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "b3de3028a620917851d37c10f92850833d8724b7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b3de3028a620917851d37c10f92850833d8724b7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b3de3028a620917851d37c10f92850833d8724b7"
+  } ]
+} ]

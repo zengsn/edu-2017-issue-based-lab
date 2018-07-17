@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 43,
+    "additions" : 28,
+    "deletions" : 15
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-19T06:55:08Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-19T06:55:08Z"
+    },
+    "message" : "#4 #76 第四次实验",
+    "tree" : {
+      "sha" : "002c9829da9400c5b2f4e472e33d7f363d937397",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/002c9829da9400c5b2f4e472e33d7f363d937397"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/comments",
+  "files" : [ {
+    "sha" : "3ab3e9cbce07f7cdc941fc8ba424c05e83ed80f0",
+    "filename" : "AndroidLabs/app/src/main/res/values/colors.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/colors.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/colors.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/colors.xml?ref=c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <color name=\"colorPrimary\">#3F51B5</color>\n+    <color name=\"colorPrimaryDark\">#303F9F</color>\n+    <color name=\"colorAccent\">#FF4081</color>\n+</resources>"
+  }, {
+    "sha" : "c9891900549b67e955db98702afcb745ddfd4de7",
+    "filename" : "AndroidLabs/app/src/main/res/values/dimens.xml",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/dimens.xml?ref=c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "patch" : "@@ -0,0 +1,7 @@\n+<resources>\n+    <!-- Default screen margins, per the Android Design guidelines. -->\n+    <dimen name=\"activity_horizontal_margin\">16dp</dimen>\n+    <dimen name=\"activity_vertical_margin\">16dp</dimen>\n+    <dimen name=\"activity_horizontal_margin0\">0dp</dimen>\n+    <dimen name=\"activity_vertical_margin0\">0dp</dimen>\n+</resources>"
+  }, {
+    "sha" : "47716b1ca0dc7ec8678abbd62e3facdfec99d0db",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 15,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "patch" : "@@ -1,18 +1,5 @@\n <resources>\n     <string name=\"app_name\">Android开发</string>\n-    <string name=\"news\">头条新闻</string>\n-    <string name=\"dev_article\">每日干货</string>\n-    <string name=\"keji\">科技新闻</string>\n-    <string name=\"startup\">创业新闻</string>\n-    <string name=\"mobile\">移动互联</string>\n-    <string name=\"it\">IT资讯</string>\n-    <string name=\"android\">Android</string>\n-    <string name=\"ios\">IOS</string>\n-    <string name=\"web\">前端</string>\n-    <string name=\"expand\">扩展</string>\n-    <string name=\"about\">关于</string>\n-    <string name=\"author\">作者吴步城</string>\n-    <string name=\"studentNumber\">学号：1414080903220</string>\n     <string name=\"action_settings\">设置</string>\n \n     <string name=\"title_activity_back\">活动模板（返回）</string>\n@@ -46,6 +33,4 @@\n     <string name=\"title_activity_file_select\">FileSelectActivity</string>\n     <string name=\"title_activity_file_share\">FileShareActivity</string>\n     <string name=\"title_activity_network\">NetworkActivity</string>\n-    <!-- TODO: Remove or change this placeholder text -->\n-    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\n </resources>"
+  }, {
+    "sha" : "49378525c66510b3dd24d1b2d4c86b76b2b01065",
+    "filename" : "AndroidLabs/app/src/main/res/values/styles.xml",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/styles.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4/AndroidLabs/app/src/main/res/values/styles.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/styles.xml?ref=c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "patch" : "@@ -0,0 +1,15 @@\n+<resources>\n+\n+    <!-- Base application theme. -->\n+    <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\n+        <!--<item name=\"android:layout_width\">fill_parent</item>-->\n+        <!--<item name=\"android:layout_height\">wrap_content</item>-->\n+        <!--<item name=\"android:capitalize\">characters</item>-->\n+        <!--<item name=\"android:typeface\">monospace</item>-->\n+        <!--<item name=\"android:textSize\">12pt</item>-->\n+        <!--<item name=\"android:textColor\">#00FF00</item>/>-->\n+    </style>\n+    <style name=\"CustomFontStyle\">\n+    </style>\n+\n+</resources>"
+  } ],
+  "sha" : "c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+  "parents" : [ {
+    "sha" : "402a2d716a82adc556d4f7445a11af99522eef1c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/402a2d716a82adc556d4f7445a11af99522eef1c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/402a2d716a82adc556d4f7445a11af99522eef1c"
+  } ]
+}

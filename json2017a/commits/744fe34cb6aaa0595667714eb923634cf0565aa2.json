@@ -1,0 +1,95 @@
+{
+  "committer" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 8,
+    "additions" : 8,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/744fe34cb6aaa0595667714eb923634cf0565aa2",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-05-10T09:32:45Z"
+    },
+    "committer" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-05-10T09:32:45Z"
+    },
+    "message" : "#3 #66 第三次作业",
+    "tree" : {
+      "sha" : "36686e28a89c586d1f30a3f94cb3296715a8fd9f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/36686e28a89c586d1f30a3f94cb3296715a8fd9f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/744fe34cb6aaa0595667714eb923634cf0565aa2",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/744fe34cb6aaa0595667714eb923634cf0565aa2/comments",
+  "files" : [ {
+    "sha" : "6718aa38547165d30d91985fd26de220d6534e1a",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net.PNG",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/744fe34cb6aaa0595667714eb923634cf0565aa2/AndroidLabs/app/src/main/res/drawable/net.PNG",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/744fe34cb6aaa0595667714eb923634cf0565aa2/AndroidLabs/app/src/main/res/drawable/net.PNG",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net.PNG?ref=744fe34cb6aaa0595667714eb923634cf0565aa2"
+  }, {
+    "sha" : "dd179896c7ed2cf5700bbedf2b2304461cc697b0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/744fe34cb6aaa0595667714eb923634cf0565aa2/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/744fe34cb6aaa0595667714eb923634cf0565aa2/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml?ref=744fe34cb6aaa0595667714eb923634cf0565aa2",
+    "patch" : "@@ -12,6 +12,14 @@\n         android:padding=\"10sp\"\n         android:textSize=\"8pt\"\n         android:textColor=\"#00FF00\" />\n+ \n+<ImageView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_gravity=\"center_horizontal\"\n+        android:layout_marginBottom=\"5dp\"\n+        android:layout_marginTop=\"30dp\"\n+        android:src=\"@drawable/����\"/>\n \n     <LinearLayout\n         android:layout_width=\"match_parent\""
+  } ],
+  "sha" : "744fe34cb6aaa0595667714eb923634cf0565aa2",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/744fe34cb6aaa0595667714eb923634cf0565aa2",
+  "parents" : [ {
+    "sha" : "04d0ae0c163b58277f9e02649787ccffd0ba1741",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/04d0ae0c163b58277f9e02649787ccffd0ba1741",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/04d0ae0c163b58277f9e02649787ccffd0ba1741"
+  } ]
+}

@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "LouQingYi",
+    "id" : 26144251,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26144251?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LouQingYi",
+    "html_url" : "https://github.com/LouQingYi",
+    "followers_url" : "https://api.github.com/users/LouQingYi/followers",
+    "following_url" : "https://api.github.com/users/LouQingYi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LouQingYi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LouQingYi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LouQingYi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LouQingYi/orgs",
+    "repos_url" : "https://api.github.com/users/LouQingYi/repos",
+    "events_url" : "https://api.github.com/users/LouQingYi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LouQingYi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 192,
+    "additions" : 192,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "LouQingYi",
+    "id" : 26144251,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26144251?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LouQingYi",
+    "html_url" : "https://github.com/LouQingYi",
+    "followers_url" : "https://api.github.com/users/LouQingYi/followers",
+    "following_url" : "https://api.github.com/users/LouQingYi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LouQingYi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LouQingYi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LouQingYi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LouQingYi/orgs",
+    "repos_url" : "https://api.github.com/users/LouQingYi/repos",
+    "events_url" : "https://api.github.com/users/LouQingYi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LouQingYi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+  "commit" : {
+    "author" : {
+      "name" : "LouQingYi",
+      "email" : "w14b133@163.com",
+      "date" : "2017-05-25T16:14:05Z"
+    },
+    "committer" : {
+      "name" : "LouQingYi",
+      "email" : "w14b133@163.com",
+      "date" : "2017-05-25T16:14:05Z"
+    },
+    "message" : "#5 #56 第五次作业",
+    "tree" : {
+      "sha" : "fee5789f63b650c8ad2352d60d8062350fd31257",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/fee5789f63b650c8ad2352d60d8062350fd31257"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/comments",
+  "files" : [ {
+    "sha" : "59e50bd4f899fa8bfb4ab076b99a6420604abd51",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133AdminActivity.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133AdminActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133AdminActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133AdminActivity.java?ref=6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "patch" : "@@ -0,0 +1,38 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903133;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903133AdminActivity extends AppCompatActivity {\n+\n+    Button btInsert;\n+    Button btUpdate;\n+    Button btDelete;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903133_admin);\n+        btDelete = (Button) findViewById(R.id.bt_admin_delete);\n+        btInsert = (Button) findViewById(R.id.bt_admin_insert);\n+        btUpdate = (Button) findViewById(R.id.bt_admin_update);\n+\n+        btDelete.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1414080903133AdminActivity.this,Net1414080903133DeleteActivity.class));\n+            }\n+        });\n+        btInsert.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1414080903133AdminActivity.this,Net1414080903133SaveActivity.class));\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "709e61a417459aad399dfa17d876d8a19a456f7b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133DeleteActivity.java",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133DeleteActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133DeleteActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133DeleteActivity.java?ref=6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "patch" : "@@ -0,0 +1,35 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903133;\n+\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903133DeleteActivity extends AppCompatActivity {\n+\n+    Button btDelete;\n+    EditText etId;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903133_delete);\n+        btDelete= (Button) findViewById(R.id.bt_delete);\n+        etId= (EditText) findViewById(R.id.et_delete_id);\n+        btDelete.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Net1414080903133MySqlHelper helper=new Net1414080903133MySqlHelper(Net1414080903133DeleteActivity.this);\n+                SQLiteDatabase db=helper.getWritableDatabase();\n+                db.delete(\"student\",\"id=?\",new String[]{etId.getText().toString()});\n+                Toast.makeText(Net1414080903133DeleteActivity.this,\"delete success!!\",Toast.LENGTH_SHORT).show();\n+            }\n+        });\n+\n+    }\n+}"
+  }, {
+    "sha" : "573bf08b1d436c9794f79431c9004ed8943fdccd",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MainActivity.java",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MainActivity.java?ref=6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "patch" : "@@ -0,0 +1,27 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903133;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903133MainActivity extends AppCompatActivity {\n+    private EditText et_password;\n+    private Button btn_login;\n+    private EditText et_name;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903133_main);\n+        et_name=(EditText) findViewById(R.id.et_name);\n+        et_password=(EditText) findViewById(R.id.et_password);\n+        btn_login=(Button) findViewById(R.id.btn_login);\n+        String username=et_name.getText().toString();\n+        String password=et_password.getText().toString();\n+\n+    }\n+}\n+"
+  }, {
+    "sha" : "11ca6ab5803b6f3a89d44b5efa9539ea8ae8d458",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MySqlHelper.java",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MySqlHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MySqlHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133MySqlHelper.java?ref=6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "patch" : "@@ -0,0 +1,35 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903133;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Administrator on 2017/5/14.\n+ */\n+\n+public class Net1414080903133MySqlHelper extends SQLiteOpenHelper {\n+\n+    public Net1414080903133MySqlHelper(Context context) {\n+        super(context, \"student\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(\"create table student(\\n\" +\n+                \"id varchar(20) primary key,\\n\" +\n+                \"name varchar(20),\\n\" +\n+                \"sex varchar(4),\\n\" +\n+                \"clazz varchar(20),\\n\" +\n+                \"dormitory varchar(20),\\n\" +\n+                \"phone varchar(20),\\n\" +\n+                \"age varchar(20),\\n\" +\n+                \"location varchar(20)\\n\" +\n+                \");\");\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "c7460ed1568024b7463faa8b76c5bc33320dbfb2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133SaveActivity.java",
+    "status" : "added",
+    "additions" : 57,
+    "deletions" : 0,
+    "changes" : 57,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133SaveActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6fe38e0b98ac87bc0657aba833a946bda8a4b83e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133SaveActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903133/Net1414080903133SaveActivity.java?ref=6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "patch" : "@@ -0,0 +1,57 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903133;\n+\n+import android.content.ContentValues;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903133SaveActivity extends AppCompatActivity {\n+\n+    EditText etId;\n+    EditText etName;\n+    EditText etSex;\n+    EditText etClazz;\n+    EditText etDormitory;\n+    EditText etAge;\n+    EditText etPhone;\n+    EditText etLocation;\n+\n+\n+    Button btSave;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903133_save);\n+        etId= (EditText) findViewById(R.id.et_save_id);\n+        etName= (EditText) findViewById(R.id.et_save_name);\n+        etSex= (EditText) findViewById(R.id.et_save_sex);\n+        etClazz= (EditText) findViewById(R.id.et_save_clazz);\n+        etAge= (EditText) findViewById(R.id.et_save_age);\n+        etDormitory= (EditText) findViewById(R.id.et_save_dormitory);\n+        etPhone= (EditText) findViewById(R.id.et_save_phone);\n+        etLocation= (EditText) findViewById(R.id.et_save_location);\n+        btSave.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Net1414080903133MySqlHelper helper=new Net1414080903133MySqlHelper(Net1414080903133SaveActivity.this);\n+                SQLiteDatabase db=helper.getWritableDatabase();\n+                ContentValues values=new ContentValues();\n+                values.put(\"id\",etId.getText().toString());\n+                values.put(\"name\",etName.getText().toString());\n+                values.put(\"sex\",etSex.getText().toString());\n+                values.put(\"clazz\",etClazz.getText().toString());\n+                values.put(\"dormitory\",etDormitory.getText().toString());\n+                values.put(\"age\",etAge.getText().toString());\n+                values.put(\"location\",etLocation.getText().toString());\n+                values.put(\"phone\",etPhone.getText().toString());\n+                db.insert(\"student\",null,values);\n+                db.close();\n+            }\n+        });\n+    }\n+}"
+  } ],
+  "sha" : "6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+  "parents" : [ {
+    "sha" : "7f58af4f3a47c841b05fade78d3d017cec22172e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7f58af4f3a47c841b05fade78d3d017cec22172e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7f58af4f3a47c841b05fade78d3d017cec22172e"
+  } ]
+}

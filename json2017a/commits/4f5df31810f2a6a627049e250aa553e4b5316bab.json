@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "Qlzr",
+    "id" : 26007287,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26007287?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Qlzr",
+    "html_url" : "https://github.com/Qlzr",
+    "followers_url" : "https://api.github.com/users/Qlzr/followers",
+    "following_url" : "https://api.github.com/users/Qlzr/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Qlzr/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Qlzr/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Qlzr/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Qlzr/orgs",
+    "repos_url" : "https://api.github.com/users/Qlzr/repos",
+    "events_url" : "https://api.github.com/users/Qlzr/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Qlzr/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Qlzr",
+    "id" : 26007287,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26007287?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Qlzr",
+    "html_url" : "https://github.com/Qlzr",
+    "followers_url" : "https://api.github.com/users/Qlzr/followers",
+    "following_url" : "https://api.github.com/users/Qlzr/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Qlzr/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Qlzr/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Qlzr/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Qlzr/orgs",
+    "repos_url" : "https://api.github.com/users/Qlzr/repos",
+    "events_url" : "https://api.github.com/users/Qlzr/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Qlzr/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4f5df31810f2a6a627049e250aa553e4b5316bab",
+  "commit" : {
+    "author" : {
+      "name" : "LZR-PC",
+      "email" : "850048573@qq.com",
+      "date" : "2017-06-10T05:32:22Z"
+    },
+    "committer" : {
+      "name" : "LZR-PC",
+      "email" : "850048573@qq.com",
+      "date" : "2017-06-10T05:32:22Z"
+    },
+    "message" : "Json数据",
+    "tree" : {
+      "sha" : "08272501adeb3b0006c5202aa9a9a4341e6e0335",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/08272501adeb3b0006c5202aa9a9a4341e6e0335"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/4f5df31810f2a6a627049e250aa553e4b5316bab",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4f5df31810f2a6a627049e250aa553e4b5316bab/comments",
+  "files" : [ {
+    "sha" : "1ef1df4c17d7579d95672a5da10d3d79b48bce23",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net141408093116SoftInfo.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4f5df31810f2a6a627049e250aa553e4b5316bab/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net141408093116SoftInfo.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4f5df31810f2a6a627049e250aa553e4b5316bab/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net141408093116SoftInfo.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903116/Net141408093116SoftInfo.json?ref=4f5df31810f2a6a627049e250aa553e4b5316bab",
+    "patch" : "@@ -0,0 +1 @@\n+[{\"soft_name\":\"SocialSoftware\",\"developer\":\"LZR\",\"version\":\"1.0\"}]\n\\ No newline at end of file"
+  } ],
+  "sha" : "4f5df31810f2a6a627049e250aa553e4b5316bab",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4f5df31810f2a6a627049e250aa553e4b5316bab",
+  "parents" : [ {
+    "sha" : "b6725b32ba274fff081d209aa417a681a91694f5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b6725b32ba274fff081d209aa417a681a91694f5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b6725b32ba274fff081d209aa417a681a91694f5"
+  } ]
+}

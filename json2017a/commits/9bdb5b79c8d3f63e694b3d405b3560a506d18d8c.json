@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 111,
+    "additions" : 111,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9bdb5b79c8d3f63e694b3d405b3560a506d18d8c",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:39:38Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:39:38Z"
+    },
+    "message" : "update",
+    "tree" : {
+      "sha" : "6541b7ad57e5947dbd8e2e201968350f1ddb3316",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/6541b7ad57e5947dbd8e2e201968350f1ddb3316"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9bdb5b79c8d3f63e694b3d405b3560a506d18d8c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9bdb5b79c8d3f63e694b3d405b3560a506d18d8c/comments",
+  "files" : [ {
+    "sha" : "67269b84939c438e8cc472993e548dfa3c1ea5c3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226SavesActivity.java",
+    "status" : "added",
+    "additions" : 111,
+    "deletions" : 0,
+    "changes" : 111,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9bdb5b79c8d3f63e694b3d405b3560a506d18d8c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226SavesActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9bdb5b79c8d3f63e694b3d405b3560a506d18d8c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226SavesActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226SavesActivity.java?ref=9bdb5b79c8d3f63e694b3d405b3560a506d18d8c",
+    "patch" : "@@ -0,0 +1,111 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903226;\n+\n+import android.content.Intent;\n+import android.database.Cursor;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.Button;\n+import android.widget.ListView;\n+import android.widget.SimpleCursorAdapter;\n+\n+import com.chenyirun.theircraft.DBService;\n+import com.chenyirun.theircraft.R;\n+\n+import java.text.SimpleDateFormat;\n+\n+public class Net1414080903226SavesActivity extends AppCompatActivity {\n+    private static final String TAG = \"SavesActivity\";\n+    private Button button_config;\n+    private Button button_start;\n+    private Button button_new;\n+    private ListView listView;\n+    private int chunk_radius = 3;\n+\n+    private DBService dbService;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.saves_ui);\n+        listView = (ListView)findViewById(R.id.listView);\n+\n+        button_config = (Button)findViewById(R.id.button_config);\n+        button_start = (Button)findViewById(R.id.button_start);\n+        button_new = (Button)findViewById(R.id.button_new);\n+        button_config.setOnClickListener(configListener);\n+        button_start.setOnClickListener(startListener);\n+        button_new.setOnClickListener(newListener);\n+\n+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {\n+            @Override\n+            public void onItemClick(AdapterView<?> parent, View view, int position,long arg3) {\n+                view.setSelected(true);\n+            }\n+        });\n+\n+        DBService.setContext(getApplicationContext());\n+        dbService = DBService.getInstance();\n+        UpdateList();\n+    }\n+\n+    private View.OnClickListener configListener = new View.OnClickListener() {\n+        @Override\n+        public void onClick(View v) {\n+            Intent intent = new Intent(Net1414080903226SavesActivity.this, ConfigureActivity.class);\n+            intent.putExtra(ConfigureActivity.CHUNK_RADIUS, chunk_radius);\n+            startActivityForResult(intent, 0);\n+        }\n+    };\n+\n+    private View.OnClickListener startListener = new View.OnClickListener() {\n+        @Override\n+        public void onClick(View v) {\n+            Intent intent = new Intent(Net1414080903226SavesActivity.this, MainActivity.class);\n+            intent.putExtra(ConfigureActivity.CHUNK_RADIUS, chunk_radius);\n+            startActivityForResult(intent, 0);\n+        }\n+    };\n+\n+    private View.OnClickListener newListener = new View.OnClickListener() {\n+        @Override\n+        public void onClick(View v) {\n+            Intent intent = new Intent(Net1414080903226SavesActivity.this, NewActivity.class);\n+            startActivityForResult(intent, 0);\n+        }\n+    };\n+\n+    private void UpdateList(){\n+        Cursor cursor = dbService.pageCursorQuery();\n+        String from[] = { \"_id\", \"name\", \"seed\", \"date\" };\n+        int to[] = { R.id.textView_list_id, R.id.textView_list_name, R.id.textView_list_seed, R.id.textView_list_date };\n+        SimpleCursorAdapter adapter = new SimpleCursorAdapter(this, R.layout.list_layout, cursor, from, to);\n+        listView.setAdapter(adapter);\n+    }\n+\n+    @Override\n+    protected void onActivityResult(int requestCode, int resultCode, Intent intent){\n+        Log.i(TAG, \"onActivityResult: requestCode=\" + requestCode+\",resultCode=\"+resultCode+\",intent=\"+intent);\n+\n+        if (intent == null){\n+            return;\n+        }\n+        Bundle bundle = intent.getExtras();\n+        String activity_name = bundle.getString(ConfigureActivity.ACTIVITY_NAME_KEY);\n+        switch (activity_name){\n+            case NewActivity.ACTIVITY_NAME:\n+                String name = bundle.getString(ConfigureActivity.SAVE_NAME);\n+                int seed = bundle.getInt(ConfigureActivity.SEED);\n+                SimpleDateFormat sDateFormat = new SimpleDateFormat(\"yyyy-MM-dd hh:mm:ss\");\n+                String date = sDateFormat.format(new java.util.Date());\n+                dbService.addSave(name, seed, date);\n+                UpdateList();\n+                break;\n+            case ConfigureActivity.ACTIVITY_NAME:\n+                chunk_radius = bundle.getInt(ConfigureActivity.CHUNK_RADIUS);\n+                break;\n+        }\n+    }\n+}"
+  } ],
+  "sha" : "9bdb5b79c8d3f63e694b3d405b3560a506d18d8c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9bdb5b79c8d3f63e694b3d405b3560a506d18d8c",
+  "parents" : [ {
+    "sha" : "e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 51,
+    "additions" : 51,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/402a2d716a82adc556d4f7445a11af99522eef1c",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-19T04:41:41Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-19T04:41:41Z"
+    },
+    "message" : "#4 #76 第四次实验",
+    "tree" : {
+      "sha" : "9bb12884ad52f23e8fc2abfff5248323bb13c635",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9bb12884ad52f23e8fc2abfff5248323bb13c635"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/402a2d716a82adc556d4f7445a11af99522eef1c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/402a2d716a82adc556d4f7445a11af99522eef1c/comments",
+  "files" : [ {
+    "sha" : "f26fcf9e7d30b722a1b40ae38d96cae24fd45079",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "added",
+    "additions" : 51,
+    "deletions" : 0,
+    "changes" : 51,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/402a2d716a82adc556d4f7445a11af99522eef1c/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/402a2d716a82adc556d4f7445a11af99522eef1c/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=402a2d716a82adc556d4f7445a11af99522eef1c",
+    "patch" : "@@ -0,0 +1,51 @@\n+<resources>\n+    <string name=\"app_name\">Android开发</string>\n+    <string name=\"news\">头条新闻</string>\n+    <string name=\"dev_article\">每日干货</string>\n+    <string name=\"keji\">科技新闻</string>\n+    <string name=\"startup\">创业新闻</string>\n+    <string name=\"mobile\">移动互联</string>\n+    <string name=\"it\">IT资讯</string>\n+    <string name=\"android\">Android</string>\n+    <string name=\"ios\">IOS</string>\n+    <string name=\"web\">前端</string>\n+    <string name=\"expand\">扩展</string>\n+    <string name=\"about\">关于</string>\n+    <string name=\"author\">作者吴步城</string>\n+    <string name=\"studentNumber\">学号：1414080903220</string>\n+    <string name=\"action_settings\">设置</string>\n+\n+    <string name=\"title_activity_back\">活动模板（返回）</string>\n+\n+    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n+    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n+\n+    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n+    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n+\n+    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n+    <string name=\"title_activity_fragment_content\">内容</string>\n+    <string name=\"demo_content\">演示内容</string>\n+    <string name=\"title_activity_net123456\">Net123456Activity</string>\n+    <string name=\"title_activity_com123456\">Com123456Activity</string>\n+    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n+    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n+    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n+    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n+    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n+    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n+    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n+    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n+    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n+    <string name=\"title_activity_list_view\">ListViewActivity</string>\n+    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n+    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n+    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n+    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n+    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n+    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n+    <string name=\"title_activity_file_share\">FileShareActivity</string>\n+    <string name=\"title_activity_network\">NetworkActivity</string>\n+    <!-- TODO: Remove or change this placeholder text -->\n+    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\n+</resources>"
+  } ],
+  "sha" : "402a2d716a82adc556d4f7445a11af99522eef1c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/402a2d716a82adc556d4f7445a11af99522eef1c",
+  "parents" : [ {
+    "sha" : "5b45e3d50e2199e250bc46c5a001f5dd891ae9c5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b45e3d50e2199e250bc46c5a001f5dd891ae9c5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b45e3d50e2199e250bc46c5a001f5dd891ae9c5"
+  } ]
+}

@@ -1,0 +1,95 @@
+{
+  "committer" : {
+    "login" : "ZGH1780",
+    "id" : 24536868,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/24536868?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ZGH1780",
+    "html_url" : "https://github.com/ZGH1780",
+    "followers_url" : "https://api.github.com/users/ZGH1780/followers",
+    "following_url" : "https://api.github.com/users/ZGH1780/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ZGH1780/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ZGH1780/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ZGH1780/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ZGH1780/orgs",
+    "repos_url" : "https://api.github.com/users/ZGH1780/repos",
+    "events_url" : "https://api.github.com/users/ZGH1780/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ZGH1780/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 11,
+    "additions" : 11,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "ZGH1780",
+    "id" : 24536868,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/24536868?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ZGH1780",
+    "html_url" : "https://github.com/ZGH1780",
+    "followers_url" : "https://api.github.com/users/ZGH1780/followers",
+    "following_url" : "https://api.github.com/users/ZGH1780/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ZGH1780/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ZGH1780/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ZGH1780/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ZGH1780/orgs",
+    "repos_url" : "https://api.github.com/users/ZGH1780/repos",
+    "events_url" : "https://api.github.com/users/ZGH1780/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ZGH1780/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3f6b1e07141b02e52c4c958acd9707637b71d298",
+  "commit" : {
+    "author" : {
+      "name" : "ZGH1780",
+      "email" : "178051624@qq.com",
+      "date" : "2017-05-08T08:42:49Z"
+    },
+    "committer" : {
+      "name" : "ZGH1780",
+      "email" : "178051624@qq.com",
+      "date" : "2017-05-08T08:42:49Z"
+    },
+    "message" : "#3 #48 第3次实验",
+    "tree" : {
+      "sha" : "0842e1cb56c0cf8bf186d2a4daa524e9258b6f4e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0842e1cb56c0cf8bf186d2a4daa524e9258b6f4e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/3f6b1e07141b02e52c4c958acd9707637b71d298",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f6b1e07141b02e52c4c958acd9707637b71d298/comments",
+  "files" : [ {
+    "sha" : "33ada84fdd06ba2cec4965a142eac7b8e5aa7565",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tu.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/3f6b1e07141b02e52c4c958acd9707637b71d298/AndroidLabs/app/src/main/res/drawable/tu.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/3f6b1e07141b02e52c4c958acd9707637b71d298/AndroidLabs/app/src/main/res/drawable/tu.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tu.png?ref=3f6b1e07141b02e52c4c958acd9707637b71d298"
+  }, {
+    "sha" : "b69947758852f087e4bc9ca68c1586aee2c91515",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml",
+    "status" : "modified",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/3f6b1e07141b02e52c4c958acd9707637b71d298/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/3f6b1e07141b02e52c4c958acd9707637b71d298/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml?ref=3f6b1e07141b02e52c4c958acd9707637b71d298",
+    "patch" : "@@ -1,5 +1,6 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:id=\"@+id/activity_main\"\n     android:layout_width=\"match_parent\"\n@@ -29,4 +30,14 @@\n         android:layout_below=\"@+id/textView2\"\n         android:layout_alignParentLeft=\"true\"\n         android:layout_alignParentStart=\"true\" />\n+\n+    <ImageView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        app:srcCompat=\"@drawable/tu\"\n+        android:id=\"@+id/imageView\"\n+        android:layout_alignTop=\"@+id/textView2\"\n+        android:layout_alignParentRight=\"true\"\n+        android:layout_alignParentEnd=\"true\"\n+        android:layout_alignBottom=\"@+id/button\" />\n </RelativeLayout>"
+  } ],
+  "sha" : "3f6b1e07141b02e52c4c958acd9707637b71d298",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f6b1e07141b02e52c4c958acd9707637b71d298",
+  "parents" : [ {
+    "sha" : "42131dd3e17cb5cad814f4ac8568dc013ee5c438",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/42131dd3e17cb5cad814f4ac8568dc013ee5c438",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/42131dd3e17cb5cad814f4ac8568dc013ee5c438"
+  } ]
+}

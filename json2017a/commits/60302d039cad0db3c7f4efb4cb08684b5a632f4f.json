@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 4,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/60302d039cad0db3c7f4efb4cb08684b5a632f4f",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-07T04:07:52Z"
+    },
+    "committer" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-07T04:07:52Z"
+    },
+    "message" : "#1 #66 第一次作业",
+    "tree" : {
+      "sha" : "7a620b1224fde5abb8aec9b4e3c8d94760e3e980",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7a620b1224fde5abb8aec9b4e3c8d94760e3e980"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/60302d039cad0db3c7f4efb4cb08684b5a632f4f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/60302d039cad0db3c7f4efb4cb08684b5a632f4f/comments",
+  "files" : [ {
+    "sha" : "0375efc9e933df7bca284d4e9a4a2fa0ca6eb395",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 1,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/60302d039cad0db3c7f4efb4cb08684b5a632f4f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/60302d039cad0db3c7f4efb4cb08684b5a632f4f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java?ref=60302d039cad0db3c7f4efb4cb08684b5a632f4f",
+    "patch" : "@@ -1,8 +1,10 @@\n-package com.example.hepengji.myapplication;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903103;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n+import edu.hzuapps.androidlabs.R;\n+\n public class Net1414080903103Activity extends AppCompatActivity {\n \n     @Override"
+  }, {
+    "sha" : "6fdee40ab7701174f6fa6972e99973208db4e3c0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/60302d039cad0db3c7f4efb4cb08684b5a632f4f/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/60302d039cad0db3c7f4efb4cb08684b5a632f4f/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml?ref=60302d039cad0db3c7f4efb4cb08684b5a632f4f",
+    "patch" : "@@ -8,7 +8,7 @@\n     android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n     android:paddingRight=\"@dimen/activity_horizontal_margin\"\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"com.example.hepengji.myapplication.Net1414080903103Activity\">\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903103.Net1414080903103Activity\">\n \n     <TextView\n         android:layout_width=\"wrap_content\""
+  } ],
+  "sha" : "60302d039cad0db3c7f4efb4cb08684b5a632f4f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/60302d039cad0db3c7f4efb4cb08684b5a632f4f",
+  "parents" : [ {
+    "sha" : "1aeb024d90e08846f0683d3549e2c620ebad8171",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1aeb024d90e08846f0683d3549e2c620ebad8171",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1aeb024d90e08846f0683d3549e2c620ebad8171"
+  } ]
+}

@@ -1,0 +1,108 @@
+{
+  "committer" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 12,
+    "additions" : 6,
+    "deletions" : 6
+  },
+  "author" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+  "commit" : {
+    "author" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-06-03T04:52:35Z"
+    },
+    "committer" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-06-03T04:52:35Z"
+    },
+    "message" : "#5 #177 第五次作业",
+    "tree" : {
+      "sha" : "9b81c7095260844d0c21061ba3b17219b272cc8d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9b81c7095260844d0c21061ba3b17219b272cc8d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/comments",
+  "files" : [ {
+    "sha" : "bb3b0858fa6083350eadcb91f657cfaba9b7ba39",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 2,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java?ref=2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+    "patch" : "@@ -35,11 +35,12 @@ public void onCreate(Bundle savedInstanceState, PersistableBundle persistentStat\n         btSubmit.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View view) {\n-                MySQLiteHelper helper=new MySQLiteHelper(Net1414080903139AddRecordActivity.this);\n+\n+                Net1414080903139MySQLiteHelper helper=new Net1414080903139MySQLiteHelper(Net1414080903139AddRecordActivity.this);\n                 SQLiteDatabase db=helper.getWritableDatabase();\n                 ContentValues values=new ContentValues();\n-                values.put(\"name\",etName.getText().toString().trim());\n                 values.put(\"birthday\",etBirthday.getText().toString().trim());\n+                values.put(\"name\",etName.getText().toString().trim());\n                 db.insert(\"birthday\",null,values);\n                 db.close();\n             }"
+  }, {
+    "sha" : "a7ef250675a749c481586d48f3fc173d3720b2d7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 2,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java?ref=2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+    "patch" : "@@ -10,7 +10,6 @@\n import java.util.ArrayList;\n import java.util.List;\n \n-import edu.hzuapps.andridlabs.homeworks.net1414080903139.MySQLiteHelper;\n import edu.hzuapps.myapplication.R;\n \n public class Net1414080903139CheckActivity extends AppCompatActivity {\n@@ -21,8 +20,8 @@\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903139_check);\n+        Net1414080903139MySQLiteHelper helper=new Net1414080903139MySQLiteHelper(this);\n         lv= (ListView) findViewById(R.id.lv);\n-        MySQLiteHelper helper=new MySQLiteHelper(this);\n         SQLiteDatabase db=helper.getReadableDatabase();\n         Cursor cursor=db.query(\"birthday\",null,null,null,null,null,null);\n         List<String> beans=new ArrayList<>();"
+  }, {
+    "sha" : "5546e9cdcb820d9a0031ba9caafd9c38277d1397",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MySQLiteHelper.java",
+    "status" : "renamed",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MySQLiteHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MySQLiteHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MySQLiteHelper.java?ref=2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+    "patch" : "@@ -8,9 +8,9 @@\n  * Created by 阳飞 on 2017/4/29.\n  */\n \n-public class MySQLiteHelper extends SQLiteOpenHelper {\n+public class Net1414080903139MySQLiteHelper extends SQLiteOpenHelper {\n \n-    public MySQLiteHelper(Context context) {\n+    public Net1414080903139MySQLiteHelper(Context context) {\n         super(context, \"birthday\", null, 1);\n     }\n ",
+    "previous_filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/MySQLiteHelper.java"
+  } ],
+  "sha" : "2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2a1d98d7d96fe2583051b0ed9fdb720e49d958b0",
+  "parents" : [ {
+    "sha" : "1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e"
+  } ]
+}

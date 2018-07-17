@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "net217ptz",
+    "id" : 26159076,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159076?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/net217ptz",
+    "html_url" : "https://github.com/net217ptz",
+    "followers_url" : "https://api.github.com/users/net217ptz/followers",
+    "following_url" : "https://api.github.com/users/net217ptz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/net217ptz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/net217ptz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/net217ptz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/net217ptz/orgs",
+    "repos_url" : "https://api.github.com/users/net217ptz/repos",
+    "events_url" : "https://api.github.com/users/net217ptz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/net217ptz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 3,
+    "deletions" : 3
+  },
+  "author" : {
+    "login" : "net217ptz",
+    "id" : 26159076,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159076?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/net217ptz",
+    "html_url" : "https://github.com/net217ptz",
+    "followers_url" : "https://api.github.com/users/net217ptz/followers",
+    "following_url" : "https://api.github.com/users/net217ptz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/net217ptz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/net217ptz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/net217ptz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/net217ptz/orgs",
+    "repos_url" : "https://api.github.com/users/net217ptz/repos",
+    "events_url" : "https://api.github.com/users/net217ptz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/net217ptz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/83a751a624013282704c2b39565995d1fa4f5e99",
+  "commit" : {
+    "author" : {
+      "name" : "net217ptz",
+      "email" : "254093288@qq.com",
+      "date" : "2017-03-04T14:59:28Z"
+    },
+    "committer" : {
+      "name" : "net217ptz",
+      "email" : "254093288@qq.com",
+      "date" : "2017-03-04T15:01:09Z"
+    },
+    "message" : "Revert \"#1 #92 第二次修改的第一次作业\"\n\nThis reverts commit 584671f0097c66d61efe8c2244830c63da5640db.",
+    "tree" : {
+      "sha" : "a50c47d5951f241ebe7d68597d116cf467a9ce43",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a50c47d5951f241ebe7d68597d116cf467a9ce43"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/83a751a624013282704c2b39565995d1fa4f5e99",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/83a751a624013282704c2b39565995d1fa4f5e99/comments",
+  "files" : [ {
+    "sha" : "6f8055697c94ab83bf00c892203c24d732e60b10",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/net1414080903217Activity.java",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/83a751a624013282704c2b39565995d1fa4f5e99/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/net1414080903217Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/83a751a624013282704c2b39565995d1fa4f5e99/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/net1414080903217Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/net1414080903217Activity.java?ref=83a751a624013282704c2b39565995d1fa4f5e99",
+    "patch" : "@@ -1,9 +1,9 @@\n-package edu.hzuapps.androidlabs.homeworks.Net1414080903217;\n+package com.example.mgb.firstapp;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n-public class Net1414080903217Activity extends AppCompatActivity {\n+public class net1414080903217Activity extends AppCompatActivity {\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {"
+  }, {
+    "sha" : "0f27696300101024bec76ba080cd9669c79d96e8",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903217.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/83a751a624013282704c2b39565995d1fa4f5e99/AndroidLabs/app/src/main/res/layout/activity_net1414080903217.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/83a751a624013282704c2b39565995d1fa4f5e99/AndroidLabs/app/src/main/res/layout/activity_net1414080903217.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903217.xml?ref=83a751a624013282704c2b39565995d1fa4f5e99",
+    "patch" : "@@ -8,7 +8,7 @@\n     android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n     android:paddingRight=\"@dimen/activity_horizontal_margin\"\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903217.Net1414080903217Activity\">\n+    tools:context=\"com.example.mgb.firstapp.net1414080903217Activity\">\n \n     <TextView\n         android:layout_width=\"wrap_content\""
+  } ],
+  "sha" : "83a751a624013282704c2b39565995d1fa4f5e99",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/83a751a624013282704c2b39565995d1fa4f5e99",
+  "parents" : [ {
+    "sha" : "2dbf010d863aeca488ee2a97fa6a282d037fe2da",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2dbf010d863aeca488ee2a97fa6a282d037fe2da",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2dbf010d863aeca488ee2a97fa6a282d037fe2da"
+  } ]
+}

@@ -1,0 +1,128 @@
+{
+  "committer" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 150,
+    "additions" : 149,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/724bc93541cbb39df0d290b9061097092eadcb6c",
+  "commit" : {
+    "author" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-18T02:39:17Z"
+    },
+    "committer" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-18T02:39:17Z"
+    },
+    "message" : "#3 #178 第三次作业",
+    "tree" : {
+      "sha" : "31683228e592e63b7915cae9c8db6f15669164c3",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/31683228e592e63b7915cae9c8db6f15669164c3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/724bc93541cbb39df0d290b9061097092eadcb6c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/724bc93541cbb39df0d290b9061097092eadcb6c/comments",
+  "files" : [ {
+    "sha" : "28432171e5378e00d50a3b415d5f16f5d15eedb8",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/date.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/drawable/date.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/drawable/date.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/date.png?ref=724bc93541cbb39df0d290b9061097092eadcb6c"
+  }, {
+    "sha" : "99720d32aaf58c2281251754ca0fc30c81fb99b8",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903109_add.xml",
+    "status" : "added",
+    "additions" : 55,
+    "deletions" : 0,
+    "changes" : 55,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_add.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_add.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_add.xml?ref=724bc93541cbb39df0d290b9061097092eadcb6c",
+    "patch" : "@@ -0,0 +1,55 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"10dp\"\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"节日名字：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_add_name\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+    <LinearLayout\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"日期：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_add_age\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+\n+\n+    <Button\n+        android:id=\"@+id/bt_add\"\n+        android:background=\"@color/colorPrimary\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"添         加\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_margin=\"20dp\"\n+        android:layout_height=\"wrap_content\" />\n+\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "a69d1d4aa6d6355f7b4927267588f11d8a903d84",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903109_list.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_list.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_list.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_list.xml?ref=724bc93541cbb39df0d290b9061097092eadcb6c",
+    "patch" : "@@ -0,0 +1,11 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <ListView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:id=\"@+id/lv\"/>\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "9591b94158296777937eb8f634f413ade7c6bb6f",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903109_main.xml",
+    "status" : "modified",
+    "additions" : 34,
+    "deletions" : 1,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903109_main.xml?ref=724bc93541cbb39df0d290b9061097092eadcb6c",
+    "patch" : "@@ -7,5 +7,38 @@\n     <TextView\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n+        android:layout_gravity=\"center\"\n+        android:layout_marginTop=\"30dp\"\n+        android:textColor=\"@color/colorPrimary\"\n+        android:text=\"重要节日记录本\"\n+        android:textSize=\"25sp\" />\n+\n+    <ImageView\n+        android:src=\"@drawable/date\"\n+        android:layout_marginTop=\"30dp\"\n+        android:layout_gravity=\"center\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\" />\n+\n+    <Button\n+        android:id=\"@+id/bt_to_add\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginLeft=\"60dp\"\n+        android:layout_marginRight=\"60dp\"\n+        android:layout_marginTop=\"20dp\"\n+        android:background=\"@color/colorPrimary\"\n+        android:text=\"添加节日\"\n+        android:textColor=\"#ffffff\" />\n+\n+    <Button\n+        android:id=\"@+id/bt_to_list\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginLeft=\"60dp\"\n+        android:layout_marginRight=\"60dp\"\n+        android:layout_marginTop=\"20dp\"\n+        android:background=\"@color/colorPrimary\"\n+        android:text=\"查看节日\"\n+        android:textColor=\"#ffffff\" />\n </LinearLayout>"
+  }, {
+    "sha" : "1c969a3c3884535f1199ef4f012ff7814da92f37",
+    "filename" : "AndroidLabs/app/src/main/res/layout/item_net1414080903109.xml",
+    "status" : "added",
+    "additions" : 49,
+    "deletions" : 0,
+    "changes" : 49,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/item_net1414080903109.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/724bc93541cbb39df0d290b9061097092eadcb6c/AndroidLabs/app/src/main/res/layout/item_net1414080903109.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/item_net1414080903109.xml?ref=724bc93541cbb39df0d290b9061097092eadcb6c",
+    "patch" : "@@ -0,0 +1,49 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:padding=\"15dp\">\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:text=\"节日名称：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\" />\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:layout_weight=\"1\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/tv_item_name\"/>\n+    </LinearLayout>\n+    <LinearLayout\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:text=\"节日时间：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\" />\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:layout_weight=\"1\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/tv_item_occur\"/>\n+    </LinearLayout>\n+\n+    <TextView\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"1dp\"\n+        android:background=\"#33000000\"/>\n+\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "724bc93541cbb39df0d290b9061097092eadcb6c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/724bc93541cbb39df0d290b9061097092eadcb6c",
+  "parents" : [ {
+    "sha" : "74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/74e354738c5404e0cf2d6774fee25f73cf58a3c5"
+  } ]
+}

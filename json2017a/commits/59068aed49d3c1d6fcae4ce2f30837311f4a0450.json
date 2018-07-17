@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wangkaiqi",
+    "id" : 26110374,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26110374?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wangkaiqi",
+    "html_url" : "https://github.com/wangkaiqi",
+    "followers_url" : "https://api.github.com/users/wangkaiqi/followers",
+    "following_url" : "https://api.github.com/users/wangkaiqi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wangkaiqi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wangkaiqi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wangkaiqi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wangkaiqi/orgs",
+    "repos_url" : "https://api.github.com/users/wangkaiqi/repos",
+    "events_url" : "https://api.github.com/users/wangkaiqi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wangkaiqi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/59068aed49d3c1d6fcae4ce2f30837311f4a0450",
+  "commit" : {
+    "author" : {
+      "name" : "wangkaiqi",
+      "email" : "1211697101@qq.com",
+      "date" : "2017-03-03T06:53:58Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-03-03T06:53:58Z"
+    },
+    "message" : "Create net1414080903201",
+    "tree" : {
+      "sha" : "8b7c77ccb1c08c91a1312f96163fee1a1c61260d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8b7c77ccb1c08c91a1312f96163fee1a1c61260d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/59068aed49d3c1d6fcae4ce2f30837311f4a0450",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/59068aed49d3c1d6fcae4ce2f30837311f4a0450/comments",
+  "files" : [ {
+    "sha" : "8b137891791fe96927ad78e64b0aad7bded08bdc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/59068aed49d3c1d6fcae4ce2f30837311f4a0450/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/59068aed49d3c1d6fcae4ce2f30837311f4a0450/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201?ref=59068aed49d3c1d6fcae4ce2f30837311f4a0450",
+    "patch" : "@@ -0,0 +1 @@\n+"
+  } ],
+  "sha" : "59068aed49d3c1d6fcae4ce2f30837311f4a0450",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/59068aed49d3c1d6fcae4ce2f30837311f4a0450",
+  "parents" : [ {
+    "sha" : "9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9f5014e28f846b0ee9c9eeb6c0262b2887835719"
+  } ]
+}

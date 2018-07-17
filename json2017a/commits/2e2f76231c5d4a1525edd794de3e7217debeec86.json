@@ -1,0 +1,231 @@
+{
+  "committer" : {
+    "login" : "trjie",
+    "id" : 26050237,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26050237?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/trjie",
+    "html_url" : "https://github.com/trjie",
+    "followers_url" : "https://api.github.com/users/trjie/followers",
+    "following_url" : "https://api.github.com/users/trjie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/trjie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/trjie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/trjie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/trjie/orgs",
+    "repos_url" : "https://api.github.com/users/trjie/repos",
+    "events_url" : "https://api.github.com/users/trjie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/trjie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 85,
+    "additions" : 60,
+    "deletions" : 25
+  },
+  "author" : {
+    "login" : "trjie",
+    "id" : 26050237,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26050237?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/trjie",
+    "html_url" : "https://github.com/trjie",
+    "followers_url" : "https://api.github.com/users/trjie/followers",
+    "following_url" : "https://api.github.com/users/trjie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/trjie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/trjie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/trjie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/trjie/orgs",
+    "repos_url" : "https://api.github.com/users/trjie/repos",
+    "events_url" : "https://api.github.com/users/trjie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/trjie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2e2f76231c5d4a1525edd794de3e7217debeec86",
+  "commit" : {
+    "author" : {
+      "name" : "trjie",
+      "email" : "943614362@qq.com",
+      "date" : "2017-05-08T12:21:46Z"
+    },
+    "committer" : {
+      "name" : "trjie",
+      "email" : "943614362@qq.com",
+      "date" : "2017-05-08T12:21:46Z"
+    },
+    "message" : "#3 #19 第3次实验",
+    "tree" : {
+      "sha" : "1faf4e6b9831b4737a826e0bf9a7cc53f70339c7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1faf4e6b9831b4737a826e0bf9a7cc53f70339c7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2e2f76231c5d4a1525edd794de3e7217debeec86/comments",
+  "files" : [ {
+    "sha" : "0bd0597c2fd7a4e09e03777afcdcff953e907f6b",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_income_g.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_income_g.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_income_g.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_income_g.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "004bf0bcc1dae750088c34aa4eb5f395ed48424c",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_income_y.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_income_y.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_income_y.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_income_y.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "4f3cd0266cd72cb228790d782c238b2d1cd70bc6",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_money_g.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_money_g.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_money_g.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_money_g.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "cc91d0b39840a95ce0f9a0c6387566d6417d19ea",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_money_y.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_money_y.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_money_y.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_money_y.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "cff8c464319e246386da6ef510406f8af2ee5cd5",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_outlay_g.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_outlay_g.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_outlay_g.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_outlay_g.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "f551215d39d2793d4bb03be7ad391d78d9e08e76",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_outlay_y.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_outlay_y.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_outlay_y.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_outlay_y.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "8c49235ab2897f3e3919dabba7f62e37d61a0b1f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_setting_g.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_setting_g.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_setting_g.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_setting_g.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "b792f8b083bc41891419a825e445ab03df10dc58",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/ic_setting_y.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_setting_y.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/ic_setting_y.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/ic_setting_y.png?ref=2e2f76231c5d4a1525edd794de3e7217debeec86"
+  }, {
+    "sha" : "b7df13f28be7aba38eae1fe1285119aaacff83c7",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/text_bg_net141400903234.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_bg_net141400903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_bg_net141400903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/text_bg_net141400903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_selected=\"true\">\n+        <shape>\n+            <solid android:color=\"#FFC4C4C4\"/>\n+        </shape>\n+    </item>\n+    <item>\n+        <shape>\n+            <solid android:color=\"@android:color/transparent\" />\n+        </shape>\n+    </item>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "66fad1b0e93496637cd024fa75ff1422d3e2ca0a",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/text_income_net1414080903234.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_income_net1414080903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_income_net1414080903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/text_income_net1414080903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@drawable/ic_income_y\" android:state_selected=\"true\" />\n+    <item android:drawable=\"@drawable/ic_income_g\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "121a4ed016e2852d7c12cfb7a8ede3db0f224b0e",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/text_money_net1414080903234.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_money_net1414080903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_money_net1414080903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/text_money_net1414080903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@drawable/ic_money_y\" android:state_selected=\"true\" />\n+    <item android:drawable=\"@drawable/ic_money_g\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "3d278cb71f6a8b375a292bbd895cf52f657ea183",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/text_outlay_net1414080903234.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_outlay_net1414080903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_outlay_net1414080903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/text_outlay_net1414080903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@drawable/ic_outlay_y\" android:state_selected=\"true\" />\n+    <item android:drawable=\"@drawable/ic_outlay_g\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "246bc7185a51fa77193006f481a190a39e702dfb",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/text_select_net1414080903234.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_select_net1414080903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_select_net1414080903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/text_select_net1414080903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:color=\"@color/orange\"  android:state_selected=\"true\"/>\n+    <item android:color=\"@color/gray\" />\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "6a2b3d529f4a2b29df724b44f571aaf57ab914bb",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/text_setting_net1414080903234.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_setting_net1414080903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/drawable/text_setting_net1414080903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/text_setting_net1414080903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@drawable/ic_setting_y\" android:state_selected=\"true\" />\n+    <item android:drawable=\"@drawable/ic_setting_g\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "2684e5c48a01cbd8c2c669292eaba9b7e0461cba",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903234.xml",
+    "status" : "modified",
+    "additions" : 22,
+    "deletions" : 25,
+    "changes" : 47,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/layout/activity_net1414080903234.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2e2f76231c5d4a1525edd794de3e7217debeec86/AndroidLabs/app/src/main/res/layout/activity_net1414080903234.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903234.xml?ref=2e2f76231c5d4a1525edd794de3e7217debeec86",
+    "patch" : "@@ -4,73 +4,70 @@\n     android:id=\"@+id/activity_net1414080903234\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n     tools:context=\"edu.hzuapps.androidlabs.homework.net1414080903234.Net1414080903234Activity\">\n \n     <LinearLayout\n         android:id=\"@+id/ly_tab_bar\"\n         android:orientation=\"horizontal\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"56dp\"\n-        android:background=\"@color/white\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_alignParentStart=\"true\"\n-        android:layout_marginStart=\"15dp\">\n+        android:layout_alignParentBottom=\"true\">\n \n         <TextView\n             android:text=\"总额\"\n             android:layout_width=\"0dp\"\n             android:layout_height=\"match_parent\"\n             android:id=\"@+id/text_money\"\n             android:layout_weight=\"1\"\n-            android:padding=\"5dp\"\n-            android:textSize=\"16sp\"\n-            android:gravity=\"center\" />\n-\n+            android:drawablePadding=\"1dp\"\n+            android:drawableTop=\"@drawable/text_money_net1414080903234\"\n+            android:gravity=\"center\"\n+            android:textColor=\"@drawable/text_select_net1414080903234\"/>\n         <TextView\n             android:text=\"收入\"\n             android:layout_width=\"0dp\"\n             android:layout_height=\"match_parent\"\n             android:id=\"@+id/text_income\"\n             android:layout_weight=\"1\"\n-            android:padding=\"5dp\"\n-            android:textSize=\"16sp\"\n-            android:gravity=\"center\" />\n+            android:drawablePadding=\"1dp\"\n+            android:drawableTop=\"@drawable/text_income_net1414080903234\"\n+            android:gravity=\"center\"\n+            android:textColor=\"@drawable/text_select_net1414080903234\"/>\n \n         <TextView\n             android:text=\"支出\"\n             android:layout_width=\"0dp\"\n             android:layout_height=\"match_parent\"\n             android:id=\"@+id/text_outlay\"\n             android:layout_weight=\"1\"\n-            android:padding=\"5dp\"\n-            android:textSize=\"16sp\"\n-            android:gravity=\"center\" />\n-\n+            android:drawablePadding=\"1dp\"\n+            android:drawableTop=\"@drawable/text_outlay_net1414080903234\"\n+            android:gravity=\"center\"\n+            android:textColor=\"@drawable/text_select_net1414080903234\"/>\n         <TextView\n-            android:text=\"设置\"\n+            android:text=\"更多\"\n             android:layout_width=\"0dp\"\n             android:layout_height=\"match_parent\"\n             android:id=\"@+id/text_setting\"\n             android:layout_weight=\"1\"\n-            android:padding=\"5dp\"\n-            android:textSize=\"16sp\"\n-            android:gravity=\"center\" />\n+            android:drawablePadding=\"1dp\"\n+            android:drawableTop=\"@drawable/text_setting_net1414080903234\"\n+            android:gravity=\"center\"\n+            android:textColor=\"@drawable/text_select_net1414080903234\" />\n     </LinearLayout>\n     <View\n         android:id=\"@+id/div_tab_bar\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"2px\"\n         android:background=\"@color/white\"\n         android:layout_above=\"@id/ly_tab_bar\"/>\n+\n     <FrameLayout\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"match_parent\"\n-        android:layout_above=\"@id/div_tab_bar\"\n-        android:id=\"@+id/ly_content\">\n+        android:id=\"@+id/ly_content\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentStart=\"true\">\n \n     </FrameLayout>\n </RelativeLayout>"
+  } ],
+  "sha" : "2e2f76231c5d4a1525edd794de3e7217debeec86",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2e2f76231c5d4a1525edd794de3e7217debeec86",
+  "parents" : [ {
+    "sha" : "a52877d0fd8c9bc15e0e931287aca245940aa481",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a52877d0fd8c9bc15e0e931287aca245940aa481",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a52877d0fd8c9bc15e0e931287aca245940aa481"
+  } ]
+}

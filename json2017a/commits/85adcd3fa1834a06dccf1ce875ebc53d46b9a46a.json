@@ -1,0 +1,60 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 116,
+    "additions" : 56,
+    "deletions" : 60
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a",
+  "commit" : {
+    "author" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-05-29T14:33:32Z"
+    },
+    "committer" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-05-29T14:33:32Z"
+    },
+    "message" : "#5 #16 第五次作业",
+    "tree" : {
+      "sha" : "85cd3acdf1769b0be9f7a54adc553223fb87ac16",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/85cd3acdf1769b0be9f7a54adc553223fb87ac16"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a/comments",
+  "files" : [ {
+    "sha" : "d83de18d5b03cb04e0df99d92991472f4a3939c3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "status" : "modified",
+    "additions" : 20,
+    "deletions" : 24,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java?ref=85adcd3fa1834a06dccf1ce875ebc53d46b9a46a",
+    "patch" : "@@ -1,25 +1,23 @@\n ﻿package edu.hzuapps.androidlabs.homeworks.net1414080903108;\n \n-        import android.content.Intent;\n-        import android.graphics.Bitmap;\n-        import android.graphics.Canvas;\n-        import android.graphics.Color;\n-        import android.graphics.Matrix;\n-        import android.graphics.Paint;\n-        import android.net.Uri;\n-        import android.os.Environment;\n-        import android.support.v7.app.AppCompatActivity;\n-        import android.os.Bundle;\n-        import android.view.MotionEvent;\n-        import android.view.View;\n-        import android.widget.ImageView;\n-        import android.widget.Toast;\n-\n-        import com.example.myapplication.R;\n-\n-        import java.io.File;\n-        import java.io.FileOutputStream;\n-        import java.io.OutputStream;\n+import android.content.Intent;\n+import android.graphics.Bitmap;\n+import android.graphics.Canvas;\n+import android.graphics.Color;\n+import android.graphics.Matrix;\n+import android.graphics.Paint;\n+import android.net.Uri;\n+import android.os.Environment;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.MotionEvent;\n+import android.view.View;\n+import android.widget.ImageView;\n+import android.widget.Toast;\n+import com.example.myapplication.R;\n+import java.io.File;\n+import java.io.FileOutputStream;\n+import java.io.OutputStream;\n \n public class Net1414080903108Activity extends AppCompatActivity {\n     private ImageView iv;\n@@ -29,21 +27,19 @@\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n-\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903108);\n-\n         this.iv = (ImageView) this.findViewById(R.id.iv);\n         // 创建一张空白图片\n         baseBitmap = Bitmap.createBitmap(1200, 1600, Bitmap.Config.ARGB_8888);\n         // 创建一张画布\n         canvas = new Canvas(baseBitmap);\n         // 画布背景为白色\n-        canvas.drawColor(Color.WHITE);\n+        canvas.drawColor(Color.WHITE );\n         // 创建画笔\n         paint = new Paint();\n         // 画笔颜色为黑色\n-        paint.setColor(Color.BLACK);\n+        paint.setColor(Color.BLACK );\n         // 宽度5个像素\n         paint.setStrokeWidth(10);\n         // 先将白色背景画上"
+  }, {
+    "sha" : "9a6d6c740b27179041b838402814047a20500f2e",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml",
+    "status" : "modified",
+    "additions" : 36,
+    "deletions" : 36,
+    "changes" : 72,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a/AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a/AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml?ref=85adcd3fa1834a06dccf1ce875ebc53d46b9a46a",
+    "patch" : "@@ -1,39 +1,39 @@\n-﻿\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-xmlns:tools=\"http://schemas.android.com/tools\"\n-android:layout_width=\"match_parent\"\n-android:layout_height=\"match_parent\"\n-android:background=\"@drawable/cc\"\n-tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903108.Net1414080903108Activity\" >\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        xmlns:tools=\"http://schemas.android.com/tools\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:background=\"@drawable/cc\"\n+        tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903108.Net1414080903108Activity\" >\n \n-<ImageView\n-    android:id=\"@+id/iv\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:layout_marginBottom=\"79dp\"\n-    android:layout_alignParentBottom=\"true\"\n-    android:layout_alignParentLeft=\"true\"\n-    android:layout_alignParentStart=\"true\" />\n+        <ImageView\n+            android:id=\"@+id/iv\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"match_parent\"\n+            android:layout_marginBottom=\"79dp\"\n+            android:layout_alignParentBottom=\"true\"\n+            android:layout_alignParentLeft=\"true\"\n+            android:layout_alignParentStart=\"true\" />\n \n-<Button\n-    android:text=\"保存\"\n-    android:onClick=\"save\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"wrap_content\"\n-    android:id=\"@+id/button1\"\n-    android:layout_marginRight=\"49dp\"\n-    android:layout_marginEnd=\"49dp\"\n-    android:layout_alignParentBottom=\"true\"\n-    android:layout_toLeftOf=\"@+id/button\" />\n+    <Button\n+        android:text=\"保存\"\n+        android:onClick=\"save\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/button1\"\n+        android:layout_marginRight=\"49dp\"\n+        android:layout_marginEnd=\"49dp\"\n+        android:layout_alignParentBottom=\"true\"\n+        android:layout_toLeftOf=\"@+id/button\" />\n \n-<Button\n-    android:text=\"清除\"\n-    android:layout_width=\"wrap_content\"\n-    android:layout_height=\"wrap_content\"\n-    android:id=\"@+id/button\"\n-    android:layout_marginRight=\"86dp\"\n-    android:layout_marginEnd=\"86dp\"\n-    android:layout_alignParentBottom=\"true\"\n-    android:layout_alignParentRight=\"true\"\n-    android:layout_alignParentEnd=\"true\" />\n-</RelativeLayout>\n+    <Button\n+        android:text=\"清除\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/button\"\n+        android:layout_marginRight=\"86dp\"\n+        android:layout_marginEnd=\"86dp\"\n+        android:layout_alignParentBottom=\"true\"\n+        android:layout_alignParentRight=\"true\"\n+        android:layout_alignParentEnd=\"true\" />\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "85adcd3fa1834a06dccf1ce875ebc53d46b9a46a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/85adcd3fa1834a06dccf1ce875ebc53d46b9a46a",
+  "parents" : [ {
+    "sha" : "3f8aab8d22bc9076f547c0d453413d1ea3484018",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f8aab8d22bc9076f547c0d453413d1ea3484018",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3f8aab8d22bc9076f547c0d453413d1ea3484018"
+  } ]
+}

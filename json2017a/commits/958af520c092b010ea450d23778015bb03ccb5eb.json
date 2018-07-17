@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 223,
+    "additions" : 223,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/958af520c092b010ea450d23778015bb03ccb5eb",
+  "commit" : {
+    "author" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-17T14:54:03Z"
+    },
+    "committer" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-17T14:54:03Z"
+    },
+    "message" : "#1 #117 第二次作业",
+    "tree" : {
+      "sha" : "da3fc5c4875c7408043c683efc78db2fc3a80af6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/da3fc5c4875c7408043c683efc78db2fc3a80af6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/958af520c092b010ea450d23778015bb03ccb5eb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/958af520c092b010ea450d23778015bb03ccb5eb/comments",
+  "files" : [ {
+    "sha" : "d972ebd8d5abe1047a727c62cf368ba432d8d34c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Get.java",
+    "status" : "added",
+    "additions" : 32,
+    "deletions" : 0,
+    "changes" : 32,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Get.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Get.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Get.java?ref=958af520c092b010ea450d23778015bb03ccb5eb",
+    "patch" : "@@ -0,0 +1,32 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903203;\n+\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.annotation.Nullable;\n+import android.support.v7.app.AppCompatActivity;\n+import android.widget.TextView;\n+import edu.hzuapps.androidlabs.R;\n+\n+\n+\n+public class Net1414080903203Get extends AppCompatActivity {\n+    private TextView tv_name,tv_password,tv_sex;\n+\n+    @Override\n+    protected void onCreate(@Nullable Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903203get);\n+        //获取Intent对象\n+        Intent intent = getIntent();\n+        //取出key对应的value值\n+        String name = intent.getStringExtra(\"name\");\n+        String password = intent.getStringExtra(\"password\");\n+        String sex = intent.getStringExtra(\"sex\");\n+        tv_name = (TextView) findViewById(R.id.tv_name);\n+        tv_password = (TextView) findViewById(R.id.tv_password);\n+        tv_sex = (TextView) findViewById(R.id.tv_sex);\n+        tv_name.setText(\"用户名： \" + name);\n+        tv_password.setText(\"密码： \" + password);\n+        tv_sex.setText(\"性别： \" + sex);\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "667eb5a22e6601438ceaa0a0960fefd6e008967b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Register.java",
+    "status" : "added",
+    "additions" : 54,
+    "deletions" : 0,
+    "changes" : 54,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Register.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Register.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Register.java?ref=958af520c092b010ea450d23778015bb03ccb5eb",
+    "patch" : "@@ -0,0 +1,54 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903203;\n+\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.annotation.Nullable;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.RadioButton;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+\n+public class Net1414080903203Register extends AppCompatActivity {\n+    private RadioButton manRadio;\n+    private RadioButton womanRadio;\n+    private EditText et_password;\n+    private Button btn_send;\n+    private EditText et_name;\n+\n+    @Override\n+    protected void onCreate(@Nullable Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903203register);\n+        et_name = (EditText) findViewById(R.id.et_name);\n+        et_password = (EditText) findViewById(R.id.et_password);\n+        btn_send = (Button) findViewById(R.id.btn_send);\n+        manRadio = (RadioButton) findViewById(R.id.radioMale);\n+        womanRadio = (RadioButton) findViewById(R.id.radioFemale);\n+        btn_send = (Button) findViewById(R.id.btn_send);\n+        //点击注册按钮进行数据传递\n+        btn_send.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                passDate();\n+            }\n+        });\n+    }\n+    //传递数据\n+    public void passDate() {\n+        Intent intent = new Intent(this,Net1414080903203Get.class);\n+        intent.putExtra(\"name\",et_name.getText().toString().trim());\n+        intent.putExtra(\"password\",et_password.getText().toString().trim());\n+        String str=\"\";\n+        if (manRadio.isChecked()){\n+            str = \"男\";\n+        }else if (womanRadio.isChecked()){\n+            str = \"女\";\n+        }\n+        intent.putExtra(\"sex\",str);\n+        startActivity(intent);\n+    }\n+}"
+  }, {
+    "sha" : "73008300c4c7512f87fb5a0103b0d18e5a4e182e",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903203get.xml",
+    "status" : "added",
+    "additions" : 43,
+    "deletions" : 0,
+    "changes" : 43,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/res/layout/activity_net1414080903203get.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/res/layout/activity_net1414080903203get.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903203get.xml?ref=958af520c092b010ea450d23778015bb03ccb5eb",
+    "patch" : "@@ -0,0 +1,43 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <ImageView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"100dp\"\n+        android:layout_gravity=\"center_horizontal\"\n+        android:paddingLeft=\"20dp\"\n+        android:paddingRight=\"20dp\"\n+        android:paddingBottom=\"5dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:layout_marginTop=\"30dp\"\n+        android:src=\"@drawable/my_tu\"/>\n+\n+    <TextView\n+        android:id=\"@+id/tv_name\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginStart=\"20dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20sp\"/>\n+    <TextView\n+        android:id=\"@+id/tv_password\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginStart=\"20dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20sp\"/>\n+    <TextView\n+        android:id=\"@+id/tv_sex\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginStart=\"20dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20sp\"/>\n+</LinearLayout>"
+  }, {
+    "sha" : "6c13399e67e696349115b455655734b0acc7b769",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903203register.xml",
+    "status" : "added",
+    "additions" : 94,
+    "deletions" : 0,
+    "changes" : 94,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/res/layout/activity_net1414080903203register.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/958af520c092b010ea450d23778015bb03ccb5eb/AndroidLabs/app/src/main/res/layout/activity_net1414080903203register.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903203register.xml?ref=958af520c092b010ea450d23778015bb03ccb5eb",
+    "patch" : "@@ -0,0 +1,94 @@\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+\n+    <LinearLayout\n+        android:id=\"@+id/regist_username\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"22dp\"\n+        android:orientation=\"horizontal\">\n+        <!--android:layout_below=\"@id/regist_logo\"-->\n+\n+\n+        <TextView\n+            android:layout_width=\"80dp\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\"用户名：\"\n+             />\n+\n+        <EditText\n+            android:id=\"@+id/et_name\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"14sp\"\n+            android:hint=\"请输入你的用户名\" />\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:id=\"@+id/regist_password\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/regist_username\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"5dp\"\n+        android:orientation=\"horizontal\"\n+        >\n+        <TextView\n+            android:layout_width=\"80dp\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\"密    码：\" />\n+\n+        <EditText\n+            android:id=\"@+id/et_password\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"14sp\"\n+            android:inputType=\"textPassword\"\n+            android:text=\"请输入你的密码\" />\n+    </LinearLayout>\n+\n+    <RadioGroup\n+        android:id=\"@+id/radioGroup\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\"\n+        android:contentDescription=\"性别\"\n+        android:layout_marginStart=\"30dp\"\n+        android:layout_below=\"@+id/regist_password\">\n+\n+        <RadioButton\n+            android:id=\"@+id/radioMale\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"男\"\n+            android:checked=\"true\" />\n+\n+        <RadioButton\n+            android:id=\"@+id/radioFemale\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"女\" />\n+    </RadioGroup>\n+    <Button\n+        android:id=\"@+id/btn_send\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/radioGroup\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginTop=\"15dp\"\n+        android:background=\"@android:drawable/checkbox_off_background\"\n+        android:text=\"注册\" />\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "958af520c092b010ea450d23778015bb03ccb5eb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/958af520c092b010ea450d23778015bb03ccb5eb",
+  "parents" : [ {
+    "sha" : "fe6bb0400f3bcd049513ed0ae80caeb314c6b28b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fe6bb0400f3bcd049513ed0ae80caeb314c6b28b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fe6bb0400f3bcd049513ed0ae80caeb314c6b28b"
+  } ]
+}

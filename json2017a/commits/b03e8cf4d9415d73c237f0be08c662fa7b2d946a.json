@@ -1,0 +1,122 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 18,
+    "additions" : 12,
+    "deletions" : 6
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+  "commit" : {
+    "author" : {
+      "name" : "liuzezhao",
+      "email" : "liuzezhao",
+      "date" : "2017-05-05T10:49:34Z"
+    },
+    "committer" : {
+      "name" : "liuzezhao",
+      "email" : "liuzezhao",
+      "date" : "2017-05-05T10:49:34Z"
+    },
+    "message" : "#3 #20 第三次实验",
+    "tree" : {
+      "sha" : "3d41147cce37b776ce7ec7c3e5d28842939d7875",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/3d41147cce37b776ce7ec7c3e5d28842939d7875"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/comments",
+  "files" : [ {
+    "sha" : "094e162c991f8c564ca4d2a62feee59b6d70c852",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/img_activity.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_activity.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_activity.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/img_activity.png?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a"
+  }, {
+    "sha" : "ea5d66743a1ba26514e19de50e1374f44c9e81f5",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/img_calendar.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_calendar.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_calendar.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/img_calendar.png?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a"
+  }, {
+    "sha" : "14e10effecf9c6cde57d461da6667786311d1e70",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/img_note.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_note.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_note.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/img_note.png?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a"
+  }, {
+    "sha" : "35902f295337eac3e2b57b5dcff21e88bc69e10f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/img_schedule.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_schedule.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/drawable/img_schedule.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/img_schedule.png?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a"
+  }, {
+    "sha" : "0bedd096603172eaf8ccb8c0930a46a3ec29cb56",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml",
+    "status" : "modified",
+    "additions" : 4,
+    "deletions" : 2,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "patch" : "@@ -2,7 +2,8 @@\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\">\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/img_activity\">\n \n     <Button\n         android:text=\"我的日程安排\"\n@@ -12,7 +13,8 @@\n         android:elevation=\"0dp\"\n         style=\"@android:style/Widget.Button\"\n         android:textColorLink=\"@android:color/holo_blue_light\"\n-        android:layout_weight=\"0.38\" />\n+        android:layout_weight=\"0.38\"\n+        />\n \n     <Button\n         android:text=\"日历\""
+  }, {
+    "sha" : "d4d99ef086f1914b0cd6f420494c333753f158cc",
+    "filename" : "AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 1,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "patch" : "@@ -2,7 +2,8 @@\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\">\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/img_calendar\">\n \n     <CalendarView\n         android:layout_width=\"wrap_content\""
+  }, {
+    "sha" : "73d1c924f0569534f2245afbb3f8e7998b81e125",
+    "filename" : "AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml",
+    "status" : "modified",
+    "additions" : 4,
+    "deletions" : 2,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "patch" : "@@ -1,7 +1,8 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\">\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/img_note\">\n \n     <EditText\n         android:layout_width=\"wrap_content\"\n@@ -10,5 +11,6 @@\n         android:id=\"@+id/editText3\"\n         android:layout_weight=\"1\"\n         android:textSize=\"18dp\"\n-        android:hint=\"开始做笔记\" />\n+        android:hint=\"点击开始做笔记\"\n+        style=\"@android:style/Widget.DeviceDefault.EditText\" />\n </LinearLayout>"
+  }, {
+    "sha" : "b7d5e85e7f28c5e78a4793bee82482b9659da388",
+    "filename" : "AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 1,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b03e8cf4d9415d73c237f0be08c662fa7b2d946a/AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml?ref=b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "patch" : "@@ -1,6 +1,7 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\">\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/img_schedule\">\n \n </LinearLayout>"
+  } ],
+  "sha" : "b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+  "parents" : [ {
+    "sha" : "1dd7b4787938302ecb81cdf0b9eab71125e8078c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1dd7b4787938302ecb81cdf0b9eab71125e8078c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1dd7b4787938302ecb81cdf0b9eab71125e8078c"
+  } ]
+}

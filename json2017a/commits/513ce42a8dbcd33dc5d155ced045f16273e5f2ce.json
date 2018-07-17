@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 11,
+    "additions" : 9,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T09:01:46Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T09:01:46Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "7275688dafa557c7bdbee2c83fb5c333dddb4b37",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7275688dafa557c7bdbee2c83fb5c333dddb4b37"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/comments",
+  "files" : [ {
+    "sha" : "3113e3f69b6a76af940ce343affbefc92d0faed4",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 2,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/XmlFragment.java?ref=513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "patch" : "@@ -46,8 +46,7 @@ public void onClick(View v) {\n             new Thread(){\n                 public void run(){\n                     try {\n-\n-                        Document doc = Jsoup.connect(\"\").get();\n+                        Document doc = Jsoup.connect(\"https://github.com/HardyYao/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml\").get();\n                         int i = 1;\n                         Elements data = doc.select(\"DT\"+i);\n                         while(!data.isEmpty()){"
+  }, {
+    "sha" : "b1c5a38dbe53ac39c73fedd9a547ac60412aa568",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/homework1414080903212.xml?ref=513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "patch" : "@@ -0,0 +1,8 @@\n+<context>\n+    <param-name>title</param-name>\n+    <param-value>第六次实验</param-value>\n+    <param-name>content</param-name>\n+    <param-value>xml解析</param-value>\n+    <param-name>sub_date</param-name>\n+    <param-value>2017-6-8</param-value>\n+</context>\n\\ No newline at end of file"
+  } ],
+  "sha" : "513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+  "parents" : [ {
+    "sha" : "1b23edd4df47822c982ff5c7eaae312125da0030",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b23edd4df47822c982ff5c7eaae312125da0030",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b23edd4df47822c982ff5c7eaae312125da0030"
+  } ]
+}

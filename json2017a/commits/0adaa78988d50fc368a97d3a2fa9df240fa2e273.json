@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 6,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:49:05Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:49:05Z"
+    },
+    "message" : "weather.xml",
+    "tree" : {
+      "sha" : "ab18399fc87fefdcffcd3bfba224906492dfab6e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ab18399fc87fefdcffcd3bfba224906492dfab6e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273/comments",
+  "files" : [ {
+    "sha" : "6947eb99c0ea7208f52bb48369602dbb971e0d30",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/weather.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0adaa78988d50fc368a97d3a2fa9df240fa2e273/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/weather.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0adaa78988d50fc368a97d3a2fa9df240fa2e273/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/weather.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/weather.xml?ref=0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <city>惠州</city>\n+    <wendu>25℃</wendu>\n+    <type>大雨</type>\n+</resources>"
+  } ],
+  "sha" : "0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+  "parents" : [ {
+    "sha" : "f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f631076ae3553e20a4dc29dc3d01ecceaac9c554"
+  } ]
+}

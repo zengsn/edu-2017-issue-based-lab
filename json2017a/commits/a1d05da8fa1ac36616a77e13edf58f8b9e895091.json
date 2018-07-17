@@ -1,0 +1,49 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 37,
+    "additions" : 0,
+    "deletions" : 37
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "武阳飞",
+      "date" : "2017-05-05T14:02:06Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "武阳飞",
+      "date" : "2017-05-05T14:02:06Z"
+    },
+    "message" : "#1 #177 第二次作业",
+    "tree" : {
+      "sha" : "6247d2746d2490b4ce722498e932469ddc04ccd8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/6247d2746d2490b4ce722498e932469ddc04ccd8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091/comments",
+  "files" : [ {
+    "sha" : "61fe42be90915c0252481bbe4685ba283f83cb6a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 37,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f02169730e82dac0e39abe3a7f1eb2a06e46c6da/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f02169730e82dac0e39abe3a7f1eb2a06e46c6da/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java?ref=f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+    "patch" : "@@ -1,37 +0,0 @@\n-package edu.hzuapps.andridlabs.homeworks.net1414080903139;\n-\n-import android.content.Intent;\n-import android.support.v7.app.AppCompatActivity;\n-import android.os.Bundle;\n-import android.view.View;\n-import android.widget.Button;\n-\n-import edu.hzuapps.myapplication.R;\n-\n-public class Net1414080903139MainActivity extends AppCompatActivity {\n-\n-    Button btRecord;\n-    Button btCheck;\n-\n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.net1414080903139activity01);\n-        btRecord= (Button) findViewById(R.id.bt_record_birthday);\n-        btCheck= (Button) findViewById(R.id.bt_check_birthday);\n-\n-        btCheck.setOnClickListener(new View.OnClickListener() {\n-            @Override\n-            public void onClick(View view) {\n-                startActivity(new Intent(Net1414080903139MainActivity.this,Net1414080903139CheckActivity.class));\n-            }\n-        });\n-\n-        btRecord.setOnClickListener(new View.OnClickListener() {\n-            @Override\n-            public void onClick(View view) {\n-                startActivity(new Intent(Net1414080903139MainActivity.this,Net1414080903139AddRecordActivity.class));\n-            }\n-        });\n-    }\n-}\n\\ No newline at end of file"
+  } ],
+  "sha" : "a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+  "parents" : [ {
+    "sha" : "f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f02169730e82dac0e39abe3a7f1eb2a06e46c6da"
+  } ]
+}

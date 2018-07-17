@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 23,
+    "additions" : 19,
+    "deletions" : 4
+  },
+  "author" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/09ba083ea5865a5e9967cefa26c3c97192dffd44",
+  "commit" : {
+    "author" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-05-19T06:56:54Z"
+    },
+    "committer" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-05-19T06:56:54Z"
+    },
+    "message" : "#3 #39 第三次作业",
+    "tree" : {
+      "sha" : "f5e10817dfcbd260498002cb615ba59bfd95cbb7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f5e10817dfcbd260498002cb615ba59bfd95cbb7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/09ba083ea5865a5e9967cefa26c3c97192dffd44",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09ba083ea5865a5e9967cefa26c3c97192dffd44/comments",
+  "files" : [ {
+    "sha" : "28247c967e902d34a78f86725acc35b18b77b280",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest.xml",
+    "status" : "modified",
+    "additions" : 19,
+    "deletions" : 4,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09ba083ea5865a5e9967cefa26c3c97192dffd44/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09ba083ea5865a5e9967cefa26c3c97192dffd44/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest.xml?ref=09ba083ea5865a5e9967cefa26c3c97192dffd44",
+    "patch" : "@@ -1,21 +1,36 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    package=\"com.example.hzu.a123\" >\n+    package=\"edu.hzuapps.androidlabs\">\n \n     <application\n         android:allowBackup=\"true\"\n         android:icon=\"@mipmap/ic_launcher\"\n         android:label=\"@string/app_name\"\n-        android:roundIcon=\"@mipmap/ic_launcher_round\"\n         android:supportsRtl=\"true\"\n-        android:theme=\"@style/AppTheme\" >\n-        <activity android:name=\".MainActivity\" >\n+        android:theme=\"@style/AppTheme\">\n+        <activity android:name=\".MainActivity\">\n             <intent-filter>\n                 <action android:name=\"android.intent.action.MAIN\" />\n \n                 <category android:name=\"android.intent.category.LAUNCHER\" />\n             </intent-filter>\n         </activity>\n+        <activity\n+            android:name=\".BackActivity\"\n+            android:label=\"@string/title_activity_back\">\n+        </activity>\n+        <activity\n+            android:name=\".examples.ViewBasicActivity\"\n+            android:label=\"@string/title_activity_view_basic\">\n+        </activity>\n+        <activity\n+            android:name=\".examples.ActivityBasicActivity\"\n+            android:label=\"@string/title_activity_activity_basic\">\n+        </activity>\n+        <activity\n+            android:name=\".examples.ActivityBasic2Activity\"\n+            android:label=\"@string/title_activity_activity_basic2\">\n+        </activity>\n     </application>\n \n </manifest>\n\\ No newline at end of file"
+  } ],
+  "sha" : "09ba083ea5865a5e9967cefa26c3c97192dffd44",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09ba083ea5865a5e9967cefa26c3c97192dffd44",
+  "parents" : [ {
+    "sha" : "3af3260f0c3d4ed21d7291d8363304b225b042d8",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3af3260f0c3d4ed21d7291d8363304b225b042d8",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3af3260f0c3d4ed21d7291d8363304b225b042d8"
+  } ]
+}

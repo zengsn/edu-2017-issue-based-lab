@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 181,
+    "additions" : 181,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/54ec32b936a80b1a6fe655011c432d18f065a528",
+  "commit" : {
+    "author" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-06-07T13:47:34Z"
+    },
+    "committer" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-06-07T13:47:34Z"
+    },
+    "message" : "#5 #117 第五次作业",
+    "tree" : {
+      "sha" : "ec2b5f21e541491573af7b9cb653d918fff242d5",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ec2b5f21e541491573af7b9cb653d918fff242d5"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/54ec32b936a80b1a6fe655011c432d18f065a528",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/54ec32b936a80b1a6fe655011c432d18f065a528/comments",
+  "files" : [ {
+    "sha" : "7bb3ef4d7ee247c6a951b1bb406d7e0820c26ed0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203SignIn.java",
+    "status" : "added",
+    "additions" : 64,
+    "deletions" : 0,
+    "changes" : 64,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/54ec32b936a80b1a6fe655011c432d18f065a528/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203SignIn.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/54ec32b936a80b1a6fe655011c432d18f065a528/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203SignIn.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203SignIn.java?ref=54ec32b936a80b1a6fe655011c432d18f065a528",
+    "patch" : "@@ -0,0 +1,64 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903203;\n+import android.app.Activity;\n+import android.os.Bundle;\n+import android.text.TextUtils;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import java.util.Map;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+/**\n+ * Created by Administrator on 2017/6/7 0007.\n+ */\n+\n+public class Net1414080903203SignIn extends Activity implements OnClickListener {\n+   private EditText etNumber;\n+   private EditText etPassword;\n+   protected void onCreate(Bundle SavedInstanceState){\n+      super.onCreate(SavedInstanceState);\n+      setContentView(R.layout.activity_net1414080903203signIn);\n+      initview();\n+      //取出号码\n+      Map<String,String> userInfo= Net1414080903203Utils.getUserInfo(this);\n+      if(userInfo != null){\n+         //现实在上面\n+         etNumber.setText(userInfo.get(\"number\"));\n+         etPassword.setText(userInfo.get(\"password\"));\n+      }\n+   }\n+\n+private void initview(){\n+   etNumber=(EditText)findViewById(R.id.et_number);\n+   etPassword=(EditText)findViewById(R.id.et_password);\n+}\n+\n+public void onClick(View v) {\n+   //单点击“登录”按钮是，获取用户帐号和密码\n+   String number = etNumber.getText().toString().trim();\n+   String password = etPassword.getText().toString();\n+   //检测号码和密码是否正确\n+   if(TextUtils.isEmpty(number)){\n+      Toast.makeText(this,\"请输入用户帐号\",Toast.LENGTH_SHORT).show();\n+      return;\n+   }\n+   if(TextUtils.isEmpty(password)){\n+      Toast.makeText(this,\"请输入密码\",Toast.LENGTH_SHORT).show();\n+      return;\n+   }\n+   //登录成功\n+   Toast.makeText(this,\"登录成功\",Toast.LENGTH_SHORT).show();\n+   //如果正确，判断是否勾选了记住密码\n+   Log.i(\"Net1414080903203SignIn\",\"记住密码\"+number+\",\"+password);\n+   //保存用户信息\n+   boolean isSaveSuccess=Net1414080903203Utils.saveUserInfo(this,number,password);\n+   if(isSaveSuccess){\n+      Toast.makeText(this,\"保存成功\",Toast.LENGTH_SHORT).show();\n+   }else{\n+      Toast.makeText(this,\"保存失败\",Toast.LENGTH_SHORT).show();\n+   }\n+}\n+}"
+  }, {
+    "sha" : "ff60945acdc9037b07747ea75e6286c99a986ef8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Utils.java",
+    "status" : "added",
+    "additions" : 33,
+    "deletions" : 0,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/54ec32b936a80b1a6fe655011c432d18f065a528/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Utils.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/54ec32b936a80b1a6fe655011c432d18f065a528/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Utils.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903203/Net1414080903203Utils.java?ref=54ec32b936a80b1a6fe655011c432d18f065a528",
+    "patch" : "@@ -0,0 +1,33 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903203;\n+\n+import android.content.Context;\n+import android.content.SharedPreferences;\n+import android.text.StaticLayout;\n+\n+import java.util.HashMap;\n+import java.util.Map;\n+\n+\n+\n+public class Net1414080903203Utils {\n+    //保存用户帐号和密码到date.xml文件中\n+    public static boolean saveUserInfo(Context context, String number,String password){\n+        SharedPreferences sp = context.getSharedPreferences(\"date\", Context.MODE_PRIVATE);\n+        SharedPreferences.Editor edit = sp.edit();\n+        edit.putString(\"userName\",number);\n+        edit.putString(\"pwd\",password);\n+        edit.commit();\n+        return true;\n+    }\n+    //从data.xml文件中获取存储的用户帐号和密码\n+    public static Map<String, String> getUserInfo(Context context){\n+        SharedPreferences sp = context.getSharedPreferences(\"date\", Context.MODE_PRIVATE);\n+        String number =sp.getString(\"uesrName\",null);\n+        String password =sp.getString(\"pwd\",null);\n+        Map<String, String> userMap = new HashMap<String, String>();\n+        userMap.put(\"number\",number);\n+        userMap.put(\"password\",password);\n+        return userMap;\n+    }\n+\n+}"
+  }, {
+    "sha" : "fd0269f852ff075726dd31383bdf4a91fae7688b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903203signIn.xml",
+    "status" : "added",
+    "additions" : 84,
+    "deletions" : 0,
+    "changes" : 84,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/54ec32b936a80b1a6fe655011c432d18f065a528/AndroidLabs/app/src/main/res/layout/activity_net1414080903203signIn.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/54ec32b936a80b1a6fe655011c432d18f065a528/AndroidLabs/app/src/main/res/layout/activity_net1414080903203signIn.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903203signIn.xml?ref=54ec32b936a80b1a6fe655011c432d18f065a528",
+    "patch" : "@@ -0,0 +1,84 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"#E6E6E6\"\n+    android:orientation=\"vertical\">\n+\n+   <ImageView\n+       android:id=\"@+id/iv_head\"\n+       android:layout_width=\"50dp\"\n+       android:layout_height=\"50dp\"\n+       android:layout_centerHorizontal=\"true\"\n+       android:layout_marginTop=\"40dp\"\n+       android:src=\"@drawable/logo\"/>\n+\n+    <LinearLayout\n+        android:id=\"@+id/layout\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/iv_head\"\n+        android:layout_margin=\"10dp\"\n+        android:background=\"#ffffff\"\n+        android:orientation=\"vertical\">\n+        <RelativeLayout\n+            android:id=\"@+id/rl_username\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_margin=\"10dp\">\n+            <TextView\n+                android:id=\"@+id/tv_name\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_centerVertical=\"true\"\n+                android:text=\"帐号\"/>\n+            <EditText\n+                android:id=\"@+id/et_number\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_marginLeft=\"5dp\"\n+                android:layout_toRightOf=\"@+id/tv_name\"\n+                android:background=\"@null\"/>\n+        </RelativeLayout>\n+        <View\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"2dp\"\n+            android:background=\"#E6E6E6\"/>\n+        <RelativeLayout\n+            android:id=\"@+id/rl_userpsw\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_margin=\"10dp\">\n+            <TextView\n+                android:id=\"@+id/tv_psw\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_centerVertical=\"true\"\n+                android:text=\"密码\"/>\n+            <EditText\n+                android:id=\"@+id/et_password\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_marginLeft=\"5dp\"\n+                android:layout_toRightOf=\"@+id/tv_psw\"\n+                android:inputType=\"textPassword\"\n+                android:background=\"@null\"/>\n+        </RelativeLayout>\n+\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/btn_login\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/layout\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"20dp\"\n+        android:background=\"#3c8dc4\"\n+        android:text=\"登录\"\n+        android:textColor=\"#ffffff\"/>\n+\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "54ec32b936a80b1a6fe655011c432d18f065a528",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/54ec32b936a80b1a6fe655011c432d18f065a528",
+  "parents" : [ {
+    "sha" : "b729776c8f8ef34b0029d5f713946c94c21ed875",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b729776c8f8ef34b0029d5f713946c94c21ed875",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b729776c8f8ef34b0029d5f713946c94c21ed875"
+  } ]
+}

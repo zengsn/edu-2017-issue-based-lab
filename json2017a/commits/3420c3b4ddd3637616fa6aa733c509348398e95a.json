@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "zhangdixi",
+    "id" : 26159065,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26159065?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangdixi",
+    "html_url" : "https://github.com/zhangdixi",
+    "followers_url" : "https://api.github.com/users/zhangdixi/followers",
+    "following_url" : "https://api.github.com/users/zhangdixi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangdixi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangdixi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangdixi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangdixi/orgs",
+    "repos_url" : "https://api.github.com/users/zhangdixi/repos",
+    "events_url" : "https://api.github.com/users/zhangdixi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangdixi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 51,
+    "additions" : 51,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zhangdixi",
+    "id" : 26159065,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26159065?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangdixi",
+    "html_url" : "https://github.com/zhangdixi",
+    "followers_url" : "https://api.github.com/users/zhangdixi/followers",
+    "following_url" : "https://api.github.com/users/zhangdixi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangdixi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangdixi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangdixi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangdixi/orgs",
+    "repos_url" : "https://api.github.com/users/zhangdixi/repos",
+    "events_url" : "https://api.github.com/users/zhangdixi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangdixi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3420c3b4ddd3637616fa6aa733c509348398e95a",
+  "commit" : {
+    "author" : {
+      "name" : "zhangdixi",
+      "email" : "617017863@qq.com",
+      "date" : "2017-05-23T12:00:24Z"
+    },
+    "committer" : {
+      "name" : "zhangdixi",
+      "email" : "617017863@qq.com",
+      "date" : "2017-05-23T12:00:24Z"
+    },
+    "message" : "#4 #40 第四次作业",
+    "tree" : {
+      "sha" : "e4197bc629e2f46d7d2c6966b1c7a0937fb558e8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e4197bc629e2f46d7d2c6966b1c7a0937fb558e8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/3420c3b4ddd3637616fa6aa733c509348398e95a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3420c3b4ddd3637616fa6aa733c509348398e95a/comments",
+  "files" : [ {
+    "sha" : "47716b1ca0dc7ec8678abbd62e3facdfec99d0db",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/3420c3b4ddd3637616fa6aa733c509348398e95a/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/3420c3b4ddd3637616fa6aa733c509348398e95a/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=3420c3b4ddd3637616fa6aa733c509348398e95a",
+    "patch" : "@@ -0,0 +1,36 @@\n+<resources>\n+    <string name=\"app_name\">Android开发</string>\n+    <string name=\"action_settings\">设置</string>\n+\n+    <string name=\"title_activity_back\">活动模板（返回）</string>\n+\n+    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n+    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n+\n+    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n+    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n+\n+    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n+    <string name=\"title_activity_fragment_content\">内容</string>\n+    <string name=\"demo_content\">演示内容</string>\n+    <string name=\"title_activity_net123456\">Net123456Activity</string>\n+    <string name=\"title_activity_com123456\">Com123456Activity</string>\n+    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n+    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n+    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n+    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n+    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n+    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n+    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n+    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n+    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n+    <string name=\"title_activity_list_view\">ListViewActivity</string>\n+    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n+    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n+    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n+    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n+    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n+    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n+    <string name=\"title_activity_file_share\">FileShareActivity</string>\n+    <string name=\"title_activity_network\">NetworkActivity</string>\n+</resources>"
+  }, {
+    "sha" : "49378525c66510b3dd24d1b2d4c86b76b2b01065",
+    "filename" : "AndroidLabs/app/src/main/res/values/styles.xml",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/3420c3b4ddd3637616fa6aa733c509348398e95a/AndroidLabs/app/src/main/res/values/styles.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/3420c3b4ddd3637616fa6aa733c509348398e95a/AndroidLabs/app/src/main/res/values/styles.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/styles.xml?ref=3420c3b4ddd3637616fa6aa733c509348398e95a",
+    "patch" : "@@ -0,0 +1,15 @@\n+<resources>\n+\n+    <!-- Base application theme. -->\n+    <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\n+        <!--<item name=\"android:layout_width\">fill_parent</item>-->\n+        <!--<item name=\"android:layout_height\">wrap_content</item>-->\n+        <!--<item name=\"android:capitalize\">characters</item>-->\n+        <!--<item name=\"android:typeface\">monospace</item>-->\n+        <!--<item name=\"android:textSize\">12pt</item>-->\n+        <!--<item name=\"android:textColor\">#00FF00</item>/>-->\n+    </style>\n+    <style name=\"CustomFontStyle\">\n+    </style>\n+\n+</resources>"
+  } ],
+  "sha" : "3420c3b4ddd3637616fa6aa733c509348398e95a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3420c3b4ddd3637616fa6aa733c509348398e95a",
+  "parents" : [ {
+    "sha" : "1aa11ca5c47e12aa1fd998f5e89d76aeaeeb47fa",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1aa11ca5c47e12aa1fd998f5e89d76aeaeeb47fa",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1aa11ca5c47e12aa1fd998f5e89d76aeaeeb47fa"
+  } ]
+}

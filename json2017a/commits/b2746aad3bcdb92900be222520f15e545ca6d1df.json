@@ -1,0 +1,116 @@
+{
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 32,
+    "additions" : 20,
+    "deletions" : 12
+  },
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b2746aad3bcdb92900be222520f15e545ca6d1df",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-05-12T05:53:22Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-05-12T05:53:22Z"
+    },
+    "message" : "#1 #33 第三次作业",
+    "tree" : {
+      "sha" : "e608ee2daf87f1467f22a18397eabd4fd7677a95",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e608ee2daf87f1467f22a18397eabd4fd7677a95"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b2746aad3bcdb92900be222520f15e545ca6d1df",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b2746aad3bcdb92900be222520f15e545ca6d1df/comments",
+  "files" : [ {
+    "sha" : "d05c244f35cd076c8bafe274577376a29b7642ab",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080803016SelectCity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 2,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080803016SelectCity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080803016SelectCity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080803016SelectCity.java?ref=b2746aad3bcdb92900be222520f15e545ca6d1df",
+    "patch" : "@@ -4,6 +4,7 @@\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n+import android.widget.ImageButton;\n \n import edu.hzuapps.androidlabs.R;\n \n@@ -12,14 +13,14 @@\n  */\n \n public class Net1414080803016SelectCity extends Activity implements View.OnClickListener {\n-    private Button backBtn;\n+    private ImageButton backBtn;\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903106_select_city);\n \n         //绑定“返回”按钮\n-        backBtn=(Button) findViewById(R.id.btn_selectCity_back);\n+        backBtn=(ImageButton) findViewById(R.id.btn_selectCity_back);\n         backBtn.setOnClickListener(this);\n     }\n "
+  }, {
+    "sha" : "e33c2e8fb946b739e3346709b7d6610904351129",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/back.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/res/drawable/back.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/res/drawable/back.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/back.png?ref=b2746aad3bcdb92900be222520f15e545ca6d1df"
+  }, {
+    "sha" : "82d6ae74e7aa953cd409f3d9b493da22e2a98837",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/search.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/res/drawable/search.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/res/drawable/search.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/search.png?ref=b2746aad3bcdb92900be222520f15e545ca6d1df"
+  }, {
+    "sha" : "938794a90e6e455e14255966cfa9968e43175b00",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "status" : "modified",
+    "additions" : 17,
+    "deletions" : 10,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b2746aad3bcdb92900be222520f15e545ca6d1df/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml?ref=b2746aad3bcdb92900be222520f15e545ca6d1df",
+    "patch" : "@@ -6,23 +6,30 @@\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:background=\"#002F93\">\n-        <Button\n+        <ImageButton\n             android:id=\"@+id/btn_selectCity_back\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"45.0dp\"\n-            android:gravity=\"center_vertical\"\n-            android:layout_marginLeft=\"10.0dp\"\n-            android:text=\"返回\"\n-            android:textSize=\"20.0sp\"\n-            android:textColor=\"#FFFFFF\"/>\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"45.0dp\"\n+        android:gravity=\"center_vertical\"\n+        android:layout_marginLeft=\"10.0dp\"\n+        android:background=\"#002F93\"\n+        android:src=\"@drawable/back\"/>\n         <EditText\n             android:id=\"@+id/et_cityName\"\n             android:layout_width=\"match_parent\"\n             android:layout_height=\"45.0dp\"\n             android:gravity=\"center_vertical\"\n             android:layout_toRightOf=\"@id/btn_selectCity_back\"\n             android:text=\"城市名\"\n-            android:textSize=\"20.0sp\"\n-            android:textColor=\"#FFFFFF\"/>\n+            android:textSize=\"20.0sp\" />\n+        <ImageButton\n+            android:id=\"@+id/btn_selectCity_search\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"45.0dp\"\n+            android:gravity=\"center_vertical\"\n+            android:layout_alignParentRight=\"true\"\n+            android:layout_marginRight=\"10.0dp\"\n+            android:background=\"#002F93\"\n+            android:src=\"@drawable/search\" />\n     </RelativeLayout>\n </RelativeLayout>"
+  } ],
+  "sha" : "b2746aad3bcdb92900be222520f15e545ca6d1df",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b2746aad3bcdb92900be222520f15e545ca6d1df",
+  "parents" : [ {
+    "sha" : "05a9b2673fd0073b135d0bb1bc6c488c1235240d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/05a9b2673fd0073b135d0bb1bc6c488c1235240d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/05a9b2673fd0073b135d0bb1bc6c488c1235240d"
+  } ]
+}

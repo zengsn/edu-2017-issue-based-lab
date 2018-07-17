@@ -1,0 +1,151 @@
+{
+  "committer" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 114,
+    "additions" : 88,
+    "deletions" : 26
+  },
+  "author" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+  "commit" : {
+    "author" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-06-13T18:42:26Z"
+    },
+    "committer" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-06-13T18:42:26Z"
+    },
+    "message" : "#6 #63 第六次作业",
+    "tree" : {
+      "sha" : "92c97a0cfc894b3a0ef3c11e02332d1acd56860e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/92c97a0cfc894b3a0ef3c11e02332d1acd56860e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/14c3e91d3ee9d168868a379e5ee6106b8d35f561/comments",
+  "files" : [ {
+    "sha" : "3546690b47e34a51fc126fc3eef4c996609b7a37",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest (2).xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/AndroidManifest%20(2).xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/AndroidManifest%20(2).xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest%20(2).xml?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -1,7 +1,7 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     package=\"edu.hzuapps.androidlabs.homeworks.net1414080903224\">\n-\n+<uses-permission android:name=\"android.permission.INTERNET\"/>\n     <application\n         android:allowBackup=\"true\"\n         android:icon=\"@mipmap/ic_launcher\""
+  }, {
+    "sha" : "4e6b999a45cf93ce1c8060bd830864dc36505dd0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 7,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Address.java?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -3,21 +3,21 @@\n \n public class N1414080903224Address {\n     private Long id;\n-    private  String url;\n+    private  String path;\n     public Long getId(){\n         return id;\n     }\n     public void setId(Long id){\n         this.id=id;\n     }\n-    public  String getUrl(){\n-        return url;\n+    public  String getPath(){\n+        return path;\n     }\n-    public void setUrl(String url){\n-        this.url=url;\n+    public void setPath(String url){\n+        this.path=path;\n     }\n-    public N1414080903224Address(String url){\n+    public N1414080903224Address(String path){\n         super();\n-        this.url=url;\n+        this.path=path;\n     }\n }"
+  }, {
+    "sha" : "9949716ef2e439399407fd56e7f28ccbbd0d3f1c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224Dao.java?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -21,7 +21,7 @@ public N1414080903224Dao(Context context){\n     public  void insert(N1414080903224Address address){\n         SQLiteDatabase db=helper.getWritableDatabase(); //获取数据库对象\n         ContentValues values=new ContentValues();\n-        values.put(\"url\",address.getUrl());\n+        values.put(\"path\",address.getPath());\n         long id =db.insert(\"address\",null,values); // 插入数据到 address 数据表里\n         db.close();\n     }"
+  }, {
+    "sha" : "0f6c3315365d08a210893706bd3bb2f6eee74e9b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224MyHelper.java?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -15,7 +15,7 @@ public  N1414080903224MyHelper(Context context){\n     }\n     public void onCreate(SQLiteDatabase db){\n         System.out.println(\"onCreate\");\n-        db.execSQL(\"CREATE TABLE address(_id INTEGER KEY AUTOINCREMENT , url Varchar(20))\") ; //创建address 数据表，字段名为 id,url\n+        db.execSQL(\"CREATE TABLE address(_id INTEGER KEY AUTOINCREMENT , path Varchar(20))\") ; //创建address 数据表，字段名为 id,path\n     }\n     public  void onUpgrade(SQLiteDatabase db,int oldVersion,int newVersion){\n         System.out.println(\"onUpgrade\");"
+  }, {
+    "sha" : "27eb029e723d580e56b5615d04315afc83f4492a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224page.java",
+    "status" : "modified",
+    "additions" : 19,
+    "deletions" : 8,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224page.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224page.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/N1414080903224page.java?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -5,21 +5,32 @@\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n+import android.widget.TextView;\n \n public class N1414080903224page extends AppCompatActivity {\n-private Button button;\n+    private Button close_button;\n+    private TextView show_page;\n+\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_n1414080903224page);\n-        button=(Button) findViewById(R.id.Button3);\n+        close_button = (Button) findViewById(R.id.Button3);\n+        show_page=(TextView) findViewById(R.id.show_page);\n+        close_button.setOnClickListener(new ButtonListener());\n+        Intent intent=getIntent();\n+        String message=intent.getStringExtra(\"page\");\n+        show_page.setText(message);\n     }\n-    public  void onClick (View v) {\n-        switch ( v.getId()){\n-            case R.id.Button3:\n-                Intent intent = new Intent(this,Net1414080903224Internet.class);\n-                startActivity(intent);\n-                break;\n+\n+    private class ButtonListener implements View.OnClickListener {\n+        public void onClick(View v) {\n+            switch (v.getId()) {\n+                case R.id.Button3:\n+                    Intent intent = new Intent(N1414080903224page.this, Net1414080903224Internet.class);\n+                    startActivity(intent);\n+                    break;\n+            }\n         }\n     }\n }"
+  }, {
+    "sha" : "d960644d8b661176dd8f08a4b9c93e2f6143ca32",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java",
+    "status" : "modified",
+    "additions" : 57,
+    "deletions" : 4,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903224/Net1414080903224Internet.java?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -2,19 +2,72 @@\n \n import android.content.Context;\n import android.content.Intent;\n+import android.graphics.Bitmap;\n+import android.os.Handler;\n+import android.os.Message;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n import android.widget.EditText;\n import android.widget.ListView;\n+import android.widget.TextView;\n+\n+import java.io.BufferedReader;\n import java.io.FileOutputStream;\n+import java.io.InputStream;\n+import java.io.InputStreamReader;\n+import java.net.HttpURLConnection;\n+import java.net.URL;\n+\n public class Net1414080903224Internet extends AppCompatActivity {\n     private Button b_history;\n     private Button b_search;\n     private EditText e_input;\n+    public static final int Show_response=0;\n     private  N1414080903224Dao dao;  //数据库操作类\n \n+    private Handler handler=new Handler(){\n+        public  void handleMessage (android.os.Message msg){\n+           switch (msg.what){\n+               case Show_response:\n+                   String response =(String) msg.obj;\n+                   Intent intent = new Intent(Net1414080903224Internet.this, N1414080903224page.class);\n+                   intent.putExtra(\"page\",response);\n+                   startActivity(intent);\n+           }\n+        }\n+    };\n+    private void sendRequestByHttpURLConnection(final String path){\n+        new Thread(new Runnable(){\n+            public void run(){\n+                HttpURLConnection connection=null;\n+                try{\n+                    URL url=new URL(path);\n+                    connection=(HttpURLConnection) url.openConnection();\n+                    connection.setRequestMethod(\"GET\");\n+                    connection.setConnectTimeout(5000);\n+                    InputStream in=connection.getInputStream();\n+                    BufferedReader reader=new BufferedReader(new InputStreamReader(in));\n+                    StringBuilder response =new StringBuilder();\n+                    String line;\n+                    while ((line=reader.readLine())!=null){\n+                        response.append(line);\n+                    }\n+                    Message message =new Message();\n+                    message.what=Show_response;\n+                    message.obj=response.toString();\n+                    handler.sendMessage(message);\n+                } catch (Exception e){\n+                    e.printStackTrace();\n+                } finally {\n+                    if(connection!=null){\n+                        connection.disconnect();\n+                    }\n+                }\n+            }\n+        }).start();\n+    }\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903224_internet);\n@@ -26,6 +79,7 @@ protected void onCreate(Bundle savedInstanceState) {\n         dao=new N1414080903224Dao(this);\n     }\n \n+\n     private class ButtonListener implements View.OnClickListener {\n         public void onClick(View v) {\n             switch (v.getId()) {\n@@ -36,11 +90,10 @@ public void onClick(View v) {\n             }\n             switch (v.getId()) {\n                 case R.id.button:\n-                    Intent intent = new Intent(Net1414080903224Internet.this, N1414080903224page.class);\n-                    startActivity(intent);\n-                    String url=e_input.getText().toString().trim(); //获取用户输入的信息\n-                    N1414080903224Address a=new N1414080903224Address(url);\n+                   final  String path=e_input.getText().toString().trim(); //获取用户输入的信息\n+                    N1414080903224Address a=new N1414080903224Address(path);\n                     dao.insert(a);  //插入数据库\n+                    sendRequestByHttpURLConnection(path);\n                     break;\n             }\n         }"
+  }, {
+    "sha" : "346f3854f960a7a3d0af3b1ec5a89e3851678cf9",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_n1414080903224page.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 4,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/res/layout/activity_n1414080903224page.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/14c3e91d3ee9d168868a379e5ee6106b8d35f561/AndroidLabs/app/src/main/res/layout/activity_n1414080903224page.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_n1414080903224page.xml?ref=14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "patch" : "@@ -16,10 +16,8 @@\n         android:layout_marginTop=\"5dp\"\n         android:text=\"关闭\" />\n <TextView\n+    android:id=\"@+id/show_page\"\n     android:layout_width=\"wrap_content\"\n     android:layout_height=\"wrap_content\"\n-    android:layout_centerHorizontal=\"true\"\n-    android:layout_centerVertical=\"true\"\n-    android:textSize=\"50dp\"\n-    android:text=\"显示网页\"/>\n+   />\n </RelativeLayout>"
+  } ],
+  "sha" : "14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+  "parents" : [ {
+    "sha" : "aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/aa76fd730c31ce5c24731254cf06a6da512700ef"
+  } ]
+}

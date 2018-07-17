@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8",
+  "commit" : {
+    "author" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-06-18T16:32:41Z"
+    },
+    "committer" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-06-18T16:32:41Z"
+    },
+    "message" : "about.json",
+    "tree" : {
+      "sha" : "c443696bc5564deb7cc404bde624a5e491c84906",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c443696bc5564deb7cc404bde624a5e491c84906"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8/comments",
+  "files" : [ {
+    "sha" : "7b6cc6f779aa7a1d171c84c75d850c39271a5041",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/about.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/about.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/about.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/about.json?ref=bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8",
+    "patch" : "@@ -0,0 +1 @@\n+[{\"softwareName\":\"AndroidLabs\",\"authorName\":\"QuanGuanQiao\"}]\r"
+  } ],
+  "sha" : "bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bc86de6bbc9cac5312d3e39fa0c71a8ea04216a8",
+  "parents" : [ {
+    "sha" : "8ebc9f48c09d368cc1914f10124ce4dec2c9317a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8ebc9f48c09d368cc1914f10124ce4dec2c9317a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8ebc9f48c09d368cc1914f10124ce4dec2c9317a"
+  } ]
+}

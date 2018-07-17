@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 222,
+    "additions" : 198,
+    "deletions" : 24
+  },
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c676868e2a2d02371d8748d6adc4ff4dba948495",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-05-13T02:28:41Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-05-13T02:28:41Z"
+    },
+    "message" : "#4 #13 第四次实验",
+    "tree" : {
+      "sha" : "9ce8d2299763747210bc99c60bf9d49b1e54ac5c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9ce8d2299763747210bc99c60bf9d49b1e54ac5c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c676868e2a2d02371d8748d6adc4ff4dba948495/comments",
+  "files" : [ {
+    "sha" : "4afb875b80affdb1843e48e2f7b3336ffce3988f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 7,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212Activity.java?ref=c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "patch" : "@@ -17,7 +17,8 @@\n \n     private FrameLayout ly_content;\n \n-    private Net1414080903212FirstFragment f1,f2;\n+    private Net1414080903212FirstFragment f1;\n+    private Net1414080903212SecondFragment f2;\n     private FragmentManager fragmentManager;\n \n     @Override\n@@ -32,8 +33,8 @@ protected void onCreate(Bundle savedInstanceState) {\n     //UI组件初始化与事件绑定\n     private void bindView() {\n         topBar = (TextView)this.findViewById(R.id.txt_top);\n-        tabAssign = (TextView)this.findViewById(R.id.txt_assign);\n-        tabMark = (TextView)this.findViewById(R.id.txt_mark);\n+        tabAssign = (TextView)this.findViewById(R.id.navigation_assign);\n+        tabMark = (TextView)this.findViewById(R.id.navigation_mark);\n         ly_content = (FrameLayout) findViewById(R.id.fragment_container);\n \n         tabAssign.setOnClickListener(this);\n@@ -60,22 +61,22 @@ public void onClick(View v) {\n         FragmentTransaction transaction = getFragmentManager().beginTransaction();\n         hideAllFragment(transaction);\n         switch(v.getId()){\n-            case R.id.txt_assign:\n+            case R.id.navigation_assign:\n                 selected();\n                 tabAssign.setSelected(true);\n                 if(f1==null){\n-                    f1 = new Net1414080903212FirstFragment(\"布置作业任务Fragment\");\n+                    f1 = new Net1414080903212FirstFragment(\"\");\n                     transaction.add(R.id.fragment_container,f1);\n                 }else{\n                     transaction.show(f1);\n                 }\n                 break;\n \n-            case R.id.txt_mark:\n+            case R.id.navigation_mark:\n                 selected();\n                 tabMark.setSelected(true);\n                 if(f2==null){\n-                    f2 = new Net1414080903212FirstFragment(\"记录作业成绩Fragment\");\n+                    f2 = new Net1414080903212SecondFragment(\"\");\n                     transaction.add(R.id.fragment_container,f2);\n                 }else{\n                     transaction.show(f2);"
+  }, {
+    "sha" : "7e733679cf03f59aeff3263a3b2d4185596d6222",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212FirstFragment.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212FirstFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212FirstFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212FirstFragment.java?ref=c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "patch" : "@@ -20,7 +20,7 @@ public Net1414080903212FirstFragment(String context){\n     @Override\n     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n         View view = inflater.inflate(R.layout.first_fragment1414080903212,container,false);\n-        mTextView = (TextView)view.findViewById(R.id.txt_content);\n+        mTextView = (TextView)view.findViewById(R.id.fra_assign);\n         mTextView.setText(context);\n         return view;\n     }"
+  }, {
+    "sha" : "93065505a152f0807997cccf8e6a51223a2d64ed",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212SecondFragment.java",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212SecondFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212SecondFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903212/Net1414080903212SecondFragment.java?ref=c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "patch" : "@@ -0,0 +1,27 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903212;\n+\n+import android.app.Fragment;\n+import android.os.Bundle;\n+import android.support.annotation.Nullable;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.TextView;\n+\n+public class Net1414080903212SecondFragment extends Fragment {\n+    private String context;\n+    private TextView mTextView;\n+\n+    public Net1414080903212SecondFragment(String context){\n+        this.context = context;\n+    }\n+\n+    @Nullable\n+    @Override\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        View view = inflater.inflate(R.layout.second_fragment1414080903212,container,false);\n+        mTextView = (TextView)view.findViewById(R.id.fra_mark);\n+        mTextView.setText(context);\n+        return view;\n+    }\n+}"
+  }, {
+    "sha" : "01666170b11a24d98b65cabe754b6650d2d688d5",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 9,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml?ref=c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "patch" : "@@ -14,7 +14,7 @@\n             android:layout_width=\"match_parent\"\n             android:layout_height=\"match_parent\"\n             android:gravity=\"center\"\n-            android:textSize=\"18sp\"\n+            android:textSize=\"26sp\"\n             android:textColor=\"@android:color/darker_gray\"\n             android:text= \"作业提交系统\" />\n \n@@ -33,28 +33,28 @@\n         android:layout_alignParentBottom=\"true\">\n \n         <TextView\n-            android:id=\"@+id/txt_assign\"\n+            android:id=\"@+id/navigation_assign\"\n             android:layout_width=\"0dp\"\n             android:layout_height=\"match_parent\"\n             android:layout_weight=\"1\"\n-            android:background=\"@drawable/tab_homework_bg\"\n+            android:background=\"@drawable/tab_hw_bg1414080903212\"\n             android:drawablePadding=\"3dp\"\n-            android:drawableTop=\"@drawable/tab_homework_assignment\"\n+            android:drawableTop=\"@drawable/tab_hw_assignment1414080903212\"\n             android:gravity=\"center\"\n-            android:textColor=\"@drawable/tab_homework_assignment_text\"\n+            android:textColor=\"@drawable/tab_text1414080903212\"\n             android:text=\"Assignment\"\n             android:textSize=\"12sp\" />\n \n         <TextView\n-            android:id=\"@+id/txt_mark\"\n+            android:id=\"@+id/navigation_mark\"\n             android:layout_width=\"0dp\"\n             android:layout_height=\"match_parent\"\n             android:layout_weight=\"1\"\n-            android:background=\"@drawable/tab_homework_bg\"\n+            android:background=\"@drawable/tab_hw_bg1414080903212\"\n             android:drawablePadding=\"3dp\"\n-            android:drawableTop=\"@drawable/tab_homework_marking\"\n+            android:drawableTop=\"@drawable/tab_hw_marking1414080903212\"\n             android:gravity=\"center\"\n-            android:textColor=\"@drawable/tab_homework_marking_text\"\n+            android:textColor=\"@drawable/tab_text1414080903212\"\n             android:text=\"Marking\"\n             android:textSize=\"12sp\" />\n "
+  }, {
+    "sha" : "c6e67bc3f0a9d95f26faafcda661cb7cdcd2ee63",
+    "filename" : "AndroidLabs/app/src/main/res/layout/first_fragment1414080903212.xml",
+    "status" : "modified",
+    "additions" : 55,
+    "deletions" : 7,
+    "changes" : 62,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/res/layout/first_fragment1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/res/layout/first_fragment1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/first_fragment1414080903212.xml?ref=c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "patch" : "@@ -1,17 +1,65 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:background=\"@android:color/transparent\">\n+    android:background=\"@android:color/transparent\"\n+    android:weightSum=\"1\">\n \n \n     <TextView\n-        android:id=\"@+id/txt_content\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"match_parent\"\n+        android:layout_height=\"39dp\"\n+        android:id=\"@+id/fra_assign\"\n+        android:textSize=\"20sp\"\n+        android:textColor=\"@android:color/black\"\n+        android:textAlignment=\"center\"/>\n+\n+    <TextView\n+        android:text=\"作业内容：\"\n+        android:layout_width=\"101dp\"\n+        android:layout_height=\"36dp\"\n+        android:id=\"@+id/textView1\"\n+        android:textSize=\"20sp\" />\n+\n+    <android.support.design.widget.TextInputLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"162dp\"\n+        android:layout_weight=\"0.13\">\n+\n+        <EditText\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:hint=\"在此输入作业内容...\" />\n+    </android.support.design.widget.TextInputLayout>\n+\n+    <TextView\n+        android:text=\"提交时间：\"\n+        android:layout_width=\"101dp\"\n+        android:layout_height=\"36dp\"\n+        android:id=\"@+id/textView2\"\n+        android:textSize=\"20sp\" />\n+\n+\n+    <EditText\n+        android:layout_width=\"184dp\"\n+        android:layout_height=\"wrap_content\"\n+        android:inputType=\"textPersonName\"\n+        android:ems=\"10\"\n+        android:id=\"@+id/editText2\" />\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n         android:gravity=\"center\"\n-        android:text=\"\"\n-        android:textColor=\"@android:color/holo_blue_light\"\n-        android:textSize=\"20sp\"/>\n+        android:orientation=\"horizontal\"\n+        android:weightSum=\"1\">\n+    <Button\n+        android:text=\"发布作业\"\n+        android:layout_width=\"149dp\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/button1\" />\n+        </LinearLayout>\n \n </LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "5067ecdc8a4eef1919d00a832c86e11c0d164df6",
+    "filename" : "AndroidLabs/app/src/main/res/layout/second_fragment1414080903212.xml",
+    "status" : "added",
+    "additions" : 98,
+    "deletions" : 0,
+    "changes" : 98,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/res/layout/second_fragment1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c676868e2a2d02371d8748d6adc4ff4dba948495/AndroidLabs/app/src/main/res/layout/second_fragment1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/second_fragment1414080903212.xml?ref=c676868e2a2d02371d8748d6adc4ff4dba948495",
+    "patch" : "@@ -0,0 +1,98 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"wrap_content\"\n+    android:background=\"@android:color/transparent\">\n+\n+    <TextView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"39dp\"\n+        android:id=\"@+id/fra_mark\"\n+        android:textSize=\"21sp\"\n+        android:textColor=\"@android:color/black\"\n+        android:textAlignment=\"center\"/>\n+\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\"\n+        android:weightSum=\"1\">\n+\n+        <TextView\n+            android:text=\"学生学号：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"40dp\"\n+            android:id=\"@+id/textView1\"\n+            android:textSize=\"21sp\"\n+            android:layout_gravity=\"left\"\n+            android:layout_weight=\"0.37\" />\n+\n+        <EditText\n+            android:layout_width=\"202dp\"\n+            android:id=\"@+id/textView2\"\n+            android:layout_gravity=\"right\"\n+            android:layout_weight=\"0.63\"\n+            android:layout_height=\"42dp\" />\n+    </LinearLayout>\n+\n+    <TextView\n+        android:text=\"作业附件：\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/textView4\"\n+        android:textSize=\"21sp\" />\n+\n+    <LinearLayout\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:text=\"成绩：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"40dp\"\n+            android:id=\"@+id/textView5\"\n+            android:textSize=\"21sp\"\n+            android:layout_gravity=\"left\"/>\n+\n+        <EditText\n+            android:layout_width=\"148dp\"\n+            android:layout_height=\"42dp\"\n+            android:id=\"@+id/textView6\"\n+            android:layout_gravity=\"right\"\n+            android:textSize=\"20sp\" />\n+    </LinearLayout>\n+\n+    <TextView\n+        android:text=\"作业评语：\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/textView7\"\n+        android:textSize=\"21sp\" />\n+\n+    <android.support.design.widget.TextInputLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"142dp\">\n+\n+        <EditText\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:hint=\"在此输入作业评语...\" />\n+    </android.support.design.widget.TextInputLayout>\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:orientation=\"horizontal\"\n+        android:weightSum=\"1\">\n+        <Button\n+            android:text=\"提交\"\n+            android:layout_width=\"124dp\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"21sp\"\n+            android:id=\"@+id/button\" />\n+    </LinearLayout>\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "c676868e2a2d02371d8748d6adc4ff4dba948495",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c676868e2a2d02371d8748d6adc4ff4dba948495",
+  "parents" : [ {
+    "sha" : "5a05690a515d1f3e8cccce98265c0bd2583f859f",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5a05690a515d1f3e8cccce98265c0bd2583f859f",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5a05690a515d1f3e8cccce98265c0bd2583f859f"
+  } ]
+}

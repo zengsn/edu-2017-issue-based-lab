@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "zzh1414080903218",
+    "id" : 26100430,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26100430?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zzh1414080903218",
+    "html_url" : "https://github.com/zzh1414080903218",
+    "followers_url" : "https://api.github.com/users/zzh1414080903218/followers",
+    "following_url" : "https://api.github.com/users/zzh1414080903218/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zzh1414080903218/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zzh1414080903218/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zzh1414080903218/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zzh1414080903218/orgs",
+    "repos_url" : "https://api.github.com/users/zzh1414080903218/repos",
+    "events_url" : "https://api.github.com/users/zzh1414080903218/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zzh1414080903218/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 174,
+    "additions" : 100,
+    "deletions" : 74
+  },
+  "author" : {
+    "login" : "zzh1414080903218",
+    "id" : 26100430,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26100430?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zzh1414080903218",
+    "html_url" : "https://github.com/zzh1414080903218",
+    "followers_url" : "https://api.github.com/users/zzh1414080903218/followers",
+    "following_url" : "https://api.github.com/users/zzh1414080903218/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zzh1414080903218/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zzh1414080903218/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zzh1414080903218/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zzh1414080903218/orgs",
+    "repos_url" : "https://api.github.com/users/zzh1414080903218/repos",
+    "events_url" : "https://api.github.com/users/zzh1414080903218/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zzh1414080903218/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/263df5356331663de536e8783cba21ca493277a4",
+  "commit" : {
+    "author" : {
+      "name" : "zzh1414080903218",
+      "email" : "1290040567@qq.com",
+      "date" : "2017-05-26T07:28:29Z"
+    },
+    "committer" : {
+      "name" : "zzh1414080903218",
+      "email" : "1290040567@qq.com",
+      "date" : "2017-05-26T07:28:29Z"
+    },
+    "message" : "#5 #24 第五次实验",
+    "tree" : {
+      "sha" : "34c219562bf3a8bbe7896c14359709ef9ff682a4",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/34c219562bf3a8bbe7896c14359709ef9ff682a4"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/263df5356331663de536e8783cba21ca493277a4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/263df5356331663de536e8783cba21ca493277a4/comments",
+  "files" : [ {
+    "sha" : "962b9a86fa093ccc3473af39ea3efa82f9be7384",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 73,
+    "changes" : 74,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/263df5356331663de536e8783cba21ca493277a4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/263df5356331663de536e8783cba21ca493277a4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/AutoPlayer.java?ref=263df5356331663de536e8783cba21ca493277a4",
+    "patch" : "@@ -163,6 +163,7 @@ private int getWeight(int link[],boolean empty[],boolean isMe){\n         if(isMe)data += \"1 \";\n         else data += \"0 \";\n         data += weight;\n+        //board.writefNewLine(data);\n         //writefNewLine(data);\n         return weight;\n     }\n@@ -176,77 +177,4 @@ private int getWeight(int link[],boolean empty[],boolean isMe){\n         public final static int E3E = BETTER;\n         public final static int E21E = BETTER;\n     }\n-    public boolean writefNewLine(String data){\n-        if(writef(\"\\n\"+data)){\n-            return true;\n-        }\n-        return false;\n-    }\n-    public boolean writef(String data){\n-        String state = Environment.getExternalStorageState();\n-        if(state.equals(Environment.MEDIA_MOUNTED)) {\n-            File SDPath = Environment.getExternalStorageDirectory();\n-            //String path = SDPath.getPath()+\"\";\n-            //SDPath.mkdir();\n-            File path = new File(SDPath,\"chess\");\n-            path.mkdir();\n-            File file = new File(path,\"data.txt\");\n-            try {\n-                FileOutputStream fos = new FileOutputStream(file,true);\n-                fos.write(data.getBytes());\n-                fos.close();\n-            }catch (Exception e){\n-            }\n-        }\n-        return true;\n-    }\n-    public String readfLine(int index){\n-        List list = new ArrayList();\n-        String data = \"\";\n-        String state = Environment.getExternalStorageState();\n-        if(state.equals(Environment.MEDIA_MOUNTED)) {\n-            File SDPath = Environment.getExternalStorageDirectory();\n-            File path = new File(SDPath,\"chess\");\n-            path.mkdir();\n-            File file = new File(path,\"data.txt\");\n-            try {\n-                FileInputStream fis = new FileInputStream(file);\n-                BufferedReader br = new BufferedReader(new InputStreamReader(fis));\n-                while ((data = br.readLine()) != null){\n-                    list.add(new String(data));\n-                }\n-                //FileOutputStream fos = new FileOutputStream(file,true);\n-                //fos.write(data.getBytes());\n-                //fos.close();\n-            }catch (Exception e){\n-            }\n-        }\n-        data = list.get(index).toString();\n-        return data;\n-    }\n-    public int getfLine(){\n-        List list = new ArrayList();\n-        String data = \"\";\n-        int line = 0;\n-        String state = Environment.getExternalStorageState();\n-        if(state.equals(Environment.MEDIA_MOUNTED)) {\n-            File SDPath = Environment.getExternalStorageDirectory();\n-            File path = new File(SDPath,\"chess\");\n-            path.mkdir();\n-            File file = new File(path,\"data.txt\");\n-            try {\n-                FileInputStream fis = new FileInputStream(file);\n-                BufferedReader br = new BufferedReader(new InputStreamReader(fis));\n-                while ((data = br.readLine()) != null){\n-                    list.add(new String(data));\n-                }\n-                //FileOutputStream fos = new FileOutputStream(file,true);\n-                //fos.write(data.getBytes());\n-                //fos.close();\n-            }catch (Exception e){\n-            }\n-        }\n-        //line = list.lastIndexOf()；\n-        return 0;\n-    }\n }"
+  }, {
+    "sha" : "ed9b2b66361583c2a586f8a4fce28174850b3a2a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "status" : "modified",
+    "additions" : 99,
+    "deletions" : 1,
+    "changes" : 100,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/263df5356331663de536e8783cba21ca493277a4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/263df5356331663de536e8783cba21ca493277a4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java?ref=263df5356331663de536e8783cba21ca493277a4",
+    "patch" : "@@ -1,8 +1,22 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n \n import android.graphics.Color;\n+import android.os.Environment;\n+import android.provider.ContactsContract;\n+import android.text.format.DateFormat;\n import android.widget.Toast;\n \n+import java.io.BufferedReader;\n+import java.io.File;\n+import java.io.FileInputStream;\n+import java.io.FileOutputStream;\n+import java.io.InputStreamReader;\n+import java.sql.Time;\n+import java.util.ArrayList;\n+import java.util.Date;\n+import java.util.List;\n+import java.util.Timer;\n+\n import static android.widget.Toast.LENGTH_SHORT;\n \n /**\n@@ -18,6 +32,7 @@\n     private int row;\n     private boolean gameover;\n     private boolean win;\n+    private String fileName;\n     public Board(int r,int c){\n         row = r;\n         col = c;\n@@ -32,10 +47,13 @@ public Board(int r,int c){\n                 display[i][j] = false;\n             }\n         }\n+        Date now = new Date();\n+        fileName = String.valueOf(now.getTime())+\".txt\";\n+        writefLine(\"start\");\n     }\n     public Board(){\n         row = 10;\n-        col = 12;\n+        col = 10;\n         firstColor = Color.BLACK;\n         laterColor = Color.WHITE;\n         countPieces = 0;\n@@ -53,6 +71,9 @@ public boolean putPiece(boolean first,int r,int c){\n         if(!isEmpty(r,c))return false;\n         this.first[r][c] = first;\n         display[r][c] = true;\n+        String f = first ? \"1\" : \"0\";\n+        String data = f+\" \"+String.valueOf(r)+\" \"+String.valueOf(c);\n+        writefLine(data);\n         checkWin(first,r,c);\n         return true;\n     }\n@@ -126,6 +147,83 @@ public boolean checkWin(boolean first,int x,int y){\n         }\n         return false;\n     }\n+    public boolean writefLine(String data){\n+        if(writef(data+\"\\n\",fileName)){\n+            return true;\n+        }\n+        return false;\n+    }\n+    public boolean writefNewLine(String data){\n+        if(writef(\"\\n\"+data,fileName)){\n+            return true;\n+        }\n+        return false;\n+    }\n+    public boolean writef(String data,String name){\n+        String state = Environment.getExternalStorageState();\n+        if(state.equals(Environment.MEDIA_MOUNTED)) {\n+            File SDPath = Environment.getExternalStorageDirectory();\n+            File path = new File(SDPath,\"chess\");\n+            path.mkdir();\n+            File file = new File(path,name);\n+            try {\n+                FileOutputStream fos = new FileOutputStream(file,true);\n+                fos.write(data.getBytes());\n+                fos.close();\n+            }catch (Exception e){\n+            }\n+        }\n+        return true;\n+    }\n+    public int getfLine(){\n+        List list = new ArrayList();\n+        String data = \"\";\n+        int line = 0;\n+        String state = Environment.getExternalStorageState();\n+        if(state.equals(Environment.MEDIA_MOUNTED)) {\n+            File SDPath = Environment.getExternalStorageDirectory();\n+            File path = new File(SDPath,\"chess\");\n+            path.mkdir();\n+            File file = new File(path,\"data.txt\");\n+            try {\n+                FileInputStream fis = new FileInputStream(file);\n+                BufferedReader br = new BufferedReader(new InputStreamReader(fis));\n+                while ((data = br.readLine()) != null){\n+                    list.add(new String(data));\n+                }\n+                //FileOutputStream fos = new FileOutputStream(file,true);\n+                //fos.write(data.getBytes());\n+                //fos.close();\n+            }catch (Exception e){\n+            }\n+        }\n+        //line = list.lastIndexOf()；\n+        return 0;\n+    }\n+    public String readfLine(String name,int index){\n+        List list = new ArrayList();\n+        String data = \"\";\n+        String state = Environment.getExternalStorageState();\n+        if(state.equals(Environment.MEDIA_MOUNTED)) {\n+            File SDPath = Environment.getExternalStorageDirectory();\n+            File path = new File(SDPath,\"chess\");\n+            path.mkdir();\n+            File file = new File(path,name);\n+            try {\n+                FileInputStream fis = new FileInputStream(file);\n+                BufferedReader br = new BufferedReader(new InputStreamReader(fis));\n+                while ((data = br.readLine()) != null){\n+                    list.add(new String(data));\n+                }\n+                //FileOutputStream fos = new FileOutputStream(file,true);\n+                //fos.write(data.getBytes());\n+                //fos.close();\n+            }catch (Exception e){\n+            }\n+        }\n+        data = list.get(index).toString();\n+        return data;\n+    }\n     public boolean[][] getDisplay(){\n         return display;\n     }"
+  } ],
+  "sha" : "263df5356331663de536e8783cba21ca493277a4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/263df5356331663de536e8783cba21ca493277a4",
+  "parents" : [ {
+    "sha" : "ff80c820c5fcd01ef8235c8643b538c958fec1a3",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ff80c820c5fcd01ef8235c8643b538c958fec1a3",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ff80c820c5fcd01ef8235c8643b538c958fec1a3"
+  } ]
+}

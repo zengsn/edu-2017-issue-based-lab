@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+  "commit" : {
+    "author" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-03-09T02:14:31Z"
+    },
+    "committer" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-03-09T02:14:31Z"
+    },
+    "message" : "#1 #39 第一次作业",
+    "tree" : {
+      "sha" : "e03e2afbcb9192667095db634691e15c626ff6b8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e03e2afbcb9192667095db634691e15c626ff6b8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf/comments",
+  "files" : [ {
+    "sha" : "1333ed77b7e1ed056329cae96075dc558158ee69",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java?ref=7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+    "patch" : "@@ -1 +1 @@\n-TODO\n\\ No newline at end of file\n+TODO"
+  } ],
+  "sha" : "7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+  "parents" : [ {
+    "sha" : "681f166ceff1a5b5a38829154add5abf338b670b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/681f166ceff1a5b5a38829154add5abf338b670b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/681f166ceff1a5b5a38829154add5abf338b670b"
+  } ]
+}

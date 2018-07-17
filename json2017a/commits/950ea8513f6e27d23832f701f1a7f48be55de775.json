@@ -1,0 +1,89 @@
+{
+  "committer" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/950ea8513f6e27d23832f701f1a7f48be55de775",
+  "commit" : {
+    "author" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-03-03T08:29:51Z"
+    },
+    "committer" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-03-03T08:29:51Z"
+    },
+    "message" : "Merge remote-tracking branch 'hzuapps/master'",
+    "tree" : {
+      "sha" : "348aac5cd4a7bcb7b7a766a96d3baf2cca502bcb",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/348aac5cd4a7bcb7b7a766a96d3baf2cca502bcb"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/950ea8513f6e27d23832f701f1a7f48be55de775",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/950ea8513f6e27d23832f701f1a7f48be55de775/comments",
+  "files" : [ {
+    "sha" : "1333ed77b7e1ed056329cae96075dc558158ee69",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/950ea8513f6e27d23832f701f1a7f48be55de775/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/950ea8513f6e27d23832f701f1a7f48be55de775/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java?ref=950ea8513f6e27d23832f701f1a7f48be55de775",
+    "patch" : "@@ -0,0 +1 @@\n+TODO"
+  } ],
+  "sha" : "950ea8513f6e27d23832f701f1a7f48be55de775",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/950ea8513f6e27d23832f701f1a7f48be55de775",
+  "parents" : [ {
+    "sha" : "2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2253a7dedaf35ded0df1fe7f46175b13505f3036"
+  }, {
+    "sha" : "9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9f5014e28f846b0ee9c9eeb6c0262b2887835719"
+  } ]
+}

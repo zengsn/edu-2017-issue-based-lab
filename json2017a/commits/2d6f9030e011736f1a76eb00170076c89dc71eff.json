@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 63,
+    "additions" : 0,
+    "deletions" : 63
+  },
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2d6f9030e011736f1a76eb00170076c89dc71eff",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-04-30T02:34:57Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-04-30T02:34:57Z"
+    },
+    "message" : "Delete Net1414080903137third.xml",
+    "tree" : {
+      "sha" : "996cf94c8bd5c052c6c9a4c9aa99da417db6d61c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/996cf94c8bd5c052c6c9a4c9aa99da417db6d61c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2d6f9030e011736f1a76eb00170076c89dc71eff",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2d6f9030e011736f1a76eb00170076c89dc71eff/comments",
+  "files" : [ {
+    "sha" : "ae766d76157c28399853c3bcc0f88fad58dd3016",
+    "filename" : "AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 63,
+    "changes" : 63,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/84b0d221eeb35d2d94137710fec98e145358e574/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/84b0d221eeb35d2d94137710fec98e145358e574/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml?ref=84b0d221eeb35d2d94137710fec98e145358e574",
+    "patch" : "@@ -1,63 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<TableLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_second\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137SecondActivity\">\n-\n-    <TableLayout>\n-\n-        <TableRow\n-            android:layout_width=\"match_parent\"\n-            android:layout_height=\"match_parent\">\n-\n-            <TextView\n-                android:layout_height=\"wrap_content\"\n-                android:text=\"商品编号：\" />\n-\n-            <EditText\n-                android:id=\"@+id/EditText1\"\n-                android:layout_height=\"wrap_content\"\n-                android:hint=\"编号\" />\n-        </TableRow>\n-\n-        <TableRow>\n-\n-            <TextView\n-                android:layout_height=\"wrap_content\"\n-                android:text=\"商品名称:\" />\n-\n-            <EditText\n-                android:id=\"@+id/EditText2\"\n-                android:layout_height=\"wrap_content\"\n-                android:hint=\"名称\"/>\n-        </TableRow>\n-        <TableRow>\n-\n-            <TextView\n-                android:layout_height=\"wrap_content\"\n-                android:text=\"商品数量:\" />\n-\n-            <EditText\n-                android:id=\"@+id/EditText3\"\n-                android:layout_height=\"wrap_content\"\n-                android:hint=\"数量\"/>\n-        </TableRow>\n-        <TableRow>\n-            <Button\n-                android:id=\"@+id/login\"\n-                android:layout_height=\"wrap_content\"\n-                android:layout_width=\"wrap_content\"\n-                android:layout_weight=\"1\"\n-                android:layout_span=\"2\"\n-                android:text=\"确定\" />\n-        </TableRow>\n-    </TableLayout>\n-</TableLayout>\n-\n-"
+  } ],
+  "sha" : "2d6f9030e011736f1a76eb00170076c89dc71eff",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2d6f9030e011736f1a76eb00170076c89dc71eff",
+  "parents" : [ {
+    "sha" : "84b0d221eeb35d2d94137710fec98e145358e574",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/84b0d221eeb35d2d94137710fec98e145358e574",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/84b0d221eeb35d2d94137710fec98e145358e574"
+  } ]
+}

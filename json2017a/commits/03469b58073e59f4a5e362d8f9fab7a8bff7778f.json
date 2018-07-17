@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 97,
+    "additions" : 97,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+  "commit" : {
+    "author" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-18T02:58:36Z"
+    },
+    "committer" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-18T02:58:36Z"
+    },
+    "message" : "#5 #178 第五次作业",
+    "tree" : {
+      "sha" : "e2ba7c28c7d416f0337c647b088175b8d9fe4c4f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e2ba7c28c7d416f0337c647b088175b8d9fe4c4f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/03469b58073e59f4a5e362d8f9fab7a8bff7778f/comments",
+  "files" : [ {
+    "sha" : "648762d3e328ab73f4ca6f7b7d739b8636e6bf51",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109OpenHelper.java",
+    "status" : "added",
+    "additions" : 30,
+    "deletions" : 0,
+    "changes" : 30,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/03469b58073e59f4a5e362d8f9fab7a8bff7778f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109OpenHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/03469b58073e59f4a5e362d8f9fab7a8bff7778f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109OpenHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109OpenHelper.java?ref=03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+    "patch" : "@@ -0,0 +1,30 @@\n+package edu.hzuapps.androidlabs.net1414080903109;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Administrator on 2017/5/31.\n+ */\n+\n+/*SQLHelper*/\n+public class Net1414080903109OpenHelper extends SQLiteOpenHelper {\n+\n+\n+    public Net1414080903109OpenHelper(Context context) {\n+        super(context,\"day\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+\n+        db.execSQL(\"create table day(name varchar(20),occur varchar(20));\");\n+\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "46884c35c1a35db4de30d2d8166972273274042d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109Presenter.java",
+    "status" : "added",
+    "additions" : 67,
+    "deletions" : 0,
+    "changes" : 67,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/03469b58073e59f4a5e362d8f9fab7a8bff7778f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109Presenter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/03469b58073e59f4a5e362d8f9fab7a8bff7778f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109Presenter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109Presenter.java?ref=03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+    "patch" : "@@ -0,0 +1,67 @@\n+package edu.hzuapps.androidlabs.net1414080903109;\n+\n+import android.content.ContentValues;\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+/**\n+ * Created by Administrator on 2017/5/31.\n+ */\n+\n+public class Net1414080903109Presenter {\n+\n+    private SQLiteOpenHelper helper;\n+    private static Net1414080903109Presenter presenter;\n+\n+    private Net1414080903109Presenter(Context context){\n+        if (helper==null){\n+            helper=new Net1414080903109OpenHelper(context);\n+        }\n+    }\n+\n+    public static Net1414080903109Presenter getInstance(Context context){\n+        if (presenter==null){\n+            presenter=new Net1414080903109Presenter(context);\n+        }\n+        return presenter;\n+    }\n+    \n+    /*��ӽ���*/\n+    public void add(Net1414080903109DayBean day){\n+        SQLiteDatabase db=helper.getWritableDatabase();\n+        ContentValues values=new ContentValues();\n+        values.put(\"name\",day.getName());\n+        values.put(\"occur\",day.getOccur());\n+        db.insert(\"day\",null,values);\n+        db.close();\n+    }\n+   /*�������н���*/\n+    public List<Net1414080903109DayBean> list(){\n+        List<Net1414080903109DayBean> list=new ArrayList<>();\n+        SQLiteDatabase db=helper.getReadableDatabase();\n+        Cursor cursor=db.query(\"day\",null,null,null,null,null,null);\n+        while (cursor.moveToNext()){\n+            Net1414080903109DayBean day=new Net1414080903109DayBean();\n+            day.setName(cursor.getColumnName(cursor.getColumnIndex(\"name\")));\n+            day.setOccur(cursor.getColumnName(cursor.getColumnIndex(\"occur\")));\n+            list.add(day);\n+        }\n+        cursor.close();\n+        db.close();\n+        return list;\n+    }\n+    \n+    /*ɾ�����*/\n+    public void delete(String name){\n+        SQLiteDatabase db=helper.getWritableDatabase();\n+        db.delete(\"day\",\"name=?\",new String[]{name});\n+        db.close();\n+    }\n+\n+\n+}"
+  } ],
+  "sha" : "03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+  "parents" : [ {
+    "sha" : "77bc2fb591593f97983bebc46b1630c236c3bded",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/77bc2fb591593f97983bebc46b1630c236c3bded",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/77bc2fb591593f97983bebc46b1630c236c3bded"
+  } ]
+}

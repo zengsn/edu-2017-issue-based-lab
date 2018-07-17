@@ -1,0 +1,68 @@
+[ {
+  "sha" : "dda15af1d760dbbf327527cf6b3f1316389a049e",
+  "commit" : {
+    "author" : {
+      "name" : "xiemz",
+      "email" : "740539293@qq.com",
+      "date" : "2016-09-06T02:21:00Z"
+    },
+    "committer" : {
+      "name" : "xiemz",
+      "email" : "740539293@qq.com",
+      "date" : "2016-09-06T02:21:00Z"
+    },
+    "message" : "#1 #23 第一次作业",
+    "tree" : {
+      "sha" : "4bd8e29b35dfc41290136609966a8148cbf17c50",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4bd8e29b35dfc41290136609966a8148cbf17c50"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/dda15af1d760dbbf327527cf6b3f1316389a049e",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/dda15af1d760dbbf327527cf6b3f1316389a049e",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/dda15af1d760dbbf327527cf6b3f1316389a049e",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/dda15af1d760dbbf327527cf6b3f1316389a049e/comments",
+  "author" : {
+    "login" : "xiemz",
+    "id" : 26158948,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26158948?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiemz",
+    "html_url" : "https://github.com/xiemz",
+    "followers_url" : "https://api.github.com/users/xiemz/followers",
+    "following_url" : "https://api.github.com/users/xiemz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiemz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiemz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiemz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiemz/orgs",
+    "repos_url" : "https://api.github.com/users/xiemz/repos",
+    "events_url" : "https://api.github.com/users/xiemz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiemz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xiemz",
+    "id" : 26158948,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26158948?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiemz",
+    "html_url" : "https://github.com/xiemz",
+    "followers_url" : "https://api.github.com/users/xiemz/followers",
+    "following_url" : "https://api.github.com/users/xiemz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiemz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiemz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiemz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiemz/orgs",
+    "repos_url" : "https://api.github.com/users/xiemz/repos",
+    "events_url" : "https://api.github.com/users/xiemz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiemz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9f5014e28f846b0ee9c9eeb6c0262b2887835719"
+  } ]
+} ]

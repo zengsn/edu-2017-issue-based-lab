@@ -1,0 +1,139 @@
+{
+  "committer" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 386,
+    "additions" : 360,
+    "deletions" : 26
+  },
+  "author" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+  "commit" : {
+    "author" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-06-16T10:25:33Z"
+    },
+    "committer" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-06-16T10:25:33Z"
+    },
+    "message" : "#6 #14 第六次实验",
+    "tree" : {
+      "sha" : "a20fc1337ebd9e2180cda0ddd8ff2160b078445e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a20fc1337ebd9e2180cda0ddd8ff2160b078445e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/comments",
+  "files" : [ {
+    "sha" : "2d464d1041c61cfaf462230479b434dac92e6708",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java",
+    "status" : "modified",
+    "additions" : 39,
+    "deletions" : 6,
+    "changes" : 45,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java?ref=40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+    "patch" : "@@ -3,9 +3,9 @@\n import android.app.Service;\n import android.content.Intent;\n import android.media.MediaPlayer;\n-import android.os.Environment;\n import android.os.Binder;\n import android.os.IBinder;\n+import android.util.Log;\n \n /**\n  * Created by Administrator on 2017/5/3.\n@@ -21,29 +21,49 @@ MusicService getService() {\n     }\n \n \n+    private String[] musicDir = new String[]{\n+            \"mnt/sdcard/Music/也罢.mp3\",\n+            \"mnt/sdcard/Music/恋爱的犀牛.mp3\",\n+            \"mnt/sdcard/Music/对号入座.mp3\",\n+            \"mnt/sdcard/Music/春风十里不及你.mp3\"\n+    };\n \n \n-\n-    private String[] musicDir = new String[]{\n+    /*private String[] musicDir = new String[]{\n             Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/也罢.mp3\",\n             Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/对号入座.mp3\",\n             Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/春风十里不及你.mp3\",\n             Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/恋爱的犀牛.mp3\"\n \n-    };\n+    };*/\n     private int musicNumber = 1;\n \n+    public int MusicNumberGet(){\n+        return musicNumber;\n+    }\n+\n     public MediaPlayer mp = new MediaPlayer();\n \n-    public MusicService(){\n+    public MusicService() {\n+        try {\n+            mp.setDataSource(\"mnt/sdcard/Music/也罢.mp3\");\n+            mp.prepare();\n+            musicNumber = 1;\n+        } catch (Exception e) {\n+            Log.d(\"hint\",\"can't get to the song\");\n+            e.printStackTrace();\n+        }\n+    }\n+\n+    /*public MusicService(){\n         try {\n             musicNumber = 1;\n             mp.setDataSource(musicDir[musicNumber]);\n             mp.prepare();\n         }catch (Exception e){}\n \n \n-    }\n+    }*/\n \n \n     public void playOrPause() {\n@@ -54,6 +74,19 @@ public void playOrPause() {\n         }\n     }\n \n+    public void nextMusic() {\n+        if(mp != null && musicNumber < 3) {\n+            mp.stop();\n+            try {\n+                mp.reset();\n+                mp.setDataSource(musicDir[musicNumber+1]);\n+                musicNumber++;\n+                mp.prepare();\n+                mp.seekTo(0);\n+                mp.start();\n+            } catch (Exception e) {}\n+        }\n+    }\n \n \n     @Override"
+  }, {
+    "sha" : "e2deee9f9c3c2b4479abddda6d1d66fcfbde3c89",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java",
+    "status" : "modified",
+    "additions" : 166,
+    "deletions" : 3,
+    "changes" : 169,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java?ref=40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+    "patch" : "@@ -1,15 +1,178 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903125;\n \n-import android.support.v7.app.AppCompatActivity;\n+\n+import android.content.ComponentName;\n+import android.content.Intent;\n+import android.content.ServiceConnection;\n+import android.icu.text.SimpleDateFormat;\n import android.os.Bundle;\n+import android.os.Environment;\n+import android.os.IBinder;\n+import android.support.v7.app.AppCompatActivity;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.ImageButton;\n+import android.widget.SeekBar;\n+import android.widget.TextView;\n \n import edu.hzuapps.androidlabs.R;\n \n-public class Net1414080903125Activity extends AppCompatActivity {\n+public class Net1414080903125Activity extends AppCompatActivity implements View.OnClickListener{\n+\n+    private MusicService musicService;\n+    private SeekBar seekBar;\n+    private TextView name,singerName,musicTime;\n+    private ImageButton btnPlayOrPause,meun;\n+    private SimpleDateFormat time = new SimpleDateFormat(\"m:ss\");\n+\n+\n+\n+    private ServiceConnection sc = new ServiceConnection() {\n+        @Override\n+        public void onServiceConnected(ComponentName componentName, IBinder iBinder) {\n+            musicService = ((MusicService.MyBinder)iBinder).getService();\n+        }\n+\n+        @Override\n+        public void onServiceDisconnected(ComponentName componentName) {\n+            musicService = null;\n+        }\n+    };\n+\n+    private void bindServiceConnection() {\n+        Intent intent = new Intent(Net1414080903125Activity.this, MusicService.class);\n+        startService(intent);\n+        bindService(intent, sc, this.BIND_AUTO_CREATE);\n+    }\n+\n+\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903125);\n+\n+        Log.d(\"hint\", \"ready to new MusicService\");\n+        musicService = new MusicService();\n+        Log.d(\"hint\", \"finish to new MusicService\");\n+        bindServiceConnection();\n+\n+        seekBar = (SeekBar) this.findViewById(R.id.playSeekBar);\n+        seekBar.setProgress(musicService.mp.getCurrentPosition());\n+        seekBar.setMax(musicService.mp.getDuration());\n+\n+        btnPlayOrPause = (ImageButton)findViewById(R.id.playOrStopMusic);\n+        meun = (ImageButton)findViewById(R.id.munu);\n+        musicTime = (TextView)findViewById(R.id.MusicTime);\n+        name = (TextView) findViewById(R.id.name);\n+        singerName = (TextView)findViewById((R.id.singerName));\n+\n+        Log.d(\"hint\", Environment.getExternalStorageDirectory().getAbsolutePath() + \"/You.mp3\");\n+\n+\n+    }\n+\n+    public android.os.Handler handler = new android.os.Handler();\n+    public Runnable runnable = new Runnable() {\n+        @Override\n+        public void run() {\n+            if (musicService.mp.isPlaying()) {\n+                //musicStatus.setText(getResources().getString(R.string.playing));\n+                btnPlayOrPause.setBackground(getResources().getDrawable(R.drawable.stop_net1414080903125));\n+            } else {\n+                //musicStatus.setText(getResources().getString(R.string.pause));\n+                btnPlayOrPause.setBackground(getResources().getDrawable(R.drawable.play_net1414080903125));\n+            }\n+            switch (musicService.MusicNumberGet()){\n+                case 1:\n+                    name.setText(R.string.name_1);\n+                    singerName.setText(R.string.singer_1);\n+                    break;\n+                case 2:\n+                    name.setText(R.string.name_2);\n+                    singerName.setText(R.string.singer_2);\n+                    break;\n+                case 3:\n+                    name.setText(R.string.name_3);\n+                    singerName.setText(R.string.singer_3);\n+                    break;\n+                case 4:\n+                    name.setText(R.string.name_4);\n+                    singerName.setText(R.string.singer_4);\n+                    break;\n+                default:\n+                    break;\n+            }\n+\n+            musicTime.setText(time.format(musicService.mp.getCurrentPosition()) + \"/\"\n+                    + time.format(musicService.mp.getDuration()));\n+            seekBar.setProgress(musicService.mp.getCurrentPosition());\n+            seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {\n+                @Override\n+                public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {\n+                    if (fromUser) {\n+                        musicService.mp.seekTo(seekBar.getProgress());\n+                    }\n+                }\n+\n+                @Override\n+                public void onStartTrackingTouch(SeekBar seekBar) {\n+\n+                }\n+\n+                @Override\n+                public void onStopTrackingTouch(SeekBar seekBar) {\n+\n+                }\n+            });\n+            handler.postDelayed(runnable, 100);\n+        }\n+    };\n+\n+    @Override\n+    protected void onResume() {\n+        if(musicService.mp.isPlaying()) {\n+            btnPlayOrPause.setBackground(getResources().getDrawable(R.drawable.stop_net1414080903125));\n+        } else {\n+            btnPlayOrPause.setBackground(getResources().getDrawable(R.drawable.play_net1414080903125));\n+        }\n+\n+        seekBar.setProgress(musicService.mp.getCurrentPosition());\n+        seekBar.setMax(musicService.mp.getDuration());\n+        handler.post(runnable);\n+        super.onResume();\n+        Log.d(\"hint\", \"handler post runnable\");\n+    }\n+\n+\n+\n+\n+    public void onClick(View view) {\n+        switch (view.getId()) {\n+            case R.id.playOrStopMusic:\n+                musicService.playOrPause();\n+                break;\n+            case R.id.munu:\n+                Intent intent=new Intent(Net1414080903125Activity.this,Text_net1414080903125.class);\n+                startActivity(intent);\n+                break;\n+            default:\n+                break;\n+        }\n     }\n-}\n+\n+\n+\n+    @Override\n+    public void onDestroy() {\n+        unbindService(sc);\n+        super.onDestroy();\n+    }\n+\n+\n+\n+\n+  }\n+\n+"
+  }, {
+    "sha" : "f26a6a23fc2f7e1fb3a1ca890593dad1c2a7e321",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Text_net1414080903125.java",
+    "status" : "added",
+    "additions" : 103,
+    "deletions" : 0,
+    "changes" : 103,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Text_net1414080903125.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Text_net1414080903125.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Text_net1414080903125.java?ref=40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+    "patch" : "@@ -0,0 +1,103 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903125;\n+\n+import android.content.DialogInterface;\n+import android.os.Bundle;\n+import android.os.Handler;\n+import android.os.Message;\n+import android.support.v7.app.AlertDialog;\n+import android.support.v7.app.AppCompatActivity;\n+import android.widget.TextView;\n+\n+import org.json.JSONArray;\n+import org.json.JSONObject;\n+\n+import java.io.BufferedReader;\n+import java.io.InputStream;\n+import java.io.InputStreamReader;\n+import java.net.HttpURLConnection;\n+import java.net.URL;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Text_net1414080903125 extends AppCompatActivity {\n+    private TextView TgameI;\n+    private Handler handler=new Handler(){\n+        public void handleMessage(android.os.Message msg){\n+            switch(msg.what){\n+                case 0:\n+                    new AlertDialog.Builder(Text_net1414080903125.this).setTitle(\"提示\").setMessage(\"获取数据失败\").setPositiveButton(\"确定\", new DialogInterface.OnClickListener() {\n+                        @Override\n+                        public void onClick(DialogInterface dialog, int which) {\n+                            finish();\n+                        }\n+                    }).show();\n+                case 1:\n+                    JSONAnalysis(msg.obj.toString());\n+                    /*new AlertDialog.Builder(Net1414080903127GameInstructions.this).setTitle(\"54\").setMessage(msg.obj.toString()).setPositiveButton(\"确定\",new DialogInterface.OnClickListener(){\n+                        @Override\n+                        public void onClick(DialogInterface dialog, int which) {\n+                            finish();\n+                        }\n+                    }).show();*/\n+                    break;\n+                default:\n+                    break;\n+            }\n+        }\n+    };\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_text_net1414080903125);\n+        TgameI=(TextView)findViewById(R.id.text);\n+        runable();\n+    }\n+    protected void JSONAnalysis(String string){\n+        try {\n+            JSONArray jsonArray=new JSONArray(string);\n+            for(int i=0;i<jsonArray.length();i++){\n+                JSONObject jsonObject=jsonArray.getJSONObject(i);\n+                String name=jsonObject.getString(\"name\");\n+                TgameI.setText(name);\n+            }\n+        }catch (Exception e){\n+            e.printStackTrace();\n+        }\n+    }\n+    public void runable(){\n+        final String path=\"https://raw.githubusercontent.com/czb125/android-labs-2017/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/1414080903125.json\";\n+        new Thread(){\n+            private HttpURLConnection conn;\n+            public void run(){\n+                int code;\n+                try{\n+                    URL url=new URL(path);\n+                    conn=(HttpURLConnection) url.openConnection();\n+                    conn.setRequestMethod(\"GET\");\n+                    conn.setConnectTimeout(5000);\n+                    code=conn.getResponseCode();\n+                    if(code==200){\n+                        InputStream is=conn.getInputStream();\n+                        BufferedReader reader=new BufferedReader(new InputStreamReader(is));\n+                        StringBuilder response=new StringBuilder();\n+                        String Line;\n+                        String result;\n+                        while((Line= reader.readLine())!=null){\n+                            response.append(Line);\n+                        }\n+                        result=response.toString();\n+                        Message msg=new Message();\n+                        msg.what = 1;\n+                        msg.obj=result;\n+                        handler.sendMessage(msg);\n+                    }\n+                }catch (Exception e){\n+                    Message msg=new Message();\n+                    msg.what=0;\n+                    handler.sendMessage(msg);\n+                }\n+            }\n+        }.start();\n+    }\n+}"
+  }, {
+    "sha" : "48a77cdaa04d3d164a8561e40f592d076d51313a",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/menu_net1414080903125.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/res/drawable/menu_net1414080903125.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/res/drawable/menu_net1414080903125.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/menu_net1414080903125.png?ref=40d4ffba949e119c7142ba6ce2f930ea29e7b7b4"
+  }, {
+    "sha" : "aaedafb12f403035563bc1bb85543b79cdf97dab",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "status" : "modified",
+    "additions" : 35,
+    "deletions" : 17,
+    "changes" : 52,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml?ref=40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+    "patch" : "@@ -19,7 +19,7 @@\n             android:id=\"@+id/name\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n-            android:text=\"@string/name_1\"\n+            android:text=\"\"\n             android:textColor=\"#FFFFFF\"\n             android:textSize=\"25dp\"\n             android:layout_marginLeft=\"30dp\"\n@@ -28,8 +28,9 @@\n \n         <TextView\n             android:layout_width=\"wrap_content\"\n+            android:id=\"@+id/singerName\"\n             android:layout_height=\"wrap_content\"\n-            android:text=\"@string/singer_1\"\n+            android:text=\"\"\n             android:textColor=\"#FFFFFF\"\n             android:textSize=\"18dp\"\n             android:layout_marginLeft=\"30dp\"/>\n@@ -52,24 +53,21 @@\n         <TextView\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n-            android:layout_gravity=\"right\"\n+            android:layout_gravity=\"center\"\n+            android:textColor=\"#FFFFFF\"\n             android:id=\"@+id/MusicTime\"\n-            android:text=\"    \"/>\n+            android:text=\"\"/>\n \n \n-        <LinearLayout\n+        <!--<LinearLayout\n \n             android:orientation=\"horizontal\"\n             android:layout_width=\"match_parent\"\n             android:layout_height=\"match_parent\"\n             android:layout_marginBottom=\"40px\"\n             android:layout_weight=\"1\">\n \n-            <TextView\n-                android:text=\"\"\n-                android:layout_width=\"wrap_content\"\n-                android:layout_height=\"match_parent\"\n-                android:layout_weight=\"1\"/>\n+\n \n             <ImageButton\n                 android:id=\"@+id/playOrStopMusic\"\n@@ -79,15 +77,35 @@\n                 android:onClick=\"onClick\"/>\n \n \n-            <TextView\n-                android:text=\"\"\n-                android:layout_width=\"wrap_content\"\n-                android:layout_height=\"match_parent\"\n-                android:layout_weight=\"1\"\n-                android:id=\"@+id/textView\" />\n \n \n-        </LinearLayout>\n+\n+\n+\n+        </LinearLayout>-->\n+        <RelativeLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"match_parent\"\n+            android:layout_weight=\"1\">\n+\n+            <ImageButton\n+                android:id=\"@+id/playOrStopMusic\"\n+                android:layout_width=\"50dp\"\n+                android:layout_height=\"50dp\"\n+                android:background=\"@drawable/play_net1414080903125\"\n+                android:layout_centerInParent=\"true\"\n+                android:onClick=\"onClick\"/>\n+\n+            <ImageButton\n+                android:id=\"@+id/munu\"\n+                android:layout_width=\"50dp\"\n+                android:layout_height=\"50dp\"\n+                android:background=\"@drawable/menu_net1414080903125\"\n+                android:layout_alignParentRight=\"true\"\n+                android:layout_centerVertical=\"true\"\n+                android:onClick=\"onClick\"/>\n+\n+        </RelativeLayout>\n \n \n "
+  }, {
+    "sha" : "1a16b366df49c0c4484d57279a7f9dd9cd81289b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_text_net1414080903125.xml",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/res/layout/activity_text_net1414080903125.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4/AndroidLabs/app/src/main/res/layout/activity_text_net1414080903125.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_text_net1414080903125.xml?ref=40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+    "patch" : "@@ -0,0 +1,17 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_text_net1414080903125\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903125.Text_net1414080903125\">\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/text\" />\n+\n+</RelativeLayout>"
+  } ],
+  "sha" : "40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/40d4ffba949e119c7142ba6ce2f930ea29e7b7b4",
+  "parents" : [ {
+    "sha" : "fb09c61dac5813c9e406b037164a0bbe0620f6ef",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fb09c61dac5813c9e406b037164a0bbe0620f6ef",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fb09c61dac5813c9e406b037164a0bbe0620f6ef"
+  } ]
+}

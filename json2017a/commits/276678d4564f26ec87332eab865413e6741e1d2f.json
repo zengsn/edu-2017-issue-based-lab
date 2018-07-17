@@ -1,0 +1,106 @@
+{
+  "committer" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 32,
+    "additions" : 31,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/276678d4564f26ec87332eab865413e6741e1d2f",
+  "commit" : {
+    "author" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-05-11T09:23:34Z"
+    },
+    "committer" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-05-11T09:23:34Z"
+    },
+    "message" : "#3 #14 第三次作业",
+    "tree" : {
+      "sha" : "f0d046ca3f9e70289ef9e2f2ace02f2c49980b24",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f0d046ca3f9e70289ef9e2f2ace02f2c49980b24"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/276678d4564f26ec87332eab865413e6741e1d2f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/276678d4564f26ec87332eab865413e6741e1d2f/comments",
+  "files" : [ {
+    "sha" : "bfccd04ce242055f79e6f25a995b3c7c401b671b",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/bg_net1414080903125.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/276678d4564f26ec87332eab865413e6741e1d2f/AndroidLabs/app/src/main/res/drawable/bg_net1414080903125.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/276678d4564f26ec87332eab865413e6741e1d2f/AndroidLabs/app/src/main/res/drawable/bg_net1414080903125.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/bg_net1414080903125.png?ref=276678d4564f26ec87332eab865413e6741e1d2f"
+  }, {
+    "sha" : "aa6a0ceb91395d342215185317f720599d1de810",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "status" : "modified",
+    "additions" : 20,
+    "deletions" : 1,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/276678d4564f26ec87332eab865413e6741e1d2f/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/276678d4564f26ec87332eab865413e6741e1d2f/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml?ref=276678d4564f26ec87332eab865413e6741e1d2f",
+    "patch" : "@@ -5,14 +5,33 @@\n     android:id=\"@+id/activity_net1414080903125\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:layout_weight=\"1\">\n+    android:layout_weight=\"1\"\n+    android:background=\"@drawable/bg_net1414080903125\">\n \n     <LinearLayout\n         android:orientation=\"vertical\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"match_parent\"\n         android:layout_weight=\"3\">\n \n+        <TextView\n+            android:id=\"@+id/name\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"@string/name_1\"\n+            android:textColor=\"#FFFFFF\"\n+            android:textSize=\"25dp\"\n+            android:layout_marginLeft=\"30dp\"\n+            android:textStyle=\"bold\"/>\n+\n+        <TextView\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"@string/singer_1\"\n+            android:textColor=\"#FFFFFF\"\n+            android:textSize=\"18dp\"\n+            android:layout_marginLeft=\"30dp\"/>\n+\n     </LinearLayout>\n \n     <LinearLayout"
+  }, {
+    "sha" : "478b13293b22f402859ea61805f11f4e938bcd59",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings_net1414080903125.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/276678d4564f26ec87332eab865413e6741e1d2f/AndroidLabs/app/src/main/res/values/strings_net1414080903125.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/276678d4564f26ec87332eab865413e6741e1d2f/AndroidLabs/app/src/main/res/values/strings_net1414080903125.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings_net1414080903125.xml?ref=276678d4564f26ec87332eab865413e6741e1d2f",
+    "patch" : "@@ -0,0 +1,11 @@\n+<resources>\n+    <string name=\"app_name\">Music</string>\n+    <string name=\"name_1\">也罢</string>\n+    <string name=\"name_2\">对号入座</string>\n+    <string name=\"name_3\">春风不急你</string>\n+    <string name=\"name_4\">恋爱的犀牛</string>\n+    <string name=\"singer_1\">鲁向卉</string>\n+    <string name=\"singer_2\">李想</string>\n+    <string name=\"singer_3\">韩丽芸</string>\n+    <string name=\"singer_4\">黄雨漓/刘逸诗</string>\n+</resources>"
+  } ],
+  "sha" : "276678d4564f26ec87332eab865413e6741e1d2f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/276678d4564f26ec87332eab865413e6741e1d2f",
+  "parents" : [ {
+    "sha" : "cfeed76e02a56ba93dd6ac59f478efa2082cef82",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cfeed76e02a56ba93dd6ac59f478efa2082cef82",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cfeed76e02a56ba93dd6ac59f478efa2082cef82"
+  } ]
+}

@@ -1,0 +1,68 @@
+[ {
+  "sha" : "9bade7c3547e0e3e9d5a2070bafe849a576b29b1",
+  "commit" : {
+    "author" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-03-03T11:16:04Z"
+    },
+    "committer" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-03-03T11:16:04Z"
+    },
+    "message" : "#1 #26 第一次作业",
+    "tree" : {
+      "sha" : "377688713a33c1e65fa0bb2cfc68c7b86e92aa59",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/377688713a33c1e65fa0bb2cfc68c7b86e92aa59"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9bade7c3547e0e3e9d5a2070bafe849a576b29b1",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9bade7c3547e0e3e9d5a2070bafe849a576b29b1",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9bade7c3547e0e3e9d5a2070bafe849a576b29b1",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9bade7c3547e0e3e9d5a2070bafe849a576b29b1/comments",
+  "author" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "62429574a40fa2e6148f67c187c211600817d714",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/62429574a40fa2e6148f67c187c211600817d714",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/62429574a40fa2e6148f67c187c211600817d714"
+  } ]
+} ]

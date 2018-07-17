@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 311,
+    "additions" : 291,
+    "deletions" : 20
+  },
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/04d0ae0c163b58277f9e02649787ccffd0ba1741",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-04-28T09:24:06Z"
+    },
+    "committer" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-04-28T09:24:06Z"
+    },
+    "message" : "#2 #66 第二次作业",
+    "tree" : {
+      "sha" : "64c616efef1c2d6794fb51c51980093c7b077ab9",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/64c616efef1c2d6794fb51c51980093c7b077ab9"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/04d0ae0c163b58277f9e02649787ccffd0ba1741",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/04d0ae0c163b58277f9e02649787ccffd0ba1741/comments",
+  "files" : [ {
+    "sha" : "b18fe9dc9e7fc0940dd1310c4559eacc71d924d6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java",
+    "status" : "modified",
+    "additions" : 158,
+    "deletions" : 6,
+    "changes" : 164,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04d0ae0c163b58277f9e02649787ccffd0ba1741/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04d0ae0c163b58277f9e02649787ccffd0ba1741/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903103/net1414080903103Activity.java?ref=04d0ae0c163b58277f9e02649787ccffd0ba1741",
+    "patch" : "@@ -1,15 +1,167 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903103;\n \n-import android.support.v7.app.AppCompatActivity;\n+import java.util.ArrayList;\n+import java.util.HashMap;\n+import android.app.Activity;\n+import android.app.AlertDialog;\n+import android.app.Dialog;\n+import android.content.Context;\n+import android.content.DialogInterface;\n import android.os.Bundle;\n+import android.os.Handler;\n+import android.os.Message;\n+import android.util.Log;\n+import android.view.View;\n+import android.view.View.OnClickListener;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n \n-import edu.hzuapps.androidlabs.R;\n-\n-public class Net1414080903103Activity extends AppCompatActivity {\n+public class Net1414080903103Activity extends Activity implements OnClickListener {\n+    private static final String TAG = \"自由浏览app\";\n \n+    // VPN服务器地址、端口号、用户名、密码的默认值\n+    private final String VPN_SERVER = \"59.49.15.130\";\n+    private final int VPN_PORT = 443;\n+    private final String VPN_USERNAME = \"oa\";\n+    private final String VPN_PASSWORD = \"123456\";\n+    private Dialog mShowingDialog;\n     @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n+    public void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903103);\n+        findviewByid();\n+    }\n+\n+    private void findviewByid() {\n+            /*android 的用户界面一般使用xml文件做的，对应的xml文件在layout包下\n+                       如果xml里放了个按钮什么的，在activity中要获取该按钮就用\n+                       findViewById(R.id.xml文件中对应的id)*/\n+        Button btnStart = (Button) findViewById(R.id.BTN_START);\n+        Button btnStop = (Button) findViewById(R.id.BTN_STOP);\n+        Button btnConnectSvr = (Button) findViewById(R.id.BTN_GETVPNSTATUS);\n+\n+        btnStart.setOnClickListener(this);\n+        btnStop.setOnClickListener(this);\n+        btnConnectSvr.setOnClickListener(this);\n+\n+    }\n+\n+    @Override\n+    public void onClick(View v) {\n+\n+        switch (v.getId()) {\n+            case R.id.BTN_START: {\n+                doStart();\n+\n+                break;\n+            }\n+\n+            case R.id.BTN_STOP: {\n+                doStop();\n+\n+                break;\n+            }\n+\n+\n+        }\n+    }\n+\n+    private void showErrorDialog(String sErrInfo) {\n+\n+        mShowingDialog = new AlertDialog.Builder(this).setTitle(\"错误\")\n+                .setIcon(android.R.drawable.ic_dialog_alert)\n+                .setMessage(sErrInfo)\n+                .setPositiveButton(\"确定\", new DialogInterface.OnClickListener() {\n+                    public void onClick(DialogInterface arg0, int arg1) {\n+                        return;\n+                    }\n+                }).create();\n+        mShowingDialog.show();\n+        return;\n+    }\n+\n+    // 启动VPN连接\n+    private void doStart() {\n+        Log.i(TAG, \"VPN开始连接\");\n+\n+        // 获取参数\n+        EditText edtIP = (EditText) findViewById(R.id.edtip);\n+        EditText edtPort = (EditText) findViewById(R.id.edtport);\n+        EditText edtUname = (EditText) findViewById(R.id.edtuname);\n+        EditText edtUpwd = (EditText) findViewById(R.id.edtupwd);\n+\n+        String sIP, sUname, sUpwd;\n+        int port;\n+\n+        sIP = edtIP.getText().toString();\n+        sUname = edtUname.getText().toString();\n+        sUpwd = edtUpwd.getText().toString();\n+\n+        if (sIP == null || sIP.length() == 0) {\n+            showErrorDialog(\"VPN地址不能为空\");\n+            return;\n+        }\n+\n+        try {\n+            port = Integer.parseInt(edtPort.getText().toString());\n+        } catch (NumberFormatException e) {\n+            showErrorDialog(\"VPN端口有效范围是1-65535\");\n+            return;\n+        }\n+\n+        if ((port <= 0) || (port > 65535)) {\n+            showErrorDialog(\"VPN端口有效范围是1-65535\");\n+            return;\n+        }\n+\n+        if (sUname == null || sUname.length() == 0) {\n+            showErrorDialog(\"用户名不能为空\");\n+            return;\n+        }\n+        if (sUpwd == null || sUpwd.length() == 0) {\n+            showErrorDialog(\"用户密码不能为空\");\n+            return;\n+        }\n+\n+// vpnlib.setVPNInfo(\"192.168.95.84\", 443, \"1\", \"111111\");暂时不懂这部分内容\n+        vpnlib.setVPNInfo(sIP, port, sUname, sUpwd);\n+        Log.i(\"ttt\", \"ip= \" + sIP + \" port= \" + port + \" uname= \" + sUname);\n+        vpnlib.prepareVPNSettings();\n+        // 获取VPN库实例\n+        vpnlib.stopVPN();\n+        // 启动VPN连接\n+        vpnlib.startVPN();\n+        // 启动一个查询线程，主动查询VPN状态，VPN成功后\n+        // 查询线程会给UI主线程发送消息\n+        // 若VPNSDK库初始化时设置了MsgHandler和MSGID\n+        // 可由VPNSDK库来发送通知，此线程可不必开启\n+//\t\t new GetVPNStatusThread().start();\n+\n     }\n-}\n+\n+    // 关闭VPN连接\n+    private void doStop() {\n+        // 停止VPN连接 暂时不懂这部分内容\n+\n+        SVSDKLib vpnlib = SVSDKLib.getInstance();\n+        vpnlib.stopVPN();\n+    }\n+\n+    private void doGetVPNStatus() {  //暂时不懂这部分内容\n+        // 获取VPN状态\n+        String sVPNStatus;\n+        SVSDKLib vpnlib = SVSDKLib.getInstance();\n+        sVPNStatus = vpnlib.getVPNStatus();\n+\n+        Toast.makeText(TestSVSDKLib.this, \"当前VPN状态为：\" + sVPNStatus,\n+                Toast.LENGTH_SHORT).show();\n+\n+        ArrayList<HashMap<String, String>> reslist = vpnlib.getResList();\n+        Log.i(\"test\", \"port1 :\" + vpnlib.getResLocalPort(\"59.49.15.130\", 443));\n+        Log.i(\"test\", \"port2 :\" + vpnlib.getResLocalPort(\"59.49.15.130\", 443));\n+\n+    }\n+\n+\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "65c240087c63ba4c993036cf1114730f4b1514a3",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "status" : "modified",
+    "additions" : 133,
+    "deletions" : 14,
+    "changes" : 147,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/04d0ae0c163b58277f9e02649787ccffd0ba1741/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/04d0ae0c163b58277f9e02649787ccffd0ba1741/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903103.xml?ref=04d0ae0c163b58277f9e02649787ccffd0ba1741",
+    "patch" : "@@ -1,17 +1,136 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_net1414080903103\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903103.Net1414080903103Activity\">\n-\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"fill_parent\"\n+    android:layout_height=\"fill_parent\"\n+    >\n     <TextView\n-        android:layout_width=\"wrap_content\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"@string/app_name\"\n+        android:gravity=\"center_horizontal\"\n+        android:padding=\"10sp\"\n+        android:textSize=\"8pt\"\n+        android:textColor=\"#00FF00\" />\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n-</RelativeLayout>\n+        android:orientation=\"vertical\" >\n+\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" >\n+\n+            <TextView\n+                android:layout_width=\"108dp\"\n+                android:layout_height=\"wrap_content\"\n+                android:gravity=\"center_horizontal\"\n+                android:padding=\"10sp\"\n+                android:text=\"VPN IP\"\n+                android:textSize=\"8pt\" />\n+\n+            <EditText\n+                android:id=\"@+id/edtip\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_weight=\"1\"\n+                android:ems=\"10\"\n+                android:text=\"59.49.15.130\" />\n+\n+        </LinearLayout>\n+\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" >\n+\n+            <TextView\n+                android:layout_width=\"108dp\"\n+                android:layout_height=\"wrap_content\"\n+                android:gravity=\"center_horizontal\"\n+                android:padding=\"10sp\"\n+                android:text=\"VPN Port\"\n+                android:textSize=\"8pt\" />\n+\n+            <EditText\n+                android:id=\"@+id/edtport\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_weight=\"1\"\n+                android:ems=\"10\"\n+                android:inputType=\"number\"\n+                android:text=\"443\" />\n+\n+        </LinearLayout>\n+\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" >\n+\n+            <TextView\n+                android:layout_width=\"108dp\"\n+                android:layout_height=\"wrap_content\"\n+                android:gravity=\"center_horizontal\"\n+                android:padding=\"10sp\"\n+                android:text=\"Username\"\n+                android:textSize=\"8pt\" />\n+\n+            <EditText\n+                android:id=\"@+id/edtuname\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_weight=\"1\"\n+                android:ems=\"10\"\n+                android:text=\"oa\" />\n+\n+        </LinearLayout>\n+\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" >\n+\n+            <TextView\n+                android:layout_width=\"108dp\"\n+                android:layout_height=\"wrap_content\"\n+                android:gravity=\"center_horizontal\"\n+                android:padding=\"10sp\"\n+                android:text=\"Userpwd\"\n+                android:textSize=\"8pt\" />\n+\n+            <EditText\n+                android:id=\"@+id/edtupwd\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_weight=\"1\"\n+                android:ems=\"10\"\n+                android:password=\"true\"\n+                android:text=\"123456\" />\n+\n+        </LinearLayout>\n+\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\" >\n+\n+        <Button\n+            android:id=\"@+id/BTN_START\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"Start VPN\" />\n+\n+        <Button\n+            android:id=\"@+id/BTN_STOP\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"Stop VPN\" />\n+\n+        <Button\n+            android:id=\"@+id/BTN_GETVPNSTATUS\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"Get VPN Status\" />\n+    </LinearLayout>\n+\n+</LinearLayout>"
+  } ],
+  "sha" : "04d0ae0c163b58277f9e02649787ccffd0ba1741",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/04d0ae0c163b58277f9e02649787ccffd0ba1741",
+  "parents" : [ {
+    "sha" : "e2e403da444d7546459a37d571f65e1f5c9ac5fa",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e2e403da444d7546459a37d571f65e1f5c9ac5fa",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e2e403da444d7546459a37d571f65e1f5c9ac5fa"
+  } ]
+}

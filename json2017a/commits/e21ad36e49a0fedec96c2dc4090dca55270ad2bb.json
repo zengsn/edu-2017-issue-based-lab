@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-06-16T02:46:33Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-16T02:46:33Z"
+    },
+    "message" : "Update GameInfo.json",
+    "tree" : {
+      "sha" : "aea4517c8b672fb6c8d1103b932226ea22d5fe2c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/aea4517c8b672fb6c8d1103b932226ea22d5fe2c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb/comments",
+  "files" : [ {
+    "sha" : "738a18483b49ba25b1f86f97df5597e306f192a9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/GameInfo.json",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e21ad36e49a0fedec96c2dc4090dca55270ad2bb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/GameInfo.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e21ad36e49a0fedec96c2dc4090dca55270ad2bb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/GameInfo.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/GameInfo.json?ref=e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+    "patch" : "@@ -1 +1 @@\n-[{\"GameInstructions\":\"��ҵ��RANK��ť�鿴��ʷ����������START��ť��ʼ��Ϸ���ܹ�����10����Ϸ�����Ӯ����1�֣�������򲻻��۷���ƽ�����¿�ʼ������Ϸ��\"}]\n\\ No newline at end of file\n+[{\"GameInstructions\":\"玩家点击RANK按钮查看历史分数排名，点击START按钮开始游戏，总共进行10局游戏，玩家赢的话积累1分，玩家输则不积累分数，平局重新开始本局游戏。\"}]"
+  } ],
+  "sha" : "e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+  "parents" : [ {
+    "sha" : "fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7"
+  } ]
+}

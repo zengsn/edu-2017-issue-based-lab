@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "666Ohayo",
+    "id" : 26159005,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159005?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/666Ohayo",
+    "html_url" : "https://github.com/666Ohayo",
+    "followers_url" : "https://api.github.com/users/666Ohayo/followers",
+    "following_url" : "https://api.github.com/users/666Ohayo/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/666Ohayo/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/666Ohayo/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/666Ohayo/subscriptions",
+    "organizations_url" : "https://api.github.com/users/666Ohayo/orgs",
+    "repos_url" : "https://api.github.com/users/666Ohayo/repos",
+    "events_url" : "https://api.github.com/users/666Ohayo/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/666Ohayo/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 85,
+    "additions" : 85,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "666Ohayo",
+    "id" : 26159005,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159005?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/666Ohayo",
+    "html_url" : "https://github.com/666Ohayo",
+    "followers_url" : "https://api.github.com/users/666Ohayo/followers",
+    "following_url" : "https://api.github.com/users/666Ohayo/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/666Ohayo/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/666Ohayo/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/666Ohayo/subscriptions",
+    "organizations_url" : "https://api.github.com/users/666Ohayo/orgs",
+    "repos_url" : "https://api.github.com/users/666Ohayo/repos",
+    "events_url" : "https://api.github.com/users/666Ohayo/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/666Ohayo/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6dff324604aacd957b9285420a9d8116c1d31fdb",
+  "commit" : {
+    "author" : {
+      "name" : "Ohayo3096",
+      "email" : "806123681@qq.com",
+      "date" : "2017-05-03T06:31:13Z"
+    },
+    "committer" : {
+      "name" : "Ohayo3096",
+      "email" : "806123681@qq.com",
+      "date" : "2017-05-03T06:31:13Z"
+    },
+    "message" : "#2 #29 第二次作业",
+    "tree" : {
+      "sha" : "e7fccbd6c93570583ce7803bc76a53f3a6f75e9b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e7fccbd6c93570583ce7803bc76a53f3a6f75e9b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/6dff324604aacd957b9285420a9d8116c1d31fdb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6dff324604aacd957b9285420a9d8116c1d31fdb/comments",
+  "files" : [ {
+    "sha" : "d3e057f04fa2d43a6a89dccb74798fd4844ae66a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140GameActivity.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6dff324604aacd957b9285420a9d8116c1d31fdb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140GameActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6dff324604aacd957b9285420a9d8116c1d31fdb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140GameActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140GameActivity.java?ref=6dff324604aacd957b9285420a9d8116c1d31fdb",
+    "patch" : "@@ -0,0 +1,38 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903140;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.CheckBox;\n+\n+import com.example.administrator.wangzhe.R;\n+\n+public class Net1414080903140GameActivity extends AppCompatActivity {\n+\n+    CheckBox cbSingle;\n+    CheckBox cbDouble;\n+\n+    Button btStart;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903140_game);\n+        cbSingle= (CheckBox) findViewById(R.id.cb_single);\n+        cbDouble= (CheckBox) findViewById(R.id.cb_double);\n+\n+        btStart= (Button) findViewById(R.id.bt_start_game);\n+\n+        btStart.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+\n+            }\n+        });\n+    }\n+\n+    public void Start(){\n+\n+    }\n+}"
+  }, {
+    "sha" : "7c8bb18b9a2841e1325ceb4787f30eef01dd8a5b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140MainActivity.java",
+    "status" : "added",
+    "additions" : 47,
+    "deletions" : 0,
+    "changes" : 47,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6dff324604aacd957b9285420a9d8116c1d31fdb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6dff324604aacd957b9285420a9d8116c1d31fdb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903140MainActivity.java?ref=6dff324604aacd957b9285420a9d8116c1d31fdb",
+    "patch" : "@@ -0,0 +1,47 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903140;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+import com.example.administrator.wangzhe.R;\n+\n+public class Net1414080903140MainActivity extends AppCompatActivity {\n+\n+    Button btStart;\n+    Button btRecord;\n+    Button btHighest;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903140_main);\n+        btStart= (Button) findViewById(R.id.bt_main_start);\n+        btRecord= (Button) findViewById(R.id.bt_main_record);\n+        btHighest= (Button) findViewById(R.id.bt_main_highest);\n+\n+        btStart.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1414080903140MainActivity.this,Net1414080903140GameActivity.class));\n+            }\n+        });\n+\n+        btRecord.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+\n+            }\n+        });\n+\n+        btHighest.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+\n+            }\n+        });\n+\n+    }\n+}"
+  } ],
+  "sha" : "6dff324604aacd957b9285420a9d8116c1d31fdb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6dff324604aacd957b9285420a9d8116c1d31fdb",
+  "parents" : [ {
+    "sha" : "1cc03ecd45c82e07a54b475efcb92ecc7debf8e5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1cc03ecd45c82e07a54b475efcb92ecc7debf8e5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1cc03ecd45c82e07a54b475efcb92ecc7debf8e5"
+  } ]
+}

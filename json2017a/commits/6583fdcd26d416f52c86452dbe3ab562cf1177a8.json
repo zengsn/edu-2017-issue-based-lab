@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wangkaiqi",
+    "id" : 26110374,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26110374?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wangkaiqi",
+    "html_url" : "https://github.com/wangkaiqi",
+    "followers_url" : "https://api.github.com/users/wangkaiqi/followers",
+    "following_url" : "https://api.github.com/users/wangkaiqi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wangkaiqi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wangkaiqi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wangkaiqi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wangkaiqi/orgs",
+    "repos_url" : "https://api.github.com/users/wangkaiqi/repos",
+    "events_url" : "https://api.github.com/users/wangkaiqi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wangkaiqi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 0,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "wangkaiqi",
+    "id" : 26110374,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26110374?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wangkaiqi",
+    "html_url" : "https://github.com/wangkaiqi",
+    "followers_url" : "https://api.github.com/users/wangkaiqi/followers",
+    "following_url" : "https://api.github.com/users/wangkaiqi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wangkaiqi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wangkaiqi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wangkaiqi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wangkaiqi/orgs",
+    "repos_url" : "https://api.github.com/users/wangkaiqi/repos",
+    "events_url" : "https://api.github.com/users/wangkaiqi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wangkaiqi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6583fdcd26d416f52c86452dbe3ab562cf1177a8",
+  "commit" : {
+    "author" : {
+      "name" : "wangkaiqi",
+      "email" : "1211697101@qq.com",
+      "date" : "2017-03-12T07:18:27Z"
+    },
+    "committer" : {
+      "name" : "wangkaiqi",
+      "email" : "1211697101@qq.com",
+      "date" : "2017-03-12T07:18:27Z"
+    },
+    "message" : "#1 #32 第一次作业",
+    "tree" : {
+      "sha" : "27c41955e48db01ff99ddd0ccc62e00163e45b21",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/27c41955e48db01ff99ddd0ccc62e00163e45b21"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/6583fdcd26d416f52c86452dbe3ab562cf1177a8",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6583fdcd26d416f52c86452dbe3ab562cf1177a8/comments",
+  "files" : [ {
+    "sha" : "a8a5f8e77583ca23bf49b94187952fb236f4e5c1",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6583fdcd26d416f52c86452dbe3ab562cf1177a8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6583fdcd26d416f52c86452dbe3ab562cf1177a8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity.java?ref=6583fdcd26d416f52c86452dbe3ab562cf1177a8",
+    "patch" : "@@ -11,6 +11,5 @@\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903201);\n-\n     }\n }"
+  } ],
+  "sha" : "6583fdcd26d416f52c86452dbe3ab562cf1177a8",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6583fdcd26d416f52c86452dbe3ab562cf1177a8",
+  "parents" : [ {
+    "sha" : "451b38cffaf3af32af4dde77ebe8234eb83c6c87",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/451b38cffaf3af32af4dde77ebe8234eb83c6c87",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/451b38cffaf3af32af4dde77ebe8234eb83c6c87"
+  } ]
+}

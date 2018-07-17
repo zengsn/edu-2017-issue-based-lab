@@ -1,0 +1,173 @@
+{
+  "committer" : {
+    "login" : "hizzj",
+    "id" : 19361617,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/19361617?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hizzj",
+    "html_url" : "https://github.com/hizzj",
+    "followers_url" : "https://api.github.com/users/hizzj/followers",
+    "following_url" : "https://api.github.com/users/hizzj/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hizzj/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hizzj/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hizzj/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hizzj/orgs",
+    "repos_url" : "https://api.github.com/users/hizzj/repos",
+    "events_url" : "https://api.github.com/users/hizzj/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hizzj/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 403,
+    "additions" : 403,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "hizzj",
+    "id" : 19361617,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/19361617?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hizzj",
+    "html_url" : "https://github.com/hizzj",
+    "followers_url" : "https://api.github.com/users/hizzj/followers",
+    "following_url" : "https://api.github.com/users/hizzj/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hizzj/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hizzj/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hizzj/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hizzj/orgs",
+    "repos_url" : "https://api.github.com/users/hizzj/repos",
+    "events_url" : "https://api.github.com/users/hizzj/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hizzj/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/848d80e2fb13b6f84ebe02174545edeba214aae0",
+  "commit" : {
+    "author" : {
+      "name" : "hizzj",
+      "email" : "1014779513@qq.com",
+      "date" : "2017-04-29T05:08:54Z"
+    },
+    "committer" : {
+      "name" : "hizzj",
+      "email" : "1014779513@qq.com",
+      "date" : "2017-04-29T05:08:54Z"
+    },
+    "message" : "#2 #36 第二次作业",
+    "tree" : {
+      "sha" : "4871123a616f9d177aca509cca0477f5deb0b374",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4871123a616f9d177aca509cca0477f5deb0b374"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/848d80e2fb13b6f84ebe02174545edeba214aae0/comments",
+  "files" : [ {
+    "sha" : "da79df10a52df4cf025023f7bdb9fec6840503e2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_LoginActivity.java",
+    "status" : "added",
+    "additions" : 52,
+    "deletions" : 0,
+    "changes" : 52,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_LoginActivity.java?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,52 @@\n+\n+package edu.hzuapps.androidlabs.homeworks.net1414080903110;\n+\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+/*\n+用户登录（设置了两个用户user、zzj,分别对应学生和教师，各自有不同的权限，权限在Net1414080903110_SubmitActivity和Net1414080903110_WorkListActivity进行限制）\n+*/\n+public class Net1414080903110_LoginActivity extends AppCompatActivity implements View.OnClickListener {\n+    private EditText uname;\n+    private EditText psword;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903110_login);\n+        Button button = (Button) findViewById(R.id.login);\n+        button.setOnClickListener(this);\n+        uname = (EditText) findViewById(R.id.username);\n+        psword = (EditText) findViewById(R.id.password);\n+    }\n+\n+    public void onClick(View v) {\n+        switch (v.getId()) {\n+            case R.id.login:\n+                String name = uname.getText().toString().trim();\n+                String password = psword.getText().toString().trim();\n+\t\t\t\t/*教师用户*/\n+                if (\"zzj\".equals(name) && \"12345\".equals(password)) {\n+                    Intent intent = new Intent(Net1414080903110_LoginActivity.this, Net1414080903110_WorkListActivity.class);\n+                    intent.putExtra(\"username\", name);\n+                    intent.putExtra(\"password\", password); /*将用户名和密码通过Intent传递给下一个活动*/\n+                    startActivity(intent);\n+\t\t\t\t\t/*学生用户*/\n+                } else if (\"user\".equals(name) && \"54321\".equals(password)) {\n+                    Intent intent = new Intent(Net1414080903110_LoginActivity.this, Net1414080903110_WorkListActivity.class);\n+                    intent.putExtra(\"username\", name);\n+                    intent.putExtra(\"password\", password); /*将用户名和密码通过Intent传递给下一个活动*/\n+                    startActivity(intent);\n+                } else {\n+\n+                }\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "767c2f441bc46917bc8da5efea9b1e7a290d977e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_SubmitActivity.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_SubmitActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_SubmitActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_SubmitActivity.java?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,38 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903110;\n+\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903110_SubmitActivity extends AppCompatActivity {\n+\n+     private EditText workname;\n+     private String i;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903110_submit);\n+        Intent intent=getIntent();\n+        String work_name=intent.getStringExtra(\"workname\");//获取WorkList活动传递过来的作业名\n+        i=intent.getStringExtra(\"i\"); //获取WorkList活动传递过来的参数，用来判断登录的用户类型\n+        //Toast.makeText(Net1414080903110_SubmitActivity.this,i,Toast.LENGTH_SHORT).show();\n+        workname=(EditText)findViewById(R.id.work_info);\n+        workname.setText(work_name);//将作业名显示在TextView\n+        Button btn_s=(Button)findViewById(R.id.submit);\n+        btn_s.setVisibility(View.GONE);\n+        if(\"user\".equals(i))\n+        {\n+            btn_s.setVisibility(View.GONE); //如果是学生用户就只显示作业内容\n+        }\n+        else\n+        {\n+            btn_s.setVisibility(View.VISIBLE);//如果是教师用户除了显示作业内容之外，还显示提交按钮，教师用户编辑作业内容之后点此按钮提交\n+        }\n+\n+    }\n+}"
+  }, {
+    "sha" : "1e3aaa4d52873b744bd430e3712bf3a94ff77431",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_WorkListActivity.java",
+    "status" : "added",
+    "additions" : 96,
+    "deletions" : 0,
+    "changes" : 96,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_WorkListActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_WorkListActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Net1414080903110_WorkListActivity.java?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,96 @@\n+\n+package edu.hzuapps.androidlabs.homeworks.net1414080903110;\n+\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.Button;\n+import android.widget.ListView;\n+import android.widget.Toast;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+/*\n+   作业列表\n+*/\n+public class Net1414080903110_WorkListActivity extends AppCompatActivity implements View.OnClickListener {\n+\n+    private List<Work_Info> work_infoList=new ArrayList<>();\n+    private String i;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        initwork_info();\n+        setContentView(R.layout.activity_net1414080903110_worklist);\n+        Button button=(Button)findViewById(R.id.btn1);\n+        button.setOnClickListener(this);\n+        Intent intent=getIntent();\n+        String uname=intent.getStringExtra(\"username\");/*获取Net1414080903110_LoginActivity传递过来的用户名和密码*/\n+        String psword=intent.getStringExtra(\"password\");\n+        if(\"zzj\".equals(uname)&&\"12345\".equals(psword)) /*教师用户*/\n+        {\n+            WorkAdapter adapter=new WorkAdapter(Net1414080903110_WorkListActivity.this,R.layout.work_item,work_infoList);\n+            ListView listView=(ListView)findViewById(R.id.list_view);\n+            listView.setAdapter(adapter);\n+\t\t\t/*给ListView的各Item项设置长按监听事件（这里主要是用来删除作业的，后期会把功能加进去）*/\n+            listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {\n+                public boolean onItemLongClick(AdapterView<?>parent, View view, int position, long id) {\n+                    Work_Info work_info=work_infoList.get(position);\n+                    Toast.makeText(Net1414080903110_WorkListActivity.this,work_info.getWorkname(),Toast.LENGTH_SHORT).show();\n+                    return true;\n+                }\n+            });\n+            button.setVisibility(View.VISIBLE);/*让布置作业按钮显示*/\n+            i=\"admin\";\n+        }\n+        else{\n+            button.setVisibility(View.GONE);/*如果是学生用户 让布置作业按钮隐藏*/\n+            i=\"user\";\n+        }\n+        WorkAdapter adapter=new WorkAdapter(Net1414080903110_WorkListActivity.this,R.layout.work_item,work_infoList);//实例化WorkAdapter适配器\n+        ListView listView=(ListView)findViewById(R.id.list_view);\n+        listView.setAdapter(adapter);//将listView加入适配器\n+\t\t/*给ListView的各Item项设置监听事件*/\n+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){\n+            public void onItemClick(AdapterView<?>parent,View view,int position,long id){\n+                Work_Info work_info=work_infoList.get(position); //获取Work_Info实例\n+                Intent intent=new Intent(Net1414080903110_WorkListActivity.this,Net1414080903110_SubmitActivity.class);\n+                String workname=work_info.getWorkname();\n+                intent.putExtra(\"workname\",workname);//将作业名传递给Net1414080903110_SubmitActivity\n+                intent.putExtra(\"i\",i);\n+                startActivity(intent);\n+            }\n+        });\n+\n+    }\n+    public void onClick(View v)\n+    {\n+        switch (v.getId())\n+        {\n+            case R.id.btn1:\n+                Intent intent=new Intent(Net1414080903110_WorkListActivity.this,Net1414080903110_SubmitActivity.class);\n+                startActivity(intent);\n+        }\n+    }\n+\t/*初始化作业信息*/\n+    private void initwork_info()\n+    {\n+        for(int i=0;i<3;i++) {\n+            Work_Info work = new Work_Info();\n+            work.setWorkname(\"作业一\");\n+            work_infoList.add(work);\n+            Work_Info work2 = new Work_Info();\n+            work2.setWorkname(\"作业二\");\n+            work_infoList.add(work2);\n+            Work_Info work3 = new Work_Info();\n+            work3.setWorkname(\"作业三\");\n+            work_infoList.add(work3);\n+        }\n+    }\n+}\n+"
+  }, {
+    "sha" : "13a203658aec11731dc53446ba64385b7b8e9c22",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/WorkAdapter.java",
+    "status" : "added",
+    "additions" : 34,
+    "deletions" : 0,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/WorkAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/WorkAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/WorkAdapter.java?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,34 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903110;\n+\n+import android.content.Context;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.ArrayAdapter;\n+import android.widget.TextView;\n+\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+/**\n+ * 设置WorkAdapter适配器，通过这个适配器设置ListView的样式\n+ */\n+\n+public class WorkAdapter extends ArrayAdapter<Work_Info> {\n+    private int resourceId;\n+\n+    public WorkAdapter(Context context, int textViewResourceId, List<Work_Info> objects) {\n+        super(context, textViewResourceId, objects);\n+        resourceId = textViewResourceId;\n+    }\n+\n+    @Override\n+    public View getView(int position, View convertView, ViewGroup parent) {\n+        Work_Info work = getItem(position);\n+        View view = LayoutInflater.from(getContext()).inflate(resourceId, parent, false);\n+        TextView workname = (TextView) view.findViewById(R.id.work_name);\n+        workname.setText(work.getWorkname());\n+        return view;\n+    }\n+}"
+  }, {
+    "sha" : "b99478184fa022a92c5d900578c957330bad3558",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Work_Info.java",
+    "status" : "added",
+    "additions" : 37,
+    "deletions" : 0,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Work_Info.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Work_Info.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903110/Work_Info.java?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,37 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903110;\n+\n+/**\n+ * Created by Administrator on 2017/4/29 0029.\n+   作业信息类，主要包括id，名字和内容\n+ */\n+\n+public class Work_Info {\n+    private String workid;\n+    private String workname;\n+    private String workcontent;\n+    public String getWorkname() {\n+        return workname;\n+    }\n+\n+    public void setWorkname(String workname) {\n+        this.workname = workname;\n+    }\n+\n+    public String getWorkid() {\n+        return workid;\n+    }\n+\n+    public void setWorkid(String workid) {\n+        this.workid = workid;\n+    }\n+\n+    public void setWorkcontent(String workcontent) {\n+        this.workcontent = workcontent;\n+    }\n+\n+\n+    public String getWorkcontent() {\n+        return workcontent;\n+    }\n+\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "d4d4553f31b140bc3518d319ef9a041f29f65665",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml",
+    "status" : "added",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,39 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+\t<!--用户登录界面-->\n+    <Button\n+        android:id=\"@+id/login\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:textColor=\"@android:color/white\"\n+        android:layout_marginTop=\"22dp\"\n+        android:text=\"登录\"\n+        android:layout_below=\"@+id/password\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n+\n+    <EditText\n+        android:id=\"@+id/password\"\n+        android:layout_marginTop=\"22dp\"\n+        android:hint=\"输入密码\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/username\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n+\n+    <EditText\n+        android:id=\"@+id/username\"\n+        android:layout_marginTop=\"102dp\"\n+        android:hint=\"输入用户名\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n+</RelativeLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "8465fb4e55c35a1322a533165a2a617c4d547ed4",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903110_submit.xml",
+    "status" : "added",
+    "additions" : 53,
+    "deletions" : 0,
+    "changes" : 53,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_submit.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_submit.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_submit.xml?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,53 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903110__submit\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903110.Net1414080903110_SubmitActivity\">\n+\n+\t<!--作业提交界面-->\n+    <EditText\n+        android:id=\"@+id/work_info\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:ems=\"10\"\n+        android:hint=\"作业名称\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\"\n+        android:layout_alignParentTop=\"true\">\n+    <requestFocus/>\n+    </EditText>\n+\n+    <Button\n+        android:text=\"提交\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/submit\"\n+        android:layout_below=\"@+id/add_content\"\n+        android:layout_alignRight=\"@+id/work_info\"\n+        android:layout_alignEnd=\"@+id/work_info\"\n+        android:layout_marginTop=\"52dp\" />\n+\n+    <EditText\n+        android:id=\"@+id/add_content\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:enabled=\"true\"\n+        android:gravity=\"top\"\n+        android:inputType=\"textMultiLine\"\n+        android:minLines=\"8\"\n+        android:maxLines=\"10\"\n+        android:scrollbars=\"vertical\"\n+        android:layout_marginTop=\"33dp\"\n+        android:background=\"@android:drawable/edit_text\"\n+        android:hint=\"作业内容\"\n+        android:layout_below=\"@+id/work_info\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "e8c4c8b12e7c4751f2a52dbe646adc4c46599239",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903110_worklist.xml",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_worklist.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_worklist.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_worklist.xml?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,35 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903110_twork\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903110.Net1414080903110_WorkListActivity\">\n+\n+\t<!--作业列表界面-->\n+    <Button\n+        android:id=\"@+id/btn1\"\n+        android:layout_width=\"100dp\"\n+        android:layout_height=\"60dp\"\n+        android:layout_alignParentBottom=\"true\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_weight=\"1\"\n+        android:text=\"布置作业\"\n+        />\n+    <ListView\n+        android:id=\"@+id/list_view\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:divider=\"#00000000\"\n+        android:dividerHeight=\"20dp\"\n+\n+        />\n+\n+\n+\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "3e447c2af65ed9aa8bf803b0e338605c06a87fa6",
+    "filename" : "AndroidLabs/app/src/main/res/layout/work_item.xml",
+    "status" : "added",
+    "additions" : 19,
+    "deletions" : 0,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/work_item.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/848d80e2fb13b6f84ebe02174545edeba214aae0/AndroidLabs/app/src/main/res/layout/work_item.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/work_item.xml?ref=848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "patch" : "@@ -0,0 +1,19 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+\t<!--作业列表TextView样式-->\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_weight=\"8\"\n+        android:id=\"@+id/work_name\"\n+        android:layout_gravity=\"center_vertical\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginTop=\"2dp\"\n+        android:lineSpacingExtra=\"10dp\"\n+        android:textSize=\"18sp\"\n+        android:textColor=\"#0000CC\"\n+        />\n+</LinearLayout>"
+  } ],
+  "sha" : "848d80e2fb13b6f84ebe02174545edeba214aae0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/848d80e2fb13b6f84ebe02174545edeba214aae0",
+  "parents" : [ {
+    "sha" : "ffa2b18e1c73d2e541203a307965e583f166e8cd",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ffa2b18e1c73d2e541203a307965e583f166e8cd",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ffa2b18e1c73d2e541203a307965e583f166e8cd"
+  } ]
+}

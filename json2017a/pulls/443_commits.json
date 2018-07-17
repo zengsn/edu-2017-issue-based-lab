@@ -1,0 +1,202 @@
+[ {
+  "sha" : "a102e410ed5ee3d09336630818f97920740f7c11",
+  "commit" : {
+    "author" : {
+      "name" : "LouQingYi",
+      "email" : "w14b133@163.com",
+      "date" : "2017-06-03T06:23:51Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-03T06:23:51Z"
+    },
+    "message" : "Create 1414080903133.json",
+    "tree" : {
+      "sha" : "aa16be57dd61dc20e11952d6d7be4f03b3d815ef",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/aa16be57dd61dc20e11952d6d7be4f03b3d815ef"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a102e410ed5ee3d09336630818f97920740f7c11",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a102e410ed5ee3d09336630818f97920740f7c11",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a102e410ed5ee3d09336630818f97920740f7c11",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a102e410ed5ee3d09336630818f97920740f7c11/comments",
+  "author" : {
+    "login" : "LouQingYi",
+    "id" : 26144251,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26144251?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LouQingYi",
+    "html_url" : "https://github.com/LouQingYi",
+    "followers_url" : "https://api.github.com/users/LouQingYi/followers",
+    "following_url" : "https://api.github.com/users/LouQingYi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LouQingYi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LouQingYi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LouQingYi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LouQingYi/orgs",
+    "repos_url" : "https://api.github.com/users/LouQingYi/repos",
+    "events_url" : "https://api.github.com/users/LouQingYi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LouQingYi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6fe38e0b98ac87bc0657aba833a946bda8a4b83e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6fe38e0b98ac87bc0657aba833a946bda8a4b83e"
+  } ]
+}, {
+  "sha" : "f967df89079c030f9b7596f4e21ba31bc9b0a40b",
+  "commit" : {
+    "author" : {
+      "name" : "LouQingYi",
+      "email" : "w14b133@163.com",
+      "date" : "2017-06-03T06:34:31Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-03T06:34:31Z"
+    },
+    "message" : "Update 1414080903133.json",
+    "tree" : {
+      "sha" : "3b2c692055af85b475e1f2639ce70d8fa61082b6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/3b2c692055af85b475e1f2639ce70d8fa61082b6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f967df89079c030f9b7596f4e21ba31bc9b0a40b",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f967df89079c030f9b7596f4e21ba31bc9b0a40b",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f967df89079c030f9b7596f4e21ba31bc9b0a40b",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f967df89079c030f9b7596f4e21ba31bc9b0a40b/comments",
+  "author" : {
+    "login" : "LouQingYi",
+    "id" : 26144251,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26144251?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LouQingYi",
+    "html_url" : "https://github.com/LouQingYi",
+    "followers_url" : "https://api.github.com/users/LouQingYi/followers",
+    "following_url" : "https://api.github.com/users/LouQingYi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LouQingYi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LouQingYi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LouQingYi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LouQingYi/orgs",
+    "repos_url" : "https://api.github.com/users/LouQingYi/repos",
+    "events_url" : "https://api.github.com/users/LouQingYi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LouQingYi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "a102e410ed5ee3d09336630818f97920740f7c11",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a102e410ed5ee3d09336630818f97920740f7c11",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a102e410ed5ee3d09336630818f97920740f7c11"
+  } ]
+}, {
+  "sha" : "c5cfd375aea993d3d3a57efbabe3013bfb1aedd4",
+  "commit" : {
+    "author" : {
+      "name" : "LouQingYi",
+      "email" : "w14b133@163.com",
+      "date" : "2017-06-08T12:44:08Z"
+    },
+    "committer" : {
+      "name" : "LouQingYi",
+      "email" : "w14b133@163.com",
+      "date" : "2017-06-08T12:44:08Z"
+    },
+    "message" : "#6 #56 第六次作业",
+    "tree" : {
+      "sha" : "772b519ddc9b3e56ab67c4aea3d87d94208e6b5a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/772b519ddc9b3e56ab67c4aea3d87d94208e6b5a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c5cfd375aea993d3d3a57efbabe3013bfb1aedd4",
+    "comment_count" : 1
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c5cfd375aea993d3d3a57efbabe3013bfb1aedd4",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c5cfd375aea993d3d3a57efbabe3013bfb1aedd4",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c5cfd375aea993d3d3a57efbabe3013bfb1aedd4/comments",
+  "author" : {
+    "login" : "LouQingYi",
+    "id" : 26144251,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26144251?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LouQingYi",
+    "html_url" : "https://github.com/LouQingYi",
+    "followers_url" : "https://api.github.com/users/LouQingYi/followers",
+    "following_url" : "https://api.github.com/users/LouQingYi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LouQingYi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LouQingYi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LouQingYi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LouQingYi/orgs",
+    "repos_url" : "https://api.github.com/users/LouQingYi/repos",
+    "events_url" : "https://api.github.com/users/LouQingYi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LouQingYi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "LouQingYi",
+    "id" : 26144251,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26144251?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LouQingYi",
+    "html_url" : "https://github.com/LouQingYi",
+    "followers_url" : "https://api.github.com/users/LouQingYi/followers",
+    "following_url" : "https://api.github.com/users/LouQingYi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LouQingYi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LouQingYi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LouQingYi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LouQingYi/orgs",
+    "repos_url" : "https://api.github.com/users/LouQingYi/repos",
+    "events_url" : "https://api.github.com/users/LouQingYi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LouQingYi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "f967df89079c030f9b7596f4e21ba31bc9b0a40b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f967df89079c030f9b7596f4e21ba31bc9b0a40b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f967df89079c030f9b7596f4e21ba31bc9b0a40b"
+  } ]
+} ]

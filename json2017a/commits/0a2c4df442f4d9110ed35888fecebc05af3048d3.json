@@ -1,0 +1,162 @@
+{
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 32,
+    "additions" : 15,
+    "deletions" : 17
+  },
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0a2c4df442f4d9110ed35888fecebc05af3048d3",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-05-05T07:13:18Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-05-05T07:13:18Z"
+    },
+    "message" : "#3 #13 第三次实验",
+    "tree" : {
+      "sha" : "ca7dfb49753153b2190c99a49304a214d849f28a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ca7dfb49753153b2190c99a49304a214d849f28a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0a2c4df442f4d9110ed35888fecebc05af3048d3",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0a2c4df442f4d9110ed35888fecebc05af3048d3/comments",
+  "files" : [ {
+    "sha" : "411836fc0ca35ff2b84d91a83153dbf00dce6655",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_homework_assignment.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 5,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4b43e05b208fc6812c9c63113edb812a5c452ec6/AndroidLabs/app/src/main/res/drawable/tab_homework_assignment.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4b43e05b208fc6812c9c63113edb812a5c452ec6/AndroidLabs/app/src/main/res/drawable/tab_homework_assignment.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_homework_assignment.xml?ref=4b43e05b208fc6812c9c63113edb812a5c452ec6",
+    "patch" : "@@ -1,5 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n-    <item android:drawable=\"@mipmap/ic_assignment_on\" android:state_selected=\"true\"/>\n-    <item android:drawable=\"@mipmap/ic_assignment_off\"/>\n-</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "298863434a25ae42b694514b9c1017ebd92b7fac",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_homework_marking.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 5,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4b43e05b208fc6812c9c63113edb812a5c452ec6/AndroidLabs/app/src/main/res/drawable/tab_homework_marking.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4b43e05b208fc6812c9c63113edb812a5c452ec6/AndroidLabs/app/src/main/res/drawable/tab_homework_marking.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_homework_marking.xml?ref=4b43e05b208fc6812c9c63113edb812a5c452ec6",
+    "patch" : "@@ -1,5 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n-    <item android:drawable=\"@mipmap/ic_marking_on\" android:state_selected=\"true\"/>\n-    <item android:drawable=\"@mipmap/ic_marking_off\"/>\n-</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "2ba030d1e944599bdde7673fefe858d2a5c89c88",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_homework_marking_text.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 7,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4b43e05b208fc6812c9c63113edb812a5c452ec6/AndroidLabs/app/src/main/res/drawable/tab_homework_marking_text.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4b43e05b208fc6812c9c63113edb812a5c452ec6/AndroidLabs/app/src/main/res/drawable/tab_homework_marking_text.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_homework_marking_text.xml?ref=4b43e05b208fc6812c9c63113edb812a5c452ec6",
+    "patch" : "@@ -1,7 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n-\n-    <item android:color=\"@android:color/holo_blue_light\" android:state_selected=\"true\"/>\n-    <item android:color=\"@android:color/darker_gray\" />\n-\n-</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "3a84bfc2c97cc1fa054ed0bb3f13db507b6961d9",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_hw_assignment1414080903212.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_hw_assignment1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_hw_assignment1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_hw_assignment1414080903212.xml?ref=0a2c4df442f4d9110ed35888fecebc05af3048d3",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@mipmap/ic_assign_on1414080903212\" android:state_selected=\"true\"/>\n+    <item android:drawable=\"@mipmap/ic_assign_off1414080903212\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "7d212bd2e3f4370d982b79aaeb9a9492b1db022d",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_hw_bg1414080903212.xml",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_hw_bg1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_hw_bg1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_hw_bg1414080903212.xml?ref=0a2c4df442f4d9110ed35888fecebc05af3048d3",
+    "previous_filename" : "AndroidLabs/app/src/main/res/drawable/tab_homework_bg.xml"
+  }, {
+    "sha" : "6d2411262238e1b794fb1a3998a882ae28bd5bac",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_hw_marking1414080903212.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_hw_marking1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_hw_marking1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_hw_marking1414080903212.xml?ref=0a2c4df442f4d9110ed35888fecebc05af3048d3",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@mipmap/ic_marking_on1414080903212\" android:state_selected=\"true\"/>\n+    <item android:drawable=\"@mipmap/ic_marking_off1414080903212\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "2ba030d1e944599bdde7673fefe858d2a5c89c88",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_text1414080903212.xml",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_text1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/drawable/tab_text1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_text1414080903212.xml?ref=0a2c4df442f4d9110ed35888fecebc05af3048d3",
+    "previous_filename" : "AndroidLabs/app/src/main/res/drawable/tab_homework_assignment_text.xml"
+  }, {
+    "sha" : "f2219f338496512a5a9afd42946e54eea58c8825",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings1414080903212.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/values/strings1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0a2c4df442f4d9110ed35888fecebc05af3048d3/AndroidLabs/app/src/main/res/values/strings1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings1414080903212.xml?ref=0a2c4df442f4d9110ed35888fecebc05af3048d3",
+    "patch" : "@@ -0,0 +1,5 @@\n+<resources>\n+    <string name=\"app_name\">net1414080903212</string>\n+    <string name=\"assignment\">Assignment</string>\n+    <string name=\"marking\">Marking</string>\n+</resources>"
+  } ],
+  "sha" : "0a2c4df442f4d9110ed35888fecebc05af3048d3",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0a2c4df442f4d9110ed35888fecebc05af3048d3",
+  "parents" : [ {
+    "sha" : "4b43e05b208fc6812c9c63113edb812a5c452ec6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4b43e05b208fc6812c9c63113edb812a5c452ec6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4b43e05b208fc6812c9c63113edb812a5c452ec6"
+  } ]
+}

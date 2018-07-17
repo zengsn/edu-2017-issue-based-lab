@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 68,
+    "additions" : 68,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c1fde24300ff162613d74aec8e86eaa44e649a56",
+  "commit" : {
+    "author" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-05-22T15:35:04Z"
+    },
+    "committer" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-05-22T15:35:04Z"
+    },
+    "message" : "#5 #27 第五次实验",
+    "tree" : {
+      "sha" : "5bcee29d51e477dd7e3d2bb8d270e968a4d3f321",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5bcee29d51e477dd7e3d2bb8d270e968a4d3f321"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c1fde24300ff162613d74aec8e86eaa44e649a56",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c1fde24300ff162613d74aec8e86eaa44e649a56/comments",
+  "files" : [ {
+    "sha" : "b9cbe1c912c5d9753a46a17b0ed24dfcb261c83b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java",
+    "status" : "modified",
+    "additions" : 68,
+    "deletions" : 0,
+    "changes" : 68,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c1fde24300ff162613d74aec8e86eaa44e649a56/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c1fde24300ff162613d74aec8e86eaa44e649a56/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java?ref=c1fde24300ff162613d74aec8e86eaa44e649a56",
+    "patch" : "@@ -1,10 +1,18 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903222;\n \n import android.app.Fragment;\n+import android.content.Intent;\n+import android.content.pm.PackageManager;\n+import android.media.MediaPlayer;\n import android.media.MediaRecorder;\n+import android.net.Uri;\n import android.os.Bundle;\n import android.os.Environment;\n+import android.os.Handler;\n+import android.support.annotation.NonNull;\n import android.support.annotation.Nullable;\n+import android.support.v4.app.ActivityCompat;\n+import android.support.v4.content.ContextCompat;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n@@ -14,6 +22,7 @@\n import android.widget.Toast;\n \n import java.io.File;\n+import java.io.IOException;\n \n \n \n@@ -82,8 +91,67 @@ private void getSDCardFile() {\n         }\n     }\n \n+ @Override\n+    public void onClick(View v) {\n+        switch (v.getId()) {\n+            case R.id.Astart:\n+                //⑧申请录制音频的动态权限\n+                if (ContextCompat.checkSelfPermission(getActivity(), android.Manifest.permission.RECORD_AUDIO)\n+                        != PackageManager.PERMISSION_GRANTED) {\n+                    ActivityCompat.requestPermissions(getActivity(), new String[]{\n+                            android.Manifest.permission.RECORD_AUDIO, android.Manifest.permission.WRITE_EXTERNAL_STORAGE},  1);\n+                } else {\n+                    startRecord();\n+                }\n+                break;\n+            case R.id.Astop:\n+                \n+                break;\n+            case R.id.Aplay:\n+                \n+                break;\n+        }\n+    }\n \n+\t/**\n+     * 录音\n+     */\n+    private void startRecord() {\n \n+        if (recorder == null) {\n+            recorder = new MediaRecorder();\n+        }\n+        recorder.setAudioSource(MediaRecorder.AudioSource.MIC);//设置音频源为手机麦克风\n+        recorder.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);//设置输出格式\n+        recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);//设置音频编码为AMR格式\n+        //获取内存卡的根目录，创建临时文件\n+        try {\n+\n+            // file = File.createTempFile(\"录音_\", \".amr\", this.getFilesDir());\n+            filePath = sdcardfile.getCanonicalPath().toString() + \"/audio\";\n+            File path = new File(filePath);\n+            if(!path.exists()) {\n+                path.mkdirs();\n+            }\n+            FolderPath =path ;\n+            file = File.createTempFile(\"录音_\", \".amr\", FolderPath);\n+\n+            recorder.setOutputFile(file.getAbsolutePath());//设置文件输出路径\n+            //准备和启动录制音频\n+            recorder.prepare();\n+            recorder.start();\n+            startTime = System.currentTimeMillis();\n+            updateMicStatus();\n+            Toast.makeText(getActivity(), \"录音中!\", Toast.LENGTH_SHORT).show();\n+        } catch (IOException e) {\n+            Toast.makeText(getActivity(), \"录音失败!\", Toast.LENGTH_SHORT).show();\n+            e.printStackTrace();\n+        }\n+        //启动后交换两个按钮的可用状态\n+        btn_start.setEnabled(false);\n+        btn_stop.setEnabled(true);\n+\n+    }\n }\n \n "
+  } ],
+  "sha" : "c1fde24300ff162613d74aec8e86eaa44e649a56",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c1fde24300ff162613d74aec8e86eaa44e649a56",
+  "parents" : [ {
+    "sha" : "b28c9a3b322758ef73d8d5a85596c823476df609",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b28c9a3b322758ef73d8d5a85596c823476df609",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b28c9a3b322758ef73d8d5a85596c823476df609"
+  } ]
+}

@@ -1,0 +1,273 @@
+[ {
+  "sha" : "4ffac337a171ced19b77b95a569f9df7e0564082",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:27:57Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:27:57Z"
+    },
+    "message" : "#3 #10 第三次实验",
+    "tree" : {
+      "sha" : "a6c3503a012fe59b360a5777f7b7af3121635f11",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a6c3503a012fe59b360a5777f7b7af3121635f11"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/4ffac337a171ced19b77b95a569f9df7e0564082",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4ffac337a171ced19b77b95a569f9df7e0564082",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4ffac337a171ced19b77b95a569f9df7e0564082",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4ffac337a171ced19b77b95a569f9df7e0564082/comments",
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "f2b952c85289dbfb9a2a51f54fa2d7b5bdbe9572",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f2b952c85289dbfb9a2a51f54fa2d7b5bdbe9572",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f2b952c85289dbfb9a2a51f54fa2d7b5bdbe9572"
+  } ]
+}, {
+  "sha" : "872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:30:41Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:30:41Z"
+    },
+    "message" : "Merge branch 'master' of https://github.com/wetstreet/android-labs-2017",
+    "tree" : {
+      "sha" : "e2898d102278f71c0a88f30a25f62c4bad53f6fc",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e2898d102278f71c0a88f30a25f62c4bad53f6fc"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6/comments",
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "4ffac337a171ced19b77b95a569f9df7e0564082",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4ffac337a171ced19b77b95a569f9df7e0564082",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4ffac337a171ced19b77b95a569f9df7e0564082"
+  }, {
+    "sha" : "38659eb1ca64a009d39a8433ad2ff6657e12566b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/38659eb1ca64a009d39a8433ad2ff6657e12566b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/38659eb1ca64a009d39a8433ad2ff6657e12566b"
+  } ]
+}, {
+  "sha" : "e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:33:24Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:33:24Z"
+    },
+    "message" : "#3 #10 第三次实验",
+    "tree" : {
+      "sha" : "5b624d290e32d40d2681a6021dcf6f3c332ce5ec",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5b624d290e32d40d2681a6021dcf6f3c332ce5ec"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e/comments",
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/872a1ec6f20223ab227de35e3ff829ef4d174bc6"
+  } ]
+}, {
+  "sha" : "45e3aefc6fe8ba7a9d5c1b85a485a8efce8475a7",
+  "commit" : {
+    "author" : {
+      "name" : "Chen Yirun 陈奕润",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:34:14Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-05-12T07:34:14Z"
+    },
+    "message" : "Delete GLHelper.java",
+    "tree" : {
+      "sha" : "4f897f1e5e9b6c896dd01f6a97427ec1b540e341",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4f897f1e5e9b6c896dd01f6a97427ec1b540e341"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/45e3aefc6fe8ba7a9d5c1b85a485a8efce8475a7",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/45e3aefc6fe8ba7a9d5c1b85a485a8efce8475a7",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/45e3aefc6fe8ba7a9d5c1b85a485a8efce8475a7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/45e3aefc6fe8ba7a9d5c1b85a485a8efce8475a7/comments",
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e61b6ce799f9e78b2b5798e897ffb2046e8ba42e"
+  } ]
+} ]

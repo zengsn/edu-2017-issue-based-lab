@@ -1,0 +1,162 @@
+{
+  "committer" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 446,
+    "additions" : 446,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "pengliangjun",
+    "id" : 26159399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159399?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengliangjun",
+    "html_url" : "https://github.com/pengliangjun",
+    "followers_url" : "https://api.github.com/users/pengliangjun/followers",
+    "following_url" : "https://api.github.com/users/pengliangjun/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengliangjun/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengliangjun/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengliangjun/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengliangjun/orgs",
+    "repos_url" : "https://api.github.com/users/pengliangjun/repos",
+    "events_url" : "https://api.github.com/users/pengliangjun/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengliangjun/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+  "commit" : {
+    "author" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-04-28T07:26:15Z"
+    },
+    "committer" : {
+      "name" : "pengliangjun",
+      "email" : "616630694@qq.com",
+      "date" : "2017-04-28T07:26:15Z"
+    },
+    "message" : "#2 #39 第二次作业",
+    "tree" : {
+      "sha" : "045d60be2af2aa543511adb75c4c1beb572dc9af",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/045d60be2af2aa543511adb75c4c1beb572dc9af"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/95a2f2091a64d706166e10ac53b8fc4eabcf4542/comments",
+  "files" : [ {
+    "sha" : "f18770e3c02264f4ac50cc5da4703b75e83efa00",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java",
+    "status" : "added",
+    "additions" : 43,
+    "deletions" : 0,
+    "changes" : 43,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyBudgetActivity.java?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,43 @@\n+package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import com.example.administrator.luyoucong.R;\n+\n+public class Net1409081602222ApplyBudgetActivity extends AppCompatActivity {\n+\n+    EditText etBudget;\n+    Button btApply;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_apply_budget_net1409081602222);\n+\n+        etBudget= (EditText) findViewById(R.id.et_budget);\n+        btApply= (Button) findViewById(R.id.bt_apply_budget);\n+\n+        btApply.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String s=etBudget.getText().toString().trim();\n+                try{\n+                    int budget=Integer.parseInt(s);\n+                    if(budget>100000){\n+                        Toast.makeText(Net1409081602222ApplyBudgetActivity.this,\"数值过大，请亲自与经理汇报！！\",Toast.LENGTH_LONG).show();\n+                    }else{\n+                        Toast.makeText(Net1409081602222ApplyBudgetActivity.this,\"申请成功，请等待审核！！\",Toast.LENGTH_SHORT).show();\n+                        finish();\n+                    }\n+                }catch (NumberFormatException e){\n+                    Toast.makeText(Net1409081602222ApplyBudgetActivity.this,\"数值错误，请重新输入！！\",Toast.LENGTH_SHORT).show();\n+                }\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "c32c2bcfb6f7a6e52cd23a347391f906a3ff75eb",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java",
+    "status" : "added",
+    "additions" : 48,
+    "deletions" : 0,
+    "changes" : 48,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222ApplyCertificateActivity.java?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,48 @@\n+package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import com.example.administrator.luyoucong.R;\n+\n+public class Net1409081602222ApplyCertificateActivity extends AppCompatActivity {\n+\n+    EditText etName;\n+    EditText etTime;\n+\n+    Button btSubmit;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_apply_certificate_net1409081602222);\n+\n+        etName= (EditText) findViewById(R.id.et_project_name);\n+        etTime= (EditText) findViewById(R.id.et_project_time);\n+\n+        btSubmit= (Button) findViewById(R.id.bt_submit);\n+\n+        btSubmit.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String name=etName.getText().toString();\n+                String time=etTime.getText().toString();\n+\n+                if(check(name)){\n+                    Toast.makeText(Net1409081602222ApplyCertificateActivity.this,\"申请成功，请等待审核！！\",Toast.LENGTH_SHORT).show();\n+                    finish();\n+                }else{\n+                    Toast.makeText(Net1409081602222ApplyCertificateActivity.this,\"工程类型错误！！\",Toast.LENGTH_SHORT).show();\n+                }\n+            }\n+        });\n+    }\n+\n+    public boolean check(String name){\n+        return true;\n+    }\n+}"
+  }, {
+    "sha" : "fdee5e51a01ba416912545a68293820e55c6c630",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MainActivity.java",
+    "status" : "added",
+    "additions" : 52,
+    "deletions" : 0,
+    "changes" : 52,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MainActivity.java?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,52 @@\n+package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import com.example.administrator.luyoucong.R;\n+\n+public class Net1409081602222MainActivity extends AppCompatActivity {\n+\n+    EditText etUsername;\n+    EditText etPassword;\n+    \n+    Button btLogin;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_main_net1409081602222);\n+\n+        etUsername = (EditText) findViewById(R.id.et_username);\n+        etPassword = (EditText) findViewById(R.id.et_password);\n+\n+        btLogin = (Button) findViewById(R.id.bt_login);\n+\n+        btLogin.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String username = etUsername.getText().toString();\n+                String password = etPassword.getText().toString();\n+                if (check(username, password)) {\n+                    startActivity(new Intent(Net1409081602222MainActivity.this, Net1409081602222MenuActivity.class));\n+                } else {\n+                    Toast.makeText(Net1409081602222MainActivity.this, \"账号/密码错误！！\", Toast.LENGTH_SHORT).show();\n+                }\n+\n+            }\n+        });\n+    }\n+\n+\n+    public boolean check(String username, String password) {\n+        if (username.equals(\"pengliangjun\") && password.equals(\"123\"))\n+            return true;\n+        return false;\n+    }\n+\n+}"
+  }, {
+    "sha" : "b8363a1617af941816a1a680f1827e051687e04d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,38 @@\n+package edu.hzuapps.androidlabs.homeworks.net1409081602222;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+import com.example.administrator.luyoucong.R;\n+\n+public class Net1409081602222MenuActivity extends AppCompatActivity {\n+\n+    Button btBudget;\n+    Button btCertificate;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_menu_net1409081602222);\n+        btBudget= (Button) findViewById(R.id.bt_to_apply_budget);\n+        btCertificate= (Button) findViewById(R.id.bt_to_apply_certificate);\n+\n+        btBudget.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1409081602222MenuActivity.this,Net1409081602222ApplyBudgetActivity.class));\n+            }\n+        });\n+\n+\n+        btCertificate.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1409081602222MenuActivity.this,Net1409081602222ApplyCertificateActivity.class));\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "aa14775f63f5cce6790dbb25d3e30970e902607a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_apply_budget_net1409081602222.xml",
+    "status" : "added",
+    "additions" : 67,
+    "deletions" : 0,
+    "changes" : 67,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_apply_budget_net1409081602222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_apply_budget_net1409081602222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_apply_budget_net1409081602222.xml?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,67 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <LinearLayout\n+        android:background=\"@color/colorPrimary\"\n+        android:padding=\"20dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <ImageButton\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:background=\"#00000000\"/>\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:textColor=\"#ffffff\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"申请预算\"/>\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"10dp\"\n+        android:padding=\"10dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:text=\"   预算金额：\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\" />\n+        <EditText\n+            android:id=\"@+id/et_budget\"\n+            android:gravity=\"right\"\n+            android:hint=\"请输入预算金额\"\n+            android:layout_width=\"0dp\"\n+            android:textColorHint=\"#33000000\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"18sp\"/>\n+\n+        <TextView\n+            android:text=\"元    \"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"18sp\"\n+            android:id=\"@+id/textView\" />\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/bt_apply_budget\"\n+        android:layout_marginLeft=\"50dp\"\n+        android:layout_marginRight=\"50dp\"\n+        android:layout_marginTop=\"15dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"申      请\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "f329e217f15e591c0a67ee4ce857b7a489afcc13",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_apply_certificate_net1409081602222.xml",
+    "status" : "added",
+    "additions" : 78,
+    "deletions" : 0,
+    "changes" : 78,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_apply_certificate_net1409081602222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_apply_certificate_net1409081602222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_apply_certificate_net1409081602222.xml?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,78 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    android:layout_height=\"match_parent\">\n+\n+    <TextView\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:textColor=\"#ffffff\"\n+        android:background=\"@color/colorPrimary\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"申请安全证书\"/>\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"15dp\"\n+        android:padding=\"15dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"工程名称：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_project_name\"\n+            android:layout_width=\"0dp\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"18sp\"\n+            android:textColorHint=\"#55000000\"\n+            android:hint=\"请输入工程名称\"/>\n+\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:layout_marginTop=\"1dp\"\n+        android:padding=\"15dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+\n+        <TextView\n+            android:textSize=\"18sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"工程时间：\"/>\n+\n+        <EditText\n+            android:id=\"@+id/et_project_time\"\n+            android:layout_width=\"0dp\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"18sp\"\n+            android:textColorHint=\"#55000000\"\n+            android:hint=\"请输入工程时间\"/>\n+\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/bt_submit\"\n+        android:layout_marginLeft=\"60dp\"\n+        android:layout_marginRight=\"60dp\"\n+        android:layout_marginTop=\"15dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"确     定\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "24bd39c72d5ab53abee8d2bbc6c9d2a9fdadf086",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main_net1409081602222.xml",
+    "status" : "added",
+    "additions" : 78,
+    "deletions" : 0,
+    "changes" : 78,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_main_net1409081602222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_main_net1409081602222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main_net1409081602222.xml?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,78 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:gravity=\"center_horizontal\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <ImageView\n+        android:layout_marginTop=\"30dp\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:src=\"@mipmap/garden\"/>\n+\n+    <TextView\n+        android:gravity=\"center_horizontal\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20sp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"欢迎来到小区管理系统\"/>\n+\n+    <LinearLayout\n+        android:paddingLeft=\"50dp\"\n+        android:paddingRight=\"50dp\"\n+        android:gravity=\"center_horizontal\"\n+        android:layout_marginTop=\"30dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textColor=\"@color/colorPrimary\"\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"账 号：\"/>\n+        <EditText\n+            android:id=\"@+id/et_username\"\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"0dp\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+    <LinearLayout\n+        android:paddingLeft=\"50dp\"\n+        android:paddingRight=\"50dp\"\n+        android:gravity=\"center_horizontal\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textColor=\"@color/colorPrimary\"\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"密 码：\"/>\n+        <EditText\n+            android:id=\"@+id/et_password\"\n+            android:layout_width=\"0dp\"\n+            android:layout_weight=\"1\"\n+            android:textSize=\"20sp\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/bt_login\"\n+        android:layout_marginLeft=\"60dp\"\n+        android:layout_marginRight=\"60dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"登录\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n+\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "0654dac5ed85c238127f03f0ffd946e1e5f854c5",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95a2f2091a64d706166e10ac53b8fc4eabcf4542/AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml?ref=95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+    "patch" : "@@ -0,0 +1,42 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <TextView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:padding=\"15dp\"\n+        android:textSize=\"20sp\"\n+        android:textColor=\"#ffffff\"\n+        android:background=\"@color/colorPrimary\"\n+        android:text=\"申请\"/>\n+\n+    <Button\n+\n+        android:id=\"@+id/bt_to_apply_budget\"\n+        android:layout_marginLeft=\"50dp\"\n+        android:layout_marginRight=\"50dp\"\n+        android:layout_marginTop=\"150dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"申请预算\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n+\n+\n+    <Button\n+        android:id=\"@+id/bt_to_apply_certificate\"\n+        android:layout_marginLeft=\"50dp\"\n+        android:layout_marginRight=\"50dp\"\n+        android:layout_marginTop=\"25dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"申请安全证书\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n+\n+</LinearLayout>"
+  } ],
+  "sha" : "95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/95a2f2091a64d706166e10ac53b8fc4eabcf4542",
+  "parents" : [ {
+    "sha" : "7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7d8c99009d305a4ec0228dcb84a4f8cb913d6adf"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "14YuQingBin",
+    "id" : 26153217,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26153217?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14YuQingBin",
+    "html_url" : "https://github.com/14YuQingBin",
+    "followers_url" : "https://api.github.com/users/14YuQingBin/followers",
+    "following_url" : "https://api.github.com/users/14YuQingBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14YuQingBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14YuQingBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14YuQingBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14YuQingBin/orgs",
+    "repos_url" : "https://api.github.com/users/14YuQingBin/repos",
+    "events_url" : "https://api.github.com/users/14YuQingBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14YuQingBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "14YuQingBin",
+    "id" : 26153217,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26153217?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14YuQingBin",
+    "html_url" : "https://github.com/14YuQingBin",
+    "followers_url" : "https://api.github.com/users/14YuQingBin/followers",
+    "following_url" : "https://api.github.com/users/14YuQingBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14YuQingBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14YuQingBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14YuQingBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14YuQingBin/orgs",
+    "repos_url" : "https://api.github.com/users/14YuQingBin/repos",
+    "events_url" : "https://api.github.com/users/14YuQingBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14YuQingBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c2c1a7a86957288930c28ad50982fd43b60b5cb0",
+  "commit" : {
+    "author" : {
+      "name" : "14YuQingBin",
+      "email" : "452798073@qq.com",
+      "date" : "2017-06-17T11:48:18Z"
+    },
+    "committer" : {
+      "name" : "14YuQingBin",
+      "email" : "452798073@qq.com",
+      "date" : "2017-06-17T11:48:18Z"
+    },
+    "message" : "#6 #129 第六次作业",
+    "tree" : {
+      "sha" : "bc893fb4c03f7e30bc2a3eea854585546078a34b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/bc893fb4c03f7e30bc2a3eea854585546078a34b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c2c1a7a86957288930c28ad50982fd43b60b5cb0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c2c1a7a86957288930c28ad50982fd43b60b5cb0/comments",
+  "files" : [ {
+    "sha" : "b057d6a4771b296ac7810dd67cb8a2d10b236406",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/yqb.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c2c1a7a86957288930c28ad50982fd43b60b5cb0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/yqb.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c2c1a7a86957288930c28ad50982fd43b60b5cb0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/yqb.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903130/yqb.json?ref=c2c1a7a86957288930c28ad50982fd43b60b5cb0",
+    "patch" : "@@ -0,0 +1 @@\n+[{\"grade\":\"14����1��\",\"name\":\"�����\",\"number\":\"1414080903130\"}]\n\\ No newline at end of file"
+  } ],
+  "sha" : "c2c1a7a86957288930c28ad50982fd43b60b5cb0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c2c1a7a86957288930c28ad50982fd43b60b5cb0",
+  "parents" : [ {
+    "sha" : "c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c892d2d153f51ab18e93ad2d81bee993a6dda480",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c892d2d153f51ab18e93ad2d81bee993a6dda480"
+  } ]
+}

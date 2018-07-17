@@ -1,0 +1,68 @@
+[ {
+  "sha" : "ed96b34b43f478e674fd4efd72c38efb26eddae4",
+  "commit" : {
+    "author" : {
+      "name" : "anzhoulin",
+      "email" : "631874079@qq.com",
+      "date" : "2017-06-12T03:03:37Z"
+    },
+    "committer" : {
+      "name" : "anzhoulin",
+      "email" : "631874079@qq.com",
+      "date" : "2017-06-12T03:03:37Z"
+    },
+    "message" : "#4 #158 第四次作业",
+    "tree" : {
+      "sha" : "42140738faafec180f24776d32bc359653f11a11",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/42140738faafec180f24776d32bc359653f11a11"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ed96b34b43f478e674fd4efd72c38efb26eddae4",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed96b34b43f478e674fd4efd72c38efb26eddae4",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ed96b34b43f478e674fd4efd72c38efb26eddae4",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed96b34b43f478e674fd4efd72c38efb26eddae4/comments",
+  "author" : {
+    "login" : "anzhoulin",
+    "id" : 26320611,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26320611?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/anzhoulin",
+    "html_url" : "https://github.com/anzhoulin",
+    "followers_url" : "https://api.github.com/users/anzhoulin/followers",
+    "following_url" : "https://api.github.com/users/anzhoulin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/anzhoulin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/anzhoulin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/anzhoulin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/anzhoulin/orgs",
+    "repos_url" : "https://api.github.com/users/anzhoulin/repos",
+    "events_url" : "https://api.github.com/users/anzhoulin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/anzhoulin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "anzhoulin",
+    "id" : 26320611,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26320611?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/anzhoulin",
+    "html_url" : "https://github.com/anzhoulin",
+    "followers_url" : "https://api.github.com/users/anzhoulin/followers",
+    "following_url" : "https://api.github.com/users/anzhoulin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/anzhoulin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/anzhoulin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/anzhoulin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/anzhoulin/orgs",
+    "repos_url" : "https://api.github.com/users/anzhoulin/repos",
+    "events_url" : "https://api.github.com/users/anzhoulin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/anzhoulin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "d98c23542324a70be310c066bfc28726c461b6d7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d98c23542324a70be310c066bfc28726c461b6d7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d98c23542324a70be310c066bfc28726c461b6d7"
+  } ]
+} ]

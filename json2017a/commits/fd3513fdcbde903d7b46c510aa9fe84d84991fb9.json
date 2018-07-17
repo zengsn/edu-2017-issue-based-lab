@@ -1,0 +1,126 @@
+{
+  "committer" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 170,
+    "additions" : 170,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+  "commit" : {
+    "author" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-06-01T07:40:30Z"
+    },
+    "committer" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-06-01T07:40:30Z"
+    },
+    "message" : "#5 #59 第五次实验",
+    "tree" : {
+      "sha" : "ba8550f7884813bd7f42639e8ddc66b30b302bd2",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ba8550f7884813bd7f42639e8ddc66b30b302bd2"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/comments",
+  "files" : [ {
+    "sha" : "12faf4f13294752519f0d787d1774abfe19e2a80",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/WeatherInfo.java",
+    "status" : "added",
+    "additions" : 63,
+    "deletions" : 0,
+    "changes" : 63,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/WeatherInfo.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/WeatherInfo.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/WeatherInfo.java?ref=fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+    "patch" : "@@ -0,0 +1,63 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903122;\n+\n+/**\n+ * Created by hzu on 2017/5/26.\n+ */\n+\n+public class WeatherInfo {\n+\n+    private int id;\n+    private String name;\n+    private String weather;\n+    private String temp;\n+    private String pm;\n+    private String wind;\n+\n+    public int getId() {\n+        return id;\n+    }\n+\n+    public void setId(int id) {\n+        this.id = id;\n+    }\n+\n+    public String getName() {\n+        return name;\n+    }\n+\n+    public void setName(String name) {\n+        this.name = name;\n+    }\n+\n+    public String getWeather() {\n+        return weather;\n+    }\n+\n+    public void setWeather(String weather) {\n+        this.weather = weather;\n+    }\n+\n+    public String getTemp() {\n+        return temp;\n+    }\n+\n+    public void setTemp(String temp) {\n+        this.temp = temp;\n+    }\n+\n+    public String getPm() {\n+        return pm;\n+    }\n+\n+    public void setPm(String pm) {\n+        this.pm = pm;\n+    }\n+\n+    public String getWind() {\n+        return wind;\n+    }\n+\n+    public void setWind(String wind) {\n+        this.wind = wind;\n+    }\n+}"
+  }, {
+    "sha" : "841c0d2dad3835f0c5172fba6885f8e6135d0c05",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/xk.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/drawable/xk.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/drawable/xk.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/xk.jpg?ref=fd3513fdcbde903d7b46c510aa9fe84d84991fb9"
+  }, {
+    "sha" : "4167ced1c9777a1cedfb22955dc1780c2ccbd30f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/xk1.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/drawable/xk1.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/drawable/xk1.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/xk1.jpg?ref=fd3513fdcbde903d7b46c510aa9fe84d84991fb9"
+  }, {
+    "sha" : "508a467eb91782ab36a1d690f4c63c58de57e863",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/xk2.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/drawable/xk2.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/drawable/xk2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/xk2.jpg?ref=fd3513fdcbde903d7b46c510aa9fe84d84991fb9"
+  }, {
+    "sha" : "1b08e87365e92f5e3704367991b54d5fbeb41391",
+    "filename" : "AndroidLabs/app/src/main/res/layout/weather_1414080903122.xml",
+    "status" : "added",
+    "additions" : 107,
+    "deletions" : 0,
+    "changes" : 107,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/layout/weather_1414080903122.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd3513fdcbde903d7b46c510aa9fe84d84991fb9/AndroidLabs/app/src/main/res/layout/weather_1414080903122.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/weather_1414080903122.xml?ref=fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+    "patch" : "@@ -0,0 +1,107 @@\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:backgroud=\"@drawable/weather\"\n+    tools:context=\"com.example.hzu.myapplication.weather\">\n+\n+\n+\n+    <LinearLayout\n+        android:id=\"@+id/ll_btn\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_alignParentBottom=\"true\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:orientation=\"horizontal\">\n+\n+        <Button\n+            android:id=\"@+id/city_bj\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"北京\" />\n+\n+        <Button\n+            android:id=\"@+id/city_sh\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"上海\" />\n+\n+        <Button\n+            android:id=\"@+id/city_jl\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"吉林\" />\n+\n+\n+    </LinearLayout>\n+\n+    <TextView\n+        android:id=\"@+id/select_city\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_marginTop=\"34dp\"\n+        android:layout_toLeftOf=\"@+id/icon\"\n+        android:text=\"上海\"\n+        android:textSize=\"20sp\" />\n+\n+    <ImageView\n+        android:id=\"@+id/icon\"\n+        android:src=\"drawable/ic_launcher\"\n+        android:layout_width=\"70dp\"\n+        android:layout_height=\"70dp\"\n+        android:layout_alignLeft=\"@+id/ll_btn\"\n+        android:layout_below=\"@+id/select_city\"\n+        android:layout_marginTop=\"25dp\"\n+        android:paddingBottom=\"5dp\" />\n+\n+    <TextView\n+        android:id=\"@+id/select_weather\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_alignRight=\"@+id/icon\"\n+        android:layout_below=\"@+id/icon\"\n+        android:layout_marginRight=\"15dp\"\n+        android:layout_marginTop=\"18dp\"\n+        android:gravity=\"center\"\n+        android:text=\"多云\"\n+        android:textSize=\"18sp\" />\n+\n+    <LinearLayout\n+        android:id=\"@+id/linearLayout1\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_alignBottom=\"@+id/select_weather\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:layout_alignRight=\"@+id/ll_btn\"\n+        android:gravity=\"center\"\n+        android:orientation=\"vertical\">\n+\n+        <TextView\n+            android:id=\"@+id/temp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_marginTop=\"10dp\"\n+            android:layout_gravity=\"center_vertical\"\n+            android:layout_toLeftOf=\"@+id/icon\"\n+            android:text=\"-7度\"\n+            android:textSize=\"22sp\" />\n+\n+        <TextView\n+            android:id=\"@+id/wind\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"风力:3级\"\n+            android:textSize=\"18sp\" />\n+\n+        <TextView\n+            android:id=\"@+id/pm\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"pm\"\n+            android:textSize=\"18sp\" />\n+\n+    </LinearLayout>\n+\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+  "parents" : [ {
+    "sha" : "fbb122bafeafb989aa02d357f78a19dea648dc1a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fbb122bafeafb989aa02d357f78a19dea648dc1a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fbb122bafeafb989aa02d357f78a19dea648dc1a"
+  } ]
+}

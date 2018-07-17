@@ -1,0 +1,89 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "claixiang",
+    "id" : 26144470,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26144470?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/claixiang",
+    "html_url" : "https://github.com/claixiang",
+    "followers_url" : "https://api.github.com/users/claixiang/followers",
+    "following_url" : "https://api.github.com/users/claixiang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/claixiang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/claixiang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/claixiang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/claixiang/orgs",
+    "repos_url" : "https://api.github.com/users/claixiang/repos",
+    "events_url" : "https://api.github.com/users/claixiang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/claixiang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/93a61dd855307540fa3379448cc19463c3f84206",
+  "commit" : {
+    "author" : {
+      "name" : "claixiang",
+      "email" : "406908704@qq.com",
+      "date" : "2017-03-03T08:40:17Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-03-03T08:40:17Z"
+    },
+    "message" : "Merge pull request #1 from hzuapps/master\n\n实验包",
+    "tree" : {
+      "sha" : "348aac5cd4a7bcb7b7a766a96d3baf2cca502bcb",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/348aac5cd4a7bcb7b7a766a96d3baf2cca502bcb"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/93a61dd855307540fa3379448cc19463c3f84206",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/93a61dd855307540fa3379448cc19463c3f84206/comments",
+  "files" : [ {
+    "sha" : "1333ed77b7e1ed056329cae96075dc558158ee69",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/93a61dd855307540fa3379448cc19463c3f84206/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/93a61dd855307540fa3379448cc19463c3f84206/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net12345678/Net12345678Activity.java?ref=93a61dd855307540fa3379448cc19463c3f84206",
+    "patch" : "@@ -0,0 +1 @@\n+TODO"
+  } ],
+  "sha" : "93a61dd855307540fa3379448cc19463c3f84206",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/93a61dd855307540fa3379448cc19463c3f84206",
+  "parents" : [ {
+    "sha" : "2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2253a7dedaf35ded0df1fe7f46175b13505f3036"
+  }, {
+    "sha" : "9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9f5014e28f846b0ee9c9eeb6c0262b2887835719"
+  } ]
+}

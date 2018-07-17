@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 178,
+    "additions" : 178,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0efce3193b44a834fa5f845a451626123cd55bf9",
+  "commit" : {
+    "author" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-04-26T09:42:45Z"
+    },
+    "committer" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-04-26T09:42:45Z"
+    },
+    "message" : "addFile",
+    "tree" : {
+      "sha" : "2938eef25b44fc296303683173ce8cb6e572febd",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2938eef25b44fc296303683173ce8cb6e572febd"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0efce3193b44a834fa5f845a451626123cd55bf9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0efce3193b44a834fa5f845a451626123cd55bf9/comments",
+  "files" : [ {
+    "sha" : "28247c967e902d34a78f86725acc35b18b77b280",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest.xml",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest.xml?ref=0efce3193b44a834fa5f845a451626123cd55bf9",
+    "patch" : "@@ -0,0 +1,36 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    package=\"edu.hzuapps.androidlabs\">\n+\n+    <application\n+        android:allowBackup=\"true\"\n+        android:icon=\"@mipmap/ic_launcher\"\n+        android:label=\"@string/app_name\"\n+        android:supportsRtl=\"true\"\n+        android:theme=\"@style/AppTheme\">\n+        <activity android:name=\".MainActivity\">\n+            <intent-filter>\n+                <action android:name=\"android.intent.action.MAIN\" />\n+\n+                <category android:name=\"android.intent.category.LAUNCHER\" />\n+            </intent-filter>\n+        </activity>\n+        <activity\n+            android:name=\".BackActivity\"\n+            android:label=\"@string/title_activity_back\">\n+        </activity>\n+        <activity\n+            android:name=\".examples.ViewBasicActivity\"\n+            android:label=\"@string/title_activity_view_basic\">\n+        </activity>\n+        <activity\n+            android:name=\".examples.ActivityBasicActivity\"\n+            android:label=\"@string/title_activity_activity_basic\">\n+        </activity>\n+        <activity\n+            android:name=\".examples.ActivityBasic2Activity\"\n+            android:label=\"@string/title_activity_activity_basic2\">\n+        </activity>\n+    </application>\n+\n+</manifest>\n\\ No newline at end of file"
+  }, {
+    "sha" : "abae05f2f6bd01fce5fa786b608d8db5072b034d",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main.xml",
+    "status" : "added",
+    "additions" : 62,
+    "deletions" : 0,
+    "changes" : 62,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/res/layout/activity_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/res/layout/activity_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main.xml?ref=0efce3193b44a834fa5f845a451626123cd55bf9",
+    "patch" : "@@ -0,0 +1,62 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout \n+    xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidworks.MainActivity\">\n+\n+    <Button\n+        android:id=\"@+id/button_activitybasic\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Activity 基本用法\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_viewbasic\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"View 基本用法\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_fragmentdemo\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Fragment 功能演示\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_servicedemo\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Service 功能演示\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_broadcastdemo\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Broadcast 功能演示\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_contentprovidedemo\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"ContentProvider 功能演示\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_viewdemo\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"各种布局及界面演示\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_random\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"随机看一位同学的作业\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "b5b89c30bfac156c7503fe98d34924f588ce72c7",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_network.xml",
+    "status" : "added",
+    "additions" : 44,
+    "deletions" : 0,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/res/layout/activity_network.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/res/layout/activity_network.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_network.xml?ref=0efce3193b44a834fa5f845a451626123cd55bf9",
+    "patch" : "@@ -0,0 +1,44 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout\n+    xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidworks.examples.NetworkActivity\">\n+\n+    <Button\n+        android:id=\"@+id/button_check\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"检查网络\"/>\n+\n+    <TextView\n+        android:id=\"@+id/text_network\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textAlignment=\"center\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_download_image\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"下载图片\"/>\n+\n+    <Button\n+        android:id=\"@+id/button_download_web\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"下载网页\"/>\n+\n+    <TextView\n+        android:id=\"@+id/text_result\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textAlignment=\"center\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "47716b1ca0dc7ec8678abbd62e3facdfec99d0db",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0efce3193b44a834fa5f845a451626123cd55bf9/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=0efce3193b44a834fa5f845a451626123cd55bf9",
+    "patch" : "@@ -0,0 +1,36 @@\n+<resources>\n+    <string name=\"app_name\">Android开发</string>\n+    <string name=\"action_settings\">设置</string>\n+\n+    <string name=\"title_activity_back\">活动模板（返回）</string>\n+\n+    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n+    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n+\n+    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n+    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n+\n+    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n+    <string name=\"title_activity_fragment_content\">内容</string>\n+    <string name=\"demo_content\">演示内容</string>\n+    <string name=\"title_activity_net123456\">Net123456Activity</string>\n+    <string name=\"title_activity_com123456\">Com123456Activity</string>\n+    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n+    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n+    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n+    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n+    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n+    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n+    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n+    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n+    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n+    <string name=\"title_activity_list_view\">ListViewActivity</string>\n+    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n+    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n+    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n+    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n+    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n+    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n+    <string name=\"title_activity_file_share\">FileShareActivity</string>\n+    <string name=\"title_activity_network\">NetworkActivity</string>\n+</resources>"
+  } ],
+  "sha" : "0efce3193b44a834fa5f845a451626123cd55bf9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0efce3193b44a834fa5f845a451626123cd55bf9",
+  "parents" : [ {
+    "sha" : "3f0dbada8f7416483c93845c96aa9ef597f5e9fe",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f0dbada8f7416483c93845c96aa9ef597f5e9fe",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3f0dbada8f7416483c93845c96aa9ef597f5e9fe"
+  } ]
+}

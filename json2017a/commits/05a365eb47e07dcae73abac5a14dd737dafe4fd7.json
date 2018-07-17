@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "14lihaoming",
+    "id" : 26020903,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26020903?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14lihaoming",
+    "html_url" : "https://github.com/14lihaoming",
+    "followers_url" : "https://api.github.com/users/14lihaoming/followers",
+    "following_url" : "https://api.github.com/users/14lihaoming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14lihaoming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14lihaoming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14lihaoming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14lihaoming/orgs",
+    "repos_url" : "https://api.github.com/users/14lihaoming/repos",
+    "events_url" : "https://api.github.com/users/14lihaoming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14lihaoming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 48,
+    "additions" : 48,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "14lihaoming",
+    "id" : 26020903,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26020903?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14lihaoming",
+    "html_url" : "https://github.com/14lihaoming",
+    "followers_url" : "https://api.github.com/users/14lihaoming/followers",
+    "following_url" : "https://api.github.com/users/14lihaoming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14lihaoming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14lihaoming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14lihaoming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14lihaoming/orgs",
+    "repos_url" : "https://api.github.com/users/14lihaoming/repos",
+    "events_url" : "https://api.github.com/users/14lihaoming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14lihaoming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+  "commit" : {
+    "author" : {
+      "name" : "14lihaoming",
+      "email" : "1015479190@qq.com",
+      "date" : "2017-05-28T12:04:52Z"
+    },
+    "committer" : {
+      "name" : "14lihaoming",
+      "email" : "1015479190@qq.com",
+      "date" : "2017-05-28T12:04:52Z"
+    },
+    "message" : "#5 #85 第五次作业",
+    "tree" : {
+      "sha" : "2ce55226c4407063c90e2aa827ab0ec2dff191c0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2ce55226c4407063c90e2aa827ab0ec2dff191c0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/05a365eb47e07dcae73abac5a14dd737dafe4fd7/comments",
+  "files" : [ {
+    "sha" : "897d8a991ef84c2ad8e9fa108c49f6421f39e392",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Net1414080903128CompareActivity.java",
+    "status" : "modified",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/05a365eb47e07dcae73abac5a14dd737dafe4fd7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Net1414080903128CompareActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/05a365eb47e07dcae73abac5a14dd737dafe4fd7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Net1414080903128CompareActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Net1414080903128CompareActivity.java?ref=05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+    "patch" : "@@ -10,6 +10,7 @@\n import android.widget.Button;\n import android.widget.EditText;\n import android.widget.TextView;\n+import android.widget.Toast;\n \n public class Net1414080903128CompareActivity extends AppCompatActivity {\n \n@@ -56,6 +57,15 @@ else if(currentGuess < mysteryNumber){\n                     guessStatus = \"恭喜你！你赢了！\";\n                     gameWon = true;\n                     endGame();\n+                    boolean isSaveSuccess=Utils.saveData(Net1414080903128CompareActivity.this,mysteryNumber,guessMade);\n+                    if(isSaveSuccess)\n+                    {\n+                        Toast.makeText(Net1414080903128CompareActivity.this,\"保存成功\",Toast.LENGTH_SHORT).show();\n+                    }\n+                    else\n+                    {\n+                        Toast.makeText(Net1414080903128CompareActivity.this, \"保存失败\", Toast.LENGTH_SHORT).show();\n+                    }\n                 }\n                 outputStringText.setText(guessStatus);\n             }"
+  }, {
+    "sha" : "5340a39b5bd07a6a9d3ed83d9f4adfa410da02a4",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Utils.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/05a365eb47e07dcae73abac5a14dd737dafe4fd7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Utils.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/05a365eb47e07dcae73abac5a14dd737dafe4fd7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Utils.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903128/Utils.java?ref=05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+    "patch" : "@@ -0,0 +1,38 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903128;\n+\n+import android.content.Context;\n+import android.content.SharedPreferences;\n+\n+import java.util.HashMap;\n+import java.util.Map;\n+\n+/**\n+ * Created by hzu on 2017/5/26.\n+ */\n+\n+public class Utils\n+{\n+    //保存游戏的次数和数字\n+    public  static boolean saveData(Context context, int mysteryNumber, int guessMade)\n+    {\n+        SharedPreferences sp=context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n+        SharedPreferences.Editor edit=sp.edit();\n+        edit.putInt(\"number\",mysteryNumber);\n+        edit.putInt(\"guess\",guessMade);\n+        edit.commit();\n+        return true;\n+    }\n+    //提取存储的数据\n+    public static Map<String,String> getData(Context context)\n+    {\n+        SharedPreferences sp=context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n+        String mysteryNumber=sp.getString(\"number\",null);\n+        String guessMade=sp.getString(\"guess\",null);\n+        Map<String,String> userMap=new HashMap<String,String>();\n+        userMap.put(\"mysteryNumber\",mysteryNumber);\n+        userMap.put(\"guessMade\",guessMade);\n+        return userMap;\n+    }\n+}\n+\n+"
+  } ],
+  "sha" : "05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+  "parents" : [ {
+    "sha" : "a85dd57197b81dff398a4307b78d7999aa47f9ef",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a85dd57197b81dff398a4307b78d7999aa47f9ef",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a85dd57197b81dff398a4307b78d7999aa47f9ef"
+  } ]
+}

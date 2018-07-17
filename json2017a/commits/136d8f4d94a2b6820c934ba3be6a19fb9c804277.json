@@ -1,0 +1,70 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 6,
+    "additions" : 6,
+    "deletions" : 0
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/136d8f4d94a2b6820c934ba3be6a19fb9c804277",
+  "commit" : {
+    "author" : {
+      "name" : "xiwu zhong",
+      "email" : "xiwu zhong",
+      "date" : "2017-05-11T11:59:36Z"
+    },
+    "committer" : {
+      "name" : "xiwu zhong",
+      "email" : "xiwu zhong",
+      "date" : "2017-05-11T11:59:36Z"
+    },
+    "message" : "#3 #90  第三次作业",
+    "tree" : {
+      "sha" : "ae46cd60a6183f5dea9b80db98b3b8f56b10f835",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ae46cd60a6183f5dea9b80db98b3b8f56b10f835"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/136d8f4d94a2b6820c934ba3be6a19fb9c804277",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/136d8f4d94a2b6820c934ba3be6a19fb9c804277/comments",
+  "files" : [ {
+    "sha" : "199302c08ae9a539ba21483d603e4e041a42380b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/136d8f4d94a2b6820c934ba3be6a19fb9c804277/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/136d8f4d94a2b6820c934ba3be6a19fb9c804277/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java?ref=136d8f4d94a2b6820c934ba3be6a19fb9c804277",
+    "patch" : "@@ -20,6 +20,7 @@\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903136);\n+        getWindow().setBackgroundDrawableResource(R.drawable.net1414080903136);\n         webView= (WebView) findViewById(R.id.webview);\n         et1= (EditText) findViewById(R.id.et1);\n         et2= (EditText) findViewById(R.id.et2);"
+  }, {
+    "sha" : "828ddc4ba585c0ae7287efc3711e7fed2bae65df",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903136.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/136d8f4d94a2b6820c934ba3be6a19fb9c804277/AndroidLabs/app/src/main/res/drawable/net1414080903136.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/136d8f4d94a2b6820c934ba3be6a19fb9c804277/AndroidLabs/app/src/main/res/drawable/net1414080903136.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903136.png?ref=136d8f4d94a2b6820c934ba3be6a19fb9c804277"
+  }, {
+    "sha" : "812d1c585be829dbcfc02ec8a104717bf9ea11f7",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903136.xml",
+    "status" : "modified",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/136d8f4d94a2b6820c934ba3be6a19fb9c804277/AndroidLabs/app/src/main/res/layout/activity_net1414080903136.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/136d8f4d94a2b6820c934ba3be6a19fb9c804277/AndroidLabs/app/src/main/res/layout/activity_net1414080903136.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903136.xml?ref=136d8f4d94a2b6820c934ba3be6a19fb9c804277",
+    "patch" : "@@ -32,4 +32,9 @@\n         android:id=\"@+id/webview\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"match_parent\"></WebView>\n+    <ImageView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:src=\"@drawable/net1414080903136\"\n+        ></ImageView>\n </LinearLayout>"
+  } ],
+  "sha" : "136d8f4d94a2b6820c934ba3be6a19fb9c804277",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/136d8f4d94a2b6820c934ba3be6a19fb9c804277",
+  "parents" : [ {
+    "sha" : "4dc12571877d982dc1ba6e898e8d54ac61bbc189",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4dc12571877d982dc1ba6e898e8d54ac61bbc189",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4dc12571877d982dc1ba6e898e8d54ac61bbc189"
+  } ]
+}

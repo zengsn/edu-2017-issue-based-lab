@@ -1,0 +1,136 @@
+{
+  "committer" : {
+    "login" : "hizzj",
+    "id" : 19361617,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/19361617?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hizzj",
+    "html_url" : "https://github.com/hizzj",
+    "followers_url" : "https://api.github.com/users/hizzj/followers",
+    "following_url" : "https://api.github.com/users/hizzj/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hizzj/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hizzj/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hizzj/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hizzj/orgs",
+    "repos_url" : "https://api.github.com/users/hizzj/repos",
+    "events_url" : "https://api.github.com/users/hizzj/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hizzj/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 17,
+    "additions" : 14,
+    "deletions" : 3
+  },
+  "author" : {
+    "login" : "hizzj",
+    "id" : 19361617,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/19361617?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hizzj",
+    "html_url" : "https://github.com/hizzj",
+    "followers_url" : "https://api.github.com/users/hizzj/followers",
+    "following_url" : "https://api.github.com/users/hizzj/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hizzj/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hizzj/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hizzj/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hizzj/orgs",
+    "repos_url" : "https://api.github.com/users/hizzj/repos",
+    "events_url" : "https://api.github.com/users/hizzj/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hizzj/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5d35dba44d793c4437bb37ba13aca76660ea47ca",
+  "commit" : {
+    "author" : {
+      "name" : "hizzj",
+      "email" : "1014779513@qq.com",
+      "date" : "2017-05-11T10:07:52Z"
+    },
+    "committer" : {
+      "name" : "hizzj",
+      "email" : "1014779513@qq.com",
+      "date" : "2017-05-11T10:07:52Z"
+    },
+    "message" : "#3 #36 第三次作业",
+    "tree" : {
+      "sha" : "beca17d19d72d6b3e26c8f6d7fd96c3922a314a9",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/beca17d19d72d6b3e26c8f6d7fd96c3922a314a9"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5d35dba44d793c4437bb37ba13aca76660ea47ca",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5d35dba44d793c4437bb37ba13aca76660ea47ca/comments",
+  "files" : [ {
+    "sha" : "68913c1639c7923f39cd3667be1df2064f6501c5",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/btn_style_normal.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/btn_style_normal.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/btn_style_normal.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/btn_style_normal.png?ref=5d35dba44d793c4437bb37ba13aca76660ea47ca"
+  }, {
+    "sha" : "09bdc02202e5e3d61c2d9bb0d1bf8fb763b81d98",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/btn_style_pressed.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/btn_style_pressed.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/btn_style_pressed.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/btn_style_pressed.png?ref=5d35dba44d793c4437bb37ba13aca76660ea47ca"
+  }, {
+    "sha" : "451119225faaf4903ee65729fc4563eb15bd6f4f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903110_login_button_bg.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/net1414080903110_login_button_bg.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/net1414080903110_login_button_bg.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903110_login_button_bg.xml?ref=5d35dba44d793c4437bb37ba13aca76660ea47ca",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_pressed=\"true\"  android:drawable=\"@drawable/btn_style_pressed\"></item> <!--按钮点击之后的效果图-->\n+    <item android:drawable=\"@drawable/btn_style_normal\"></item> <!--未点击的效果图-->\n+</selector>\n+  \n\\ No newline at end of file"
+  }, {
+    "sha" : "afa298d828b36e709e58d4415153949a9e701c3c",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/password.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/password.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/password.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/password.png?ref=5d35dba44d793c4437bb37ba13aca76660ea47ca"
+  }, {
+    "sha" : "7748ed71ed647d2f05690feb6c9f5caa84ede036",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/user.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/user.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/drawable/user.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/user.png?ref=5d35dba44d793c4437bb37ba13aca76660ea47ca"
+  }, {
+    "sha" : "1e5910aa9726f51be808e9311cb56f4c170ab276",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 3,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5d35dba44d793c4437bb37ba13aca76660ea47ca/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903110_login.xml?ref=5d35dba44d793c4437bb37ba13aca76660ea47ca",
+    "patch" : "@@ -4,9 +4,10 @@\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\">\n \n-\t<!--用户登录界面-->\n+\t<!--通过login_button_bg.xml给按钮设置背景-->\n     <Button\n         android:id=\"@+id/login\"\n+        android:background=\"@drawable/net1414080903110_login_button_bg\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:textSize=\"18sp\"\n@@ -16,20 +17,24 @@\n         android:layout_below=\"@+id/password\"\n         android:layout_alignParentLeft=\"true\"\n         android:layout_alignParentStart=\"true\" />\n-\n+\t\t\n+   <!--给用户名输入框添加图片-->\n     <EditText\n         android:id=\"@+id/password\"\n         android:layout_marginTop=\"22dp\"\n+        android:drawableLeft=\"@drawable/password\"\n         android:hint=\"输入密码\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:layout_below=\"@+id/username\"\n         android:layout_alignParentLeft=\"true\"\n         android:layout_alignParentStart=\"true\" />\n-\n+\t\t\n+  <!--给密码输入框添加图片-->\n     <EditText\n         android:id=\"@+id/username\"\n         android:layout_marginTop=\"102dp\"\n+        android:drawableLeft=\"@drawable/user\"\n         android:hint=\"输入用户名\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\""
+  } ],
+  "sha" : "5d35dba44d793c4437bb37ba13aca76660ea47ca",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5d35dba44d793c4437bb37ba13aca76660ea47ca",
+  "parents" : [ {
+    "sha" : "848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/848d80e2fb13b6f84ebe02174545edeba214aae0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/848d80e2fb13b6f84ebe02174545edeba214aae0"
+  } ]
+}

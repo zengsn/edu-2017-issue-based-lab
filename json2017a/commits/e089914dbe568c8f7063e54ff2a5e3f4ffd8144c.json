@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 92,
+    "additions" : 92,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T07:55:36Z"
+    },
+    "committer" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T07:55:36Z"
+    },
+    "message" : "#6 #39 第六次作业",
+    "tree" : {
+      "sha" : "d96e92c9aa84bb011fcac7d1587db3f302717da1",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/d96e92c9aa84bb011fcac7d1587db3f302717da1"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/comments",
+  "files" : [ {
+    "sha" : "cd8461a451969e4e68c4866f8fcd30144e81fca3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222_JsonActivity.java",
+    "status" : "added",
+    "additions" : 72,
+    "deletions" : 0,
+    "changes" : 72,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222_JsonActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222_JsonActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222_JsonActivity.java?ref=e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "patch" : "@@ -0,0 +1,72 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903110;\n+\n+import android.os.Bundle;\n+import android.os.Handler;\n+import android.support.v7.app.AppCompatActivity;\n+import android.widget.TextView;\n+\n+import org.json.JSONArray;\n+import org.json.JSONObject;\n+\n+import edu.hzuapps.androidlabs.R;\n+import okhttp3.OkHttpClient;\n+import okhttp3.Request;\n+import okhttp3.Response;\n+\n+/*抓取并解析json文件*/\n+public class Net1414080903110_AnalysisJsonActivity extends AppCompatActivity {\n+    private String grade;\n+    private String name;\n+    private String number;\n+    private TextView GithubResponse;\n+    private Handler handler = null;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1409081602222json);\n+        handler = new Handler();\n+        GithubResponse = (TextView) findViewById(R.id.response_info);\n+        sendRequest();\n+    }\n+\n+    private void sendRequest() {\n+        new Thread(){\n+            @Override\n+            public void run() {\n+                try {\n+                    OkHttpClient client = new OkHttpClient();\n+                    Request request = new Request.Builder().url(\"https://raw.githubusercontent.com/pengliangjun/android-labs-2017/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/stu_info.json\").build();//目标地址\n+                    Response response = client.newCall(request).execute();\n+                    String responseData = response.body().string();\n+                    AnalysisJson(responseData);\n+                } catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+                handler.post(runnableUi);\n+            }\n+        }.start();\n+    }\n+\t\n+    /*解析json文件*/\n+    private void AnalysisJson(String jsonData) {\n+        try {\n+            JSONArray jsonArray = new JSONArray(jsonData);\n+            for (int i = 0; i < jsonArray.length(); i++) {\n+                JSONObject jsonObject = jsonArray.getJSONObject(i);\n+                grade = jsonObject.getString(\"grade\");\n+                name = jsonObject.getString(\"name\");\n+                number = jsonObject.getString(\"number\");\n+            }\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+    }\n+\t\n+/*更新UI*/\n+    Runnable runnableUi = new Runnable() { \n+        public void run() {\n+            GithubResponse.setText(\"班级: \" + grade + \"\\n\" + \"\\n\" + \"姓名: \" + name + \"\\n\" + \"\\n\" + \"学号: \" + number + \"\\n\" + \"\\n\");//显示解析结果\n+        }\n+    };\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "6c6797fb417f4905bb0b947d174ad4aef104c776",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/stu_info.json",
+    "status" : "added",
+    "additions" : 2,
+    "deletions" : 0,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/stu_info.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/stu_info.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/stu_info.json?ref=e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "patch" : "@@ -0,0 +1,2 @@\n+[{\"grade\":\"14网络1班\",\"name\":\"彭亮钧\",\"number\":\"1409081602222\"}]\n+//requestWindowFeature(Window.FEATURE_NO_TITLE);  //去掉标题\n\\ No newline at end of file"
+  }, {
+    "sha" : "36b6ad3a1039ce299d7857a5345a7399da0fbf39",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1409081602222_json.xml",
+    "status" : "added",
+    "additions" : 18,
+    "deletions" : 0,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/AndroidLabs/app/src/main/res/layout/activity_net1409081602222_json.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/AndroidLabs/app/src/main/res/layout/activity_net1409081602222_json.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1409081602222_json.xml?ref=e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "patch" : "@@ -0,0 +1,18 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903137_json\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137JsonActivity\">\n+\n+    <TextView\n+        android:text=\"\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/GithubResponse\" />\n+</RelativeLayout>"
+  } ],
+  "sha" : "e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+  "parents" : [ {
+    "sha" : "cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cc483ad19fedb4b4736749891e0f360cbc1c5969"
+  } ]
+}

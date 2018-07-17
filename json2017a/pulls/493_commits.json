@@ -1,0 +1,68 @@
+[ {
+  "sha" : "c008f19a843f800f0ffd04f7ffdd7801489f832a",
+  "commit" : {
+    "author" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-19T13:05:04Z"
+    },
+    "committer" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-19T13:05:04Z"
+    },
+    "message" : "#6 #178 第六次作业",
+    "tree" : {
+      "sha" : "bc6bf46bcf9c1b88a8984658082e4156a72afc99",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/bc6bf46bcf9c1b88a8984658082e4156a72afc99"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c008f19a843f800f0ffd04f7ffdd7801489f832a",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c008f19a843f800f0ffd04f7ffdd7801489f832a",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c008f19a843f800f0ffd04f7ffdd7801489f832a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c008f19a843f800f0ffd04f7ffdd7801489f832a/comments",
+  "author" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/03469b58073e59f4a5e362d8f9fab7a8bff7778f",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/03469b58073e59f4a5e362d8f9fab7a8bff7778f"
+  } ]
+} ]

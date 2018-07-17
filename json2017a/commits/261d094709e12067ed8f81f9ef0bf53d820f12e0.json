@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "ZGH1780",
+    "id" : 24536868,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/24536868?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ZGH1780",
+    "html_url" : "https://github.com/ZGH1780",
+    "followers_url" : "https://api.github.com/users/ZGH1780/followers",
+    "following_url" : "https://api.github.com/users/ZGH1780/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ZGH1780/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ZGH1780/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ZGH1780/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ZGH1780/orgs",
+    "repos_url" : "https://api.github.com/users/ZGH1780/repos",
+    "events_url" : "https://api.github.com/users/ZGH1780/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ZGH1780/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "ZGH1780",
+    "id" : 24536868,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/24536868?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ZGH1780",
+    "html_url" : "https://github.com/ZGH1780",
+    "followers_url" : "https://api.github.com/users/ZGH1780/followers",
+    "following_url" : "https://api.github.com/users/ZGH1780/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ZGH1780/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ZGH1780/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ZGH1780/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ZGH1780/orgs",
+    "repos_url" : "https://api.github.com/users/ZGH1780/repos",
+    "events_url" : "https://api.github.com/users/ZGH1780/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ZGH1780/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/261d094709e12067ed8f81f9ef0bf53d820f12e0",
+  "commit" : {
+    "author" : {
+      "name" : "ZGH1780",
+      "email" : "178051624@qq.com",
+      "date" : "2017-06-15T04:03:57Z"
+    },
+    "committer" : {
+      "name" : "ZGH1780",
+      "email" : "178051624@qq.com",
+      "date" : "2017-06-15T04:03:57Z"
+    },
+    "message" : "#6 #48 第6次实验",
+    "tree" : {
+      "sha" : "1d65b02001d57a9bf13a66fc917b189af34c4324",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1d65b02001d57a9bf13a66fc917b189af34c4324"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/261d094709e12067ed8f81f9ef0bf53d820f12e0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/261d094709e12067ed8f81f9ef0bf53d820f12e0/comments",
+  "files" : [ {
+    "sha" : "450686a8009313d5155a0b12f808c9576303e4dd",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/261d094709e12067ed8f81f9ef0bf53d820f12e0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/261d094709e12067ed8f81f9ef0bf53d820f12e0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java?ref=261d094709e12067ed8f81f9ef0bf53d820f12e0",
+    "patch" : "@@ -1,4 +1,4 @@\n-package homeworks.androidlabs.hzuapps.edu.net141408090323;\n+﻿package homeworks.androidlabs.hzuapps.edu.net1414080903232;\n \n import android.content.Intent;\n import android.os.Handler;"
+  } ],
+  "sha" : "261d094709e12067ed8f81f9ef0bf53d820f12e0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/261d094709e12067ed8f81f9ef0bf53d820f12e0",
+  "parents" : [ {
+    "sha" : "78c6e54a27b5b6c20c18567911f7ffcecd697b1f",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/78c6e54a27b5b6c20c18567911f7ffcecd697b1f",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/78c6e54a27b5b6c20c18567911f7ffcecd697b1f"
+  } ]
+}

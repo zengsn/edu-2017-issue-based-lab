@@ -1,0 +1,273 @@
+[ {
+  "sha" : "b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T08:52:24Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-03-03T08:52:24Z"
+    },
+    "message" : "Merge pull request #1 from hzuapps/master\n\n实验包",
+    "tree" : {
+      "sha" : "348aac5cd4a7bcb7b7a766a96d3baf2cca502bcb",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/348aac5cd4a7bcb7b7a766a96d3baf2cca502bcb"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7/comments",
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2253a7dedaf35ded0df1fe7f46175b13505f3036"
+  }, {
+    "sha" : "9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9f5014e28f846b0ee9c9eeb6c0262b2887835719"
+  } ]
+}, {
+  "sha" : "36fe747e3e074d51b3704e8a44d654b2b4ed7d79",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T12:25:42Z"
+    },
+    "committer" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T12:25:42Z"
+    },
+    "message" : "#1 #03 第一次作业",
+    "tree" : {
+      "sha" : "f458807b28b15d58135802a63593f97f05de320c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f458807b28b15d58135802a63593f97f05de320c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/36fe747e3e074d51b3704e8a44d654b2b4ed7d79",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/36fe747e3e074d51b3704e8a44d654b2b4ed7d79",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/36fe747e3e074d51b3704e8a44d654b2b4ed7d79",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/36fe747e3e074d51b3704e8a44d654b2b4ed7d79/comments",
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b5288c578bfec8d1e00b2cb32a0ccecb9337d9b7"
+  } ]
+}, {
+  "sha" : "1c83a3207eaf7af33302203cedaa0c8a719725a0",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T12:30:48Z"
+    },
+    "committer" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T12:30:48Z"
+    },
+    "message" : "#1 #03 第一次作业",
+    "tree" : {
+      "sha" : "1497d033efadf07806806ca3a8d51f1f25427944",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1497d033efadf07806806ca3a8d51f1f25427944"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1c83a3207eaf7af33302203cedaa0c8a719725a0",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1c83a3207eaf7af33302203cedaa0c8a719725a0",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1c83a3207eaf7af33302203cedaa0c8a719725a0",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1c83a3207eaf7af33302203cedaa0c8a719725a0/comments",
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "36fe747e3e074d51b3704e8a44d654b2b4ed7d79",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/36fe747e3e074d51b3704e8a44d654b2b4ed7d79",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/36fe747e3e074d51b3704e8a44d654b2b4ed7d79"
+  } ]
+}, {
+  "sha" : "1aeb024d90e08846f0683d3549e2c620ebad8171",
+  "commit" : {
+    "author" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T13:36:58Z"
+    },
+    "committer" : {
+      "name" : "Paynehe",
+      "email" : "573769918@qq.com",
+      "date" : "2017-03-03T13:36:58Z"
+    },
+    "message" : "#1 #66 第一次作业",
+    "tree" : {
+      "sha" : "45cf36602242f560b8ba443b2924cf3fb722965e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/45cf36602242f560b8ba443b2924cf3fb722965e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1aeb024d90e08846f0683d3549e2c620ebad8171",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1aeb024d90e08846f0683d3549e2c620ebad8171",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1aeb024d90e08846f0683d3549e2c620ebad8171",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1aeb024d90e08846f0683d3549e2c620ebad8171/comments",
+  "author" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Paynehe",
+    "id" : 26102143,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26102143?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Paynehe",
+    "html_url" : "https://github.com/Paynehe",
+    "followers_url" : "https://api.github.com/users/Paynehe/followers",
+    "following_url" : "https://api.github.com/users/Paynehe/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Paynehe/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Paynehe/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Paynehe/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Paynehe/orgs",
+    "repos_url" : "https://api.github.com/users/Paynehe/repos",
+    "events_url" : "https://api.github.com/users/Paynehe/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Paynehe/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1c83a3207eaf7af33302203cedaa0c8a719725a0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1c83a3207eaf7af33302203cedaa0c8a719725a0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1c83a3207eaf7af33302203cedaa0c8a719725a0"
+  } ]
+} ]

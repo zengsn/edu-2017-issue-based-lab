@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "ZGH1780",
+    "id" : 24536868,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/24536868?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ZGH1780",
+    "html_url" : "https://github.com/ZGH1780",
+    "followers_url" : "https://api.github.com/users/ZGH1780/followers",
+    "following_url" : "https://api.github.com/users/ZGH1780/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ZGH1780/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ZGH1780/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ZGH1780/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ZGH1780/orgs",
+    "repos_url" : "https://api.github.com/users/ZGH1780/repos",
+    "events_url" : "https://api.github.com/users/ZGH1780/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ZGH1780/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 140,
+    "additions" : 133,
+    "deletions" : 7
+  },
+  "author" : {
+    "login" : "ZGH1780",
+    "id" : 24536868,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/24536868?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ZGH1780",
+    "html_url" : "https://github.com/ZGH1780",
+    "followers_url" : "https://api.github.com/users/ZGH1780/followers",
+    "following_url" : "https://api.github.com/users/ZGH1780/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ZGH1780/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ZGH1780/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ZGH1780/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ZGH1780/orgs",
+    "repos_url" : "https://api.github.com/users/ZGH1780/repos",
+    "events_url" : "https://api.github.com/users/ZGH1780/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ZGH1780/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+  "commit" : {
+    "author" : {
+      "name" : "ZGH1780",
+      "email" : "178051624@qq.com",
+      "date" : "2017-06-12T09:21:48Z"
+    },
+    "committer" : {
+      "name" : "ZGH1780",
+      "email" : "178051624@qq.com",
+      "date" : "2017-06-12T09:21:48Z"
+    },
+    "message" : "#6 #48 第6次实验",
+    "tree" : {
+      "sha" : "308da993e481a3ec7cc36a66ebe48de339934b9f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/308da993e481a3ec7cc36a66ebe48de339934b9f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8c1e21810f59e2d43c0243a03234fdd922c4ae75/comments",
+  "files" : [ {
+    "sha" : "43c88422d51e366a59ad7a091d86c129f1c6e136",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java",
+    "status" : "modified",
+    "additions" : 93,
+    "deletions" : 0,
+    "changes" : 93,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8c1e21810f59e2d43c0243a03234fdd922c4ae75/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8c1e21810f59e2d43c0243a03234fdd922c4ae75/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903232/MainActivity.java?ref=8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+    "patch" : "@@ -1,12 +1,23 @@\n package homeworks.androidlabs.hzuapps.edu.net141408090323;\n \n import android.content.Intent;\n+import android.os.Handler;\n+import android.os.Message;\n+import android.support.v4.text.TextUtilsCompat;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.text.TextUtils;\n import android.view.View;\n import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.TextView;\n+import android.widget.Toast;\n \n \n+import java.io.InputStream;\n+import java.net.HttpRetryException;\n+import java.net.HttpURLConnection;\n+import java.net.URL;\n import java.util.List;\n \n import homeworks.androidlabs.hzuapps.edu.net141408090323.cn.itcast.domain.ItemInfo;\n@@ -17,6 +28,21 @@\n     private Button button;\n     private List<ItemInfo> list;\n     private AccountDao dao;\n+    private Button button2;//用于实验6\n+    private EditText et_path;//用于实验6（解析时需要的路径）\n+    private TextView tv;//用于实验6（解析得到的内容显示在tv上）\n+    private static final int CHANGE_UI=1;//用于实验6\n+    private static final int ERROR=2;//用于实验6\n+    private Handler handler=new Handler(){//用于实验6\n+        public void handleMessage(android.os.Message msg){\n+            if(msg.what==CHANGE_UI){\n+                String context=(String)msg.obj;\n+                tv.setText(context);\n+            }else if(msg.what==ERROR){\n+                Toast.makeText(MainActivity.this,\"错误\",0).show();\n+            }\n+        }\n+    };\n     /**\n      * ATTENTION: This was auto-generated to implement the App Indexing API.\n      * See https://g.co/AppIndexing/AndroidStudio for more information.\n@@ -31,11 +57,20 @@ protected void onCreate(Bundle savedInstanceState) {\n         dao=new AccountDao(this);// 有这条语句dao.insert(itemInfo);没有dao=new AccountDao(this);语句的话，将提示错误：空对象尝试去调用虚函数insert()\n \n         button = (Button) findViewById(R.id.button);\n+        button2 = (Button) findViewById(R.id.button2);//用于实验6\n+        tv=(TextView)findViewById(R.id.textView1111);//用于实验6\n+        et_path=(EditText) findViewById(R.id.editText);//用于实验6\n         button.setOnClickListener(new View.OnClickListener() {\n             public void onClick(View v) {\n                 passDate();\n             }\n         });\n+        //用于实验6\n+        button2.setOnClickListener(new View.OnClickListener() {\n+            public void onClick(View v) {\n+               a();\n+            }\n+        });\n     }\n     public void passDate(){\n         ItemInfo itemInfo;\n@@ -53,6 +88,64 @@ public void passDate(){\n         intent.putExtra(\"time\", itemInfo.getTime());\n         startActivity(intent);\n     }\n+    public void a()\n+    {\n+        final String path=et_path.getText().toString().trim();\n+        if (TextUtils.isEmpty(path)){\n+            Toast.makeText(this,\"路径不能为空\",0).show();\n+        }else {\n+            new Thread(){\n+                private HttpURLConnection conn;\n+                public void run(){\n+                    try{\n+                        URL url=new URL(path);\n+                        conn=( HttpURLConnection) url.openConnection();\n+                        conn.setRequestMethod(\"GET\");\n+                        conn.setConnectTimeout(5000);\n+                        conn.setRequestProperty(\"User-Agent\",\"Mozilla/4.0(compatible;MSIE 6.0;Windows NT 5.1;\"+\"SV1;.NET4.0C;.NET4.0E;.NET CLR 2.0.50727;\"+\".NET CLR 3.0.4506.2152;.NET CLR 3.5.30729;Shuame)\");\n+                        int code=conn.getResponseCode();\n+                        if(code==200){\n+                            InputStream is=conn.getInputStream();\n+                            Message msg=new Message();\n+                            String ss=b(is);\n+                            msg.obj=ss;\n+                            msg.what=CHANGE_UI;\n+                            handler.sendMessage(msg);\n+\n+                        }else{\n+                            Message msg=new Message();\n+                            msg.what=ERROR;\n+                            handler.sendMessage(msg);\n+                        }\n+                    }catch(Exception e){\n+                        e.printStackTrace();\n+                        Message msg=new Message();\n+                        msg.what=ERROR;\n+                        handler.sendMessage(msg);\n+                    }\n+                };\n+            }.start();\n+\n+        }\n+\n+    }\n+    public String b(InputStream c) {\n+        try {\n+\n+            byte[] buf = new byte[1024];\n+            StringBuilder stringBuilder = new StringBuilder();\n+            String text;\n+            int len;\n+            while ((len = c.read(buf)) != -1) {\n+                text = new String(buf,0,len);\n+                stringBuilder.append(text);\n+            }\n+            return stringBuilder.toString();\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+        return \"\";\n+    }\n }\n \n "
+  }, {
+    "sha" : "5b7b5977a4f05323627d170d21b44a670409bd24",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_lujin_net1414080903232.xml",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8c1e21810f59e2d43c0243a03234fdd922c4ae75/AndroidLabs/app/src/main/res/layout/activity_lujin_net1414080903232.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8c1e21810f59e2d43c0243a03234fdd922c4ae75/AndroidLabs/app/src/main/res/layout/activity_lujin_net1414080903232.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_lujin_net1414080903232.xml?ref=8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+    "patch" : "@@ -0,0 +1 @@\n+this is the test !!!\n\\ No newline at end of file"
+  }, {
+    "sha" : "3f03a21a7ed43ed89fcebcaae83b458486fa5321",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml",
+    "status" : "modified",
+    "additions" : 39,
+    "deletions" : 7,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8c1e21810f59e2d43c0243a03234fdd922c4ae75/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8c1e21810f59e2d43c0243a03234fdd922c4ae75/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903232.xml?ref=8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+    "patch" : "@@ -21,23 +21,55 @@\n         android:layout_marginTop=\"30dp\"\n         android:id=\"@+id/textView2\" />\n \n+    <ImageView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        app:srcCompat=\"@drawable/tu\"\n+        android:id=\"@+id/imageView\"\n+        android:layout_alignBottom=\"@+id/button\"\n+        android:layout_alignParentRight=\"true\"\n+        android:layout_alignParentEnd=\"true\" />\n+\n     <Button\n         android:text=\"查看订单\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:layout_marginTop=\"37dp\"\n+        android:layout_marginTop=\"36dp\"\n         android:id=\"@+id/button\"\n         android:layout_below=\"@+id/textView2\"\n         android:layout_alignParentLeft=\"true\"\n         android:layout_alignParentStart=\"true\" />\n \n-    <ImageView\n+    <Button\n+        android:text=\"解析xml\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        app:srcCompat=\"@drawable/tu\"\n-        android:id=\"@+id/imageView\"\n-        android:layout_alignBottom=\"@+id/button\"\n-        android:layout_alignParentRight=\"true\"\n-        android:layout_alignParentEnd=\"true\" />\n+        android:layout_marginTop=\"148dp\"\n+        android:id=\"@+id/button2\"\n+        android:layout_below=\"@+id/button\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n+\n+    <TextView\n+        android:text=\"\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/button2\"\n+        android:layout_alignRight=\"@+id/textView2\"\n+        android:layout_alignEnd=\"@+id/textView2\"\n+        android:layout_marginTop=\"57dp\"\n+        android:id=\"@+id/textView1111\" />\n+\n+    <EditText\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:inputType=\"textPersonName\"\n+        android:text=\"请输入xml的所在路径\"\n+        android:ems=\"10\"\n+        android:layout_marginBottom=\"44dp\"\n+        android:id=\"@+id/editText\"\n+        android:layout_above=\"@+id/textView1111\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n \n </RelativeLayout>"
+  } ],
+  "sha" : "8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8c1e21810f59e2d43c0243a03234fdd922c4ae75",
+  "parents" : [ {
+    "sha" : "f9c7a4a1f038dc505ce9d36bb87840dc404a8945",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f9c7a4a1f038dc505ce9d36bb87840dc404a8945",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f9c7a4a1f038dc505ce9d36bb87840dc404a8945"
+  } ]
+}

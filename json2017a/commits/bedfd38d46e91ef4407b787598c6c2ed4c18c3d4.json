@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 32,
+    "additions" : 32,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4",
+  "commit" : {
+    "author" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-03-05T02:28:15Z"
+    },
+    "committer" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-03-05T02:28:15Z"
+    },
+    "message" : "#1412070501227 #1 第一次作业",
+    "tree" : {
+      "sha" : "f96aa0ec3dfa00ebf8cd7265288a88438b16fc3b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f96aa0ec3dfa00ebf8cd7265288a88438b16fc3b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4/comments",
+  "files" : [ {
+    "sha" : "952bf5ce550b2c746ff582b1b4132773b376816b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homework/Net1412070501227Activity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homework/Net1412070501227Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homework/Net1412070501227Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homework/Net1412070501227Activity.java?ref=bedfd38d46e91ef4407b787598c6c2ed4c18c3d4",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homworks.net1412070501227;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1412070501227Activity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1412070501227);\n+    }\n+}"
+  }, {
+    "sha" : "cf68ed7c95c281fc4056ec08cfab94f3558fbba5",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1412070501227.xml",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4/AndroidLabs/app/src/main/res/layout/activity_net1412070501227.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4/AndroidLabs/app/src/main/res/layout/activity_net1412070501227.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1412070501227.xml?ref=bedfd38d46e91ef4407b787598c6c2ed4c18c3d4",
+    "patch" : "@@ -0,0 +1,17 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1412070501227\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homworks.net1412070501227.Net1412070501227Activity\">\n+\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Hello World!\" />\n+</RelativeLayout>"
+  } ],
+  "sha" : "bedfd38d46e91ef4407b787598c6c2ed4c18c3d4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bedfd38d46e91ef4407b787598c6c2ed4c18c3d4",
+  "parents" : [ {
+    "sha" : "2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2253a7dedaf35ded0df1fe7f46175b13505f3036"
+  } ]
+}

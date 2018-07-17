@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 101,
+    "additions" : 101,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bfeafb8d9642501cc4f863945d166dc457bf052a",
+  "commit" : {
+    "author" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-06-03T13:33:36Z"
+    },
+    "committer" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-06-03T13:33:36Z"
+    },
+    "message" : "#6 #27 第六次实验",
+    "tree" : {
+      "sha" : "3ab98239448e27f137d98aa8b2285267a754e9b6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/3ab98239448e27f137d98aa8b2285267a754e9b6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/bfeafb8d9642501cc4f863945d166dc457bf052a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bfeafb8d9642501cc4f863945d166dc457bf052a/comments",
+  "files" : [ {
+    "sha" : "a5fcfbdd39d392d4edf681c49a6362853f7567d7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/SecondFragment1414080903222.java",
+    "status" : "added",
+    "additions" : 75,
+    "deletions" : 0,
+    "changes" : 75,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bfeafb8d9642501cc4f863945d166dc457bf052a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/SecondFragment1414080903222.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bfeafb8d9642501cc4f863945d166dc457bf052a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/SecondFragment1414080903222.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/SecondFragment1414080903222.java?ref=bfeafb8d9642501cc4f863945d166dc457bf052a",
+    "patch" : "@@ -0,0 +1,75 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903222;\n+\n+import android.os.Bundle;\n+import android.os.Handler;\n+import android.app.Fragment;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.*;\n+import java.io.IOException;\n+\n+import org.jsoup.Jsoup;\n+import org.jsoup.nodes.Document;\n+import org.jsoup.nodes.Element;\n+import org.jsoup.select.Elements;\n+\n+\n+public class SecondFragment1414080903222 extends Fragment {\n+\n+    TextView text;\n+    private Handler handler=null;\n+    private TextView textView=null;\n+    private String da=\"\";\n+\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        View view = inflater.inflate(R.layout.second_fragment1414080903222, container, false);\n+        handler=new Handler();\n+\n+        Button button = (Button) view.findViewById(R.id.button2);\n+        text=(TextView) view.findViewById(R.id.user_content);\n+        textView = (TextView) view.findViewById(R.id.user_content);\n+        button.setOnClickListener(new submitOnClieckListener());\n+\n+        return view;\n+    }\n+\n+    class submitOnClieckListener implements View.OnClickListener {\n+        @Override\n+        public void onClick(View v) {\n+            //从github上抓取数据\n+            new Thread(){\n+                public void run(){\n+                    try {\n+\n+                        Document doc = Jsoup.connect(\"https://github.com/AmoTF/android-labs-2017/blob/master/AndroidLabs/app/src/main/res/layout/data_1414080903222.xml\").get();\n+                        int i = 1;\n+                        Elements data = doc.select(\"#LC\"+i);\n+                        while(!data.isEmpty()){\n+                            da += data.text();\n+                            i++;\n+                            data = doc.select(\"#LC\"+i);\n+                        }\n+                    }catch(IOException e){\n+                        System.out.println(\"in procedure, catch ArithmeticException: \" + e);\n+                    }\n+\n+                    handler.post(runnableUi);\n+                }\n+            }.start();\n+        }\n+\n+    }\n+\n+    Runnable   runnableUi=new  Runnable(){\n+        @Override\n+        public void run() {\n+            //更新界面\n+            textView.setText(da);\n+        }\n+\n+    };\n+}\n+\n+\n+"
+  }, {
+    "sha" : "c0dc4e9b50cff8efed8357195d173031842beb29",
+    "filename" : "AndroidLabs/app/src/main/res/layout/second_fragment1414080903222.xml",
+    "status" : "added",
+    "additions" : 26,
+    "deletions" : 0,
+    "changes" : 26,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/bfeafb8d9642501cc4f863945d166dc457bf052a/AndroidLabs/app/src/main/res/layout/second_fragment1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/bfeafb8d9642501cc4f863945d166dc457bf052a/AndroidLabs/app/src/main/res/layout/second_fragment1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/second_fragment1414080903222.xml?ref=bfeafb8d9642501cc4f863945d166dc457bf052a",
+    "patch" : "@@ -0,0 +1,26 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:orientation=\"vertical\"\n+        android:id=\"@+id/user\">\n+\n+        <TextView\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"\"\n+            android:textSize=\"30sp\"\n+            android:id=\"@+id/user_content\" />\n+\n+        <Button\n+            android:text=\"网络编程测试\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/button2\" />\n+    </LinearLayout>\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "bfeafb8d9642501cc4f863945d166dc457bf052a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bfeafb8d9642501cc4f863945d166dc457bf052a",
+  "parents" : [ {
+    "sha" : "bc0c5ee2d1c939fca873b288f26d7ca97c0055c1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bc0c5ee2d1c939fca873b288f26d7ca97c0055c1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bc0c5ee2d1c939fca873b288f26d7ca97c0055c1"
+  } ]
+}

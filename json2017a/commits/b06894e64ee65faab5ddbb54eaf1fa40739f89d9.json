@@ -1,0 +1,106 @@
+{
+  "committer" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 18,
+    "additions" : 17,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b06894e64ee65faab5ddbb54eaf1fa40739f89d9",
+  "commit" : {
+    "author" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-05-10T05:35:01Z"
+    },
+    "committer" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-05-10T05:35:01Z"
+    },
+    "message" : "#3 #63 第三次作业",
+    "tree" : {
+      "sha" : "4a0140347793eebe36dd17a8b0ff3b8042cea8aa",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4a0140347793eebe36dd17a8b0ff3b8042cea8aa"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b06894e64ee65faab5ddbb54eaf1fa40739f89d9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/comments",
+  "files" : [ {
+    "sha" : "297b84df4ca6271a69e5dfdd6fc233d9b4d78c58",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/peng.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/AndroidLabs/app/src/main/res/drawable/peng.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/AndroidLabs/app/src/main/res/drawable/peng.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/peng.jpg?ref=b06894e64ee65faab5ddbb54eaf1fa40739f89d9"
+  }, {
+    "sha" : "dfc5f0fe7804c2cff3fd9e36a02d45aed1f2fd42",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml",
+    "status" : "modified",
+    "additions" : 13,
+    "deletions" : 1,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903224_internet.xml?ref=b06894e64ee65faab5ddbb54eaf1fa40739f89d9",
+    "patch" : "@@ -9,7 +9,7 @@\n         android:layout_height=\"wrap_content\"\n         android:layout_marginLeft=\"290dp\"\n         android:layout_marginTop=\"5dp\"\n-        android:text=\"历史\" />\n+        android:text=\"历史\"/>\n     <LinearLayout\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n@@ -37,5 +37,17 @@\n         android:layout_height=\"wrap_content\"\n         android:layout_marginLeft=\"130dp\"\n         android:text=\"搜索\" />\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:drawableTop=\"@drawable/peng\"\n+        android:layout_gravity=\"center\"\n+        android:layout_marginTop=\"40dp\"\n+        android:text=\"@string/hello\"\n+        android:textSize=\"25dp\"\n+        android:textAlignment=\"center\"\n+        >\n+\n+    </TextView>\n \n </LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "631ca2a6ddda2cc1335ec004370a9341ea947392",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings1414080903224.xml",
+    "status" : "added",
+    "additions" : 4,
+    "deletions" : 0,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/AndroidLabs/app/src/main/res/values/strings1414080903224.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b06894e64ee65faab5ddbb54eaf1fa40739f89d9/AndroidLabs/app/src/main/res/values/strings1414080903224.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings1414080903224.xml?ref=b06894e64ee65faab5ddbb54eaf1fa40739f89d9",
+    "patch" : "@@ -0,0 +1,4 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <string name=\"hello\">Hello Peng</string>\n+</resources>\n\\ No newline at end of file"
+  } ],
+  "sha" : "b06894e64ee65faab5ddbb54eaf1fa40739f89d9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b06894e64ee65faab5ddbb54eaf1fa40739f89d9",
+  "parents" : [ {
+    "sha" : "4845782eb71422c08d4b082aa5cf0e73fec04a23",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4845782eb71422c08d4b082aa5cf0e73fec04a23",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4845782eb71422c08d4b082aa5cf0e73fec04a23"
+  } ]
+}

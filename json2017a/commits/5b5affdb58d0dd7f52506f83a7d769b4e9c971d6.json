@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 119,
+    "additions" : 110,
+    "deletions" : 9
+  },
+  "author" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+  "commit" : {
+    "author" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-05-21T04:40:42Z"
+    },
+    "committer" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-05-21T04:40:42Z"
+    },
+    "message" : "#4 #71 第四次实验",
+    "tree" : {
+      "sha" : "4bbe7759644d59c466a03a1c7e640a691504a656",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4bbe7759644d59c466a03a1c7e640a691504a656"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6/comments",
+  "files" : [ {
+    "sha" : "679b1fbd71b709121672ddd3b41f813e42e250fc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "status" : "modified",
+    "additions" : 79,
+    "deletions" : 9,
+    "changes" : 88,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java?ref=5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+    "patch" : "@@ -1,24 +1,94 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903114;\n \n+import edu.hzuapps.androidlabs.homeworks.net1414080903114.hardwareinfo.RateDatas;\n import android.app.Activity;\n-import android.content.Intent;\n import android.os.Bundle;\n-import android.view.View;\n+import android.os.Handler;\n+import android.widget.TextView;\n \n public class MainActivity extends Activity {\n-\n+\tprivate TextView tv_readRate, tv_writeRate, tv_uploadRate, tv_downloadRate;\n+\tprivate float virtualRate;\n+\t\n+\tprivate Handler handler = new Handler( );\n+\tprivate Runnable gsRateThread = new Runnable(){\n+\t\t@Override\n+\t\tpublic void run() {\n+\t\t\tvirtualRate++;\n+\t\t\tif (virtualRate == 1000) {\n+\t\t\t\tvirtualRate = 0;\n+\t\t\t}\n+\t\t\tRateDatas rateD = new RateDatas();\n+\t\t\trateD = getRateDatas();\n+\t    \tsetTextsValue(rateD);\n+\t\t\thandler.postDelayed(this,1000);\t//Causes the Runnable r to be added to the message queue, \n+\t\t\t//to be run after the specified amount of time elapses. \n+\t\t\t//The runnable will be run on the thread to which this handler is attached.\n+\t\t\t//2�������this��ָ�Ľ�̡�������\n+\t\t\t//��Ϊ�ڱ�����ڣ������൱��һ����ݹ���á� ����\n+\t\t\n+\t\t}\n+\t};\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_main_net1414080903114);\n+        virtualRate = 0;\n+        handler.postDelayed(gsRateThread,1000); // ��ʼTimer \n+    }\n+    public float getDiskReadR() {\n+    \tfloat readR = 0;\n+    \t//TODO code here to get diskReadRate\n+    \treadR = virtualRate;\n+    \treturn readR;\n+    \t\n+    }\n+    public float getDiskWriteR() {\n+    \tfloat writeR = 0;\n+    \t//TODO code here to get diskWriteRate\n+    \twriteR = virtualRate + 1;\n+    \treturn writeR;\n+    \t\n     }\n-    public void clickDisk(View view){\n-        Intent intent = new Intent(this, DiskActivity.class);\n-        startActivity(intent);\n+    public float getNetUploadR(){\n+    \tfloat uploadR = 0;\n+    \t//TODO code here to get diskUploadRate\n+    \tuploadR = virtualRate + 2;\n+    \treturn uploadR;\n+    \t\n     }\n-    public void clickNetwork(View view){\n-        Intent intent = new Intent(this, NetworkActivity.class);\n-        startActivity(intent);\n+    public float getNetDownloadR(){\n+    \tfloat downloadR = 0;\n+    \t//TODO code here to get diskDownloadRate\n+    \tdownloadR = virtualRate + 3;\n+    \treturn downloadR;\n+    \t\n     }\n+    public RateDatas getRateDatas() {\n+    \tfloat readRate = 0, writeRate = 0, uploadRate = 0, downloadRate = 0;\n+    \tRateDatas rateD = new RateDatas();\n+    \treadRate = getDiskReadR();\n+\t\twriteRate = getDiskWriteR();\n+\t\tuploadRate = getNetUploadR();\n+\t\tdownloadRate = getNetDownloadR();\n+    \t\n+\t\trateD.setReadR(readRate);\n+        rateD.setWriteR(writeRate);\n+        rateD.setUploadR(uploadRate);\n+        rateD.setDownloadR(downloadRate);\n+    \treturn rateD;\n+    }\n+    public void setTextsValue(RateDatas rateD) {\n+    \ttv_readRate = (TextView) findViewById(R.id.tv_diskReadRate);\n+        tv_writeRate = (TextView) findViewById(R.id.tv_diskWriteRate);\n+        tv_readRate.setText(\"ReadRate: \" + rateD.getReadR() + \" MB/s\");\n+        tv_writeRate.setText(\"WriteRate: \" + rateD.getWriteR() + \" MB/s\");\n+        \n+        tv_uploadRate = (TextView) findViewById(R.id.tv_networkReadRate);\n+        tv_downloadRate = (TextView) findViewById(R.id.tv_networkWriteRate);\n+        tv_uploadRate.setText(\"UploadRate: \" + rateD.getUploadR() + \" KB/s\");\n+        tv_downloadRate.setText(\"DownloadRate: \" + rateD.getDownloadR() + \" KB/s\");\n+    }\n+    \n }\n     "
+  }, {
+    "sha" : "674dc0256ab3443dbb3e014841b78f4200c74e64",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/hardwareinfo/RateDatas.java",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/hardwareinfo/RateDatas.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/hardwareinfo/RateDatas.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/hardwareinfo/RateDatas.java?ref=5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+    "patch" : "@@ -0,0 +1,31 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903114.hardwareinfo;\n+\n+public class RateDatas {\n+\tprivate float readRate, writeRate, uploadRate, downloadRate;\n+\tpublic RateDatas(){}\n+\tpublic void setReadR(float readR){\n+\t\tthis.readRate = readR;\n+\t}\n+\tpublic float getReadR(){\n+\t\treturn this.readRate;\n+\t}\n+\tpublic void setWriteR(float writeR){\n+\t\tthis.writeRate = writeR;\n+\t}\n+\tpublic float getWriteR(){\n+\t\treturn this.writeRate;\n+\t}\n+\tpublic void setUploadR(float uploadR){\n+\t\tthis.uploadRate = uploadR;\n+\t}\n+\tpublic float getUploadR(){\n+\t\treturn this.uploadRate;\n+\t}\n+\tpublic void setDownloadR(float downloadR){\n+\t\tthis.downloadRate = downloadR;\n+\t}\n+\tpublic float getDownloadR(){\n+\t\treturn this.downloadRate;\n+\t}\n+\t\n+}"
+  } ],
+  "sha" : "5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b5affdb58d0dd7f52506f83a7d769b4e9c971d6",
+  "parents" : [ {
+    "sha" : "3faf4e4b9fb24ef476e84da066b976c46200b338",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3faf4e4b9fb24ef476e84da066b976c46200b338",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3faf4e4b9fb24ef476e84da066b976c46200b338"
+  } ]
+}

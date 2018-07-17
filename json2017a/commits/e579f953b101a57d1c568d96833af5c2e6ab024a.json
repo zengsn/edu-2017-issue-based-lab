@@ -1,0 +1,116 @@
+{
+  "committer" : {
+    "login" : "14lihaoming",
+    "id" : 26020903,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26020903?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14lihaoming",
+    "html_url" : "https://github.com/14lihaoming",
+    "followers_url" : "https://api.github.com/users/14lihaoming/followers",
+    "following_url" : "https://api.github.com/users/14lihaoming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14lihaoming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14lihaoming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14lihaoming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14lihaoming/orgs",
+    "repos_url" : "https://api.github.com/users/14lihaoming/repos",
+    "events_url" : "https://api.github.com/users/14lihaoming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14lihaoming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 38,
+    "additions" : 27,
+    "deletions" : 11
+  },
+  "author" : {
+    "login" : "14lihaoming",
+    "id" : 26020903,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26020903?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14lihaoming",
+    "html_url" : "https://github.com/14lihaoming",
+    "followers_url" : "https://api.github.com/users/14lihaoming/followers",
+    "following_url" : "https://api.github.com/users/14lihaoming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14lihaoming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14lihaoming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14lihaoming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14lihaoming/orgs",
+    "repos_url" : "https://api.github.com/users/14lihaoming/repos",
+    "events_url" : "https://api.github.com/users/14lihaoming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14lihaoming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e579f953b101a57d1c568d96833af5c2e6ab024a",
+  "commit" : {
+    "author" : {
+      "name" : "14lihaoming",
+      "email" : "1015479190@qq.com",
+      "date" : "2017-05-11T12:30:28Z"
+    },
+    "committer" : {
+      "name" : "14lihaoming",
+      "email" : "1015479190@qq.com",
+      "date" : "2017-05-11T12:30:28Z"
+    },
+    "message" : "#3 #85  第三次作业",
+    "tree" : {
+      "sha" : "9b4448aa661caddeb088b9ac6a56a0ca7a8aa829",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9b4448aa661caddeb088b9ac6a56a0ca7a8aa829"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e579f953b101a57d1c568d96833af5c2e6ab024a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e579f953b101a57d1c568d96833af5c2e6ab024a/comments",
+  "files" : [ {
+    "sha" : "a2b572d1f32e9b8827b78b33d380e00da7e01a88",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/主界面.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/drawable/%E4%B8%BB%E7%95%8C%E9%9D%A2.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/drawable/%E4%B8%BB%E7%95%8C%E9%9D%A2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/%E4%B8%BB%E7%95%8C%E9%9D%A2.jpg?ref=e579f953b101a57d1c568d96833af5c2e6ab024a"
+  }, {
+    "sha" : "047bda19837c1160a170473459921e4c7af202a5",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/游戏界面.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/drawable/%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/drawable/%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2.jpg?ref=e579f953b101a57d1c568d96833af5c2e6ab024a"
+  }, {
+    "sha" : "f5fceebb1ff056e2707810c545b5f73d679a1413",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903128_compare.xml",
+    "status" : "modified",
+    "additions" : 26,
+    "deletions" : 11,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/layout/activity_net1414080903128_compare.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/layout/activity_net1414080903128_compare.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903128_compare.xml?ref=e579f953b101a57d1c568d96833af5c2e6ab024a",
+    "patch" : "@@ -5,6 +5,7 @@\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/游戏界面\"\n     tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903128.Net1414080903128CompareActivity\">\n \n     <LinearLayout\n@@ -16,30 +17,44 @@\n         tools:layout_editor_absoluteY=\"116dp\"\n         android:id=\"@+id/linearLayout\">\n \n-    <EditText\n-        android:id=\"@+id/inputString\"\n-        android:layout_width=\"fill_parent\"\n-        android:layout_height=\"wrap_content\"\n-        tools:layout_editor_absoluteY=\"99dp\"\n-        tools:layout_editor_absoluteX=\"46dp\" />\n-\n-    <TextView\n+        <TextView\n         android:id=\"@+id/outputString\"\n         android:layout_width=\"fill_parent\"\n         android:layout_height=\"wrap_content\"\n+        android:text=\"outputString\"\n         tools:layout_editor_absoluteY=\"48dp\"\n         tools:layout_editor_absoluteX=\"0dp\" />\n \n+\n+    </LinearLayout>\n+\n     <Button\n         android:id=\"@+id/guess\"\n         android:layout_width=\"fill_parent\"\n         android:layout_height=\"wrap_content\"\n         android:text=\"确定\"\n         tools:layout_editor_absoluteY=\"198dp\"\n-        tools:layout_editor_absoluteX=\"-16dp\" />\n-\n+        tools:layout_editor_absoluteX=\"-16dp\"\n+        android:layout_marginTop=\"43dp\"\n+        android:layout_below=\"@+id/linearLayout\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\"\n+        android:layout_marginLeft=\"18dp\"\n+        android:layout_marginStart=\"18dp\" />\n \n-    </LinearLayout>\n+    <EditText\n+        android:id=\"@+id/inputString\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"输入你要猜的数字\"\n+        tools:layout_editor_absoluteY=\"99dp\"\n+        tools:layout_editor_absoluteX=\"46dp\"\n+        android:layout_marginLeft=\"76dp\"\n+        android:layout_marginStart=\"76dp\"\n+        android:layout_above=\"@+id/linearLayout\"\n+        android:layout_alignLeft=\"@+id/guess\"\n+        android:layout_alignStart=\"@+id/guess\"\n+        android:layout_marginBottom=\"12dp\" />\n \n \n </RelativeLayout>"
+  }, {
+    "sha" : "45feb3b4ac807222fd18fd9f6a224e3e2105c6aa",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903128_main.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/layout/activity_net1414080903128_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e579f953b101a57d1c568d96833af5c2e6ab024a/AndroidLabs/app/src/main/res/layout/activity_net1414080903128_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903128_main.xml?ref=e579f953b101a57d1c568d96833af5c2e6ab024a",
+    "patch" : "@@ -5,6 +5,7 @@\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/主界面\"\n     tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903128.Net1414080903128MainActivity\">\n \n     <LinearLayout"
+  } ],
+  "sha" : "e579f953b101a57d1c568d96833af5c2e6ab024a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e579f953b101a57d1c568d96833af5c2e6ab024a",
+  "parents" : [ {
+    "sha" : "8c5cbdf8bd8d4a68e0915ba351b819928bf0ba4c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8c5cbdf8bd8d4a68e0915ba351b819928bf0ba4c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8c5cbdf8bd8d4a68e0915ba351b819928bf0ba4c"
+  } ]
+}

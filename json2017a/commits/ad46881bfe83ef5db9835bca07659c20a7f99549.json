@@ -1,0 +1,86 @@
+{
+  "committer" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 4,
+    "additions" : 2,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ad46881bfe83ef5db9835bca07659c20a7f99549",
+  "commit" : {
+    "author" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-03-05T13:05:53Z"
+    },
+    "committer" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-03-05T13:05:53Z"
+    },
+    "message" : "#1\n\n第一次作业",
+    "tree" : {
+      "sha" : "0afeb35d91c780602425f03c15ee8eec0c76b740",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0afeb35d91c780602425f03c15ee8eec0c76b740"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ad46881bfe83ef5db9835bca07659c20a7f99549",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ad46881bfe83ef5db9835bca07659c20a7f99549/comments",
+  "files" : [ {
+    "sha" : "967148377f3a91444d5c06f6dae3db77c17ebac9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java",
+    "status" : "renamed",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ad46881bfe83ef5db9835bca07659c20a7f99549/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ad46881bfe83ef5db9835bca07659c20a7f99549/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java?ref=ad46881bfe83ef5db9835bca07659c20a7f99549",
+    "patch" : "@@ -1,9 +1,9 @@\n-package com.example.ohmygua.net1414080903112;\n+package edu.hzuapps.androidlabs.homeworks.Net1414080903112;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n-public class net1414080903112 extends AppCompatActivity {\n+public class Net1414080903112Activity extends AppCompatActivity {\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {",
+    "previous_filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/net1414080903112.java"
+  } ],
+  "sha" : "ad46881bfe83ef5db9835bca07659c20a7f99549",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ad46881bfe83ef5db9835bca07659c20a7f99549",
+  "parents" : [ {
+    "sha" : "127b9f33cc3d6784b92b07c37a38f1b2691b795d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/127b9f33cc3d6784b92b07c37a38f1b2691b795d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/127b9f33cc3d6784b92b07c37a38f1b2691b795d"
+  } ]
+}

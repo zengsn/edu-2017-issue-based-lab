@@ -1,0 +1,28 @@
+[ {
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/issues/comments/284203385",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/pull/110#issuecomment-284203385",
+  "issue_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/issues/110",
+  "id" : 284203385,
+  "user" : {
+    "login" : "liuzezhao",
+    "id" : 26058246,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26058246?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liuzezhao",
+    "html_url" : "https://github.com/liuzezhao",
+    "followers_url" : "https://api.github.com/users/liuzezhao/followers",
+    "following_url" : "https://api.github.com/users/liuzezhao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liuzezhao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liuzezhao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liuzezhao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liuzezhao/orgs",
+    "repos_url" : "https://api.github.com/users/liuzezhao/repos",
+    "events_url" : "https://api.github.com/users/liuzezhao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liuzezhao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "created_at" : "2017-03-05T03:53:41Z",
+  "updated_at" : "2017-03-05T03:53:41Z",
+  "body" : "老师，我确定我认真看了。我是用github desktop来交作业的，因为还不熟悉怎么用，忘了点commit to master。这次v4.0应该没问题了。 @zengsn "
+} ]

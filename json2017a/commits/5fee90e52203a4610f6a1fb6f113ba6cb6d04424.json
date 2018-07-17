@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T14:12:47Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T14:12:47Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "b670848f6cd1e9ac708bdf281fb16ed521171c8c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b670848f6cd1e9ac708bdf281fb16ed521171c8c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5fee90e52203a4610f6a1fb6f113ba6cb6d04424/comments",
+  "files" : [ {
+    "sha" : "63b09e7420c6d9821b194950005a2974ec82cc61",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5fee90e52203a4610f6a1fb6f113ba6cb6d04424/AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5fee90e52203a4610f6a1fb6f113ba6cb6d04424/AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903212.xml?ref=5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+    "patch" : "@@ -80,7 +80,7 @@\n             android:drawableTop=\"@drawable/tab_hw_xml1414080903212\"\n             android:gravity=\"center\"\n             android:textColor=\"@android:color/black\"\n-            android:text=\"Json解析\" />\n+            android:text=\"XML解析\" />\n     </LinearLayout>\n \n     <View"
+  } ],
+  "sha" : "5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+  "parents" : [ {
+    "sha" : "4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4e7dc66ed23d7187c32c38d503fa236ba8ab0788"
+  } ]
+}

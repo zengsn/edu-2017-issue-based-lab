@@ -1,0 +1,68 @@
+[ {
+  "sha" : "b6725b32ba274fff081d209aa417a681a91694f5",
+  "commit" : {
+    "author" : {
+      "name" : "LZR-PC",
+      "email" : "850048573@qq.com",
+      "date" : "2017-06-01T14:50:43Z"
+    },
+    "committer" : {
+      "name" : "LZR-PC",
+      "email" : "850048573@qq.com",
+      "date" : "2017-06-01T14:50:43Z"
+    },
+    "message" : "#5 #21 第五次作业",
+    "tree" : {
+      "sha" : "104d00fdc3496e74957ec1f1a14f3308c1176523",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/104d00fdc3496e74957ec1f1a14f3308c1176523"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b6725b32ba274fff081d209aa417a681a91694f5",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b6725b32ba274fff081d209aa417a681a91694f5",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b6725b32ba274fff081d209aa417a681a91694f5",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b6725b32ba274fff081d209aa417a681a91694f5/comments",
+  "author" : {
+    "login" : "Qlzr",
+    "id" : 26007287,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26007287?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Qlzr",
+    "html_url" : "https://github.com/Qlzr",
+    "followers_url" : "https://api.github.com/users/Qlzr/followers",
+    "following_url" : "https://api.github.com/users/Qlzr/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Qlzr/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Qlzr/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Qlzr/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Qlzr/orgs",
+    "repos_url" : "https://api.github.com/users/Qlzr/repos",
+    "events_url" : "https://api.github.com/users/Qlzr/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Qlzr/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Qlzr",
+    "id" : 26007287,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26007287?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Qlzr",
+    "html_url" : "https://github.com/Qlzr",
+    "followers_url" : "https://api.github.com/users/Qlzr/followers",
+    "following_url" : "https://api.github.com/users/Qlzr/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Qlzr/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Qlzr/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Qlzr/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Qlzr/orgs",
+    "repos_url" : "https://api.github.com/users/Qlzr/repos",
+    "events_url" : "https://api.github.com/users/Qlzr/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Qlzr/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "0689da9814e740751dc2e7a8fefcd48f3c2fa584",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0689da9814e740751dc2e7a8fefcd48f3c2fa584",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0689da9814e740751dc2e7a8fefcd48f3c2fa584"
+  } ]
+} ]

@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 11,
+    "additions" : 11,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-06-02T14:43:41Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-06-02T14:43:41Z"
+    },
+    "message" : "#6 #30 第六次作业",
+    "tree" : {
+      "sha" : "fdd64f4582c78a805485d95856581daa620dced8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/fdd64f4582c78a805485d95856581daa620dced8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2092bda83e1e88ff73c7d9ea86664195bfef1da4/comments",
+  "files" : [ {
+    "sha" : "e998ad668b10b9f40572e901f7c48deca2ac7ce2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/detailvalues.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2092bda83e1e88ff73c7d9ea86664195bfef1da4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/detailvalues.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2092bda83e1e88ff73c7d9ea86664195bfef1da4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/detailvalues.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/detailvalues.xml?ref=2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+    "patch" : "@@ -0,0 +1,11 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<detail>\n+    <account id=\"1\">\n+        <classname>饮食</classname>\n+        <value>20</value>\n+    </account>\n+    <account id=\"2\">\n+        <classname>车费</classname>\n+        <value>50</value>\n+    </account>\n+</detail>"
+  } ],
+  "sha" : "2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2092bda83e1e88ff73c7d9ea86664195bfef1da4",
+  "parents" : [ {
+    "sha" : "38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/38a1da282f79d319a3ace2df47ca1b4b60ad511b"
+  } ]
+}

@@ -1,0 +1,193 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 285,
+    "additions" : 187,
+    "deletions" : 98
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d4ae1a1a8606d726936992f1c3ecb94093b14376",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-30T09:07:16Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-30T09:07:16Z"
+    },
+    "message" : "#3 #30  第三次作业",
+    "tree" : {
+      "sha" : "7b7bfce1f3495443a9536d2524a43e2e8ec122e0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7b7bfce1f3495443a9536d2524a43e2e8ec122e0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d4ae1a1a8606d726936992f1c3ecb94093b14376/comments",
+  "files" : [ {
+    "sha" : "211e7476030ce8529725704712e3213ce01681a2",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/button_style.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/drawable/button_style.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/drawable/button_style.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/button_style.png?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376"
+  }, {
+    "sha" : "d11bcee2b85f8a55aa04e8980a7ec968cb88f335",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/headline.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/drawable/headline.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/drawable/headline.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/headline.jpg?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376"
+  }, {
+    "sha" : "5c7d702f1a541b6ddd24fc0d97bdbc42053275a2",
+    "filename" : "AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml",
+    "status" : "modified",
+    "additions" : 22,
+    "deletions" : 7,
+    "changes" : 29,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -3,12 +3,24 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\"\n-    >\n+    android:background=\"#8ab6fd\"\n+>\n+    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        xmlns:tools=\"http://schemas.android.com/tools\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"150dp\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:orientation=\"horizontal\"\n \n+        android:background=\"#ffffff\"\n+        >\n     <LinearLayout\n         android:id=\"@+id/value\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n+        android:layout_height=\"15dp\"\n \n         android:layout_marginLeft=\"10dp\"\n         android:layout_marginRight=\"10dp\"\n@@ -21,8 +33,9 @@\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\" 订单金额 ： \"\n+\n+\n+            android:text=\"订单金额： \"\n             />\n         <TextView\n             android:id=\"@+id/tt_value\"\n@@ -33,11 +46,11 @@\n \n             />\n     </LinearLayout>\n-\n+        <View style=\"@style/bg_line\" android:layout_below=\"@+id/value\"/>\n     <LinearLayout\n         android:id=\"@+id/date\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n+        android:layout_height=\"15dp\"\n         android:layout_below=\"@+id/value\"\n         android:layout_marginLeft=\"10dp\"\n         android:layout_marginRight=\"10dp\"\n@@ -61,6 +74,7 @@\n             android:paddingRight=\"5dp\"\n             />\n     </LinearLayout>\n+        <View style=\"@style/bg_line\" android:layout_below=\"@+id/date\"/>\n     <LinearLayout\n         android:id=\"@+id/project\"\n         android:layout_width=\"match_parent\"\n@@ -88,7 +102,7 @@\n             android:paddingRight=\"5dp\"\n             />\n     </LinearLayout>\n-\n+        <View style=\"@style/bg_line\" android:layout_below=\"@+id/project\"/>\n     <LinearLayout\n         android:id=\"@+id/remark\"\n         android:layout_width=\"match_parent\"\n@@ -118,3 +132,4 @@\n     </LinearLayout>\n \n </RelativeLayout>\n+</RelativeLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "7260ac353cd14f32053c2365e1236fb3c35cc0c2",
+    "filename" : "AndroidLabs/app/src/main/res/layout/main_1414080903240.xml",
+    "status" : "modified",
+    "additions" : 32,
+    "deletions" : 11,
+    "changes" : 43,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/main_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/main_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/main_1414080903240.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -1,26 +1,47 @@\n <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\"\n+    android:background=\"#8ab6fd\"\n     >\n \n+    <ImageView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        app:srcCompat=\"@drawable/headline\"\n+        android:id=\"@+id/imageView8\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_alignParentStart=\"true\" />\n+\n+\n+\n+\n     <Button\n         android:id=\"@+id/button1\"\n-        android:layout_width=\"180dp\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginTop=\"143dp\"\n+        android:layout_width=\"200dp\"\n+        android:layout_height=\"100dp\"\n         android:text=\"新增账目\"\n-        android:layout_alignParentTop=\"true\"\n-        android:layout_centerHorizontal=\"true\" />\n+        android:textColor=\"#226663\"\n+        android:background=\"@drawable/button_style\"\n \n+        android:layout_marginBottom=\"84dp\"\n+        android:layout_alignBottom=\"@+id/button2\"\n+        android:layout_centerHorizontal=\"true\" />\n     <Button\n         android:id=\"@+id/button2\"\n-        android:layout_width=\"180dp\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginTop=\"63dp\"\n+        android:layout_width=\"200dp\"\n+        android:layout_height=\"100dp\"\n         android:text=\"查看当前账目\"\n-        android:layout_below=\"@+id/button1\"\n-        android:layout_centerHorizontal=\"true\" />\n-\n+        android:color=\"#f7f7ed\"\n+        android:textColor=\"#226663\"\n+        android:layout_gravity=\"center_horizontal\"\n+        android:background=\"@drawable/button_style\"\n+        android:layout_weight=\"0.10\"\n+        android:layout_below=\"@+id/imageView8\"\n+        android:layout_alignLeft=\"@+id/button1\"\n+        android:layout_alignStart=\"@+id/button1\"\n+        android:layout_marginTop=\"30dp\" />\n </RelativeLayout>"
+  }, {
+    "sha" : "7f83299a5ff487099c2900fbfea7e6641a91b64a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "status" : "modified",
+    "additions" : 62,
+    "deletions" : 30,
+    "changes" : 92,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -3,80 +3,112 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\"\n+    android:background=\"#8ab6fd\"\n     >\n+    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        xmlns:tools=\"http://schemas.android.com/tools\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"170dp\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"40dp\"\n+\n+        android:orientation=\"horizontal\"\n+        android:id=\"@+id/aaa\"\n+        android:background=\"#ffffff\"\n+\n+        >\n \n     <LinearLayout\n         android:id=\"@+id/regist_username\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n+        style=\"@style/a\"\n \n         android:layout_marginLeft=\"10dp\"\n         android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n-        android:layout_marginBottom=\"10dp\"\n+        android:layout_marginTop=\"40dp\"\n+        android:layout_marginBottom=\"20dp\"\n         android:orientation=\"horizontal\"\n         >\n+\n         <TextView\n \n-            android:layout_width=\"80dp\"\n+            android:layout_width=\"120dp\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n             android:paddingRight=\"5dp\"\n+\n             android:text=\"消费金额：\"\n \n             />\n \n         <EditText\n             android:inputType=\"number\"\n             android:id=\"@+id/et_value\"\n-            android:layout_width=\"match_parent\"\n-            android:layout_height=\"wrap_content\"\n+            android:layout_width=\"180dp\"\n+            android:layout_height=\"30dp\"\n+            android:background=\"#ffffff\"\n+            android:paddingLeft=\"5dp\"\n             android:hint=\"请输入您的本次的消费金额\"\n             android:textSize=\"14dp\"\n             />\n \n     </LinearLayout>\n+        <View style=\"@style/bg_line\" android:layout_below=\"@+id/regist_username\"/>\n     <LinearLayout\n         android:id=\"@+id/regist_password\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n-        android:layout_below=\"@+id/regist_username\"\n \n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"5dp\"\n+        android:layout_marginTop=\"20dp\"\n         android:orientation=\"horizontal\"\n \n-        >\n+        android:layout_below=\"@+id/regist_username\"\n+        android:layout_alignLeft=\"@+id/regist_username\"\n+        android:layout_alignStart=\"@+id/regist_username\">\n+\n         <TextView\n \n             android:layout_width=\"120dp\"\n             android:layout_height=\"wrap_content\"\n-            android:gravity=\"left\"\n-            android:paddingLeft=\"7dp\"\n-            android:text=\"选择消费类型：\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\"消费类型：\"\n \n             />\n \n+        <Spinner\n+            android:id=\"@+id/spinner1\"\n+            android:layout_width=\"180dp\"\n+            android:layout_height=\"30dp\"\n+            android:entries=\"@array/languages\"\n+            android:layout_marginTop=\"1dp\"\n+            android:layout_below=\"@+id/regist_password\"\n+            android:layout_alignLeft=\"@+id/regist_password\"\n+            android:layout_alignStart=\"@+id/regist_password\"\n+            android:layout_weight=\"1\" />\n \n \n     </LinearLayout>\n-    <Spinner\n-        android:id=\"@+id/spinner1\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:entries=\"@array/languages\"\n-        android:layout_marginTop=\"11dp\"\n-        android:layout_below=\"@+id/regist_password\"\n-        android:layout_alignLeft=\"@+id/regist_password\"\n-        android:layout_alignStart=\"@+id/regist_password\" />\n+\n+\n+\n+\n+    </RelativeLayout>\n+\n     <Button\n-        android:id=\"@+id/button\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginTop=\"60dp\"\n-        android:text=\"提交消费记录\"\n-        android:layout_below=\"@+id/regist_password\"\n-        android:layout_centerHorizontal=\"true\" />\n+    android:id=\"@+id/button\"\n+    android:layout_width=\"200dp\"\n+    android:layout_height=\"100dp\"\n \n-</RelativeLayout>\n+    android:color=\"#f7f7ed\"\n+    android:textColor=\"#226663\"\n+    android:text=\"提交消费记录\"\n+    android:background=\"@drawable/button_style\"\n+        android:layout_below=\"@+id/aaa\"\n+        android:layout_alignLeft=\"@+id/aaa\"\n+        android:layout_alignStart=\"@+id/aaa\"\n+        android:layout_marginLeft=\"72dp\"\n+        android:layout_marginStart=\"72dp\" />\n+</RelativeLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "26c5fc9a895da382f67ee7dc94512fca0f2e3696",
+    "filename" : "AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "status" : "modified",
+    "additions" : 35,
+    "deletions" : 6,
+    "changes" : 41,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -3,16 +3,28 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\"\n+    android:background=\"#8ab6fd\"\n     >\n+    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        xmlns:tools=\"http://schemas.android.com/tools\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"300dp\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"40dp\"\n+        android:orientation=\"horizontal\"\n+        android:id=\"@+id/aaa\"\n \n+        android:background=\"#ffffff\"\n+        >\n     <LinearLayout\n         android:id=\"@+id/regist_username\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n \n         android:layout_marginLeft=\"10dp\"\n         android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n+        android:layout_marginTop=\"50dp\"\n         android:layout_marginBottom=\"10dp\"\n         android:orientation=\"horizontal\"\n         >\n@@ -97,14 +109,15 @@\n             android:layout_weight=\"0.78\"\n             android:layout_height=\"wrap_content\"\n             android:progress=\"50\"\n-            />\n+            android:indeterminate=\"false\" />\n \n         <TextView\n             android:id=\"@+id/cheer_value\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n             android:paddingRight=\"5dp\"\n+            android:text=\"25\"\n             />\n     </LinearLayout>\n     <LinearLayout\n@@ -205,21 +218,37 @@\n             android:paddingRight=\"5dp\"\n             android:text=\"礼物花销： \"\n             />\n+        <ProgressBar\n+            android:id=\"@+id/gift_bar\"\n+            style=\"@android:style/Widget.Material.Light.ProgressBar.Horizontal\"\n+            android:layout_width=\"240dp\"\n+            android:layout_weight=\"0.78\"\n+            android:layout_height=\"wrap_content\"\n+            android:centerColor=\"#ff5a5d5a\"\n+            android:centerY=\"0.75\"\n+            android:endColor=\"#ff747674\"\n+            android:startColor=\"#ff9d9e9d\"\n+            android:progress=\"10\"\n+            android:indeterminate=\"false\" />\n         <TextView\n             android:id=\"@+id/gift_value\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n             android:paddingRight=\"5dp\"\n+            android:text=\"25\"\n             />\n     </LinearLayout>\n-\n+    </RelativeLayout>\n     <Button\n         android:id=\"@+id/button\"\n-        android:layout_width=\"180dp\"\n-        android:layout_height=\"wrap_content\"\n+        android:layout_width=\"200dp\"\n+        android:layout_height=\"100dp\"\n+        android:background=\"@drawable/button_style\"\n+        android:color=\"#f7f7ed\"\n+        android:textColor=\"#226663\"\n         android:text=\"查看详情\"\n-        android:layout_below=\"@+id/gift\"\n+        android:layout_below=\"@+id/aaa\"\n         android:layout_centerHorizontal=\"true\"\n         android:layout_marginTop=\"50dp\" />\n </RelativeLayout>"
+  }, {
+    "sha" : "dbbdd40f49b929c266b4f9039a8f5fdaf2c36e34",
+    "filename" : "AndroidLabs/app/src/main/res/values-v21/styles.xml",
+    "status" : "added",
+    "additions" : 9,
+    "deletions" : 0,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values-v21/styles.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values-v21/styles.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values-v21/styles.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -0,0 +1,9 @@\n+<resources>\n+\n+    <style name=\"AppTheme.NoActionBar\">\n+        <item name=\"windowActionBar\">false</item>\n+        <item name=\"windowNoTitle\">true</item>\n+        <item name=\"android:windowDrawsSystemBarBackgrounds\">true</item>\n+        <item name=\"android:statusBarColor\">@android:color/transparent</item>\n+    </style>\n+</resources>"
+  }, {
+    "sha" : "34b7c2528914f5f4dad6703de7f155cf34958966",
+    "filename" : "AndroidLabs/app/src/main/res/values/colors.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/colors.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/colors.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/colors.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -2,5 +2,5 @@\n <resources>\n     <color name=\"colorPrimary\">#3F51B5</color>\n     <color name=\"colorPrimaryDark\">#303F9F</color>\n-    <color name=\"colorAccent\">#FF4081</color>\n+    <color name=\"colorAccent\">#aa3d92e7</color>\n </resources>"
+  }, {
+    "sha" : "812cb7be0a1565a849a29c08fa07fb9901ccb347",
+    "filename" : "AndroidLabs/app/src/main/res/values/dimens.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 2,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/dimens.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -2,6 +2,5 @@\n     <!-- Default screen margins, per the Android Design guidelines. -->\n     <dimen name=\"activity_horizontal_margin\">16dp</dimen>\n     <dimen name=\"activity_vertical_margin\">16dp</dimen>\n-    <dimen name=\"activity_horizontal_margin0\">0dp</dimen>\n-    <dimen name=\"activity_vertical_margin0\">0dp</dimen>\n+    <dimen name=\"fab_margin\">16dp</dimen>\n </resources>"
+  }, {
+    "sha" : "20f8cbc0f6527e3fd0b4206f0bbc19c6f8b6ff61",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 34,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -1,36 +1,4 @@\n <resources>\n-    <string name=\"app_name\">Android开发</string>\n-    <string name=\"action_settings\">设置</string>\n-\n-    <string name=\"title_activity_back\">活动模板（返回）</string>\n-\n-    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n-    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n-\n-    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n-    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n-\n-    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n-    <string name=\"title_activity_fragment_content\">内容</string>\n-    <string name=\"demo_content\">演示内容</string>\n-    <string name=\"title_activity_net123456\">Net123456Activity</string>\n-    <string name=\"title_activity_com123456\">Com123456Activity</string>\n-    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n-    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n-    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n-    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n-    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n-    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n-    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n-    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n-    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n-    <string name=\"title_activity_list_view\">ListViewActivity</string>\n-    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n-    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n-    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n-    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n-    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n-    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n-    <string name=\"title_activity_file_share\">FileShareActivity</string>\n-    <string name=\"title_activity_network\">NetworkActivity</string>\n+    <string name=\"app_name\">net1414080903240</string>\n+    <string name=\"action_settings\">Settings</string>\n </resources>"
+  }, {
+    "sha" : "bf08a3fe76397c50afff1ba66c95f54bac959a9b",
+    "filename" : "AndroidLabs/app/src/main/res/values/styles.xml",
+    "status" : "modified",
+    "additions" : 23,
+    "deletions" : 7,
+    "changes" : 30,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/styles.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d4ae1a1a8606d726936992f1c3ecb94093b14376/AndroidLabs/app/src/main/res/values/styles.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/styles.xml?ref=d4ae1a1a8606d726936992f1c3ecb94093b14376",
+    "patch" : "@@ -2,14 +2,30 @@\n \n     <!-- Base application theme. -->\n     <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\n-        <!--<item name=\"android:layout_width\">fill_parent</item>-->\n-        <!--<item name=\"android:layout_height\">wrap_content</item>-->\n-        <!--<item name=\"android:capitalize\">characters</item>-->\n-        <!--<item name=\"android:typeface\">monospace</item>-->\n-        <!--<item name=\"android:textSize\">12pt</item>-->\n-        <!--<item name=\"android:textColor\">#00FF00</item>/>-->\n+        <!-- Customize your theme here. -->\n+        <item name=\"colorPrimary\">@color/colorPrimary</item>\n+        <item name=\"colorPrimaryDark\">@color/colorPrimaryDark</item>\n+        <item name=\"colorAccent\">@color/colorAccent</item>\n     </style>\n-    <style name=\"CustomFontStyle\">\n+\n+    <style name=\"AppTheme.NoActionBar\">\n+        <item name=\"windowActionBar\">false</item>\n+        <item name=\"windowNoTitle\">true</item>\n     </style>\n \n+    <style name=\"AppTheme.AppBarOverlay\" parent=\"ThemeOverlay.AppCompat.Dark.ActionBar\" />\n+\n+    <style name=\"AppTheme.PopupOverlay\" parent=\"ThemeOverlay.AppCompat.Light\" />\n+    <style name=\"a\">\n+\n+\n+        <item name=\"android:radius\">20px</item>\n+        <item name=\"android:solidColor\">#ffffff</item>\n+        <item name=\"android:width\">1px</item>\n+    </style>\n+    <style name=\"bg_line\">\n+                 <item name=\"android:layout_width\">match_parent</item>\n+                 <item name=\"android:layout_height\">1px</item>\n+                 <item name=\"android:background\">#000000</item>\n+             </style>\n </resources>"
+  } ],
+  "sha" : "d4ae1a1a8606d726936992f1c3ecb94093b14376",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d4ae1a1a8606d726936992f1c3ecb94093b14376",
+  "parents" : [ {
+    "sha" : "2847e4176292739162537d900a6668a4dcb70b0c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2847e4176292739162537d900a6668a4dcb70b0c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2847e4176292739162537d900a6668a4dcb70b0c"
+  } ]
+}

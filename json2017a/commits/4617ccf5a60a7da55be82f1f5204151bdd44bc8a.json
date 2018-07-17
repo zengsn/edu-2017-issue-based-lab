@@ -1,0 +1,89 @@
+{
+  "committer" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 13,
+    "additions" : 4,
+    "deletions" : 9
+  },
+  "author" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4617ccf5a60a7da55be82f1f5204151bdd44bc8a",
+  "commit" : {
+    "author" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-06-03T13:44:41Z"
+    },
+    "committer" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-06-03T13:44:41Z"
+    },
+    "message" : "Merge branch 'master' of https://github.com/AmoTF/android-labs-2017",
+    "tree" : {
+      "sha" : "dc274be7e3f3d5e05ea0d0bce6bff332f276e2e2",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/dc274be7e3f3d5e05ea0d0bce6bff332f276e2e2"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/4617ccf5a60a7da55be82f1f5204151bdd44bc8a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4617ccf5a60a7da55be82f1f5204151bdd44bc8a/comments",
+  "files" : [ {
+    "sha" : "0fc51adee2093bf38d70deff2245e52ff26bb117",
+    "filename" : "AndroidLabs/app/src/main/res/layout/data_1414080903222.xml",
+    "status" : "modified",
+    "additions" : 4,
+    "deletions" : 9,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4617ccf5a60a7da55be82f1f5204151bdd44bc8a/AndroidLabs/app/src/main/res/layout/data_1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4617ccf5a60a7da55be82f1f5204151bdd44bc8a/AndroidLabs/app/src/main/res/layout/data_1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/data_1414080903222.xml?ref=4617ccf5a60a7da55be82f1f5204151bdd44bc8a",
+    "patch" : "@@ -1,9 +1,4 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n-<videos>\n-    <news id =\"11\">\n-        <name>你好</name>\n-    </news>\n-    <news id =\"12\">\n-        <name>网络编程测试</name>\n-    </news>\n-</videos>\n\\ No newline at end of file\n+\n+        网络编程\n+        测试\n+ "
+  } ],
+  "sha" : "4617ccf5a60a7da55be82f1f5204151bdd44bc8a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4617ccf5a60a7da55be82f1f5204151bdd44bc8a",
+  "parents" : [ {
+    "sha" : "bfeafb8d9642501cc4f863945d166dc457bf052a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bfeafb8d9642501cc4f863945d166dc457bf052a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bfeafb8d9642501cc4f863945d166dc457bf052a"
+  }, {
+    "sha" : "e2f054cc783cc26a5120b2bbd9bf95935bb50fb5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e2f054cc783cc26a5120b2bbd9bf95935bb50fb5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e2f054cc783cc26a5120b2bbd9bf95935bb50fb5"
+  } ]
+}

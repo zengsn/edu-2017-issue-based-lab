@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 219,
+    "additions" : 219,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+  "commit" : {
+    "author" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-04-30T06:50:25Z"
+    },
+    "committer" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-04-30T06:50:25Z"
+    },
+    "message" : "#2 #177 第二次作业",
+    "tree" : {
+      "sha" : "cec98877e27aae6db98a4484b57c9b7e00032194",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/cec98877e27aae6db98a4484b57c9b7e00032194"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/comments",
+  "files" : [ {
+    "sha" : "ec02346874a132c0bbf66a827b6a0c35de03052d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java",
+    "status" : "added",
+    "additions" : 48,
+    "deletions" : 0,
+    "changes" : 48,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139AddRecordActivity.java?ref=1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "patch" : "@@ -0,0 +1,48 @@\n+package edu.hzuapps.androidlabs.net1414080903139;\n+\n+import android.content.ContentValues;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.os.Bundle;\n+import android.os.PersistableBundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import edu.hzuapps.myapplication.R;\n+\n+/**\n+ * Created by 阳飞 on 2017/4/29.\n+ */\n+\n+public class Net1414080903139AddRecordActivity extends AppCompatActivity {\n+\n+    EditText etName;\n+    EditText etBirthday;\n+\n+    Button btSubmit;\n+\n+    @Override\n+    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {\n+        super.onCreate(savedInstanceState, persistentState);\n+        setContentView(R.layout.net1414080903139activity02);\n+\n+        etBirthday= (EditText) findViewById(R.id.et_name);\n+        etName= (EditText) findViewById(R.id.et_birthday);\n+\n+        btSubmit= (Button) findViewById(R.id.btn_submit);\n+\n+        btSubmit.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View view) {\n+                MySQLiteHelper helper=new MySQLiteHelper(Net1414080903139AddRecordActivity.this);\n+                SQLiteDatabase db=helper.getWritableDatabase();\n+                ContentValues values=new ContentValues();\n+                values.put(\"name\",etName.getText().toString().trim());\n+                values.put(\"birthday\",etBirthday.getText().toString().trim());\n+                db.insert(\"birthday\",null,values);\n+                db.close();\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "d800ff7520eb17e8d59f63198ba20f1015b6c2e3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139CheckActivity.java?ref=1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "patch" : "@@ -0,0 +1,38 @@\n+package edu.hzuapps.androidlabs.net1414080903139;\n+\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.widget.ArrayAdapter;\n+import android.widget.ListView;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+import edu.hzuapps.myapplication.R;\n+\n+public class Net1414080903139CheckActivity extends AppCompatActivity {\n+\n+    ListView lv;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903139_check);\n+        lv= (ListView) findViewById(R.id.lv);\n+        MySQLiteHelper helper=new MySQLiteHelper(this);\n+        SQLiteDatabase db=helper.getReadableDatabase();\n+        Cursor cursor=db.query(\"birthday\",null,null,null,null,null,null);\n+        List<String> beans=new ArrayList<>();\n+        while (cursor.moveToNext()){\n+            String item=cursor.getString(cursor.getColumnIndex(\"name\"))+\" 生日： \"+cursor.getString(cursor.getColumnIndex(\"birthday\"));\n+            beans.add(item);\n+        }\n+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,beans);\n+        lv.setAdapter(adapter);\n+\n+    }\n+\n+\n+}"
+  }, {
+    "sha" : "feafe961ecb061ac19249c99e65a7831da7482ad",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java",
+    "status" : "added",
+    "additions" : 37,
+    "deletions" : 0,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/Net1414080903139MainActivity.java?ref=1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "patch" : "@@ -0,0 +1,37 @@\n+package edu.hzuapps.androidlabs.net1414080903139;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+import edu.hzuapps.myapplication.R;\n+\n+public class Net1414080903139MainActivity extends AppCompatActivity {\n+\n+    Button btRecord;\n+    Button btCheck;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.net1414080903139activity01);\n+        btRecord= (Button) findViewById(R.id.bt_record_birthday);\n+        btCheck= (Button) findViewById(R.id.bt_check_birthday);\n+\n+        btCheck.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View view) {\n+                startActivity(new Intent(Net1414080903139MainActivity.this,Net1414080903139CheckActivity.class));\n+            }\n+        });\n+\n+        btRecord.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View view) {\n+                startActivity(new Intent(Net1414080903139MainActivity.this,Net1414080903139AddRecordActivity.class));\n+            }\n+        });\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "886422ba64fa91ef77bcffb164a4b5451f4d9c19",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903139_check.xml",
+    "status" : "added",
+    "additions" : 14,
+    "deletions" : 0,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/res/layout/activity_net1414080903139_check.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/res/layout/activity_net1414080903139_check.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903139_check.xml?ref=1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "patch" : "@@ -0,0 +1,14 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903139_check\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    tools:context=\"edu.hzuapps.androidlabs.net1414080903139.Net1414080903139CheckActivity\">\n+\n+    <ListView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/lv\"/>\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "9a2b0988bf68421088db95f3fecdd03e593452f0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml?ref=1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "patch" : "@@ -0,0 +1,22 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+    <Button\n+        android:id=\"@+id/bt_record_birthday\"\n+        android:layout_margin=\"40dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginTop=\"100dp\"\n+        android:text=\"记录生日\"/>\n+    <Button\n+        android:layout_margin=\"40dp\"\n+        android:id=\"@+id/bt_check_birthday\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/radioGroup\"\n+        android:layout_marginTop=\"50dp\"\n+        android:text=\"查询已记录的生日\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "91e4e81edaaf8b78d5d7c56665282afe4f4e425e",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903139activity02.xml",
+    "status" : "added",
+    "additions" : 60,
+    "deletions" : 0,
+    "changes" : 60,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/res/layout/net1414080903139activity02.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/AndroidLabs/app/src/main/res/layout/net1414080903139activity02.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903139activity02.xml?ref=1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "patch" : "@@ -0,0 +1,60 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:gravity=\"center_horizontal\"\n+    android:orientation=\"vertical\">\n+    <LinearLayout\n+        android:id=\"@+id/ragist_name\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginTop=\"20dp\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:layout_width=\"80dp\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"22dp\"\n+            android:paddingRight=\"10dp\"\n+            android:text=\"姓名：\"/>\n+        <EditText\n+            android:id=\"@+id/et_name\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:hint=\"请输入姓名\"\n+            android:textSize=\"18dp\"/>\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginTop=\"46dp\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"20dp\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"10dp\"\n+            android:text=\"生日日期:\"\n+            />\n+\n+        <EditText\n+            android:id=\"@+id/et_birthday\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:hint=\"请输入生日日期\"\n+            android:textSize=\"18dp\"/>\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/btn_submit\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/radioGroup\"\n+        android:layout_marginTop=\"20dp\"\n+        android:text=\"提交用户信息\" />\n+</LinearLayout>"
+  } ],
+  "sha" : "1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+  "parents" : [ {
+    "sha" : "5529bcfe68987b11a853184b6633b270496072c1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5529bcfe68987b11a853184b6633b270496072c1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5529bcfe68987b11a853184b6633b270496072c1"
+  } ]
+}

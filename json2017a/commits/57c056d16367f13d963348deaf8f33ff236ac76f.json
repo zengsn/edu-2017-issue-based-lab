@@ -1,0 +1,106 @@
+{
+  "committer" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 194,
+    "additions" : 184,
+    "deletions" : 10
+  },
+  "author" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/57c056d16367f13d963348deaf8f33ff236ac76f",
+  "commit" : {
+    "author" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-05-21T10:21:06Z"
+    },
+    "committer" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-05-21T10:21:06Z"
+    },
+    "message" : "#4 #26第四次作业",
+    "tree" : {
+      "sha" : "db8aad0b5e6defaca3f5869c358df8722ee8c0ba",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/db8aad0b5e6defaca3f5869c358df8722ee8c0ba"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/57c056d16367f13d963348deaf8f33ff236ac76f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/57c056d16367f13d963348deaf8f33ff236ac76f/comments",
+  "files" : [ {
+    "sha" : "c774e5376beb1d4efcf18c441a704619b20fa37c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Clock.java",
+    "status" : "modified",
+    "additions" : 147,
+    "deletions" : 3,
+    "changes" : 150,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/57c056d16367f13d963348deaf8f33ff236ac76f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Clock.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/57c056d16367f13d963348deaf8f33ff236ac76f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Clock.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Clock.java?ref=57c056d16367f13d963348deaf8f33ff236ac76f",
+    "patch" : "@@ -1,13 +1,157 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903231;\n \n-import android.support.v7.app.AppCompatActivity;\n+import android.app.ListActivity;\n+import android.content.Context;\n+import android.content.DialogInterface;\n+import android.support.v7.app.AlertDialog;\n import android.os.Bundle;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.BaseAdapter;\n+import android.widget.Button;\n+import android.widget.ImageView;\n+import android.widget.TextView;\n+import android.widget.ListView;\n+\n+import java.util.ArrayList;\n+import java.util.HashMap;\n+import java.util.List;\n+import java.util.Map;\n+\n+\n+public class Net1414080903231Clock extends ListActivity {\n+\n+    private List<Map<String, Object>> mData;\n+\n \n-public class Net1414080903231Clock extends AppCompatActivity {\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_net1414080903231_clock);\n+        mData = getData();\n+        MyAdapter adapter = new MyAdapter(this);\n+        setListAdapter(adapter);\n     }\n+    private List<Map<String, Object>> getData() {\n+        List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();\n+\n+        Map<String, Object> map = new HashMap<String, Object>();\n+        map.put(\"title\", \"闹钟1\");\n+        map.put(\"info\", \"google 1\");\n+        map.put(\"img\", R.drawable.clockpic);\n+        list.add(map);\n+\n+        map = new HashMap<String, Object>();\n+        map.put(\"title\", \"闹钟2\");\n+        map.put(\"info\", \"google 2\");\n+        map.put(\"img\", R.drawable.clockpic);\n+        list.add(map);\n+\n+        map = new HashMap<String, Object>();\n+        map.put(\"title\", \"闹钟3\");\n+        map.put(\"info\", \"google 3\");\n+        map.put(\"img\", R.drawable.clockpic);\n+        list.add(map);\n+\n+        return list;\n+    }\n+\n+    // ListView 中某项被选中后的逻辑\n+    protected void onListItemClick(ListView l, View v, int position, long id) {\n+\n+        Log.v(\"MyListView4-click\", (String)mData.get(position).get(\"title\"));\n+    }\n+\n+    /**\n+     * listview中点击按键弹出对话框\n+    */\n+    public void showInfo(){\n+        new AlertDialog.Builder(this)\n+                .setTitle(\"闹钟\")\n+                .setMessage(\"时间：\")\n+                .setPositiveButton(\"确定\", new DialogInterface.OnClickListener() {\n+                    @Override\n+                    public void onClick(DialogInterface dialog, int which) {\n+                    }\n+                })\n+                .show();\n+\n+    }\n+\n+\n+    public final class ViewHolder{\n+        public ImageView img;\n+        public TextView title;\n+        public TextView info;\n+        public Button viewBtn;\n+    }\n+\n+\n+    public class MyAdapter extends BaseAdapter {\n+\n+        private LayoutInflater mInflater;\n+\n+\n+        public MyAdapter(Context context){\n+            this.mInflater = LayoutInflater.from(context);\n+        }\n+        @Override\n+        public int getCount() {\n+            // TODO Auto-generated method stub\n+            return mData.size();\n+        }\n+\n+        @Override\n+        public Object getItem(int arg0) {\n+            // TODO Auto-generated method stub\n+            return null;\n+        }\n+\n+        @Override\n+        public long getItemId(int arg0) {\n+            // TODO Auto-generated method stub\n+            return 0;\n+        }\n+\n+        @Override\n+        public View getView(int position, View convertView, ViewGroup parent) {\n+\n+            ViewHolder holder = null;\n+            if (convertView == null) {\n+\n+                holder=new ViewHolder();\n+\n+                convertView = mInflater.inflate(R.layout.activity_net1414080903231_clock, null);\n+                holder.img = (ImageView)convertView.findViewById(R.id.img);\n+                holder.title = (TextView)convertView.findViewById(R.id.title);\n+                holder.info = (TextView)convertView.findViewById(R.id.info);\n+                holder.viewBtn = (Button)convertView.findViewById(R.id.view_btn);\n+                convertView.setTag(holder);\n+\n+            }else {\n+\n+                holder = (ViewHolder)convertView.getTag();\n+            }\n+\n+\n+            holder.img.setBackgroundResource((Integer)mData.get(position).get(\"img\"));\n+            holder.title.setText((String)mData.get(position).get(\"title\"));\n+            holder.info.setText((String)mData.get(position).get(\"info\"));\n+\n+            holder.viewBtn.setOnClickListener(new View.OnClickListener() {\n+\n+                @Override\n+                public void onClick(View v) {\n+                    showInfo();\n+                }\n+            });\n+\n+\n+            return convertView;\n+        }\n+\n+    }\n+\n }"
+  }, {
+    "sha" : "b6a8d81da31608e73613c9a6365fd66b5ebd4c36",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/clockpic.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/57c056d16367f13d963348deaf8f33ff236ac76f/AndroidLabs/app/src/main/res/drawable/clockpic.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/57c056d16367f13d963348deaf8f33ff236ac76f/AndroidLabs/app/src/main/res/drawable/clockpic.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/clockpic.jpg?ref=57c056d16367f13d963348deaf8f33ff236ac76f"
+  }, {
+    "sha" : "70b2ea74727c0681778a275c54defda6f153ca00",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml",
+    "status" : "modified",
+    "additions" : 37,
+    "deletions" : 7,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/57c056d16367f13d963348deaf8f33ff236ac76f/AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/57c056d16367f13d963348deaf8f33ff236ac76f/AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml?ref=57c056d16367f13d963348deaf8f33ff236ac76f",
+    "patch" : "@@ -2,13 +2,43 @@\n <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:id=\"@+id/activity_net1414080903231_clock\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    android:background=\"@drawable/net1414080903231bgp2\"\n+    android:orientation=\"horizontal\"\n+    android:layout_width=\"fill_parent\"\n+    android:layout_height=\"fill_parent\">\n+\n+\n     tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903231.Net1414080903231Clock\">\n \n+    <ImageView android:id=\"@+id/img\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:background=\"@drawable/net1414080903231bgp1\"\n+        android:layout_margin=\"5px\"/>\n+\n+    <LinearLayout android:orientation=\"vertical\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\">\n+\n+        <TextView android:id=\"@+id/title\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textColor=\"#FF000000\"\n+            android:textSize=\"80px\"\n+            />\n+        <TextView android:id=\"@+id/info\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textColor=\"#FF000000\"\n+            android:textSize=\"50px\"\n+            />\n+\n+    </LinearLayout>\n+\n+\n+    <Button android:id=\"@+id/view_btn\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"@string/s_view_btn\"\n+        android:layout_gravity=\"bottom|right\" />\n+\n </RelativeLayout>"
+  } ],
+  "sha" : "57c056d16367f13d963348deaf8f33ff236ac76f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/57c056d16367f13d963348deaf8f33ff236ac76f",
+  "parents" : [ {
+    "sha" : "7b62a07c9d336bd65db325424d848bbb5fade81a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7b62a07c9d336bd65db325424d848bbb5fade81a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7b62a07c9d336bd65db325424d848bbb5fade81a"
+  } ]
+}

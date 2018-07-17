@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 60,
+    "additions" : 60,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+  "commit" : {
+    "author" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-04-28T08:03:45Z"
+    },
+    "committer" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-04-28T08:03:45Z"
+    },
+    "message" : "#2 #40  第二次作业",
+    "tree" : {
+      "sha" : "df6613299f6cdb57eaabcf18236a157f057b4da0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/df6613299f6cdb57eaabcf18236a157f057b4da0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2384874a0f3537daf79a1ede5d92d80e9b1aab66/comments",
+  "files" : [ {
+    "sha" : "2f96d4189279de44272b541a7dd4dd7f2c1923fd",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105jiemianActivity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105jiemianActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105jiemianActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105jiemianActivity.java?ref=2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903105;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903105jiemianActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903105jiemian);\n+    }\n+}"
+  }, {
+    "sha" : "c573ad39816eaeb8724bb8a044be8b0deac9bac7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105julebuActivity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105julebuActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105julebuActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105julebuActivity.java?ref=2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903105;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903105julebuActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903105julebu);\n+    }\n+}"
+  }, {
+    "sha" : "60b2210195c4ac2f1d763736bc8a9eb778b5bc4e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105qiuyuanActivity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105qiuyuanActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105qiuyuanActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105qiuyuanActivity.java?ref=2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903105;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903105qiuyuanActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903105qiuyuan);\n+    }\n+}"
+  }, {
+    "sha" : "fcd16e68a6c228cdb3cd649cd5f2512aa311943d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105saichengActivity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105saichengActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2384874a0f3537daf79a1ede5d92d80e9b1aab66/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105saichengActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903105/Net1414080903105saichengActivity.java?ref=2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903105;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903105saichengActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903105saicheng);\n+    }\n+}"
+  } ],
+  "sha" : "2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2384874a0f3537daf79a1ede5d92d80e9b1aab66",
+  "parents" : [ {
+    "sha" : "fc65262b15cbb63773da6015e1f497e9bfda4db6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fc65262b15cbb63773da6015e1f497e9bfda4db6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fc65262b15cbb63773da6015e1f497e9bfda4db6"
+  } ]
+}

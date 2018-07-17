@@ -1,0 +1,68 @@
+[ {
+  "sha" : "28251dc6f84e1c39a6d43892ba4db586b46550e7",
+  "commit" : {
+    "author" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-15T15:23:57Z"
+    },
+    "committer" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-15T15:23:57Z"
+    },
+    "message" : "#3 #172 #第三次作业",
+    "tree" : {
+      "sha" : "80e404b2150ce12c776e6fc4d7367a8b4c02c3ff",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/80e404b2150ce12c776e6fc4d7367a8b4c02c3ff"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/28251dc6f84e1c39a6d43892ba4db586b46550e7",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/28251dc6f84e1c39a6d43892ba4db586b46550e7",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/28251dc6f84e1c39a6d43892ba4db586b46550e7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/28251dc6f84e1c39a6d43892ba4db586b46550e7/comments",
+  "author" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1ca5d2ca7db4581c757505779a88eca612484964",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1ca5d2ca7db4581c757505779a88eca612484964",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1ca5d2ca7db4581c757505779a88eca612484964"
+  } ]
+} ]

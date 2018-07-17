@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "1414080903104",
+    "id" : 26102070,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26102070?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1414080903104",
+    "html_url" : "https://github.com/1414080903104",
+    "followers_url" : "https://api.github.com/users/1414080903104/followers",
+    "following_url" : "https://api.github.com/users/1414080903104/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1414080903104/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1414080903104/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1414080903104/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1414080903104/orgs",
+    "repos_url" : "https://api.github.com/users/1414080903104/repos",
+    "events_url" : "https://api.github.com/users/1414080903104/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1414080903104/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "1414080903104",
+    "id" : 26102070,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26102070?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1414080903104",
+    "html_url" : "https://github.com/1414080903104",
+    "followers_url" : "https://api.github.com/users/1414080903104/followers",
+    "following_url" : "https://api.github.com/users/1414080903104/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1414080903104/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1414080903104/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1414080903104/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1414080903104/orgs",
+    "repos_url" : "https://api.github.com/users/1414080903104/repos",
+    "events_url" : "https://api.github.com/users/1414080903104/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1414080903104/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/02a30a2616aeab1626e9161209b365ac6270d9d0",
+  "commit" : {
+    "author" : {
+      "name" : "1414080903104",
+      "email" : "937671117@qq.com",
+      "date" : "2017-03-03T08:56:54Z"
+    },
+    "committer" : {
+      "name" : "1414080903104",
+      "email" : "937671117@qq.com",
+      "date" : "2017-03-03T08:56:54Z"
+    },
+    "message" : "#1 #04  陈星海的第一次实验",
+    "tree" : {
+      "sha" : "cbfc6cbbc313f98b7370e29dcf4e47d77c95df5c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/cbfc6cbbc313f98b7370e29dcf4e47d77c95df5c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/02a30a2616aeab1626e9161209b365ac6270d9d0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/02a30a2616aeab1626e9161209b365ac6270d9d0/comments",
+  "files" : [ {
+    "sha" : "1333ed77b7e1ed056329cae96075dc558158ee69",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/02a30a2616aeab1626e9161209b365ac6270d9d0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/02a30a2616aeab1626e9161209b365ac6270d9d0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903104/Net1414080903104Activity.java?ref=02a30a2616aeab1626e9161209b365ac6270d9d0",
+    "patch" : "@@ -0,0 +1 @@\n+TODO"
+  } ],
+  "sha" : "02a30a2616aeab1626e9161209b365ac6270d9d0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/02a30a2616aeab1626e9161209b365ac6270d9d0",
+  "parents" : [ {
+    "sha" : "953967335326184040e8b27b8e7083f26381d197",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/953967335326184040e8b27b8e7083f26381d197",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/953967335326184040e8b27b8e7083f26381d197"
+  } ]
+}

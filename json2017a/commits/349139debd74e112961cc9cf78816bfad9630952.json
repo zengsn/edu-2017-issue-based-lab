@@ -1,0 +1,75 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 12,
+    "additions" : 10,
+    "deletions" : 2
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/349139debd74e112961cc9cf78816bfad9630952",
+  "commit" : {
+    "author" : {
+      "name" : "IcyvE",
+      "email" : "了l",
+      "date" : "2017-06-27T02:59:44Z"
+    },
+    "committer" : {
+      "name" : "IcyvE",
+      "email" : "了l",
+      "date" : "2017-06-27T02:59:44Z"
+    },
+    "message" : "#6 #134 第六次作业",
+    "tree" : {
+      "sha" : "69a3b390ab68097cc56a8e7ddf7579e9dac34740",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/69a3b390ab68097cc56a8e7ddf7579e9dac34740"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/349139debd74e112961cc9cf78816bfad9630952",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/349139debd74e112961cc9cf78816bfad9630952/comments",
+  "files" : [ {
+    "sha" : "3f4d7bf1358524bc548249822939799403b0c4d7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/1414080903126json.json",
+    "status" : "added",
+    "additions" : 2,
+    "deletions" : 0,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/349139debd74e112961cc9cf78816bfad9630952/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/1414080903126json.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/349139debd74e112961cc9cf78816bfad9630952/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/1414080903126json.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/1414080903126json.json?ref=349139debd74e112961cc9cf78816bfad9630952",
+    "patch" : "@@ -0,0 +1,2 @@\n+\r\n+[{\"name\":\"字典的账本\",\"date\":\"新建日期为17-6-21\",\"money\":\"总支出：100元\"}]\n\\ No newline at end of file"
+  }, {
+    "sha" : "8194131fc5cee3a9bcc209b2b83e0d377cb8cd15",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903126/Net1414080903126_initialAct1.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 2,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/349139debd74e112961cc9cf78816bfad9630952/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903126/Net1414080903126_initialAct1.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/349139debd74e112961cc9cf78816bfad9630952/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903126/Net1414080903126_initialAct1.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903126/Net1414080903126_initialAct1.java?ref=349139debd74e112961cc9cf78816bfad9630952",
+    "patch" : "@@ -10,15 +10,13 @@\n public class Net1414080903126_initialAct1 extends AppCompatActivity {\n     private Button btn_1;\n     private Button btn_2;\n-    private Button btn_3;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903126_initial_act1);\n         btn_1=(Button) findViewById(R.id.btn_1);\n         btn_2=(Button) findViewById(R.id.btn_2);\n-        btn_3=(Button) findViewById(R.id.btn_3);\n     }\n \n     public void click(View view){"
+  }, {
+    "sha" : "2e57ba3d66aa5e0f00f50551ff4a3a571a24a577",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903126_initial_act1.xml",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/349139debd74e112961cc9cf78816bfad9630952/AndroidLabs/app/src/main/res/layout/activity_net1414080903126_initial_act1.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/349139debd74e112961cc9cf78816bfad9630952/AndroidLabs/app/src/main/res/layout/activity_net1414080903126_initial_act1.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903126_initial_act1.xml?ref=349139debd74e112961cc9cf78816bfad9630952",
+    "patch" : "@@ -25,7 +25,11 @@\n         app:layout_constraintLeft_toLeftOf=\"parent\"\n         app:layout_constraintBottom_toBottomOf=\"parent\"\n         android:layout_marginBottom=\"8dp\"\n+<<<<<<< HEAD\n         app:layout_constraintVertical_bias=\"0.154\" />\n+=======\n+        app:layout_constraintVertical_bias=\"0.31\" />\n+>>>>>>> 4aaa0724a82ef920ba65a93261eb50256b0b6687\n \n     <Button\n         android:id=\"@+id/btn_2\"\n@@ -42,6 +46,7 @@\n         app:layout_constraintLeft_toLeftOf=\"parent\"\n         app:layout_constraintRight_toRightOf=\"parent\"\n         app:layout_constraintTop_toTopOf=\"parent\"\n+<<<<<<< HEAD\n         app:layout_constraintVertical_bias=\"0.462\" />\n \n \n@@ -61,6 +66,9 @@\n         app:layout_constraintRight_toRightOf=\"parent\"\n         app:layout_constraintTop_toTopOf=\"parent\"\n         app:layout_constraintVertical_bias=\"0.767\" />\n+=======\n+        app:layout_constraintVertical_bias=\"0.71\" />\n+>>>>>>> 4aaa0724a82ef920ba65a93261eb50256b0b6687\n \n \n </android.support.constraint.ConstraintLayout>"
+  } ],
+  "sha" : "349139debd74e112961cc9cf78816bfad9630952",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/349139debd74e112961cc9cf78816bfad9630952",
+  "parents" : [ {
+    "sha" : "99928b6a702da80e6ff7721a5cb6ba76833c972d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/99928b6a702da80e6ff7721a5cb6ba76833c972d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/99928b6a702da80e6ff7721a5cb6ba76833c972d"
+  }, {
+    "sha" : "4aaa0724a82ef920ba65a93261eb50256b0b6687",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4aaa0724a82ef920ba65a93261eb50256b0b6687",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4aaa0724a82ef920ba65a93261eb50256b0b6687"
+  } ]
+}

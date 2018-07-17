@@ -1,0 +1,138 @@
+{
+  "committer" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 0,
+    "additions" : 0,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+  "commit" : {
+    "author" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-06-20T06:28:02Z"
+    },
+    "committer" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-06-20T06:28:02Z"
+    },
+    "message" : "#6 #59 第六次实验",
+    "tree" : {
+      "sha" : "732b105f921a7169861b63794585fb6f92571d65",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/732b105f921a7169861b63794585fb6f92571d65"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fc5ff50fb5bfc3539ce3883df14cc688987b0836/comments",
+  "files" : [ {
+    "sha" : "6a546fbc213dea0a543f403084b159ae65a6b4d1",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/timg (4).jpg",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/33a251dc80a82869bb6d167e3979d4d3e97fed57/AndroidLabs/app/src/main/res/drawable/timg%20(4).jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/33a251dc80a82869bb6d167e3979d4d3e97fed57/AndroidLabs/app/src/main/res/drawable/timg%20(4).jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/timg%20(4).jpg?ref=33a251dc80a82869bb6d167e3979d4d3e97fed57"
+  }, {
+    "sha" : "34c19ba6c4b63eab1b7e41091901b422f21a1c41",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/timg-1.jpg",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-1.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-1.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/timg-1.jpg?ref=fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+    "previous_filename" : "AndroidLabs/app/src/main/res/drawable/timg (1).jpg"
+  }, {
+    "sha" : "9d8678b3828ba0c1aebdaa051d018cc06a326c08",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/timg-2.jpg",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-2.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/timg-2.jpg?ref=fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+    "previous_filename" : "AndroidLabs/app/src/main/res/drawable/timg (2).jpg"
+  }, {
+    "sha" : "5e54ff148b67ccee515500fb6f5ae9915da7b2c7",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/timg-3.jpg",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-3.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-3.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/timg-3.jpg?ref=fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+    "previous_filename" : "AndroidLabs/app/src/main/res/drawable/timg (3).jpg"
+  }, {
+    "sha" : "6936363cc24805a5889be2295e1f8fc98bf1c99d",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/timg-4.jpg",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-4.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fc5ff50fb5bfc3539ce3883df14cc688987b0836/AndroidLabs/app/src/main/res/drawable/timg-4.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/timg-4.jpg?ref=fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+    "previous_filename" : "AndroidLabs/app/src/main/res/drawable/timg(5).jpg"
+  }, {
+    "sha" : "fd4d2798ff5bb4734c40e393b5787c01e604c801",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/timg.jpg",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/33a251dc80a82869bb6d167e3979d4d3e97fed57/AndroidLabs/app/src/main/res/drawable/timg.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/33a251dc80a82869bb6d167e3979d4d3e97fed57/AndroidLabs/app/src/main/res/drawable/timg.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/timg.jpg?ref=33a251dc80a82869bb6d167e3979d4d3e97fed57"
+  } ],
+  "sha" : "fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fc5ff50fb5bfc3539ce3883df14cc688987b0836",
+  "parents" : [ {
+    "sha" : "33a251dc80a82869bb6d167e3979d4d3e97fed57",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/33a251dc80a82869bb6d167e3979d4d3e97fed57",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/33a251dc80a82869bb6d167e3979d4d3e97fed57"
+  } ]
+}

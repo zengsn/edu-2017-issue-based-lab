@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 113,
+    "additions" : 111,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f",
+  "commit" : {
+    "author" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-04-26T10:21:34Z"
+    },
+    "committer" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-04-26T10:21:34Z"
+    },
+    "message" : "#2 #16 第二次作业\n\n第二次实验",
+    "tree" : {
+      "sha" : "c91c5e0bd1aaa095715c38e157fe97553b58ac9e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c91c5e0bd1aaa095715c38e157fe97553b58ac9e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f/comments",
+  "files" : [ {
+    "sha" : "e06bc392e3b5967ecf418d8fc56e3d1e8e588d2f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112.java",
+    "status" : "added",
+    "additions" : 95,
+    "deletions" : 0,
+    "changes" : 95,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112.java?ref=409c14c85ce53bc1b019cd9d009d1f7c22a12c4f",
+    "patch" : "@@ -0,0 +1,95 @@\n+package com.edu.hzuapps.androidlabs.net1414080903112;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.app.Activity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.AdapterView.OnItemSelectedListener;\n+import android.widget.ArrayAdapter;\n+import android.widget.Spinner;\n+import android.widget.TextView;\n+import android.content.Intent;\n+import android.view.View;//注意view的大小写\n+import android.view.View.OnClickListener;\n+import android.os.Bundle;\n+import android.widget.Button;\n+public class Net1414080903112 extends AppCompatActivity {\n+\n+    private static final String[] m={\"星期一\",\"星期二\",\"星期三\",\"星期四\",\"星期五\"};\n+    private TextView view ;\n+    private Spinner spinner;\n+    private ArrayAdapter<String> adapter;\n+    private TextView view2;\n+    private Spinner spinner2;\n+    private ArrayAdapter adapter2;\n+    private Button my_button = null;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        // TODO Auto-generated method stub\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.spinner);\n+\n+        Button btn1=(Button)findViewById(R.id.button);\n+\n+        //给btn1绑定监听事件\n+        btn1.setOnClickListener(new OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+\n+                // 给bnt1添加点击响应事件,即带参数跳转到另一页面（参数为空课室数据的筛选参数）\n+                Intent intent =new Intent(Net1414080903112.this,Net1414080903112Activity.class);\n+                intent.putExtra(\"weekday\", view.getText());\n+                intent.putExtra(\"time\", view2.getText());\n+                //启动\n+                startActivity(intent);\n+            }\n+        });\n+\n+        view = (TextView) findViewById(R.id.spinnerText);\n+        spinner = (Spinner) findViewById(R.id.Spinner01);\n+        spinner2 = (Spinner) findViewById(R.id.Spinner02);\n+        view2 = (TextView) findViewById(R.id.spinnerText2);\n+        //将可选内容与ArrayAdapter连接起来\n+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,m);\n+        adapter2 = ArrayAdapter.createFromResource(this, R.array.plantes, android.R.layout.simple_spinner_item);\n+        //设置下拉列表的风格\n+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);\n+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);\n+        //将adapter 添加到spinner中\n+        spinner.setAdapter(adapter);\n+        spinner2.setAdapter(adapter2);\n+        //添加事件Spinner事件监听\n+        spinner.setOnItemSelectedListener(new SpinnerSelectedListener());\n+        spinner2.setOnItemSelectedListener(new SpinnerXMLSelectedListener());\n+        //设置默认值\n+        spinner.setVisibility(View.VISIBLE);\n+        spinner2.setVisibility(View.VISIBLE);\n+    }\n+\n+    //使用数组形式操作，对用户选择的下拉框内容进行读取\n+    class SpinnerSelectedListener implements OnItemSelectedListener{\n+\n+        public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,\n+                                   long arg3) {\n+            view.setText(\"你选择的是：\"+m[arg2]);\n+        }\n+\n+        public void onNothingSelected(AdapterView<?> arg0) {\n+        }\n+    }\n+    //使用XML形式操作，对用户选择的下拉框内容进行读取\n+    class SpinnerXMLSelectedListener implements OnItemSelectedListener{\n+        public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,\n+                                   long arg3) {\n+            view2.setText(\"你选择的是：\"+adapter2.getItem(arg2));\n+        }\n+\n+        public void onNothingSelected(AdapterView<?> arg0) {\n+\n+        }\n+\n+    }\n+\n+}"
+  }, {
+    "sha" : "3dc257733c789ad1a131b7ee9f0e84b219121b7f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java",
+    "status" : "modified",
+    "additions" : 16,
+    "deletions" : 2,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/Net1414080903112Activity.java?ref=409c14c85ce53bc1b019cd9d009d1f7c22a12c4f",
+    "patch" : "@@ -1,8 +1,22 @@\n-package edu.hzuapps.androidlabs.homeworks.Net1414080903112;\n+package com.edu.hzuapps.androidlabs.net1414080903112;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n-\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.app.Activity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.AdapterView.OnItemSelectedListener;\n+import android.widget.ArrayAdapter;\n+import android.widget.Spinner;\n+import android.widget.TextView;\n+import android.content.Intent;\n+import android.view.View;//注意view的大小写\n+import android.view.View.OnClickListener;\n+import android.os.Bundle;\n+import android.widget.Button;\n public class Net1414080903112Activity extends AppCompatActivity {\n \n     @Override"
+  } ],
+  "sha" : "409c14c85ce53bc1b019cd9d009d1f7c22a12c4f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/409c14c85ce53bc1b019cd9d009d1f7c22a12c4f",
+  "parents" : [ {
+    "sha" : "ad46881bfe83ef5db9835bca07659c20a7f99549",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ad46881bfe83ef5db9835bca07659c20a7f99549",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ad46881bfe83ef5db9835bca07659c20a7f99549"
+  } ]
+}

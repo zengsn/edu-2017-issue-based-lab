@@ -1,0 +1,604 @@
+[ {
+  "sha" : "abeaf9da7e713f4abdf5ff6d0564763d1bc40f52",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:06:28Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:06:28Z"
+    },
+    "message" : "weather.json",
+    "tree" : {
+      "sha" : "2f586e7be7c2bce21f4d0a76bbdcd091727dfc2e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2f586e7be7c2bce21f4d0a76bbdcd091727dfc2e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/abeaf9da7e713f4abdf5ff6d0564763d1bc40f52",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/abeaf9da7e713f4abdf5ff6d0564763d1bc40f52",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/abeaf9da7e713f4abdf5ff6d0564763d1bc40f52",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/abeaf9da7e713f4abdf5ff6d0564763d1bc40f52/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/09dfa2e50a71fa9d2f52a9c06455090ac6350729"
+  } ]
+}, {
+  "sha" : "f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:13:44Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:13:44Z"
+    },
+    "message" : "weather.json",
+    "tree" : {
+      "sha" : "726058faa0eabd8407098f280febe1e6f68a02ec",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/726058faa0eabd8407098f280febe1e6f68a02ec"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f631076ae3553e20a4dc29dc3d01ecceaac9c554/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "abeaf9da7e713f4abdf5ff6d0564763d1bc40f52",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/abeaf9da7e713f4abdf5ff6d0564763d1bc40f52",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/abeaf9da7e713f4abdf5ff6d0564763d1bc40f52"
+  } ]
+}, {
+  "sha" : "0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:49:05Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T09:49:05Z"
+    },
+    "message" : "weather.xml",
+    "tree" : {
+      "sha" : "ab18399fc87fefdcffcd3bfba224906492dfab6e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ab18399fc87fefdcffcd3bfba224906492dfab6e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f631076ae3553e20a4dc29dc3d01ecceaac9c554",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f631076ae3553e20a4dc29dc3d01ecceaac9c554"
+  } ]
+}, {
+  "sha" : "7785966f8862d73a245f587d1cd4b11cf0dcb889",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:03:00Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-19T10:03:00Z"
+    },
+    "message" : "Delete weather.xml",
+    "tree" : {
+      "sha" : "726058faa0eabd8407098f280febe1e6f68a02ec",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/726058faa0eabd8407098f280febe1e6f68a02ec"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/7785966f8862d73a245f587d1cd4b11cf0dcb889",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7785966f8862d73a245f587d1cd4b11cf0dcb889",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7785966f8862d73a245f587d1cd4b11cf0dcb889",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7785966f8862d73a245f587d1cd4b11cf0dcb889/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0adaa78988d50fc368a97d3a2fa9df240fa2e273",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0adaa78988d50fc368a97d3a2fa9df240fa2e273"
+  } ]
+}, {
+  "sha" : "9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:03:10Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-19T10:03:10Z"
+    },
+    "message" : "Delete weather",
+    "tree" : {
+      "sha" : "5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "7785966f8862d73a245f587d1cd4b11cf0dcb889",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7785966f8862d73a245f587d1cd4b11cf0dcb889",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7785966f8862d73a245f587d1cd4b11cf0dcb889"
+  } ]
+}, {
+  "sha" : "dcc9450a507b680bfc7bc00b48fec985049949a0",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:05:51Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:05:51Z"
+    },
+    "message" : "weather.xml",
+    "tree" : {
+      "sha" : "451e442519ccc074f8e874971d7dddea1c5760b8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/451e442519ccc074f8e874971d7dddea1c5760b8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/dcc9450a507b680bfc7bc00b48fec985049949a0",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/dcc9450a507b680bfc7bc00b48fec985049949a0",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/dcc9450a507b680bfc7bc00b48fec985049949a0",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/dcc9450a507b680bfc7bc00b48fec985049949a0/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9db364c500d4bf8b9a1bbaf2646bf267fcbf9a68"
+  } ]
+}, {
+  "sha" : "727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:14:52Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-19T10:14:52Z"
+    },
+    "message" : "Delete weather.xml",
+    "tree" : {
+      "sha" : "5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "dcc9450a507b680bfc7bc00b48fec985049949a0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/dcc9450a507b680bfc7bc00b48fec985049949a0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/dcc9450a507b680bfc7bc00b48fec985049949a0"
+  } ]
+}, {
+  "sha" : "02ec46dca304e36cb0d1691170c2ba6f166df7b5",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:50:00Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:50:00Z"
+    },
+    "message" : "weather.xml",
+    "tree" : {
+      "sha" : "9b34f5d304d8e9f36cfafdedacd166fb0da2fedc",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9b34f5d304d8e9f36cfafdedacd166fb0da2fedc"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/02ec46dca304e36cb0d1691170c2ba6f166df7b5",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/02ec46dca304e36cb0d1691170c2ba6f166df7b5",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/02ec46dca304e36cb0d1691170c2ba6f166df7b5",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/02ec46dca304e36cb0d1691170c2ba6f166df7b5/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6"
+  } ]
+}, {
+  "sha" : "aa2412462e32618f4814cb177e329e349a43f0cf",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T11:16:55Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T11:16:55Z"
+    },
+    "message" : "#5 #33 第六次作业",
+    "tree" : {
+      "sha" : "8796dc93cdf00e7befc45437583fdd49d19810ad",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8796dc93cdf00e7befc45437583fdd49d19810ad"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/aa2412462e32618f4814cb177e329e349a43f0cf",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aa2412462e32618f4814cb177e329e349a43f0cf",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/aa2412462e32618f4814cb177e329e349a43f0cf",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aa2412462e32618f4814cb177e329e349a43f0cf/comments",
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "02ec46dca304e36cb0d1691170c2ba6f166df7b5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/02ec46dca304e36cb0d1691170c2ba6f166df7b5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/02ec46dca304e36cb0d1691170c2ba6f166df7b5"
+  } ]
+} ]

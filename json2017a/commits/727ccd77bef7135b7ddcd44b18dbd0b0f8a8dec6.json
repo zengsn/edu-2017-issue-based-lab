@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 0,
+    "deletions" : 6
+  },
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-06-19T10:14:52Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-19T10:14:52Z"
+    },
+    "message" : "Delete weather.xml",
+    "tree" : {
+      "sha" : "5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6/comments",
+  "files" : [ {
+    "sha" : "579a4784e5e60bbfde2a633d2502fa769a01ed60",
+    "filename" : "AndroidLabs/app/src/main/res/values/weather.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 6,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/dcc9450a507b680bfc7bc00b48fec985049949a0/AndroidLabs/app/src/main/res/values/weather.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/dcc9450a507b680bfc7bc00b48fec985049949a0/AndroidLabs/app/src/main/res/values/weather.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/weather.xml?ref=dcc9450a507b680bfc7bc00b48fec985049949a0",
+    "patch" : "@@ -1,6 +0,0 @@\n-﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<resources>\n-    <city>惠州</city>\n-    <wendu>25</wendu>\n-    <type>大雨</type>\n-</resources>"
+  } ],
+  "sha" : "727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/727ccd77bef7135b7ddcd44b18dbd0b0f8a8dec6",
+  "parents" : [ {
+    "sha" : "dcc9450a507b680bfc7bc00b48fec985049949a0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/dcc9450a507b680bfc7bc00b48fec985049949a0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/dcc9450a507b680bfc7bc00b48fec985049949a0"
+  } ]
+}

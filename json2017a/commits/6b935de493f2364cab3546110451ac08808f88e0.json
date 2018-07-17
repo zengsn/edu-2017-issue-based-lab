@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 4,
+    "additions" : 2,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6b935de493f2364cab3546110451ac08808f88e0",
+  "commit" : {
+    "author" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-03-12T13:19:07Z"
+    },
+    "committer" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-03-12T13:19:07Z"
+    },
+    "message" : "#1 #146 第一次作业",
+    "tree" : {
+      "sha" : "ce385b8b5e087c42e19a2fe551c4e91d2db212fa",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ce385b8b5e087c42e19a2fe551c4e91d2db212fa"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/6b935de493f2364cab3546110451ac08808f88e0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6b935de493f2364cab3546110451ac08808f88e0/comments",
+  "files" : [ {
+    "sha" : "23419f358a9fa5c2ed4f72fda7868650d6d971a1",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6b935de493f2364cab3546110451ac08808f88e0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6b935de493f2364cab3546110451ac08808f88e0/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Activity.java?ref=6b935de493f2364cab3546110451ac08808f88e0",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapps.androidlabs;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903235;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;"
+  }, {
+    "sha" : "5c2c8b86feb9c5e478403be6c47ddda8300432d8",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903235.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6b935de493f2364cab3546110451ac08808f88e0/AndroidLabs/app/src/main/res/layout/activity_net1414080903235.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6b935de493f2364cab3546110451ac08808f88e0/AndroidLabs/app/src/main/res/layout/activity_net1414080903235.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903235.xml?ref=6b935de493f2364cab3546110451ac08808f88e0",
+    "patch" : "@@ -4,7 +4,7 @@\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    tools:context=\"edu.hzuapps.androidlabs.Net1414080903235Activity\">\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903235.Net1414080903235Activity\">\n \n     <TextView\n         android:layout_width=\"wrap_content\""
+  } ],
+  "sha" : "6b935de493f2364cab3546110451ac08808f88e0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6b935de493f2364cab3546110451ac08808f88e0",
+  "parents" : [ {
+    "sha" : "68af1b35a63f8f9700777fd14520223bc2b02dc0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/68af1b35a63f8f9700777fd14520223bc2b02dc0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/68af1b35a63f8f9700777fd14520223bc2b02dc0"
+  } ]
+}

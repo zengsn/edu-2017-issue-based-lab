@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 52,
+    "additions" : 41,
+    "deletions" : 11
+  },
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-21T05:03:57Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-21T05:03:57Z"
+    },
+    "message" : "#5 #15 第五次实验",
+    "tree" : {
+      "sha" : "bf0dd8d2bef64cf71e83ce68f4f6824d4896f61b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/bf0dd8d2bef64cf71e83ce68f4f6824d4896f61b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/95c1a2246fef1e0435ba49a2c88db3c5e169faed/comments",
+  "files" : [ {
+    "sha" : "8b757677f3a0c2990c61b0e401edc2b4ce236f5b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "status" : "modified",
+    "additions" : 30,
+    "deletions" : 10,
+    "changes" : 40,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95c1a2246fef1e0435ba49a2c88db3c5e169faed/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95c1a2246fef1e0435ba49a2c88db3c5e169faed/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java?ref=95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+    "patch" : "@@ -1,28 +1,48 @@\n package edu.hzuapps.androidlabs.homework.net1414080903230;\n \n+import android.content.Intent;\n import android.os.Bundle;\n+import android.os.Environment;\n import android.support.v4.app.Fragment;\n+import android.util.Log;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n+import android.widget.ListView;\n+import android.widget.SimpleAdapter;\n+\n+import java.io.File;\n+import java.util.ArrayList;\n+import java.util.HashMap;\n+import java.util.List;\n+\n \n-/**\n- * A simple {@link Fragment} subclass.\n- * Activities that contain this fragment must implement the\n- * {@link Net1414080903230_DiaryFragment.OnFragmentInteractionListener} interface\n- * to handle interaction events.\n- * Use the {@link Net1414080903230_DiaryFragment#newInstance} factory method to\n- * create an instance of this fragment.\n- */\n public class Net1414080903230_DiaryFragment extends Fragment {\n+\n+    /*\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        View view = inflater.inflate(R.layout.fragment_net1414080903230__diary, container, false);\n+        view.findViewById(R.id.btn_writediary).setOnClickListener(new View.OnClickListener(){\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(getActivity(), Net1414080903230_WriteDiaryActivity.class);\n+                startActivity(intent);\n+\n+\n+            }\n+        });\n+        return view;\n+    }\n+    */\n     private ListView list_show;\n \n \n     private View specItemView;\n \n     public Net1414080903230_DiaryFragment() {\n     }\n-\tpublic View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n         View view = inflater.inflate(R.layout.fragment_net1414080903230__diary, container, false);\n         view.findViewById(R.id.btn_writediary).setOnClickListener(new View.OnClickListener(){\n             @Override\n@@ -59,7 +79,7 @@ public void onClick(View v) {\n \n             list_show = (ListView) view.findViewById(R.id.diary_list);\n \n-            SimpleAdapter spa = new SimpleAdapter(getActivity(), specs, R.layout.spec_item_list_1414080903230,\n+            SimpleAdapter spa = new SimpleAdapter(getActivity(), specs, R.layout.spec_item_list_net1414080903230,\n                     new String[]{\"seq\", \"name\"}, new int[]{R.id.seq, R.id.name});\n             list_show.setAdapter(spa);\n         }catch(NullPointerException e){"
+  }, {
+    "sha" : "e40c502710a6835eedf1b0597617a4f0fbe8400c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "status" : "modified",
+    "additions" : 11,
+    "deletions" : 1,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/95c1a2246fef1e0435ba49a2c88db3c5e169faed/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/95c1a2246fef1e0435ba49a2c88db3c5e169faed/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java?ref=95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+    "patch" : "@@ -1,14 +1,24 @@\n package edu.hzuapps.androidlabs.homework.net1414080903230;\n \n+import android.content.Context;\n+import android.content.Intent;\n import android.os.Bundle;\n+import android.os.Environment;\n import android.support.design.widget.FloatingActionButton;\n import android.support.design.widget.Snackbar;\n import android.support.v7.app.AppCompatActivity;\n import android.support.v7.widget.Toolbar;\n+import android.util.Log;\n import android.view.View;\n+import android.widget.Button;\n+import android.widget.TextView;\n \n-public class Net1414080903230_WriteDiaryActivity extends AppCompatActivity {\n+import java.io.FileOutputStream;\n+import    java.text.SimpleDateFormat;\n+import java.io.File;\n \n+public class Net1414080903230_WriteDiaryActivity extends AppCompatActivity {\n+    @Override\n     public void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903230__write_diary);"
+  } ],
+  "sha" : "95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/95c1a2246fef1e0435ba49a2c88db3c5e169faed",
+  "parents" : [ {
+    "sha" : "8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8d518a4a3eb2d85912ea9d5cbc2e49690c6eb6c2"
+  } ]
+}

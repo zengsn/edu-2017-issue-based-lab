@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "pengtianzhu",
+    "id" : 26187994,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26187994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengtianzhu",
+    "html_url" : "https://github.com/pengtianzhu",
+    "followers_url" : "https://api.github.com/users/pengtianzhu/followers",
+    "following_url" : "https://api.github.com/users/pengtianzhu/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengtianzhu/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengtianzhu/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengtianzhu/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengtianzhu/orgs",
+    "repos_url" : "https://api.github.com/users/pengtianzhu/repos",
+    "events_url" : "https://api.github.com/users/pengtianzhu/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengtianzhu/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/50769faa195dfb36fc2d0f87fcfb87868d92988f",
+  "commit" : {
+    "author" : {
+      "name" : "pengtianzhu",
+      "email" : "632395817@qq.com",
+      "date" : "2017-06-17T13:30:56Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-17T13:30:56Z"
+    },
+    "message" : "实验6",
+    "tree" : {
+      "sha" : "9ea8dc09aebd0112417bb8e104f2e4a408046fb0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9ea8dc09aebd0112417bb8e104f2e4a408046fb0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/50769faa195dfb36fc2d0f87fcfb87868d92988f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/50769faa195dfb36fc2d0f87fcfb87868d92988f/comments",
+  "files" : [ {
+    "sha" : "acc6fb616e2e9e725e6faef67a73c29373ddde08",
+    "filename" : "ptz17.xml",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50769faa195dfb36fc2d0f87fcfb87868d92988f/ptz17.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50769faa195dfb36fc2d0f87fcfb87868d92988f/ptz17.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/ptz17.xml?ref=50769faa195dfb36fc2d0f87fcfb87868d92988f",
+    "patch" : "@@ -0,0 +1 @@\n+������ 14����2�� 14140809030217 ��\n\\ No newline at end of file"
+  } ],
+  "sha" : "50769faa195dfb36fc2d0f87fcfb87868d92988f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/50769faa195dfb36fc2d0f87fcfb87868d92988f",
+  "parents" : [ {
+    "sha" : "6e9276e43c6ef36bfb2b57230ce20bfe6b98fdbb",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6e9276e43c6ef36bfb2b57230ce20bfe6b98fdbb",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6e9276e43c6ef36bfb2b57230ce20bfe6b98fdbb"
+  } ]
+}

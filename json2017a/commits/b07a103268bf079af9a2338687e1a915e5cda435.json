@@ -1,0 +1,49 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 178,
+    "additions" : 175,
+    "deletions" : 3
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b07a103268bf079af9a2338687e1a915e5cda435",
+  "commit" : {
+    "author" : {
+      "name" : "jackccc",
+      "email" : "mo_1905@163.com",
+      "date" : "2017-06-01T09:02:25Z"
+    },
+    "committer" : {
+      "name" : "jackccc",
+      "email" : "mo_1905@163.com",
+      "date" : "2017-06-01T09:02:25Z"
+    },
+    "message" : "#5 #12 第五次实验",
+    "tree" : {
+      "sha" : "06e856f877f5dcbd0d26c0af86bb0390d2759168",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/06e856f877f5dcbd0d26c0af86bb0390d2759168"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b07a103268bf079af9a2338687e1a915e5cda435",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b07a103268bf079af9a2338687e1a915e5cda435/comments",
+  "files" : [ {
+    "sha" : "e2afcf5e6bd51c86803f333d19a31c7e0075a2f9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java",
+    "status" : "modified",
+    "additions" : 175,
+    "deletions" : 3,
+    "changes" : 178,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b07a103268bf079af9a2338687e1a915e5cda435/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b07a103268bf079af9a2338687e1a915e5cda435/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/ui/LoginActivity.java?ref=b07a103268bf079af9a2338687e1a915e5cda435",
+    "patch" : "@@ -6,28 +6,200 @@\n \n import android.app.Activity;\n import android.content.Intent;\n+import android.content.SharedPreferences;\n+import android.nfc.Tag;\n import android.os.Bundle;\n+import android.os.PersistableBundle;\n import android.support.v7.app.AppCompatActivity;\n+import android.util.Log;\n import android.view.View;\n import android.view.Window;\n import android.view.View.OnClickListener;\n import android.widget.Button;\n+import android.widget.CheckBox;\n import android.widget.EditText;\n import android.widget.Toast;\n \n+import com.hyphenate.EMCallBack;\n+import com.hyphenate.chat.EMClient;\n+\n import edu.hzuapps.androidlabs.R;\n \n public class LoginActivity extends AppCompatActivity {\n-\tpublic static String userInfo;\n+\tpublic static final String SP_USER = \"user\";\n+\tprivate static final String TAG = LoginActivity.class.getSimpleName();\n+\tprivate static final int REQUEST_CODE_REGISTER = 0;\n+\tprivate static final String KEY_USERNAME = \"userName\";\n+\tprivate static final String KEY_PASSWORD = \"password\";\n+\tprivate static final String KEY_IS_REMEMBER_ME = \"isRemmemberMe\";\n \tEditText accountEt,passwordEt;\n+\tCheckBox rememberCb;\n+    Button btnLogin;\n \t\n \tprotected void onCreate(Bundle savedInstanceState) {\n \t\tsuper.onCreate(savedInstanceState);\n \t\trequestWindowFeature(Window.FEATURE_NO_TITLE);\n \t    setContentView(R.layout.net1414080903120_activity_login);\n-\t    \n+\n+\n \t    accountEt=(EditText) findViewById(R.id.et_account);\n \t    passwordEt=(EditText) findViewById(R.id.et_password);\n-\t    Button btnLogin=(Button) findViewById(R.id.btn_login);\n+\t\trememberCb = (CheckBox) findViewById(R.id.cb_remember);\n+\t    btnLogin=(Button) findViewById(R.id.btn_login);\n+\n+\t\trestoreUserInfo();   //恢复记住的密码\n+\n+\t\tfindViewById(R.id.btn_register).setOnClickListener(new OnClickListener() {\n+\t\t\t@Override\n+\t\t\tpublic void onClick(View v) {\n+\t\t\t\tIntent i = RegisterActivity.newIntent(LoginActivity.this, accountEt.getText().toString());\n+\t\t\t\tstartActivityForResult(i, REQUEST_CODE_REGISTER);\n+\t\t\t}\n+\t\t});\n+\n+\t\tEMClient.getInstance().logout(true, new EMCallBack() {\n+\n+\t\t\t@Override\n+\t\t\tpublic void onSuccess() {\n+\t\t\t\t// TODO Auto-generated method stub\n+\n+\t\t\t}\n+\n+\t\t\t@Override\n+\t\t\tpublic void onProgress(int progress, String status) {\n+\t\t\t\t// TODO Auto-generated method stub\n+\n+\t\t\t}\n+\n+\t\t\t@Override\n+\t\t\tpublic void onError(int code, String message) {\n+\t\t\t\t// TODO Auto-generated method stub\n+\n+\t\t\t}\n+\t\t});\n+\n+\t\tbtnLogin.setOnClickListener(new OnClickListener() {\n+\t\t\t@Override\n+\t\t\tpublic void onClick(View v) {\n+\t\t\t\tif (!checkLogin()) {   //检查用户名密码不为空\n+\t\t\t\t\treturn;\n+\t\t\t\t}\n+\n+\t\t\t\tEMClient.getInstance().login(accountEt.getText().toString(),passwordEt.getText().toString()\n+\t\t\t\t\t\t,new EMCallBack() {//回调\n+\t\t\t\t\t@Override\n+\t\t\t\t\tpublic void onSuccess() {\n+\t\t\t\t\t\tif (rememberCb.isChecked()) {   //如果记住密码为真，执行记住密码\n+\t\t\t\t\t\t\tsavaUserInfo();\n+\t\t\t\t\t\t}else {\n+\t\t\t\t\t\t\tclearUserInfo();\n+\t\t\t\t\t\t}\n+\t\t\t\t\t\tLog.d(TAG, \"登录聊天服务器成功！\");\n+\t\t\t\t\t\tIntent i = new Intent(LoginActivity.this, GroupListActivity.class);\n+\t\t\t\t\t\tstartActivity(i);\n+\t\t\t\t\t}\n+\n+\t\t\t\t\t@Override\n+\t\t\t\t\tpublic void onProgress(int progress, String status) {\n+\n+\t\t\t\t\t}\n+\n+\t\t\t\t\t@Override\n+\t\t\t\t\tpublic void onError(int code, final String message) {\n+                        Log.d(\"main\", \"登录聊天服务器失败！\");\n+                        runOnUiThread(new Runnable() {\n+\t\t\t\t\t\t\t@Override\n+\t\t\t\t\t\t\tpublic void run() {\n+\t\t\t\t\t\t\t\tToast.makeText(LoginActivity.this, \"登录失败\" + message, Toast.LENGTH_SHORT).show();\n+\t\t\t\t\t\t\t}\n+\t\t\t\t\t\t});\n+                    }\n+\t\t\t\t});\n+\t\t\t}\n+\t\t});\n+\t}\n+\n+\t/**\n+\t * 前端校验\n+\t * @return\n+\t */\n+\tprivate boolean checkLogin() {\n+\t\tif (accountEt.getText().toString().isEmpty()) {\n+\t\t\tToast.makeText(this, \"用户名不能为空\", Toast.LENGTH_SHORT).show();\n+\t\t\treturn false;\n+\t\t}\n+\n+\t\tif (passwordEt.getText().toString().isEmpty()) {\n+\t\t\tToast.makeText(this, \"密码不能为空\", Toast.LENGTH_SHORT).show();\n+\t\t\treturn false;\n+\t\t}\n+\n+\t\treturn true;\n+\t}\n+\n+\t/**\n+\t * 记住账户密码\n+\t */\n+\tprotected void savaUserInfo() {\n+\t\tSharedPreferences sp = getSharedPreferences(SP_USER, MODE_PRIVATE);\n+\t\tSharedPreferences.Editor editor = sp.edit();\n+\t\teditor.putString(KEY_PASSWORD, passwordEt.getText().toString());\n+\t\teditor.putString(KEY_USERNAME, accountEt.getText().toString());\n+\t\teditor.putBoolean(KEY_IS_REMEMBER_ME, rememberCb.isChecked());\n+\t\teditor.commit();\n+\t}\n+\n+\t/**\n+\t * 读取记住的密码\n+\t */\n+\tprotected void restoreUserInfo() {\n+\t\tSharedPreferences sp = getSharedPreferences(SP_USER, MODE_PRIVATE);\n+\t\tString userName = sp.getString(KEY_USERNAME, \"\");\n+\t\tString password = sp.getString(KEY_PASSWORD, \"\");\n+\t\tboolean isRememberMe = sp.getBoolean(KEY_IS_REMEMBER_ME, false);\n+\n+\t\taccountEt.setText(userName);\n+\t\tpasswordEt.setText(password);\n+\t\trememberCb.setChecked(isRememberMe);\n+\t}\n+\n+\t/**\n+\t * 清除密码\n+\t */\n+\tprotected void clearUserInfo() {\n+\t\tSharedPreferences sp = getSharedPreferences(SP_USER, MODE_PRIVATE);\n+\t\tSharedPreferences.Editor editor = sp.edit();\n+\t\teditor.clear();\n+\t\teditor.commit();\n+\t}\n+\n+\t@Override\n+\tprotected void onRestoreInstanceState(Bundle savedInstanceState) {\n+\t\tsuper.onRestoreInstanceState(savedInstanceState);\n+\t\tif (savedInstanceState != null) {\n+\t\t\taccountEt.setText(savedInstanceState.getString(KEY_USERNAME));\n+\t\t\tpasswordEt.setText(savedInstanceState.getString(KEY_PASSWORD));\n+\t\t\trememberCb.setChecked(savedInstanceState.getBoolean(KEY_IS_REMEMBER_ME));\n+\t\t}\n+\t}\n+\n+\t@Override\n+\tprotected void onSaveInstanceState(Bundle outState) {\n+\t\tsuper.onSaveInstanceState(outState);\n+\t\toutState.putString(KEY_USERNAME, accountEt.getText().toString());\n+\t\toutState.putString(KEY_PASSWORD, passwordEt.getText().toString());\n+\t\toutState.putBoolean(KEY_IS_REMEMBER_ME, rememberCb.isChecked());\n+\t}\n+\n+\t@Override\n+\tprotected void onActivityResult(int requestCode, int resultCode, Intent data) {\n+\t\tif (requestCode != RESULT_OK) {\n+\t\t\treturn;\n+\t\t}\n+\n+\t\tif (resultCode == REQUEST_CODE_REGISTER) {\n+\t\t\tString userName = RegisterActivity.getUserName(data);\n+\t\t\tthis.accountEt.setText(userName);\n+\t\t}\n \t}\n }"
+  } ],
+  "sha" : "b07a103268bf079af9a2338687e1a915e5cda435",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b07a103268bf079af9a2338687e1a915e5cda435",
+  "parents" : [ {
+    "sha" : "3f5ad76e2b986c10f836fdcfbab24f1ab439d36c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f5ad76e2b986c10f836fdcfbab24f1ab439d36c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3f5ad76e2b986c10f836fdcfbab24f1ab439d36c"
+  } ]
+}

@@ -1,0 +1,82 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 153,
+    "additions" : 148,
+    "deletions" : 5
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f4e8730f2f15525cb6405439d9fe65372a22aebe",
+  "commit" : {
+    "author" : {
+      "name" : "xiwu zhong",
+      "email" : "xiwu zhong",
+      "date" : "2017-06-05T15:37:22Z"
+    },
+    "committer" : {
+      "name" : "xiwu zhong",
+      "email" : "xiwu zhong",
+      "date" : "2017-06-05T15:37:22Z"
+    },
+    "message" : "#5 #90 第五次作业",
+    "tree" : {
+      "sha" : "ddcb4b690f9edcedcca1b98543547ea7706e0c4a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ddcb4b690f9edcedcca1b98543547ea7706e0c4a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f4e8730f2f15525cb6405439d9fe65372a22aebe",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f4e8730f2f15525cb6405439d9fe65372a22aebe/comments",
+  "files" : [ {
+    "sha" : "9473f455de3803ad2051e726880751ab7dad3969",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 3,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136Activity.java?ref=f4e8730f2f15525cb6405439d9fe65372a22aebe",
+    "patch" : "@@ -16,12 +16,13 @@\n import java.util.List;\n \n import edu.hzuapps.androidlabs.R;\n+import edu.hzuapps.androidlabs.homworks.net1414080903136.db.ExpressDB;\n \n public class Net1414080903136Activity extends FragmentActivity {\n     public static String url;\n-     Button bt;\n-     EditText et1;\n-     EditText et2;\n+    public static Button bt;\n+    public static EditText et1;\n+    public static EditText et2;\n     private ViewPager mViewpager;\n     private FragmentPagerAdapter mAdapter;\n     private List<Fragment> mDatas;\n@@ -37,6 +38,9 @@ protected void onCreate(Bundle savedInstanceState) {\n         initView();\n     }\n     private void initView() {\n+        bt= (Button) findViewById(R.id.bt);\n+        et1= (EditText) findViewById(R.id.et1);\n+        et2= (EditText) findViewById(R.id.et2);\n         ExpressInquiryTV= (TextView) findViewById(R.id.ExpressInquiry);\n         SiteQueryTV= (TextView) findViewById(R.id.SiteQuery);\n         MyExpressTV= (TextView) findViewById(R.id.MyExpress);"
+  }, {
+    "sha" : "01585c1cc71a179117d1529a471b5a6e153cda6d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136ExpressInquiry.java",
+    "status" : "modified",
+    "additions" : 36,
+    "deletions" : 2,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136ExpressInquiry.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136ExpressInquiry.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/Net1414080903136ExpressInquiry.java?ref=f4e8730f2f15525cb6405439d9fe65372a22aebe",
+    "patch" : "@@ -1,22 +1,56 @@\n package edu.hzuapps.androidlabs.homworks.net1414080903136;\n \n+import android.app.Activity;\n import android.os.Bundle;\n import android.support.annotation.Nullable;\n import android.support.v4.app.Fragment;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.TextView;\n \n import edu.hzuapps.androidlabs.R;\n+import edu.hzuapps.androidlabs.homworks.net1414080903136.db.ExpressDB;\n+import edu.hzuapps.androidlabs.homworks.net1414080903136.db.ExpressDao;\n+\n+import static edu.hzuapps.androidlabs.homworks.net1414080903136.Net1414080903136Activity.bt;\n \n /**\n  * Created by xx on 2017/5/15.\n  */\n \n public class Net1414080903136ExpressInquiry extends Fragment{\n+\n+    ExpressDB expressDB;\n+    private Button queryBt;\n+    private EditText comName;\n+    private EditText exNum;\n+    private ExpressDao expressDao;\n     @Nullable\n     @Override\n     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {\n-        return inflater.inflate(R.layout.tab1_net1414080903136,container,false);\n+        View view=inflater.inflate(R.layout.tab1_net1414080903136,container,false);\n+        queryBt= (Button) view.findViewById(R.id.bt);\n+        comName= (EditText) view.findViewById(R.id.et1);\n+        exNum=(EditText) view.findViewById(R.id.et2);\n+        expressDao=new ExpressDao(getContext());\n+        queryBt.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                //测试数据\n+                String companyName=comName.getText().toString();\n+                String expressNum=exNum.getText().toString();\n+                String date=\"2017-5-18\";\n+                String content=\"惠州学院快递服务站正在第1次派件 电话:15766844117 请保持电话畅通、耐心等待\";\n+                String state=\"派件\";\n+                expressDao.insert(companyName,expressNum,date,content,state);\n+            }\n+        });\n+        return view;\n+\n+\n     }\n-}\n\\ No newline at end of file\n+\n+}"
+  }, {
+    "sha" : "53ff181f1a2e7c2af2d9cd18d4adefb9f8ddde37",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDB.java",
+    "status" : "added",
+    "additions" : 44,
+    "deletions" : 0,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDB.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDB.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDB.java?ref=f4e8730f2f15525cb6405439d9fe65372a22aebe",
+    "patch" : "@@ -0,0 +1,44 @@\n+\n+package edu.hzuapps.androidlabs.homworks.net1414080903136.db;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+\n+\n+\n+public class ExpressDB extends SQLiteOpenHelper{\n+\n+    //数据库版本号\n+    private static final int DATABASE_VERSION=1;\n+    //数据库名称\n+    private static final String DATABASE_NAME=\"express.db\";\n+    public ExpressDB(Context context){\n+        super(context,DATABASE_NAME,null,DATABASE_VERSION);\n+    }\n+\n+\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+\n+        //创建数据表\n+\n+      String CREATE_TABLE_EXPRESS=\"CREATE TABLE Express(\"\n+                +\"ExpressCom TEXT,\"\n+                +\"ExNumber TEXT,\"\n+                +\"ExTime TEXT,\"\n+                +\"ExContext TEXT,\"\n+                +\"ExStatus TEXT)\";\n+        db.execSQL(CREATE_TABLE_EXPRESS);\n+   }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+        db.execSQL(\"DROP TABLE IF EXISTS Express\");\n+\n+        onCreate(db);\n+    }\n+}\n+"
+  }, {
+    "sha" : "ad46ad5e1faf8b6a0edb89b6f94d26ee33febc9e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDao.java",
+    "status" : "added",
+    "additions" : 61,
+    "deletions" : 0,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDao.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f4e8730f2f15525cb6405439d9fe65372a22aebe/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDao.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903136/db/ExpressDao.java?ref=f4e8730f2f15525cb6405439d9fe65372a22aebe",
+    "patch" : "@@ -0,0 +1,61 @@\n+package edu.hzuapps.androidlabs.homworks.net1414080903136.db;\n+\n+import android.content.ContentValues;\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+\n+\n+public class ExpressDao  {\n+    private ExpressDB expressDB;\n+\n+    public ExpressDao(Context context){\n+        expressDB=new ExpressDB(context);\n+    }\n+\n+    public int insert(String company,String exNum,String time,String context,String status){\n+        SQLiteDatabase db=expressDB.getWritableDatabase();\n+        ContentValues values=new ContentValues();\n+        values.put(\"ExpressCom\",company);\n+        values.put(\"ExNumber\",exNum);\n+        values.put(\"ExTime\",time);\n+        values.put(\"ExContext\",context);\n+        values.put(\"ExStatus\",status);\n+        long exID=db.insert(\"Express\",null,values);\n+        db.close();\n+        return (int)exID;\n+    }\n+    public void update(String company,String exNum,String time,String context,String status){\n+        SQLiteDatabase db=expressDB.getWritableDatabase();\n+        ContentValues values=new ContentValues();\n+\n+        values.put(\"ExTime\",time);\n+        values.put(\"ExContext\",context);\n+        values.put(\"ExStatus\",status);\n+        db.update(\"Express\",values,\"ExNumber=?\",new String[] {exNum });\n+        db.close();\n+    }\n+\n+    public String getContentById(String ExNumber){\n+        SQLiteDatabase db=expressDB.getReadableDatabase();\n+        String content=\"\";\n+        String selectQuery=\"SELECT *\"+\n+                \" FROM Express\"\n+                + \" WHERE \"\n+                +\"ExNumber=?\";\n+        int iCount=0;\n+        Cursor cursor=db.rawQuery(selectQuery,new String[]{ExNumber});\n+        if(cursor.moveToFirst()){\n+            do{\n+                content =cursor.getString(cursor.getColumnIndex(\"ExContext\"));\n+            }while(cursor.moveToNext());\n+        }\n+        cursor.close();\n+        db.close();\n+        return content;\n+    }\n+\n+\n+\n+\n+}"
+  } ],
+  "sha" : "f4e8730f2f15525cb6405439d9fe65372a22aebe",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f4e8730f2f15525cb6405439d9fe65372a22aebe",
+  "parents" : [ {
+    "sha" : "7f72b8e46b20feaa8f996a8a437ed79bed37e3e6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7f72b8e46b20feaa8f996a8a437ed79bed37e3e6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7f72b8e46b20feaa8f996a8a437ed79bed37e3e6"
+  } ]
+}

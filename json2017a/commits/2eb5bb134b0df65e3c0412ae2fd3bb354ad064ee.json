@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 119,
+    "additions" : 106,
+    "deletions" : 13
+  },
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-27T07:34:56Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-27T07:34:56Z"
+    },
+    "message" : "#6 #15 第六次实验",
+    "tree" : {
+      "sha" : "4880d944825d3d5ddd4c5317b7cacc93b50ab064",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4880d944825d3d5ddd4c5317b7cacc93b50ab064"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee/comments",
+  "files" : [ {
+    "sha" : "cade9d1ca9e69aeaf032d204f0f6fb67a2c81c2b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "status" : "modified",
+    "additions" : 93,
+    "deletions" : 8,
+    "changes" : 101,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java?ref=2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee",
+    "patch" : "@@ -1,23 +1,108 @@\n package edu.hzuapps.androidlabs.homework.net1414080903230;\n \n import android.os.Bundle;\n+import android.os.Handler;\n import android.support.v4.app.Fragment;\n+import android.util.Log;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n+import android.widget.*;\n+import android.os.Environment;\n+\n+import java.io.File;\n+import java.io.IOException;\n+\n+import org.jsoup.Jsoup;\n+import org.jsoup.nodes.Document;\n+import org.jsoup.nodes.Element;\n+import org.jsoup.select.Elements;\n \n \n-/**\n- * A simple {@link Fragment} subclass.\n- * Activities that contain this fragment must implement the\n- * {@link Net1414080903230_UserFragment.OnFragmentInteractionListener} interface\n- * to handle interaction events.\n- * Use the {@link Net1414080903230_UserFragment#newInstance} factory method to\n- * create an instance of this fragment.\n- */\n public class Net1414080903230_UserFragment extends Fragment {\n+    TextView text;\n+    private Handler handler=null;\n+    private TextView textView=null;\n+    private String da=\"\";\n+\n     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n         View view = inflater.inflate(R.layout.fragment_net1414080903230__user, container, false);\n+        handler=new Handler();\n+\n+        Button button = (Button) view.findViewById(R.id.button2);\n+        text=(TextView) view.findViewById(R.id.user_content);\n+        textView = (TextView) view.findViewById(R.id.user_content);\n+        button.setOnClickListener(new submitOnClieckListener());\n+        /*\n+        button.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View view) {\n+                //new Thread(new GetData()).start();\n+                new Thread(new Runnable() {\n+                    public void run() {\n+\n+                        try {\n+                            Document doc = Jsoup.connect(\"https://github.com/shezhiming/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/data.xml\").get();\n+                            int i = 0;\n+                            Elements data = doc.select(\"#LC\"+i);\n+                            while(!data.isEmpty()){\n+                                da += data.text();\n+                                i++;\n+                                data = doc.select(\"#LC\"+i);\n+                            }\n+                            textView.setText(da);\n+                        }catch(IOException e){\n+                            System.out.println(\"in procedure, catch ArithmeticException: \" + e);\n+                        }\n+                        handler.post(runnableUi);\n+                    }\n+                }).start();\n+\n+            }\n+        });\n+        */\n         return view;\n     }\n+\n+    class submitOnClieckListener implements View.OnClickListener {\n+        @Override\n+        public void onClick(View v) {\n+//本地机器部署为服务器，从本地下载a.txt文件内容在textView上显示\n+            new Thread(){\n+                public void run(){\n+                    try {\n+\n+                        Document doc = Jsoup.connect(\"https://github.com/shezhiming/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/data.xml\").get();\n+                        int i = 1;\n+                        Elements data = doc.select(\"#LC\"+i);\n+                        while(!data.isEmpty()){\n+                            da += data.text();\n+                            i++;\n+                            data = doc.select(\"#LC\"+i);\n+                        }\n+\n+                        //Log.d(\"test\",da);\n+                        //textView.setText(da);\n+                    }catch(IOException e){\n+                        System.out.println(\"in procedure, catch ArithmeticException: \" + e);\n+                    }\n+\n+                    handler.post(runnableUi);\n+                }\n+            }.start();\n+        }\n+\n+    }\n+\n+\n+\n+    Runnable   runnableUi=new  Runnable(){\n+        @Override\n+        public void run() {\n+            //更新界面\n+            textView.setText(da);\n+\n+        }\n+\n+    };\n }"
+  }, {
+    "sha" : "cf67ee17d072d51fe1920a4fc34db0f643f58012",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml",
+    "status" : "modified",
+    "additions" : 13,
+    "deletions" : 5,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml?ref=2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee",
+    "patch" : "@@ -2,12 +2,20 @@\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:gravity=\"center\"\n-    android:background=\"@color/aquamarine\"\n-    android:orientation=\"vertical\">\n+    android:background=\"@color/mintcream\"\n+    android:orientation=\"vertical\"\n+    android:id=\"@+id/user\">\n+\n     <TextView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"\"\n+        android:textSize=\"30sp\"\n+        android:id=\"@+id/user_content\" />\n+\n+    <Button\n+        android:text=\"获取信息\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:text=\"第一个页面\"\n-        android:textSize=\"22sp\"/>\n+        android:id=\"@+id/button2\" />\n </LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2eb5bb134b0df65e3c0412ae2fd3bb354ad064ee",
+  "parents" : [ {
+    "sha" : "0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0801216cdece33a35ab70cd0cc0ac0817d4bcefb",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0801216cdece33a35ab70cd0cc0ac0817d4bcefb"
+  } ]
+}

@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 50,
+    "additions" : 48,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7c03261e89f00a546200dd403d2b212aa028b34b",
+  "commit" : {
+    "author" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-06-15T07:16:04Z"
+    },
+    "committer" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-06-15T07:16:04Z"
+    },
+    "message" : "#6 #172 第六次作业",
+    "tree" : {
+      "sha" : "7ced4cade5f1a1a0baf44594de3128a7c5459efa",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7ced4cade5f1a1a0baf44594de3128a7c5459efa"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/7c03261e89f00a546200dd403d2b212aa028b34b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7c03261e89f00a546200dd403d2b212aa028b34b/comments",
+  "files" : [ {
+    "sha" : "4694512495fb9962c5e1582327a4ad63f05998ba",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net14140800903132tanchishe.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7c03261e89f00a546200dd403d2b212aa028b34b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net14140800903132tanchishe.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7c03261e89f00a546200dd403d2b212aa028b34b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net14140800903132tanchishe.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net14140800903132tanchishe.json?ref=7c03261e89f00a546200dd403d2b212aa028b34b",
+    "patch" : "@@ -0,0 +1 @@\n+[{\"QQnumber\":\"1293365398\"}]\n\\ No newline at end of file"
+  }, {
+    "sha" : "f7f757e0468800074280b811947b91f905a1c291",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132SnakeView.java",
+    "status" : "modified",
+    "additions" : 47,
+    "deletions" : 2,
+    "changes" : 49,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7c03261e89f00a546200dd403d2b212aa028b34b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132SnakeView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7c03261e89f00a546200dd403d2b212aa028b34b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132SnakeView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132SnakeView.java?ref=7c03261e89f00a546200dd403d2b212aa028b34b",
+    "patch" : "@@ -8,6 +8,9 @@\n import android.widget.Button;\n import android.widget.TextView;\n \n+import org.json.JSONArray;\n+import org.json.JSONObject;\n+\n import java.io.BufferedReader;\n import java.io.BufferedWriter;\n import java.io.FileInputStream;\n@@ -16,9 +19,13 @@\n import java.io.IOException;\n import java.io.InputStreamReader;\n import java.io.OutputStreamWriter;\n-\n+import java.util.logging.LogRecord;\n+import android.os.Handler;\n import edu.hzuapps.androidlabs.R;\n \n+import okhttp3.OkHttpClient;\n+import okhttp3.Request;\n+import okhttp3.Response;\n \n public class Net1414080903132SnakeView extends Net1414080903132mapView implements OnClickListener {\n \n@@ -58,6 +65,9 @@\n     private String lishi;//历史成绩\n     private double mModeAdd;//蛇前进速度增量\n     private long mMoveDelay;// 间隔多少毫秒进行移动一次\n+    private String QQnumberjson;//从json\n+    private String QQnumber;//QQ群号码\n+    private Handler handler=null;\n \n     public Net1414080903132SnakeView(Context context, AttributeSet att) {\n         super(context, att);\n@@ -83,6 +93,38 @@ public void setStartButton2(Button button) {\n         mStart2 = button;\n         mStart2.setOnClickListener(this);\n     }\n+    private void sendRequest() {\n+        new Thread(){\n+            public void run() {\n+                try {\n+                    OkHttpClient client = new OkHttpClient();\n+                    Request request = new Request.Builder().url(\"https://raw.githubusercontent.com/hizzj/android-labs-2017/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net14140809003132tanchishe.json\").build();//目标地址\n+                    Response response = client.newCall(request).execute();\n+                    String responseData = response.body().string();\n+                    AnalysisJson(responseData);\n+                } catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+                handler.post(runnableUi);\n+            }\n+        }.start();\n+    }\n+    Runnable runnableUi = new Runnable() {\n+           public void run() {\n+              QQnumber=QQnumberjson;\n+      }\n+    };\n+    private void AnalysisJson(String jsonData) {\n+            try {\n+                JSONArray jsonArray = new JSONArray(jsonData);\n+                for (int i = 0; i < jsonArray.length(); i++) {\n+                    JSONObject jsonObject = jsonArray.getJSONObject(i);\n+                    QQnumberjson = jsonObject.getString(\"QQnumber\");\n+                }\n+            } catch (Exception e) {\n+                 e.printStackTrace();\n+            }\n+        }\n     //获得当前游戏的状态\n     public void setMode(int newMode) {\n         int oldMode = mMode;\n@@ -113,7 +155,10 @@ public void setMode(int newMode) {\n             } catch (IOException e) {\n                 e.printStackTrace();\n             }\n-            str = res.getText(R.string.mode_ready)+\"\\n成绩：\"+lishi;\n+            handler=new Handler() ;\n+            sendRequest();\n+\n+            str = res.getText(R.string.mode_ready)+\"\\n成绩：\"+lishi+\"官方QQ群:\"+QQnumber;\n         }\n         //如果状态为LOSE，将历史成绩读出与当前成绩比较，如果比历史成绩大就将成绩储存起来\n         if (newMode == LOSE) {"
+  } ],
+  "sha" : "7c03261e89f00a546200dd403d2b212aa028b34b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7c03261e89f00a546200dd403d2b212aa028b34b",
+  "parents" : [ {
+    "sha" : "6b9b3e3f34b5f9e1d61ee5bdefd9ec4d465bcd66",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6b9b3e3f34b5f9e1d61ee5bdefd9ec4d465bcd66",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6b9b3e3f34b5f9e1d61ee5bdefd9ec4d465bcd66"
+  } ]
+}

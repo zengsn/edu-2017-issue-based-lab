@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 39,
+    "additions" : 38,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0e07009cb5aa818b39542afd54cffced313afaa2",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-08T07:49:18Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-08T07:49:18Z"
+    },
+    "message" : "#6 #76 第6次实验",
+    "tree" : {
+      "sha" : "9eb346ceb8918fcb0da1680698ce394ac18aa9a4",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9eb346ceb8918fcb0da1680698ce394ac18aa9a4"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0e07009cb5aa818b39542afd54cffced313afaa2",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0e07009cb5aa818b39542afd54cffced313afaa2/comments",
+  "files" : [ {
+    "sha" : "52dfd9a41d228efc6ff3685045090f221c28f6d4",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/net/WebUtil.java",
+    "status" : "modified",
+    "additions" : 38,
+    "deletions" : 1,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0e07009cb5aa818b39542afd54cffced313afaa2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/net/WebUtil.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0e07009cb5aa818b39542afd54cffced313afaa2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/net/WebUtil.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/net/WebUtil.java?ref=0e07009cb5aa818b39542afd54cffced313afaa2",
+    "patch" : "@@ -3,6 +3,7 @@\n import android.content.Context;\n import android.graphics.Bitmap;\n import android.os.Build;\n+import android.util.Log;\n import android.view.View;\n import android.webkit.JavascriptInterface;\n import android.webkit.WebResourceError;\n@@ -14,6 +15,8 @@\n \n import com.syd.oden.circleprogressdialog.core.CircleProgressDialog;\n \n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+\n /**\n  * ProjectName: knowdev\n  * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.net\n@@ -24,6 +27,11 @@\n public class WebUtil {\n     private CircleProgressDialog circleProgressDialog;\n     WebView webView;\n+    String url=\"\";\n+\n+   public WebUtil(String url){\n+       this.url=url;\n+   }\n \n     public void initSetting(WebView webView,Context context,CircleProgressDialog circleProgressDialog,boolean isZoom){\n         this.webView=webView;\n@@ -46,9 +54,35 @@ public void initSetting(WebView webView,Context context,CircleProgressDialog cir\n         }\n \n         webView.requestFocusFromTouch();\n+        WebInterface webAppInterface=new WebInterface(context);\n+        webView.addJavascriptInterface(webAppInterface,\"webInterface\");\n         webView.setWebViewClient(new WVC());\n     }\n \n+    private class WebInterface {\n+\n+        private Context context;\n+        public  WebInterface(Context context){\n+            this.context=context;\n+        }\n+\n+         /**\n+          * Method:  JS需要调用的方法：页面重新刷新\n+          * desription:\n+          * @Param:\n+          * @return:\n+          */\n+        @JavascriptInterface\n+        public void refresh(){\n+            webView.post(new Runnable() {\n+                @Override\n+                public void run() {\n+                    webView.loadUrl(url);\n+                }\n+            });\n+        }\n+\n+    }\n \n \n     private class WVC extends WebViewClient {\n@@ -57,7 +91,10 @@ public void initSetting(WebView webView,Context context,CircleProgressDialog cir\n         public void onPageStarted(WebView view, String url, Bitmap favicon) {\n             super.onPageStarted(view, url, favicon);\n             //webView.loadUrl(\"file:///android_asset/index.html\");\n-            circleProgressDialog.showDialog();\n+            if(circleProgressDialog!=null){\n+                circleProgressDialog.showDialog();\n+            }\n+\n         }\n \n         //页面加载结束时"
+  } ],
+  "sha" : "0e07009cb5aa818b39542afd54cffced313afaa2",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0e07009cb5aa818b39542afd54cffced313afaa2",
+  "parents" : [ {
+    "sha" : "e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d"
+  } ]
+}

@@ -1,0 +1,184 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 786,
+    "additions" : 786,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/baaa18df94e8113ef11d5628139bdb91220d7b1d",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-06T07:53:16Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-06T07:53:16Z"
+    },
+    "message" : "#2 #76 第二次实验",
+    "tree" : {
+      "sha" : "f1582334370154b6d362bd7df461a7aa73da0e7c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f1582334370154b6d362bd7df461a7aa73da0e7c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/baaa18df94e8113ef11d5628139bdb91220d7b1d/comments",
+  "files" : [ {
+    "sha" : "124751b7a8f14562bc26e9b97347d41e444133e7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java",
+    "status" : "added",
+    "additions" : 146,
+    "deletions" : 0,
+    "changes" : 146,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,146 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity;\n+\n+import android.net.Uri;\n+import android.support.v4.app.FragmentTransaction;\n+import android.support.v4.view.GravityCompat;\n+import android.support.v4.view.ViewPager;\n+import android.support.v4.widget.DrawerLayout;\n+import android.support.v7.app.ActionBarDrawerToggle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.Window;\n+import android.widget.RadioButton;\n+import android.widget.RadioGroup;\n+import android.widget.RadioGroup.OnCheckedChangeListener;\n+\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter.KnowFragmentPagerAdapter;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment.DevFragment;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment.NewsFragment;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity\n+ * Class describe:主活动类，主要用于管理Fragment\n+ * Author: cheng\n+ * Create time: 2017/5/3 12:43\n+ */\n+\n+\n+public class Net1414080903220MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener {\n+\n+    private RadioGroup tabRg;\n+    private RadioButton newsRb;\n+    private RadioButton devRb;\n+    private ViewPager viewPager;\n+\n+    DrawerLayout drawerLayout;\n+    KnowDevToolbar knowDevToolbar;\n+    private KnowFragmentPagerAdapter knowFragmentPagerAdapter;\n+    private FragmentTransaction transaction;\n+    public static final int NEWS_PAGE = 0;\n+    public static final int DEV_PAGE = 1;\n+    private NewsFragment newsFragment;\n+    private DevFragment devFragment;\n+\n+\n+\n+\n+\n+\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        requestWindowFeature(Window.FEATURE_NO_TITLE);\n+        setContentView(R.layout.activity_net1414080903220_main);\n+        knowFragmentPagerAdapter = new KnowFragmentPagerAdapter(getSupportFragmentManager());\n+\n+        newsFragment = new NewsFragment();\n+        devFragment = new DevFragment();\n+\n+        initView();\n+\n+        tabRg.setOnCheckedChangeListener(new OnCheckedChangeListener() {\n+            @Override\n+            public void onCheckedChanged(RadioGroup group, int checkedId) {\n+                switch (checkedId){\n+                    case R.id.rb_news:\n+                        viewPager.setCurrentItem(NEWS_PAGE);\n+                        break;\n+                    case R.id.rb_dev_article:\n+                        viewPager.setCurrentItem(DEV_PAGE);\n+                        break;\n+                }\n+            }\n+        });\n+\n+    }\n+\n+    private void initView() {\n+        tabRg = (RadioGroup) findViewById(R.id.rg_tab_bar);\n+        newsRb = (RadioButton) findViewById(R.id.rb_news);\n+        devRb = (RadioButton) findViewById(R.id.rb_dev_article);\n+\n+        drawerLayout= (DrawerLayout)findViewById(R.id.dl_left);\n+        knowDevToolbar= (KnowDevToolbar) findViewById(R.id.knowDevToolbar);\n+\n+        viewPager = (ViewPager) findViewById(R.id.vpager);\n+        viewPager.setAdapter(knowFragmentPagerAdapter);\n+        viewPager.setCurrentItem(0);\n+        viewPager.addOnPageChangeListener(this);\n+        viewPager.setOffscreenPageLimit(0);\n+        newsRb.setChecked(true);\n+        initDrawer();\n+    }\n+\n+    private void initDrawer() {\n+\n+\n+        knowDevToolbar.setMenuButtonOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                drawerLayout.openDrawer(GravityCompat.START);\n+            }\n+        });\n+    }\n+\n+\n+\n+    @Override\n+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {\n+\n+    }\n+\n+    @Override\n+    public void onPageSelected(int position) {\n+\n+    }\n+\n+    /**\n+     * 处理滑动完毕后radiobutton的状态\n+     *\n+     * @param state\n+     */\n+    @Override\n+    public void onPageScrollStateChanged(int state) {\n+        if (state == 2) {\n+            switch (viewPager.getCurrentItem()) {\n+                case NEWS_PAGE:\n+                    newsRb.setChecked(true);\n+                    break;\n+                case DEV_PAGE:\n+                    devRb.setChecked(true);\n+                    break;\n+            }\n+        }\n+    }\n+\n+\n+\n+}"
+  }, {
+    "sha" : "5329003ed2341dd1607b9e307189705b15116553",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java",
+    "status" : "added",
+    "additions" : 72,
+    "deletions" : 0,
+    "changes" : 72,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,72 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter;\n+\n+import android.support.v4.app.Fragment;\n+import android.support.v4.app.FragmentManager;\n+import android.view.ViewGroup;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity.Net1414080903220MainActivity;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment.DevFragment;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment.NewsFragment;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter\n+ * Class describe:ViewPager的适配器\n+ * Author: cheng\n+ * Create time: 2017/5/4 23:15\n+ */\n+\n+\n+public class KnowFragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter{\n+\n+    private NewsFragment newsFragment;\n+    private DevFragment devFragment;\n+    //private List<Fragment>fragmentList;\n+    public static final int FragmentCount=2;\n+    public KnowFragmentPagerAdapter(FragmentManager fm) {\n+        super(fm);\n+        //fragmentList=new ArrayList<Fragment>();\n+        newsFragment=new NewsFragment();\n+        devFragment=new DevFragment();\n+       // fragmentList.add(newsFragment);\n+\n+    }\n+\n+    /**\n+     * 通过position来选择切换的Fragment\n+     * @param position\n+     * @return\n+     */\n+    @Override\n+    public Fragment getItem(int position) {\n+        Fragment fragment=null;\n+        switch (position){\n+            case Net1414080903220MainActivity.NEWS_PAGE:\n+                fragment=newsFragment;\n+                break;\n+            case Net1414080903220MainActivity.DEV_PAGE:\n+                fragment=devFragment;\n+                break;\n+        }\n+        return fragment;\n+    }\n+\n+    @Override\n+    public int getCount() {\n+        return FragmentCount;\n+    }\n+\n+    @Override\n+    public Object instantiateItem(ViewGroup vg, int position) {\n+        return super.instantiateItem(vg, position);\n+    }\n+\n+    @Override\n+    public void destroyItem(ViewGroup container, int position, Object object) {\n+        System.out.println(\"position Destory\" + position);\n+        super.destroyItem(container, position, object);\n+    }\n+}"
+  }, {
+    "sha" : "ce6ed8c3efc2d7f3c108da544cd5fe95b1bd5af3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DetailNews.java",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DetailNews.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DetailNews.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DetailNews.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,42 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean;\n+\n+import java.io.Serializable;\n+import java.util.List;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/3 14:57\n+ */\n+\n+\n+/**\n+ * @Variable: type 新闻的类型\n+ * @Variable: newsList 返回的新闻集合\n+ */\n+public class DetailNews implements Serializable {\n+\n+    String type;\n+    List<News>newsList;\n+\n+    public String getType() {\n+        return type;\n+    }\n+\n+    public void setType(String type) {\n+        this.type = type;\n+\n+    }\n+\n+    public List<News> getNewsList() {\n+        return newsList;\n+    }\n+\n+    public void setNewsList(List<News> newsList) {\n+        this.newsList = newsList;\n+    }\n+\n+\n+}"
+  }, {
+    "sha" : "8f2b800af875937bca88ac789eb24ca1898aeda8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevArticle.java",
+    "status" : "added",
+    "additions" : 120,
+    "deletions" : 0,
+    "changes" : 120,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevArticle.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevArticle.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevArticle.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,120 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean;\n+\n+import java.io.Serializable;\n+import java.util.List;\n+\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/5 13:11\n+ */\n+\n+/**\n+ * _id:文章编号\n+ * createdAt：创建时间\n+ * desc：描述\n+ * images：图片\n+ * publishedAt：发布时间\n+ * source：来源\n+ * type：类型\n+ * url：地址\n+ * who：作者\n+ */\n+public class DevArticle implements Serializable {\n+    String _id;\n+    String createdAt;\n+    String desc;\n+    List<String> images;\n+    String publishedAt;\n+    String source;\n+    String type;\n+    String url;\n+    String used;\n+    String who;\n+\n+    public String getCreatedAt() {\n+        return createdAt;\n+    }\n+\n+    public void setCreatedAt(String createdAt) {\n+        this.createdAt = createdAt;\n+    }\n+\n+    public String get_id() {\n+        return _id;\n+    }\n+\n+    public void set_id(String _id) {\n+        this._id = _id;\n+    }\n+\n+    public String getDesc() {\n+        return desc;\n+    }\n+\n+    public void setDesc(String desc) {\n+        this.desc = desc;\n+    }\n+\n+    public List<String> getImages() {\n+        return images;\n+    }\n+\n+    public void setImages(List<String> images) {\n+        this.images = images;\n+    }\n+\n+    public String getPublishedAt() {\n+        return publishedAt;\n+    }\n+\n+    public void setPublishedAt(String publishedAt) {\n+        this.publishedAt = publishedAt;\n+    }\n+\n+    public String getSource() {\n+        return source;\n+    }\n+\n+    public void setSource(String source) {\n+        this.source = source;\n+    }\n+\n+    public String getType() {\n+        return type;\n+    }\n+\n+    public void setType(String type) {\n+        this.type = type;\n+    }\n+\n+    public String getUrl() {\n+        return url;\n+    }\n+\n+    public void setUrl(String url) {\n+        this.url = url;\n+    }\n+\n+    public String getUsed() {\n+        return used;\n+    }\n+\n+    public void setUsed(String used) {\n+        this.used = used;\n+    }\n+\n+    public String getWho() {\n+        return who;\n+    }\n+\n+    public void setWho(String who) {\n+        this.who = who;\n+    }\n+\n+\n+\n+}"
+  }, {
+    "sha" : "57de0d64a090dd14ad8954dfb31d6d819b89a1bf",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevBaseBean.java",
+    "status" : "added",
+    "additions" : 29,
+    "deletions" : 0,
+    "changes" : 29,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevBaseBean.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevBaseBean.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/DevBaseBean.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,29 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean;\n+\n+import java.io.Serializable;\n+import java.util.List;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/6 11:16\n+ */\n+public class DevBaseBean implements Serializable {\n+    private boolean error;\n+    private List<DevArticle> results;\n+    public void setError(boolean error) {\n+        this.error = error;\n+    }\n+    public boolean getError() {\n+        return error;\n+    }\n+\n+    public void setResults(List<DevArticle> results) {\n+        this.results = results;\n+    }\n+    public List<DevArticle> getResults() {\n+        return results;\n+    }\n+}"
+  }, {
+    "sha" : "3600d0e3f98d647718fb3798e54fb8e128b403f6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/News.java",
+    "status" : "added",
+    "additions" : 69,
+    "deletions" : 0,
+    "changes" : 69,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/News.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/News.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/News.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,69 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean;\n+\n+import java.io.Serializable;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/3 14:43\n+ */\n+\n+\n+/**\n+ * @Variable: ctime 新闻发布时间\n+ * @Variable: title 新闻标题\n+ * @Variable: description 新闻来源\n+ * @Variable: picUrl 新闻图片地址\n+ * @Variable: url 新闻源地址\n+ */\n+public class News implements Serializable{\n+\n+    String ctime;\n+    String title;\n+    String description;\n+    String picUrl;\n+    String url;\n+\n+    public String getCtime() {\n+        return ctime;\n+    }\n+\n+    public void setCtime(String ctime) {\n+        this.ctime = ctime;\n+    }\n+\n+    public String getTitle() {\n+        return title;\n+    }\n+\n+    public void setTitle(String title) {\n+        this.title = title;\n+    }\n+\n+    public String getDescription() {\n+        return description;\n+    }\n+\n+    public void setDescription(String description) {\n+        this.description = description;\n+    }\n+\n+    public String getPicUrl() {\n+        return picUrl;\n+    }\n+\n+    public void setPicUrl(String picUrl) {\n+        this.picUrl = picUrl;\n+    }\n+\n+    public String getUrl() {\n+        return url;\n+    }\n+\n+    public void setUrl(String url) {\n+        this.url = url;\n+    }\n+\n+}"
+  }, {
+    "sha" : "3a2856cab4a79966a0cf546663876e1da832ca20",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/NewsBaseBean.java",
+    "status" : "added",
+    "additions" : 37,
+    "deletions" : 0,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/NewsBaseBean.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/NewsBaseBean.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/bean/NewsBaseBean.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,37 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean;\n+\n+import java.io.Serializable;\n+import java.util.List;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/6 15:31\n+ */\n+public class NewsBaseBean implements Serializable {\n+    private int code;\n+    private String msg;\n+    private List<News> newslist;\n+    public void setCode(int code) {\n+        this.code = code;\n+    }\n+    public int getCode() {\n+        return code;\n+    }\n+\n+    public void setMsg(String msg) {\n+        this.msg = msg;\n+    }\n+    public String getMsg() {\n+        return msg;\n+    }\n+\n+    public void setNewslist(List<News> newslist) {\n+        this.newslist = newslist;\n+    }\n+    public List<News> getNewslist() {\n+        return newslist;\n+    }\n+}"
+  }, {
+    "sha" : "47e5ab3285d2dc4cf9cb57ef9ec106425c929d2d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,42 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment;\n+\n+import android.content.Context;\n+import android.os.Bundle;\n+import android.support.v4.app.Fragment;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity.Net1414080903220MainActivity;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment\n+ * Class describe:开发\n+ * Author: cheng\n+ * Create time: 2017/5/5 10:03\n+ */\n+public class DevFragment extends Fragment {\n+    LayoutInflater inflater;\n+    private KnowDevToolbar knowDevToolbar;\n+    @Override\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        View view=inflater.inflate(R.layout.fragment_net1414080903220_dev_article,container,false);\n+\n+        return view;\n+    }\n+\n+    @Override\n+    public void onAttach(Context context){\n+        super.onAttach(context);\n+        Net1414080903220MainActivity mainActivity= (Net1414080903220MainActivity) context;\n+        knowDevToolbar= (KnowDevToolbar) mainActivity.findViewById(R.id.knowDevToolbar);\n+        initToolbar();\n+    }\n+\n+\n+\n+}"
+  }, {
+    "sha" : "6904e00cd53b9ecbe8b1d0bc9f6d82df86d9df23",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java",
+    "status" : "added",
+    "additions" : 101,
+    "deletions" : 0,
+    "changes" : 101,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,101 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment;\n+\n+import android.content.Context;\n+import android.os.Bundle;\n+import android.support.design.widget.TabLayout;\n+import android.support.v4.app.Fragment;\n+import android.support.v4.view.GravityCompat;\n+import android.support.v4.widget.DrawerLayout;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity.Net1414080903220MainActivity;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.fragment\n+ * Class describe:头条新闻Fragment\n+ * Author: cheng\n+ * Create time: 2017/5/4 23:08\n+ */\n+public class NewsFragment extends Fragment implements TabLayout.OnTabSelectedListener,View.OnClickListener{\n+    LayoutInflater inflater;\n+    TabLayout newsTypeTabLayout;\n+\n+    public static final int TAG_KEJI=0;\n+    public static final int TAG_STARTUP=1;\n+    public static final int TAG_MOBILE=2;\n+    public static final int TAG_IT=3;\n+\n+    int texts[]={R.string.keji,R.string.startup,R.string.mobile,R.string.it};\n+    int tags[]={TAG_KEJI,TAG_STARTUP,TAG_MOBILE,TAG_IT};\n+\n+    private KnowDevToolbar knowDevToolbar;\n+    private DrawerLayout drawerLayout;\n+\n+    String FragmentTAG=\"NewsFragment\";\n+    View view;\n+    @Override\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        view=inflater.inflate(R.layout.fragment_net1414080903220_newslist,container,false);\n+\n+ \n+        initTab(view);\n+\n+        return view;\n+    }\n+\n+\n+    @Override\n+    public void onAttach(Context context){\n+        super.onAttach(context);\n+        Log.i(\"news\",\"attach\");\n+\n+        View contentView = getLayoutInflater().inflate(R.layout.activity_net1414080903220_rg, null);\n+        Net1414080903220MainActivity mainActivity= (Net1414080903220MainActivity) context;\n+        inflater=LayoutInflater.from(context);\n+        View contentView =inflater.inflate(R.layout.activity_net1414080903220_rg, null);\n+        knowDevToolbar= (KnowDevToolbar) contentView.findViewById(R.id.knowDevToolbar);\n+\n+    }\n+\n+\n+\n+    public void initTab(View view){\n+        newsTypeTabLayout=(TabLayout)view.findViewById(R.id.tab_layout);\n+        for(int i=0;i<4;i++){\n+            TabLayout.Tab tab=newsTypeTabLayout.newTab();\n+            tab.setText(texts[i]);\n+            tab.setTag(tags[i]);\n+            newsTypeTabLayout.addTab(tab);\n+        }\n+    }\n+\n+    @Override\n+    public void onTabSelected(TabLayout.Tab tab) {\n+        //当前只是测试tab点中是否有效，具体逻辑后期加入;\n+        String tabText= (String) tab.getText();\n+        Log.i(FragmentTAG,tabText);\n+    }\n+\n+    @Override\n+    public void onTabUnselected(TabLayout.Tab tab) {\n+\n+    }\n+\n+    @Override\n+    public void onTabReselected(TabLayout.Tab tab) {\n+        //当前只是测试tab点中是否有效，具体逻辑后期加入;\n+        String tabText= (String) tab.getText();\n+        Log.i(FragmentTAG,tabText);\n+    }\n+\n+    @Override\n+    public void onClick(View v) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "262ae4fcdfd5bd8eddaf6ac0f414f6c80a63c32e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java",
+    "status" : "added",
+    "additions" : 128,
+    "deletions" : 0,
+    "changes" : 128,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -0,0 +1,128 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget;\n+\n+import android.content.Context;\n+import android.graphics.drawable.Drawable;\n+import android.support.annotation.Nullable;\n+import android.support.v7.widget.TintTypedArray;\n+import android.support.v7.widget.Toolbar;\n+import android.util.AttributeSet;\n+import android.util.Log;\n+import android.view.Gravity;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.Button;\n+import android.widget.TextView;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget\n+ * Class describe:自定义toolbar\n+ * Author: cheng\n+ * Create time: 2017/5/3 16:12\n+ */\n+public class KnowDevToolbar extends Toolbar {\n+    private LayoutInflater inflater;\n+    private View view;\n+    private Button menuBt;\n+    private Button shareBt;\n+    private TextView title;\n+    public KnowDevToolbar(Context context) {\n+        this(context,null);\n+    }\n+\n+    public KnowDevToolbar(Context context, @Nullable AttributeSet attrs) {\n+        this(context, attrs, 0);\n+    }\n+\n+    public KnowDevToolbar(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {\n+        super(context, attrs, defStyleAttr);\n+        initView();\n+       if(attrs!=null){\n+           final TintTypedArray tintTypedArray = TintTypedArray.obtainStyledAttributes(getContext(), attrs, R.styleable.KnowDevToolBar, defStyleAttr, 0);\n+           final Drawable menuIcon=tintTypedArray.getDrawable(R.styleable.KnowDevToolBar_toolbarMenuIcon);\n+           String toolTile=tintTypedArray.getString(R.styleable.KnowDevToolBar_toolbarTile);\n+           final Drawable shareIcon=tintTypedArray.getDrawable(R.styleable.KnowDevToolBar_toolbarShareIcon);\n+\n+           if(menuIcon!=null){\n+               setMenuIcon(menuIcon);\n+           }\n+           if(toolTile!=null){\n+               setTitle(toolTile);\n+           }\n+           if(shareIcon!=null){\n+               setShareIcon(shareIcon);\n+           }\n+           tintTypedArray.recycle();\n+       }\n+\n+    }\n+\n+\n+    private void initView() {\n+        if(view==null){\n+        inflater=LayoutInflater.from(getContext());\n+        view=inflater.inflate(R.layout.activity_net1414080903220_toolbar,null);\n+        menuBt= (Button) view.findViewById(R.id.toolbar_menu);\n+        title= (TextView) view.findViewById(R.id.toolbar_title);\n+        shareBt= (Button) view.findViewById(R.id.toolbar_share);\n+\n+        LayoutParams lp = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.CENTER_HORIZONTAL);\n+        addView(view, lp);\n+        }\n+    }\n+\n+    public void setMenuIcon(Drawable menuIcon) {\n+        if(menuBt!=null){\n+            menuBt.setBackground(menuIcon);\n+        }\n+    }\n+    @Override\n+    public void setTitle(int toolTile) {\n+        setTitle(getContext().getText(toolTile));\n+\n+    }\n+\n+    @Override\n+    public void setTitle(CharSequence tooltitle){\n+        initView();\n+        if(title!=null){\n+            title.setText(tooltitle);\n+            Log.i(\"title is\",\"\"+tooltitle);\n+        }\n+\n+    }\n+\n+    public void setShareIcon(Drawable menuIcon) {\n+        if (shareBt != null) {\n+            shareBt.setBackground(menuIcon);\n+        }\n+    }\n+\n+    public void isHideShareBt(boolean flag){\n+        if(shareBt!=null){\n+            if(flag==true){\n+                shareBt.setVisibility(GONE);\n+            }else{\n+                shareBt.setVisibility(VISIBLE);\n+            }\n+\n+        }\n+    }\n+\n+    public  void setMenuButtonOnClickListener(OnClickListener listen){\n+       // Log.i(\"toolbar\",\"点击了菜单按钮\");\n+        menuBt.setOnClickListener(listen);\n+\n+    }\n+\n+    public  void setShareButtonOnClickListener(OnClickListener listen){\n+        shareBt.setOnClickListener(listen);\n+        //Log.i(\"toolbar\",\"点击了分享按钮\");\n+    }\n+\n+\n+\n+}"
+  } ],
+  "sha" : "baaa18df94e8113ef11d5628139bdb91220d7b1d",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/baaa18df94e8113ef11d5628139bdb91220d7b1d",
+  "parents" : [ {
+    "sha" : "557a6335fa7d6ef1c2c88ab0ab46011e6f7e2c52",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/557a6335fa7d6ef1c2c88ab0ab46011e6f7e2c52",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/557a6335fa7d6ef1c2c88ab0ab46011e6f7e2c52"
+  } ]
+}

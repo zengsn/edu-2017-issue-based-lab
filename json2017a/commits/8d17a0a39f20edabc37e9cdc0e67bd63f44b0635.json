@@ -1,0 +1,95 @@
+{
+  "committer" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 13,
+    "additions" : 13,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635",
+  "commit" : {
+    "author" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-05-17T12:15:46Z"
+    },
+    "committer" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-05-17T12:15:46Z"
+    },
+    "message" : "#3 #131  第三次作业",
+    "tree" : {
+      "sha" : "a4bb213d1a600d51e35eb7e12ae989226325429a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a4bb213d1a600d51e35eb7e12ae989226325429a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635/comments",
+  "files" : [ {
+    "sha" : "11680c83fb6f39b2c5d947eb56c493986783b1fb",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/video.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635/AndroidLabs/app/src/main/res/drawable/video.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635/AndroidLabs/app/src/main/res/drawable/video.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/video.png?ref=8d17a0a39f20edabc37e9cdc0e67bd63f44b0635"
+  }, {
+    "sha" : "4ba4b17861859d84059bdd67ca205c960bb9b8a1",
+    "filename" : "AndroidLabs/app/src/main/res/layout/1495022907activity_net1414809003118_main.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635/AndroidLabs/app/src/main/res/layout/1495022907activity_net1414809003118_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635/AndroidLabs/app/src/main/res/layout/1495022907activity_net1414809003118_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/1495022907activity_net1414809003118_main.xml?ref=8d17a0a39f20edabc37e9cdc0e67bd63f44b0635",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/video\">\n+\n+    <ListView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/lv\"/>\n+\n+\n+</RelativeLayout>"
+  } ],
+  "sha" : "8d17a0a39f20edabc37e9cdc0e67bd63f44b0635",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8d17a0a39f20edabc37e9cdc0e67bd63f44b0635",
+  "parents" : [ {
+    "sha" : "5b6b77c34a26bb5d75bd338c5d499c77ff484bd0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b6b77c34a26bb5d75bd338c5d499c77ff484bd0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b6b77c34a26bb5d75bd338c5d499c77ff484bd0"
+  } ]
+}

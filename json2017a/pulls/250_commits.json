@@ -1,0 +1,135 @@
+[ {
+  "sha" : "ceae621119bb96625215adc084dd6c6dbe3f78f3",
+  "commit" : {
+    "author" : {
+      "name" : "zhongwbang",
+      "email" : "490949184@qq.com",
+      "date" : "2017-05-05T07:57:36Z"
+    },
+    "committer" : {
+      "name" : "zhongwbang",
+      "email" : "490949184@qq.com",
+      "date" : "2017-05-05T07:57:36Z"
+    },
+    "message" : "#2 #34 第二次作业",
+    "tree" : {
+      "sha" : "d894e9508e0182a0c1293e6909a7fa178ba2ee60",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/d894e9508e0182a0c1293e6909a7fa178ba2ee60"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ceae621119bb96625215adc084dd6c6dbe3f78f3",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ceae621119bb96625215adc084dd6c6dbe3f78f3",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ceae621119bb96625215adc084dd6c6dbe3f78f3",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ceae621119bb96625215adc084dd6c6dbe3f78f3/comments",
+  "author" : {
+    "login" : "zhongwbang",
+    "id" : 26158946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26158946?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhongwbang",
+    "html_url" : "https://github.com/zhongwbang",
+    "followers_url" : "https://api.github.com/users/zhongwbang/followers",
+    "following_url" : "https://api.github.com/users/zhongwbang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhongwbang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhongwbang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhongwbang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhongwbang/orgs",
+    "repos_url" : "https://api.github.com/users/zhongwbang/repos",
+    "events_url" : "https://api.github.com/users/zhongwbang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhongwbang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zhongwbang",
+    "id" : 26158946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26158946?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhongwbang",
+    "html_url" : "https://github.com/zhongwbang",
+    "followers_url" : "https://api.github.com/users/zhongwbang/followers",
+    "following_url" : "https://api.github.com/users/zhongwbang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhongwbang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhongwbang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhongwbang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhongwbang/orgs",
+    "repos_url" : "https://api.github.com/users/zhongwbang/repos",
+    "events_url" : "https://api.github.com/users/zhongwbang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhongwbang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "ad1b89cb895511c4b4d0a1c65ed69f7366f109fc",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ad1b89cb895511c4b4d0a1c65ed69f7366f109fc",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ad1b89cb895511c4b4d0a1c65ed69f7366f109fc"
+  } ]
+}, {
+  "sha" : "543014b558b53493cb0aec2fc828312941b3911a",
+  "commit" : {
+    "author" : {
+      "name" : "zhongwbang",
+      "email" : "490949184@qq.com",
+      "date" : "2017-05-10T04:58:33Z"
+    },
+    "committer" : {
+      "name" : "zhongwbang",
+      "email" : "490949184@qq.com",
+      "date" : "2017-05-10T04:58:33Z"
+    },
+    "message" : "#3 #34 第三次作业",
+    "tree" : {
+      "sha" : "11b6ca68b6b65a066c6d7f94545180659f2b6ebe",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/11b6ca68b6b65a066c6d7f94545180659f2b6ebe"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/543014b558b53493cb0aec2fc828312941b3911a",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/543014b558b53493cb0aec2fc828312941b3911a",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/543014b558b53493cb0aec2fc828312941b3911a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/543014b558b53493cb0aec2fc828312941b3911a/comments",
+  "author" : {
+    "login" : "zhongwbang",
+    "id" : 26158946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26158946?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhongwbang",
+    "html_url" : "https://github.com/zhongwbang",
+    "followers_url" : "https://api.github.com/users/zhongwbang/followers",
+    "following_url" : "https://api.github.com/users/zhongwbang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhongwbang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhongwbang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhongwbang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhongwbang/orgs",
+    "repos_url" : "https://api.github.com/users/zhongwbang/repos",
+    "events_url" : "https://api.github.com/users/zhongwbang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhongwbang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zhongwbang",
+    "id" : 26158946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26158946?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhongwbang",
+    "html_url" : "https://github.com/zhongwbang",
+    "followers_url" : "https://api.github.com/users/zhongwbang/followers",
+    "following_url" : "https://api.github.com/users/zhongwbang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhongwbang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhongwbang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhongwbang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhongwbang/orgs",
+    "repos_url" : "https://api.github.com/users/zhongwbang/repos",
+    "events_url" : "https://api.github.com/users/zhongwbang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhongwbang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "ceae621119bb96625215adc084dd6c6dbe3f78f3",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ceae621119bb96625215adc084dd6c6dbe3f78f3",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ceae621119bb96625215adc084dd6c6dbe3f78f3"
+  } ]
+} ]

@@ -1,0 +1,98 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 0,
+    "additions" : 0,
+    "deletions" : 0
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ef5f64f82fd8da397d72c4940eef58cb251b2d13",
+  "commit" : {
+    "author" : {
+      "name" : "jackccc",
+      "email" : "mo_1905@163.com",
+      "date" : "2017-06-20T02:25:46Z"
+    },
+    "committer" : {
+      "name" : "jackccc",
+      "email" : "mo_1905@163.com",
+      "date" : "2017-06-20T02:25:46Z"
+    },
+    "message" : "#6 #12 第六次作业",
+    "tree" : {
+      "sha" : "0cb8874f1f9ff5e56ba9e530ce91814980bf832f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0cb8874f1f9ff5e56ba9e530ce91814980bf832f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ef5f64f82fd8da397d72c4940eef58cb251b2d13",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ef5f64f82fd8da397d72c4940eef58cb251b2d13/comments",
+  "files" : [ {
+    "sha" : "089f774a15a027dd662be205888ea00afb6debe3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app截图/创建群.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E5%88%9B%E5%BB%BA%E7%BE%A4.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E5%88%9B%E5%BB%BA%E7%BE%A4.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E5%88%9B%E5%BB%BA%E7%BE%A4.png?ref=ef5f64f82fd8da397d72c4940eef58cb251b2d13"
+  }, {
+    "sha" : "1b9bacb04b15b200faff48bf797094493980142a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app截图/加群.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E5%8A%A0%E7%BE%A4.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E5%8A%A0%E7%BE%A4.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E5%8A%A0%E7%BE%A4.png?ref=ef5f64f82fd8da397d72c4940eef58cb251b2d13"
+  }, {
+    "sha" : "6d9a4ef8c431f9c68338c888baf41076d01b07a9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app截图/我的群.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E6%88%91%E7%9A%84%E7%BE%A4.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E6%88%91%E7%9A%84%E7%BE%A4.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E6%88%91%E7%9A%84%E7%BE%A4.png?ref=ef5f64f82fd8da397d72c4940eef58cb251b2d13"
+  }, {
+    "sha" : "e360af896faf537c9decd0491af2502188ce5cd0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app截图/注册.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E6%B3%A8%E5%86%8C.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E6%B3%A8%E5%86%8C.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E6%B3%A8%E5%86%8C.png?ref=ef5f64f82fd8da397d72c4940eef58cb251b2d13"
+  }, {
+    "sha" : "09eb7c5ae03bb6228b2303d236524163959405f6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app截图/登录.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E7%99%BB%E5%BD%95.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E7%99%BB%E5%BD%95.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E7%99%BB%E5%BD%95.png?ref=ef5f64f82fd8da397d72c4940eef58cb251b2d13"
+  }, {
+    "sha" : "9c3adf73a7c93c1343d6f52e91e33e4bcfadbbd3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app截图/聊天.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E8%81%8A%E5%A4%A9.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ef5f64f82fd8da397d72c4940eef58cb251b2d13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E8%81%8A%E5%A4%A9.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903120/app%E6%88%AA%E5%9B%BE/%E8%81%8A%E5%A4%A9.png?ref=ef5f64f82fd8da397d72c4940eef58cb251b2d13"
+  } ],
+  "sha" : "ef5f64f82fd8da397d72c4940eef58cb251b2d13",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ef5f64f82fd8da397d72c4940eef58cb251b2d13",
+  "parents" : [ {
+    "sha" : "4c8cb47e5ed7e5d81bf94448886a65a5e1c0024b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4c8cb47e5ed7e5d81bf94448886a65a5e1c0024b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4c8cb47e5ed7e5d81bf94448886a65a5e1c0024b"
+  } ]
+}

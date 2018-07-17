@@ -1,0 +1,188 @@
+{
+  "committer" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 137,
+    "additions" : 109,
+    "deletions" : 28
+  },
+  "author" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+  "commit" : {
+    "author" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-22T13:09:17Z"
+    },
+    "committer" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-22T13:09:17Z"
+    },
+    "message" : "#1 #172 第四次作业",
+    "tree" : {
+      "sha" : "277c1ec73d311c27d84a45731c9a3d2525b3a116",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/277c1ec73d311c27d84a45731c9a3d2525b3a116"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09bb1eadb244e32c0f09636ce55dbf735148e2e9/comments",
+  "files" : [ {
+    "sha" : "998029c2fb2fe1d96fb84d0345f3bcf514d553b0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java",
+    "status" : "modified",
+    "additions" : 42,
+    "deletions" : 1,
+    "changes" : 43,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+    "patch" : "@@ -4,17 +4,58 @@\n import android.util.AttributeSet;\n import android.view.View;\n import android.view.View.OnClickListener;\n+import android.widget.Button;\n+import android.widget.TextView;\n \n \n public class SnakeView extends mapView implements OnClickListener {\n \n+    private int mMode = READY;// 这个是游戏的5中状态。\n+    public static final int PAUSE = 0;//暂停\n+    public static final int READY = 1;//准备\n+    public static final int RUNNING = 2;//运行\n+    public static final int LOSE = 3;//失败\n+\n+    private TextView mStatusText;// 这个是开始的时候的提示语\n+\n+    private Button mStart;//简单\n+    private Button mStart1;//普通\n+    private Button mStart2;//困难\n+\n+    private Button mLeft;//这四个按钮控制蛇运行的方向\n+    private Button mRight;\n+    private Button mTop;\n+    private Button mBottom;\n+\n     public SnakeView(Context context, AttributeSet att) {\n         super(context, att);\n     }\n     public SnakeView(Context context, AttributeSet att, int def) {\n         super(context, att, def);\n     }\n-    public void onClick(View v) {\n \n+    public void setTextView(TextView newView) {\n+        mStatusText = newView;\n+    }\n+\n+\n+    public void setStartButton(Button button) {\n+        mStart = button;\n+        mStart.setOnClickListener(this);\n+    }\n+    public void setStartButton1(Button button) {\n+        mStart1 = button;\n+        mStart1.setOnClickListener(this);\n+    }\n+    public void setStartButton2(Button button) {\n+        mStart2 = button;\n+        mStart2.setOnClickListener(this);\n+    }\n+\n+\n+    public void onClick(View v) {\n+        mStart.setVisibility(View.GONE);\n+        mStart1.setVisibility(View.GONE);\n+        mStart2.setVisibility(View.GONE);\n     }\n }"
+  }, {
+    "sha" : "ab4f8b38d1d5c4ad1ea66985782fdba20fed0e7b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 1,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+    "patch" : "@@ -2,14 +2,16 @@\n \n import android.content.Context;\n import android.content.res.TypedArray;\n+import android.graphics.Paint;\n import android.util.AttributeSet;\n import android.view.View;\n \n import edu.hzuapps.androidlabs.R;\n \n \n public class mapView extends View {\n-    protected static int pointSize;\n+    protected static int pointSize;// 地图点的大小。其实就是点的宽和高，大小一样\n+    private final Paint mPaint = new Paint();//画笔，用来画蛇还有点\n \n     public mapView(Context context, AttributeSet att, int def){\n         super(context,att,def);"
+  }, {
+    "sha" : "1a0a14fb52a00bec16bdb7ff62653c2c77fcb4c1",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132bluestar.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132bluestar.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132bluestar.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132bluestar.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "3cadf304823ee035ae890a8aa3a8836c97039f52",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132headdown.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headdown.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headdown.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132headdown.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "b22fe0e6747dd1f7c5da1b27e011e8418f6cfb8d",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132headleft.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headleft.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headleft.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132headleft.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "d3269c3f72bc76ae9e0a5a8b20ce3279e149c582",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132headright.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headright.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headright.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132headright.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "90fda355f801b9bdc1dba81aa27c0491ad74c1fb",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132headup.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headup.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132headup.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132headup.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "469de5796c4a5bc9ed51ab0499b1be1740f45863",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132redstar.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132redstar.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132redstar.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132redstar.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "36388269a134e27d46018c6bff7783c8dbc63d03",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/net1414080903132yellow.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132yellow.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/drawable/net1414080903132yellow.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/net1414080903132yellow.png?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9"
+  }, {
+    "sha" : "47deb2080efd3b3194cca7790712f1301946520a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml",
+    "status" : "modified",
+    "additions" : 56,
+    "deletions" : 26,
+    "changes" : 82,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+    "patch" : "@@ -14,7 +14,41 @@\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:background=\"#00005500\" >\n-            <Button\n+        <TextView\n+\n+            android:id=\"@+id/text\"\n+\n+            android:layout_width=\"wrap_content\"\n+\n+            android:layout_height=\"wrap_content\"\n+\n+            android:layout_centerInParent=\"true\"\n+\n+            android:gravity=\"center_horizontal\"\n+\n+            android:text=\"@string/snake_layout_text_text\"\n+\n+            android:textColor=\"#ff8888ff\"\n+\n+            android:textSize=\"24sp\"\n+\n+            android:visibility=\"visible\" />\n+    <RelativeLayout\n+\n+        android:id=\"@+id/control\"\n+\n+        android:layout_width=\"300dp\"\n+\n+        android:layout_height=\"250dp\"\n+\n+        android:layout_alignParentBottom=\"true\"\n+\n+        android:layout_centerHorizontal=\"true\"\n+\n+        android:layout_marginBottom=\"10dp\"\n+\n+        android:background=\"#00ffffff\" >\n+        <Button\n                 android:id=\"@+id/start2\"\n                 android:layout_width=\"160dp\"\n                 android:layout_height=\"wrap_content\"\n@@ -57,79 +91,75 @@\n         </Button>\n \n         <Button\n+                android:id=\"@+id/top\"\n \n-            android:id=\"@+id/bottom\"\n-\n-            android:layout_width=\"85dp\"\n+                android:layout_width=\"85dp\"\n \n-            android:layout_height=\"85dp\"\n+                android:layout_height=\"85dp\"\n \n-            android:background=\"@drawable/net1414080903132bottom\"\n+                android:background=\"@drawable/net1414080903132top\"\n \n-            android:gravity=\"center_horizontal\"\n+                android:gravity=\"center_horizontal\"\n \n-            android:visibility=\"visible\"\n-            android:layout_alignParentBottom=\"true\"\n-            android:layout_toStartOf=\"@+id/right\">\n+                android:visibility=\"visible\"\n+            android:layout_centerHorizontal=\"true\">\n \n-        </Button>\n+            </Button>\n \n         <Button\n \n-            android:id=\"@+id/left\"\n+            android:id=\"@+id/bottom\"\n \n             android:layout_width=\"85dp\"\n \n             android:layout_height=\"85dp\"\n \n-            android:background=\"@drawable/net1414080903132left\"\n+            android:background=\"@drawable/net1414080903132bottom\"\n \n             android:gravity=\"center_horizontal\"\n \n             android:visibility=\"visible\"\n-            android:layout_above=\"@+id/start2\"\n-            android:layout_toStartOf=\"@+id/top\"\n-            android:layout_marginEnd=\"22dp\">\n+            android:layout_alignParentBottom=\"true\"\n+            android:layout_alignStart=\"@+id/top\">\n \n         </Button>\n \n         <Button\n \n-            android:id=\"@+id/right\"\n+            android:id=\"@+id/left\"\n \n             android:layout_width=\"85dp\"\n \n             android:layout_height=\"85dp\"\n \n-            android:background=\"@drawable/net1414080903132right\"\n+            android:background=\"@drawable/net1414080903132left\"\n \n             android:gravity=\"center_horizontal\"\n \n             android:visibility=\"visible\"\n-            android:layout_alignBaseline=\"@+id/left\"\n-            android:layout_alignBottom=\"@+id/left\"\n-            android:layout_toEndOf=\"@+id/top\"\n-            android:layout_marginStart=\"26dp\">\n+            android:layout_alignBottom=\"@+id/start1\"\n+            android:layout_alignParentStart=\"true\">\n \n         </Button>\n \n         <Button\n \n-            android:id=\"@+id/top\"\n+            android:id=\"@+id/right\"\n \n             android:layout_width=\"85dp\"\n \n             android:layout_height=\"85dp\"\n \n-            android:background=\"@drawable/net1414080903132top\"\n+            android:background=\"@drawable/net1414080903132right\"\n \n             android:gravity=\"center_horizontal\"\n \n             android:visibility=\"visible\"\n-            android:layout_above=\"@+id/left\"\n-            android:layout_centerHorizontal=\"true\">\n+            android:layout_alignBottom=\"@+id/start1\"\n+            android:layout_alignParentEnd=\"true\">\n \n         </Button>\n     </RelativeLayout>\n+    </RelativeLayout>\n \n </FrameLayout>"
+  }, {
+    "sha" : "40312369f1efcd2a8df1eb88daefedcf78123814",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings_net1414080903132.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/values/strings_net1414080903132.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09bb1eadb244e32c0f09636ce55dbf735148e2e9/AndroidLabs/app/src/main/res/values/strings_net1414080903132.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings_net1414080903132.xml?ref=09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+    "patch" : "@@ -0,0 +1,8 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <string name=\"mode_ready\">贪吃蛇\\n\\n请开始游戏</string>\n+    <string name=\"mode_pause\">Paused\\n请重新开始游戏</string>\n+    <string name=\"mode_lose_prefix\">游戏结束\\n\\n分数: </string>\n+    <string name=\"mode_lose_suffix\">\\n\\n请重新开始游戏</string>\n+    <string name=\"snake_layout_text_text\" />\n+</resources>\n\\ No newline at end of file"
+  } ],
+  "sha" : "09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09bb1eadb244e32c0f09636ce55dbf735148e2e9",
+  "parents" : [ {
+    "sha" : "28251dc6f84e1c39a6d43892ba4db586b46550e7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/28251dc6f84e1c39a6d43892ba4db586b46550e7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/28251dc6f84e1c39a6d43892ba4db586b46550e7"
+  } ]
+}

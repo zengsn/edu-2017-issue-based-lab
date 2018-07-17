@@ -1,0 +1,89 @@
+{
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:30:41Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-12T07:30:41Z"
+    },
+    "message" : "Merge branch 'master' of https://github.com/wetstreet/android-labs-2017",
+    "tree" : {
+      "sha" : "e2898d102278f71c0a88f30a25f62c4bad53f6fc",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e2898d102278f71c0a88f30a25f62c4bad53f6fc"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6/comments",
+  "files" : [ {
+    "sha" : "b366f364b75ec7f58303dc12674d29a7d722455f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/872a1ec6f20223ab227de35e3ff829ef4d174bc6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/872a1ec6f20223ab227de35e3ff829ef4d174bc6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java?ref=872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+    "patch" : "@@ -171,4 +171,4 @@ private void processVolumeDown(int action, int repeatCount) {\n                 break;\n         }\n     }\n-}\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/872a1ec6f20223ab227de35e3ff829ef4d174bc6",
+  "parents" : [ {
+    "sha" : "4ffac337a171ced19b77b95a569f9df7e0564082",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4ffac337a171ced19b77b95a569f9df7e0564082",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4ffac337a171ced19b77b95a569f9df7e0564082"
+  }, {
+    "sha" : "38659eb1ca64a009d39a8433ad2ff6657e12566b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/38659eb1ca64a009d39a8433ad2ff6657e12566b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/38659eb1ca64a009d39a8433ad2ff6657e12566b"
+  } ]
+}

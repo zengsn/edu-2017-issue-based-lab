@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "zhouchenghai",
+    "id" : 26159414,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159414?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhouchenghai",
+    "html_url" : "https://github.com/zhouchenghai",
+    "followers_url" : "https://api.github.com/users/zhouchenghai/followers",
+    "following_url" : "https://api.github.com/users/zhouchenghai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhouchenghai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhouchenghai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhouchenghai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhouchenghai/orgs",
+    "repos_url" : "https://api.github.com/users/zhouchenghai/repos",
+    "events_url" : "https://api.github.com/users/zhouchenghai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhouchenghai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 170,
+    "additions" : 170,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zhouchenghai",
+    "id" : 26159414,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159414?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhouchenghai",
+    "html_url" : "https://github.com/zhouchenghai",
+    "followers_url" : "https://api.github.com/users/zhouchenghai/followers",
+    "following_url" : "https://api.github.com/users/zhouchenghai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhouchenghai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhouchenghai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhouchenghai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhouchenghai/orgs",
+    "repos_url" : "https://api.github.com/users/zhouchenghai/repos",
+    "events_url" : "https://api.github.com/users/zhouchenghai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhouchenghai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+  "commit" : {
+    "author" : {
+      "name" : "zhouchenghai",
+      "email" : "2584061172@qq.com",
+      "date" : "2017-06-17T15:50:59Z"
+    },
+    "committer" : {
+      "name" : "zhouchenghai",
+      "email" : "2584061172@qq.com",
+      "date" : "2017-06-17T15:50:59Z"
+    },
+    "message" : "#5 #42 第五次作业",
+    "tree" : {
+      "sha" : "a780b841b43fde1383a04a9fdff25c186bc36e20",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a780b841b43fde1383a04a9fdff25c186bc36e20"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/comments",
+  "files" : [ {
+    "sha" : "3f28a8a852797c39edb39c1f5c58783123107029",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113JobInfo.java",
+    "status" : "added",
+    "additions" : 47,
+    "deletions" : 0,
+    "changes" : 47,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113JobInfo.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113JobInfo.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113JobInfo.java?ref=87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+    "patch" : "@@ -0,0 +1,47 @@\n+package edu.androidlabs.homeworks.Net1414080903113;\n+\n+/**\n+ * Created by Administrator on 2017/6/16.\n+ */\n+\n+public class Net1414080903113JobInfo {\n+\n+    String name;\n+    String location;\n+    String salary;\n+    String occurTime;\n+\n+\n+\n+    public String getOccurTime() {\n+        return occurTime;\n+    }\n+\n+    public void setOccurTime(String occurTime) {\n+        this.occurTime = occurTime;\n+    }\n+\n+    public String getSalary() {\n+        return salary;\n+    }\n+\n+    public void setSalary(String salary) {\n+        this.salary = salary;\n+    }\n+\n+    public String getName() {\n+        return name;\n+    }\n+\n+    public void setName(String name) {\n+        this.name = name;\n+    }\n+\n+    public String getLocation() {\n+        return location;\n+    }\n+\n+    public void setLocation(String location) {\n+        this.location = location;\n+    }\n+}"
+  }, {
+    "sha" : "1b6af706ff9ea7e8fd1813e7538ff04cfe43ad21",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113ListInfoActivity.java",
+    "status" : "added",
+    "additions" : 93,
+    "deletions" : 0,
+    "changes" : 93,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113ListInfoActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113ListInfoActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113ListInfoActivity.java?ref=87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+    "patch" : "@@ -0,0 +1,93 @@\n+package edu.androidlabs.homeworks.Net1414080903113;\n+\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.BaseAdapter;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+\n+import com.example.administrator.studentjob.R;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+public class Net1414080903113ListInfoActivity extends AppCompatActivity {\n+\n+    ListView lv;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903113_list_info);\n+        lv= (ListView) findViewById(R.id.lv);\n+        Net1414080903113ListInfoActivity.MyAdapter adapter=new MyAdapter(getData(),this);\n+        lv.setAdapter(adapter);\n+    }\n+    public List<Net1414080903113JobInfo> getData(){\n+        List<Net1414080903113JobInfo> beans=new ArrayList<>();\n+        Net1414080903113MySQLiteOpenHelper helper=new Net1414080903113MySQLiteOpenHelper(this);\n+        SQLiteDatabase db=helper.getReadableDatabase();\n+        Cursor cursor=db.query(\"job\",null,null,null,null,null,null);\n+        while(cursor.moveToNext()){\n+            Log.d(\"asdfsadf\", \"getData: \");\n+            Net1414080903113JobInfo bean=new Net1414080903113JobInfo();\n+            bean.setOccurTime(cursor.getString(cursor.getColumnIndex(\"occur_tim\")));\n+            bean.setSalary(cursor.getString(cursor.getColumnIndex(\"salary\")));\n+            bean.setName(cursor.getString(cursor.getColumnIndex(\"name\")));\n+            bean.setLocation(cursor.getString(cursor.getColumnIndex(\"location\")));\n+            beans.add(bean);\n+        }\n+        cursor.close();\n+        db.close();\n+        return beans;\n+    }\n+\n+\n+    public class MyAdapter extends BaseAdapter {\n+\n+        List<Net1414080903113JobInfo> beans;\n+        Context context;\n+\n+        public MyAdapter(List<Net1414080903113JobInfo> beans, Context context) {\n+            this.beans = beans;\n+            this.context = context;\n+        }\n+\n+        @Override\n+        public int getCount() {\n+            return beans.size();\n+        }\n+\n+        @Override\n+        public Object getItem(int position) {\n+            return beans.get(position);\n+        }\n+\n+        @Override\n+        public long getItemId(int position) {\n+            return 0;\n+        }\n+\n+        @Override\n+        public View getView(int position, View convertView, ViewGroup parent) {\n+            if(convertView==null)\n+                convertView= LayoutInflater.from(context).inflate(R.layout.net1414080903113_item_recoed,null);\n+            TextView tvElectricity= (TextView) convertView.findViewById(R.id.tv_item_location);\n+            TextView tvWater= (TextView) convertView.findViewById(R.id.tv_item_water);\n+            TextView tvTotal= (TextView) convertView.findViewById(R.id.tv_item_salary);\n+            TextView tvDate= (TextView) convertView.findViewById(R.id.tv_item_time);\n+            tvElectricity.setText(beans.get(position).getLocation());\n+            tvWater.setText(beans.get(position).getName());\n+            tvTotal.setText(beans.get(position).getSalary());\n+            tvDate.setText(beans.get(position).getOccurTime());\n+            return convertView;\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "4442f4d4455b96e901315e6e84fc37da6479810a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113MySQLiteOpenHelper.java",
+    "status" : "added",
+    "additions" : 30,
+    "deletions" : 0,
+    "changes" : 30,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113MySQLiteOpenHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113MySQLiteOpenHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903113/Net1414080903113MySQLiteOpenHelper.java?ref=87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+    "patch" : "@@ -0,0 +1,30 @@\n+package edu.androidlabs.homeworks.Net1414080903113;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Administrator on 2017/5/26.\n+ */\n+\n+public class Net1414080903113MySQLiteOpenHelper extends SQLiteOpenHelper {\n+    public Net1414080903113MySQLiteOpenHelper(Context context) {\n+        super(context, \"studentJob\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(\"create table job(\"+\n+                \"name varchar(20),\" +\n+                \"salary varchar(20),\" +\n+                \"location varchar(20),\" +\n+                \"occur_tim varchar(20));\");\n+\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  } ],
+  "sha" : "87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/87a6a54957a0dc3c933eaae7d7e9bb3b4ffba660",
+  "parents" : [ {
+    "sha" : "9e8e2995a75fde7a2e5669c312659fcd0a4e9479",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9e8e2995a75fde7a2e5669c312659fcd0a4e9479",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9e8e2995a75fde7a2e5669c312659fcd0a4e9479"
+  } ]
+}

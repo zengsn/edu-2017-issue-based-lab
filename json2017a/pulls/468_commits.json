@@ -1,0 +1,202 @@
+[ {
+  "sha" : "fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-06-16T02:13:32Z"
+    },
+    "committer" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-06-16T02:13:32Z"
+    },
+    "message" : "#6 #28 第六次作业",
+    "tree" : {
+      "sha" : "9fe9d1686af2d635e5dd030dfbb69aeb354951dd",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9fe9d1686af2d635e5dd030dfbb69aeb354951dd"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7/comments",
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "b8c3e0a839352fae2d7fcbb27d559bd1a58714f3",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b8c3e0a839352fae2d7fcbb27d559bd1a58714f3",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b8c3e0a839352fae2d7fcbb27d559bd1a58714f3"
+  } ]
+}, {
+  "sha" : "e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-06-16T02:46:33Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-16T02:46:33Z"
+    },
+    "message" : "Update GameInfo.json",
+    "tree" : {
+      "sha" : "aea4517c8b672fb6c8d1103b932226ea22d5fe2c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/aea4517c8b672fb6c8d1103b932226ea22d5fe2c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb/comments",
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fdcc8e6a48fde2a8651c02d4ba9ae4bc44ecbab7"
+  } ]
+}, {
+  "sha" : "5a27edb3570b369fc30221352bff37d45b4a089e",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-06-16T02:52:25Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-16T02:52:25Z"
+    },
+    "message" : "Create GAMEI",
+    "tree" : {
+      "sha" : "736d9ba2ff1461eb39d5ef2f351bc7fa1abce5f6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/736d9ba2ff1461eb39d5ef2f351bc7fa1abce5f6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5a27edb3570b369fc30221352bff37d45b4a089e",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5a27edb3570b369fc30221352bff37d45b4a089e",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5a27edb3570b369fc30221352bff37d45b4a089e",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5a27edb3570b369fc30221352bff37d45b4a089e/comments",
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e21ad36e49a0fedec96c2dc4090dca55270ad2bb",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e21ad36e49a0fedec96c2dc4090dca55270ad2bb"
+  } ]
+} ]

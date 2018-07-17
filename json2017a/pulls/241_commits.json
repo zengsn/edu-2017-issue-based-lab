@@ -1,0 +1,68 @@
+[ {
+  "sha" : "6dff324604aacd957b9285420a9d8116c1d31fdb",
+  "commit" : {
+    "author" : {
+      "name" : "Ohayo3096",
+      "email" : "806123681@qq.com",
+      "date" : "2017-05-03T06:31:13Z"
+    },
+    "committer" : {
+      "name" : "Ohayo3096",
+      "email" : "806123681@qq.com",
+      "date" : "2017-05-03T06:31:13Z"
+    },
+    "message" : "#2 #29 第二次作业",
+    "tree" : {
+      "sha" : "e7fccbd6c93570583ce7803bc76a53f3a6f75e9b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e7fccbd6c93570583ce7803bc76a53f3a6f75e9b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/6dff324604aacd957b9285420a9d8116c1d31fdb",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6dff324604aacd957b9285420a9d8116c1d31fdb",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6dff324604aacd957b9285420a9d8116c1d31fdb",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6dff324604aacd957b9285420a9d8116c1d31fdb/comments",
+  "author" : {
+    "login" : "666Ohayo",
+    "id" : 26159005,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159005?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/666Ohayo",
+    "html_url" : "https://github.com/666Ohayo",
+    "followers_url" : "https://api.github.com/users/666Ohayo/followers",
+    "following_url" : "https://api.github.com/users/666Ohayo/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/666Ohayo/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/666Ohayo/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/666Ohayo/subscriptions",
+    "organizations_url" : "https://api.github.com/users/666Ohayo/orgs",
+    "repos_url" : "https://api.github.com/users/666Ohayo/repos",
+    "events_url" : "https://api.github.com/users/666Ohayo/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/666Ohayo/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "666Ohayo",
+    "id" : 26159005,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159005?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/666Ohayo",
+    "html_url" : "https://github.com/666Ohayo",
+    "followers_url" : "https://api.github.com/users/666Ohayo/followers",
+    "following_url" : "https://api.github.com/users/666Ohayo/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/666Ohayo/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/666Ohayo/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/666Ohayo/subscriptions",
+    "organizations_url" : "https://api.github.com/users/666Ohayo/orgs",
+    "repos_url" : "https://api.github.com/users/666Ohayo/repos",
+    "events_url" : "https://api.github.com/users/666Ohayo/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/666Ohayo/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1cc03ecd45c82e07a54b475efcb92ecc7debf8e5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1cc03ecd45c82e07a54b475efcb92ecc7debf8e5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1cc03ecd45c82e07a54b475efcb92ecc7debf8e5"
+  } ]
+} ]

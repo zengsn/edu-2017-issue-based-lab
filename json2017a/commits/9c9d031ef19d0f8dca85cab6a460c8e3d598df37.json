@@ -1,0 +1,78 @@
+{
+  "committer" : {
+    "login" : "trjie",
+    "id" : 26050237,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26050237?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/trjie",
+    "html_url" : "https://github.com/trjie",
+    "followers_url" : "https://api.github.com/users/trjie/followers",
+    "following_url" : "https://api.github.com/users/trjie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/trjie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/trjie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/trjie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/trjie/orgs",
+    "repos_url" : "https://api.github.com/users/trjie/repos",
+    "events_url" : "https://api.github.com/users/trjie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/trjie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 0,
+    "additions" : 0,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "trjie",
+    "id" : 26050237,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26050237?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/trjie",
+    "html_url" : "https://github.com/trjie",
+    "followers_url" : "https://api.github.com/users/trjie/followers",
+    "following_url" : "https://api.github.com/users/trjie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/trjie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/trjie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/trjie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/trjie/orgs",
+    "repos_url" : "https://api.github.com/users/trjie/repos",
+    "events_url" : "https://api.github.com/users/trjie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/trjie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9c9d031ef19d0f8dca85cab6a460c8e3d598df37",
+  "commit" : {
+    "author" : {
+      "name" : "trjie",
+      "email" : "943614362@qq.com",
+      "date" : "2017-05-19T06:51:10Z"
+    },
+    "committer" : {
+      "name" : "trjie",
+      "email" : "943614362@qq.com",
+      "date" : "2017-05-19T06:51:10Z"
+    },
+    "message" : "#4 #19 第四次实验",
+    "tree" : {
+      "sha" : "fb12566ab5357651efd16988e9aec19f5fd96a58",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/fb12566ab5357651efd16988e9aec19f5fd96a58"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9c9d031ef19d0f8dca85cab6a460c8e3d598df37",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9c9d031ef19d0f8dca85cab6a460c8e3d598df37/comments",
+  "files" : [ ],
+  "sha" : "9c9d031ef19d0f8dca85cab6a460c8e3d598df37",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9c9d031ef19d0f8dca85cab6a460c8e3d598df37",
+  "parents" : [ {
+    "sha" : "e5bb7565fd6d9a1327898f5441077fa55d9566dc",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e5bb7565fd6d9a1327898f5441077fa55d9566dc",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e5bb7565fd6d9a1327898f5441077fa55d9566dc"
+  }, {
+    "sha" : "179cef71d18e435499050e3b9e2ae95ced6cc1d5",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/179cef71d18e435499050e3b9e2ae95ced6cc1d5",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/179cef71d18e435499050e3b9e2ae95ced6cc1d5"
+  } ]
+}

@@ -1,0 +1,162 @@
+{
+  "committer" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 375,
+    "additions" : 375,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+  "commit" : {
+    "author" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-05-08T05:28:53Z"
+    },
+    "committer" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-05-08T05:28:53Z"
+    },
+    "message" : "#2 #131 第二次作业",
+    "tree" : {
+      "sha" : "86eadee1e377ae24646e2f9f7c6e902916824b69",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/86eadee1e377ae24646e2f9f7c6e902916824b69"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/comments",
+  "files" : [ {
+    "sha" : "39abaf7faac28de7165f2326b7866398dc713ca8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/MyAdapter.java",
+    "status" : "added",
+    "additions" : 84,
+    "deletions" : 0,
+    "changes" : 84,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/MyAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/MyAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/MyAdapter.java?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,84 @@\n+package edu.hzuapps.androidlab.Net1414080903118;\n+\n+import android.content.Context;\n+import android.graphics.BitmapFactory;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.BaseAdapter;\n+import android.widget.ImageView;\n+import android.widget.TextView;\n+\n+import com.example.administrator.video.R;\n+\n+import java.io.File;\n+import java.util.List;\n+\n+/**\n+ * Created by Administrator on 2017/5/7.\n+ */\n+\n+public class MyAdapter extends BaseAdapter {\n+\n+    Context context;\n+    List<VideoInfo> list;\n+\n+    public MyAdapter(Context context, List<VideoInfo> list) {\n+        this.context = context;\n+        this.list = list;\n+    }\n+\n+    @Override\n+    public int getCount() {\n+        return list.size();\n+    }\n+\n+    @Override\n+    public Object getItem(int position) {\n+        return list.get(position).getPath();\n+    }\n+\n+    @Override\n+    public long getItemId(int position) {\n+        return position;\n+    }\n+\n+    @Override\n+    public View getView(int position, View convertView, ViewGroup parent) {\n+        Holder holder = null;\n+        if (convertView == null) {\n+            convertView = LayoutInflater.from(context).inflate(R.layout.menu_item, null);\n+            holder = new Holder();\n+            holder.iv = (ImageView) convertView.findViewById(R.id.iv_item);\n+            holder.tvTitle = (TextView) convertView.findViewById(R.id.tv_item_title);\n+            holder.tvDuration = (TextView) convertView.findViewById(R.id.tv_item_duration);\n+            convertView.setTag(holder);\n+        } else {\n+            holder = (Holder) convertView.getTag();\n+        }\n+        holder.tvTitle.setText(list.get(position).getTitle());\n+        long duration = Long.parseLong(list.get(position).getDuration());\n+        duration = duration / 1000;\n+        StringBuilder builder = new StringBuilder(\"时长：\");\n+        int hour = (int) (duration / 3600);\n+        builder.append(hour).append(\"时\");\n+        int minuter = (int) ((duration % 3600) / 60);\n+        builder.append(minuter).append(\"分\");\n+        int second = (int) (duration % 60);\n+        builder.append(second).append(\"秒\");\n+        holder.tvDuration.setText(builder.toString());\n+        if(list.get(position).getThumbPath()!=null){\n+            File file = new File(list.get(position).getThumbPath());\n+            holder.iv.setImageBitmap(BitmapFactory.decodeFile(file.getAbsolutePath()));\n+        }\n+        return convertView;\n+    }\n+\n+    private class Holder {\n+        TextView tvTitle;\n+        TextView tvDuration;\n+        ImageView iv;\n+    }\n+\n+}"
+  }, {
+    "sha" : "3a2f87cd5ff99b291e756f8142217d45e8f46bfc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java",
+    "status" : "added",
+    "additions" : 102,
+    "deletions" : 0,
+    "changes" : 102,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,102 @@\n+package edu.hzuapps.androidlab.Net1414080903118;\n+\n+import android.content.Intent;\n+import android.database.Cursor;\n+import android.provider.MediaStore;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+import android.widget.Toast;\n+\n+import com.example.administrator.video.R;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+public class Net1414080903118MainActivity extends AppCompatActivity {\n+\n+    private static final String TAG = \"MainActivity\";\n+    Cursor cursor;\n+    ListView lv;\n+\n+    public List<VideoInfo> sysVideoList = new ArrayList<>();\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414809003118_main);\n+        lv= (ListView) findViewById(R.id.lv);\n+        setVideoList();\n+        final MyAdapter adapter=new MyAdapter(this,sysVideoList);\n+        lv.setAdapter(adapter);\n+        lv.setEmptyView(LayoutInflater.from(this).inflate(R.layout.empty_list,null));\n+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {\n+           @Override\n+           public void onItemClick(AdapterView<?> parent, View view, int position, long id) {\n+               Intent intent=new Intent(Net1414080903118MainActivity.this,Net1414080903118PlayActivity.class);\n+               intent.putExtra(\"path\",(String)adapter.getItem(position));\n+               startActivity(intent);\n+           }\n+       });\n+    }\n+\n+    private void setVideoList() {\n+        // MediaStore.Video.Thumbnails.DATA:视频缩略图的文件路径\n+        String[] thumbColumns = {MediaStore.Video.Thumbnails.DATA,\n+                MediaStore.Video.Thumbnails.VIDEO_ID};\n+\n+        // MediaStore.Video.Media.DATA：视频文件路径；\n+        // MediaStore.Video.Media.DISPLAY_NAME : 视频文件名，如 testVideo.mp4\n+        // MediaStore.Video.Media.TITLE: 视频标题 : testVideo\n+        String[] mediaColumns = {MediaStore.Video.Media._ID,\n+                MediaStore.Video.Media.DATA, MediaStore.Video.Media.TITLE,\n+                MediaStore.Video.Media.MIME_TYPE,\n+                MediaStore.Video.Media.DURATION,\n+                MediaStore.Video.Media.DISPLAY_NAME};\n+\n+        cursor = managedQuery(MediaStore.Video.Media.EXTERNAL_CONTENT_URI,\n+                mediaColumns, null, null, null);\n+\n+        if (cursor == null) {\n+            Toast.makeText(Net1414080903118MainActivity.this, \"没有找到可播放视频文件\", Toast.LENGTH_LONG).show();\n+            return;\n+        }\n+        if (cursor.moveToFirst()) {\n+            do {\n+                VideoInfo info = new VideoInfo();\n+                int id = cursor.getInt(cursor\n+                        .getColumnIndex(MediaStore.Video.Media._ID));\n+                Cursor thumbCursor = managedQuery(\n+                        MediaStore.Video.Thumbnails.EXTERNAL_CONTENT_URI,\n+                        thumbColumns, MediaStore.Video.Thumbnails.VIDEO_ID\n+                                + \"=\" + id, null, null);\n+                if (thumbCursor.moveToFirst()) {\n+                    info.setThumbPath(thumbCursor.getString(thumbCursor\n+                            .getColumnIndex(MediaStore.Video.Thumbnails.DATA)));\n+                }\n+                info.setPath(cursor.getString(cursor\n+                        .getColumnIndexOrThrow(MediaStore.Video.Media.DATA)));\n+                info.setTitle(cursor.getString(cursor\n+                        .getColumnIndexOrThrow(MediaStore.Video.Media.TITLE)));\n+                info.setDisplayName(cursor.getString(cursor\n+                        .getColumnIndexOrThrow(MediaStore.Video.Media.DISPLAY_NAME)));\n+                info.setDuration(cursor.getString(cursor\n+                        .getColumnIndexOrThrow(MediaStore.Video.Media.DURATION)));\n+                Log.d(TAG, \"DisplayName:\" + info.getDisplayName());\n+                info.setMimeType(cursor\n+                        .getString(cursor\n+                                .getColumnIndexOrThrow(MediaStore.Video.Media.MIME_TYPE)));\n+                String displayName=info.getDisplayName();\n+                String s=displayName.substring(displayName.indexOf(\".\")+1);\n+                if(s.equals(\"mp4\")||s.equals(\"3pg\"))\n+                    sysVideoList.add(info);\n+            } while (cursor.moveToNext());\n+        }\n+    }\n+\n+}"
+  }, {
+    "sha" : "6ddbfdd25c9f6c09f8f38f469b76a6eaa1826e24",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118PlayActivity.java",
+    "status" : "added",
+    "additions" : 54,
+    "deletions" : 0,
+    "changes" : 54,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118PlayActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118PlayActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118PlayActivity.java?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,54 @@\n+package edu.hzuapps.androidlab.Net1414080903118;\n+\n+import android.content.Intent;\n+import android.content.pm.ActivityInfo;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.MediaController;\n+import android.widget.VideoView;\n+\n+import com.example.administrator.video.R;\n+\n+import java.io.File;\n+\n+public class Net1414080903118PlayActivity extends AppCompatActivity {\n+\n+    VideoView videoView;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903118_play);\n+        getSupportActionBar().hide();\n+        String path= getIntent().getStringExtra(\"path\");\n+        videoView= (VideoView) findViewById(R.id.video);\n+        File file=new File(path);\n+        Log.d(\"path\",file.getAbsolutePath());\n+        videoView.setVideoPath(file.getAbsolutePath());\n+        MediaController mediaController=new MediaController(this);\n+        mediaController.setMediaPlayer(videoView);\n+        videoView.setMediaController(mediaController);\n+        if(!videoView.isPlaying()){\n+            videoView.start();\n+        }\n+    }\n+\n+    @Override\n+    protected void onResume() {\n+        super.onResume();\n+        if(getRequestedOrientation()!= ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE){\n+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);\n+        }\n+    }\n+\n+    @Override\n+    protected void onDestroy() {\n+        super.onDestroy();\n+        if(videoView!=null){\n+            videoView.suspend();\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "3e3e1cfe5127d7cbc44fdae5e57a1d2ce573e273",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/VideoInfo.java",
+    "status" : "added",
+    "additions" : 67,
+    "deletions" : 0,
+    "changes" : 67,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/VideoInfo.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/VideoInfo.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/VideoInfo.java?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,67 @@\n+package edu.hzuapps.androidlab.Net1414080903118;\n+\n+/**\n+ * Created by Administrator on 2017/5/7.\n+ */\n+public class VideoInfo {\n+\n+    String thumbPath;\n+    String path;\n+    String title;\n+    String mimeType;\n+    String displayName;\n+    String duration;\n+\n+    public String getDuration() {\n+        return duration;\n+    }\n+\n+    public void setDuration(String duration) {\n+        this.duration = duration;\n+    }\n+\n+    public String getDisplayName() {\n+        return displayName;\n+    }\n+\n+    public void setDisplayName(String displayName) {\n+        this.displayName = displayName;\n+    }\n+\n+    public String getPath() {\n+        return path;\n+    }\n+\n+    public void setPath(String path) {\n+        this.path = path;\n+    }\n+\n+    public String getMimeType() {\n+        return mimeType;\n+    }\n+\n+    public void setMimeType(String mimeType) {\n+        this.mimeType = mimeType;\n+    }\n+\n+    public String getTitle() {\n+        return title;\n+    }\n+\n+    public void setTitle(String title) {\n+        this.title = title;\n+    }\n+\n+    public String getThumbPath() {\n+        return thumbPath;\n+    }\n+\n+    public void setThumbPath(String thumbPath) {\n+        this.thumbPath = thumbPath;\n+    }\n+\n+    @Override\n+    public String toString() {\n+        return thumbPath+\"-\"+path+\"-\"+title+\"-\"+mimeType+\"-\"+displayName+\"\\n\";\n+    }\n+}"
+  }, {
+    "sha" : "b5942096262833a5b8fcdf57a47c324eec22fd0c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903118_play.xml",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/activity_net1414080903118_play.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/activity_net1414080903118_play.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903118_play.xml?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,10 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <VideoView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/video\"/>\n+</RelativeLayout>"
+  }, {
+    "sha" : "45ac7f70646edf544d188fd73171e26cd51bf878",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414809003118_main.xml",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/activity_net1414809003118_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/activity_net1414809003118_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414809003118_main.xml?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,12 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <ListView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/lv\"/>\n+\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "491a8dfd21e543ad9215f11915c956e1e1a6be11",
+    "filename" : "AndroidLabs/app/src/main/res/layout/empty_list.xml",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/empty_list.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/empty_list.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/empty_list.xml?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,10 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<TextView xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:gravity=\"center\"\n+    android:textSize=\"18sp\"\n+    android:padding=\"50dp\"\n+    android:text=\"未找到符合格式的視頻文件，本播放器仅支持3pg,mp4格式的视频\">\n+\n+</TextView>\n\\ No newline at end of file"
+  }, {
+    "sha" : "38a711c44356e0b9c974d9ba8bd819648fd86230",
+    "filename" : "AndroidLabs/app/src/main/res/layout/menu_item.xml",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/menu_item.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a42601a952b0754ae10d76d3298f0cf1f0cfbcef/AndroidLabs/app/src/main/res/layout/menu_item.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/menu_item.xml?ref=a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+    "patch" : "@@ -0,0 +1,36 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"horizontal\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:padding=\"15dp\">\n+\n+    <ImageView\n+        android:src=\"@mipmap/ic_launcher\"\n+        android:layout_width=\"70dp\"\n+        android:layout_height=\"80dp\"\n+        android:id=\"@+id/iv_item\"/>\n+\n+    <LinearLayout\n+        android:layout_marginLeft=\"15dp\"\n+        android:layout_width=\"0dp\"\n+        android:layout_weight=\"1\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"vertical\">\n+        <TextView\n+            android:id=\"@+id/tv_item_title\"\n+            android:textSize=\"16sp\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+\n+        <TextView\n+            android:layout_marginTop=\"10dp\"\n+            android:id=\"@+id/tv_item_duration\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"14sp\"/>\n+\n+\n+    </LinearLayout>\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a42601a952b0754ae10d76d3298f0cf1f0cfbcef",
+  "parents" : [ {
+    "sha" : "065590959e0c4425bff30b0bf725b41867f70d71",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/065590959e0c4425bff30b0bf725b41867f70d71",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/065590959e0c4425bff30b0bf725b41867f70d71"
+  } ]
+}

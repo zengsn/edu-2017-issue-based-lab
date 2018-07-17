@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 42,
+    "additions" : 11,
+    "deletions" : 31
+  },
+  "author" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/44b45ef73313483823ff9860f06de997e3a8e727",
+  "commit" : {
+    "author" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-04-26T15:23:35Z"
+    },
+    "committer" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-04-26T15:23:35Z"
+    },
+    "message" : "#35 #146 第二次作业",
+    "tree" : {
+      "sha" : "7aa7e6b52caebe39c49a34939b77f3801b5e0853",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7aa7e6b52caebe39c49a34939b77f3801b5e0853"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/44b45ef73313483823ff9860f06de997e3a8e727",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/44b45ef73313483823ff9860f06de997e3a8e727/comments",
+  "files" : [ {
+    "sha" : "cb9a950331699f3716bed202e9b078ae8a23150a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Utils.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 31,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/482a69ae2d059bafb67dff51bfbaecd750764f13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Utils.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/482a69ae2d059bafb67dff51bfbaecd750764f13/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Utils.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235Utils.java?ref=482a69ae2d059bafb67dff51bfbaecd750764f13",
+    "patch" : "@@ -1,31 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903235;\n-\n-import android.content.Context;\n-import android.content.SharedPreferences;\n-\n-import java.util.HashMap;\n-import java.util.Map;\n-\n-/**\n- * Created by Administrator on 2017/4/14.\n- */\n-//实现登录功能：登录时保存用户数据到data.xml文件里面去\n-public class Net1414080903235Utils {\n-    public static boolean saveUserInfo(Context context,String number,String password){\n-        SharedPreferences sp=context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n-        SharedPreferences.Editor edit=sp.edit();\n-        edit.putString(\"username\",number);\n-        edit.putString(\"pwd\",password);\n-        edit.commit();\n-        return true;\n-    }\n-    public static Map<String,String> getUserInfo(Context context){\n-        SharedPreferences sp=context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n-        String number=sp.getString(\"number\",null);\n-        String password=sp.getString(\"password\",null);\n-        Map<String,String> userMap=new HashMap<>();//这里可以通过number找到对应的password\n-        userMap.put(\"number\",number);\n-        userMap.put(\"password\",password);\n-        return userMap;\n-    }\n-}"
+  }, {
+    "sha" : "303316c6c95630dca48ebaecb46948d1c3783c0f",
+    "filename" : "sh.exe.stackdump",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/44b45ef73313483823ff9860f06de997e3a8e727/sh.exe.stackdump",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/44b45ef73313483823ff9860f06de997e3a8e727/sh.exe.stackdump",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/sh.exe.stackdump?ref=44b45ef73313483823ff9860f06de997e3a8e727",
+    "patch" : "@@ -0,0 +1,11 @@\n+Stack trace:\n+Frame        Function    Args\n+00180308010  0018005CE1E (0018022B830, 0018021DC39, 00180308010, 000FFFFB9F0)\n+00180308010  00180046609 (00000000002, 00000000003, 00000000002, 000C0000000)\n+00180308010  00180046642 (00000000002, 00180308320, 00180308010, 00000000008)\n+00180308010  001800574A2 (00000000000, 000FFFFCC35, 000FFFFCC53, 0018021C3F0)\n+000FFFFCCB0  00180057550 (645C655C725C635C, 695C745C6E5C655C, 6D5C2D5C6C5C615C, 675C615C6E5C615C)\n+000FFFFCCB0  00180046DD5 (00000000000, 00000000000, 00000000000, 00000000000)\n+00000000000  00180045873 (00000000000, 00000000000, 00000000000, 00000000000)\n+000FFFFFFF0  00180045924 (00000000000, 00000000000, 00000000000, 00000000000)\n+End of stack trace"
+  } ],
+  "sha" : "44b45ef73313483823ff9860f06de997e3a8e727",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/44b45ef73313483823ff9860f06de997e3a8e727",
+  "parents" : [ {
+    "sha" : "482a69ae2d059bafb67dff51bfbaecd750764f13",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/482a69ae2d059bafb67dff51bfbaecd750764f13",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/482a69ae2d059bafb67dff51bfbaecd750764f13"
+  } ]
+}

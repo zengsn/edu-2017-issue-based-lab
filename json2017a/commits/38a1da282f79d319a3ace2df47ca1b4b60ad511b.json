@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 127,
+    "additions" : 105,
+    "deletions" : 22
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-06-01T04:36:57Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-06-01T04:36:57Z"
+    },
+    "message" : "#5 #30第五次作业",
+    "tree" : {
+      "sha" : "75f1384e9fc56e4c17fc8c41d44ab3188f6119db",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/75f1384e9fc56e4c17fc8c41d44ab3188f6119db"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/38a1da282f79d319a3ace2df47ca1b4b60ad511b/comments",
+  "files" : [ {
+    "sha" : "5b762b05136e0e0892ed0530b86d002a4794d8b9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "status" : "modified",
+    "additions" : 34,
+    "deletions" : 1,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/38a1da282f79d319a3ace2df47ca1b4b60ad511b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/38a1da282f79d319a3ace2df47ca1b4b60ad511b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java?ref=38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+    "patch" : "@@ -1,12 +1,14 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n \n import android.content.Intent;\n+import android.content.SharedPreferences;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n import android.widget.EditText;\n import android.widget.Spinner;\n+import android.widget.TextView;\n import android.widget.Toast;\n \n import com.google.android.gms.common.api.GoogleApiClient;\n@@ -29,7 +31,38 @@ protected void onCreate(Bundle savedInstanceState) {\n             public void onClick(View v) {\n                 if(!value.getText().toString().equals(\"\")){\n                 Intent intent = new Intent(Net1414080903240_NewAccount.this,Net1414080903240_OrderRecord.class);\n-                intent.putExtra(\"value\",value.getText().toString().trim());\n+                    SharedPreferences sp=getSharedPreferences(\"zhangmu\",MODE_PRIVATE);\n+                    SharedPreferences.Editor al=sp.edit();\n+                    String str=value.getText().toString().trim();\n+                    String str2=spinner1.getSelectedItem().toString().trim();\n+                    switch(str2){\n+                        case \"娱乐\":\n+                            str2=\"cheer\";\n+                            break;\n+                        case \"饮食\":\n+                            str2=\"food\";\n+                            break;\n+                        case \"车费\":\n+                            str2=\"car\";\n+                            break;\n+                        case \"服装\":\n+                            str2=\"dress\";\n+                            break;\n+                        case \"礼品\":\n+                            str2=\"gift\";\n+                            break;\n+                    }\n+                    int a = Integer.parseInt(str);\n+                    int value=sp.getInt(str2,0);\n+                    int value2=sp.getInt(\"sum\",0);\n+                    int sum=a+value2;\n+                    int addvalue=a+value;\n+                    al.putInt(\"sum\",sum);\n+                    al.putInt(str2,addvalue);\n+                    //al.putInt(\"food\",0);\n+                    //al.putInt(\"sum\",0);\n+                    al.commit();\n+                intent.putExtra(\"value\",str);\n                 intent.putExtra(\"spinner1\",spinner1.getSelectedItem().toString().trim());\n                 startActivity(intent);\n                 }else if(value.getText().toString()==\"\"){"
+  }, {
+    "sha" : "02a4e0751aa3628f2b16bc7dac037ac01b9e4230",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "status" : "modified",
+    "additions" : 71,
+    "deletions" : 21,
+    "changes" : 92,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/38a1da282f79d319a3ace2df47ca1b4b60ad511b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/38a1da282f79d319a3ace2df47ca1b4b60ad511b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java?ref=38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+    "patch" : "@@ -1,42 +1,92 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n \n+import android.content.Context;\n import android.content.Intent;\n+import android.content.SharedPreferences;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.widget.Button;\n+import android.widget.ProgressBar;\n import android.widget.TextView;\n \n+import java.io.FileOutputStream;\n+\n public class Net1414080903240_OrderRecord extends AppCompatActivity {\n-    private TextView tv_value,tv_cla;\n+    private TextView tv_value,tv_cla,tv_cheer,tv_food,tv_car,tv_dress,tv_gift;\n     private Button btn_send;\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.orderrecord_1414080903240);\n         Intent intent=getIntent();\n-        String value=intent.getStringExtra(\"value\");\n-        String cla=intent.getStringExtra(\"spinner1\");\n+        ProgressBar cheer_bar = (ProgressBar)findViewById(R.id.cheer_bar);\n+        ProgressBar food_bar = (ProgressBar)findViewById(R.id.food_bar);\n+        ProgressBar car_bar = (ProgressBar)findViewById(R.id.car_bar);\n+        ProgressBar dress_bar = (ProgressBar)findViewById(R.id.dress_bar);\n+        ProgressBar gift_bar = (ProgressBar)findViewById(R.id.gift_bar);\n+        SharedPreferences sp=getSharedPreferences(\"zhangmu\",MODE_PRIVATE);\n+        int sum0=sp.getInt(\"sum\",0);\n+        int cheer=sp.getInt(\"cheer\",0);\n+        int food=sp.getInt(\"food\",0);\n+        int car=sp.getInt(\"car\",0);\n+        int dress=sp.getInt(\"dress\",0);\n+        int gift=sp.getInt(\"gift\",0);\n+\n+        float cheer_a=(float)cheer/sum0*100;\n+        float food_a=(float)food/sum0*100;\n+        float car_a=(float)car/sum0*100;\n+        float dress_a=(float)dress/sum0*100;\n+        float gift_a=(float)gift/sum0*100;\n+\n+\n+        String sum=String.valueOf(sum0);\n+        String cheer_value=String.valueOf(cheer);\n+        String food_value=String.valueOf(food);\n+        String car_value=String.valueOf(car);\n+        String dress_value=String.valueOf(dress);\n+        String gift_value=String.valueOf(gift);\n+\n         tv_value=(TextView)findViewById(R.id.tt_value);\n-        switch(cla){\n-            case \"娱乐\":\n-                tv_cla=(TextView)findViewById(R.id.cheer_value);\n-                break;\n-            case \"饮食\":\n-                tv_cla=(TextView)findViewById(R.id.food_value);\n-                break;\n-            case \"车费\":\n-                tv_cla=(TextView)findViewById(R.id.car_value);\n-                break;\n-            case \"服装\":\n-                tv_cla=(TextView)findViewById(R.id.dress_value);\n-                break;\n-            case \"礼品\":\n-                tv_cla=(TextView)findViewById(R.id.gift_value);\n-                break;\n+        tv_cheer=(TextView)findViewById(R.id.cheer_value);\n+        tv_food=(TextView)findViewById(R.id.food_value);\n+        tv_car=(TextView)findViewById(R.id.car_value);\n+        tv_dress=(TextView)findViewById(R.id.dress_value);\n+        tv_gift=(TextView)findViewById(R.id.gift_value);\n+\n+        tv_value.setText(sum);\n+        tv_cheer.setText(cheer_value);\n+        tv_food.setText(food_value);\n+        tv_car.setText(car_value);\n+        tv_dress.setText(dress_value);\n+        tv_gift.setText(gift_value);\n+\n+        if(cheer == 0){\n+            cheer_bar.setProgress(0);\n+        }else{\n+            cheer_bar.setProgress((int)cheer_a);\n+        }\n+        if(food == 0){\n+            food_bar.setProgress(0);\n+        }else{\n+            food_bar.setProgress((int)food_a);\n+        }\n+        if(car == 0){\n+            car_bar.setProgress(0);\n+        }else{\n+            car_bar.setProgress((int)car_a);\n         }\n-        tv_value.setText(value);\n-        tv_cla.setText(value);\n+        if(dress == 0){\n+            dress_bar.setProgress(0);\n+        }else{\n+            dress_bar.setProgress((int)dress_a);\n+        }\n+        if(gift == 0){\n+            gift_bar.setProgress(0);\n+        }else{\n+            gift_bar.setProgress((int)gift_a);\n+        }\n+\n         btn_send = (Button) findViewById(R.id.button);\n         btn_send.setOnClickListener(new View.OnClickListener() {\n             @Override"
+  } ],
+  "sha" : "38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/38a1da282f79d319a3ace2df47ca1b4b60ad511b",
+  "parents" : [ {
+    "sha" : "1029886f69220b45604b1384f34fb3efdf23061d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1029886f69220b45604b1384f34fb3efdf23061d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1029886f69220b45604b1384f34fb3efdf23061d"
+  } ]
+}

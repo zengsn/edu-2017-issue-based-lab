@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 8,
+    "additions" : 4,
+    "deletions" : 4
+  },
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-05-22T12:27:03Z"
+    },
+    "committer" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-05-22T12:27:03Z"
+    },
+    "message" : "#4 #37 第四次作业",
+    "tree" : {
+      "sha" : "5a907b81e641df1a0632e1b529a85fa9449a2c94",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5a907b81e641df1a0632e1b529a85fa9449a2c94"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d454a75c0b453cab7e0b0bf63350a4a5076e7115/comments",
+  "files" : [ {
+    "sha" : "53f4d1d8af7b9ea79f4dd7d1bc715463f5b93c28",
+    "filename" : "AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml?ref=d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "patch" : "@@ -10,7 +10,7 @@\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n     android:background=\"@drawable/s\"\n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137fFifthActivity\">\n-    <!-- 删除-->\n+    <!-- 删除 -->\n <EditText\n     android:layout_width=\"wrap_content\"\n     android:layout_height=\"wrap_content\""
+  }, {
+    "sha" : "f328fa9a13319df0057b4d366957b844057fd729",
+    "filename" : "AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml?ref=d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "patch" : "@@ -10,7 +10,7 @@\n     android:paddingRight=\"@dimen/activity_horizontal_margin\"\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137SecondActivity\">\n-   \n+    <!-- 修改 -->\n     <TableLayout>\n \n         <TableRow"
+  }, {
+    "sha" : "bfa71b9ae67a95c9079c08bd2e32b105acddcf1c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903137.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/activity_net1414080903137.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/activity_net1414080903137.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903137.xml?ref=d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "patch" : "@@ -9,7 +9,7 @@\n \n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137Activity\">\n \n-    <!-- 主界面-->\n+    <!-- 主界面 -->\n     <Button\n         android:text=\"删除商品信息\"\n         android:layout_width=\"wrap_content\""
+  }, {
+    "sha" : "990177f9660a832d229e92a317f9096b8e57e9b1",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d454a75c0b453cab7e0b0bf63350a4a5076e7115/AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml?ref=d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "patch" : "@@ -11,7 +11,7 @@\n     android:background=\"@drawable/s\"\n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137FourthActivity\">\n <TableLayout>\n-    <!-- 添加-->\n+    <!-- 添加 -->\n     <TableRow\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"match_parent\">"
+  } ],
+  "sha" : "d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+  "parents" : [ {
+    "sha" : "924bbc99c064c9ade0dd5d98af0954b3538ad481",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/924bbc99c064c9ade0dd5d98af0954b3538ad481",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/924bbc99c064c9ade0dd5d98af0954b3538ad481"
+  } ]
+}

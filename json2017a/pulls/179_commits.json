@@ -1,0 +1,68 @@
+[ {
+  "sha" : "942f89915915cb84203698efea088bdf4a0fffda",
+  "commit" : {
+    "author" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-03-17T07:28:01Z"
+    },
+    "committer" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-03-17T07:28:01Z"
+    },
+    "message" : "#1 #176 第一次作业",
+    "tree" : {
+      "sha" : "551e35b97d707a6a329463484156d2a586b06a9a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/551e35b97d707a6a329463484156d2a586b06a9a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/942f89915915cb84203698efea088bdf4a0fffda",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/942f89915915cb84203698efea088bdf4a0fffda",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/942f89915915cb84203698efea088bdf4a0fffda",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/942f89915915cb84203698efea088bdf4a0fffda/comments",
+  "author" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "6c47952d16382d0c8a323ab646e3e8663d2dedd7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6c47952d16382d0c8a323ab646e3e8663d2dedd7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6c47952d16382d0c8a323ab646e3e8663d2dedd7"
+  } ]
+} ]

@@ -1,0 +1,68 @@
+[ {
+  "sha" : "b242aa5e2a39adea0c4b42b1a585c3ef044c9bee",
+  "commit" : {
+    "author" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-05-06T08:31:41Z"
+    },
+    "committer" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-05-06T08:31:41Z"
+    },
+    "message" : "#3 #27 第三次实验",
+    "tree" : {
+      "sha" : "5b15df836ca8210878e144be60e587ea1fbfe9e2",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5b15df836ca8210878e144be60e587ea1fbfe9e2"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b242aa5e2a39adea0c4b42b1a585c3ef044c9bee",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b242aa5e2a39adea0c4b42b1a585c3ef044c9bee",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b242aa5e2a39adea0c4b42b1a585c3ef044c9bee",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b242aa5e2a39adea0c4b42b1a585c3ef044c9bee/comments",
+  "author" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "51c51b3e96cdaefef07e3cbf751373c7532495d3",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/51c51b3e96cdaefef07e3cbf751373c7532495d3",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/51c51b3e96cdaefef07e3cbf751373c7532495d3"
+  } ]
+} ]

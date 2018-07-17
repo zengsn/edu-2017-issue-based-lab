@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 136,
+    "additions" : 136,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c586167812d9d28364e200eb12f7444d8f1c8fb9",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-06-11T04:51:21Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-06-11T04:51:21Z"
+    },
+    "message" : "第六次实验",
+    "tree" : {
+      "sha" : "5b72ba9dffcfb038ef40ae292d06b2f88593036b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5b72ba9dffcfb038ef40ae292d06b2f88593036b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c586167812d9d28364e200eb12f7444d8f1c8fb9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c586167812d9d28364e200eb12f7444d8f1c8fb9/comments",
+  "files" : [ {
+    "sha" : "1951e1e028738b3aaf8d481f23b71d33a3f7c582",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioReceiver.java",
+    "status" : "added",
+    "additions" : 61,
+    "deletions" : 0,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c586167812d9d28364e200eb12f7444d8f1c8fb9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioReceiver.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c586167812d9d28364e200eb12f7444d8f1c8fb9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioReceiver.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioReceiver.java?ref=c586167812d9d28364e200eb12f7444d8f1c8fb9",
+    "patch" : "@@ -0,0 +1,61 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903226;\n+\n+import android.util.Log;\n+\n+import java.net.DatagramPacket;\n+import java.net.DatagramSocket;\n+\n+public class Net1414080903226AudioReceiver implements Runnable {\n+    public static final String TAG = \"AudioReceiver\";\n+    int port = 5656;// 接收的端口\n+    DatagramSocket socket;\n+    DatagramPacket packet;\n+    boolean isRunning = false;\n+\n+    private byte[] packetBuf = new byte[1024];\n+    private int packetSize = 1024;\n+\n+    public void startRecieving() {\n+        if (socket == null) {\n+            try {\n+                socket = new DatagramSocket(port);\n+                packet = new DatagramPacket(packetBuf, packetSize);\n+            } catch (Exception e) {\n+            }\n+        }\n+        new Thread(this).start();\n+    }\n+\n+    public void stopRecieving() {\n+        isRunning = false;\n+    }\n+\n+    private void release() {\n+        if (packet != null) {\n+            packet = null;\n+        }\n+        if (socket != null) {\n+            socket.close();\n+            socket = null;\n+        }\n+    }\n+\n+    public void run() {\n+        AudioPlayer player = AudioPlayer.getInstance();\n+        player.startPlaying();\n+\n+        isRunning = true;\n+        try {\n+            while (isRunning) {\n+                socket.receive(packet);\n+                player.addData(packet.getData(), packet.getLength());\n+            }\n+\n+        } catch (Exception e) {\n+            Log.i(TAG, \"run: receive error\");\n+        }\n+        player.stopPlaying();\n+        release();\n+        Log.i(TAG, \"run: stop receiving\");\n+    }\n+}"
+  }, {
+    "sha" : "d5470c538871eb95fb4c364accd7aa087c8ee9b2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioSender.java",
+    "status" : "added",
+    "additions" : 75,
+    "deletions" : 0,
+    "changes" : 75,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c586167812d9d28364e200eb12f7444d8f1c8fb9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioSender.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c586167812d9d28364e200eb12f7444d8f1c8fb9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioSender.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226AudioSender.java?ref=c586167812d9d28364e200eb12f7444d8f1c8fb9",
+    "patch" : "@@ -0,0 +1,75 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903226;\n+\n+import android.util.Log;\n+\n+import com.chenyirun.theircraft.audio.AudioData;\n+\n+import java.net.DatagramPacket;\n+import java.net.DatagramSocket;\n+import java.net.InetAddress;\n+import java.util.Collections;\n+import java.util.LinkedList;\n+import java.util.List;\n+\n+public class Net1414080903226AudioSender implements Runnable {\n+    private static final String TAG = \"AudioSender\";\n+    private boolean isSending = false;\n+    private List<AudioData> dataList;\n+\n+    DatagramSocket socket;\n+    DatagramPacket dataPacket;\n+    private InetAddress ip;\n+    private int port;\n+\n+    public AudioSender(String string_ip) {\n+        dataList = Collections.synchronizedList(new LinkedList<AudioData>());\n+        try {\n+            ip = InetAddress.getByName(string_ip);\n+            Log.i(TAG, \"AudioSender: target ip:\"+ip.toString());\n+            port = 5656;\n+            socket = new DatagramSocket();\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+    }\n+\n+    public void addData(byte[] data, int size) {\n+        AudioData encodedData = new AudioData();\n+        encodedData.setSize(size);\n+        byte[] tempData = new byte[size];\n+        System.arraycopy(data, 0, tempData, 0, size);\n+        encodedData.setRealData(tempData);\n+        dataList.add(encodedData);\n+    }\n+\n+    private void sendData(byte[] data, int size) {\n+        try {\n+            dataPacket = new DatagramPacket(data, size, ip, port);\n+            dataPacket.setData(data);\n+            Log.i(TAG, \"sendData: \"+data.length);\n+            socket.send(dataPacket);\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+    }\n+\n+    public void startSending() {\n+        new Thread(this).start();\n+    }\n+\n+    public void stopSending() {\n+        this.isSending = false;\n+    }\n+\n+    public void run(){\n+        this.isSending = true;\n+        Log.i(TAG, \"run: start\");\n+        while (isSending) {\n+            if (dataList.size() > 0) {\n+                AudioData encodedData = dataList.remove(0);\n+                sendData(encodedData.getRealData(), encodedData.getSize());\n+            }\n+        }\n+        Log.i(TAG, \"run: stop\");\n+    }\n+}"
+  } ],
+  "sha" : "c586167812d9d28364e200eb12f7444d8f1c8fb9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c586167812d9d28364e200eb12f7444d8f1c8fb9",
+  "parents" : [ {
+    "sha" : "d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d44903a9335492ddfc8d0b3d1c3366f5835cbd61"
+  } ]
+}

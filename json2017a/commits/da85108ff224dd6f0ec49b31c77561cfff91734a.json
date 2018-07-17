@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 137,
+    "additions" : 137,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/da85108ff224dd6f0ec49b31c77561cfff91734a",
+  "commit" : {
+    "author" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-06-05T12:41:46Z"
+    },
+    "committer" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-06-05T12:41:46Z"
+    },
+    "message" : "#5 #93 第五次作业",
+    "tree" : {
+      "sha" : "8c2482e232d7ea31b6c751f3fd6fcdd8736a6c14",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8c2482e232d7ea31b6c751f3fd6fcdd8736a6c14"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/da85108ff224dd6f0ec49b31c77561cfff91734a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/da85108ff224dd6f0ec49b31c77561cfff91734a/comments",
+  "files" : [ {
+    "sha" : "324fb35edba673f3c01ae5f9b7a90643d5ca5d27",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227Commit.java",
+    "status" : "added",
+    "additions" : 51,
+    "deletions" : 0,
+    "changes" : 51,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/da85108ff224dd6f0ec49b31c77561cfff91734a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227Commit.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/da85108ff224dd6f0ec49b31c77561cfff91734a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227Commit.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227Commit.java?ref=da85108ff224dd6f0ec49b31c77561cfff91734a",
+    "patch" : "@@ -0,0 +1,51 @@\n+package edu.hzuapps.androidlabs.homeworks.net1412070501227;\n+\n+import android.content.ContentValues;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+\n+public class Net1412070501227Commit extends AppCompatActivity {\n+\n+    EditText etName;\n+    EditText etPhone;\n+    EditText etLocation;\n+\n+    Button button;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1412070501227_commit);\n+        final int carId=getIntent().getIntExtra(\"id\",1);\n+        etName= (EditText) findViewById(R.id.editText3);\n+        etPhone= (EditText) findViewById(R.id.editText4);\n+        etLocation= (EditText) findViewById(R.id.editText5);\n+        button= (Button) findViewById(R.id.button3);\n+        button.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String name=etName.getText().toString();\n+                String phone=etPhone.getText().toString();\n+                String location=etLocation.getText().toString();\n+                SQLiteOpenHelper helper=new Net1412070501227OpenHelper(Net1412070501227Commit.this);\n+                SQLiteDatabase db=helper.getWritableDatabase();\n+                ContentValues values=new ContentValues();\n+                values.put(\"name\",name);\n+                values.put(\"phone\",phone);\n+                values.put(\"location\",location);\n+                values.put(\"id\",carId);\n+                db.insert(\"car\",null,values);\n+                db.close();\n+            }\n+        });\n+\n+    }\n+}"
+  }, {
+    "sha" : "914f87032f13ffbab428a4e0a7467d407c648663",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227OpenHelper.java",
+    "status" : "added",
+    "additions" : 25,
+    "deletions" : 0,
+    "changes" : 25,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/da85108ff224dd6f0ec49b31c77561cfff91734a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227OpenHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/da85108ff224dd6f0ec49b31c77561cfff91734a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227OpenHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227OpenHelper.java?ref=da85108ff224dd6f0ec49b31c77561cfff91734a",
+    "patch" : "@@ -0,0 +1,25 @@\n+package edu.hzuapps.androidlabs.homeworks.net1412070501227;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Administrator on 2017/6/5.\n+ */\n+\n+public class Net1412070501227OpenHelper extends SQLiteOpenHelper {\n+    public Net1412070501227OpenHelper(Context context) {\n+        super(context, \"car\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(\"create table car(name varchar(50),phone varchar(50),location varchar(100),id varchar(10));\");\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "9406b670a66e65c02cd7892f368de7bb645451cc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227index.java",
+    "status" : "added",
+    "additions" : 61,
+    "deletions" : 0,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/da85108ff224dd6f0ec49b31c77561cfff91734a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227index.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/da85108ff224dd6f0ec49b31c77561cfff91734a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227index.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/Net1412070501227index.java?ref=da85108ff224dd6f0ec49b31c77561cfff91734a",
+    "patch" : "@@ -0,0 +1,61 @@\n+package edu.hzuapps.androidlabs.homeworks.net1412070501227;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.ImageView;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+\n+public class Net1412070501227index extends AppCompatActivity implements View.OnClickListener{\n+    private Button shopping_cart;//购物车按钮\n+\n+    ImageView iv1;\n+    ImageView iv2;\n+    ImageView iv3;\n+    ImageView iv4;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1412070501227_index);\n+        iv1= (ImageView) findViewById(R.id.iv1);\n+        iv2= (ImageView) findViewById(R.id.iv2);\n+        iv3= (ImageView) findViewById(R.id.iv3);\n+        iv4= (ImageView) findViewById(R.id.iv4);\n+\n+        shopping_cart = (Button) findViewById(R.id.btn_cart);\n+        shopping_cart.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1412070501227index.this, Net1412070501227Commit.class);\n+                startActivity(intent);\n+            }\n+        });\n+    }\n+\n+    @Override\n+    public void onClick(View v) {\n+        int id=1;\n+        switch (v.getId()){\n+            case R.id.iv1:\n+                id=1;\n+                break;\n+            case R.id.iv2:\n+                id=2;\n+                break;\n+            case R.id.iv3:\n+                id=3;\n+                break;\n+            case R.id.iv4:\n+                id=4;\n+                break;\n+        }\n+        Intent intent = new Intent(Net1412070501227index.this, Net1412070501227Commit.class);\n+        intent.putExtra(\"id\",id);\n+        startActivity(intent);\n+\n+    }\n+}"
+  } ],
+  "sha" : "da85108ff224dd6f0ec49b31c77561cfff91734a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/da85108ff224dd6f0ec49b31c77561cfff91734a",
+  "parents" : [ {
+    "sha" : "9719d43f112e9c15f034110510b663cf7db6d252",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9719d43f112e9c15f034110510b663cf7db6d252",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9719d43f112e9c15f034110510b663cf7db6d252"
+  } ]
+}

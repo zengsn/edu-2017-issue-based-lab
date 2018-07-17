@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 4,
+    "additions" : 2,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "livehan",
+    "id" : 26042082,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26042082?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/livehan",
+    "html_url" : "https://github.com/livehan",
+    "followers_url" : "https://api.github.com/users/livehan/followers",
+    "following_url" : "https://api.github.com/users/livehan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/livehan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/livehan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/livehan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/livehan/orgs",
+    "repos_url" : "https://api.github.com/users/livehan/repos",
+    "events_url" : "https://api.github.com/users/livehan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/livehan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f0ccf1c16e08dda1d95ada4381f3fd4616d66263",
+  "commit" : {
+    "author" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-05-05T11:02:21Z"
+    },
+    "committer" : {
+      "name" : "livehan",
+      "email" : "843098853@qq.com",
+      "date" : "2017-05-05T11:02:21Z"
+    },
+    "message" : "#2 #93 第二次作业",
+    "tree" : {
+      "sha" : "c671ade459c5fbf1ed4df0d1eab3c8c2e6100e7d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c671ade459c5fbf1ed4df0d1eab3c8c2e6100e7d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f0ccf1c16e08dda1d95ada4381f3fd4616d66263",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f0ccf1c16e08dda1d95ada4381f3fd4616d66263/comments",
+  "files" : [ {
+    "sha" : "b1e9060bfd88189cb5173795e5962ad005e8001d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/orders.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f0ccf1c16e08dda1d95ada4381f3fd4616d66263/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/orders.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f0ccf1c16e08dda1d95ada4381f3fd4616d66263/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/orders.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/orders.java?ref=f0ccf1c16e08dda1d95ada4381f3fd4616d66263",
+    "patch" : "@@ -4,7 +4,7 @@\n  * 一个订单类，定义的变量均为订单的内容\n  */\n \n-public class orders {\n+public class Orders {\n      private int id;\n      public String price,standard;\n      public String sendname,senderphone,sendaddress;"
+  }, {
+    "sha" : "cccd5d2ec03aab9dbf69f6acc661ee8f9b7f6e91",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/user.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f0ccf1c16e08dda1d95ada4381f3fd4616d66263/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/user.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f0ccf1c16e08dda1d95ada4381f3fd4616d66263/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/user.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1412070501227/user.java?ref=f0ccf1c16e08dda1d95ada4381f3fd4616d66263",
+    "patch" : "@@ -3,7 +3,7 @@\n /**\n  * 一个user类 ，定义的变量均为用户信息\n  */\n-public class user {\n+public class User {\n     private String username,password;\n     private String phone,Email;\n     public String getUsername() {"
+  } ],
+  "sha" : "f0ccf1c16e08dda1d95ada4381f3fd4616d66263",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f0ccf1c16e08dda1d95ada4381f3fd4616d66263",
+  "parents" : [ {
+    "sha" : "d0c1dbd84433d27f67851d8b48138883fcfad2f0",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d0c1dbd84433d27f67851d8b48138883fcfad2f0",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d0c1dbd84433d27f67851d8b48138883fcfad2f0"
+  } ]
+}

@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 456,
+    "additions" : 456,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-01T16:02:42Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-01T16:02:42Z"
+    },
+    "message" : "#5 #76 第5次实验",
+    "tree" : {
+      "sha" : "51393df4cb42473773ad7acc02ea055c399c5f4a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/51393df4cb42473773ad7acc02ea055c399c5f4a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/comments",
+  "files" : [ {
+    "sha" : "2dec4c02439f0762614fe6948928e493e67f7217",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DevItemDao.java",
+    "status" : "added",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DevItemDao.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DevItemDao.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DevItemDao.java?ref=00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "patch" : "@@ -0,0 +1,39 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils;\n+\n+import org.litepal.crud.DataSupport;\n+\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean.DevArticle;\n+\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils\n+ * Class describe:对开发类文章数据库进行操作\n+ * Author: cheng\n+ * Create time: 2017/6/1 22:16\n+ */\n+public class DevItemDao {\n+\n+    public void addData(List<DevArticle> devArticleList){\n+\n+        for (DevArticle devs:devArticleList){\n+            devs.save();\n+        }\n+    }\n+\n+    public void clearAllData(){\n+        DataSupport.deleteAll(DevArticle.class);\n+    }\n+\n+    public void updateData(){\n+\n+    }\n+\n+    public List<DevArticle>  getAllData() {\n+        List<DevArticle>devArticleList=  DataSupport.findAll(DevArticle.class);\n+        return devArticleList;\n+\n+    }\n+}"
+  }, {
+    "sha" : "8b2213f741b4fa6ddfb5d609b3e13a9344b0b886",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DiskLruCacheUtil.java",
+    "status" : "added",
+    "additions" : 309,
+    "deletions" : 0,
+    "changes" : 309,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DiskLruCacheUtil.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DiskLruCacheUtil.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/DiskLruCacheUtil.java?ref=00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "patch" : "@@ -0,0 +1,309 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils;\n+\n+import android.content.Context;\n+import android.os.Environment;\n+import android.util.Log;\n+\n+import com.jakewharton.disklrucache.DiskLruCache;\n+\n+import org.json.JSONArray;\n+import org.json.JSONException;\n+import org.json.JSONObject;\n+\n+import java.io.BufferedReader;\n+import java.io.BufferedWriter;\n+import java.io.File;\n+import java.io.IOException;\n+import java.io.InputStream;\n+import java.io.InputStreamReader;\n+import java.io.ObjectInputStream;\n+import java.io.ObjectOutputStream;\n+import java.io.OutputStream;\n+import java.io.OutputStreamWriter;\n+import java.io.Serializable;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.KnowApplication;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils\n+ * Class describe:封装DiskLruCache，进行缓存管理\n+ * Author: cheng\n+ * Create time: 2017/5/31 16:06\n+ */\n+public class DiskLruCacheUtil {\n+\n+    private static String TAG=\"DiskLruCacheUtil\";\n+    private static String WRITE_SUCCESS=\"写入成功\";\n+    private static String WRITE_ERROR=\"写入失败\";\n+    private static String READ_SUCCESS=\"读取成功\";\n+    private static String READ_ERROR=\"读取失败\";\n+\n+    private static DiskLruCache diskLruCache;\n+    private DiskLruCache.Editor cacheEditor = null;\n+    private DiskLruCache.Snapshot cacheSnapshot=null;\n+    public DiskLruCacheUtil(Context context,String uniqueName){\n+        try {\n+        if(diskLruCache!=null) {\n+            diskLruCache.close();\n+            diskLruCache = null;\n+            }\n+            File cachePath=getDiskCachePath(context,uniqueName);\n+            Log.i(\"THE PATH IS\",\"\"+cachePath);\n+\n+            diskLruCache=DiskLruCache.open(cachePath, KnowApplication.getAppVersion(),1,1024*1024);\n+        } catch (IOException e) {\n+                e.printStackTrace();\n+            }\n+        }\n+\n+\n+     /**\n+      * Method:  getDiskCacheDir\n+      * desription: 获取缓存路径\n+      * @Param:\n+      * @return:\n+      */\n+    public File getDiskCachePath(Context context, String uniqueName){\n+        String cachePath=null;\n+        if(Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())|| !Environment.isExternalStorageRemovable()){\n+            cachePath=context.getExternalCacheDir().getPath();\n+        }else{\n+            cachePath=context.getCacheDir().getPath();\n+        }\n+        return new File(cachePath+File.separator+uniqueName);\n+    }\n+\n+     /**\n+      * Method:  cacheEdit\n+      * desription: 实例化DiskLruCache.Editor：执行缓存的写入对象\n+      * @Param:\n+      * @return:\n+      */\n+    private DiskLruCache.Editor getCacheEdit(String key) throws IOException {\n+        key=MD5Util.getMD5Key(key);\n+        if(key!=null){\n+            Log.i(\"THE key is\",key);\n+            if(diskLruCache!=null){\n+                cacheEditor=diskLruCache.edit(key);\n+            }\n+\n+        }\n+        return cacheEditor;\n+    }\n+\n+    private DiskLruCache.Snapshot getSnapshot(String key) throws IOException {\n+        if(diskLruCache!=null){\n+            cacheSnapshot=diskLruCache.get(key);\n+\n+        }\n+        return cacheSnapshot;\n+    }\n+\n+     /**\n+      * Method:  writeCache\n+      * desription: 写入缓存\n+      * @Param:\n+      * @return:\n+      */\n+    public void writeCache(String key,String value) throws IOException {\n+        DiskLruCache.Editor editor = null;\n+        BufferedWriter writer=null;\n+        try {\n+            editor=getCacheEdit(key);\n+            if(editor==null){\n+                return;\n+            }\n+            OutputStream os=editor.newOutputStream(0);\n+            writer=new BufferedWriter(new OutputStreamWriter(os));\n+            writer.write(value);\n+            editor.commit();\n+            Log.i(TAG,WRITE_SUCCESS);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+            Log.i(TAG,WRITE_ERROR);\n+            if(editor!=null){\n+                editor.abort();\n+            }\n+        }finally {\n+            if(writer!=null){\n+                writer.close();\n+            }\n+        }\n+    }\n+\n+     /**\n+      * Method:  readCache\n+      * desription: 读取缓存\n+      * @Param:\n+      * @return:\n+      */\n+    public String readCache(String key){\n+        InputStream is=getCacheInputStream(key);\n+        if(is==null){\n+            return null;\n+        }\n+        try {\n+            return inputStreamToString(is);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+            return null;\n+        }finally {\n+            try {\n+                is.close();\n+            } catch (IOException e) {\n+                e.printStackTrace();\n+            }\n+        }\n+\n+    }\n+\n+    private InputStream getCacheInputStream(String key){\n+        key=MD5Util.getMD5Key(key);\n+        InputStream is=null;\n+        try {\n+            DiskLruCache.Snapshot snapshot=getSnapshot(key);\n+            if(snapshot==null){\n+                return null;\n+            }\n+            is=snapshot.getInputStream(0);\n+\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        }\n+        return is;\n+    }\n+\n+    private String inputStreamToString(InputStream is)throws IOException{\n+        BufferedReader br = new BufferedReader(new InputStreamReader(is, \"UTF-8\"));\n+        StringBuilder buffer = new StringBuilder();\n+        String line;\n+        while ((line = br.readLine()) != null) {\n+            buffer.append(line);\n+        }\n+        return buffer.toString();\n+    }\n+\n+     /**\n+      * Method:  writeJsonObjectCache\n+      * desription: 写入jsonObject对象\n+      * @Param:\n+      * @return:\n+      */\n+    public void writeJsonObjectCache(String key, JSONObject value) throws IOException{\n+        writeCache(key,value.toString());\n+    }\n+\n+     /**\n+      * Method:  readJsonObjectCache\n+      * desription: 读取jsonobject对象\n+      * @Param:\n+      * @return:\n+      */\n+    public JSONObject readJsonObjectCache(String key)throws IOException{\n+        String json=readCache(key);\n+        try {\n+            return new JSONObject(json);\n+        } catch (JSONException e) {\n+            e.printStackTrace();\n+            return null;\n+        }\n+    }\n+\n+    public void writeJsonArrayCache(String key,String value)throws IOException{\n+        writeCache(key,value.toString());\n+    }\n+\n+    public JSONArray readJsonArrayCache(String key)throws IOException{\n+        String json=readCache(key);\n+        try {\n+            return new JSONArray(json);\n+        } catch (JSONException e) {\n+            e.printStackTrace();\n+            return null;\n+        }\n+    }\n+\n+     /**\n+      * Method:  writeObject\n+      * desription: 写入序列化后的对象\n+      * @Param:\n+      * @return:\n+      */\n+    public void writeObject(String key, Serializable object){\n+        ObjectOutputStream oos=null;\n+        DiskLruCache.Editor editor=null;\n+        try {\n+            editor=getCacheEdit(key);\n+            if(editor==null){\n+                return;\n+            }\n+            oos=new ObjectOutputStream(editor.newOutputStream(0));\n+            oos.writeObject(object);\n+            oos.flush();\n+            editor.commit();\n+            Log.i(TAG,WRITE_SUCCESS);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+            if(editor!=null){\n+                try {\n+                    editor.abort();\n+                } catch (IOException e1) {\n+                    e1.printStackTrace();\n+                    Log.i(TAG,WRITE_ERROR);\n+                }\n+            }\n+        }finally {\n+            if(oos!=null){\n+                try {\n+                    oos.close();\n+                } catch (IOException e) {\n+                    e.printStackTrace();\n+                }\n+            }\n+        }\n+\n+    }\n+\n+\n+     /**\n+      * Method: readObject\n+      * desription: 读取对象\n+      * @Param:\n+      * @return:\n+      */\n+    public <T>T readObject(String key){\n+        T object=null;\n+        ObjectInputStream ois=null;\n+        InputStream is=getCacheInputStream(key);\n+        if(is==null){\n+            return null;\n+        }\n+        try {\n+            ois=new ObjectInputStream(is);\n+            object=(T)ois.readObject();\n+            Log.i(TAG,READ_SUCCESS);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        } catch (ClassNotFoundException e) {\n+            e.printStackTrace();\n+            Log.i(TAG,READ_ERROR);\n+        }\n+        return object;\n+\n+    }\n+\n+    //用来同步\n+    public static void flush(){\n+        if(diskLruCache!=null){\n+            try {\n+                diskLruCache.flush();\n+            } catch (IOException e) {\n+                e.printStackTrace();\n+            }\n+        }\n+    }\n+\n+\n+\n+}"
+  }, {
+    "sha" : "bf88737143c29eef1fed654be4b3d15f3d2e07fe",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/LitePalHelper.java",
+    "status" : "added",
+    "additions" : 24,
+    "deletions" : 0,
+    "changes" : 24,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/LitePalHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/LitePalHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/LitePalHelper.java?ref=00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "patch" : "@@ -0,0 +1,24 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils;\n+\n+import org.litepal.LitePal;\n+import org.litepal.crud.DataSupport;\n+\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean.News;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/6/1 21:24\n+ */\n+public class LitePalHelper<T> {\n+\n+    public LitePalHelper(){\n+        LitePal.getDatabase();\n+    }\n+\n+\n+}"
+  }, {
+    "sha" : "697d040254e543c45027ffe09a25581261d19224",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/MD5Util.java",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/MD5Util.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/MD5Util.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/MD5Util.java?ref=00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "patch" : "@@ -0,0 +1,42 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils;\n+\n+import java.io.UnsupportedEncodingException;\n+import java.security.MessageDigest;\n+import java.security.NoSuchAlgorithmException;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils\n+ * Class describe: MD5加密类\n+ * Author: cheng\n+ * Create time: 2017/5/31 16:54\n+ */\n+public class MD5Util {\n+\n+    public static String getMD5Key(String value){\n+        try {\n+            MessageDigest messageDigest=MessageDigest.getInstance(\"MD5\");\n+            messageDigest.update(value.getBytes(\"UTF-8\"));\n+            byte[]result=messageDigest.digest();\n+            String key=getString(result);\n+            return key;\n+        } catch (NoSuchAlgorithmException e) {\n+            e.printStackTrace();\n+        } catch (UnsupportedEncodingException e) {\n+            e.printStackTrace();\n+        }\n+        return \"\";\n+    }\n+\n+    private static String getString(byte[] result) {\n+        StringBuilder sb = new StringBuilder();\n+        for (byte b : result) {\n+            int i = b & 0xff;\n+            if (i <= 0xf) {\n+                sb.append(0);\n+            }\n+            sb.append(Integer.toHexString(i));\n+        }\n+        return sb.toString().toLowerCase();\n+    }\n+}"
+  }, {
+    "sha" : "171febf87ae0fdfe53da06f8b4e6aeb72699ed76",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/NewsDao.java",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/NewsDao.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/NewsDao.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/utils/NewsDao.java?ref=00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "patch" : "@@ -0,0 +1,42 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils;\n+\n+import org.litepal.crud.DataSupport;\n+\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean.News;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.utils\n+ * Class describe:对新闻数据库进行操作\n+ * Author: cheng\n+ * Create time: 2017/6/1 22:12\n+ */\n+public class NewsDao extends LitePalHelper {\n+\n+\n+    public void addData(List<News> newsList){\n+\n+        for (News news:newsList){\n+            news.save();\n+        }\n+    }\n+\n+    public void clearAllData(){\n+        DataSupport.deleteAll(News.class);\n+    }\n+\n+    public void updateData(){\n+\n+    }\n+\n+    public List<News>  getAllData() {\n+        List<News>newsList=  DataSupport.findAll(News.class);\n+        return newsList;\n+\n+    }\n+\n+\n+\n+}"
+  } ],
+  "sha" : "00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+  "parents" : [ {
+    "sha" : "c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c1bbebc3ed9209deadd44eb8bbde143ab3fad4f4"
+  } ]
+}

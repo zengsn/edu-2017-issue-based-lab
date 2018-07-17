@@ -1,0 +1,152 @@
+{
+  "committer" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 462,
+    "additions" : 457,
+    "deletions" : 5
+  },
+  "author" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b851b055addf5588322130452184b4252ca8cf7",
+  "commit" : {
+    "author" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-06-02T07:17:08Z"
+    },
+    "committer" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-06-02T07:17:08Z"
+    },
+    "message" : "#5 #169 第五次作业",
+    "tree" : {
+      "sha" : "e5ce6ee261121386552fb7d999907955633a5b06",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e5ce6ee261121386552fb7d999907955633a5b06"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5b851b055addf5588322130452184b4252ca8cf7",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b851b055addf5588322130452184b4252ca8cf7/comments",
+  "files" : [ {
+    "sha" : "f77b0b9b682ca3120e749a979289059e530445ff",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest(2).xml",
+    "status" : "renamed",
+    "additions" : 5,
+    "deletions" : 2,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/AndroidManifest(2).xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/AndroidManifest(2).xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest(2).xml?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -5,6 +5,8 @@\n     </uses-permission>\n     <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\">\n     </uses-permission>\n+    <uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"></uses-permission>\n+    <uses-permission android:name=\"android.permission.INTERNET\"></uses-permission>\n     <application\n         android:allowBackup=\"true\"\n         android:icon=\"@mipmap/ic_launcher\"\n@@ -15,12 +17,13 @@\n         <activity android:name=\".Net1414080903214Activity\">\n             <intent-filter>\n                 <action android:name=\"android.intent.action.MAIN\" />\n-\n                 <category android:name=\"android.intent.category.LAUNCHER\" />\n             </intent-filter>\n         </activity>\n         <activity android:name=\".CustomCamera\"></activity>\n-        <activity android:name=\".Result\"></activity>\n+        <activity android:name=\".Result\"></activity>.\n+        <activity android:name=\".wordTranslation\"></activity>\n+\n     </application>\n \n </manifest>\n\\ No newline at end of file",
+    "previous_filename" : "AndroidLabs/app/src/main/AndroidManifest（2）.xml"
+  }, {
+    "sha" : "a0240970259ecffb6888cfcf3477f5f191eb2317",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/HttpGet.java",
+    "status" : "added",
+    "additions" : 159,
+    "deletions" : 0,
+    "changes" : 159,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/HttpGet.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/HttpGet.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/HttpGet.java?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -0,0 +1,159 @@\n+package com.example.administrator.net1414080903214;\n+\n+import java.io.BufferedReader;\n+import java.io.Closeable;\n+import java.io.IOException;\n+import java.io.InputStream;\n+import java.io.InputStreamReader;\n+import java.io.UnsupportedEncodingException;\n+import java.net.HttpURLConnection;\n+import java.net.MalformedURLException;\n+import java.net.URL;\n+import java.net.URLEncoder;\n+import java.security.KeyManagementException;\n+import java.security.NoSuchAlgorithmException;\n+import java.security.cert.CertificateException;\n+import java.security.cert.X509Certificate;\n+import java.util.Map;\n+\n+import javax.net.ssl.HttpsURLConnection;\n+import javax.net.ssl.SSLContext;\n+import javax.net.ssl.TrustManager;\n+import javax.net.ssl.X509TrustManager;\n+\n+class HttpGet {\n+    protected static final int SOCKET_TIMEOUT = 10000; // 10S\n+    protected static final String GET = \"GET\";\n+\n+    public static String get(String host, Map<String, String> params) {\n+        try {\n+            // 设置SSLContext\n+            SSLContext sslcontext = SSLContext.getInstance(\"TLS\");\n+            sslcontext.init(null, new TrustManager[] { myX509TrustManager }, null);\n+\n+            String sendUrl = getUrlWithQueryString(host, params);\n+\n+            // System.out.println(\"URL:\" + sendUrl);\n+\n+            URL uri = new URL(sendUrl); // 创建URL对象\n+            HttpURLConnection conn = (HttpURLConnection) uri.openConnection();\n+            if (conn instanceof HttpsURLConnection) {\n+                ((HttpsURLConnection) conn).setSSLSocketFactory(sslcontext.getSocketFactory());\n+            }\n+\n+            conn.setConnectTimeout(SOCKET_TIMEOUT); // 设置相应超时\n+            conn.setRequestMethod(GET);\n+            int statusCode = conn.getResponseCode();\n+            if (statusCode != HttpURLConnection.HTTP_OK) {\n+                System.out.println(\"Http错误码：\" + statusCode);\n+            }\n+\n+            // 读取服务器的数据\n+            InputStream is = conn.getInputStream();\n+            BufferedReader br = new BufferedReader(new InputStreamReader(is));\n+            StringBuilder builder = new StringBuilder();\n+            String line = null;\n+            while ((line = br.readLine()) != null) {\n+                builder.append(line);\n+            }\n+\n+            String text = builder.toString();\n+\n+            close(br); // 关闭数据流\n+            close(is); // 关闭数据流\n+            conn.disconnect(); // 断开连接\n+\n+            return text;\n+        } catch (MalformedURLException e) {\n+            e.printStackTrace();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        } catch (KeyManagementException e) {\n+            e.printStackTrace();\n+        } catch (NoSuchAlgorithmException e) {\n+            e.printStackTrace();\n+        }\n+\n+        return null;\n+    }\n+\n+    public static String getUrlWithQueryString(String url, Map<String, String> params) {\n+        if (params == null) {\n+            return url;\n+        }\n+\n+        StringBuilder builder = new StringBuilder(url);\n+        if (url.contains(\"?\")) {\n+            builder.append(\"&\");\n+        } else {\n+            builder.append(\"?\");\n+        }\n+\n+        int i = 0;\n+        for (String key : params.keySet()) {\n+            String value = params.get(key);\n+            if (value == null) { // 过滤空的key\n+                continue;\n+            }\n+\n+            if (i != 0) {\n+                builder.append('&');\n+            }\n+\n+            builder.append(key);\n+            builder.append('=');\n+            builder.append(encode(value));\n+\n+            i++;\n+        }\n+\n+        return builder.toString();\n+    }\n+\n+    protected static void close(Closeable closeable) {\n+        if (closeable != null) {\n+            try {\n+                closeable.close();\n+            } catch (IOException e) {\n+                e.printStackTrace();\n+            }\n+        }\n+    }\n+\n+    /**\n+     * 对输入的字符串进行URL编码, 即转换为%20这种形式\n+     *\n+     * @param input 原文\n+     * @return URL编码. 如果编码失败, 则返回原文\n+     */\n+    public static String encode(String input) {\n+        if (input == null) {\n+            return \"\";\n+        }\n+\n+        try {\n+            return URLEncoder.encode(input, \"utf-8\");\n+        } catch (UnsupportedEncodingException e) {\n+            e.printStackTrace();\n+        }\n+\n+        return input;\n+    }\n+\n+    private static TrustManager myX509TrustManager = new X509TrustManager() {\n+\n+        @Override\n+        public X509Certificate[] getAcceptedIssuers() {\n+            return null;\n+        }\n+\n+        @Override\n+        public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {\n+        }\n+\n+        @Override\n+        public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {\n+        }\n+    };\n+\n+}"
+  }, {
+    "sha" : "5dd3f98058f29b1ce3d484356feb36d277efee19",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/MD5.java",
+    "status" : "added",
+    "additions" : 123,
+    "deletions" : 0,
+    "changes" : 123,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/MD5.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/MD5.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/MD5.java?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -0,0 +1,123 @@\n+package com.example.administrator.net1414080903214;\n+\n+import java.io.File;\n+import java.io.FileInputStream;\n+import java.io.FileNotFoundException;\n+import java.io.IOException;\n+import java.io.InputStream;\n+import java.io.UnsupportedEncodingException;\n+import java.security.MessageDigest;\n+import java.security.NoSuchAlgorithmException;\n+/**\n+ * MD5编码相关的类\n+ *\n+ * @author wangjingtao\n+ *\n+ */\n+public class MD5 {\n+    // 首先初始化一个字符数组，用来存放每个16进制字符\n+    private static final char[] hexDigits = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd',\n+            'e', 'f' };\n+\n+    /**\n+     * 获得一个字符串的MD5值\n+     *\n+     * @param input 输入的字符串\n+     * @return 输入字符串的MD5值\n+     *\n+     */\n+    public static String md5(String input) {\n+        if (input == null)\n+            return null;\n+\n+        try {\n+            // 拿到一个MD5转换器（如果想要SHA1参数换成”SHA1”）\n+            MessageDigest messageDigest = MessageDigest.getInstance(\"MD5\");\n+            // 输入的字符串转换成字节数组\n+            byte[] inputByteArray = input.getBytes(\"utf-8\");\n+            // inputByteArray是输入字符串转换得到的字节数组\n+            messageDigest.update(inputByteArray);\n+            // 转换并返回结果，也是字节数组，包含16个元素\n+            byte[] resultByteArray = messageDigest.digest();\n+            // 字符数组转换成字符串返回\n+            return byteArrayToHex(resultByteArray);\n+        } catch (NoSuchAlgorithmException e) {\n+            return null;\n+        } catch (UnsupportedEncodingException e) {\n+            return null;\n+        }\n+    }\n+\n+    /**\n+     * 获取文件的MD5值\n+     *\n+     * @param file\n+     * @return\n+     */\n+    public static String md5(File file) {\n+        try {\n+            if (!file.isFile()) {\n+                System.err.println(\"文件\" + file.getAbsolutePath() + \"不存在或者不是文件\");\n+                return null;\n+            }\n+\n+            FileInputStream in = new FileInputStream(file);\n+\n+            String result = md5(in);\n+\n+            in.close();\n+\n+            return result;\n+\n+        } catch (FileNotFoundException e) {\n+            e.printStackTrace();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        }\n+\n+        return null;\n+    }\n+\n+    public static String md5(InputStream in) {\n+\n+        try {\n+            MessageDigest messagedigest = MessageDigest.getInstance(\"MD5\");\n+\n+            byte[] buffer = new byte[1024];\n+            int read = 0;\n+            while ((read = in.read(buffer)) != -1) {\n+                messagedigest.update(buffer, 0, read);\n+            }\n+\n+            in.close();\n+\n+            String result = byteArrayToHex(messagedigest.digest());\n+\n+            return result;\n+        } catch (NoSuchAlgorithmException e) {\n+            e.printStackTrace();\n+        } catch (FileNotFoundException e) {\n+            e.printStackTrace();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        }\n+\n+        return null;\n+    }\n+\n+    private static String byteArrayToHex(byte[] byteArray) {\n+        // new一个字符数组，这个就是用来组成结果字符串的（解释一下：一个byte是八位二进制，也就是2位十六进制字符（2的8次方等于16的2次方））\n+        char[] resultCharArray = new char[byteArray.length * 2];\n+        // 遍历字节数组，通过位运算（位运算效率高），转换成字符放到字符数组中去\n+        int index = 0;\n+        for (byte b : byteArray) {\n+            resultCharArray[index++] = hexDigits[b >>> 4 & 0xf];\n+            resultCharArray[index++] = hexDigits[b & 0xf];\n+        }\n+\n+        // 字符数组组合成字符串返回\n+        return new String(resultCharArray);\n+\n+    }\n+\n+}"
+  }, {
+    "sha" : "89d5ed51dcde4e1f26e022053d122249b01aed4d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java",
+    "status" : "modified",
+    "additions" : 6,
+    "deletions" : 3,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -12,7 +12,10 @@ protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903214);\n     }\n-    public void customCamera(View view){\n-        startActivity(new Intent(this,CustomCamera.class));\n+\n+   public void customCamera(View view) {\n+        startActivity(new Intent(this, CustomCamera.class));\n     }\n-}\n+\n+    public void wordTranslation(View view) {startActivity(new Intent(this, wordTranslation.class));}\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "9f44fa9aa562b6a0b1e1ac22e2c50c47f856365c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/TransApi.java",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/TransApi.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/TransApi.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/TransApi.java?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -0,0 +1,42 @@\n+package com.example.administrator.net1414080903214;\n+\n+        import java.util.HashMap;\n+        import java.util.Map;\n+\n+public class TransApi {\n+    private static final String TRANS_API_HOST = \"http://api.fanyi.baidu.com/api/trans/vip/translate\";\n+\n+    private String appid;\n+    private String securityKey;\n+\n+    public TransApi(String appid, String securityKey) {\n+        this.appid = appid;\n+        this.securityKey = securityKey;\n+    }\n+\n+    public String getTransResult(String query, String from, String to) {\n+        Map<String, String> params = buildParams(query, from, to);\n+\n+        return HttpGet.get(TRANS_API_HOST, params);\n+    }\n+\n+    private Map<String, String> buildParams(String query, String from, String to) {\n+        Map<String, String> params = new HashMap<String, String>();\n+        params.put(\"q\", query);\n+        params.put(\"from\", from);\n+        params.put(\"to\", to);\n+\n+        params.put(\"appid\", appid);\n+\n+        // 随机数\n+        String salt = String.valueOf(System.currentTimeMillis());\n+        params.put(\"salt\", salt);\n+\n+        // 签名\n+        String src = appid + query + salt + securityKey; // 加密前的原文\n+        params.put(\"sign\", MD5.md5(src));\n+\n+        return params;\n+    }\n+\n+}"
+  }, {
+    "sha" : "fd454c3bb0d1e03b3e9d03bdee2c94c9d3db8e2e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/wordTranslation.java",
+    "status" : "added",
+    "additions" : 89,
+    "deletions" : 0,
+    "changes" : 89,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/wordTranslation.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/wordTranslation.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/wordTranslation.java?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -0,0 +1,89 @@\n+package com.example.administrator.net1414080903214;\n+import android.app.Activity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.TextView;\n+import android.widget.Toast;\n+\n+import java.io.File;\n+import java.io.FileNotFoundException;\n+import java.io.FileOutputStream;\n+import java.io.IOException;\n+\n+public class wordTranslation extends Activity implements View.OnClickListener {\n+    private Button button;\n+    private EditText editText ;\n+    private String inputText;\n+    private TextView textView;\n+    private String text;\n+\n+    private static final String APP_ID = \"20170531000049673\";\n+    private static final String SECURITY_KEY = \"7oz2iDBn4123HWHOJ1VI\";\n+    //获取编辑框的内容存入sd卡中\n+    public void  getContent(){\n+        try {\n+            File file=new File(\"/sdcard/temp.txt\");\n+            FileOutputStream fos=new FileOutputStream(file);\n+            byte[] data=inputText.getBytes(\"UTF-8\");\n+            fos.write(data);\n+            fos.close();\n+        } catch (FileNotFoundException e) {\n+            e.printStackTrace();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        }\n+    };\n+\n+    protected void onCreate( Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.wordtranslaton1414080903214);\n+        button=(Button)findViewById(R.id.bt_start);\n+        editText= (EditText) findViewById(R.id.editText);\n+        textView= (TextView) findViewById(R.id.tv);\n+        button.setOnClickListener(this);\n+    }\n+\n+    public void onClick(View view){\n+        switch(view.getId()){\n+            case R.id.bt_start:\n+                inputText=editText.getText().toString();\n+                getContent();\n+                new Thread(){\n+                    public void run(){\n+                        TransApi api = new TransApi(APP_ID, SECURITY_KEY);\n+                        String query = inputText;\n+                        //返回一个包含api标准的字符串，里面是这样{\"from\":\"auto\",\"to\":\"en\",\"trans_result\":[{\"src\":原文\",\"dst\":译文\"}]}\n+                        text=api.getTransResult(query, \"auto\", \"en\");\n+                        //提取译文部分\n+                        int i1=text.indexOf(\"dst\");\n+                        int i2=text.indexOf(\"]\");\n+                        final String t=text.substring(i1+6,i2-2);\n+                        if (t!=null){\n+                            runOnUiThread(new Runnable() {\n+                                @Override\n+                                public void run() {\n+                                    textView.setText(t);\n+                                    Toast.makeText(wordTranslation.this,\"成功\",Toast.LENGTH_SHORT).show();\n+                                }\n+                            });\n+                        }else {\n+                            runOnUiThread(new Runnable() {\n+                                @Override\n+                                public void run() {\n+                                    Toast.makeText(wordTranslation.this,\"失败\",Toast.LENGTH_SHORT).show();\n+                                }\n+                            });\n+                        }\n+                    }\n+                }.start();\n+                break;\n+            default:\n+                break;\n+        }\n+    }\n+\n+}\n+\n+"
+  }, {
+    "sha" : "2d51f5d378ed608b2d270c9e668049b7c82bc600",
+    "filename" : "AndroidLabs/app/src/main/res/layout/wordtranslaton1414080903214.xml",
+    "status" : "added",
+    "additions" : 33,
+    "deletions" : 0,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/res/layout/wordtranslaton1414080903214.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5b851b055addf5588322130452184b4252ca8cf7/AndroidLabs/app/src/main/res/layout/wordtranslaton1414080903214.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/wordtranslaton1414080903214.xml?ref=5b851b055addf5588322130452184b4252ca8cf7",
+    "patch" : "@@ -0,0 +1,33 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:weightSum=\"1\">\n+<TextView\n+    android:layout_width=\"wrap_content\"\n+    android:layout_height=\"wrap_content\"\n+    android:text=\"在框内输入要翻译的单词，点击翻译按钮\" />\n+\n+    <EditText\n+        android:id=\"@+id/editText\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"40dp\"\n+        android:layout_weight=\"0.26\" />\n+\n+    <TextView\n+        android:id=\"@+id/tv\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"40dp\"\n+        android:layout_weight=\"0.32\" />\n+\n+\n+    <Button\n+        android:id=\"@+id/bt_start\"\n+        android:layout_width=\"134dp\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_weight=\"0.04\"\n+        android:text=\"翻译\" />\n+\n+\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "5b851b055addf5588322130452184b4252ca8cf7",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b851b055addf5588322130452184b4252ca8cf7",
+  "parents" : [ {
+    "sha" : "a7c1f7203264e436769c3bfc070380a30172620b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a7c1f7203264e436769c3bfc070380a30172620b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a7c1f7203264e436769c3bfc070380a30172620b"
+  } ]
+}

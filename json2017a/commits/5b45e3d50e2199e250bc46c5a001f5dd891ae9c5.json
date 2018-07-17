@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 118,
+    "additions" : 0,
+    "deletions" : 118
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b45e3d50e2199e250bc46c5a001f5dd891ae9c5",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-19T04:33:12Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-19T04:33:12Z"
+    },
+    "message" : "#4 #76 第四次实验",
+    "tree" : {
+      "sha" : "a877e80c254ff018a74b40868101a99c6f3981aa",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a877e80c254ff018a74b40868101a99c6f3981aa"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5b45e3d50e2199e250bc46c5a001f5dd891ae9c5",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b45e3d50e2199e250bc46c5a001f5dd891ae9c5/comments",
+  "files" : [ {
+    "sha" : "d71e97956bf190c9e0d9159c7e8fb581e3b0dcd8",
+    "filename" : "AndroidLabs/app/src/main/res/values/attrs.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 8,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/attrs.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/attrs.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/attrs.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,8 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<resources>\n-    <declare-styleable name=\"KnowDevToolBar\">\n-        <attr name=\"toolbarMenuIcon\" format=\"reference\"/>\n-        <attr name=\"toolbarTile\" format=\"reference\"/>\n-        <attr name=\"toolbarShareIcon\" format=\"reference\"/>\n-    </declare-styleable>\n-</resources>"
+  }, {
+    "sha" : "30e81e37e7c5759cf45454a7dc005fdf25bdb538",
+    "filename" : "AndroidLabs/app/src/main/res/values/colors.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 9,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/colors.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/colors.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/colors.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,9 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<resources>\n-    <color name=\"colorPrimary\">#3F51B5</color>\n-    <color name=\"colorPrimaryDark\">#303F9F</color>\n-    <color name=\"colorAccent\">#FF4081</color>\n-    <color name=\"transparent\">#00FFFFFF</color>\n-    <color name=\"bg_white\">#FFFFFF</color>\n-    <color name=\"text_green\">#00ff00</color>\n-</resources>"
+  }, {
+    "sha" : "47c82246738c4d056e8030d3a259206f42e8e15d",
+    "filename" : "AndroidLabs/app/src/main/res/values/dimens.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 5,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/dimens.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,5 +0,0 @@\n-<resources>\n-    <!-- Default screen margins, per the Android Design guidelines. -->\n-    <dimen name=\"activity_horizontal_margin\">16dp</dimen>\n-    <dimen name=\"activity_vertical_margin\">16dp</dimen>\n-</resources>"
+  }, {
+    "sha" : "f26fcf9e7d30b722a1b40ae38d96cae24fd45079",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 51,
+    "changes" : 51,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,51 +0,0 @@\n-<resources>\n-    <string name=\"app_name\">Android开发</string>\n-    <string name=\"news\">头条新闻</string>\n-    <string name=\"dev_article\">每日干货</string>\n-    <string name=\"keji\">科技新闻</string>\n-    <string name=\"startup\">创业新闻</string>\n-    <string name=\"mobile\">移动互联</string>\n-    <string name=\"it\">IT资讯</string>\n-    <string name=\"android\">Android</string>\n-    <string name=\"ios\">IOS</string>\n-    <string name=\"web\">前端</string>\n-    <string name=\"expand\">扩展</string>\n-    <string name=\"about\">关于</string>\n-    <string name=\"author\">作者吴步城</string>\n-    <string name=\"studentNumber\">学号：1414080903220</string>\n-    <string name=\"action_settings\">设置</string>\n-\n-    <string name=\"title_activity_back\">活动模板（返回）</string>\n-\n-    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n-    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n-\n-    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n-    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n-\n-    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n-    <string name=\"title_activity_fragment_content\">内容</string>\n-    <string name=\"demo_content\">演示内容</string>\n-    <string name=\"title_activity_net123456\">Net123456Activity</string>\n-    <string name=\"title_activity_com123456\">Com123456Activity</string>\n-    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n-    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n-    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n-    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n-    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n-    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n-    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n-    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n-    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n-    <string name=\"title_activity_list_view\">ListViewActivity</string>\n-    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n-    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n-    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n-    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n-    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n-    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n-    <string name=\"title_activity_file_share\">FileShareActivity</string>\n-    <string name=\"title_activity_network\">NetworkActivity</string>\n-    <!-- TODO: Remove or change this placeholder text -->\n-    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\n-</resources>"
+  }, {
+    "sha" : "e84dd7e49cca63c9d0cf93e5df96975001b43c20",
+    "filename" : "AndroidLabs/app/src/main/res/values/styles.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 45,
+    "changes" : 45,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/styles.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/styles.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/styles.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,45 +0,0 @@\n-<resources>\n-\n-    <!-- Base application theme. -->\n-    <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\n-        <!-- Customize your theme here. -->\n-        <item name=\"colorPrimary\">@color/colorPrimary</item>\n-        <item name=\"colorPrimaryDark\">@color/colorPrimaryDark</item>\n-        <item name=\"colorAccent\">@color/colorAccent</item>\n-    </style>\n-\n-    <style name=\"tab_menu_item\">\n-        <item name=\"android:layout_width\">0dp</item>\n-        <item name=\"android:layout_weight\">1</item>\n-        <item name=\"android:layout_height\">match_parent</item>\n-        <item name=\"android:button\">@null</item>\n-        <item name=\"android:gravity\">center</item>\n-        <item name=\"android:paddingTop\">3dp</item>\n-        <item name=\"android:background\">@drawable/tab_menu_bg_net1414080903220</item>\n-        <item name=\"android:textColor\">@drawable/tab_item_text_net1414080903220</item>\n-        <item name=\"android:textSize\">18sp</item>\n-    </style>\n-\n-    <style name=\"customTabLayout\" parent=\"Widget.Design.TabLayout\">\n-        <item name=\"tabIndicatorColor\">?attr/colorPrimary</item>\n-        <item name=\"tabIndicatorHeight\">2dp</item>\n-        <item name=\"tabPaddingStart\">12dp</item>\n-        <item name=\"tabPaddingEnd\">12dp</item>\n-        <item name=\"tabBackground\">?attr/colorPrimary</item>\n-        <item name=\"android:textSize\">14sp</item>\n-        <item name=\"textAllCaps\">true</item>\n-        <item name=\"tabSelectedTextColor\">#fff</item>\n-    </style>\n-\n-    <style name=\"nav_text_author\">\n-        <item name=\"android:layout_width\">wrap_content</item>\n-        <item name=\"android:layout_height\">wrap_content</item>\n-        <item name=\"android:textColor\">#fff</item>\n-        <item name=\"android:textSize\">14sp</item>\n-    </style>\n-\n-    <style name=\"nav_text\" parent=\"nav_text_author\">\n-        <item name=\"android:layout_alignParentBottom\">true</item>\n-    </style>\n-\n-</resources>"
+  } ],
+  "sha" : "5b45e3d50e2199e250bc46c5a001f5dd891ae9c5",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b45e3d50e2199e250bc46c5a001f5dd891ae9c5",
+  "parents" : [ {
+    "sha" : "cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7"
+  } ]
+}

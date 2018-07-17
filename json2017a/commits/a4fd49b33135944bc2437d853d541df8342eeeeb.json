@@ -1,0 +1,106 @@
+{
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 52,
+    "additions" : 32,
+    "deletions" : 20
+  },
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a4fd49b33135944bc2437d853d541df8342eeeeb",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-05-15T13:32:44Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-05-15T13:32:44Z"
+    },
+    "message" : "#4 #33 第四次作业",
+    "tree" : {
+      "sha" : "df2f986f2e3fbb3d1e370c3db92a1e198a1d08d3",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/df2f986f2e3fbb3d1e370c3db92a1e198a1d08d3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a4fd49b33135944bc2437d853d541df8342eeeeb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4fd49b33135944bc2437d853d541df8342eeeeb/comments",
+  "files" : [ {
+    "sha" : "10dda7920a6695977f014d244c1df565ebb6663c",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/background.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4fd49b33135944bc2437d853d541df8342eeeeb/AndroidLabs/app/src/main/res/drawable/background.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4fd49b33135944bc2437d853d541df8342eeeeb/AndroidLabs/app/src/main/res/drawable/background.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/background.png?ref=a4fd49b33135944bc2437d853d541df8342eeeeb"
+  }, {
+    "sha" : "c671eaa82ef3321b306eb79793873f2859bba54f",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903106_main.xml",
+    "status" : "modified",
+    "additions" : 14,
+    "deletions" : 4,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4fd49b33135944bc2437d853d541df8342eeeeb/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4fd49b33135944bc2437d853d541df8342eeeeb/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_main.xml?ref=a4fd49b33135944bc2437d853d541df8342eeeeb",
+    "patch" : "@@ -3,11 +3,15 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\">\n+    <ImageView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:scaleType=\"fitXY\"\n+        android:src=\"@drawable/background\"/>\n     <RelativeLayout\n         android:id=\"@+id/title_relative\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:background=\"#002F93\">\n+        android:layout_height=\"wrap_content\">\n         <TextView\n             android:id=\"@+id/title_name\"\n             android:layout_width=\"match_parent\"\n@@ -40,20 +44,26 @@\n             android:layout_height=\"wrap_content\"\n             android:layout_centerHorizontal=\"true\"\n             android:layout_marginTop=\"30.0dp\"\n-            android:textSize=\"25.0sp\"/>\n+            android:text=\"惠州\"\n+            android:textColor=\"#FFFFFF\"\n+            android:textSize=\"50.0sp\"/>\n         <TextView\n             android:id=\"@+id/weather_temperature\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:layout_centerHorizontal=\"true\"\n             android:layout_below=\"@id/wether_cityName\"\n+            android:text=\"25℃\"\n+            android:textColor=\"#FFFFFF\"\n             android:textSize=\"25.0sp\"/>\n         <TextView\n-            android:id=\"@+id/weather_State\"\n+            android:id=\"@+id/weather_state\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:layout_centerHorizontal=\"true\"\n             android:layout_below=\"@id/weather_temperature\"\n+            android:text=\"阵雨\"\n+            android:textColor=\"#FFFFFF\"\n             android:textSize=\"25.0sp\"/>\n     </RelativeLayout>\n </RelativeLayout>"
+  }, {
+    "sha" : "55176549c2e33f8466c060853f272981d906e002",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "status" : "modified",
+    "additions" : 18,
+    "deletions" : 16,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4fd49b33135944bc2437d853d541df8342eeeeb/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4fd49b33135944bc2437d853d541df8342eeeeb/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml?ref=a4fd49b33135944bc2437d853d541df8342eeeeb",
+    "patch" : "@@ -5,31 +5,33 @@\n     <RelativeLayout\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n-        android:background=\"#002F93\">\n+        android:background=\"#002f93\">\n         <ImageButton\n             android:id=\"@+id/btn_selectCity_back\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"45.0dp\"\n-        android:gravity=\"center_vertical\"\n-        android:layout_marginLeft=\"10.0dp\"\n-        android:background=\"#002F93\"\n-        android:src=\"@drawable/back\"/>\n-        <EditText\n-            android:id=\"@+id/et_cityName\"\n-            android:layout_width=\"match_parent\"\n+            android:layout_width=\"wrap_content\"\n             android:layout_height=\"45.0dp\"\n-            android:gravity=\"center_vertical\"\n-            android:layout_toRightOf=\"@id/btn_selectCity_back\"\n-            android:text=\"城市名\"\n-            android:textSize=\"20.0sp\" />\n+            android:layout_marginLeft=\"10.0dp\"\n+            android:background=\"#002F93\"\n+            android:src=\"@drawable/back\"/>\n         <ImageButton\n             android:id=\"@+id/btn_selectCity_search\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"45.0dp\"\n-            android:gravity=\"center_vertical\"\n             android:layout_alignParentRight=\"true\"\n             android:layout_marginRight=\"10.0dp\"\n             android:background=\"#002F93\"\n-            android:src=\"@drawable/search\" />\n+            android:src=\"@drawable/search\"\n+            />\n+        <EditText\n+            android:id=\"@+id/et_cityName\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"45.0dp\"\n+            android:gravity=\"center_vertical\"\n+            android:layout_toRightOf=\"@id/btn_selectCity_back\"\n+            android:layout_toLeftOf=\"@id/btn_selectCity_search\"\n+            android:hint=\"城市名\"\n+            android:textColorHint=\"#D3D3D3\"\n+            android:textSize=\"20.0sp\"\n+            android:textColor=\"#FFFFFF\"/>\n     </RelativeLayout>\n </RelativeLayout>"
+  } ],
+  "sha" : "a4fd49b33135944bc2437d853d541df8342eeeeb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4fd49b33135944bc2437d853d541df8342eeeeb",
+  "parents" : [ {
+    "sha" : "b2746aad3bcdb92900be222520f15e545ca6d1df",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b2746aad3bcdb92900be222520f15e545ca6d1df",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b2746aad3bcdb92900be222520f15e545ca6d1df"
+  } ]
+}

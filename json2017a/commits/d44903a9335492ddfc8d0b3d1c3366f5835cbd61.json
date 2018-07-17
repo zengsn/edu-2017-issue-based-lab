@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 84,
+    "additions" : 84,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-19T07:43:34Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-05-19T07:43:34Z"
+    },
+    "message" : "update",
+    "tree" : {
+      "sha" : "d19fba2aa282da4a3aa8d6698abac6e625dd028a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/d19fba2aa282da4a3aa8d6698abac6e625dd028a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d44903a9335492ddfc8d0b3d1c3366f5835cbd61/comments",
+  "files" : [ {
+    "sha" : "015834c056ddb92291788022a89f0c743d3ad362",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226DBHelper.java",
+    "status" : "added",
+    "additions" : 84,
+    "deletions" : 0,
+    "changes" : 84,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d44903a9335492ddfc8d0b3d1c3366f5835cbd61/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226DBHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d44903a9335492ddfc8d0b3d1c3366f5835cbd61/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226DBHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226DBHelper.java?ref=d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+    "patch" : "@@ -0,0 +1,84 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903226;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+public class Net1414080903226DBHelper extends SQLiteOpenHelper {\n+    public static final int DATABASE_VERSION = 13;\n+    public static final String DATABASE_NAME = \"database.db\";\n+    public static final String TABLE_BLOCK = \"block\";\n+    public static final String TABLE_SAVE = \"save\";\n+    public static final String TABLE_SEED = \"seed\";\n+    public static final String TABLE_STEVE = \"steve\";\n+\n+    public static final String SAVE_PREFIX = \"world_\";\n+\n+    private static final String SQL_CREATE_BLOCK =\n+            \"CREATE TABLE \" + TABLE_BLOCK + \" (\" +\n+                    \"chunkX INTEGER,\" +\n+                    \"chunkY INTEGER,\" +\n+                    \"chunkZ INTEGER,\" +\n+                    \"blockX INTEGER,\" +\n+                    \"blockY INTEGER,\" +\n+                    \"blockZ INTEGER,\" +\n+                    \"blockType INTEGER,\" +\n+                    \"PRIMARY KEY(blockX, blockY, blockZ));\";\n+\n+    private static final String SQL_CREATE_SEED =\n+            \"CREATE TABLE \" + TABLE_SEED + \" (\" +\n+                    \"seed INTEGER PRIMARY KEY);\";\n+\n+    private static final String SQL_CREATE_SAVE =\n+            \"CREATE TABLE \" + TABLE_SAVE + \" (\" +\n+                    \"id INTEGER PRIMARY KEY AUTOINCREMENT,\" +\n+                    \"name TEXT,\" +\n+                    \"seed INTEGER,\" +\n+                    \"date TEXT,\" +\n+                    \"x INTEGER,\" +\n+                    \"y INTEGER,\" +\n+                    \"z INTEGER);\";\n+\n+    private static final String SQL_CREATE_STEVE =\n+            \"CREATE TABLE \" + TABLE_STEVE + \" (\" +\n+                    \"x INTEGER,\" +\n+                    \"y INTEGER,\" +\n+                    \"z INTEGER,\" +\n+                    \"PRIMARY KEY(x, y, z));\";\n+\n+    public static final String SQL_DROP_TABLE =\n+            \"DROP TABLE IF EXISTS \";\n+\n+    private static Net1414080903226DBHelper instance = null;\n+\n+    private static Context context = null;\n+\n+    public static void setContext(Context c){\n+        context = c;\n+    }\n+\n+    public synchronized static Net1414080903226DBHelper getInstance(){\n+        if (instance == null) {\n+            instance = new Net1414080903226DBHelper(context);\n+        }\n+        return instance;\n+    }\n+\n+    private Net1414080903226DBHelper(Context context){\n+        super(context, DATABASE_NAME, null, DATABASE_VERSION);\n+    }\n+\n+    public void onCreate(SQLiteDatabase db){\n+        db.execSQL(SQL_CREATE_BLOCK);\n+        db.execSQL(SQL_CREATE_SEED);\n+        db.execSQL(SQL_CREATE_SAVE);\n+        db.execSQL(SQL_CREATE_STEVE);\n+    }\n+\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion){\n+        db.execSQL(SQL_DROP_TABLE + TABLE_BLOCK);\n+        db.execSQL(SQL_DROP_TABLE + TABLE_SEED);\n+        db.execSQL(SQL_DROP_TABLE + TABLE_SAVE);\n+        db.execSQL(SQL_DROP_TABLE + TABLE_STEVE);\n+        onCreate(db);\n+    }\n\\ No newline at end of file"
+  } ],
+  "sha" : "d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d44903a9335492ddfc8d0b3d1c3366f5835cbd61",
+  "parents" : [ {
+    "sha" : "29833185c443056a42c8f01cb4da5cbb5293c51e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/29833185c443056a42c8f01cb4da5cbb5293c51e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/29833185c443056a42c8f01cb4da5cbb5293c51e"
+  } ]
+}

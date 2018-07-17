@@ -1,0 +1,60 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 78,
+    "additions" : 72,
+    "deletions" : 6
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f2d1391173421acbddfca47d08a5dee292f841eb",
+  "commit" : {
+    "author" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-04-23T14:39:36Z"
+    },
+    "committer" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-04-23T14:39:36Z"
+    },
+    "message" : "#2 #67 第二次作业",
+    "tree" : {
+      "sha" : "348f029c2ea61af431c3abe4a2d6eef3e06d6055",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/348f029c2ea61af431c3abe4a2d6eef3e06d6055"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f2d1391173421acbddfca47d08a5dee292f841eb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f2d1391173421acbddfca47d08a5dee292f841eb/comments",
+  "files" : [ {
+    "sha" : "5b601e8596664c6a01976596b2d9fde215c0114c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "status" : "modified",
+    "additions" : 59,
+    "deletions" : 1,
+    "changes" : 60,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f2d1391173421acbddfca47d08a5dee292f841eb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f2d1391173421acbddfca47d08a5dee292f841eb/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java?ref=f2d1391173421acbddfca47d08a5dee292f841eb",
+    "patch" : "@@ -1,13 +1,71 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903108;\n+﻿package edu.hzuapps.androidlabs.homeworks.net1414080903108;\n \n+import android.graphics.Bitmap;\n+import android.graphics.Canvas;\n+import android.graphics.Color;\n+import android.graphics.Matrix;\n+import android.graphics.Paint;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.MotionEvent;\n+import android.view.View;\n+import android.widget.ImageView;\n+\n+import com.example.myapplication.R;\n \n public class Net1414080903108Activity extends AppCompatActivity {\n+    private ImageView iv;\n+    private Bitmap baseBitmap;\n+    private Canvas canvas;\n+    private Paint paint;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903108);\n+        this.iv = (ImageView) this.findViewById(R.id.iv);\n+        // 创建一张空白图片\n+        baseBitmap = Bitmap.createBitmap(480, 640, Bitmap.Config.ARGB_8888);\n+        // 创建一张画布\n+        canvas = new Canvas(baseBitmap);\n+        // 画布背景为白色\n+        canvas.drawColor(Color.WHITE );\n+        // 创建画笔\n+        paint = new Paint();\n+        // 画笔颜色为黑色\n+        paint.setColor(Color.BLACK );\n+        // 宽度5个像素\n+        paint.setStrokeWidth(8);\n+        // 先将白色背景画上\n+        canvas.drawBitmap(baseBitmap, new Matrix(), paint);\n+        iv.setImageBitmap(baseBitmap);\n+\n+        iv.setOnTouchListener(new View.OnTouchListener() {\n+            int startX;\n+            int startY;\n+\n+            @Override\n+            public boolean onTouch(View v, MotionEvent event) {\n+                switch (event.getAction()) {\n+                    case MotionEvent.ACTION_DOWN:\n+                        // 获取手按下时的坐标\n+                        startX = (int) event.getX();\n+                        startY = (int) event.getY();\n+                        break;\n+                    case MotionEvent.ACTION_MOVE:\n+                        // 获取手移动后的坐标\n+                        int stopX = (int) event.getX();\n+                        int stopY = (int) event.getY();\n+                        // 在开始和结束坐标间画一条线\n+                        canvas.drawLine(startX, startY, stopX, stopY, paint);\n+                        // 实时更新开始坐标\n+                        startX = (int) event.getX();\n+                        startY = (int) event.getY();\n+                        iv.setImageBitmap(baseBitmap);\n+                        break;\n+                }\n+                return true;\n+            }\n+        });\n     }\n }"
+  }, {
+    "sha" : "115b1309d5998515c561f1bb69b15ba1c54120cf",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml",
+    "status" : "modified",
+    "additions" : 13,
+    "deletions" : 5,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f2d1391173421acbddfca47d08a5dee292f841eb/AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f2d1391173421acbddfca47d08a5dee292f841eb/AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903108.xml?ref=f2d1391173421acbddfca47d08a5dee292f841eb",
+    "patch" : "@@ -8,10 +8,18 @@\n     android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n     android:paddingRight=\"@dimen/activity_horizontal_margin\"\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"com.example.myapplication.Net1414080903108Activity\">\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903108.Net1414080903108Activity\">\n \n-    <TextView\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n+    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        xmlns:tools=\"http://schemas.android.com/tools\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        tools:context=\".MainActivity\" >\n+\n+        <ImageView\n+            android:id=\"@+id/iv\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"match_parent\"\n+            />\n+    </RelativeLayout>\n </RelativeLayout>"
+  } ],
+  "sha" : "f2d1391173421acbddfca47d08a5dee292f841eb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f2d1391173421acbddfca47d08a5dee292f841eb",
+  "parents" : [ {
+    "sha" : "b3315bda16484df03076901b97f38445633dd93b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b3315bda16484df03076901b97f38445633dd93b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b3315bda16484df03076901b97f38445633dd93b"
+  } ]
+}

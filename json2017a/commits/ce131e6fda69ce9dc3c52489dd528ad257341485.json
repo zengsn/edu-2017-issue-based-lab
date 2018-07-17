@@ -1,0 +1,116 @@
+{
+  "committer" : {
+    "login" : "zhangguowei",
+    "id" : 10107282,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/10107282?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangguowei",
+    "html_url" : "https://github.com/zhangguowei",
+    "followers_url" : "https://api.github.com/users/zhangguowei/followers",
+    "following_url" : "https://api.github.com/users/zhangguowei/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangguowei/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangguowei/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangguowei/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangguowei/orgs",
+    "repos_url" : "https://api.github.com/users/zhangguowei/repos",
+    "events_url" : "https://api.github.com/users/zhangguowei/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangguowei/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 43,
+    "additions" : 43,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zhangguowei",
+    "id" : 10107282,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/10107282?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangguowei",
+    "html_url" : "https://github.com/zhangguowei",
+    "followers_url" : "https://api.github.com/users/zhangguowei/followers",
+    "following_url" : "https://api.github.com/users/zhangguowei/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangguowei/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangguowei/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangguowei/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangguowei/orgs",
+    "repos_url" : "https://api.github.com/users/zhangguowei/repos",
+    "events_url" : "https://api.github.com/users/zhangguowei/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangguowei/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ce131e6fda69ce9dc3c52489dd528ad257341485",
+  "commit" : {
+    "author" : {
+      "name" : "zhangguowei",
+      "email" : "947213848@qq.com",
+      "date" : "2017-05-15T08:05:21Z"
+    },
+    "committer" : {
+      "name" : "zhangguowei",
+      "email" : "947213848@qq.com",
+      "date" : "2017-05-15T08:05:21Z"
+    },
+    "message" : "#3 #38 第三次作业",
+    "tree" : {
+      "sha" : "4eef4b4cdd5eccf6a7bde7f5a3ee9901b445d5e8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4eef4b4cdd5eccf6a7bde7f5a3ee9901b445d5e8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ce131e6fda69ce9dc3c52489dd528ad257341485",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ce131e6fda69ce9dc3c52489dd528ad257341485/comments",
+  "files" : [ {
+    "sha" : "26f237497c288bcb5a05f443efc01e71551882b0",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/main_logo.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/drawable/main_logo.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/drawable/main_logo.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/main_logo.png?ref=ce131e6fda69ce9dc3c52489dd528ad257341485"
+  }, {
+    "sha" : "dfef65ae42fb45c99955d53e3d0c52973f580b65",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/my_tu.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/drawable/my_tu.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/drawable/my_tu.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/my_tu.png?ref=ce131e6fda69ce9dc3c52489dd528ad257341485"
+  }, {
+    "sha" : "73008300c4c7512f87fb5a0103b0d18e5a4e182e",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903121get.xml",
+    "status" : "modified",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/layout/activity_net1414080903121get.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/layout/activity_net1414080903121get.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903121get.xml?ref=ce131e6fda69ce9dc3c52489dd528ad257341485",
+    "patch" : "@@ -4,6 +4,18 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n     android:orientation=\"vertical\">\n+\n+    <ImageView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"100dp\"\n+        android:layout_gravity=\"center_horizontal\"\n+        android:paddingLeft=\"20dp\"\n+        android:paddingRight=\"20dp\"\n+        android:paddingBottom=\"5dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:layout_marginTop=\"30dp\"\n+        android:src=\"@drawable/my_tu\"/>\n+\n     <TextView\n         android:id=\"@+id/tv_name\"\n         android:layout_width=\"wrap_content\""
+  }, {
+    "sha" : "a467cbdda44c0993da847509ccb961ebb5d06ce6",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903121register.xml",
+    "status" : "modified",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/layout/activity_net1414080903121register.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ce131e6fda69ce9dc3c52489dd528ad257341485/AndroidLabs/app/src/main/res/layout/activity_net1414080903121register.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903121register.xml?ref=ce131e6fda69ce9dc3c52489dd528ad257341485",
+    "patch" : "@@ -4,6 +4,36 @@\n     android:orientation=\"vertical\">\n \n     <LinearLayout\n+        android:id=\"@+id/regist_logo\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"150dp\"\n+        android:orientation=\"vertical\"\n+        android:gravity=\"center\"\n+        >\n+\n+        <ImageView\n+            android:id=\"@+id/et_logo\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_gravity=\"center_horizontal\"\n+            android:layout_marginBottom=\"0dp\"\n+            android:layout_marginTop=\"100dp\"\n+            android:src=\"@drawable/main_logo\"\n+            />\n+\n+        <TextView\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"50dp\"\n+            android:layout_gravity=\"center_horizontal\"\n+            android:layout_marginBottom=\"50dp\"\n+            android:gravity=\"center\"\n+            android:text=\"员工管理系统\"\n+            android:textSize=\"25sp\"/>\n+\n+    </LinearLayout>\n+\n+\n+    <LinearLayout\n         android:id=\"@+id/regist_username\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n@@ -12,6 +42,7 @@\n         android:layout_marginRight=\"10dp\"\n         android:layout_marginTop=\"22dp\"\n         android:orientation=\"horizontal\"\n+        android:layout_below=\"@id/regist_logo\"\n         >\n \n         <TextView"
+  } ],
+  "sha" : "ce131e6fda69ce9dc3c52489dd528ad257341485",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ce131e6fda69ce9dc3c52489dd528ad257341485",
+  "parents" : [ {
+    "sha" : "14ed282500aa169bf9c189c5a2b78a1e6870aefd",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/14ed282500aa169bf9c189c5a2b78a1e6870aefd",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/14ed282500aa169bf9c189c5a2b78a1e6870aefd"
+  } ]
+}

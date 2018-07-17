@@ -1,0 +1,115 @@
+{
+  "committer" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 8,
+    "additions" : 4,
+    "deletions" : 4
+  },
+  "author" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/13bc61592f777c23a757ef950b523d145bb09bdb",
+  "commit" : {
+    "author" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-09T09:14:18Z"
+    },
+    "committer" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-06-09T09:14:18Z"
+    },
+    "message" : "#4 #35 第四次作业",
+    "tree" : {
+      "sha" : "d2273595d2322e1f8453f590d02d726804a66e91",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/d2273595d2322e1f8453f590d02d726804a66e91"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/13bc61592f777c23a757ef950b523d145bb09bdb",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/13bc61592f777c23a757ef950b523d145bb09bdb/comments",
+  "files" : [ {
+    "sha" : "b672e9a89eb222f303e549f6bf3b77fb90d7ab1d",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/cb.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/drawable/cb.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/drawable/cb.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/cb.png?ref=13bc61592f777c23a757ef950b523d145bb09bdb"
+  }, {
+    "sha" : "d2bb227061c6063bf40cea0d8b65ad460515d37a",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/czq.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/drawable/czq.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/drawable/czq.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/czq.jpg?ref=13bc61592f777c23a757ef950b523d145bb09bdb"
+  }, {
+    "sha" : "acb16a886a60923ff88e48383cc17dde211bf433",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/lhj.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/drawable/lhj.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/drawable/lhj.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/lhj.png?ref=13bc61592f777c23a757ef950b523d145bb09bdb"
+  }, {
+    "sha" : "d6052abc031c9244eb7cb3e8352afcbc0bce6b4a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml",
+    "status" : "modified",
+    "additions" : 4,
+    "deletions" : 4,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/13bc61592f777c23a757ef950b523d145bb09bdb/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml?ref=13bc61592f777c23a757ef950b523d145bb09bdb",
+    "patch" : "@@ -1,12 +1,12 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\">\n \n     <TextView\n         android:layout_margin=\"30dp\"\n         android:id=\"@+id/tv_master1\"\n-        android:drawableTop=\"@drawable/m1\"\n+        android:drawableTop=\"@drawable/czq\"\n         android:layout_width=\"100dp\"\n         android:layout_height=\"180dp\"\n         android:gravity=\"center\"\n@@ -16,7 +16,7 @@\n         android:layout_margin=\"30dp\"\n         android:layout_toRightOf=\"@id/tv_master1\"\n         android:id=\"@+id/tv_master2\"\n-        android:drawableTop=\"@drawable/m2\"\n+        android:drawableTop=\"@drawable/cb\"\n         android:layout_width=\"100dp\"\n         android:layout_height=\"180dp\"\n         android:gravity=\"center\"\n@@ -25,7 +25,7 @@\n         android:layout_below=\"@id/tv_master2\"\n         android:layout_margin=\"30dp\"\n         android:id=\"@+id/tv_master3\"\n-        android:drawableTop=\"@drawable/m3\"\n+        android:drawableTop=\"@drawable/lhj\"\n         android:layout_width=\"100dp\"\n         android:layout_height=\"180dp\"\n         android:gravity=\"center\""
+  } ],
+  "sha" : "13bc61592f777c23a757ef950b523d145bb09bdb",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/13bc61592f777c23a757ef950b523d145bb09bdb",
+  "parents" : [ {
+    "sha" : "6c8c7d44de6939e509518395b564c29b3f202b45",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6c8c7d44de6939e509518395b564c29b3f202b45",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6c8c7d44de6939e509518395b564c29b3f202b45"
+  } ]
+}

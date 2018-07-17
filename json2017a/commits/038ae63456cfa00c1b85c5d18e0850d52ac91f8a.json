@@ -1,0 +1,152 @@
+{
+  "committer" : {
+    "login" : "14w2mary",
+    "id" : 26320629,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26320629?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14w2mary",
+    "html_url" : "https://github.com/14w2mary",
+    "followers_url" : "https://api.github.com/users/14w2mary/followers",
+    "following_url" : "https://api.github.com/users/14w2mary/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14w2mary/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14w2mary/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14w2mary/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14w2mary/orgs",
+    "repos_url" : "https://api.github.com/users/14w2mary/repos",
+    "events_url" : "https://api.github.com/users/14w2mary/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14w2mary/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 174,
+    "additions" : 54,
+    "deletions" : 120
+  },
+  "author" : {
+    "login" : "14w2mary",
+    "id" : 26320629,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26320629?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14w2mary",
+    "html_url" : "https://github.com/14w2mary",
+    "followers_url" : "https://api.github.com/users/14w2mary/followers",
+    "following_url" : "https://api.github.com/users/14w2mary/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14w2mary/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14w2mary/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14w2mary/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14w2mary/orgs",
+    "repos_url" : "https://api.github.com/users/14w2mary/repos",
+    "events_url" : "https://api.github.com/users/14w2mary/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14w2mary/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/038ae63456cfa00c1b85c5d18e0850d52ac91f8a",
+  "commit" : {
+    "author" : {
+      "name" : "14w2mary",
+      "email" : "2934992529@qq.com",
+      "date" : "2017-05-12T01:31:10Z"
+    },
+    "committer" : {
+      "name" : "14w2mary",
+      "email" : "2934992529@qq.com",
+      "date" : "2017-05-12T01:31:10Z"
+    },
+    "message" : "第二次作业",
+    "tree" : {
+      "sha" : "be3fdb8c08224b5b972c45d48ee71d5b55a0697f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/be3fdb8c08224b5b972c45d48ee71d5b55a0697f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/038ae63456cfa00c1b85c5d18e0850d52ac91f8a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/038ae63456cfa00c1b85c5d18e0850d52ac91f8a/comments",
+  "files" : [ {
+    "sha" : "00499530d3fbc3caf1553a97dc786eb3b4652174",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ArrayDequeQueue.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 47,
+    "changes" : 47,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ArrayDequeQueue.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ArrayDequeQueue.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ArrayDequeQueue.java?ref=19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "patch" : "@@ -1,47 +0,0 @@\n-package homeworks.androids.hzuapps.edu.application.net1414080903219;\n-\n-import java.util.ArrayDeque;\n-\n-/**\n- * Created by mary on 2017/5/4.\n- */\n-\n-import java.util.ArrayDeque;\n-\n-public class ArrayDequeQueue {\n-\n-    public static void main(String[] args) {\n-        // TODO Auto-generated method stub\n-        ArrayDeque<Word> queue=new ArrayDeque<Word>();\n-        queue.add(new Word(\"audience\", \"n.观众\", \"未学\"));\n-        queue.add(new Word(\"background\", \"n.背景\", \"未学\"));\n-        queue.add(new Word(\"challenge\", \"n,挑战;向...挑战\", \"未学\"));\n-        queue.add(new Word(\"descend\", \"v,下降\", \"未学\"));\n-        queue.add(new Word(\"elite\", \"n,精英,掌权人物\", \"未学\"));\n-        queue.add(new Word(\"faculty\", \"n,能力,才能\", \"未学\"));\n-        queue.add(new Word(\"grope\", \"v,摸索\", \"未学\"));\n-        queue.add(new Word(\"hysterical\", \"adj,歇斯底里的,情绪激动的\", \"未学\"));\n-        queue.add(new Word(\"infant\", \"n,婴儿;adj,婴儿的\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-        queue.add(new Word(\"\", \"\", \"未学\"));\n-    }\n-\n-}\n-class Word{\n-    String word;\n-    String mean;\n-    String status;\n-    public Word(String en,String ch,String state) {\n-        this.word=word;\n-        this.mean=mean;\n-        this.status=status;\n-    }\n-}"
+  }, {
+    "sha" : "aee8da44b6bbd5f6f2bf251b13f491733fb9f1f0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 33,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/MyDatabaseHelper.java?ref=19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "patch" : "@@ -1,33 +0,0 @@\n-package homeworks.androids.hzuapps.edu.application.net1414080903219;\n-\n-import android.content.Context;\n-import android.database.sqlite.SQLiteDatabase;\n-import android.database.sqlite.SQLiteOpenHelper;\n-import android.widget.Toast;\n-\n-/**\n- * Created by mary on 2017/5/3.\n- */\n-\n-public class MyDatabaseHelper extends SQLiteOpenHelper {\n-    public static final String CREATE_WORD=\"create table Word(\"\n-            +\"id integer primary key autoincrement,\"\n-            +\"word text,\"\n-            +\"mean text,\"\n-            +\"status text)\";\n-\n-    private Context mContext;\n-\n-    public MyDatabaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,\n-                            int version){\n-        super(context,name,factory,version);\n-        mContext=context;\n-    }\n-    @Override\n-    public void onCreate(SQLiteDatabase db){\n-        db.execSQL(CREATE_WORD);\n-        Toast.makeText(mContext,\"Create succeeded\",Toast.LENGTH_SHORT).show();\n-    }\n-    @Override\n-    public void onUpgrade(SQLiteDatabase db,int oldVersion,int newVersion){}\n-}"
+  }, {
+    "sha" : "1b7c10d08707f1d7ca3d3967ffef9ccfc04fcb04",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Net1414080903219ZhujiemianActivity.java",
+    "status" : "renamed",
+    "additions" : 7,
+    "deletions" : 7,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/038ae63456cfa00c1b85c5d18e0850d52ac91f8a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Net1414080903219ZhujiemianActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/038ae63456cfa00c1b85c5d18e0850d52ac91f8a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Net1414080903219ZhujiemianActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/Net1414080903219ZhujiemianActivity.java?ref=038ae63456cfa00c1b85c5d18e0850d52ac91f8a",
+    "patch" : "@@ -8,20 +8,20 @@\n \n import homeworks.androids.hzuapps.edu.application.R;\n \n-public class ZhucaidanActivity extends AppCompatActivity {\n+public class Net1414080903219ZhujiemianActivity extends AppCompatActivity {\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_zhucaidan);\n+        setContentView(R.layout.zhujiemian_net1414080903219);\n \n-        Button button1=(Button)findViewById(R.id.button_1);\n-        button1.setOnClickListener(new View.OnClickListener(){\n+        Button button1 = (Button) findViewById(R.id.button_1);\n+        button1.setOnClickListener(new View.OnClickListener() {\n             @Override\n-            public void onClick(View v){\n-                Intent intent=new Intent(ZhucaidanActivity.this,StudyActivity.class);\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903219ZhujiemianActivity.this, Net1414080903219StudyActivity.class);\n                 startActivity(intent);\n             }\n         });\n     }\n-}\n+}\n\\ No newline at end of file",
+    "previous_filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/ZhucaidanActivity.java"
+  }, {
+    "sha" : "e77e826f3d1120a4e1e66e87c07b1842eeae2985",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 15,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/StudyActivity.java?ref=19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "patch" : "@@ -1,15 +0,0 @@\n-package homeworks.androids.hzuapps.edu.application.net1414080903219;\n-\n-import android.support.v7.app.AppCompatActivity;\n-import android.os.Bundle;\n-\n-import homeworks.androids.hzuapps.edu.application.R;\n-\n-public class StudyActivity extends AppCompatActivity {\n-\n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_study);\n-    }\n-}"
+  }, {
+    "sha" : "97b7a94c3ab7683d58161ba8052d2dd69e93bdaf",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordClass.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 13,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordClass.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordClass.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordClass.java?ref=19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "patch" : "@@ -1,13 +0,0 @@\n-package homeworks.androids.hzuapps.edu.application.net1414080903219;\n-\n-import org.w3c.dom.Text;\n-\n-/**\n- * Created by mary on 2017/5/4.\n- */\n-\n-public class WordClass {\n-    public Text word;\n-    public Text mean;\n-    public Text status;\n-}"
+  }, {
+    "sha" : "ca3308eb3f5c6f31877854eb90b74956974b1e3e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordList.db",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 5,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordList.db",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/19cc65fd2c193c8cae529eebcc53ae05109b5faa/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordList.db",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/WordList.db?ref=19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "patch" : "@@ -1,5 +0,0 @@\n-create table Word(\n-id integer primary key autoincrement,\n-word text,\n-mean text,\n-status text)\n\\ No newline at end of file"
+  }, {
+    "sha" : "1dbb2ea85ba3865312b1c095ea708db726da6aec",
+    "filename" : "AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml",
+    "status" : "added",
+    "additions" : 47,
+    "deletions" : 0,
+    "changes" : 47,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/038ae63456cfa00c1b85c5d18e0850d52ac91f8a/AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/038ae63456cfa00c1b85c5d18e0850d52ac91f8a/AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/zhujiemian_net1414080903219.xml?ref=038ae63456cfa00c1b85c5d18e0850d52ac91f8a",
+    "patch" : "@@ -0,0 +1,47 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:background=\"@drawable/tuyi_net1414080903219\"\n+android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <Button\n+        android:id=\"@+id/button_1\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"单词学习\"\n+        />\n+\n+\n+    <Button\n+        android:id=\"@+id/button_2\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"单词听写\"\n+        />\n+\n+\n+    <Button\n+        android:id=\"@+id/button_3\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"错词\"\n+        />\n+\n+\n+    <Button\n+        android:id=\"@+id/button_4\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"已学习单词\"\n+        />\n+\n+    <Button\n+        android:id=\"@+id/button_\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"退出\"\n+        />\n+    \n+\n+    </LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "038ae63456cfa00c1b85c5d18e0850d52ac91f8a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/038ae63456cfa00c1b85c5d18e0850d52ac91f8a",
+  "parents" : [ {
+    "sha" : "19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/19cc65fd2c193c8cae529eebcc53ae05109b5faa",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/19cc65fd2c193c8cae529eebcc53ae05109b5faa"
+  } ]
+}

@@ -1,0 +1,95 @@
+{
+  "committer" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 15,
+    "additions" : 15,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c",
+  "commit" : {
+    "author" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-12T07:23:21Z"
+    },
+    "committer" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-12T07:23:21Z"
+    },
+    "message" : "#3 #142 第三次实验",
+    "tree" : {
+      "sha" : "f1f54affac773b6f351ada97f465a5b31a8b32cc",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f1f54affac773b6f351ada97f465a5b31a8b32cc"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c/comments",
+  "files" : [ {
+    "sha" : "00e0e553e1e7801af5e46dba1bebfa1565c9b453",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/welcome.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c/AndroidLabs/app/src/main/res/drawable/welcome.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c/AndroidLabs/app/src/main/res/drawable/welcome.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/welcome.png?ref=8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c"
+  }, {
+    "sha" : "24838c1ea42a602c97cffb4dbc7e8fc239b02dea",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903135_login.xml",
+    "status" : "modified",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c/AndroidLabs/app/src/main/res/layout/activity_net1414080903135_login.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c/AndroidLabs/app/src/main/res/layout/activity_net1414080903135_login.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903135_login.xml?ref=8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c",
+    "patch" : "@@ -72,6 +72,21 @@\n                 android:text=\"@string/action_sign_in\"\n                 android:textStyle=\"bold\" />\n \n+            <ImageView\n+                android:layout_marginTop=\"20dp\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"128dp\"\n+                android:src=\"@drawable/welcome\"/>\n+\n+            <TextView\n+                android:textSize=\"20sp\"\n+                android:layout_margin=\"20dp\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:gravity=\"center_horizontal\"\n+                android:text=\"welcome login\"/>\n+\n+\n         </LinearLayout>\n     </ScrollView>\n </LinearLayout>"
+  } ],
+  "sha" : "8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8fffe24c0bb6bccd757c7ca0ce46c6030888cd9c",
+  "parents" : [ {
+    "sha" : "6c13b69a5de9610d60c78da055e2a7b15cdb97ae",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6c13b69a5de9610d60c78da055e2a7b15cdb97ae",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6c13b69a5de9610d60c78da055e2a7b15cdb97ae"
+  } ]
+}

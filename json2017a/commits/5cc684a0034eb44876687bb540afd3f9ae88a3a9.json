@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "zhangguowei",
+    "id" : 10107282,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/10107282?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangguowei",
+    "html_url" : "https://github.com/zhangguowei",
+    "followers_url" : "https://api.github.com/users/zhangguowei/followers",
+    "following_url" : "https://api.github.com/users/zhangguowei/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangguowei/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangguowei/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangguowei/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangguowei/orgs",
+    "repos_url" : "https://api.github.com/users/zhangguowei/repos",
+    "events_url" : "https://api.github.com/users/zhangguowei/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangguowei/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 99,
+    "additions" : 99,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zhangguowei",
+    "id" : 10107282,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/10107282?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangguowei",
+    "html_url" : "https://github.com/zhangguowei",
+    "followers_url" : "https://api.github.com/users/zhangguowei/followers",
+    "following_url" : "https://api.github.com/users/zhangguowei/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangguowei/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangguowei/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangguowei/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangguowei/orgs",
+    "repos_url" : "https://api.github.com/users/zhangguowei/repos",
+    "events_url" : "https://api.github.com/users/zhangguowei/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangguowei/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5cc684a0034eb44876687bb540afd3f9ae88a3a9",
+  "commit" : {
+    "author" : {
+      "name" : "zhangguowei",
+      "email" : "947213848@qq.com",
+      "date" : "2017-06-17T09:57:06Z"
+    },
+    "committer" : {
+      "name" : "zhangguowei",
+      "email" : "947213848@qq.com",
+      "date" : "2017-06-17T09:57:06Z"
+    },
+    "message" : "#5 #38 第五次作业",
+    "tree" : {
+      "sha" : "b115bd3153d04747e689f76daaf542da153cb46e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b115bd3153d04747e689f76daaf542da153cb46e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5cc684a0034eb44876687bb540afd3f9ae88a3a9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5cc684a0034eb44876687bb540afd3f9ae88a3a9/comments",
+  "files" : [ {
+    "sha" : "475dd72aa1a327f9933c857f230b22413bcd0686",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Fast.java",
+    "status" : "added",
+    "additions" : 67,
+    "deletions" : 0,
+    "changes" : 67,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5cc684a0034eb44876687bb540afd3f9ae88a3a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Fast.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5cc684a0034eb44876687bb540afd3f9ae88a3a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Fast.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Fast.java?ref=5cc684a0034eb44876687bb540afd3f9ae88a3a9",
+    "patch" : "@@ -0,0 +1,67 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903121;\n+\n+import android.app.Activity;\n+import android.os.Bundle;\n+import android.text.TextUtils;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import java.util.Map;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+/**\n+ * 作者：zgw on 2017/6/17 16:14\n+ * 邮箱：zhanmu123@163.com\n+ */\n+\n+public class Net1414080903121Fast extends Activity implements View.OnClickListener {\n+    private EditText etNumber;\n+    private EditText etPassword;\n+    protected void onCreate(Bundle savedInstanceState){\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903121login);\n+        initView();\n+\n+        //取出号码\n+        Map<String,String> userInfo=Utils.getUserInfo(this);\n+        if (userInfo!= null){\n+            //显示在界面\n+            etNumber.setText(userInfo.get(\"number\"));\n+            etPassword.setText(userInfo.get(\"password\"));\n+        }\n+    }\n+    private void initView(){\n+        etNumber = (EditText) findViewById(R.id.et_text);\n+        etPassword = (EditText) findViewById(R.id.et_password);\n+        findViewById(R.id.btn_login).setOnClickListener(this);\n+    }\n+\n+    public void onClick(View v){\n+        //当单击登录时，获取QQ号码和密码\n+        String number = etNumber.getText().toString().trim();\n+        String password = etPassword.getText().toString().trim();\n+        //检查号码和密码是否正确\n+        if (TextUtils.isEmpty(number)){\n+            Toast.makeText(this,\"请输入账号\",Toast.LENGTH_SHORT).show();\n+            //return;\n+        }\n+        if (TextUtils.isEmpty(password)){\n+            Toast.makeText(this,\"请输入密码\",Toast.LENGTH_SHORT).show();\n+        }\n+        //登录成功\n+        Toast.makeText(this,\"登录成功\",Toast.LENGTH_SHORT).show();\n+        //如果正确，判断是否勾选记住密码\n+        Log.i(\"Net1414080903121Fast\",\"记住密码:\"+number+\",\"+password);\n+        //保存用户信息\n+        boolean isSaveSuccess = Utils.saveUserInfo(this,number,password);\n+        if (isSaveSuccess){\n+            Toast.makeText(this,\"保存成功\",Toast.LENGTH_SHORT).show();\n+        }else {\n+            Toast.makeText(this,\"保存失败\",Toast.LENGTH_SHORT).show();\n+        }\n+\n+    }\n+}"
+  }, {
+    "sha" : "a280ea6841d4599f63fa006edf72a5a2be1583d6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Utils.java",
+    "status" : "added",
+    "additions" : 32,
+    "deletions" : 0,
+    "changes" : 32,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/5cc684a0034eb44876687bb540afd3f9ae88a3a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Utils.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/5cc684a0034eb44876687bb540afd3f9ae88a3a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Utils.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903121/Net1414080903121Utils.java?ref=5cc684a0034eb44876687bb540afd3f9ae88a3a9",
+    "patch" : "@@ -0,0 +1,32 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903121;\n+\n+import android.content.Context;\n+import android.content.SharedPreferences;\n+import android.widget.EditText;\n+\n+import java.util.HashMap;\n+import java.util.Map;\n+\n+\n+public class Net1414080903121Utils {\n+    //保存QQ号码和密码到DATA.txt文件\n+    public static boolean saveUserInfo(Context context,String number,String password){\n+        SharedPreferences sp = context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n+        SharedPreferences.Editor edit = sp.edit();\n+        edit.putString(\"userName\",number);\n+        edit.putString(\"password\",password);\n+        return edit.commit();\n+    }\n+    //从data.txt文件获取存储的QQ号码和密码\n+    public static Map<String,String> getUserInfo(Context context){\n+        SharedPreferences sp = context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n+        String number = sp.getString(\"userName\",null);\n+        String password = sp.getString(\"password\",null);\n+        Map<String,String> userMap = new HashMap<String, String>();\n+        userMap.put(\"number\",number);\n+        userMap.put(\"password\",password);\n+        return userMap;\n+    }\n+\n+\n+}"
+  } ],
+  "sha" : "5cc684a0034eb44876687bb540afd3f9ae88a3a9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5cc684a0034eb44876687bb540afd3f9ae88a3a9",
+  "parents" : [ {
+    "sha" : "1ff8357ca93a00eb21d2fb0aae41363c53a01c9e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1ff8357ca93a00eb21d2fb0aae41363c53a01c9e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1ff8357ca93a00eb21d2fb0aae41363c53a01c9e"
+  } ]
+}

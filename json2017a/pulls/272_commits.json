@@ -1,0 +1,68 @@
+[ {
+  "sha" : "1558c9816bb89a63d69c04cd284578c5eea89baa",
+  "commit" : {
+    "author" : {
+      "name" : "net217ptz",
+      "email" : "254093288@qq.com",
+      "date" : "2017-05-10T03:04:48Z"
+    },
+    "committer" : {
+      "name" : "net217ptz",
+      "email" : "254093288@qq.com",
+      "date" : "2017-05-10T03:04:48Z"
+    },
+    "message" : "#3 #106 第三次作业\n\n#3 #106 第三次作业",
+    "tree" : {
+      "sha" : "72eb88093eb4cf64b0ba0eacb183248f14e817dd",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/72eb88093eb4cf64b0ba0eacb183248f14e817dd"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1558c9816bb89a63d69c04cd284578c5eea89baa",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1558c9816bb89a63d69c04cd284578c5eea89baa",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1558c9816bb89a63d69c04cd284578c5eea89baa",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1558c9816bb89a63d69c04cd284578c5eea89baa/comments",
+  "author" : {
+    "login" : "net217ptz",
+    "id" : 26159076,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159076?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/net217ptz",
+    "html_url" : "https://github.com/net217ptz",
+    "followers_url" : "https://api.github.com/users/net217ptz/followers",
+    "following_url" : "https://api.github.com/users/net217ptz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/net217ptz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/net217ptz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/net217ptz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/net217ptz/orgs",
+    "repos_url" : "https://api.github.com/users/net217ptz/repos",
+    "events_url" : "https://api.github.com/users/net217ptz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/net217ptz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "net217ptz",
+    "id" : 26159076,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159076?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/net217ptz",
+    "html_url" : "https://github.com/net217ptz",
+    "followers_url" : "https://api.github.com/users/net217ptz/followers",
+    "following_url" : "https://api.github.com/users/net217ptz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/net217ptz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/net217ptz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/net217ptz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/net217ptz/orgs",
+    "repos_url" : "https://api.github.com/users/net217ptz/repos",
+    "events_url" : "https://api.github.com/users/net217ptz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/net217ptz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "c88a15dd2989bc3dabe5c3f6535489371df18db6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c88a15dd2989bc3dabe5c3f6535489371df18db6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c88a15dd2989bc3dabe5c3f6535489371df18db6"
+  } ]
+} ]

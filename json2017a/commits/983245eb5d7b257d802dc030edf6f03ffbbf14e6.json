@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "zzh1414080903218",
+    "id" : 26100430,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26100430?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zzh1414080903218",
+    "html_url" : "https://github.com/zzh1414080903218",
+    "followers_url" : "https://api.github.com/users/zzh1414080903218/followers",
+    "following_url" : "https://api.github.com/users/zzh1414080903218/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zzh1414080903218/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zzh1414080903218/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zzh1414080903218/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zzh1414080903218/orgs",
+    "repos_url" : "https://api.github.com/users/zzh1414080903218/repos",
+    "events_url" : "https://api.github.com/users/zzh1414080903218/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zzh1414080903218/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 195,
+    "additions" : 144,
+    "deletions" : 51
+  },
+  "author" : {
+    "login" : "zzh1414080903218",
+    "id" : 26100430,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26100430?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zzh1414080903218",
+    "html_url" : "https://github.com/zzh1414080903218",
+    "followers_url" : "https://api.github.com/users/zzh1414080903218/followers",
+    "following_url" : "https://api.github.com/users/zzh1414080903218/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zzh1414080903218/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zzh1414080903218/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zzh1414080903218/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zzh1414080903218/orgs",
+    "repos_url" : "https://api.github.com/users/zzh1414080903218/repos",
+    "events_url" : "https://api.github.com/users/zzh1414080903218/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zzh1414080903218/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+  "commit" : {
+    "author" : {
+      "name" : "zzh1414080903218",
+      "email" : "1290040567@qq.com",
+      "date" : "2017-06-11T04:52:59Z"
+    },
+    "committer" : {
+      "name" : "zzh1414080903218",
+      "email" : "1290040567@qq.com",
+      "date" : "2017-06-11T04:52:59Z"
+    },
+    "message" : "#6 #24 第六次实验",
+    "tree" : {
+      "sha" : "f438322bc48725f69dc284f2152b5e65e2e6d9b9",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f438322bc48725f69dc284f2152b5e65e2e6d9b9"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/983245eb5d7b257d802dc030edf6f03ffbbf14e6/comments",
+  "files" : [ {
+    "sha" : "6b926ea8e2403d61c50bdd3b3647312c26534c03",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "status" : "modified",
+    "additions" : 4,
+    "deletions" : 7,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Board.java?ref=983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+    "patch" : "@@ -2,22 +2,15 @@\n \n import android.graphics.Color;\n import android.os.Environment;\n-import android.provider.ContactsContract;\n-import android.text.format.DateFormat;\n-import android.widget.Toast;\n \n import java.io.BufferedReader;\n import java.io.File;\n import java.io.FileInputStream;\n import java.io.FileOutputStream;\n import java.io.InputStreamReader;\n-import java.sql.Time;\n import java.util.ArrayList;\n import java.util.Date;\n import java.util.List;\n-import java.util.Timer;\n-\n-import static android.widget.Toast.LENGTH_SHORT;\n \n /**\n  * Created by zzh on 2017/4/14.\n@@ -32,6 +25,7 @@\n     private int row;\n     private boolean gameover;\n     private boolean win;\n+    private boolean firstPut;\n     private String fileName;\n     public Board(int r,int c){\n         row = r;\n@@ -40,6 +34,7 @@ public Board(int r,int c){\n         laterColor = Color.WHITE;\n         countPieces = 0;\n         gameover = false;\n+        firstPut = true;\n         display = new boolean[row][col];\n         first = new boolean[row][col];\n         for(int i=0;i<row;i++){\n@@ -68,13 +63,15 @@ public Board(){\n     }\n     public boolean putPiece(boolean first,int r,int c){\n         if(gameover)return false;\n+        if(first != firstPut)return false;\n         if(!isEmpty(r,c))return false;\n         this.first[r][c] = first;\n         display[r][c] = true;\n         String f = first ? \"1\" : \"0\";\n         String data = f+\" \"+String.valueOf(r)+\" \"+String.valueOf(c);\n         writefLine(data);\n         checkWin(first,r,c);\n+        firstPut = !firstPut;\n         return true;\n     }\n     public void clearPieces(){"
+  }, {
+    "sha" : "b022f3eacb328fa38e264e11b330b44f9a4d2745",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java",
+    "status" : "modified",
+    "additions" : 29,
+    "deletions" : 2,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/ChessView.java?ref=983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+    "patch" : "@@ -53,6 +53,11 @@\n     protected int minute;\n     protected int mode;\n     protected boolean isFristPut;\n+    public static Context myContext;\n+    public String addr;\n+    public int port;\n+    public int stats;\n+    public boolean netFirst;\n \n     public ChessView(Context context, AttributeSet attrs){\n         super(context,attrs);\n@@ -61,6 +66,8 @@ public ChessView(Context context, AttributeSet attrs){\n             controller = (Net1414080903218BoardActivity)context;\n         }\n         init();\n+        stats = 0;\n+        myContext = context;\n         myPaint = new Paint();\n     }\n     private void init(){\n@@ -125,6 +132,16 @@ protected void onDraw(Canvas canvas) {\n         canvas.drawText(text,centerX,newSY+textSize,myPaint);\n         text = controller.firstPlayer.countPieces+\"  :  \"+controller.laterPlayer.countPieces;\n         canvas.drawText(text,centerX,newSY+textSize*2,myPaint);\n+        if(mode == 2){\n+            if(!netFirst) text = \"执黑子\";\n+            else text = \"执白子\";\n+            canvas.drawText(text,centerX,newSY+textSize*4,myPaint);\n+            if(stats == 3) text = \"请等待...\";\n+            else if(stats == 4) text = \"到你下了\";\n+            else if(stats == 1) text = \"等待对方连接...\";\n+            else text = \"错误！请重启程序\";\n+            canvas.drawText(text,centerX,newSY+textSize*5,myPaint);\n+        }\n         text = String.format(\"%02d\",minute)+\" : \"+String.format(\"%02d\",second);\n         canvas.drawText(text,centerX,newSY+textSize*3,myPaint);\n     }\n@@ -145,8 +162,18 @@ public boolean onTouchEvent(MotionEvent event) {\n                             controller.laterPlayer.putPiece(0, 0);\n                         }\n                     }\n-                    else if(mode == 2){\n-\n+                    else if(mode == 2 && stats == 4 && !controller.board.isGameover()){\n+                        boolean success = false;\n+                        if(netFirst){\n+                            success = controller.laterPlayer.putPiece(row,col);\n+                        }\n+                        else {\n+                            success = controller.firstPlayer.putPiece(row,col);\n+                        }\n+                        if(success) {\n+                            stats = 3;\n+                            controller.loginService.send(row, col);\n+                        }\n                     }\n                     else if(mode == 3 ){\n                         if(isFristPut){"
+  }, {
+    "sha" : "9820353aee9d0542b5de8d18f0d4711eaf1b4cd5",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/LoginService.java",
+    "status" : "modified",
+    "additions" : 94,
+    "deletions" : 1,
+    "changes" : 95,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/LoginService.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/LoginService.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/LoginService.java?ref=983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+    "patch" : "@@ -1,7 +1,100 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n \n+import android.content.Context;\n+import android.net.ConnectivityManager;\n+import android.net.NetworkInfo;\n+import android.os.AsyncTask;\n+import android.widget.Toast;\n+\n+import static edu.hzuapps.androidlabs.homeworks.net1414080903218.ChessView.myContext;\n+\n+import java.io.BufferedReader;\n+import java.io.BufferedWriter;\n+import java.io.IOException;\n+import java.io.InputStream;\n+import java.io.InputStreamReader;\n+import java.io.OutputStreamWriter;\n+import java.io.PrintWriter;\n+import java.net.DatagramPacket;\n+import java.net.DatagramSocket;\n+import java.net.HttpURLConnection;\n+import java.net.InetAddress;\n+import java.net.MalformedURLException;\n+import java.net.Socket;\n+import java.net.SocketException;\n+import java.net.URL;\n+\n /**\n  * Created by zzh on 2017/4/14.\n  */\n-public class LoginService {\n+class LoginService extends AsyncTask<Void,String,Boolean>{\n+    public Socket loginSocket;\n+    public BufferedReader in;\n+    public PrintWriter ou;\n+    public ChessView view;\n+    public LoginService(ChessView v){\n+        view = v;\n+    }\n+    @Override\n+    protected Boolean doInBackground(Void... params) {\n+        try {\n+            view.netFirst = false;\n+            loginSocket = new Socket(\"119.29.138.122\",8824);\n+            in = new BufferedReader(new InputStreamReader(loginSocket.getInputStream()));\n+            ou = new PrintWriter(new BufferedWriter(new OutputStreamWriter(loginSocket.getOutputStream())), true);\n+            view.stats = 1;\n+            String string = in.readLine();\n+            if(\"first\".equals(string)){\n+                view.netFirst = false;\n+                view.stats = 4;\n+            }\n+            if(\"later\".equals(string)){\n+                view.netFirst = true;\n+                view.stats = 3;\n+                String str = in.readLine();\n+                publishProgress(str);\n+            }\n+            while (true){\n+                if(view.stats == 3) {\n+                    String str1 = in.readLine();\n+                    publishProgress(str1);\n+                }\n+            }\n+        } catch (SocketException e) {\n+            e.printStackTrace();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        }\n+        return true;\n+    }\n+    @Override\n+    protected void onProgressUpdate(String... value){\n+        String[] strings = value[0].split(\":\");\n+        int r = Integer.valueOf(strings[0]);\n+        int c = Integer.valueOf(strings[1]);\n+        if(view.netFirst){\n+            view.controller.firstPlayer.putPiece(r,c);\n+        }\n+        else {\n+            view.controller.laterPlayer.putPiece(r,c);\n+        }\n+        view.stats = 4;\n+        if(view.controller.board.isGameover()){\n+            view.timer.cancel();\n+            if(view.controller.board.isFirstWin()){\n+                Toast.makeText(myContext,\"黑方胜利！\", Toast.LENGTH_SHORT).show();\n+            }else {\n+                Toast.makeText(myContext,\"白方胜利！\", Toast.LENGTH_SHORT).show();\n+            }\n+        }\n+        //Toast.makeText(myContext, value[0], Toast.LENGTH_SHORT).show();\n+    }\n+    @Override\n+    protected void onPostExecute(Boolean result){\n+        Toast.makeText(myContext, \"end\", Toast.LENGTH_SHORT).show();\n+    }\n+    public void send(int r,int c){\n+        String str = Integer.valueOf(r)+\":\"+Integer.valueOf(c)+\":\"+\"0\";\n+        ou.println(str);\n+    }\n }"
+  }, {
+    "sha" : "b79f06d342a6c230c2d5aefefc0d6e0f3080cf94",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218Activity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 1,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218Activity.java?ref=983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+    "patch" : "@@ -34,7 +34,9 @@ public void onClick(View v) {\n                 public void onClick(View v) {\n                     IntentStartBoard=new Intent(v.getContext(),Net1414080903218BoardActivity.class);\n                     IntentStartBoard.putExtra(\"mode\",\"2\");\n-                    showChooseDialog();\n+                    IntentStartBoard.putExtra(\"size\",\"10\");\n+                    startActivity(IntentStartBoard);\n+                    //showChooseDialog();\n                 }\n             });\n         }"
+  }, {
+    "sha" : "6b42accf10e6631e811615db572b73b0d1e35c1e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java",
+    "status" : "modified",
+    "additions" : 14,
+    "deletions" : 6,
+    "changes" : 20,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/983245eb5d7b257d802dc030edf6f03ffbbf14e6/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/Net1414080903218BoardActivity.java?ref=983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+    "patch" : "@@ -13,6 +13,7 @@\n     public Player firstPlayer;\n     public Player laterPlayer;\n     private ChessView view;\n+    public LoginService loginService;\n     public int mode;\n \n     @Override\n@@ -24,20 +25,27 @@ protected void onCreate(Bundle savedInstanceState) {\n     public void start(){\n         int size = Integer.valueOf(getIntent().getStringExtra(\"size\"));\n         board = new Board(size,size);\n-        firstPlayer = new Player(true,board);\n         mode = Integer.valueOf(getIntent().getStringExtra(\"mode\"));\n+        view = (ChessView)findViewById(R.id.ChessView);\n+        view.mode = mode;\n+        view.start(board.getRow(),board.getCol());\n         if(mode == 1) {\n+            firstPlayer = new Player(true,board);\n             laterPlayer = new AutoPlayer(false, board);\n         }\n         else if(mode == 2) {\n-            laterPlayer = new NetPlayer(false, board);\n+            firstPlayer = new Player(true,board);\n+            laterPlayer = new Player(false, board);\n+            loginService = new LoginService(view);\n+            loginService.execute();\n         }\n         else if(mode == 3) {\n+            firstPlayer = new Player(true,board);\n             laterPlayer = new Player(false, board);\n         }\n-        else laterPlayer = new AutoPlayer(false, board);\n-        view = (ChessView)findViewById(R.id.ChessView);\n-        view.mode = mode;\n-        view.start(board.getRow(),board.getCol());\n+        else {\n+            firstPlayer = new Player(true,board);\n+            laterPlayer = new AutoPlayer(false, board);\n+        }\n     }\n }"
+  }, {
+    "sha" : "42892a90e74b27471513adf669c71a7367f0912b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/NetPlayer.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 34,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/263df5356331663de536e8783cba21ca493277a4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/NetPlayer.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/263df5356331663de536e8783cba21ca493277a4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/NetPlayer.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903218/NetPlayer.java?ref=263df5356331663de536e8783cba21ca493277a4",
+    "patch" : "@@ -1,34 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903218;\n-\n-import android.os.Environment;\n-\n-import java.io.BufferedReader;\n-import java.io.File;\n-import java.io.FileInputStream;\n-import java.io.FileOutputStream;\n-import java.io.InputStreamReader;\n-import java.util.ArrayList;\n-import java.util.List;\n-\n-/**\n- * Created by zzh on 2017/5/1.\n- */\n-public class NetPlayer extends Player {\n-    private int putR;\n-    private int putC;\n-    public NetPlayer(boolean first, Board b) {\n-        super(first,b);\n-        putR = 0;\n-        putC = 0;\n-    }\n-    @Override\n-    public boolean putPiece(int r,int c){\n-        findPutRC();\n-        if(!board.putPiece(first,putR,putC))return false;\n-        countPieces++;\n-        return true;\n-    }\n-    public boolean findPutRC(){\n-        return true;\n-    }\n-}"
+  } ],
+  "sha" : "983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/983245eb5d7b257d802dc030edf6f03ffbbf14e6",
+  "parents" : [ {
+    "sha" : "263df5356331663de536e8783cba21ca493277a4",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/263df5356331663de536e8783cba21ca493277a4",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/263df5356331663de536e8783cba21ca493277a4"
+  } ]
+}

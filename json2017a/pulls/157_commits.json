@@ -1,0 +1,68 @@
+[ {
+  "sha" : "f175bda6c72f406e0e3bad40d25f2f5db52d615a",
+  "commit" : {
+    "author" : {
+      "name" : "zhouchenghai",
+      "email" : "2584061172@qq.com",
+      "date" : "2017-03-10T08:03:47Z"
+    },
+    "committer" : {
+      "name" : "zhouchenghai",
+      "email" : "2584061172@qq.com",
+      "date" : "2017-03-10T08:03:47Z"
+    },
+    "message" : "#1 #42 第一次作业",
+    "tree" : {
+      "sha" : "6a8dd470385737158fcbf44dca0af45bc4ca31cb",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/6a8dd470385737158fcbf44dca0af45bc4ca31cb"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f175bda6c72f406e0e3bad40d25f2f5db52d615a",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f175bda6c72f406e0e3bad40d25f2f5db52d615a",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f175bda6c72f406e0e3bad40d25f2f5db52d615a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f175bda6c72f406e0e3bad40d25f2f5db52d615a/comments",
+  "author" : {
+    "login" : "zhouchenghai",
+    "id" : 26159414,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159414?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhouchenghai",
+    "html_url" : "https://github.com/zhouchenghai",
+    "followers_url" : "https://api.github.com/users/zhouchenghai/followers",
+    "following_url" : "https://api.github.com/users/zhouchenghai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhouchenghai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhouchenghai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhouchenghai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhouchenghai/orgs",
+    "repos_url" : "https://api.github.com/users/zhouchenghai/repos",
+    "events_url" : "https://api.github.com/users/zhouchenghai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhouchenghai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zhouchenghai",
+    "id" : 26159414,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159414?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhouchenghai",
+    "html_url" : "https://github.com/zhouchenghai",
+    "followers_url" : "https://api.github.com/users/zhouchenghai/followers",
+    "following_url" : "https://api.github.com/users/zhouchenghai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhouchenghai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhouchenghai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhouchenghai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhouchenghai/orgs",
+    "repos_url" : "https://api.github.com/users/zhouchenghai/repos",
+    "events_url" : "https://api.github.com/users/zhouchenghai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhouchenghai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9f5014e28f846b0ee9c9eeb6c0262b2887835719",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9f5014e28f846b0ee9c9eeb6c0262b2887835719"
+  } ]
+} ]

@@ -1,0 +1,177 @@
+{
+  "committer" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 107,
+    "additions" : 107,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a4ac849688502c868a2074aada758c89ba861707",
+  "commit" : {
+    "author" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-05-10T13:07:36Z"
+    },
+    "committer" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-05-10T13:07:36Z"
+    },
+    "message" : "#3 #59 第三次实验",
+    "tree" : {
+      "sha" : "d54b8fa66d01ac155cf4266e150559e12b48b87e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/d54b8fa66d01ac155cf4266e150559e12b48b87e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a4ac849688502c868a2074aada758c89ba861707",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4ac849688502c868a2074aada758c89ba861707/comments",
+  "files" : [ {
+    "sha" : "903a6cf79964d5bf555939af35d45b0e56952da1",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java",
+    "status" : "added",
+    "additions" : 65,
+    "deletions" : 0,
+    "changes" : 65,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java?ref=a4ac849688502c868a2074aada758c89ba861707",
+    "patch" : "@@ -0,0 +1,65 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903122;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.BaseAdapter;\n+import android.widget.ImageView;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class MainActivity extends AppCompatActivity {\n+    private ListView mListView;\n+    //需要适配的数据\n+    private String[] names={\"京东商城\",\"QQ\",\"QQ斗地主\",\"新浪微博\",\"天猫\",\"UC浏览器\",\"微信\"};\n+    //图片集合\n+    private int[] icons ={R.drawable.jd,R.drawable.qq,R.drawable.qq_dizhu,R.drawable.sina,R.drawable.tmall,R.drawable.uc,R.drawable.weixin,};\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_main_net1414080903122);\n+        //初始化ListView控件\n+        mListView=(ListView)findViewById(R.id.lv);\n+        //创建一个Adapter实例\n+        MyBaseAdapter mAdapter=new MyBaseAdapter();\n+        //设置Adapter\n+        mListView.setAdapter(mAdapter);\n+    }\n+\n+    class MyBaseAdapter extends BaseAdapter{\n+        //得到Item的总数\n+        @Override\n+        public int getCount() {\n+            return names.length;\n+        }\n+\n+        @Override\n+        public Object getItem(int position) {\n+            return names[position];\n+        }\n+\n+        @Override\n+        public long getItemId(int position) {\n+            return position;\n+        }\n+\n+        @Override\n+        public View getView(int position, View convertView, ViewGroup parent) {\n+            //把list_item.xml文件转换成View对象\n+            View view =View.inflate(MainActivity.this,R.layout.list_item_net1414080903122,null);\n+            //找到list_item.xml文件中创建的TextView\n+            TextView mTextView=(TextView)view.findViewById(R.id.tv_list);\n+            mTextView.setText(names[position]);\n+            ImageView imageView=(ImageView)view.findViewById(R.id.image);\n+            imageView.setBackgroundResource(icons[position]);\n+\n+            return view;\n+        }\n+\n+    }\n+}\n+\n+"
+  }, {
+    "sha" : "b5b67239860e476cfd39bf5e95a2d0405a5ab731",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/jd.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/jd.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/jd.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/jd.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "73765b3d5b75173243ed570bdfcf3d2ff775dcea",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/qq.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/qq.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/qq.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/qq.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "f236aa227888e5652100a220f9f0a0e87b605978",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/qq_dizhu.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/qq_dizhu.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/qq_dizhu.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/qq_dizhu.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "1d41e35ad523d76bde561529cfa918bbc2f140c1",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/sina.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/sina.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/sina.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/sina.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "cb7f605511efbe8e69dc9179e45f28712492a72b",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tmall.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/tmall.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/tmall.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tmall.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "09a89f379a6bed0a1cd1290dbec1631fae3c27d6",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/uc.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/uc.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/uc.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/uc.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "d805cd4b5b30ce9da7a5d55a0d48c594a033634e",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/weixin.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/weixin.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/drawable/weixin.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/weixin.jpg?ref=a4ac849688502c868a2074aada758c89ba861707"
+  }, {
+    "sha" : "d51b18555fca7809475b0bb891e049457cc18693",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main_net1414080903122.xml",
+    "status" : "added",
+    "additions" : 19,
+    "deletions" : 0,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903122.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903122.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main_net1414080903122.xml?ref=a4ac849688502c868a2074aada758c89ba861707",
+    "patch" : "@@ -0,0 +1,19 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    tools:context=\".MainActivity\">\n+\n+    <ListView\n+        android:id=\"@+id/lv\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"></ListView>\n+\n+\n+\n+</LinearLayout>\n+\n+"
+  }, {
+    "sha" : "08d674aece47b89f46896826427bcb8f321eaf86",
+    "filename" : "AndroidLabs/app/src/main/res/layout/list_item_net1414080903122.xml",
+    "status" : "added",
+    "additions" : 23,
+    "deletions" : 0,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/layout/list_item_net1414080903122.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4ac849688502c868a2074aada758c89ba861707/AndroidLabs/app/src/main/res/layout/list_item_net1414080903122.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/list_item_net1414080903122.xml?ref=a4ac849688502c868a2074aada758c89ba861707",
+    "patch" : "@@ -0,0 +1,23 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <ImageView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/image\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_margin=\"5dp\"/>\n+\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/tv_list\"\n+        android:layout_centerInParent=\"true\"\n+        android:paddingLeft=\"15dp\"\n+        android:layout_marginLeft=\"20dp\"\n+        android:textSize=\"18sp\"\n+        android:hint=\"我是ListView的Item布局\"/>\n+\n+</RelativeLayout>"
+  } ],
+  "sha" : "a4ac849688502c868a2074aada758c89ba861707",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4ac849688502c868a2074aada758c89ba861707",
+  "parents" : [ {
+    "sha" : "594cac7ab98e0012f8516adc876323000c2d983d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/594cac7ab98e0012f8516adc876323000c2d983d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/594cac7ab98e0012f8516adc876323000c2d983d"
+  } ]
+}

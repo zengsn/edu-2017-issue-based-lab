@@ -1,0 +1,49 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 50,
+    "additions" : 43,
+    "deletions" : 7
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+  "commit" : {
+    "author" : {
+      "name" : "IcyvE",
+      "email" : "了l",
+      "date" : "2017-05-26T07:29:43Z"
+    },
+    "committer" : {
+      "name" : "IcyvE",
+      "email" : "了l",
+      "date" : "2017-05-26T07:29:43Z"
+    },
+    "message" : "#4 #134 第四次作业",
+    "tree" : {
+      "sha" : "4132b9f27a7c18bfea7428f45ce7bd5e68ce85ba",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4132b9f27a7c18bfea7428f45ce7bd5e68ce85ba"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a/comments",
+  "files" : [ {
+    "sha" : "3a3cc20916d3ee3cb0d04101d4455ed755469480",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903126_act2.xml",
+    "status" : "modified",
+    "additions" : 43,
+    "deletions" : 7,
+    "changes" : 50,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a/AndroidLabs/app/src/main/res/layout/activity_net1414080903126_act2.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a/AndroidLabs/app/src/main/res/layout/activity_net1414080903126_act2.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903126_act2.xml?ref=e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+    "patch" : "@@ -35,13 +35,29 @@\n         android:layout_marginRight=\"8dp\"\n         android:layout_marginTop=\"8dp\"\n         android:ems=\"10\"\n+        android:text=\"输入时间\"\n+        app:layout_constraintBottom_toBottomOf=\"parent\"\n+        app:layout_constraintHorizontal_bias=\"0.803\"\n+        app:layout_constraintLeft_toLeftOf=\"parent\"\n+        app:layout_constraintRight_toRightOf=\"parent\"\n+        app:layout_constraintTop_toTopOf=\"parent\" />\n+\n+    <EditText\n+        android:id=\"@+id/editText2\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginBottom=\"8dp\"\n+        android:layout_marginLeft=\"8dp\"\n+        android:layout_marginRight=\"8dp\"\n+        android:layout_marginTop=\"8dp\"\n+        android:ems=\"10\"\n         android:text=\"输入金额\"\n         app:layout_constraintBottom_toBottomOf=\"parent\"\n         app:layout_constraintHorizontal_bias=\"0.803\"\n         app:layout_constraintLeft_toLeftOf=\"parent\"\n         app:layout_constraintRight_toRightOf=\"parent\"\n         app:layout_constraintTop_toTopOf=\"parent\"\n-        app:layout_constraintVertical_bias=\"0.285\" />\n+        app:layout_constraintVertical_bias=\"0.325\" />\n \n     <TextView\n         android:id=\"@+id/textView3\"\n@@ -59,7 +75,8 @@\n         android:layout_marginTop=\"8dp\"\n         app:layout_constraintBottom_toBottomOf=\"parent\"\n         android:layout_marginBottom=\"8dp\"\n-        app:layout_constraintVertical_bias=\"0.29\" />\n+        app:layout_constraintVertical_bias=\"0.329\" />\n+\n \n     <RadioButton\n         android:id=\"@+id/radioButton\"\n@@ -70,12 +87,12 @@\n         app:layout_constraintLeft_toLeftOf=\"parent\"\n         app:layout_constraintRight_toLeftOf=\"@+id/radioButton2\"\n         android:layout_marginRight=\"8dp\"\n-        app:layout_constraintHorizontal_bias=\"0.605\"\n+        app:layout_constraintHorizontal_bias=\"0.616\"\n         app:layout_constraintTop_toTopOf=\"parent\"\n         android:layout_marginTop=\"40dp\"\n         android:layout_marginBottom=\"8dp\"\n         app:layout_constraintBottom_toTopOf=\"@+id/editText\"\n-        app:layout_constraintVertical_bias=\"0.368\" />\n+        app:layout_constraintVertical_bias=\"0.225\" />\n \n     <RadioButton\n         android:id=\"@+id/radioButton2\"\n@@ -88,10 +105,10 @@\n         android:layout_marginTop=\"40dp\"\n         android:layout_marginBottom=\"8dp\"\n         app:layout_constraintBottom_toTopOf=\"@+id/editText\"\n-        app:layout_constraintVertical_bias=\"0.368\"\n+        app:layout_constraintVertical_bias=\"0.225\"\n         android:layout_marginLeft=\"8dp\"\n         app:layout_constraintLeft_toLeftOf=\"parent\"\n-        app:layout_constraintHorizontal_bias=\"0.914\" />\n+        app:layout_constraintHorizontal_bias=\"0.935\" />\n \n     <TextView\n         android:layout_width=\"wrap_content\"\n@@ -100,7 +117,26 @@\n         app:layout_constraintBottom_toBottomOf=\"parent\"\n         app:layout_constraintLeft_toLeftOf=\"parent\"\n         app:layout_constraintRight_toRightOf=\"parent\"\n-        app:layout_constraintTop_toTopOf=\"parent\" />\n+        app:layout_constraintTop_toTopOf=\"parent\"\n+        app:layout_constraintVertical_bias=\"0.639\" />\n+\n+    <TextView\n+        android:id=\"@+id/textView4\"\n+        android:layout_width=\"47dp\"\n+        android:layout_height=\"27dp\"\n+        android:textSize=\"45px\"\n+        android:textAppearance=\"@style/TextAppearance.AppCompat.Body1\"\n+        android:text=\"日期\"\n+        android:layout_marginLeft=\"8dp\"\n+        app:layout_constraintLeft_toLeftOf=\"parent\"\n+        app:layout_constraintRight_toLeftOf=\"@+id/editText\"\n+        android:layout_marginRight=\"8dp\"\n+        app:layout_constraintBottom_toBottomOf=\"parent\"\n+        android:layout_marginBottom=\"8dp\"\n+        android:layout_marginTop=\"8dp\"\n+        app:layout_constraintTop_toBottomOf=\"@+id/textView3\"\n+        app:layout_constraintHorizontal_bias=\"0.779\"\n+        app:layout_constraintVertical_bias=\"0.161\" />\n \n \n </android.support.constraint.ConstraintLayout>"
+  } ],
+  "sha" : "e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+  "parents" : [ {
+    "sha" : "2aac081bb329694cc9eafd4f2c5053a16ae172be",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2aac081bb329694cc9eafd4f2c5053a16ae172be",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2aac081bb329694cc9eafd4f2c5053a16ae172be"
+  } ]
+}

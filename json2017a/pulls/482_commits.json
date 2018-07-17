@@ -1,0 +1,135 @@
+[ {
+  "sha" : "bbddf3e864ee5a9168721a30ea747a06f57e1892",
+  "commit" : {
+    "author" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-05-31T12:20:00Z"
+    },
+    "committer" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-05-31T12:20:00Z"
+    },
+    "message" : "add json",
+    "tree" : {
+      "sha" : "171629513d66155a7f1535a975f5aa448100a75b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/171629513d66155a7f1535a975f5aa448100a75b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/bbddf3e864ee5a9168721a30ea747a06f57e1892",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bbddf3e864ee5a9168721a30ea747a06f57e1892",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bbddf3e864ee5a9168721a30ea747a06f57e1892",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bbddf3e864ee5a9168721a30ea747a06f57e1892/comments",
+  "author" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "c88a89211dc4ddcc7438b5999e4fe0621847c561",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c88a89211dc4ddcc7438b5999e4fe0621847c561",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c88a89211dc4ddcc7438b5999e4fe0621847c561"
+  } ]
+}, {
+  "sha" : "a86e38b24d1f3d2d0d979c0507d925cc9ec645e4",
+  "commit" : {
+    "author" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-06-17T13:02:40Z"
+    },
+    "committer" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-06-17T13:02:40Z"
+    },
+    "message" : "#6 #25 第六次作业",
+    "tree" : {
+      "sha" : "c2d871ce8628e8e52251b4fe7124fd5c0bd8a674",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c2d871ce8628e8e52251b4fe7124fd5c0bd8a674"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a86e38b24d1f3d2d0d979c0507d925cc9ec645e4",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a86e38b24d1f3d2d0d979c0507d925cc9ec645e4",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a86e38b24d1f3d2d0d979c0507d925cc9ec645e4",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a86e38b24d1f3d2d0d979c0507d925cc9ec645e4/comments",
+  "author" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "bbddf3e864ee5a9168721a30ea747a06f57e1892",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bbddf3e864ee5a9168721a30ea747a06f57e1892",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bbddf3e864ee5a9168721a30ea747a06f57e1892"
+  } ]
+} ]

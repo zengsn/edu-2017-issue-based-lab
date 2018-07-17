@@ -1,0 +1,187 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 257,
+    "additions" : 246,
+    "deletions" : 11
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2847e4176292739162537d900a6668a4dcb70b0c",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-22T04:50:41Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-22T04:50:41Z"
+    },
+    "message" : "#2 #30 第二次试验",
+    "tree" : {
+      "sha" : "583c00392c9c3609c98f3bfa35ca95bb9abba0d7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/583c00392c9c3609c98f3bfa35ca95bb9abba0d7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2847e4176292739162537d900a6668a4dcb70b0c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2847e4176292739162537d900a6668a4dcb70b0c/comments",
+  "files" : [ {
+    "sha" : "aa46fb21aa96b6569b9705fa433174eb81177239",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 3,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240Activity.java?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -12,23 +12,23 @@\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.main);\n+        setContentView(R.layout.main_1414080903240);\n \n \n         btn_send1 = (Button) findViewById(R.id.button1);\n         btn_send2 = (Button) findViewById(R.id.button2);\n         btn_send1.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-                Intent intent = new Intent(Net1414080903240Activity.this,NewAccount.class);\n+                Intent intent = new Intent(Net1414080903240Activity.this,Net1414080903240_NewAccount.class);\n                 startActivity(intent);\n             }\n         });\n \n         btn_send2.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-                Intent intent = new Intent(Net1414080903240Activity.this,OrderRecord.class);\n+                Intent intent = new Intent(Net1414080903240Activity.this,Net1414080903240_OrderRecord.class);\n                 startActivity(intent);\n             }\n         });"
+  }, {
+    "sha" : "1602d127ab3ac0fb5e251180a23e4ed6083397ed",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_AccountDetail.java?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -0,0 +1,13 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+public class Net1414080903240_AccountDetail extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.accountdetail_1414080903240);\n+    }\n+}"
+  }, {
+    "sha" : "3129b58c3a444e05114a8e9e50b7b33fc691d6d0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "status" : "renamed",
+    "additions" : 3,
+    "deletions" : 3,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_NewAccount.java?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -10,7 +10,7 @@\n \n import com.google.android.gms.common.api.GoogleApiClient;\n \n-public class NewAccount extends AppCompatActivity {\n+public class Net1414080903240_NewAccount extends AppCompatActivity {\n     private Spinner spinner1;\n     private EditText value;\n     private Button btn_send;\n@@ -19,15 +19,15 @@\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.newaccount);\n+        setContentView(R.layout.newaccount_1414080903240);\n         value = (EditText) findViewById(R.id.et_value);\n         spinner1 = (Spinner) findViewById(R.id.spinner1);\n         btn_send = (Button) findViewById(R.id.button);\n         btn_send.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n \n-                Intent intent = new Intent(NewAccount.this,OrderRecord.class);\n+                Intent intent = new Intent(Net1414080903240_NewAccount.this,Net1414080903240_OrderRecord.class);\n                 intent.putExtra(\"value\",value.getText().toString().trim());\n                 intent.putExtra(\"spinner1\",spinner1.getSelectedItem().toString().trim());\n                 startActivity(intent);",
+    "previous_filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/NewAccount.java"
+  }, {
+    "sha" : "2525f9604575b84cae190346e5f5a8dcd8447e66",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "status" : "renamed",
+    "additions" : 13,
+    "deletions" : 3,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/Net1414080903240_OrderRecord.java?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -3,15 +3,17 @@\n import android.content.Intent;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n import android.widget.TextView;\n \n-public class OrderRecord extends AppCompatActivity {\n+public class Net1414080903240_OrderRecord extends AppCompatActivity {\n     private TextView tv_value,tv_cla;\n-\n+    private Button btn_send;\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.orderrecord);\n+        setContentView(R.layout.orderrecord_1414080903240);\n         Intent intent=getIntent();\n         String value=intent.getStringExtra(\"value\");\n         String cla=intent.getStringExtra(\"spinner1\");\n@@ -35,5 +37,13 @@ protected void onCreate(Bundle savedInstanceState) {\n         }\n         tv_value.setText(value);\n         tv_cla.setText(value);\n+        btn_send = (Button) findViewById(R.id.button);\n+        btn_send.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903240_OrderRecord.this,Net1414080903240_AccountDetail.class);\n+                startActivity(intent);\n+            }\n+        });\n     }\n }",
+    "previous_filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/OrderRecord.java"
+  }, {
+    "sha" : "c811f1709e7b51ffa3d4058311d29e07640dfe7a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java",
+    "status" : "added",
+    "additions" : 29,
+    "deletions" : 0,
+    "changes" : 29,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903240/order.java?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -0,0 +1,29 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903240;\n+\n+/**\n+ * Created by Administrator on 2017/4/22.\n+ */\n+\n+public class order {\n+    private String value;\n+    private String data;\n+    private String remark;\n+    private String project;\n+\n+\n+    public void order(String a,String b,String c,String d){\n+        value=a;\n+        data=c;\n+        remark=d;\n+        project=b;\n+    }\n+    public String getValue() { return value;  }\n+    public void setValue(String a) { this.value =a;}\n+    public String getData() { return data;  }\n+    public void setData(String a) { this.data =a;}\n+    public String getRemark() { return remark;  }\n+    public void setRemark(String a) { this.remark =a;}\n+    public String getProject() { return project;  }\n+    public void setProject(String a) { this.project =a;}\n+\n+}"
+  }, {
+    "sha" : "3531769cc4ce6d66fd1bfa3a410d0c75e0e41d50",
+    "filename" : "AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml",
+    "status" : "added",
+    "additions" : 120,
+    "deletions" : 0,
+    "changes" : 120,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/accountdetail_1414080903240.xml?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -0,0 +1,120 @@\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    >\n+\n+    <LinearLayout\n+        android:id=\"@+id/value\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:orientation=\"horizontal\"\n+        >\n+        <TextView\n+            android:id=\"@+id/value_name\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\" 订单金额 ： \"\n+            />\n+        <TextView\n+            android:id=\"@+id/tt_value\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+\n+            />\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:id=\"@+id/date\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/value\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:orientation=\"horizontal\"\n+        >\n+        <TextView\n+            android:id=\"@+id/date_name\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\"记录时间： \"\n+            />\n+        <TextView\n+            android:id=\"@+id/date_value\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            />\n+    </LinearLayout>\n+    <LinearLayout\n+        android:id=\"@+id/project\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/date\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:orientation=\"horizontal\"\n+        >\n+        <TextView\n+            android:id=\"@+id/project_name\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\"花销项目： \"\n+            />\n+        <TextView\n+            android:id=\"@+id/project_value\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            />\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:id=\"@+id/remark\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/project\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_marginBottom=\"10dp\"\n+        android:orientation=\"horizontal\"\n+        >\n+        <TextView\n+            android:id=\"@+id/remark_name\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            android:text=\"备注： \"\n+            />\n+        <TextView\n+            android:id=\"@+id/remark_value\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:gravity=\"right\"\n+            android:paddingRight=\"5dp\"\n+            />\n+    </LinearLayout>\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "175b3b0f4fdc03178c160ca7c81d3426cbfff8f3",
+    "filename" : "AndroidLabs/app/src/main/res/layout/main_1414080903240.xml",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/main_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/main_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/main_1414080903240.xml?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "previous_filename" : "AndroidLabs/app/src/main/res/layout/main.xml"
+  }, {
+    "sha" : "716e95a3a4f74d3c8b358e7d205b5744f56a6bcf",
+    "filename" : "AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "previous_filename" : "AndroidLabs/app/src/main/res/layout/newaccount.xml"
+  }, {
+    "sha" : "c21fc6cee5ab20e86e0865c5c9bebc81286e1113",
+    "filename" : "AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "status" : "renamed",
+    "additions" : 55,
+    "deletions" : 2,
+    "changes" : 57,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -53,12 +53,22 @@\n             android:paddingRight=\"5dp\"\n             android:text=\"饮食花销： \"\n             />\n+        <ProgressBar\n+            android:id=\"@+id/food_bar\"\n+            style=\"?android:attr/progressBarStyleHorizontal\"\n+            android:layout_width=\"240dp\"\n+            android:layout_weight=\"0.78\"\n+            android:layout_height=\"wrap_content\"\n+            android:progress=\"50\"\n+            />\n+\n         <TextView\n             android:id=\"@+id/food_value\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n             android:paddingRight=\"5dp\"\n+            android:text=\"25\"\n             />\n     </LinearLayout>\n     <LinearLayout\n@@ -80,6 +90,15 @@\n             android:paddingRight=\"5dp\"\n             android:text=\"娱乐花销： \"\n             />\n+        <ProgressBar\n+            android:id=\"@+id/cheer_bar\"\n+            style=\"?android:attr/progressBarStyleHorizontal\"\n+            android:layout_width=\"240dp\"\n+            android:layout_weight=\"0.78\"\n+            android:layout_height=\"wrap_content\"\n+            android:progress=\"50\"\n+            />\n+\n         <TextView\n             android:id=\"@+id/cheer_value\"\n             android:layout_width=\"wrap_content\"\n@@ -98,7 +117,7 @@\n         android:layout_marginTop=\"10dp\"\n         android:layout_marginBottom=\"10dp\"\n         android:orientation=\"horizontal\"\n-        >\n+        android:weightSum=\"1\">\n         <TextView\n             android:id=\"@+id/dress_name\"\n             android:layout_width=\"wrap_content\"\n@@ -107,13 +126,24 @@\n             android:paddingRight=\"5dp\"\n             android:text=\"服装花销： \"\n             />\n+        <ProgressBar\n+            android:id=\"@+id/dress_bar\"\n+            style=\"?android:attr/progressBarStyleHorizontal\"\n+            android:layout_width=\"240dp\"\n+            android:layout_weight=\"0.78\"\n+            android:layout_height=\"wrap_content\"\n+            android:progress=\"50\"\n+            />\n         <TextView\n             android:id=\"@+id/dress_value\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n             android:paddingRight=\"5dp\"\n+            android:text=\"25\"\n             />\n+\n+\n     </LinearLayout>\n     <LinearLayout\n         android:id=\"@+id/car\"\n@@ -125,7 +155,7 @@\n         android:layout_marginTop=\"10dp\"\n         android:layout_marginBottom=\"10dp\"\n         android:orientation=\"horizontal\"\n-        >\n+        android:weightSum=\"1\">\n         <TextView\n             android:id=\"@+id/car_name\"\n             android:layout_width=\"wrap_content\"\n@@ -134,14 +164,28 @@\n             android:paddingRight=\"5dp\"\n             android:text=\"车费花销： \"\n             />\n+        <ProgressBar\n+            android:id=\"@+id/car_bar\"\n+            style=\"?android:attr/progressBarStyleHorizontal\"\n+            android:layout_width=\"240dp\"\n+            android:layout_weight=\"0.78\"\n+            android:layout_height=\"wrap_content\"\n+            android:progress=\"50\"\n+            />\n+\n+\n         <TextView\n             android:id=\"@+id/car_value\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"wrap_content\"\n             android:gravity=\"right\"\n             android:paddingRight=\"5dp\"\n+            android:text=\"25\"\n             />\n+\n+\n     </LinearLayout>\n+\n     <LinearLayout\n         android:id=\"@+id/gift\"\n         android:layout_width=\"match_parent\"\n@@ -169,4 +213,13 @@\n             android:paddingRight=\"5dp\"\n             />\n     </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/button\"\n+        android:layout_width=\"180dp\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"查看详情\"\n+        android:layout_below=\"@+id/gift\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginTop=\"50dp\" />\n </RelativeLayout>",
+    "previous_filename" : "AndroidLabs/app/src/main/res/layout/orderrecord.xml"
+  }, {
+    "sha" : "25dcfbf66fe774e9def5d851a2f97d66bff5cc5b",
+    "filename" : "AndroidLabs/app/src/main/res/values/values_141480903240.xml",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/values/values_141480903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/2847e4176292739162537d900a6668a4dcb70b0c/AndroidLabs/app/src/main/res/values/values_141480903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/values_141480903240.xml?ref=2847e4176292739162537d900a6668a4dcb70b0c",
+    "patch" : "@@ -0,0 +1,10 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <string-array name=\"languages\">\n+        <item>饮食</item>\n+        <item>娱乐</item>\n+        <item>服装</item>\n+        <item>车费</item>\n+        <item>礼品</item>\n+    </string-array>\n+</resources>\n\\ No newline at end of file"
+  } ],
+  "sha" : "2847e4176292739162537d900a6668a4dcb70b0c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2847e4176292739162537d900a6668a4dcb70b0c",
+  "parents" : [ {
+    "sha" : "1db410185702ac72763d9117e2db6658a6f6b85d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1db410185702ac72763d9117e2db6658a6f6b85d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1db410185702ac72763d9117e2db6658a6f6b85d"
+  } ]
+}

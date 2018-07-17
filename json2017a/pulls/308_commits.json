@@ -1,0 +1,68 @@
+[ {
+  "sha" : "e7f7e6b7dbcf634f683cb8b24651df82c2fc8684",
+  "commit" : {
+    "author" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-05-13T02:19:05Z"
+    },
+    "committer" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-05-13T02:19:05Z"
+    },
+    "message" : "#3 #16 第三次实验\n\n第三次实验",
+    "tree" : {
+      "sha" : "912a0b1ceaf5ea1f086b6d4e640fed786915beb5",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/912a0b1ceaf5ea1f086b6d4e640fed786915beb5"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e7f7e6b7dbcf634f683cb8b24651df82c2fc8684",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e7f7e6b7dbcf634f683cb8b24651df82c2fc8684",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e7f7e6b7dbcf634f683cb8b24651df82c2fc8684",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e7f7e6b7dbcf634f683cb8b24651df82c2fc8684/comments",
+  "author" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "7a27a0725448353fb798541e9e0db7ae28156938",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7a27a0725448353fb798541e9e0db7ae28156938",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7a27a0725448353fb798541e9e0db7ae28156938"
+  } ]
+} ]

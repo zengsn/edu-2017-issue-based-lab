@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 20,
+    "additions" : 19,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9187793f3894e92d522878830291505731e4a55b",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T08:02:55Z"
+    },
+    "committer" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T08:02:55Z"
+    },
+    "message" : "#6 #39 第六次作业",
+    "tree" : {
+      "sha" : "38382585c089f189ff3cd6a8ad02b8466a073865",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/38382585c089f189ff3cd6a8ad02b8466a073865"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9187793f3894e92d522878830291505731e4a55b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9187793f3894e92d522878830291505731e4a55b/comments",
+  "files" : [ {
+    "sha" : "4cca22dcea3631fedabcbfc4ad722afcbf68a0f5",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 1,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9187793f3894e92d522878830291505731e4a55b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9187793f3894e92d522878830291505731e4a55b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1409081602222/Net1409081602222MenuActivity.java?ref=9187793f3894e92d522878830291505731e4a55b",
+    "patch" : "@@ -12,14 +12,15 @@\n \n     Button btBudget;\n     Button btCertificate;\n+\tButton btJson;\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_menu_net1409081602222);\n         btBudget= (Button) findViewById(R.id.bt_to_apply_budget);\n         btCertificate= (Button) findViewById(R.id.bt_to_apply_certificate);\n-\n+        btJson=(Button)findViewById(R.id.bt_json);\n         btBudget.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n@@ -34,5 +35,11 @@ public void onClick(View v) {\n                 startActivity(new Intent(Net1409081602222MenuActivity.this,Net1409081602222ApplyCertificateActivity.class));\n             }\n         });\n+\t\t  btJson.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1409081602222MenuActivity.this,Net1409081602222_JsonActivity.class));\n+            }\n+        });\n     }\n }"
+  }, {
+    "sha" : "2550be7e952600972c4019aef35ced648007fbc3",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml",
+    "status" : "modified",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9187793f3894e92d522878830291505731e4a55b/AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9187793f3894e92d522878830291505731e4a55b/AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_menu_net1409081602222.xml?ref=9187793f3894e92d522878830291505731e4a55b",
+    "patch" : "@@ -39,5 +39,16 @@\n         android:text=\"申请安全证书\"\n         android:textSize=\"18sp\"\n         android:background=\"@color/colorPrimary\"/>\n+\t\t<Button\n+        android:id=\"@+id/bt_Json\"\n+        android:layout_marginLeft=\"50dp\"\n+        android:layout_marginRight=\"50dp\"\n+        android:layout_marginTop=\"25dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"解析json\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n \n </LinearLayout>"
+  } ],
+  "sha" : "9187793f3894e92d522878830291505731e4a55b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9187793f3894e92d522878830291505731e4a55b",
+  "parents" : [ {
+    "sha" : "e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c"
+  } ]
+}

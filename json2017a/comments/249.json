@@ -1,0 +1,28 @@
+[ {
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/issues/comments/299404996",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/pull/249#issuecomment-299404996",
+  "issue_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/issues/249",
+  "id" : 299404996,
+  "user" : {
+    "login" : "IcyvE",
+    "id" : 26116354,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116354?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/IcyvE",
+    "html_url" : "https://github.com/IcyvE",
+    "followers_url" : "https://api.github.com/users/IcyvE/followers",
+    "following_url" : "https://api.github.com/users/IcyvE/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/IcyvE/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/IcyvE/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/IcyvE/subscriptions",
+    "organizations_url" : "https://api.github.com/users/IcyvE/orgs",
+    "repos_url" : "https://api.github.com/users/IcyvE/repos",
+    "events_url" : "https://api.github.com/users/IcyvE/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/IcyvE/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "created_at" : "2017-05-05T07:58:39Z",
+  "updated_at" : "2017-05-05T07:58:39Z",
+  "body" : "有几个名称不对的xml文件忘记删除就提交了→activity_act2.xml，activity_act3.xml，activity_act4.xml，activity_initial_act1.xml"
+} ]

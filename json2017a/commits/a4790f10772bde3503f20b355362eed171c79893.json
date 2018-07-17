@@ -1,0 +1,82 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 17,
+    "additions" : 9,
+    "deletions" : 8
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a4790f10772bde3503f20b355362eed171c79893",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "Áִó˧@PC-20160115CMBC.hzucs.cn",
+      "date" : "2017-05-18T15:36:47Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "Áִó˧@PC-20160115CMBC.hzucs.cn",
+      "date" : "2017-05-18T15:36:47Z"
+    },
+    "message" : "#4 #154 第四次作业",
+    "tree" : {
+      "sha" : "6703dd9dcfed2ed0a48a5a6f8ad1ff201c8ea9b3",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/6703dd9dcfed2ed0a48a5a6f8ad1ff201c8ea9b3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a4790f10772bde3503f20b355362eed171c79893",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4790f10772bde3503f20b355362eed171c79893/comments",
+  "files" : [ {
+    "sha" : "2ce138c39a25162edadf5b54041f00644c202807",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903131_detail.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 2,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_detail.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_detail.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_detail.xml?ref=a4790f10772bde3503f20b355362eed171c79893",
+    "patch" : "@@ -1,13 +1,14 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:orientation=\"vertical\"\n     android:layout_height=\"match_parent\">\n \n+\n     <LinearLayout\n         android:layout_marginTop=\"10dp\"\n         android:background=\"#ffffff\"\n-        android:padding=\"20dp\"\n+        android:padding=\"19dp\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:orientation=\"horizontal\">"
+  }, {
+    "sha" : "cb9c87664e191344c65f9093cc2b22d43c8e30f3",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903131_edit.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_edit.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_edit.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_edit.xml?ref=a4790f10772bde3503f20b355362eed171c79893",
+    "patch" : "@@ -1,11 +1,11 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:orientation=\"vertical\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\">\n \n     <LinearLayout\n-        android:layout_marginTop=\"10dp\"\n+        android:layout_marginTop=\"9dp\"\n         android:background=\"#ffffff\"\n         android:padding=\"15dp\"\n         android:layout_width=\"match_parent\""
+  }, {
+    "sha" : "69871cf44d1a2540a90877a394c1aa0646399517",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903131_main .xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_main%20.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_main%20.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_main%20.xml?ref=a4790f10772bde3503f20b355362eed171c79893",
+    "patch" : "@@ -1,4 +1,4 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n@@ -9,7 +9,7 @@\n         android:src=\"@drawable/stu_info\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n-        android:layout_marginBottom=\"60dp\"/>\n+        android:layout_marginBottom=\"59dp\"/>\n \n     <TextView\n         android:gravity=\"center_horizontal\""
+  }, {
+    "sha" : "b991dcbd6615a992e5eab63f63dc44be64d62ae2",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903131_menu.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_menu.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/a4790f10772bde3503f20b355362eed171c79893/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_menu.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903131_menu.xml?ref=a4790f10772bde3503f20b355362eed171c79893",
+    "patch" : "@@ -1,8 +1,8 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:padding=\"15dp\"\n+    android:padding=\"14dp\"\n     android:orientation=\"horizontal\">\n     \n     <EditText"
+  } ],
+  "sha" : "a4790f10772bde3503f20b355362eed171c79893",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4790f10772bde3503f20b355362eed171c79893",
+  "parents" : [ {
+    "sha" : "0ac6d038de6a1278588571d70a1f61c3a19ace17",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0ac6d038de6a1278588571d70a1f61c3a19ace17",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0ac6d038de6a1278588571d70a1f61c3a19ace17"
+  } ]
+}

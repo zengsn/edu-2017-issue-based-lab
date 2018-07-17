@@ -1,0 +1,68 @@
+[ {
+  "sha" : "14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+  "commit" : {
+    "author" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-06-13T18:42:26Z"
+    },
+    "committer" : {
+      "name" : "pengwx",
+      "email" : "460816663@qq.com",
+      "date" : "2017-06-13T18:42:26Z"
+    },
+    "message" : "#6 #63 第六次作业",
+    "tree" : {
+      "sha" : "92c97a0cfc894b3a0ef3c11e02332d1acd56860e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/92c97a0cfc894b3a0ef3c11e02332d1acd56860e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/14c3e91d3ee9d168868a379e5ee6106b8d35f561",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/14c3e91d3ee9d168868a379e5ee6106b8d35f561/comments",
+  "author" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "pengwx",
+    "id" : 26116033,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26116033?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/pengwx",
+    "html_url" : "https://github.com/pengwx",
+    "followers_url" : "https://api.github.com/users/pengwx/followers",
+    "following_url" : "https://api.github.com/users/pengwx/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/pengwx/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/pengwx/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/pengwx/subscriptions",
+    "organizations_url" : "https://api.github.com/users/pengwx/orgs",
+    "repos_url" : "https://api.github.com/users/pengwx/repos",
+    "events_url" : "https://api.github.com/users/pengwx/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/pengwx/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/aa76fd730c31ce5c24731254cf06a6da512700ef",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/aa76fd730c31ce5c24731254cf06a6da512700ef"
+  } ]
+} ]

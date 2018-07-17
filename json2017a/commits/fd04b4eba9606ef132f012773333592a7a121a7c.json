@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 268,
+    "additions" : 268,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fd04b4eba9606ef132f012773333592a7a121a7c",
+  "commit" : {
+    "author" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-06-11T15:16:10Z"
+    },
+    "committer" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-06-11T15:16:10Z"
+    },
+    "message" : "#6 #26第六次实验",
+    "tree" : {
+      "sha" : "0cdb51c10e18e0f67e11c39d12969c772bcd45b7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0cdb51c10e18e0f67e11c39d12969c772bcd45b7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/fd04b4eba9606ef132f012773333592a7a121a7c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd04b4eba9606ef132f012773333592a7a121a7c/comments",
+  "files" : [ {
+    "sha" : "94e62d85d9637e8ce4906a230e2b734115c00d15",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicInfo.java",
+    "status" : "added",
+    "additions" : 50,
+    "deletions" : 0,
+    "changes" : 50,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicInfo.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicInfo.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicInfo.java?ref=fd04b4eba9606ef132f012773333592a7a121a7c",
+    "patch" : "@@ -0,0 +1,50 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231;\n+\n+\n+public class MusicInfo {\n+    private String iconpath;\n+    private String musicname;\n+    private String des;\n+    private int type;\n+    private long comment;\n+\n+    public String getIconpath() {\n+        return iconpath;\n+    }\n+\n+    public void setIconpath(String iconpath) {\n+        this.iconpath = iconpath;\n+    }\n+\n+    public String getMusicname() {\n+        return musicname;\n+    }\n+\n+    public void setMusicname(String musicname) {\n+        this.musicname = musicname;\n+    }\n+\n+    public String getDes() {\n+        return des;\n+    }\n+\n+    public void setDes(String des) {\n+        this.des = des;\n+    }\n+\n+    public int getType() {\n+        return type;\n+    }\n+\n+    public void setType(int type) {\n+        this.type = type;\n+    }\n+\n+    public long getComment() {\n+        return comment;\n+    }\n+\n+    public void setComment(long comment) {\n+        this.comment = comment;\n+    }\n+}"
+  }, {
+    "sha" : "3be69badf2b606b0db922357fdeb6a492865ec8a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicinfoService.java",
+    "status" : "added",
+    "additions" : 62,
+    "deletions" : 0,
+    "changes" : 62,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicinfoService.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicinfoService.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/MusicinfoService.java?ref=fd04b4eba9606ef132f012773333592a7a121a7c",
+    "patch" : "@@ -0,0 +1,62 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231;\n+\n+\n+import android.util.Log;\n+import android.util.Xml;\n+\n+\n+import org.xmlpull.v1.XmlPullParser;\n+import java.io.InputStream;\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+public class MusicinfoService {\n+    public static List<MusicInfo> getMusicinfos(InputStream is){\n+        XmlPullParser parser= Xml.newPullParser();\n+        try{\n+            parser.setInput(is,\"utf-8\");\n+            int type=parser.getEventType();\n+            List<MusicInfo> musicInfos=null;\n+            MusicInfo musicInfo=null;\n+            while(type!=XmlPullParser.END_DOCUMENT){\n+                switch(type){\n+                    case XmlPullParser.START_TAG:\n+                        Log.i(\"info\",parser.getName());\n+                        if(\"music\".equals(parser.getName())){\n+                            musicInfos=new ArrayList<MusicInfo>();\n+                        }else if(\"musicInfo\".equals(parser.getName())){\n+                            musicInfo=new MusicInfo();\n+                        }else if(\"icon\".equals(parser.getName())){\n+                            String icon=parser.nextText();\n+                            musicInfo.setIconpath(icon);\n+                        }else if(\"title\".equals(parser.getName())){\n+                            String title=parser.nextText();\n+                            musicInfo.setMusicname(title);\n+                        }else if(\"content\".equals(parser.getName())){\n+                            String des=parser.nextText();\n+                            musicInfo.setDes(des);\n+                        }else if(\"type\".equals(parser.getName())){\n+                            String musictype=parser.nextText();\n+                            musicInfo.setType(Integer.parseInt(musictype));\n+                        }else if(\"comment\".equals(parser.getName())){\n+                            String comment=parser.nextText();\n+                            musicInfo.setComment(Long.parseLong(comment));\n+                        }\n+                        break;\n+                    case XmlPullParser.END_TAG:\n+                        if(\"musicInfo\".equals(parser.getName())){\n+                            musicInfos.add(musicInfo);\n+                            musicInfo=null;\n+                            Log.i(\"info\",\"start2\");\n+                        }\n+                        break;\n+                }\n+                type=parser.next();\n+            }\n+            return musicInfos;\n+        }catch (Exception e){\n+            e.printStackTrace();\n+            return null;\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "ee8609eb1bb9bb2511ef73feb94eabb7d3c39070",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Sleep.java",
+    "status" : "added",
+    "additions" : 102,
+    "deletions" : 0,
+    "changes" : 102,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Sleep.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Sleep.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Sleep.java?ref=fd04b4eba9606ef132f012773333592a7a121a7c",
+    "patch" : "@@ -0,0 +1,102 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231;\n+\n+\n+import android.app.Activity;\n+import android.database.sqlite.SQLiteOpenHelper;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.BaseAdapter;\n+import android.widget.LinearLayout;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+import android.widget.Toast;\n+import java.io.ByteArrayInputStream;\n+import java.util.List;\n+\n+import com.loopj.android.http.AsyncHttpClient;\n+import com.loopj.android.http.AsyncHttpResponseHandler;\n+import com.loopj.android.image.*;\n+\n+\n+public class Net1414080903231Sleep extends Activity {\n+\n+    private ListView lv_music;\n+    private LinearLayout loading;\n+    private List<MusicInfo> musicinfos;\n+\n+    private class MusicAdapter extends BaseAdapter {\n+        public int getCount() {\n+            return musicinfos.size();\n+        }\n+\n+        public View getView(int position, View covertView, ViewGroup parent) {\n+            View view = View.inflate(Net1414080903231Sleep.this, R.layout.net1414080903231_sleep_listitem, null);\n+            SmartImageView siv = (SmartImageView) view.findViewById(R.id.siv_icon);\n+            TextView tv_title = (TextView) view.findViewById(R.id.tv_title);\n+            TextView tv_des = (TextView) view.findViewById(R.id.tv_des);\n+            TextView tv_type = (TextView) view.findViewById(R.id.tv_type);\n+            MusicInfo musicinfo = musicinfos.get(position);\n+\n+            siv.setImageUrl(musicinfo.getIconpath(), R.drawable.clockpic, R.drawable.clockpic);\n+            tv_title.setText(musicinfo.getMusicname());\n+            tv_des.setText(musicinfo.getDes());\n+            int type = musicinfo.getType();\n+            switch (type) {\n+                case 1:\n+                    tv_type.setText(\"安静\");\n+                    break;\n+                case 2:\n+                    tv_type.setText(\"治愈\");\n+                    break;\n+                case 3:\n+                    tv_type.setText(\"入眠\");\n+                    break;\n+            }\n+            return view;\n+        }\n+\n+        public Object getItem(int position) {\n+            return null;\n+        }\n+\n+        public long getItemId(int position) {\n+            return 0;\n+        }\n+    }\n+\n+    protected  void onCreate(Bundle savedInstanceState){\n+            super.onCreate(savedInstanceState);\n+            setContentView(R.layout.activity_net1414080903231_sleep);\n+            lv_music=(ListView)findViewById(R.id.lv_music);\n+            loading=(LinearLayout)findViewById(R.id.loading);\n+            fillData2();\n+    }\n+        private void fillData2(){\n+            AsyncHttpClient asyncHttpClient=new AsyncHttpClient();\n+            asyncHttpClient.get(getString(R.string.serverurl),\n+                    new AsyncHttpResponseHandler(){\n+                         public void onSuccess(String content){\n+                             //Toast.makeText(Net1414080903231Sleep.this,\"！！\",Toast.LENGTH_SHORT).show();\n+                             super.onSuccess(content);\n+                             byte[] bytes=content.getBytes();\n+                             ByteArrayInputStream bais=new ByteArrayInputStream(bytes);\n+                             musicinfos=MusicinfoService.getMusicinfos(bais);\n+                             if(musicinfos==null){\n+                                  Toast.makeText(Net1414080903231Sleep.this,\"解析失败\",Toast.LENGTH_SHORT).show();\n+                              }\n+                             else{\n+                                  loading.setVisibility(View.INVISIBLE);\n+                                  lv_music.setAdapter(new MusicAdapter());\n+\n+                             }\n+                         }\n+                         public void onFailure(Throwable error,String content){\n+                                super.onFailure(error,content);\n+                                Toast.makeText(Net1414080903231Sleep.this,\"请求失败\",Toast.LENGTH_SHORT).show();\n+                         }\n+            });\n+        }\n+\n+}"
+  }, {
+    "sha" : "055a090651bc678970aa94cfe04e52bd298c879c",
+    "filename" : "AndroidLabs/app/src/main/res/values/Net1414080903231config.xml",
+    "status" : "added",
+    "additions" : 4,
+    "deletions" : 0,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/res/values/Net1414080903231config.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/res/values/Net1414080903231config.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/Net1414080903231config.xml?ref=fd04b4eba9606ef132f012773333592a7a121a7c",
+    "patch" : "@@ -0,0 +1,4 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <string name=\"serverurl\">https://raw.githubusercontent.com/ileyinan/android-labs-2017/master/AndroidLabs/app/src/main/res/values/MusicInfo.xml</string>\n+</resources>"
+  }, {
+    "sha" : "0c0c4a49e7156685f3c13927f137fcf541c76862",
+    "filename" : "AndroidLabs/app/src/main/res/values/musicinfo.xml",
+    "status" : "added",
+    "additions" : 50,
+    "deletions" : 0,
+    "changes" : 50,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/res/values/musicinfo.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd04b4eba9606ef132f012773333592a7a121a7c/AndroidLabs/app/src/main/res/values/musicinfo.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/musicinfo.xml?ref=fd04b4eba9606ef132f012773333592a7a121a7c",
+    "patch" : "@@ -0,0 +1,50 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<music>\n+\t<musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+</music>\n\\ No newline at end of file"
+  } ],
+  "sha" : "fd04b4eba9606ef132f012773333592a7a121a7c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd04b4eba9606ef132f012773333592a7a121a7c",
+  "parents" : [ {
+    "sha" : "f93fc8f5bc46bc133735a40d17b1adbd4253d1f7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f93fc8f5bc46bc133735a40d17b1adbd4253d1f7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f93fc8f5bc46bc133735a40d17b1adbd4253d1f7"
+  } ]
+}

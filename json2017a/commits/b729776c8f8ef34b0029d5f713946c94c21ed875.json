@@ -1,0 +1,95 @@
+{
+  "committer" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 84,
+    "additions" : 84,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b729776c8f8ef34b0029d5f713946c94c21ed875",
+  "commit" : {
+    "author" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-25T12:05:45Z"
+    },
+    "committer" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-25T12:05:45Z"
+    },
+    "message" : "#4 #117 #第四次作业",
+    "tree" : {
+      "sha" : "68cf6f19add6dc30e331331e34c34244e9169556",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/68cf6f19add6dc30e331331e34c34244e9169556"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b729776c8f8ef34b0029d5f713946c94c21ed875",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b729776c8f8ef34b0029d5f713946c94c21ed875/comments",
+  "files" : [ {
+    "sha" : "18c06643129bbb4dec5a5d2127ddbcff5aecd718",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/logo.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b729776c8f8ef34b0029d5f713946c94c21ed875/AndroidLabs/app/src/main/res/drawable/logo.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b729776c8f8ef34b0029d5f713946c94c21ed875/AndroidLabs/app/src/main/res/drawable/logo.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/logo.png?ref=b729776c8f8ef34b0029d5f713946c94c21ed875"
+  }, {
+    "sha" : "fd0269f852ff075726dd31383bdf4a91fae7688b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_1414080903203signIn.xml",
+    "status" : "added",
+    "additions" : 84,
+    "deletions" : 0,
+    "changes" : 84,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b729776c8f8ef34b0029d5f713946c94c21ed875/AndroidLabs/app/src/main/res/layout/activity_1414080903203signIn.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b729776c8f8ef34b0029d5f713946c94c21ed875/AndroidLabs/app/src/main/res/layout/activity_1414080903203signIn.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_1414080903203signIn.xml?ref=b729776c8f8ef34b0029d5f713946c94c21ed875",
+    "patch" : "@@ -0,0 +1,84 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"#E6E6E6\"\n+    android:orientation=\"vertical\">\n+\n+   <ImageView\n+       android:id=\"@+id/iv_head\"\n+       android:layout_width=\"50dp\"\n+       android:layout_height=\"50dp\"\n+       android:layout_centerHorizontal=\"true\"\n+       android:layout_marginTop=\"40dp\"\n+       android:src=\"@drawable/logo\"/>\n+\n+    <LinearLayout\n+        android:id=\"@+id/layout\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/iv_head\"\n+        android:layout_margin=\"10dp\"\n+        android:background=\"#ffffff\"\n+        android:orientation=\"vertical\">\n+        <RelativeLayout\n+            android:id=\"@+id/rl_username\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_margin=\"10dp\">\n+            <TextView\n+                android:id=\"@+id/tv_name\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_centerVertical=\"true\"\n+                android:text=\"帐号\"/>\n+            <EditText\n+                android:id=\"@+id/et_number\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_marginLeft=\"5dp\"\n+                android:layout_toRightOf=\"@+id/tv_name\"\n+                android:background=\"@null\"/>\n+        </RelativeLayout>\n+        <View\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"2dp\"\n+            android:background=\"#E6E6E6\"/>\n+        <RelativeLayout\n+            android:id=\"@+id/rl_userpsw\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_margin=\"10dp\">\n+            <TextView\n+                android:id=\"@+id/tv_psw\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_centerVertical=\"true\"\n+                android:text=\"密码\"/>\n+            <EditText\n+                android:id=\"@+id/et_password\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_marginLeft=\"5dp\"\n+                android:layout_toRightOf=\"@+id/tv_psw\"\n+                android:inputType=\"textPassword\"\n+                android:background=\"@null\"/>\n+        </RelativeLayout>\n+\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/btn_login\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@+id/layout\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginRight=\"10dp\"\n+        android:layout_marginTop=\"20dp\"\n+        android:background=\"#3c8dc4\"\n+        android:text=\"登录\"\n+        android:textColor=\"#ffffff\"/>\n+\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "b729776c8f8ef34b0029d5f713946c94c21ed875",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b729776c8f8ef34b0029d5f713946c94c21ed875",
+  "parents" : [ {
+    "sha" : "65b0da78b315e5e76a18617d414b6b6bced759c6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/65b0da78b315e5e76a18617d414b6b6bced759c6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/65b0da78b315e5e76a18617d414b6b6bced759c6"
+  } ]
+}

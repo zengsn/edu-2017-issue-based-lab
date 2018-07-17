@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "wangkaiqi",
+    "id" : 26110374,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26110374?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wangkaiqi",
+    "html_url" : "https://github.com/wangkaiqi",
+    "followers_url" : "https://api.github.com/users/wangkaiqi/followers",
+    "following_url" : "https://api.github.com/users/wangkaiqi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wangkaiqi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wangkaiqi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wangkaiqi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wangkaiqi/orgs",
+    "repos_url" : "https://api.github.com/users/wangkaiqi/repos",
+    "events_url" : "https://api.github.com/users/wangkaiqi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wangkaiqi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 248,
+    "additions" : 248,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wangkaiqi",
+    "id" : 26110374,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26110374?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wangkaiqi",
+    "html_url" : "https://github.com/wangkaiqi",
+    "followers_url" : "https://api.github.com/users/wangkaiqi/followers",
+    "following_url" : "https://api.github.com/users/wangkaiqi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wangkaiqi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wangkaiqi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wangkaiqi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wangkaiqi/orgs",
+    "repos_url" : "https://api.github.com/users/wangkaiqi/repos",
+    "events_url" : "https://api.github.com/users/wangkaiqi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wangkaiqi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+  "commit" : {
+    "author" : {
+      "name" : "wangkaiqi",
+      "email" : "1211697101@qq.com",
+      "date" : "2017-05-19T09:38:16Z"
+    },
+    "committer" : {
+      "name" : "wangkaiqi",
+      "email" : "1211697101@qq.com",
+      "date" : "2017-05-19T09:38:16Z"
+    },
+    "message" : "#2 #32 第二次作业",
+    "tree" : {
+      "sha" : "cdb44663ec46924db7b1c1ac0e20a8837a2aa7ee",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/cdb44663ec46924db7b1c1ac0e20a8837a2aa7ee"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/comments",
+  "files" : [ {
+    "sha" : "8a5535272a5ab159c0c095990f417672f2fbe5d9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity01.java",
+    "status" : "added",
+    "additions" : 56,
+    "deletions" : 0,
+    "changes" : 56,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity01.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity01.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity01.java?ref=23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+    "patch" : "@@ -0,0 +1,56 @@\n+﻿package edu.hzuapps.androidlabs.homeworks.net1414080903201;\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.RadioButton;\n+\n+/**\n+ * Created by hzu on 2017/5/8.\n+ */\n+\n+public class Net1414080903201Activity01 extends Activity {\n+    private RadioButton manRadio;\n+    private  RadioButton womanRadio;\n+    private EditText et_password;\n+    private EditText et_name;\n+    private Button btn_send;\n+\n+    protected void onCreate(Bundle savedInstanceState){\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.net1414080903201_loginActivity);\n+        et_name=(EditText) findViewById(R.id.et_name);\n+        et_password=(EditText) findViewById(R.id.et_password);\n+        btn_send=(Button) findViewById(R.id.btn_send);\n+        manRadio=(RadioButton) findViewById(R.id.radioMale);\n+        womanRadio=(RadioButton) findViewById(R.id.radioFemale);\n+        btn_send=(Button) findViewById(R.id.btn_send);\n+        //点击提交用户信息按钮进行数据传递\n+        btn_send.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                passDate();\n+            }\n+        });\n+    }\n+    //传递数据\n+    public void passDate(){\n+        //创建Intent对象，启动net1414080903201_loginActivity2\n+        Intent intent=new Intent(this,Activity01.class);\n+        //将数据存入Intent对象\n+        intent.putExtra(\"name\",et_name.getText().toString().trim());\n+        intent.putExtra(\"password\",et_password.getText().toString().trim());\n+        String str=\"\";\n+        if(manRadio.isChecked()){\n+            str=\"男\";\n+        }else if(womanRadio.isChecked()){\n+            str=\"女\";\n+        }\n+        intent.putExtra(\"sex\",str);\n+        startActivity(intent);\n+    }\n+}\n+}"
+  }, {
+    "sha" : "8a8d78ea96114693a470ae5e802d54f7fe46eac3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity02.java",
+    "status" : "added",
+    "additions" : 33,
+    "deletions" : 0,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity02.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity02.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201Activity02.java?ref=23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+    "patch" : "@@ -0,0 +1,33 @@\n+﻿package edu.hzuapps.androidlabs.homeworks.net1414080903201;\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.widget.TextView;\n+\n+/**\n+ * Created by hzu on 2017/5/8.\n+ */\n+\n+public class Net1414080903201Activity02 extends Activity {\n+    private static final \n+    private TextView tv_name,tv_password,tv_sex;\n+    protected void onCreate(Bundle savedInstanceState){\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity02);\n+        //获取Intent对象\n+        Intent intent=getIntent();\n+        //取出key对应的value值\n+        String name=intent.getStringExtra(\"name\");\n+        String password=intent.getStringExtra(\"password\");\n+        String sex=intent.getStringExtra(\"sex\");\n+\n+        tv_name=(TextView) findViewById(R.id.tv_name);\n+        tv_password=(TextView) findViewById(R.id.tv_password);\n+        tv_sex=(TextView) findViewById(R.id.tv_sex);\n+\n+        tv_name.setText(\"用户名：\"+name);\n+        tv_password.setText(\"密  码：\"+password);\n+        tv_sex.setText(\"性  别：\"+sex);\n+    }\n+}"
+  }, {
+    "sha" : "4fadb0811611cbdb8ffab54f0ab9b0a5856703c3",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201User.java",
+    "status" : "added",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201User.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201User.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903201/Net1414080903201User.java?ref=23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+    "patch" : "@@ -0,0 +1,39 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903201;\n+\n+public class Net1414080903201User {\n+    private String userName;\n+    private String userPassword;\n+    private String userSex;\n+  \n+    \n+    public Net1414080903201User(String userName,String userPwd,String userSex){\n+    \tthis.userName=userName;\n+    \tthis.userPwd=userPwd;\n+    \tthis.userSex=userSex;\n+    }\n+    public Net1414080903201User(){\n+    \t\n+    }\n+    \n+    public String getUserName(){\n+    \treturn userName;\n+    }\n+    public void setUserName(){\n+    \tthis.userName=userName;\n+    }\n+    \n+    public String getUserPwd(){\n+    \treturn userPwd;\n+    }\n+    public void setUserPwd(){\n+    \tthis.userPwd=userPwd;\n+    }\n+    \n+    public String getUserSex(){\n+    \treturn userSex;\n+    }\n+    public void setUserSex(){\n+    \tthis.userSex=userSex;\n+    }\n+  \n+}"
+  }, {
+    "sha" : "1c4bef587db296d8503d08df5e643e62be80c256",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity01.xml",
+    "status" : "added",
+    "additions" : 82,
+    "deletions" : 0,
+    "changes" : 82,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity01.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity01.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity01.xml?ref=23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+    "patch" : "@@ -0,0 +1,82 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.constraint.ConstraintLayout\n+    xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"#11111111\"\n+    tools:context=\"com.example.hzu.myapplication.MainActivity\">\n+\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Hello World!\"\n+        app:layout_constraintBottom_toBottomOf=\"parent\"\n+        app:layout_constraintLeft_toLeftOf=\"parent\"\n+        app:layout_constraintRight_toRightOf=\"parent\"\n+        app:layout_constraintTop_toTopOf=\"parent\"\n+        app:layout_constraintHorizontal_bias=\"0.948\"\n+        app:layout_constraintVertical_bias=\"0.032\" />\n+\n+    <TextView\n+        android:id=\"@+id/regist_username\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"用户名：\"\n+        tools:layout_editor_absoluteX=\"38dp\"\n+        tools:layout_editor_absoluteY=\"113dp\" />\n+\n+    <TextView\n+        android:id=\"@+id/regist_password\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\" 密    码：\"\n+        tools:layout_editor_absoluteX=\"34dp\"\n+        tools:layout_editor_absoluteY=\"178dp\" />\n+\n+    <EditText\n+        android:id=\"@+id/et_name\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:ems=\"10\"\n+\n+        android:text=\"请输入用户名\"\n+        tools:layout_editor_absoluteX=\"114dp\"\n+        tools:layout_editor_absoluteY=\"97dp\" />\n+\n+    <EditText\n+        android:id=\"@+id/et_password\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:ems=\"10\"\n+\n+        android:text=\"请输入密码\"\n+        tools:layout_editor_absoluteX=\"114dp\"\n+        tools:layout_editor_absoluteY=\"164dp\" />\n+\n+    <RadioButton\n+        android:id=\"@+id/radioMale\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"男\"\n+        tools:layout_editor_absoluteX=\"48dp\"\n+        tools:layout_editor_absoluteY=\"239dp\" />\n+\n+    <RadioButton\n+        android:id=\"@+id/radioFemale\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"女\"\n+        tools:layout_editor_absoluteX=\"132dp\"\n+        tools:layout_editor_absoluteY=\"239dp\" />\n+\n+    <Button\n+        android:id=\"@+id/btn_send\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"提交用户信息\"\n+        tools:layout_editor_absoluteX=\"138dp\"\n+        tools:layout_editor_absoluteY=\"333dp\" />\n+\n+</android.support.constraint.ConstraintLayout>"
+  }, {
+    "sha" : "f4329a5a4e4104d64aa9adf0c33e9d359d5ee3c6",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity02.xml",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity02.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/23ab28ae7f68be9c763cd987ad10ffd3b20052b1/AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity02.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903201Activity02.xml?ref=23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+    "patch" : "@@ -0,0 +1,38 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <TextView\n+        android:id=\"@+id/textView\"\n+        android:layout_width=\"166dp\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"接收数据界面\" />\n+\n+    <TextView\n+        android:id=\"@+id/tv_name\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20dp\" />\n+\n+    <TextView\n+        android:id=\"@+id/tv_password\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20dp\" />\n+\n+    <TextView\n+        android:id=\"@+id/tv_sex\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:gravity=\"center\"\n+        android:layout_marginTop=\"10dp\"\n+        android:textSize=\"20dp\" />\n+\n+\n+</LinearLayout>"
+  } ],
+  "sha" : "23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/23ab28ae7f68be9c763cd987ad10ffd3b20052b1",
+  "parents" : [ {
+    "sha" : "f7d644222db9d265fd8d38ae80e06bea294de5af",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f7d644222db9d265fd8d38ae80e06bea294de5af",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f7d644222db9d265fd8d38ae80e06bea294de5af"
+  } ]
+}

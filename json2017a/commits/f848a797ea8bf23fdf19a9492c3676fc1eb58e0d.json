@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zhongwbang",
+    "id" : 26158946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26158946?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhongwbang",
+    "html_url" : "https://github.com/zhongwbang",
+    "followers_url" : "https://api.github.com/users/zhongwbang/followers",
+    "following_url" : "https://api.github.com/users/zhongwbang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhongwbang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhongwbang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhongwbang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhongwbang/orgs",
+    "repos_url" : "https://api.github.com/users/zhongwbang/repos",
+    "events_url" : "https://api.github.com/users/zhongwbang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhongwbang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f848a797ea8bf23fdf19a9492c3676fc1eb58e0d",
+  "commit" : {
+    "author" : {
+      "name" : "zhongwbang",
+      "email" : "490949184@qq.com",
+      "date" : "2017-06-08T13:30:47Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-08T13:30:47Z"
+    },
+    "message" : "Create 1414080903202.json",
+    "tree" : {
+      "sha" : "469df04429e6c9f99e48086a4511d0c87cb74767",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/469df04429e6c9f99e48086a4511d0c87cb74767"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f848a797ea8bf23fdf19a9492c3676fc1eb58e0d",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f848a797ea8bf23fdf19a9492c3676fc1eb58e0d/comments",
+  "files" : [ {
+    "sha" : "ac6dc498cc96d62557e0ce8246c2f383cb85dad9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903202/1414080903202.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f848a797ea8bf23fdf19a9492c3676fc1eb58e0d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903202/1414080903202.json",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f848a797ea8bf23fdf19a9492c3676fc1eb58e0d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903202/1414080903202.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903202/1414080903202.json?ref=f848a797ea8bf23fdf19a9492c3676fc1eb58e0d",
+    "patch" : "@@ -0,0 +1 @@\n+[{\"date\":\"2017.10.01\",\"input\":\"1000\",\"output\":\"200\"}]"
+  } ],
+  "sha" : "f848a797ea8bf23fdf19a9492c3676fc1eb58e0d",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f848a797ea8bf23fdf19a9492c3676fc1eb58e0d",
+  "parents" : [ {
+    "sha" : "0752382d126af1b57209a1c750311e22d6b2bbdf",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0752382d126af1b57209a1c750311e22d6b2bbdf",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0752382d126af1b57209a1c750311e22d6b2bbdf"
+  } ]
+}

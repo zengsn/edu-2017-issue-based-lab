@@ -1,0 +1,269 @@
+[ {
+  "sha" : "289017e5617f18f0172c81cadbbdda0541883ec7",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-16T14:49:36Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-16T14:49:36Z"
+    },
+    "message" : "#2 #30 第二次作业",
+    "tree" : {
+      "sha" : "79b385253362eb494e9853b8860def893650b19e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/79b385253362eb494e9853b8860def893650b19e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/289017e5617f18f0172c81cadbbdda0541883ec7",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/289017e5617f18f0172c81cadbbdda0541883ec7",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/289017e5617f18f0172c81cadbbdda0541883ec7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/289017e5617f18f0172c81cadbbdda0541883ec7/comments",
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "a70d111fd9fd7019747c0d27cb7d47eea70fca18",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a70d111fd9fd7019747c0d27cb7d47eea70fca18",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a70d111fd9fd7019747c0d27cb7d47eea70fca18"
+  } ]
+}, {
+  "sha" : "77f374d557da14a3a220a4f09e35b27d3209d5ab",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-21T09:35:01Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-21T09:35:01Z"
+    },
+    "message" : "#2 #30 第二次作业",
+    "tree" : {
+      "sha" : "8e49290f01f6d05a6d2410deb614a0bf5d0bd2cc",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8e49290f01f6d05a6d2410deb614a0bf5d0bd2cc"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/77f374d557da14a3a220a4f09e35b27d3209d5ab",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/77f374d557da14a3a220a4f09e35b27d3209d5ab",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/77f374d557da14a3a220a4f09e35b27d3209d5ab",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/77f374d557da14a3a220a4f09e35b27d3209d5ab/comments",
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "289017e5617f18f0172c81cadbbdda0541883ec7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/289017e5617f18f0172c81cadbbdda0541883ec7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/289017e5617f18f0172c81cadbbdda0541883ec7"
+  } ]
+}, {
+  "sha" : "1db410185702ac72763d9117e2db6658a6f6b85d",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-21T13:16:20Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-21T13:16:20Z"
+    },
+    "message" : "#2 #30  第二次作业",
+    "tree" : {
+      "sha" : "62f9bbb41ae8a1da46f0485d217d4649825dd1b6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/62f9bbb41ae8a1da46f0485d217d4649825dd1b6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1db410185702ac72763d9117e2db6658a6f6b85d",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1db410185702ac72763d9117e2db6658a6f6b85d",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1db410185702ac72763d9117e2db6658a6f6b85d",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1db410185702ac72763d9117e2db6658a6f6b85d/comments",
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "77f374d557da14a3a220a4f09e35b27d3209d5ab",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/77f374d557da14a3a220a4f09e35b27d3209d5ab",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/77f374d557da14a3a220a4f09e35b27d3209d5ab"
+  } ]
+}, {
+  "sha" : "2847e4176292739162537d900a6668a4dcb70b0c",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-22T04:50:41Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-04-22T04:50:41Z"
+    },
+    "message" : "#2 #30 第二次试验",
+    "tree" : {
+      "sha" : "583c00392c9c3609c98f3bfa35ca95bb9abba0d7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/583c00392c9c3609c98f3bfa35ca95bb9abba0d7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/2847e4176292739162537d900a6668a4dcb70b0c",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2847e4176292739162537d900a6668a4dcb70b0c",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2847e4176292739162537d900a6668a4dcb70b0c",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2847e4176292739162537d900a6668a4dcb70b0c/comments",
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1db410185702ac72763d9117e2db6658a6f6b85d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1db410185702ac72763d9117e2db6658a6f6b85d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1db410185702ac72763d9117e2db6658a6f6b85d"
+  } ]
+} ]

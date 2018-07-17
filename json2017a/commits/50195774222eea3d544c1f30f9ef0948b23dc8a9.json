@@ -1,0 +1,151 @@
+{
+  "committer" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 280,
+    "additions" : 261,
+    "deletions" : 19
+  },
+  "author" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/50195774222eea3d544c1f30f9ef0948b23dc8a9",
+  "commit" : {
+    "author" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-04-30T07:06:01Z"
+    },
+    "committer" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-04-30T07:06:01Z"
+    },
+    "message" : "#2 #169 第二次作业",
+    "tree" : {
+      "sha" : "529c437c48c736c9501665b389eff0ab41628f80",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/529c437c48c736c9501665b389eff0ab41628f80"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/50195774222eea3d544c1f30f9ef0948b23dc8a9/comments",
+  "files" : [ {
+    "sha" : "141b7099680fc6817400eb48cad1c9e1c2ff9ea7",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest.xml",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 19,
+    "changes" : 28,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest.xml?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -1,36 +1,26 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    package=\"edu.hzuapps.androidlabs\">\n-\n+    package=\"com.example.administrator.net1414080903214\">\n+    <uses-permission android:name=\"android.permission.CAMERA\">\n+    </uses-permission>\n+    <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\">\n+    </uses-permission>\n     <application\n         android:allowBackup=\"true\"\n         android:icon=\"@mipmap/ic_launcher\"\n         android:label=\"@string/app_name\"\n+        android:roundIcon=\"@mipmap/ic_launcher_round\"\n         android:supportsRtl=\"true\"\n         android:theme=\"@style/AppTheme\">\n-        <activity android:name=\".MainActivity\">\n+        <activity android:name=\".Net1414080903214Activity\">\n             <intent-filter>\n                 <action android:name=\"android.intent.action.MAIN\" />\n \n                 <category android:name=\"android.intent.category.LAUNCHER\" />\n             </intent-filter>\n         </activity>\n-        <activity\n-            android:name=\".BackActivity\"\n-            android:label=\"@string/title_activity_back\">\n-        </activity>\n-        <activity\n-            android:name=\".examples.ViewBasicActivity\"\n-            android:label=\"@string/title_activity_view_basic\">\n-        </activity>\n-        <activity\n-            android:name=\".examples.ActivityBasicActivity\"\n-            android:label=\"@string/title_activity_activity_basic\">\n-        </activity>\n-        <activity\n-            android:name=\".examples.ActivityBasic2Activity\"\n-            android:label=\"@string/title_activity_activity_basic2\">\n-        </activity>\n+        <activity android:name=\".CustomCamera\"></activity>\n+        <activity android:name=\".Result\"></activity>\n     </application>\n \n </manifest>\n\\ No newline at end of file"
+  }, {
+    "sha" : "9f744b950f8b915ddb5d820de8c4af622b80c9f0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/CustomCamera.java",
+    "status" : "added",
+    "additions" : 155,
+    "deletions" : 0,
+    "changes" : 155,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/CustomCamera.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/CustomCamera.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/CustomCamera.java?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -0,0 +1,155 @@\n+package com.example.administrator.net1414080903214;\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.graphics.ImageFormat;\n+import android.hardware.Camera;\n+import android.os.Bundle;\n+import android.view.SurfaceHolder;\n+import android.view.SurfaceView;\n+import android.view.View;\n+\n+import java.io.File;\n+import java.io.FileNotFoundException;\n+import java.io.FileOutputStream;\n+\n+import android.app.Activity;\n+\n+import android.content.Intent;\n+import android.graphics.ImageFormat;\n+import android.hardware.Camera;\n+import android.os.Bundle;\n+import android.support.annotation.Nullable;\n+import android.view.SurfaceHolder;\n+import android.view.SurfaceView;\n+import android.view.View;\n+\n+import java.io.File;\n+import java.io.FileNotFoundException;\n+import java.io.FileOutputStream;\n+import java.io.IOException;\n+\n+import static android.R.attr.data;\n+\n+/**\n+ * Created by Administrator on 2017/4/29.\n+ */\n+\n+public class CustomCamera  extends Activity implements SurfaceHolder.Callback{\n+    private Camera mcamera;\n+    private SurfaceView mpreview;\n+    private SurfaceHolder mHolder;\n+    private Camera.PictureCallback mPictureCallback=new Camera.PictureCallback(){\n+        @Override\n+        public void onPictureTaken(byte[] data, Camera camera) {\n+            try {\n+                File tempFile=new File(\"/sdcard/temp.png\");\n+                FileOutputStream fos=new FileOutputStream(tempFile);\n+                try {\n+                    fos.write(data);\n+                    fos.close();\n+                    Intent intent=new Intent(CustomCamera.this,Result.class);\n+                    intent.putExtra(\"picPath\",tempFile.getAbsolutePath());\n+                    startActivity(intent);\n+                    CustomCamera.this.finish();\n+                } catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+            } catch (FileNotFoundException e) {\n+                e.printStackTrace();\n+            }\n+\n+        }\n+    };\n+    @Override\n+    protected void onCreate( Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.previewlayout);\n+        mpreview=(SurfaceView) findViewById(R.id.preview);\n+        mHolder=mpreview.getHolder();\n+        mHolder.addCallback(this);\n+    }\n+\n+    @Override\n+    protected void onResume() {\n+        super.onResume();\n+        if (mcamera==null){\n+            mcamera=getCamera();\n+            if(mHolder!=null){\n+                setStartPreview(mcamera,mHolder);\n+            }\n+        }\n+    }\n+\n+    @Override\n+    protected void onPause() {\n+        super.onPause();\n+        releaseCamera();\n+    }\n+\n+    public void capture(View view){\n+        Camera.Parameters parameters=mcamera.getParameters();\n+        parameters.setPictureFormat(ImageFormat.JPEG);\n+        parameters.setPictureSize(800,400);\n+        parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO);\n+        mcamera.autoFocus(new Camera.AutoFocusCallback() {\n+            @Override\n+            public void onAutoFocus(boolean success, Camera camera) {\n+                if (success){\n+                    mcamera.takePicture(null,null,mPictureCallback);\n+\n+\n+                }\n+            }\n+        });\n+\n+    }\n+    /*获取Camera对象 */\n+    private Camera getCamera(){\n+        Camera camera;\n+        try {\n+            camera=Camera.open();\n+        } catch (Exception e) {\n+            camera=null;\n+            e.printStackTrace();\n+        }\n+        return (camera);\n+    }\n+    /*开始预览相机内容*/\n+    private void setStartPreview(Camera camera,SurfaceHolder holder){\n+        try {\n+            camera.setPreviewDisplay(holder);\n+            camera.setDisplayOrientation(90);\n+            camera.startPreview();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        }\n+\n+    }\n+    /*释放相机资源*/\n+    private void releaseCamera(){\n+        if(mcamera!=null){\n+            mcamera.setPreviewCallback(null);\n+            mcamera.stopPreview();\n+            mcamera.release();\n+            mcamera=null;\n+        }\n+\n+    }\n+\n+    @Override\n+    public void surfaceCreated(SurfaceHolder holder) {\n+        setStartPreview(mcamera,mHolder);\n+    }\n+\n+    @Override\n+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {\n+        mcamera.stopPreview();\n+        setStartPreview(mcamera,mHolder);\n+    }\n+\n+    @Override\n+    public void surfaceDestroyed(SurfaceHolder holder) {\n+        releaseCamera();\n+    }\n+}"
+  }, {
+    "sha" : "324bec963adadd1c4feaa28fb23eb7de8f7213aa",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java",
+    "status" : "added",
+    "additions" : 18,
+    "deletions" : 0,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Net1414080903214Activity.java?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -0,0 +1,18 @@\n+package com.example.administrator.net1414080903214;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+\n+public class Net1414080903214Activity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903214);\n+    }\n+    public void customCamera(View view){\n+        startActivity(new Intent(this,CustomCamera.class));\n+    }\n+}"
+  }, {
+    "sha" : "0e1bd968c3d4319e3f45c2dec561b2703b95cf61",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Result.java",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Result.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Result.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903214/Result.java?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -0,0 +1,38 @@\n+package com.example.administrator.net1414080903214;\n+\n+\n+import android.app.Activity;\n+import android.graphics.Bitmap;\n+import android.graphics.BitmapFactory;\n+import android.graphics.Matrix;\n+import android.os.Bundle;\n+import android.support.annotation.Nullable;\n+import android.widget.ImageView;\n+\n+import java.io.FileInputStream;\n+import java.io.FileNotFoundException;\n+\n+\n+/**\n+ * Created by Administrator on 2017/4/30.\n+ */\n+\n+public class Result extends Activity {\n+    @Override\n+    protected void onCreate(@Nullable Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.resultlayout);\n+        String path=getIntent().getStringExtra(\"picPath\");\n+        ImageView imageView= (ImageView) findViewById(R.id.pic);\n+        try {\n+            FileInputStream fis=new FileInputStream(path);\n+            Bitmap bitmap=BitmapFactory.decodeStream(fis);\n+            Matrix matrix=new Matrix();\n+            matrix.setRotate(90);\n+            bitmap=Bitmap.createBitmap(bitmap,0,0,bitmap.getWidth(),bitmap.getHeight(),matrix,true);\n+            imageView.setImageBitmap(bitmap);\n+        } catch (FileNotFoundException e) {\n+            e.printStackTrace();\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "384b5a12fc4c254f96dae7e5d03d6839db6af237",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -0,0 +1,12 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <Button\n+        android:id=\"@+id/bt_cuCa\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"@string/customCamera\"\n+        android:onClick=\"customCamera\" />\n+</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "0e3165224e0e2016e8e8fc8a56e79c23c1b9e9aa",
+    "filename" : "AndroidLabs/app/src/main/res/layout/previewlayout.xml",
+    "status" : "added",
+    "additions" : 18,
+    "deletions" : 0,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/res/layout/previewlayout.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/res/layout/previewlayout.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/previewlayout.xml?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -0,0 +1,18 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+\n+    <SurfaceView\n+        android:id=\"@+id/preview\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"470dp\" />\n+\n+    <Button\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"capture\"\n+        android:onClick=\"capture\"/>\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "92069d3db659b5c091f4d5a7723f15d84c40fc12",
+    "filename" : "AndroidLabs/app/src/main/res/layout/resultlayout.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/res/layout/resultlayout.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50195774222eea3d544c1f30f9ef0948b23dc8a9/AndroidLabs/app/src/main/res/layout/resultlayout.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/resultlayout.xml?ref=50195774222eea3d544c1f30f9ef0948b23dc8a9",
+    "patch" : "@@ -0,0 +1,11 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <ImageView\n+        android:id=\"@+id/pic\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\" />\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "50195774222eea3d544c1f30f9ef0948b23dc8a9",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/50195774222eea3d544c1f30f9ef0948b23dc8a9",
+  "parents" : [ {
+    "sha" : "3aba052f516ee420b9412e4f82ea6e7550f10899",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3aba052f516ee420b9412e4f82ea6e7550f10899",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3aba052f516ee420b9412e4f82ea6e7550f10899"
+  } ]
+}

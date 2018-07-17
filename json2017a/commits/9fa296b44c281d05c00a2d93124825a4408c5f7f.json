@@ -1,0 +1,177 @@
+{
+  "committer" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 18,
+    "additions" : 18,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9fa296b44c281d05c00a2d93124825a4408c5f7f",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-05-17T11:43:28Z"
+    },
+    "committer" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-05-17T11:43:28Z"
+    },
+    "message" : "#4 #28 第四次作业",
+    "tree" : {
+      "sha" : "9b1e5d63047c7240db49545b273cb457ebcd86b8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9b1e5d63047c7240db49545b273cb457ebcd86b8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9fa296b44c281d05c00a2d93124825a4408c5f7f",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9fa296b44c281d05c00a2d93124825a4408c5f7f/comments",
+  "files" : [ {
+    "sha" : "a3b8ab11467f847811f2397d10335974bc15b1f4",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/logo_net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/logo_net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/logo_net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/logo_net1414080903127.png?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  }, {
+    "sha" : "97e31aded45d0fb98fa2102dc656fb9d15555c24",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/paper_button_net141408093127.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/paper_button_net141408093127.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/paper_button_net141408093127.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/paper_button_net141408093127.xml?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_pressed=\"true\" android:drawable=\"@drawable/paper_pressed_net1414080903127\"/>\n+    <item android:state_pressed=\"false\" android:drawable=\"@drawable/paper_net1414080903127\"/>\n+\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "7475773fa04151d2d03e89d739750ef0bde3251f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/paper_net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/paper_net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/paper_net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/paper_net1414080903127.png?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  }, {
+    "sha" : "259975a91f0ff5c5e7ceacc1b0f6ce27045711ce",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/paper_pressed_net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/paper_pressed_net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/paper_pressed_net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/paper_pressed_net1414080903127.png?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  }, {
+    "sha" : "db51bf5e3feabd684800f9890b29aed0e5c12edf",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/rock_button_net1414080903127.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/rock_button_net1414080903127.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/rock_button_net1414080903127.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/rock_button_net1414080903127.xml?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_pressed=\"true\" android:drawable=\"@drawable/rock_pressed_net1414080903127\"/>\n+    <item android:state_pressed=\"false\" android:drawable=\"@drawable/rock_net1414080903127\"/>\n+\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "b23ada8bc4da16e31f5a9f55ff6df9acaad931a9",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/rock_net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/rock_net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/rock_net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/rock_net1414080903127.png?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  }, {
+    "sha" : "1b37454de6d3dd308c23c1e2e50a0b316093091e",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/rock_pressed_net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/rock_pressed_net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/rock_pressed_net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/rock_pressed_net1414080903127.png?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  }, {
+    "sha" : "b766f27a67579c756f5c7b328fbd6a48b8f13f77",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/scissors_button_net1414080903127.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/scissors_button_net1414080903127.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/scissors_button_net1414080903127.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/scissors_button_net1414080903127.xml?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_pressed=\"true\" android:drawable=\"@drawable/scissors_pressed_net1414080903127\"/>\n+    <item android:state_pressed=\"false\" android:drawable=\"@drawable/scissors_net1414080903127\"/>\n+\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "587f0080e99a185281a6a3f102e37e380bdbac26",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/scissors_net1414080903127.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/scissors_net1414080903127.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/scissors_net1414080903127.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/scissors_net1414080903127.jpg?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  }, {
+    "sha" : "7b91c84df96f15601d35a0f98a58313343521f05",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/scissors_pressed_net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/scissors_pressed_net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa296b44c281d05c00a2d93124825a4408c5f7f/AndroidLabs/app/src/main/res/drawable/scissors_pressed_net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/scissors_pressed_net1414080903127.png?ref=9fa296b44c281d05c00a2d93124825a4408c5f7f"
+  } ],
+  "sha" : "9fa296b44c281d05c00a2d93124825a4408c5f7f",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9fa296b44c281d05c00a2d93124825a4408c5f7f",
+  "parents" : [ {
+    "sha" : "c19709537428a8744a1d8bd45bb6e608e0604b8a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c19709537428a8744a1d8bd45bb6e608e0604b8a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c19709537428a8744a1d8bd45bb6e608e0604b8a"
+  } ]
+}

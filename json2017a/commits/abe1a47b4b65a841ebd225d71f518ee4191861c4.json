@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "JCLin0318",
+    "id" : 26159058,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159058?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/JCLin0318",
+    "html_url" : "https://github.com/JCLin0318",
+    "followers_url" : "https://api.github.com/users/JCLin0318/followers",
+    "following_url" : "https://api.github.com/users/JCLin0318/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/JCLin0318/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/JCLin0318/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/JCLin0318/subscriptions",
+    "organizations_url" : "https://api.github.com/users/JCLin0318/orgs",
+    "repos_url" : "https://api.github.com/users/JCLin0318/repos",
+    "events_url" : "https://api.github.com/users/JCLin0318/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/JCLin0318/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 113,
+    "additions" : 113,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "JCLin0318",
+    "id" : 26159058,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159058?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/JCLin0318",
+    "html_url" : "https://github.com/JCLin0318",
+    "followers_url" : "https://api.github.com/users/JCLin0318/followers",
+    "following_url" : "https://api.github.com/users/JCLin0318/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/JCLin0318/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/JCLin0318/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/JCLin0318/subscriptions",
+    "organizations_url" : "https://api.github.com/users/JCLin0318/orgs",
+    "repos_url" : "https://api.github.com/users/JCLin0318/repos",
+    "events_url" : "https://api.github.com/users/JCLin0318/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/JCLin0318/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/abe1a47b4b65a841ebd225d71f518ee4191861c4",
+  "commit" : {
+    "author" : {
+      "name" : "Your NameJCLin0318",
+      "email" : "835842295@qq.com",
+      "date" : "2017-05-11T12:53:31Z"
+    },
+    "committer" : {
+      "name" : "Your NameJCLin0318",
+      "email" : "835842295@qq.com",
+      "date" : "2017-05-11T12:53:31Z"
+    },
+    "message" : "#3 #128 第三次作业",
+    "tree" : {
+      "sha" : "81da6d6f1b28ec9f97c3529fc101a61bff2c48ba",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/81da6d6f1b28ec9f97c3529fc101a61bff2c48ba"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/abe1a47b4b65a841ebd225d71f518ee4191861c4",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/abe1a47b4b65a841ebd225d71f518ee4191861c4/comments",
+  "files" : [ {
+    "sha" : "caf40219f334bbf10f797a3d40b4794d14712fd5",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117Activity.java",
+    "status" : "added",
+    "additions" : 46,
+    "deletions" : 0,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117Activity.java?ref=abe1a47b4b65a841ebd225d71f518ee4191861c4",
+    "patch" : "@@ -0,0 +1,46 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903117Activity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903117);\n+\n+        final EditText etUsername = (EditText) findViewById(R.id.et_main_username);\n+        final EditText etPassword = (EditText) findViewById(R.id.et_main_password);\n+\n+        Button btLogin = (Button) findViewById(R.id.bt_login);\n+\n+        btLogin.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String username = etUsername.getText().toString();\n+                String password = etPassword.getText().toString();\n+                if (check(username, password)) {\n+                    startActivity(new Intent(Net1414080903117Activity.this, Net1414080903117MenuActivity.class));\n+                } else {\n+                    Toast.makeText(Net1414080903117Activity.this, \"账号/密码错误！！\", Toast.LENGTH_SHORT).show();\n+                }\n+\n+            }\n+        });\n+    }\n+\n+\n+    public boolean check(String username, String password) {\n+        if (username.equals(\"linjianchao\") && password.equals(\"123\"))\n+            return true;\n+        return false;\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "752e85bf72b9ecb4418b5737d4f100de04324837",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java?ref=abe1a47b4b65a841ebd225d71f518ee4191861c4",
+    "patch" : "@@ -0,0 +1,17 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903117FeeActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903117_fee);\n+\n+\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "79aea54af8cdca75071344b799bf2424933f65c9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java?ref=abe1a47b4b65a841ebd225d71f518ee4191861c4",
+    "patch" : "@@ -0,0 +1,35 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903117MenuActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903117_menu);\n+\n+        Button shuidianfei = (Button)findViewById(R.id.shuidianfei);\n+        Button kanjilu = (Button)findViewById(R.id.kanjilu);\n+\n+        shuidianfei.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+\n+            }\n+        });\n+\n+        kanjilu.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "1b118fc0f3e73edafb69e4bf9bf0bd646a552964",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/abe1a47b4b65a841ebd225d71f518ee4191861c4/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java?ref=abe1a47b4b65a841ebd225d71f518ee4191861c4",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903117SubmitActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903117_submit);\n+    }\n+}"
+  } ],
+  "sha" : "abe1a47b4b65a841ebd225d71f518ee4191861c4",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/abe1a47b4b65a841ebd225d71f518ee4191861c4",
+  "parents" : [ {
+    "sha" : "057249c744f903eb550668633fce0c8dabe6d4f4",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/057249c744f903eb550668633fce0c8dabe6d4f4",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/057249c744f903eb550668633fce0c8dabe6d4f4"
+  } ]
+}

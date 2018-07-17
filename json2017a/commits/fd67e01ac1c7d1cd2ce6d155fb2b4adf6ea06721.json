@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "14w2mary",
+    "id" : 26320629,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26320629?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14w2mary",
+    "html_url" : "https://github.com/14w2mary",
+    "followers_url" : "https://api.github.com/users/14w2mary/followers",
+    "following_url" : "https://api.github.com/users/14w2mary/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14w2mary/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14w2mary/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14w2mary/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14w2mary/orgs",
+    "repos_url" : "https://api.github.com/users/14w2mary/repos",
+    "events_url" : "https://api.github.com/users/14w2mary/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14w2mary/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 332,
+    "additions" : 310,
+    "deletions" : 22
+  },
+  "author" : {
+    "login" : "14w2mary",
+    "id" : 26320629,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26320629?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14w2mary",
+    "html_url" : "https://github.com/14w2mary",
+    "followers_url" : "https://api.github.com/users/14w2mary/followers",
+    "following_url" : "https://api.github.com/users/14w2mary/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14w2mary/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14w2mary/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14w2mary/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14w2mary/orgs",
+    "repos_url" : "https://api.github.com/users/14w2mary/repos",
+    "events_url" : "https://api.github.com/users/14w2mary/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14w2mary/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+  "commit" : {
+    "author" : {
+      "name" : "14w2mary",
+      "email" : "2934992529@qq.com",
+      "date" : "2017-06-07T04:15:35Z"
+    },
+    "committer" : {
+      "name" : "14w2mary",
+      "email" : "2934992529@qq.com",
+      "date" : "2017-06-07T04:15:35Z"
+    },
+    "message" : "#6 #153 第六次作业",
+    "tree" : {
+      "sha" : "f30c7f8064da0d5adf749191ea2cf4436fa9b38e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f30c7f8064da0d5adf749191ea2cf4436fa9b38e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/comments",
+  "files" : [ {
+    "sha" : "3fb27ab67e781aaa0caae6b173695c66fa246f23",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java",
+    "status" : "modified",
+    "additions" : 116,
+    "deletions" : 20,
+    "changes" : 136,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/DancibenActivity.java?ref=fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+    "patch" : "@@ -1,13 +1,18 @@\n package homeworks.androids.hzuapps.edu.application.net1414080903219;\n \n+import android.app.AlertDialog;\n+import android.content.DialogInterface;\n+import android.content.Intent;\n import android.database.Cursor;\n+import android.database.SQLException;\n import android.database.sqlite.SQLiteDatabase;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n import android.view.ViewGroup;\n-import android.widget.ArrayAdapter;\n import android.widget.BaseAdapter;\n+import android.widget.Button;\n+import android.widget.EditText;\n import android.widget.ListView;\n import android.widget.TextView;\n \n@@ -21,6 +26,12 @@\n     private ArrayList<Word> wordlist;\n     private ListView lv;\n \n+    //实验6\n+    Button search;\n+    EditText edt;\n+    String eng, mea;\n+\n+\n     //private String[] data={\"1\",\"2\"};\n \n \n@@ -29,28 +40,34 @@ protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.danciben_net1414080903219);\n \n+        //实验6\n+        search = (Button) findViewById(R.id.search);//查询按钮\n+        edt = (EditText) findViewById(R.id.searchenglish);//搜索单词的编辑框\n+\n+\n+\n         /*\n        ArrayAdapter<String>adapter=new ArrayAdapter<String>(DancibenActivity.this,\n                 android.R.layout.simple_list_item_1,data);\n         ListView listView=(ListView)findViewById(R.id.list_view);\n         listView.setAdapter(adapter);\n         */\n-        dbHelper=new MyDatabaseHelper(this,\"WordList.db\",null,1);\n-        SQLiteDatabase db=dbHelper.getWritableDatabase();\n-        wordlist=new ArrayList<>();\n+        dbHelper = new MyDatabaseHelper(this, \"WordList.db\", null, 1);\n+        SQLiteDatabase db = dbHelper.getWritableDatabase();\n+        wordlist = new ArrayList<>();\n         //扫描数据库，将数据库信息放入wordlist\n-        Cursor cursor=db.query(\"Word\",null,null,null,null,null,null);\n-        while(cursor.moveToNext()){\n-            String english=cursor.getString(cursor.getColumnIndex(\"english\"));\n-            String mean=cursor.getString(cursor.getColumnIndex(\"mean\"));\n-            String status=cursor.getString(cursor.getColumnIndex(\"status\"));\n-            Word en=new Word(english,mean,status);//Word存一个条目的数据\n+        Cursor cursor = db.query(\"Word\", null, null, null, null, null, null);\n+        while (cursor.moveToNext()) {\n+            String english = cursor.getString(cursor.getColumnIndex(\"english\"));\n+            String mean = cursor.getString(cursor.getColumnIndex(\"mean\"));\n+            String status = cursor.getString(cursor.getColumnIndex(\"status\"));\n+            Word en = new Word(english, mean, status);//Word存一个条目的数据\n             wordlist.add(en);//把数据库中的每一行加入到数组中\n         }\n \n         //获取ListView,并通过Adapter把wordlist的信息显示到ListView\n         //为ListView设置一个适配器，getCount()返回数据个数；getView()为每一行设置一个条目\n-        lv=(ListView)findViewById(R.id.list_view);\n+        lv = (ListView) findViewById(R.id.list_view);\n         lv.setAdapter(new BaseAdapter() {\n             @Override\n             public int getCount() {\n@@ -64,17 +81,16 @@ public View getView(int position, View convertView, ViewGroup parent) {\n                 //对ListView的优化。convertView为空时，创建一个新视图；convertView不为空时，代表它是\n                 //滚出屏幕，放入Recycler中的视图，若需要用到其他layout，则用inflate()，同一视图，\n                 //用findViewById\n-                if(convertView==null){\n-                    view=View.inflate(getBaseContext(),R.layout.listitem_net1414080903219,null);\n-                }\n-                else {\n-                    view=convertView;\n+                if (convertView == null) {\n+                    view = View.inflate(getBaseContext(), R.layout.listitem_net1414080903219, null);\n+                } else {\n+                    view = convertView;\n                 }\n                 //从wordlist中取出一行数据，position相当于数组下标，可以实现逐行取数据\n-                Word en=wordlist.get(position);\n-                TextView english=(TextView)view.findViewById(R.id.tv_english);\n-                TextView mean=(TextView)view.findViewById(R.id.tv_mean);\n-                TextView status=(TextView)view.findViewById(R.id.tv_status);\n+                Word en = wordlist.get(position);\n+                TextView english = (TextView) view.findViewById(R.id.tv_english);\n+                TextView mean = (TextView) view.findViewById(R.id.tv_mean);\n+                TextView status = (TextView) view.findViewById(R.id.tv_status);\n                 english.setText(en.getEnglish());\n                 mean.setText(en.getMean());\n                 status.setText(en.getStatus());\n@@ -91,5 +107,85 @@ public long getItemId(int position) {\n                 return 0;\n             }\n         });\n+\n+\n+\n+        //实验6\n+        //查询按钮点击事件\n+        search.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String English = edt.getText().toString();\n+                Cursor S_cursor = SearchData(English);\n+                if (S_cursor.getCount() != 0) {\n+                    eng = S_cursor.getString(S_cursor.getColumnIndex(\"english\"));\n+                    mea = S_cursor.getString(S_cursor.getColumnIndex(\"mean\"));\n+                    openOptionDialog();\n+                } else {\n+                    openLinkWebOptionsDialog(English);//搜索不到，就联网查询\n+                }\n+            }\n+        });\n+\n+\n+}\n+    //实验6\n+    private void openOptionDialog(){\n+        new AlertDialog.Builder(this).setTitle(\"查询结果\").setMessage(eng+\"\\n\"+mea).show();\n+    }\n+\n+\n+    public Cursor SearchData(String English) throws SQLException {\n+        //dbHelper = new MyDatabaseHelper(this, \"WordList.db\", null, 1);\n+        SQLiteDatabase mSQLiteDatabase=this.openOrCreateDatabase(\"WordList.db\",MODE_PRIVATE,null);\n+        //SQLiteDatabase db = dbHelper.getWritableDatabase();\n+        Cursor mCursor =\n+                mSQLiteDatabase.query(true,\"Word\",new String[]{\"english\",\"mean\"},\n+                        \"english\"+\"=?\",new String[]{English},null,null,null,null);\n+        if (mCursor != null) {\n+            mCursor.moveToFirst();\n+        }\n+        return mCursor;\n+    }\n+\n+    /*\n+    private void openLinkWebOptionsDialog(final String english) {\n+        new AlertDialog.Builder(this)\n+                .setTitle(\"查询结果\")\n+                .setMessage(\"词库里没有该单词，是否连网查询\")\n+                .setPositiveButton(\"否\",\n+                        new DialogInterface.OnClickListener() {\n+                            public void onClick(DialogInterface dialog, int i) {\n+                            }\n+                        }).setNegativeButton(\"是\",\n+                new DialogInterface.OnClickListener() {\n+                    public void onClick(DialogInterface dialog, int i) {\n+                        Uri uri = Uri.parse(\"http://www.iciba.com/\" + english);\n+                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);\n+                        startActivity(intent);\n+                    }\n+                }).show();\n+    }\n+    */\n+\n+    private void openLinkWebOptionsDialog(final String english) {\n+        new AlertDialog.Builder(this)\n+                .setTitle(\"查询结果\")\n+                .setMessage(\"词库里没有该单词，是否连网查询\")\n+                .setPositiveButton(\"否\",\n+                        new DialogInterface.OnClickListener() {\n+                            public void onClick(DialogInterface dialog, int i) {\n+                            }\n+                        }).setNegativeButton(\"是\",\n+                new DialogInterface.OnClickListener() {\n+                    public void onClick(DialogInterface dialog, int i) {\n+                        Intent intent=new Intent(DancibenActivity.this,JsonActivity.class);\n+                        startActivity(intent);\n+                    }\n+                }).show();\n     }\n+\n+\n+\n }\n+"
+  }, {
+    "sha" : "bc965579836ec0f7ccb25fcbebdd65cd9b3946e8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/JsonActivity.java",
+    "status" : "added",
+    "additions" : 128,
+    "deletions" : 0,
+    "changes" : 128,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/JsonActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/JsonActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/JsonActivity.java?ref=fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+    "patch" : "@@ -0,0 +1,128 @@\n+package homeworks.androids.hzuapps.edu.application.net1414080903219;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.TextView;\n+\n+import org.json.JSONArray;\n+\n+import org.json.JSONObject;\n+import android.os.Handler;\n+\n+import java.io.BufferedReader;\n+import java.io.IOException;\n+import java.io.InputStream;\n+import java.io.InputStreamReader;\n+\n+import java.net.HttpURLConnection;\n+import java.net.URL;\n+\n+import homeworks.androids.hzuapps.edu.application.R;\n+\n+public class JsonActivity extends AppCompatActivity implements View.OnClickListener{\n+    TextView responseText;\n+\n+    private Handler handler = null;\n+    private String english;\n+    private String mean;\n+\n+\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.json_net1414080903219);\n+\n+        handler = new Handler();\n+\n+        Button sendRequest = (Button) findViewById(R.id.send_request);\n+        responseText = (TextView) findViewById(R.id.response_text);\n+        sendRequest.setOnClickListener(this);\n+\n+\n+    }\n+\n+\n+    @Override\n+    public void onClick(View v) {\n+        if (v.getId() == R.id.send_request) {\n+            sendRequestWithHttpURLConnection();\n+        }\n+    }\n+\n+\n+    private void sendRequestWithHttpURLConnection() {\n+        //开启线程来发起网络请求\n+        new Thread(new Runnable() {\n+            @Override\n+            public void run() {\n+                HttpURLConnection connection = null;\n+                BufferedReader reader = null;\n+                try {\n+                    URL url = new URL(\"https://raw.githubusercontent.com/14w2mary/android-labs-2017/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903219/getdata.json\");\n+                    connection = (HttpURLConnection) url.openConnection();\n+                    connection.setRequestMethod(\"GET\");\n+                    connection.setConnectTimeout(8000);\n+                    connection.setReadTimeout(8000);\n+                    InputStream in = connection.getInputStream();\n+                    //下面对获取到的输入流进行读取\n+                    reader = new BufferedReader(new InputStreamReader(in));\n+                    StringBuilder response = new StringBuilder();\n+                    String line;\n+                    while ((line = reader.readLine()) != null) {\n+                        response.append(line);\n+                    }\n+\n+                    String responseData = response.toString();\n+                    //parseXMLWithPull(response.toString());//解析数据\n+                    parseJSONWithObject(responseData);\n+\n+\n+                    //showResponse(response.toString());\n+                } catch (Exception e) {\n+                    e.printStackTrace();\n+                } finally {\n+                    if (reader != null) {\n+                        try {\n+                            reader.close();\n+                        } catch (IOException e) {\n+                            e.printStackTrace();\n+                        }\n+                    }\n+                    if (connection != null) {\n+                        connection.disconnect();\n+                    }\n+                }\n+                handler.post(runnableUi);\n+            }\n+        }).start();\n+    }\n+\n+\n+    private void parseJSONWithObject(String jsonData){\n+        try{\n+            JSONArray jsonArray=new JSONArray(jsonData);\n+            for(int i=0;i<jsonArray.length();i++){\n+                JSONObject jsonObject = jsonArray.getJSONObject(i);\n+                english= jsonObject.getString(\"english\");\n+                mean= jsonObject.getString(\"mean\");\n+            }\n+        }catch (Exception e){\n+            e.printStackTrace();\n+        }\n+\n+    }\n+\n+\n+    Runnable runnableUi = new Runnable() {\n+        public void run() {\n+            responseText.setText(\"单词: \" + english + \"\\n\" + \"\\n\" + \"释义: \" + mean + \"\\n\" + \"\\n\");//显示解析结果\n+        }\n+    };\n+\n+\n+\n+\n+}"
+  }, {
+    "sha" : "e7dff60e4bad9c3ebe09c50a3bd7d701002b2bd5",
+    "filename" : "AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml",
+    "status" : "modified",
+    "additions" : 37,
+    "deletions" : 2,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/danciben_net1414080903219.xml?ref=fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+    "patch" : "@@ -1,11 +1,46 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:background=\"#E9967A\">\n+    android:orientation=\"vertical\"\n+    android:background=\"@drawable/tuyi_net1414080903219\">\n+\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"vertical\" >\n+\n+        <LinearLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:orientation=\"horizontal\" >\n+\n+            <EditText\n+                android:id=\"@+id/searchenglish\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_weight=\"0.63\"\n+                android:gravity=\"right\"\n+                android:ems=\"10\" >\n+\n+                <requestFocus />\n+            </EditText>\n+\n+            <Button\n+                android:id=\"@+id/search\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_marginRight=\"10dp\"\n+                android:layout_weight=\"0.27\"\n+                android:text=\"查询\" />\n+        </LinearLayout>\n+\n+    </LinearLayout>\n \n     <ListView\n         android:id=\"@+id/list_view\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"match_parent\"/>\n+        android:layout_height=\"match_parent\" >\n+    </ListView>\n \n </LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "ad858ee7b2933eac59f45244a8d3cd8354b8f3f0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/json_net1414080903219.xml",
+    "status" : "added",
+    "additions" : 29,
+    "deletions" : 0,
+    "changes" : 29,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/res/layout/json_net1414080903219.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721/AndroidLabs/app/src/main/res/layout/json_net1414080903219.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/json_net1414080903219.xml?ref=fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+    "patch" : "@@ -0,0 +1,29 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/tuyi_net1414080903219\"\n+    >\n+\n+    <Button\n+        android:id=\"@+id/send_request\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Send Request\"/>\n+\n+\n+    <ScrollView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\">\n+\n+        <TextView\n+            android:id=\"@+id/response_text\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"/>\n+\n+\n+    </ScrollView>\n+\n+\n+</LinearLayout>"
+  } ],
+  "sha" : "fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd67e01ac1c7d1cd2ce6d155fb2b4adf6ea06721",
+  "parents" : [ {
+    "sha" : "f8f23b0c7e22cf408e147b1827b6f86d02fa30ac",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f8f23b0c7e22cf408e147b1827b6f86d02fa30ac",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f8f23b0c7e22cf408e147b1827b6f86d02fa30ac"
+  } ]
+}

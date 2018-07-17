@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "erdongxin",
+    "id" : 26159119,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159119?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/erdongxin",
+    "html_url" : "https://github.com/erdongxin",
+    "followers_url" : "https://api.github.com/users/erdongxin/followers",
+    "following_url" : "https://api.github.com/users/erdongxin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/erdongxin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/erdongxin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/erdongxin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/erdongxin/orgs",
+    "repos_url" : "https://api.github.com/users/erdongxin/repos",
+    "events_url" : "https://api.github.com/users/erdongxin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/erdongxin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/24e2daa9b1518b4380ed918b4ec159aa1245ba12",
+  "commit" : {
+    "author" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-06-02T09:35:30Z"
+    },
+    "committer" : {
+      "name" : "erdongxin",
+      "email" : "1007422542@qq.com",
+      "date" : "2017-06-02T09:35:30Z"
+    },
+    "message" : "#5 #59 第五次实验",
+    "tree" : {
+      "sha" : "1efd841cce718f4daf0430cc5bc20f1923b21f52",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1efd841cce718f4daf0430cc5bc20f1923b21f52"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/24e2daa9b1518b4380ed918b4ec159aa1245ba12",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/24e2daa9b1518b4380ed918b4ec159aa1245ba12/comments",
+  "files" : [ {
+    "sha" : "fa857c0e791bd1eab5bc3d214add90f9fbd8c1af",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/24e2daa9b1518b4380ed918b4ec159aa1245ba12/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/24e2daa9b1518b4380ed918b4ec159aa1245ba12/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903122/MainActivity.java?ref=24e2daa9b1518b4380ed918b4ec159aa1245ba12",
+    "patch" : "@@ -13,7 +13,7 @@\n \n public class MainActivity extends AppCompatActivity {\n     private ListView mListView;\n-    //需要适配的数据\n+    //需要适配的数据代码，调用存储。。。。。。。。。\n     private String[] names={\"京东商城\",\"QQ\",\"QQ斗地主\",\"新浪微博\",\"天猫\",\"UC浏览器\",\"微信\"};\n     //图片集合\n     private int[] icons ={R.drawable.jd,R.drawable.qq,R.drawable.qq_dizhu,R.drawable.sina,R.drawable.tmall,R.drawable.uc,R.drawable.weixin,};"
+  } ],
+  "sha" : "24e2daa9b1518b4380ed918b4ec159aa1245ba12",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/24e2daa9b1518b4380ed918b4ec159aa1245ba12",
+  "parents" : [ {
+    "sha" : "fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fd3513fdcbde903d7b46c510aa9fe84d84991fb9",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fd3513fdcbde903d7b46c510aa9fe84d84991fb9"
+  } ]
+}

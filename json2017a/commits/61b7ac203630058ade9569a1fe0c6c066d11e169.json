@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 50,
+    "additions" : 50,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/61b7ac203630058ade9569a1fe0c6c066d11e169",
+  "commit" : {
+    "author" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-06-10T08:20:02Z"
+    },
+    "committer" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-06-10T08:20:02Z"
+    },
+    "message" : "#6 #26 xml文件",
+    "tree" : {
+      "sha" : "85d66860a8cd2401408067de70076e0bcfa5454a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/85d66860a8cd2401408067de70076e0bcfa5454a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/61b7ac203630058ade9569a1fe0c6c066d11e169",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/61b7ac203630058ade9569a1fe0c6c066d11e169/comments",
+  "files" : [ {
+    "sha" : "0c0c4a49e7156685f3c13927f137fcf541c76862",
+    "filename" : "AndroidLabs/app/src/main/res/values/MusicInfo.xml",
+    "status" : "added",
+    "additions" : 50,
+    "deletions" : 0,
+    "changes" : 50,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/61b7ac203630058ade9569a1fe0c6c066d11e169/AndroidLabs/app/src/main/res/values/MusicInfo.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/61b7ac203630058ade9569a1fe0c6c066d11e169/AndroidLabs/app/src/main/res/values/MusicInfo.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/MusicInfo.xml?ref=61b7ac203630058ade9569a1fe0c6c066d11e169",
+    "patch" : "@@ -0,0 +1,50 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<music>\n+\t<musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+\n+    <musicInfo>\n+        <icon>http://github.com/ileyinan/android-labs-2017/AndroidLabs/app/src/main/res/drawable/xsm_music.jpg</icon>\n+        <title>music_one</title>\n+        <content>content</content>\n+        <type>1</type>\n+        <comment>1</comment>\n+    </musicInfo>\n+</music>\n\\ No newline at end of file"
+  } ],
+  "sha" : "61b7ac203630058ade9569a1fe0c6c066d11e169",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/61b7ac203630058ade9569a1fe0c6c066d11e169",
+  "parents" : [ {
+    "sha" : "4f6c27ba8f1191d6ba767cf9a0c87092a4b8eb4e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4f6c27ba8f1191d6ba767cf9a0c87092a4b8eb4e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4f6c27ba8f1191d6ba767cf9a0c87092a4b8eb4e"
+  } ]
+}

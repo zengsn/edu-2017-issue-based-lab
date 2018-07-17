@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 105,
+    "additions" : 95,
+    "deletions" : 10
+  },
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T12:21:38Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-12T12:21:38Z"
+    },
+    "message" : "#4 #15 第四次实验",
+    "tree" : {
+      "sha" : "f936afd294df0db71f05bcea20d32ea32bdb9078",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f936afd294df0db71f05bcea20d32ea32bdb9078"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246/comments",
+  "files" : [ {
+    "sha" : "bde8a88b26cc1bde9a026d002a861eecd45b7c88",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "status" : "modified",
+    "additions" : 51,
+    "deletions" : 1,
+    "changes" : 52,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ee9dac189a49baf0306fc6c7d92f4802dc9c5246/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ee9dac189a49baf0306fc6c7d92f4802dc9c5246/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java?ref=ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+    "patch" : "@@ -15,8 +15,58 @@\n  * create an instance of this fragment.\n  */\n public class Net1414080903230_DiaryFragment extends Fragment {\n-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+    private ListView list_show;\n+\n+\n+    private View specItemView;\n+\n+    public Net1414080903230_DiaryFragment() {\n+    }\n+\tpublic View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n         View view = inflater.inflate(R.layout.fragment_net1414080903230__diary, container, false);\n+        view.findViewById(R.id.btn_writediary).setOnClickListener(new View.OnClickListener(){\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(getActivity(), Net1414080903230_WriteDiaryActivity.class);\n+                startActivity(intent);\n+            }\n+        });\n+\n+\n+        File sdpath = Environment.getExternalStorageDirectory();\n+\n+        //打开指定目录，显示项目说明书列表，供用户选择\n+        File dir = new File(sdpath,\"diarydata\");\n+        if(!dir.exists()){\n+            Log.d(\"test1\",\"tet\");\n+            dir.mkdirs();\n+        }\n+        //取出文件列表：\n+        final File[] files = dir.listFiles();\n+        try {\n+\n+            List<HashMap<String, Object>> specs = new ArrayList<HashMap<String, Object>>();\n+            int seq = 0;\n+            for (File spec : files) {\n+                seq++;\n+                HashMap<String, Object> hashMap = new HashMap<String, Object>();\n+                hashMap.put(\"seq\", seq);\n+                hashMap.put(\"name\", spec.getName());\n+                Log.d(\"test\",spec.getName());\n+                specs.add(hashMap);\n+            }\n+\n+\n+            list_show = (ListView) view.findViewById(R.id.diary_list);\n+\n+            SimpleAdapter spa = new SimpleAdapter(getActivity(), specs, R.layout.spec_item_list_1414080903230,\n+                    new String[]{\"seq\", \"name\"}, new int[]{R.id.seq, R.id.name});\n+            list_show.setAdapter(spa);\n+        }catch(NullPointerException e){\n+\n+\n+        }\n+\n         return view;\n     }\n }"
+  }, {
+    "sha" : "4ce7bc67af41d8da0f2305ef87f0f2ea04a6d310",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "status" : "modified",
+    "additions" : 44,
+    "deletions" : 9,
+    "changes" : 53,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ee9dac189a49baf0306fc6c7d92f4802dc9c5246/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ee9dac189a49baf0306fc6c7d92f4802dc9c5246/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java?ref=ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+    "patch" : "@@ -9,21 +9,56 @@\n \n public class Net1414080903230_WriteDiaryActivity extends AppCompatActivity {\n \n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n+    public void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903230__write_diary);\n         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);\n         setSupportActionBar(toolbar);\n \n-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);\n-        fab.setOnClickListener(new View.OnClickListener() {\n-            @Override\n-            public void onClick(View view) {\n-                Snackbar.make(view, \"Replace with your own action\", Snackbar.LENGTH_LONG)\n-                        .setAction(\"Action\", null).show();\n+    }\n+\n+    public void click(View view){\n+        //get the diary string\n+        TextView diary = (TextView) findViewById(R.id.atm_diary_content);\n+        String diaryContent = diary.getText().toString();\n+\n+        //open the diarydata fold\n+        //File yygypath = this.getFilesDir();\n+        File sdpath = Environment.getExternalStorageDirectory();\n+        //get the time and it will become the diary_name at this time\n+        SimpleDateFormat    sDateFormat    =   new    SimpleDateFormat(\"yyyyMMddhhmmss\");\n+        String    date    =    sDateFormat.format(new    java.util.Date());\n+        //add\n+        //if(dir.exists()&&dir.canWrite()){\n+            try {\n+                File dir = new File(sdpath,\"diarydata\");\n+                if(!dir.exists()){\n+                    Log.d(\"file2\",dir.getAbsolutePath());\n+                    dir.mkdirs();\n+                }\n+\n+                File newfile = new File(dir,date+\".txt\");\n+                FileOutputStream out = new FileOutputStream(newfile);\n+                //newfile.createNewFile();\n+                //out = openFileOutput(dir.getAbsolutePath() + \"/\" + date+\".txt\", Context.MODE_PRIVATE);\n+                //out = openFileOutput(newfile, Context.MODE_PRIVATE);\n+                sDateFormat = new    SimpleDateFormat(\"yyyy-MM-dd  hh:mm:ss\");\n+                date = sDateFormat.format(new    java.util.Date());\n+                date += \"\\n\";\n+                diaryContent += date;\n+                out.write(diaryContent.getBytes(\"UTF-8\"));\n+                out.close();\n+                final File[] files = dir.listFiles();\n+                Log.d(\"file\",Integer.toString(files.length));\n+            }catch(Exception e){\n+                e.printStackTrace();\n             }\n-        });\n+\n+       //}\n+        Log.d(\"test\",\"test\");\n+        Intent intent = new Intent(this,Net414080903230_MainActivity.class);\n+        startActivity(intent);\n+\n     }\n \n }"
+  } ],
+  "sha" : "ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ee9dac189a49baf0306fc6c7d92f4802dc9c5246",
+  "parents" : [ {
+    "sha" : "94ba6383b54442c7184d9435c4cb68d06eac8029",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/94ba6383b54442c7184d9435c4cb68d06eac8029",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/94ba6383b54442c7184d9435c4cb68d06eac8029"
+  } ]
+}

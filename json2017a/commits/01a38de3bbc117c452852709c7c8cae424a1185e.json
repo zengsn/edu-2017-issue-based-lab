@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 32,
+    "additions" : 32,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/01a38de3bbc117c452852709c7c8cae424a1185e",
+  "commit" : {
+    "author" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-03-05T17:05:54Z"
+    },
+    "committer" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-03-05T17:05:54Z"
+    },
+    "message" : "#1 #14 第一次作业",
+    "tree" : {
+      "sha" : "57d96b132d20b05982e37ae6a5cb01a378c55474",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/57d96b132d20b05982e37ae6a5cb01a378c55474"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/01a38de3bbc117c452852709c7c8cae424a1185e",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/01a38de3bbc117c452852709c7c8cae424a1185e/comments",
+  "files" : [ {
+    "sha" : "88adce7e4b8b3a52c9a24f17dac20af2e6325c8d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/01a38de3bbc117c452852709c7c8cae424a1185e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/01a38de3bbc117c452852709c7c8cae424a1185e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/Net1414080903125Activity.java?ref=01a38de3bbc117c452852709c7c8cae424a1185e",
+    "patch" : "@@ -0,0 +1,15 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903125;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903125Activity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903125);\n+    }\n+}"
+  }, {
+    "sha" : "528504054e3ffc3169b3113b410fb941b11e30f0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/01a38de3bbc117c452852709c7c8cae424a1185e/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/01a38de3bbc117c452852709c7c8cae424a1185e/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903125.xml?ref=01a38de3bbc117c452852709c7c8cae424a1185e",
+    "patch" : "@@ -0,0 +1,17 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903125\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903125.Net1414080903125Activity\">\n+\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"Hello World!\" />\n+</RelativeLayout>"
+  } ],
+  "sha" : "01a38de3bbc117c452852709c7c8cae424a1185e",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/01a38de3bbc117c452852709c7c8cae424a1185e",
+  "parents" : [ {
+    "sha" : "a7413b9543d694888c7de66fd30bbbb63f40c350",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a7413b9543d694888c7de66fd30bbbb63f40c350",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a7413b9543d694888c7de66fd30bbbb63f40c350"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 67,
+    "additions" : 66,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8664825732762f342e57438d8557954605302b6b",
+  "commit" : {
+    "author" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-06-02T09:15:15Z"
+    },
+    "committer" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-06-02T09:15:15Z"
+    },
+    "message" : "#5 #16 第5次实验\n\n外部存储",
+    "tree" : {
+      "sha" : "c5e868087718cbf711ae7edb9ad6a4d4ba11ebc5",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c5e868087718cbf711ae7edb9ad6a4d4ba11ebc5"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8664825732762f342e57438d8557954605302b6b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8664825732762f342e57438d8557954605302b6b/comments",
+  "files" : [ {
+    "sha" : "1721ca8c04d429a5ceb4dd245c7f1d224bbb9fee",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/result1414080903112.java",
+    "status" : "modified",
+    "additions" : 66,
+    "deletions" : 1,
+    "changes" : 67,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8664825732762f342e57438d8557954605302b6b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/result1414080903112.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8664825732762f342e57438d8557954605302b6b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/result1414080903112.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/result1414080903112.java?ref=8664825732762f342e57438d8557954605302b6b",
+    "patch" : "@@ -1,13 +1,78 @@\n package edu.hzuapps.androidlabs.net1414080903112;\n \n+import android.os.Handler;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.util.Log;\n+\n+import org.json.JSONArray;\n+import org.json.JSONObject;\n+import android.widget.TextView;\n+\n+\n+import okhttp3.OkHttpClient;\n+import okhttp3.Request;\n+import okhttp3.Response;\n+\n \n public class result1414080903112 extends AppCompatActivity {\n+    String what = \"\";\n+    String timeid;\n+    Handler handler;\n+    TextView view;\n \n-    @Override\n     protected void onCreate(Bundle savedInstanceState) {\n+        /*StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();\n+        StrictMode.setThreadPolicy(policy);*/\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_result1414080903112);\n+        view = (TextView) findViewById(R.id.result);\n+\n+        //新页面接收数据\n+        Bundle bundle = this.getIntent().getExtras();\n+        //接收值\n+        String weekday = bundle.getString(\"weekday\");\n+        Log.i(\"获取到的weekday值为\", weekday);\n+        String daytime = bundle.getString(\"daytime\");\n+        Log.i(\"获取到的daytime值为\", daytime);\n+        sendRequest(weekday,daytime);\n+    }\n+    /*\n+    这里存储是用访问外部服务器的方式。try.php外部服务器的一个接口，负责到服务器mysql数据库根据传递的参数进行数据的读取，并将结果以JSON格式的数据返回。\n+     */\n+    private void sendRequest(final String weekday, final String daytime) {\n+        new Thread(new Runnable() {\n+            @Override\n+            public void run() {\n+                try {\n+                    OkHttpClient client = new OkHttpClient();\n+                    Request request = new Request.Builder().url(\"http://hzubbs.cn/LBS/try.php?week=\"+weekday+\"&daytime=\"+daytime).build();//目标地址\n+                    Response response = client.newCall(request).execute();\n+                    String responseData = response.body().string();\n+                    AnalysisJson(responseData);\n+                    view.setText(\"结果:\" + what + \"\\n\" + \"\\n\");\n+                } catch (Exception e) {\n+                    e.printStackTrace();\n+                }\n+            }\n+        }).start();\n+\n+    }\n+\n+    /*解析json文件*/\n+    private void AnalysisJson(String jsonData) {\n+        try {\n+            JSONArray jsonArray = new JSONArray(jsonData);\n+            for (int i = 0; i < jsonArray.length(); i++) {\n+                JSONObject jsonObject = jsonArray.getJSONObject(i);\n+                timeid = jsonObject.getString(\"id\");\n+                what = jsonObject.getString(\"what\");\n+            }\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n     }\n+\n+\n }\n+"
+  } ],
+  "sha" : "8664825732762f342e57438d8557954605302b6b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8664825732762f342e57438d8557954605302b6b",
+  "parents" : [ {
+    "sha" : "f2bee6c60caa21727529158b2d23c55fad10f45a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f2bee6c60caa21727529158b2d23c55fad10f45a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f2bee6c60caa21727529158b2d23c55fad10f45a"
+  } ]
+}

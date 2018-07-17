@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 0,
+    "deletions" : 6
+  },
+  "author" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/767deecb1f1895bd4efc445d27d65d864169c181",
+  "commit" : {
+    "author" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T09:05:23Z"
+    },
+    "committer" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T09:05:23Z"
+    },
+    "message" : "#5 #142 第五次作业",
+    "tree" : {
+      "sha" : "4881d60d71421e327411a95b9aea105885e692cf",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4881d60d71421e327411a95b9aea105885e692cf"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/767deecb1f1895bd4efc445d27d65d864169c181",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/767deecb1f1895bd4efc445d27d65d864169c181/comments",
+  "files" : [ {
+    "sha" : "a1e25451dc2f52509443c2f652ae21dea70c76e7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java?ref=767deecb1f1895bd4efc445d27d65d864169c181",
+    "patch" : "@@ -5,7 +5,6 @@\n import android.view.KeyEvent;\n import android.widget.Toast;\n \n-import edu.hzuapp.androidlabs.R;\n \n public class Net1414080903135Activity extends AppCompatActivity {\n "
+  }, {
+    "sha" : "bb865ffea148b223ff317df6dc661ceaadcc8c3e",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java?ref=767deecb1f1895bd4efc445d27d65d864169c181",
+    "patch" : "@@ -10,7 +10,6 @@\n import android.widget.EditText;\n import android.widget.Toast;\n \n-import edu.hzuapp.androidlabs.R;\n \n public class Net1414080903135AddObject extends AppCompatActivity implements View.OnClickListener {\n "
+  }, {
+    "sha" : "bdec90971292544f645d6a2c82985a1c05fbd8ab",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java?ref=767deecb1f1895bd4efc445d27d65d864169c181",
+    "patch" : "@@ -6,7 +6,6 @@\n import android.view.View;\n import android.widget.Button;\n \n-import edu.hzuapp.androidlabs.R;\n \n public class Net1414080903135AdminActivity extends AppCompatActivity implements View.OnClickListener{\n "
+  }, {
+    "sha" : "825f401da7758c4e734fb9e6c26db7119ca29840",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java?ref=767deecb1f1895bd4efc445d27d65d864169c181",
+    "patch" : "@@ -10,7 +10,6 @@\n import android.widget.EditText;\n import android.widget.Toast;\n \n-import edu.hzuapp.androidlabs.R;\n \n public class Net1414080903135ChangeActivity extends AppCompatActivity implements View.OnClickListener {\n "
+  }, {
+    "sha" : "67ea0a8d7957784c853fc9ccedcfca0857221a36",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java?ref=767deecb1f1895bd4efc445d27d65d864169c181",
+    "patch" : "@@ -7,7 +7,6 @@\n import android.widget.Button;\n import android.widget.EditText;\n \n-import edu.hzuapp.androidlabs.R;\n \n public class Net1414080903135LoginActivity extends AppCompatActivity implements View.OnClickListener {\n "
+  }, {
+    "sha" : "7c07bd7f743b3f1d96b3342ad87cf0f05e3e895c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/767deecb1f1895bd4efc445d27d65d864169c181/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java?ref=767deecb1f1895bd4efc445d27d65d864169c181",
+    "patch" : "@@ -3,7 +3,6 @@\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n-import edu.hzuapp.androidlabs.R;\n \n public class Net1414080903135SelectActivity extends AppCompatActivity {\n "
+  } ],
+  "sha" : "767deecb1f1895bd4efc445d27d65d864169c181",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/767deecb1f1895bd4efc445d27d65d864169c181",
+  "parents" : [ {
+    "sha" : "f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2"
+  } ]
+}

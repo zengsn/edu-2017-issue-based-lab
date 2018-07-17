@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 14,
+    "additions" : 7,
+    "deletions" : 7
+  },
+  "author" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f86d8c7c293ec044e40c3af62b9360ab7af14337",
+  "commit" : {
+    "author" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-05-15T15:32:17Z"
+    },
+    "committer" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-05-15T15:32:17Z"
+    },
+    "message" : "#4 #177 第四次作业",
+    "tree" : {
+      "sha" : "070ee6814c59cd07176ba375e543e9531cfb625c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/070ee6814c59cd07176ba375e543e9531cfb625c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f86d8c7c293ec044e40c3af62b9360ab7af14337",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f86d8c7c293ec044e40c3af62b9360ab7af14337/comments",
+  "files" : [ {
+    "sha" : "507e784938c590d03baf3ba4861714fa78818513",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 7,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f86d8c7c293ec044e40c3af62b9360ab7af14337/AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f86d8c7c293ec044e40c3af62b9360ab7af14337/AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903139activity01.xml?ref=f86d8c7c293ec044e40c3af62b9360ab7af14337",
+    "patch" : "@@ -5,20 +5,20 @@\n     android:orientation=\"vertical\"\n     android:weightSum=\"1\">\n     <Button\n-        android:id=\"@+id/bt_record_birthday\"\n-        android:layout_margin=\"40dp\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginTop=\"100dp\"\n-        android:text=\"记录生日\"/>\n-    <Button\n         android:layout_margin=\"40dp\"\n         android:id=\"@+id/bt_check_birthday\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:layout_below=\"@+id/radioGroup\"\n         android:layout_marginTop=\"50dp\"\n         android:text=\"查询已记录的生日\"/>\n+    <Button\n+        android:id=\"@+id/bt_record_birthday\"\n+        android:layout_margin=\"40dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginTop=\"100dp\"\n+        android:text=\"记录生日\"/>\n \n     <ImageView\n         android:layout_width=\"wrap_content\""
+  } ],
+  "sha" : "f86d8c7c293ec044e40c3af62b9360ab7af14337",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f86d8c7c293ec044e40c3af62b9360ab7af14337",
+  "parents" : [ {
+    "sha" : "5c5bd0e671e663519047ac58351a93a96f57e566",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5c5bd0e671e663519047ac58351a93a96f57e566",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5c5bd0e671e663519047ac58351a93a96f57e566"
+  } ]
+}

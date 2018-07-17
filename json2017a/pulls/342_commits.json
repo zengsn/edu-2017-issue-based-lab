@@ -1,0 +1,135 @@
+[ {
+  "sha" : "958af520c092b010ea450d23778015bb03ccb5eb",
+  "commit" : {
+    "author" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-17T14:54:03Z"
+    },
+    "committer" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-17T14:54:03Z"
+    },
+    "message" : "#1 #117 第二次作业",
+    "tree" : {
+      "sha" : "da3fc5c4875c7408043c683efc78db2fc3a80af6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/da3fc5c4875c7408043c683efc78db2fc3a80af6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/958af520c092b010ea450d23778015bb03ccb5eb",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/958af520c092b010ea450d23778015bb03ccb5eb",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/958af520c092b010ea450d23778015bb03ccb5eb",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/958af520c092b010ea450d23778015bb03ccb5eb/comments",
+  "author" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "fe6bb0400f3bcd049513ed0ae80caeb314c6b28b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fe6bb0400f3bcd049513ed0ae80caeb314c6b28b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fe6bb0400f3bcd049513ed0ae80caeb314c6b28b"
+  } ]
+}, {
+  "sha" : "f6aa859d6af5ecd96a6a81df1d8f8539300c222a",
+  "commit" : {
+    "author" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-17T15:35:53Z"
+    },
+    "committer" : {
+      "name" : "FYJ1995",
+      "email" : "451940791@qq.com",
+      "date" : "2017-05-17T15:35:53Z"
+    },
+    "message" : "#3 #117 第三次作业",
+    "tree" : {
+      "sha" : "8a51ed0ca7e3b3d19487edb4086a35e8002509e6",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8a51ed0ca7e3b3d19487edb4086a35e8002509e6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f6aa859d6af5ecd96a6a81df1d8f8539300c222a",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f6aa859d6af5ecd96a6a81df1d8f8539300c222a",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f6aa859d6af5ecd96a6a81df1d8f8539300c222a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f6aa859d6af5ecd96a6a81df1d8f8539300c222a/comments",
+  "author" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "FYJ1995",
+    "id" : 26143454,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26143454?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/FYJ1995",
+    "html_url" : "https://github.com/FYJ1995",
+    "followers_url" : "https://api.github.com/users/FYJ1995/followers",
+    "following_url" : "https://api.github.com/users/FYJ1995/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/FYJ1995/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/FYJ1995/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/FYJ1995/subscriptions",
+    "organizations_url" : "https://api.github.com/users/FYJ1995/orgs",
+    "repos_url" : "https://api.github.com/users/FYJ1995/repos",
+    "events_url" : "https://api.github.com/users/FYJ1995/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/FYJ1995/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "958af520c092b010ea450d23778015bb03ccb5eb",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/958af520c092b010ea450d23778015bb03ccb5eb",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/958af520c092b010ea450d23778015bb03ccb5eb"
+  } ]
+} ]

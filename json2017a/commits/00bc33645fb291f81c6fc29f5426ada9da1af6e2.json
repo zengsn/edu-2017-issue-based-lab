@@ -1,0 +1,217 @@
+{
+  "committer" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 339,
+    "additions" : 296,
+    "deletions" : 43
+  },
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-05-30T13:24:21Z"
+    },
+    "committer" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-05-30T13:24:21Z"
+    },
+    "message" : "#5 #37 第五次作业",
+    "tree" : {
+      "sha" : "4252fdcf74cd981d7d030c110e79562ff39c7b44",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4252fdcf74cd981d7d030c110e79562ff39c7b44"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/00bc33645fb291f81c6fc29f5426ada9da1af6e2/comments",
+  "files" : [ {
+    "sha" : "3b23b0d77211f6a8947ff93f4eda53f0db60e799",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsAdapter.java",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsAdapter.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -0,0 +1,36 @@\n+package edu.hzuapps.androidlabs.homworks.net1414080903137;\n+import android.content.Context;\n+        import android.view.LayoutInflater;\n+        import android.view.View;\n+        import android.view.ViewGroup;\n+        import android.widget.ArrayAdapter;\n+        import android.widget.TextView;\n+\n+        import java.util.List;\n+\n+        import edu.hzuapps.androidlabs.R;\n+\n+\n+\n+  public class GoodsAdapter extends ArrayAdapter<Goods_info> {\n+    private int resourceId;\n+\n+    public GoodsAdapter(Context context, int textViewResourceId, List<Goods_info> objects) {\n+        super(context, textViewResourceId, objects);\n+        resourceId = textViewResourceId;\n+    }\n+\n+    @Override\n+    public View getView(int position, View convertView, ViewGroup parent) {\n+        Goods_info good = getItem(position);\n+        View view = LayoutInflater.from(getContext()).inflate(resourceId, parent, false);\n+        TextView good_name = (TextView) view.findViewById(R.id.good_name);\n+        TextView good_number = (TextView) view.findViewById(R.id.good_number);\n+        good_name.setText(good.getGoodsname());\n+        good_number.setText(good.getGoodsnumber());\n+        return view;\n+    }\n+    public void refresh(){\n+        notifyDataSetChanged();\n+    }\n+}"
+  }, {
+    "sha" : "ae3dfd25ced4caf42ea098a48c277afb4add1993",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsDatabaseHelper.java",
+    "status" : "added",
+    "additions" : 32,
+    "deletions" : 0,
+    "changes" : 32,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsDatabaseHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsDatabaseHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/GoodsDatabaseHelper.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -0,0 +1,32 @@\n+package edu.hzuapps.androidlabs.homworks.net1414080903137;\n+\n+import android.content.Context;\n+        import android.database.sqlite.SQLiteDatabase;\n+        import android.database.sqlite.SQLiteOpenHelper;\n+        import android.widget.Toast;\n+\n+\n+public class GoodsDatabaseHelper extends SQLiteOpenHelper {\n+    public static final String CREATE_TABLE=\"create table goods (\"\n+            +\"goodsid integer primary key autoincrement,\"\n+            +\"goodsname text,\"\n+            +\"goodsnumber text)\";\n+    private Context mContext;\n+\n+    public GoodsDatabaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,int version)\n+    {\n+        super(context,name,factory,version);\n+        mContext=context;\n+    }\n+\n+    public void onCreate(SQLiteDatabase db){\n+        db.execSQL(CREATE_TABLE);\n+        Toast.makeText(mContext,\"数据库创建成功\",Toast.LENGTH_SHORT).show();\n+    }\n+\n+    public void onUpgrade(SQLiteDatabase db,int oldVersion,int newVersion)\n+    {\n+\n+    }\n+}\n+"
+  }, {
+    "sha" : "17db7ed88c5f42b940de97451773a819c0727b53",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Goods_info.java",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Goods_info.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Goods_info.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Goods_info.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -0,0 +1,31 @@\n+package edu.hzuapps.androidlabs.homworks.net1414080903137;\n+\n+import java.io.Serializable;\n+\n+/**\n+ * Created by Administrator on 2017/5/30.\n+ */\n+\n+public class Goods_info implements Serializable{\n+    private int goodsid;\n+    private String goodsname;\n+    private String goodsnumber;\n+    public int getGoodsid(){\n+        return goodsid;\n+    }\n+    public void setGoodsid(int goodsid){\n+        this.goodsid=goodsid;\n+    }\n+    public String getGoodsname(){\n+        return goodsname;\n+    }\n+    public void setGoodsname(String goodsname){\n+        this.goodsname=goodsname;\n+    }\n+    public String getGoodsnumber(){\n+        return goodsnumber;\n+    }\n+    public void setGoodsnumber(String goodsnumber){\n+        this.goodsnumber=goodsnumber;\n+    }\n+}"
+  }, {
+    "sha" : "88dd0ab884c0d2e1974b8a18b61cd59e93550df7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137Activity.java",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 0,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137Activity.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -13,11 +13,13 @@\n \n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n+\n         setContentView(R.layout.activity_net1414080903137);\n         Button button1=(Button) findViewById(R.id.button);\n         Button button2=(Button) findViewById(R.id.button2);\n         Button button3=(Button)findViewById(R.id.button3);\n         Button button4=(Button)findViewById(R.id.button4);\n+\n         button1.setOnClickListener(new View.OnClickListener() {\n \n             public void onClick(View v) {"
+  }, {
+    "sha" : "189a93b01154f96db3785861f0a3d15061831c8d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137FourthActivity.java",
+    "status" : "modified",
+    "additions" : 40,
+    "deletions" : 2,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137FourthActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137FourthActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137FourthActivity.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -1,15 +1,53 @@\n package edu.hzuapps.androidlabs.homworks.net1414080903137;\n \n+import android.content.ContentValues;\n+import android.database.sqlite.SQLiteDatabase;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n import edu.hzuapps.androidlabs.R;\n \n-public class Net1414080903137FourthActivity extends AppCompatActivity {\n+public class Net1414080903137FourthActivity extends AppCompatActivity  {\n+\n \n-    @Override\n+    private GoodsDatabaseHelper dbHelper;\n+    private EditText goodname;\n+    private EditText goodnumber;\n+    private Button sumbit;\n+    String goodsname;\n+    String goodsnumber;\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.net1414080903137fourth);\n+        dbHelper = new GoodsDatabaseHelper(this, \"Goods.db\", null, 2);\n+        goodname = (EditText) findViewById(R.id.Editname);\n+        goodnumber = (EditText) findViewById(R.id.Editnumber);\n+        sumbit = (Button) findViewById(R.id.sumbit);\n+\n+        sumbit.setOnClickListener(new View.OnClickListener() {\n+\n+            public void onClick(View v) {\n+\n+                goodsname = goodname.getText().toString();\n+                goodsnumber = goodnumber.getText().toString();\n+                insert(goodsname, goodsnumber);\n+\n+            }\n+        });\n+    }\n+\n+    public void insert(String goodsname,String goodsnumber){\n+        SQLiteDatabase db=dbHelper.getWritableDatabase();\n+        ContentValues values=new ContentValues();\n+        values.put(\"goodsname\",goodsname);\n+        values.put(\"goodsnumber\",goodsnumber);\n+        db.insert(\"goods\",null,values);\n+        Toast.makeText(this,\"添加成功\",Toast.LENGTH_SHORT).show();\n+        values.clear();\n     }\n }"
+  }, {
+    "sha" : "94359de9426f942c91b04fd8d68997d7310d3c85",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137SecondActivity.java",
+    "status" : "modified",
+    "additions" : 30,
+    "deletions" : 2,
+    "changes" : 32,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137SecondActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137SecondActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137SecondActivity.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -1,15 +1,43 @@\n package edu.hzuapps.androidlabs.homworks.net1414080903137;\n \n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.widget.ListView;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n \n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903137SecondActivity extends AppCompatActivity {\n-\n-    @Override\n+    private GoodsDatabaseHelper dbHelper;\n+    private List<Goods_info> goods_infoList=new ArrayList<>();\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.net1414080903137second);\n+        showlist();\n+        final GoodsAdapter adapter=new GoodsAdapter(Net1414080903137SecondActivity.this,R.layout.goods_item,goods_infoList);\n+        ListView listView=(ListView)findViewById(R.id.list_view);\n+        listView.setAdapter(adapter);\n+    }\n+\n+    public void showlist(){\n+        dbHelper=new GoodsDatabaseHelper(this,\"Goods.db\",null,2);\n+        SQLiteDatabase db=dbHelper.getWritableDatabase();\n+        Cursor cursor=db.query(\"goods\",null,null,null,null,null,null);\n+        if(cursor.moveToFirst()) {\n+            do {\n+                String goodsname = cursor.getString(cursor.getColumnIndex(\"goodsname\"));\n+                String goodsnumber=cursor.getString(cursor.getColumnIndex(\"goodsnumber\"));\n+                //Toast.makeText(this,workcontent,Toast.LENGTH_SHORT).show();\n+                Goods_info goods_info = new Goods_info();\n+                goods_info.setGoodsname(goodsname);\n+                goods_info.setGoodsnumber(goodsnumber);\n+                goods_infoList.add(goods_info);\n+            }while(cursor.moveToNext());\n+        }\n+        cursor.close();\n     }\n }"
+  }, {
+    "sha" : "ba9c71bf77da10d626c1ec8b90b3199013459a9d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137ThirdActivity.java",
+    "status" : "modified",
+    "additions" : 40,
+    "deletions" : 2,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137ThirdActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137ThirdActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137ThirdActivity.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -1,17 +1,55 @@\n package edu.hzuapps.androidlabs.homworks.net1414080903137;\n \n+import android.content.ContentValues;\n+import android.database.sqlite.SQLiteDatabase;\n import android.os.Bundle;\n import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n \n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903137ThirdActivity extends AppCompatActivity {\n \n-    @Override\n+    private EditText goodname;\n+    private EditText goodnumber;\n+    private Button xiugai;\n+    private GoodsDatabaseHelper dbHelper;\n+    String goodsname;\n+    String goodsnumber;\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.net1414080903137third);\n+            dbHelper = new GoodsDatabaseHelper(this, \"Goods.db\", null, 2);\n+            goodname = (EditText) findViewById(R.id.xiugai_name);\n+            goodnumber = (EditText) findViewById(R.id.xiugai_number);\n+        xiugai = (Button) findViewById(R.id.xiugai);\n \n+        xiugai.setOnClickListener(new View.OnClickListener() {\n+\n+                public void onClick(View v) {\n+                    goodsname=goodname.getText().toString();\n+                    goodsnumber=goodnumber.getText().toString();\n+\n+                    update(goodsname,goodsnumber);\n+                }\n+        });\n     }\n \n-}\n+\n+\n+        public void update(String goodsname,String goodsnumber){\n+            SQLiteDatabase db=dbHelper.getWritableDatabase();\n+            ContentValues values=new ContentValues();\n+\n+            values.put(\"goodsnumber\", goodsnumber);\n+            db.update(\"goods\", values, \"goodsname = ?\", new String[] {goodsname});\n+\n+            Toast.makeText(this,\"修改成功\",Toast.LENGTH_SHORT).show();\n+            values.clear();\n+        }\n+    }\n+\n+"
+  }, {
+    "sha" : "c5f934111d59c25784dbab712aed5168e1363fbe",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137fFifthActivity.java",
+    "status" : "modified",
+    "additions" : 38,
+    "deletions" : 2,
+    "changes" : 40,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137fFifthActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137fFifthActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903137/Net1414080903137fFifthActivity.java?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -1,15 +1,51 @@\n package edu.hzuapps.androidlabs.homworks.net1414080903137;\n \n+import android.content.ContentValues;\n+import android.database.sqlite.SQLiteDatabase;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n+\n+import android.util.Log;\n+import android.view.View;\n+\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903137fFifthActivity extends AppCompatActivity {\n \n-    @Override\n+    private GoodsDatabaseHelper dbHelper;\n+    private EditText delete_name;\n+    private Button shan;\n+    String goodsname;\n+\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.net1414080903137fifth);\n+\n+        dbHelper = new GoodsDatabaseHelper(this, \"Goods.db\", null, 2);\n+        delete_name = (EditText) findViewById(R.id.delete_name);\n+        shan = (Button) findViewById(R.id.shancu);\n+        Log.d(\"fifth\",shan.toString());\n+        shan.setOnClickListener(new View.OnClickListener() {\n+\n+            public void onClick(View v) {\n+                goodsname = delete_name.getText().toString();\n+                delete(goodsname);\n+            }\n+        });\n+    }\n+\n+    public void delete(String goodsname){\n+        SQLiteDatabase db=dbHelper.getWritableDatabase();\n+        ContentValues values=new ContentValues();\n+\n+\n+        db.delete(\"goods\",\"goodsname=?\",new String[]{goodsname});\n+        Toast.makeText(this,\"删除成功\",Toast.LENGTH_SHORT).show();\n+\n     }\n-}\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "1963285b21e86ccdf8d204a0bb8bf1c92755576c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 2,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/Net1414080903137fifth.xml?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -12,13 +12,14 @@\n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137fFifthActivity\">\n     <!-- 删除 -->\n <EditText\n+    android:id=\"@+id/delete_name\"\n     android:layout_width=\"wrap_content\"\n     android:layout_height=\"wrap_content\"\n     android:layout_weight=\"1\"\n-    android:hint=\"输入要删除商品的编号\"/>\n+    android:hint=\"输入要删除商品的名字\"/>\n \n     <Button\n-        android:id=\"@+id/send\"\n+        android:id=\"@+id/shancu\"\n         android:layout_width=\"wrap_content\"\n         android:layout_height=\"wrap_content\"\n         android:layout_weight=\"1\""
+  }, {
+    "sha" : "dc39699e4b9b1210b321530274aa7c8df17a8dcf",
+    "filename" : "AndroidLabs/app/src/main/res/layout/Net1414080903137second.xml",
+    "status" : "modified",
+    "additions" : 7,
+    "deletions" : 1,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/Net1414080903137second.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/Net1414080903137second.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/Net1414080903137second.xml?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -10,6 +10,12 @@\n     android:background=\"@drawable/s\"\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137SecondActivity\">\n-\n+    <ListView\n+        android:id=\"@+id/list_view\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:divider=\"#00000000\"\n+        android:dividerHeight=\"20dp\"\n+ />\n     <!-- 库存-->\n </RelativeLayout>"
+  }, {
+    "sha" : "b6a023bf465767f0e125ebff6171fb6891cf0477",
+    "filename" : "AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 16,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/Net1414080903137third.xml?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -13,19 +13,6 @@\n     <!-- 修改 -->\n     <TableLayout>\n \n-        <TableRow\n-            android:layout_width=\"match_parent\"\n-            android:layout_height=\"match_parent\">\n-\n-            <TextView\n-                android:layout_height=\"wrap_content\"\n-                android:text=\"商品编号：\" />\n-\n-            <EditText\n-                android:id=\"@+id/EditText1\"\n-                android:layout_height=\"wrap_content\"\n-                android:hint=\"输入要修改的商品编号\" />\n-        </TableRow>\n \n         <TableRow>\n \n@@ -34,7 +21,7 @@\n                 android:text=\"商品名称:\" />\n \n             <EditText\n-                android:id=\"@+id/EditText2\"\n+                android:id=\"@+id/xiugai_name\"\n                 android:layout_height=\"wrap_content\"\n                 android:hint=\"输入要修改的商品名称\"/>\n         </TableRow>\n@@ -45,13 +32,13 @@\n                 android:text=\"商品数量:\" />\n \n             <EditText\n-                android:id=\"@+id/EditText3\"\n+                android:id=\"@+id/xiugai_number\"\n                 android:layout_height=\"wrap_content\"\n                 android:hint=\"输入要修改的商品数量\"/>\n         </TableRow>\n         <TableRow>\n             <Button\n-                android:id=\"@+id/login\"\n+                android:id=\"@+id/xiugai\"\n                 android:layout_height=\"wrap_content\"\n                 android:layout_width=\"wrap_content\"\n                 android:layout_weight=\"1\""
+  }, {
+    "sha" : "9518dd4bff7115acbc9424d824446a2fe9513c37",
+    "filename" : "AndroidLabs/app/src/main/res/layout/goods_item.xml",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/goods_item.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/goods_item.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/goods_item.xml?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -0,0 +1,31 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <!--作业列表TextView样式-->\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_weight=\"1\"\n+        android:id=\"@+id/good_name\"\n+        android:layout_gravity=\"center_vertical\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:layout_marginTop=\"2dp\"\n+        android:lineSpacingExtra=\"10dp\"\n+        android:textSize=\"18sp\"\n+        android:textColor=\"#0000CC\"\n+        />\n+    <TextView\n+    android:layout_width=\"wrap_content\"\n+    android:layout_height=\"wrap_content\"\n+    android:layout_weight=\"1\"\n+    android:id=\"@+id/good_number\"\n+    android:layout_gravity=\"center_vertical\"\n+    android:layout_marginLeft=\"10dp\"\n+    android:layout_marginTop=\"2dp\"\n+    android:lineSpacingExtra=\"10dp\"\n+    android:textSize=\"18sp\"\n+    android:textColor=\"#0000CC\"\n+    />\n+</LinearLayout>"
+  }, {
+    "sha" : "8bcbf76f2ff2a72c88c39e26598ac64baf216191",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 16,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/00bc33645fb291f81c6fc29f5426ada9da1af6e2/AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903137fourth.xml?ref=00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+    "patch" : "@@ -12,19 +12,6 @@\n     tools:context=\"edu.hzuapps.androidlabs.homworks.net1414080903137.Net1414080903137FourthActivity\">\n <TableLayout>\n     <!-- 添加 -->\n-    <TableRow\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"match_parent\">\n-\n-        <TextView\n-            android:layout_height=\"wrap_content\"\n-            android:text=\"商品编号：\" />\n-\n-        <EditText\n-            android:id=\"@+id/EditText1\"\n-            android:layout_height=\"wrap_content\"\n-            android:hint=\"请输入要添加的商品编号\" />\n-    </TableRow>\n \n     <TableRow>\n \n@@ -33,7 +20,7 @@\n             android:text=\"商品名称:\" />\n \n         <EditText\n-            android:id=\"@+id/EditText2\"\n+            android:id=\"@+id/Editname\"\n             android:layout_height=\"wrap_content\"\n             android:hint=\"请输入要添加的商品名称\"/>\n     </TableRow>\n@@ -44,13 +31,13 @@\n             android:text=\"商品数量:\" />\n \n         <EditText\n-            android:id=\"@+id/EditText3\"\n+            android:id=\"@+id/Editnumber\"\n             android:layout_height=\"wrap_content\"\n             android:hint=\"请输入要添加的商品数量\"/>\n     </TableRow>\n     <TableRow>\n     <Button\n-        android:id=\"@+id/login\"\n+        android:id=\"@+id/sumbit\"\n         android:layout_height=\"wrap_content\"\n         android:layout_width=\"wrap_content\"\n         android:layout_weight=\"1\""
+  } ],
+  "sha" : "00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/00bc33645fb291f81c6fc29f5426ada9da1af6e2",
+  "parents" : [ {
+    "sha" : "d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d454a75c0b453cab7e0b0bf63350a4a5076e7115",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d454a75c0b453cab7e0b0bf63350a4a5076e7115"
+  } ]
+}

@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 313,
+    "additions" : 301,
+    "deletions" : 12
+  },
+  "author" : {
+    "login" : "zida106",
+    "id" : 26035370,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26035370?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zida106",
+    "html_url" : "https://github.com/zida106",
+    "followers_url" : "https://api.github.com/users/zida106/followers",
+    "following_url" : "https://api.github.com/users/zida106/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zida106/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zida106/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zida106/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zida106/orgs",
+    "repos_url" : "https://api.github.com/users/zida106/repos",
+    "events_url" : "https://api.github.com/users/zida106/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zida106/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+  "commit" : {
+    "author" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-05-31T03:29:23Z"
+    },
+    "committer" : {
+      "name" : "zida106",
+      "email" : "3242078165@qq.com",
+      "date" : "2017-05-31T03:29:23Z"
+    },
+    "message" : "#5 #33 第五次作业",
+    "tree" : {
+      "sha" : "5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5d600e0a46b9bbe82b9cefc7ca0c5791e8bcd97b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09dfa2e50a71fa9d2f52a9c06455090ac6350729/comments",
+  "files" : [ {
+    "sha" : "7af73de35f2f67b561340a95247dd9bad5afd86c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/MyApplication.java",
+    "status" : "added",
+    "additions" : 83,
+    "deletions" : 0,
+    "changes" : 83,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/MyApplication.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/MyApplication.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/MyApplication.java?ref=09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "patch" : "@@ -0,0 +1,83 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903106;\n+\n+import android.app.Application;\n+import android.os.Environment;\n+import android.util.Log;\n+\n+import java.io.File;\n+import java.io.FileOutputStream;\n+import java.io.IOException;\n+import java.io.InputStream;\n+import java.util.List;\n+\n+/**\n+ * Created by Administrator on 2017/5/26.\n+ */\n+\n+public class MyApplication extends Application {\n+    List<Net1414080903106City> cityList;\n+    Net1414080903106CityDB mCityDB;\n+    private static Application mApp;\n+    @Override\n+    public void onCreate() {\n+        super.onCreate();\n+\n+        mApp=this;\n+\n+        mCityDB=openCityDB();\n+        initCityList();\n+    }\n+\n+    public static Application getInstance(){\n+        return mApp;\n+    }\n+\n+    public Net1414080903106CityDB openCityDB(){\n+        String path=\"/data\"\n+                + Environment.getDataDirectory().getAbsolutePath()\n+                + File.separator+getPackageName()\n+                +File.separator+Net1414080903106CityDB.CITY_DB_NAME;\n+        File db=new File(path);\n+        try{\n+            InputStream is=getAssets().open(\"city.db\");\n+\n+            FileOutputStream fos=new FileOutputStream(db);\n+            int len=-1;\n+            byte[] buffer=new byte[1024];\n+            while((len=is.read(buffer))!=-1){\n+                fos.write(buffer,0,len);\n+                fos.flush();\n+            }\n+            fos.close();\n+            is.close();\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+            System.exit(0);\n+        }\n+\n+        return new Net1414080903106CityDB(this,path);\n+    }\n+\n+    private boolean prepareCityList(){\n+        cityList=mCityDB.getCityList();\n+        for(Net1414080903106City city:cityList){\n+            String cityName=city.getCity();\n+            Log.d(\"CityDB\",cityName);\n+        }\n+        return true;\n+    }\n+\n+    private void initCityList(){\n+        new Thread(new Runnable() {\n+            @Override\n+            public void run() {\n+                prepareCityList();\n+            }\n+        }).start();\n+    }\n+\n+    public List<Net1414080903106City> getCityList(){\n+        return cityList;\n+    }\n+}\n+"
+  }, {
+    "sha" : "7033162c8b9f52dc6d8add04da2bd1d4347a1904",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106City.java",
+    "status" : "added",
+    "additions" : 70,
+    "deletions" : 0,
+    "changes" : 70,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106City.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106City.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106City.java?ref=09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "patch" : "@@ -0,0 +1,70 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903106;\n+\n+/**\n+ * Created by Administrator on 2017/5/25.\n+ */\n+\n+public class Net1414080903106City {\n+    private String province;\n+    private String city;\n+    private String number;\n+    private String firstPY;\n+    private String allPY;\n+    private String allFirstPY;\n+    public Net1414080903106City(String province, String city, String number, String firstPY, String allPY, String allFirstPY){\n+        this.province=province;\n+        this.city=city;\n+        this.number=number;\n+        this.firstPY=firstPY;\n+        this.allPY=allPY;\n+        this.allFirstPY=allFirstPY;\n+    }\n+\n+    public void setProvince(String province) {\n+        this.province = province;\n+    }\n+\n+    public String getProvince() {\n+        return province;\n+    }\n+\n+    public void setCity(String city) {\n+        this.city = city;\n+    }\n+\n+    public String getCity() {\n+        return city;\n+    }\n+\n+    public void setNumber(String number) {\n+        this.number = number;\n+    }\n+\n+    public String getNumber() {\n+        return number;\n+    }\n+\n+    public void setFirstPY(String firstPY) {\n+        this.firstPY = firstPY;\n+    }\n+\n+    public String getFirstPY() {\n+        return firstPY;\n+    }\n+\n+    public void setAllPY(String allPY) {\n+        this.allPY = allPY;\n+    }\n+\n+    public String getAllPY() {\n+        return allPY;\n+    }\n+\n+    public void setAllFirstPY(String allFirstPY) {\n+        this.allFirstPY = allFirstPY;\n+    }\n+\n+    public String getAllFirstPY() {\n+        return allFirstPY;\n+    }\n+}"
+  }, {
+    "sha" : "f287ce7af8fcd5b8a86812ee73868e787d834580",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106CityDB.java",
+    "status" : "added",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106CityDB.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106CityDB.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106CityDB.java?ref=09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "patch" : "@@ -0,0 +1,39 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903106;\n+\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+/**\n+ * Created by Administrator on 2017/5/26.\n+ */\n+\n+public class Net1414080903106CityDB {\n+    public static final String CITY_DB_NAME=\"city.db\";\n+    private static final String CITY_TABLE_NAME=\"city\";\n+    private SQLiteDatabase db;\n+\n+    public Net1414080903106CityDB(Context context, String path){\n+        db=context.openOrCreateDatabase(path,Context.MODE_PRIVATE,null);\n+    }\n+\n+    public List<Net1414080903106City> getCityList(){\n+        List<Net1414080903106City> list=new ArrayList<>();\n+        Cursor cursor=db.rawQuery(\"SELECT * from \"+CITY_TABLE_NAME,null);\n+        while (cursor.moveToNext()){\n+            String province=cursor.getString(cursor.getColumnIndex(\"province\"));\n+            String city=cursor.getString(cursor.getColumnIndex(\"city\"));\n+            String number=cursor.getString(cursor.getColumnIndex(\"number\"));\n+            String firstPY=cursor.getString(cursor.getColumnIndex(\"firstpy\"));\n+            String allPY=cursor.getString(cursor.getColumnIndex(\"allpy\"));\n+            String allFirstPY=cursor.getString(cursor.getColumnIndex(\"allfirstpy\"));\n+            Net1414080903106City item=new Net1414080903106City(province,city,number,allPY,allFirstPY,firstPY);\n+            list.add(item);\n+        }\n+        return list;\n+    }\n+\n+}"
+  }, {
+    "sha" : "bca8a888587d3d8cad510badd5f382f1d14b7337",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106SelectCity.java",
+    "status" : "added",
+    "additions" : 100,
+    "deletions" : 0,
+    "changes" : 100,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106SelectCity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106SelectCity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903106/Net1414080903106SelectCity.java?ref=09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "patch" : "@@ -0,0 +1,100 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903106;\n+\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.text.Editable;\n+import android.text.TextWatcher;\n+import android.util.Log;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.ArrayAdapter;\n+import android.widget.EditText;\n+import android.widget.ImageButton;\n+import android.widget.ListView;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+/**\n+ * Created by Administrator on 2017/4/24.\n+ */\n+\n+public class Net1414080903106SelectCity extends AppCompatActivity implements View.OnClickListener {\n+    private ImageButton backBtn;\n+    private ListView cityListLv;\n+    private EditText searchEt;\n+\n+    private List<Net1414080903106City> mCityList;\n+    private MyApplication mApplication;\n+    private ArrayList<String> mArrayList;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903106_select_city);\n+\n+        //绑定“返回”按钮\n+        backBtn=(ImageButton) findViewById(R.id.btn_selectCity_back);\n+        backBtn.setOnClickListener(this);\n+\n+        searchEt=(EditText) findViewById(R.id.et_cityName);\n+\n+        mApplication=(MyApplication) getApplication();\n+        mCityList=mApplication.getCityList();\n+        mArrayList=new ArrayList<String>();\n+        for(int i=0;i<mCityList.size();i++){\n+            String provinceName=mCityList.get(i).getProvince();\n+            String cityName=mCityList.get(i).getCity();\n+            mArrayList.add(cityName+\" \"+provinceName);\n+        }\n+        cityListLv=(ListView) findViewById(R.id.selectcity_lv);\n+        final ArrayAdapter<String> adapter=new ArrayAdapter<String>(Net1414080903106SelectCity.this,android.R.layout.simple_list_item_1,mArrayList);\n+        cityListLv.setAdapter(adapter);\n+\n+        //添加LiatView项的点击事件的动作\n+        AdapterView.OnItemClickListener itemClickListener=new AdapterView.OnItemClickListener() {\n+            @Override\n+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {\n+                int updateCityCode=Integer.parseInt(mCityList.get(i).getNumber());\n+                Intent intent=new Intent(Net1414080903106SelectCity.this,Net1414080903106MainActivity.class);\n+                intent.putExtra(\"citycode\",updateCityCode);\n+                startActivity(intent);\n+            }\n+        };\n+        //为组件绑定监听\n+        cityListLv.setOnItemClickListener(itemClickListener);\n+\n+        //EditText实现搜索功能效果\n+        searchEt.addTextChangedListener(new TextWatcher() {\n+            @Override\n+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {\n+\n+            }\n+\n+            @Override\n+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {\n+                adapter.getFilter().filter(charSequence);\n+            }\n+\n+            @Override\n+            public void afterTextChanged(Editable editable) {\n+\n+            }\n+        });\n+    }\n+\n+    @Override\n+    public void onClick(View v) {\n+        switch (v.getId())\n+        {\n+            case R.id.btn_selectCity_back:\n+                finish();\n+                break;\n+            default:\n+                break;\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "b054f7f828f279e0af68cdc534d48a6457475735",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 12,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/09dfa2e50a71fa9d2f52a9c06455090ac6350729/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903106_select_city.xml?ref=09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+    "patch" : "@@ -3,35 +3,32 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\">\n     <RelativeLayout\n+        android:id=\"@+id/relative_1\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n-        android:background=\"#002f93\">\n+        android:background=\"#4052b5\">\n         <ImageButton\n             android:id=\"@+id/btn_selectCity_back\"\n             android:layout_width=\"wrap_content\"\n             android:layout_height=\"45.0dp\"\n             android:layout_marginLeft=\"10.0dp\"\n-            android:background=\"#002F93\"\n+            android:background=\"#4052b5\"\n             android:src=\"@drawable/back\"/>\n-        <ImageButton\n-            android:id=\"@+id/btn_selectCity_search\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"45.0dp\"\n-            android:layout_alignParentRight=\"true\"\n-            android:layout_marginRight=\"10.0dp\"\n-            android:background=\"#002F93\"\n-            android:src=\"@drawable/search\"\n-            />\n         <EditText\n             android:id=\"@+id/et_cityName\"\n             android:layout_width=\"match_parent\"\n             android:layout_height=\"45.0dp\"\n             android:gravity=\"center_vertical\"\n             android:layout_toRightOf=\"@id/btn_selectCity_back\"\n-            android:layout_toLeftOf=\"@id/btn_selectCity_search\"\n+            android:layout_marginRight=\"10.0dp\"\n             android:hint=\"城市名\"\n             android:textColorHint=\"#D3D3D3\"\n             android:textSize=\"20.0sp\"\n             android:textColor=\"#FFFFFF\"/>\n     </RelativeLayout>\n+    <ListView\n+        android:id=\"@+id/selectcity_lv\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:layout_below=\"@id/relative_1\"></ListView>\n </RelativeLayout>"
+  } ],
+  "sha" : "09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/09dfa2e50a71fa9d2f52a9c06455090ac6350729",
+  "parents" : [ {
+    "sha" : "a4fd49b33135944bc2437d853d541df8342eeeeb",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a4fd49b33135944bc2437d853d541df8342eeeeb",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a4fd49b33135944bc2437d853d541df8342eeeeb"
+  } ]
+}

@@ -1,0 +1,106 @@
+{
+  "committer" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 28,
+    "additions" : 0,
+    "deletions" : 28
+  },
+  "author" : {
+    "login" : "invalid-email-address",
+    "id" : 148100,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/148100?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/invalid-email-address",
+    "html_url" : "https://github.com/invalid-email-address",
+    "followers_url" : "https://api.github.com/users/invalid-email-address/followers",
+    "following_url" : "https://api.github.com/users/invalid-email-address/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/invalid-email-address/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/invalid-email-address/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/invalid-email-address/subscriptions",
+    "organizations_url" : "https://api.github.com/users/invalid-email-address/orgs",
+    "repos_url" : "https://api.github.com/users/invalid-email-address/repos",
+    "events_url" : "https://api.github.com/users/invalid-email-address/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/invalid-email-address/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8aa43e014e04e00677c30a3cb7dd40affd359fae",
+  "commit" : {
+    "author" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-05-16T08:23:43Z"
+    },
+    "committer" : {
+      "name" : "Your Name",
+      "email" : "you@example.com",
+      "date" : "2017-05-16T08:23:43Z"
+    },
+    "message" : "#3",
+    "tree" : {
+      "sha" : "dcb98d3d2dff19ace14ca3b6d4c5cd15da506592",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/dcb98d3d2dff19ace14ca3b6d4c5cd15da506592"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8aa43e014e04e00677c30a3cb7dd40affd359fae",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8aa43e014e04e00677c30a3cb7dd40affd359fae/comments",
+  "files" : [ {
+    "sha" : "267c1840cf42c5c3a86bd4e0b33ff0fc203530db",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/m1.PNG",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4c0442f183daf41197693dbbafd85cf65d851ee1/AndroidLabs/app/src/main/res/drawable/m1.PNG",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4c0442f183daf41197693dbbafd85cf65d851ee1/AndroidLabs/app/src/main/res/drawable/m1.PNG",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/m1.PNG?ref=4c0442f183daf41197693dbbafd85cf65d851ee1"
+  }, {
+    "sha" : "24dfef4e64629ad42f0c07edc1364fb161007c72",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 23,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4c0442f183daf41197693dbbafd85cf65d851ee1/AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4c0442f183daf41197693dbbafd85cf65d851ee1/AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903214.xml?ref=4c0442f183daf41197693dbbafd85cf65d851ee1",
+    "patch" : "@@ -1,23 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:orientation=\"vertical\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:weightSum=\"1\">\n-\n-    <ImageView\n-        android:id=\"@+id/imageView\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"283dp\"\n-        android:src=\"@drawable/m1\"\n-        android:layout_weight=\"0.47\" />\n-\n-    <Button\n-        android:id=\"@+id/bt_cuCa\"\n-        android:layout_width=\"262dp\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_gravity=\"center\"\n-        android:onClick=\"customCamera\"\n-        android:text=\"@string/customCamera\" />\n-\n-</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "22e480dbf92c54ec3d3be0d8435f2db46b5f6131",
+    "filename" : "AndroidLabs/app/src/main/res/values/string1414080903214.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 5,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4c0442f183daf41197693dbbafd85cf65d851ee1/AndroidLabs/app/src/main/res/values/string1414080903214.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4c0442f183daf41197693dbbafd85cf65d851ee1/AndroidLabs/app/src/main/res/values/string1414080903214.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/string1414080903214.xml?ref=4c0442f183daf41197693dbbafd85cf65d851ee1",
+    "patch" : "@@ -1,5 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<resources>\n-    <string name=\"q\">确认</string>\n-    <string name=\"customCamera\">摄像头翻译</string>\n-</resources>\n\\ No newline at end of file"
+  } ],
+  "sha" : "8aa43e014e04e00677c30a3cb7dd40affd359fae",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8aa43e014e04e00677c30a3cb7dd40affd359fae",
+  "parents" : [ {
+    "sha" : "4c0442f183daf41197693dbbafd85cf65d851ee1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4c0442f183daf41197693dbbafd85cf65d851ee1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4c0442f183daf41197693dbbafd85cf65d851ee1"
+  } ]
+}

@@ -1,0 +1,162 @@
+{
+  "committer" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 146,
+    "additions" : 0,
+    "deletions" : 146
+  },
+  "author" : {
+    "login" : "QuanGuanQiao",
+    "id" : 26107760,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26107760?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/QuanGuanQiao",
+    "html_url" : "https://github.com/QuanGuanQiao",
+    "followers_url" : "https://api.github.com/users/QuanGuanQiao/followers",
+    "following_url" : "https://api.github.com/users/QuanGuanQiao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/QuanGuanQiao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/QuanGuanQiao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/QuanGuanQiao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/QuanGuanQiao/orgs",
+    "repos_url" : "https://api.github.com/users/QuanGuanQiao/repos",
+    "events_url" : "https://api.github.com/users/QuanGuanQiao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/QuanGuanQiao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3f0dbada8f7416483c93845c96aa9ef597f5e9fe",
+  "commit" : {
+    "author" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-04-26T09:28:49Z"
+    },
+    "committer" : {
+      "name" : "QuanGuanQiao",
+      "email" : "1015567125@qq.com",
+      "date" : "2017-04-26T09:28:49Z"
+    },
+    "message" : "delete",
+    "tree" : {
+      "sha" : "51dcda329a97714a00f72e7969f4c6c5775654b9",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/51dcda329a97714a00f72e7969f4c6c5775654b9"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/3f0dbada8f7416483c93845c96aa9ef597f5e9fe",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f0dbada8f7416483c93845c96aa9ef597f5e9fe/comments",
+  "files" : [ {
+    "sha" : "50a91735d4695d54db438b2535ccf9e8ec8c0446",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 39,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest.xml?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,39 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    package=\"edu.hzuapps.androidlabs.homeworks.net1414080903114\"\n-    android:versionCode=\"1\"\n-    android:versionName=\"1.0\" >\n-\n-    <uses-sdk\n-        android:minSdkVersion=\"16\"\n-        android:targetSdkVersion=\"21\" />\n-\n-    <application\n-        android:allowBackup=\"true\"\n-        android:icon=\"@drawable/ic_launcher\"\n-        android:label=\"@string/app_name\"\n-        android:theme=\"@style/AppTheme\" >\n-        <activity\n-            android:name=\".MainActivity\"\n-            android:label=\"@string/app_name\" >\n-            <intent-filter>\n-                <action android:name=\"android.intent.action.MAIN\" />\n-\n-                <category android:name=\"android.intent.category.LAUNCHER\" />\n-            </intent-filter>\n-        </activity>\n-        <activity\n-            android:name=\".Net1414080903114Activity\"\n-            android:label=\"@string/app_name\" >\n-            \n-        </activity>\n-        <activity\n-            android:name=\".DiskActivity\"\n-            android:label=\"I am Diskctivity\">\n-        </activity>\n-        <activity\n-            android:name=\".NetworkActivity\"\n-            android:label=\"I am Networkctivity\">\n-        </activity>\n-    </application>\n-</manifest>"
+  }, {
+    "sha" : "de2b72a728086ef46913cb341d2650aaffd56c79",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/DiskActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 13,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/DiskActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/DiskActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/DiskActivity.java?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,13 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903114;\n-\n-import android.app.Activity;\n-import android.os.Bundle;\n-\n-public class DiskActivity extends Activity{\n-\tpublic void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_disk);\n-        //Log.i(\"OneActivity\", \"onCreate\");\n-    }\n-\n-}"
+  }, {
+    "sha" : "39ca536c0caf7b43fa2137fa6af27ee4d3b65692",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 24,
+    "changes" : 24,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/MainActivity.java?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,24 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903114;\n-\n-import android.app.Activity;\n-import android.content.Intent;\n-import android.os.Bundle;\n-import android.view.View;\n-\n-public class MainActivity extends Activity {\n-\n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_main);\n-    }\n-    public void clickDisk(View view){\n-        Intent intent = new Intent(this, DiskActivity.class);\n-        startActivity(intent);\n-    }\n-    public void clickNetwork(View view){\n-        Intent intent = new Intent(this, NetworkActivity.class);\n-        startActivity(intent);\n-    }\n-}\n-    "
+  }, {
+    "sha" : "48954531d96f6f3f00b68c5f519b0d6d03abc3ef",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/NetworkActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 12,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/NetworkActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/NetworkActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/NetworkActivity.java?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,12 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903114;\n-\n-import android.app.Activity;\n-import android.os.Bundle;\n-\n-public class NetworkActivity extends Activity{\n-\tpublic void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_network);\n-    }\n-\n-}"
+  }, {
+    "sha" : "a283d99811215afa50cb1be0229c84a78d05ed43",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_disk.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 11,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/layout/activity_disk.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/layout/activity_disk.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_disk.xml?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,11 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:orientation=\"vertical\" >\n-    \n-\t<TextView\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"@string/disk_hello\" />\n-</LinearLayout>"
+  }, {
+    "sha" : "6d4eef2c3900aff35ba690dffdaa09dccfd4b6e4",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_main.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 27,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/layout/activity_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/layout/activity_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_main.xml?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,27 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\" >\n-    \n-\t<TextView\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"@string/net_hello\" />\n-\t<Button\n-        android:id=\"@+id/diskBtn\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_alignParentLeft=\"true\"\n-        android:onClick=\"clickDisk\"\n-        android:text=\"@string/start_disk_activity\"/>\n-\n-    <Button\n-        android:id=\"@+id/networkBtn\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_alignParentRight=\"true\"\n-        android:onClick=\"clickNetwork\"\n-        android:text=\"@string/start_network_activity\"/>\n-</RelativeLayout>"
+  }, {
+    "sha" : "628d4f4e7a172a8cc07fab59f77ba964f69434cf",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_network.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 10,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/layout/activity_network.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/layout/activity_network.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_network.xml?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,10 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\" >\n-    \n-\t<TextView\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"@string/network_hello\" />\n-</RelativeLayout>"
+  }, {
+    "sha" : "7ed0aff8ab3416d56f62f2a0edef966d2e30be70",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 10,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/7cc393ada1359c93b10f5fb4970a351b200d15e2/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "patch" : "@@ -1,10 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<resources>\n-\n-    <string name=\"app_name\">Task Manager</string>\n-    <string name=\"net_hello\">hello!I am NetActivity!</string>\n-\t<string name=\"disk_hello\">hello!I am DiskActivity!</string>\n-\t<string name=\"network_hello\">hello!I am NetworkActivity!</string>\n-\t<string name=\"start_disk_activity\">open DiskActivity</string>\n-\t<string name=\"start_network_activity\">open NetworkActivity</string>\n-</resources>"
+  } ],
+  "sha" : "3f0dbada8f7416483c93845c96aa9ef597f5e9fe",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3f0dbada8f7416483c93845c96aa9ef597f5e9fe",
+  "parents" : [ {
+    "sha" : "7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7cc393ada1359c93b10f5fb4970a351b200d15e2",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7cc393ada1359c93b10f5fb4970a351b200d15e2"
+  } ]
+}

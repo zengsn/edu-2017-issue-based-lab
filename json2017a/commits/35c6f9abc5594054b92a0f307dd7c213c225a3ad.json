@@ -1,0 +1,129 @@
+{
+  "committer" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 137,
+    "additions" : 124,
+    "deletions" : 13
+  },
+  "author" : {
+    "login" : "yuanxiaofengzuishuai",
+    "id" : 26320812,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26320812?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/yuanxiaofengzuishuai",
+    "html_url" : "https://github.com/yuanxiaofengzuishuai",
+    "followers_url" : "https://api.github.com/users/yuanxiaofengzuishuai/followers",
+    "following_url" : "https://api.github.com/users/yuanxiaofengzuishuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/yuanxiaofengzuishuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/yuanxiaofengzuishuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/yuanxiaofengzuishuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/yuanxiaofengzuishuai/orgs",
+    "repos_url" : "https://api.github.com/users/yuanxiaofengzuishuai/repos",
+    "events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/yuanxiaofengzuishuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+  "commit" : {
+    "author" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-14T12:53:17Z"
+    },
+    "committer" : {
+      "name" : "yuanxiaofengzuishuai",
+      "email" : "1293365398@qq.com",
+      "date" : "2017-05-14T12:53:17Z"
+    },
+    "message" : "#2 #172 第二次作业",
+    "tree" : {
+      "sha" : "38f6565866ac0573df3ce80a0af5d243f53853c7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/38f6565866ac0573df3ce80a0af5d243f53853c7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/35c6f9abc5594054b92a0f307dd7c213c225a3ad/comments",
+  "files" : [ {
+    "sha" : "2b9d2eb726ffd2092a9c41113ee221b9a3f724be",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132Activity.java",
+    "status" : "added",
+    "additions" : 16,
+    "deletions" : 0,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/Net1414080903132Activity.java?ref=35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "patch" : "@@ -0,0 +1,16 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903132;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903132Activity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903132);\n+    }\n+\n+}"
+  }, {
+    "sha" : "a53bd70366dbec54fd96a20a5b64801f18a76970",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java",
+    "status" : "added",
+    "additions" : 20,
+    "deletions" : 0,
+    "changes" : 20,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/SnakeView.java?ref=35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "patch" : "@@ -0,0 +1,20 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903132;\n+\n+import android.content.Context;\n+import android.util.AttributeSet;\n+import android.view.View;\n+import android.view.View.OnClickListener;\n+\n+\n+public class SnakeView extends mapView implements OnClickListener {\n+\n+    public SnakeView(Context context, AttributeSet att) {\n+        super(context, att);\n+    }\n+    public SnakeView(Context context, AttributeSet att, int def) {\n+        super(context, att, def);\n+    }\n+    public void onClick(View v) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "f51cc4376d4ef6f5ffc9cfac011d348a56d0827a",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903132/mapView.java?ref=35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "patch" : "@@ -0,0 +1,31 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903132;\n+\n+import android.content.Context;\n+import android.content.res.TypedArray;\n+import android.util.AttributeSet;\n+import android.view.View;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+\n+public class mapView extends View {\n+    protected static int pointSize;\n+\n+    public mapView(Context context, AttributeSet att, int def){\n+        super(context,att,def);\n+        TypedArray a = context.obtainStyledAttributes(att, R.styleable.mapView);\n+\n+        pointSize = a.getInt(R.styleable.mapView_pointSize, 48);\n+\n+        a.recycle();\n+    }\n+    public mapView(Context context, AttributeSet att) {\n+        super(context, att);\n+\n+        TypedArray a = context.obtainStyledAttributes(att, R.styleable.mapView);\n+\n+        pointSize = a.getInt(R.styleable.mapView_pointSize, 48);\n+\n+        a.recycle();\n+    }\n+}"
+  }, {
+    "sha" : "e06beea2afc794d08426f1dd53b983d05e6ebab0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml",
+    "status" : "modified",
+    "additions" : 49,
+    "deletions" : 13,
+    "changes" : 62,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903132.xml?ref=35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "patch" : "@@ -1,17 +1,53 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_net1414080903132\"\n+<FrameLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homework.net1414080903132.Net1414080903132Activity\">\n+    android:layout_height=\"match_parent\" >\n \n-    <TextView\n-        android:layout_width=\"wrap_content\"\n+    <RelativeLayout\n+        android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n-</RelativeLayout>\n+        android:background=\"#00005500\" >\n+            <Button\n+                android:id=\"@+id/start2\"\n+                android:layout_width=\"160dp\"\n+                android:layout_height=\"wrap_content\"\n+                android:gravity=\"center_horizontal\"\n+                android:text=\"困难\"\n+                android:textColor=\"#ff8888ff\"\n+                android:textSize=\"24sp\"\n+                android:visibility=\"visible\"\n+                android:layout_alignParentBottom=\"true\"\n+                android:layout_alignStart=\"@+id/start1\"\n+                android:layout_marginBottom=\"16dp\">\n+            </Button>\n+\n+        <Button\n+                android:id=\"@+id/start\"\n+                android:layout_width=\"160dp\"\n+                android:gravity=\"center_horizontal\"\n+                android:text=\"简单\"\n+                android:textColor=\"#ff8888ff\"\n+                android:textSize=\"24sp\"\n+                android:visibility=\"visible\"\n+                android:layout_height=\"50dp\"\n+            android:layout_marginBottom=\"22dp\"\n+            android:layout_above=\"@+id/start1\"\n+            android:layout_alignStart=\"@+id/start1\">\n+            </Button>\n+\n+        <Button\n+            android:id=\"@+id/start1\"\n+            android:layout_width=\"160dp\"\n+            android:layout_height=\"50dp\"\n+            android:gravity=\"center_horizontal\"\n+            android:text=\"普通\"\n+            android:textColor=\"#ff8888ff\"\n+            android:textSize=\"24sp\"\n+            android:visibility=\"visible\"\n+            android:layout_marginBottom=\"10dp\"\n+            android:layout_above=\"@+id/start2\"\n+            android:layout_centerHorizontal=\"true\">\n+        </Button>\n+    </RelativeLayout>\n+\n+</FrameLayout>"
+  }, {
+    "sha" : "bed7bdf9a398987741248273f5ede75006a8ef6b",
+    "filename" : "AndroidLabs/app/src/main/res/values/arr.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/res/values/arr.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/35c6f9abc5594054b92a0f307dd7c213c225a3ad/AndroidLabs/app/src/main/res/values/arr.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/arr.xml?ref=35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+    "patch" : "@@ -0,0 +1,8 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <declare-styleable name=\"mapView\">\n+\n+        <attr name=\"pointSize\" format=\"integer\" />\n+\n+    </declare-styleable>\n+</resources>"
+  } ],
+  "sha" : "35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/35c6f9abc5594054b92a0f307dd7c213c225a3ad",
+  "parents" : [ {
+    "sha" : "d1b04791404f0d822ed6ab1c72571a852529ca0f",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d1b04791404f0d822ed6ab1c72571a852529ca0f",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d1b04791404f0d822ed6ab1c72571a852529ca0f"
+  } ]
+}

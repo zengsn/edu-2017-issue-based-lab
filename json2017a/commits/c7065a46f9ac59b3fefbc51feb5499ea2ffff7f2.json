@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 75,
+    "additions" : 0,
+    "deletions" : 75
+  },
+  "author" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c7065a46f9ac59b3fefbc51feb5499ea2ffff7f2",
+  "commit" : {
+    "author" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-05-18T10:56:12Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-05-18T10:56:12Z"
+    },
+    "message" : "Delete Net1414080903111ViewContentActivity.java",
+    "tree" : {
+      "sha" : "3cfe81019a5615826e26a688a6b9872032be213e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/3cfe81019a5615826e26a688a6b9872032be213e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c7065a46f9ac59b3fefbc51feb5499ea2ffff7f2",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c7065a46f9ac59b3fefbc51feb5499ea2ffff7f2/comments",
+  "files" : [ {
+    "sha" : "a63c4f980636afb39e6c4a6e696afefe8ad6926f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 75,
+    "changes" : 75,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/75a9802ebebee8c746626a93aada74efad079fa1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/75a9802ebebee8c746626a93aada74efad079fa1/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java?ref=75a9802ebebee8c746626a93aada74efad079fa1",
+    "patch" : "@@ -1,75 +0,0 @@\n-﻿package edu.hzuapps.androidlabs.homeworks.net1414080903111;\n-\n-import android.app.Activity;\n-import android.content.Intent;\n-import android.os.Bundle;\n-import android.view.View;\n-import android.widget.Button;\n-import android.widget.TextView;\n-\n-import java.io.BufferedReader;\n-import java.io.FileInputStream;\n-import java.io.IOException;\n-import java.io.InputStreamReader;\n-\n-public class ViewContentActivity extends Activity {\n-    private TextView content;\n-    private TextView title;\n-    private Button editNote;\n-    Intent intent;\n-\n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.view_note);\n-\n-        content = (TextView) findViewById(R.id.view_content);\n-        title = (TextView) findViewById(R.id.view_title);\n-        editNote = (Button) findViewById(R.id.edit_note);\n-\n-        intent = getIntent();\n-        final long id = intent.getLongExtra(\"id\", 0);\n-        showContent();\n-\n-        editNote.setOnClickListener(new View.OnClickListener() {\n-            @Override\n-            public void onClick(View v) {\n-                Intent intent = new Intent(ViewContentActivity.this, EditNoteActivity.class);\n-                intent.putExtra(\"id\", id);\n-                intent.putExtra(\"note_name\",title.getText().toString());\n-                startActivity(intent);\n-            }\n-        });\n-    }\n-\n-    private void showContent() {\n-        /*从intent中得到要打开的文件名。\n-        在本地文件夹中打开笔记文件\n-        显示文件名和内容到ViewContentActivity中。\n-         */\n-\n-        String note_name = intent.getStringExtra(\"note_name\");\n-        title.setText(note_name);\n-        BufferedReader reader = null;\n-        try {\n-            FileInputStream in = openFileInput(note_name);\n-            reader = new BufferedReader(new InputStreamReader(in));\n-            String content_str=\"\";\n-            String line;\n-            while ((line=reader.readLine())!=null){\n-                content_str += line;\n-            }\n-            content.setText(content_str);\n-        } catch (IOException e) {\n-            e.printStackTrace();\n-        } finally {\n-            if (reader != null)\n-                try {\n-                    reader.close();\n-                } catch (IOException e) {\n-                    e.printStackTrace();\n-                }\n-        }\n-\n-    }\n-}"
+  } ],
+  "sha" : "c7065a46f9ac59b3fefbc51feb5499ea2ffff7f2",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c7065a46f9ac59b3fefbc51feb5499ea2ffff7f2",
+  "parents" : [ {
+    "sha" : "75a9802ebebee8c746626a93aada74efad079fa1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/75a9802ebebee8c746626a93aada74efad079fa1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/75a9802ebebee8c746626a93aada74efad079fa1"
+  } ]
+}

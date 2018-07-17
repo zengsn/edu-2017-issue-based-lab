@@ -1,0 +1,135 @@
+[ {
+  "sha" : "e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T07:55:36Z"
+    },
+    "committer" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T07:55:36Z"
+    },
+    "message" : "#6 #39 第六次作业",
+    "tree" : {
+      "sha" : "d96e92c9aa84bb011fcac7d1587db3f302717da1",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/d96e92c9aa84bb011fcac7d1587db3f302717da1"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c/comments",
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cc483ad19fedb4b4736749891e0f360cbc1c5969",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cc483ad19fedb4b4736749891e0f360cbc1c5969"
+  } ]
+}, {
+  "sha" : "9187793f3894e92d522878830291505731e4a55b",
+  "commit" : {
+    "author" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T08:02:55Z"
+    },
+    "committer" : {
+      "name" : "xuchunyu14",
+      "email" : "1079661764@qq.com",
+      "date" : "2017-06-18T08:02:55Z"
+    },
+    "message" : "#6 #39 第六次作业",
+    "tree" : {
+      "sha" : "38382585c089f189ff3cd6a8ad02b8466a073865",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/38382585c089f189ff3cd6a8ad02b8466a073865"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9187793f3894e92d522878830291505731e4a55b",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9187793f3894e92d522878830291505731e4a55b",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9187793f3894e92d522878830291505731e4a55b",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9187793f3894e92d522878830291505731e4a55b/comments",
+  "author" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xuchunyu14",
+    "id" : 26158992,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158992?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xuchunyu14",
+    "html_url" : "https://github.com/xuchunyu14",
+    "followers_url" : "https://api.github.com/users/xuchunyu14/followers",
+    "following_url" : "https://api.github.com/users/xuchunyu14/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xuchunyu14/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xuchunyu14/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xuchunyu14/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xuchunyu14/orgs",
+    "repos_url" : "https://api.github.com/users/xuchunyu14/repos",
+    "events_url" : "https://api.github.com/users/xuchunyu14/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xuchunyu14/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e089914dbe568c8f7063e54ff2a5e3f4ffd8144c"
+  } ]
+} ]

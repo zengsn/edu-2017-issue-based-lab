@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 376,
+    "additions" : 376,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "123dolala",
+    "id" : 26159000,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159000?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/123dolala",
+    "html_url" : "https://github.com/123dolala",
+    "followers_url" : "https://api.github.com/users/123dolala/followers",
+    "following_url" : "https://api.github.com/users/123dolala/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/123dolala/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/123dolala/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/123dolala/subscriptions",
+    "organizations_url" : "https://api.github.com/users/123dolala/orgs",
+    "repos_url" : "https://api.github.com/users/123dolala/repos",
+    "events_url" : "https://api.github.com/users/123dolala/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/123dolala/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+  "commit" : {
+    "author" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-04-28T07:20:27Z"
+    },
+    "committer" : {
+      "name" : "123dolala",
+      "email" : "a947801800@163.com",
+      "date" : "2017-04-28T07:20:27Z"
+    },
+    "message" : "#2 #25 第二次作业",
+    "tree" : {
+      "sha" : "27b82cc7cb9ee25911ff7dff284fe42bedb8b6ad",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/27b82cc7cb9ee25911ff7dff284fe42bedb8b6ad"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/comments",
+  "files" : [ {
+    "sha" : "707dca72f26731aefe048181fd7f6ab3bf1d7807",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111EditNoteActivity.java",
+    "status" : "added",
+    "additions" : 136,
+    "deletions" : 0,
+    "changes" : 136,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111EditNoteActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111EditNoteActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111EditNoteActivity.java?ref=9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+    "patch" : "@@ -0,0 +1,136 @@\n+package com.example.rem.androidlabs;\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.os.Bundle;\n+import android.os.Environment;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import java.io.BufferedReader;\n+import java.io.BufferedWriter;\n+import java.io.File;\n+import java.io.FileInputStream;\n+import java.io.FileOutputStream;\n+import java.io.IOException;\n+import java.io.InputStreamReader;\n+import java.io.OutputStreamWriter;\n+\n+public class EditNoteActivity extends Activity {\n+    /*start EditNoteActivity need note's name and id*/\n+    private EditText editTitle;\n+    private EditText editContent;\n+    Intent intent;\n+    private NoteDatabaseHelper dbHelper;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.edit_note);\n+\n+        dbHelper = new NoteDatabaseHelper(this, \"noteList.db\", null, 1);\n+        editTitle = (EditText) findViewById(R.id.edit_title);\n+        editContent = (EditText) findViewById(R.id.edit_content);\n+\n+        intent = getIntent();\n+        final String oldName = intent.getStringExtra(\"note_name\");\n+        editTitle.setText(oldName);\n+        putContent(oldName);\n+\n+        final Button saveContent = (Button) findViewById(R.id.save_content);\n+        saveContent.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                saveContent(oldName);\n+                Intent intent = new Intent(EditNoteActivity.this, ViewContentActivity.class);\n+                String newName = editTitle.getText().toString();\n+                intent.putExtra(\"note_name\", newName);\n+                startActivity(intent);\n+            }\n+        });\n+    }\n+\n+    private void saveContent(String oldName) {\n+        /*根据id，更新数据库中的笔记名。\n+        检查文件名是否有变\n+        如果有，删除原文件，创建新笔记文件\n+        如果没有，覆盖原文件。\n+         */\n+        String newName = editTitle.getText().toString();\n+        if (newName.equals(oldName)) {\n+            SQLiteDatabase db = dbHelper.getWritableDatabase();\n+            Cursor cursor = db.query(\"note\", new String[]{\"id\"}, \"name=?\", new String[]\n+                    {oldName}, null, null, null);\n+            int id;\n+            if (cursor.moveToNext())\n+                do {\n+                    id = cursor.getInt(cursor.getColumnIndex(oldName));\n+                    String str_id = String.valueOf(id);\n+                    db.execSQL(\"update note\" +\n+                            \"set name = ? where id = ?\", new String[]\n+                            {newName, str_id});\n+\n+                    String path = \"data/\" + getPackageName() + \"/files\" + newName;\n+                    File noteFile = new File(Environment.getDataDirectory().getPath(), path);\n+                    if (noteFile.exists()) {\n+                        noteFile.delete();\n+                    }\n+                    newNoteFile(newName);\n+                } while (cursor.moveToNext());\n+\n+\n+        } else {\n+            newNoteFile(newName);\n+        }\n+\n+    }\n+\n+    private void newNoteFile(String newName) {\n+        BufferedWriter writer = null;\n+        try {\n+            FileOutputStream out = openFileOutput(newName, MODE_PRIVATE);\n+            writer = new BufferedWriter(new OutputStreamWriter(out));\n+            String content = editContent.getText().toString();\n+            writer.write(content);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        } finally {\n+            try {\n+                if (writer != null) {\n+                    writer.close();\n+                }\n+            } catch (IOException e) {\n+                e.printStackTrace();\n+            }\n+        }\n+    }\n+\n+    private void putContent(String note_name) {\n+        FileInputStream in;\n+        BufferedReader reader = null;\n+        try {\n+            in = openFileInput(note_name);\n+            reader = new BufferedReader(new InputStreamReader(in));\n+\n+            editTitle.setText(note_name);\n+            String lines = null;\n+            String line = null;\n+            while ((line = reader.readLine()) != null) {\n+                lines += line;\n+            }\n+            editContent.setText(lines);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        } finally {\n+            if (reader != null)\n+                try {\n+                    reader.close();\n+                } catch (IOException e) {\n+                    e.printStackTrace();\n+                }\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "06602bf676f9451a19e09d48d071a45ee5d52821",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111MainActivity.java",
+    "status" : "added",
+    "additions" : 130,
+    "deletions" : 0,
+    "changes" : 130,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111MainActivity.java?ref=9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+    "patch" : "@@ -0,0 +1,130 @@\n+package com.example.rem.androidlabs;\n+\n+import android.app.Activity;\n+import android.content.ContentValues;\n+import android.content.DialogInterface;\n+import android.content.Intent;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.os.Bundle;\n+import android.support.v7.app.AlertDialog;\n+import android.view.View;\n+import android.widget.AdapterView;\n+import android.widget.ArrayAdapter;\n+import android.widget.Button;\n+import android.widget.ListView;\n+\n+import java.io.FileOutputStream;\n+import java.io.IOException;\n+import java.text.DateFormat;\n+import java.util.ArrayList;\n+import java.util.Date;\n+import java.util.List;\n+import java.util.Locale;\n+\n+public class MainActivity extends Activity implements AdapterView.OnItemLongClickListener {\n+    private List<String> note_names;\n+    private NoteDatabaseHelper dbHelper;\n+    ListView noteList;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_main);\n+\n+        dbHelper = new NoteDatabaseHelper(this, \"NoteList.db\", null, 1);\n+\n+        note_names = new ArrayList<>();\n+        ArrayAdapter<String> adapter = new ArrayAdapter<>(\n+                MainActivity.this, android.R.layout.simple_list_item_1, note_names\n+        );\n+        noteList = (ListView) findViewById(R.id.note_list);\n+        noteList.setAdapter(adapter);\n+        showNoteList();\n+        noteList.setOnItemLongClickListener(this);\n+\n+        Button addNote = (Button) findViewById(R.id.addNote);\n+        addNote.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                /*在数据库添加文件名，创建时间和id\n+                在EditNoteActivity中打开该笔记文件\n+                 */\n+                DateFormat df = DateFormat.getDateInstance(DateFormat.LONG, Locale.CHINA);\n+                String t = df.format(new Date());\n+                String NewNote = \"new note\";\n+                try {\n+                    FileOutputStream out = openFileOutput(NewNote, MODE_APPEND);\n+                } catch (IOException e) {\n+                    e.printStackTrace();\n+                }\n+\n+                SQLiteDatabase db = dbHelper.getWritableDatabase();\n+                ContentValues values = new ContentValues();\n+                values.put(\"name\", NewNote);\n+                values.put(\"time\", t);\n+                long RowId = db.insert(\"note\", null, values);\n+\n+                Intent intent = new Intent(MainActivity.this, EditNoteActivity.class);\n+                intent.putExtra(\"note_name\", NewNote);\n+                intent.putExtra(\"id\", RowId);\n+                startActivity(intent);\n+            }\n+        });\n+\n+        noteList.setOnItemClickListener(new AdapterView.OnItemClickListener() {\n+            @Override\n+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {\n+                Intent intent = new Intent(MainActivity.this, ViewContentActivity.class);\n+                String name = note_names.get(position);\n+                intent.putExtra(\"note_name\", name);\n+                startActivity(intent);\n+            }\n+        });\n+    }\n+\n+    private void showNoteList() {\n+        /*从数据库中得到笔记文件名列表\n+        显示到MainActivity中\n+         */\n+        SQLiteDatabase db = dbHelper.getReadableDatabase();\n+        Cursor cursor = db.query(\"note\", new String[]{\"name\"},\n+                null, null, null, null, null);\n+        if (cursor.moveToFirst()) {\n+            do {\n+                String name = cursor.getString(cursor.getColumnIndex(\"name\"));\n+                note_names.add(name);\n+            } while (cursor.moveToNext());\n+        }\n+        cursor.close();\n+    }\n+\n+    @Override\n+    public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {\n+        final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);\n+        builder.setTitle(\"delete\")\n+                .setMessage(\"delete this note?\")\n+                .setPositiveButton(\"delete\", new DialogInterface.OnClickListener() {\n+                    @Override\n+                    public void onClick(DialogInterface dialog, int which) {\n+                        note_names.remove(position);\n+\n+                        SQLiteDatabase db = dbHelper.getWritableDatabase();\n+                        String note_name = note_names.get(position);\n+                        db.delete(\"note\", \"name=?\", new String[]{note_name});\n+\n+                        noteList.deferNotifyDataSetChanged();\n+                        dialog.dismiss();\n+                    }\n+                })\n+                .setNegativeButton(\"cancel\", new DialogInterface.OnClickListener() {\n+                    @Override\n+                    public void onClick(DialogInterface dialog, int which) {\n+                        dialog.dismiss();\n+                    }\n+                })\n+                .setCancelable(true)\n+                .show();\n+        return false;\n+    }\n+}"
+  }, {
+    "sha" : "aa1def0154f490725aed2c3b950b0d55876a9c62",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111NoteDatabaseHelper.java",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111NoteDatabaseHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111NoteDatabaseHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111NoteDatabaseHelper.java?ref=9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+    "patch" : "@@ -0,0 +1,35 @@\n+package com.example.rem.androidlabs;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Rem on 2017/4/15.\n+ */\n+public class NoteDatabaseHelper extends SQLiteOpenHelper {\n+    public static final String CREATE_NOTE = \"create table note(\"\n+            + \"id integer primary key autoincrement,\"\n+            + \"name text,\"\n+            + \"time text)\";\n+\n+    private Context noteContext;\n+\n+    public NoteDatabaseHelper(Context context, String name,\n+                              SQLiteDatabase.CursorFactory factory,\n+                              int version) {\n+        super(context, name, factory, version);\n+        noteContext = context;\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(CREATE_NOTE);\n+\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "4b011c4927e2fed3702c778a0963774ac2fc09a8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java",
+    "status" : "added",
+    "additions" : 75,
+    "deletions" : 0,
+    "changes" : 75,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903111/Net1414080903111ViewContentActivity.java?ref=9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+    "patch" : "@@ -0,0 +1,75 @@\n+package com.example.rem.androidlabs;\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.TextView;\n+\n+import java.io.BufferedReader;\n+import java.io.FileInputStream;\n+import java.io.IOException;\n+import java.io.InputStreamReader;\n+\n+public class ViewContentActivity extends Activity {\n+    private TextView content;\n+    private TextView title;\n+    private Button editNote;\n+    Intent intent;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.view_note);\n+\n+        content = (TextView) findViewById(R.id.view_content);\n+        title = (TextView) findViewById(R.id.view_title);\n+        editNote = (Button) findViewById(R.id.edit_note);\n+\n+        intent = getIntent();\n+        final long id = intent.getLongExtra(\"id\", 0);\n+        showContent();\n+\n+        editNote.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(ViewContentActivity.this, EditNoteActivity.class);\n+                intent.putExtra(\"id\", id);\n+                intent.putExtra(\"note_name\",title.getText().toString());\n+                startActivity(intent);\n+            }\n+        });\n+    }\n+\n+    private void showContent() {\n+        /*从intent中得到要打开的文件名。\n+        在本地文件夹中打开笔记文件\n+        显示文件名和内容到ViewContentActivity中。\n+         */\n+\n+        String note_name = intent.getStringExtra(\"note_name\");\n+        title.setText(note_name);\n+        BufferedReader reader = null;\n+        try {\n+            FileInputStream in = openFileInput(note_name);\n+            reader = new BufferedReader(new InputStreamReader(in));\n+            String content_str=\"\";\n+            String line;\n+            while ((line=reader.readLine())!=null){\n+                content_str += line;\n+            }\n+            content.setText(content_str);\n+        } catch (IOException e) {\n+            e.printStackTrace();\n+        } finally {\n+            if (reader != null)\n+                try {\n+                    reader.close();\n+                } catch (IOException e) {\n+                    e.printStackTrace();\n+                }\n+        }\n+\n+    }\n+}"
+  } ],
+  "sha" : "9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9ce4fcb3fcebe3cfe5bb2201230cfc14727d2769",
+  "parents" : [ {
+    "sha" : "f24aa7d1fd2e7158d3e235ae7ac6ccbbfbeef1a2",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f24aa7d1fd2e7158d3e235ae7ac6ccbbfbeef1a2",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f24aa7d1fd2e7158d3e235ae7ac6ccbbfbeef1a2"
+  } ]
+}

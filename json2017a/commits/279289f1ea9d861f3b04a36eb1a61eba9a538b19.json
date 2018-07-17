@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 11,
+    "additions" : 11,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/279289f1ea9d861f3b04a36eb1a61eba9a538b19",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-03-03T15:42:44Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-03-03T15:42:44Z"
+    },
+    "message" : "#1",
+    "tree" : {
+      "sha" : "ed7145054f5a616b04786722401fe4d4a095e47b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ed7145054f5a616b04786722401fe4d4a095e47b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/279289f1ea9d861f3b04a36eb1a61eba9a538b19",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/279289f1ea9d861f3b04a36eb1a61eba9a538b19/comments",
+  "files" : [ {
+    "sha" : "fb3fc1be2e77c0d7f92938205d1df922fd26bb1c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/279289f1ea9d861f3b04a36eb1a61eba9a538b19/AndroidLabs/app/src/main/res/layout/activity_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/279289f1ea9d861f3b04a36eb1a61eba9a538b19/AndroidLabs/app/src/main/res/layout/activity_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220.xml?ref=279289f1ea9d861f3b04a36eb1a61eba9a538b19",
+    "patch" : "@@ -0,0 +1,11 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+    <TextView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:text=\"Hello world\"\n+        android:layout_gravity=\"center\"\n+        android:gravity=\"center\"/>\n+</LinearLayout>"
+  } ],
+  "sha" : "279289f1ea9d861f3b04a36eb1a61eba9a538b19",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/279289f1ea9d861f3b04a36eb1a61eba9a538b19",
+  "parents" : [ {
+    "sha" : "9b7025f219d662449343f9bd520d20d3b4c27118",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9b7025f219d662449343f9bd520d20d3b4c27118",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9b7025f219d662449343f9bd520d20d3b4c27118"
+  } ]
+}

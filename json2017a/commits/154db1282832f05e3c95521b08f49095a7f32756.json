@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 368,
+    "additions" : 0,
+    "deletions" : 368
+  },
+  "author" : {
+    "login" : "mokulai",
+    "id" : 14102144,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/14102144?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mokulai",
+    "html_url" : "https://github.com/mokulai",
+    "followers_url" : "https://api.github.com/users/mokulai/followers",
+    "following_url" : "https://api.github.com/users/mokulai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mokulai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mokulai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mokulai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mokulai/orgs",
+    "repos_url" : "https://api.github.com/users/mokulai/repos",
+    "events_url" : "https://api.github.com/users/mokulai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mokulai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/154db1282832f05e3c95521b08f49095a7f32756",
+  "commit" : {
+    "author" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-05-19T03:02:45Z"
+    },
+    "committer" : {
+      "name" : "mokulai",
+      "email" : "1151311711@qq.com",
+      "date" : "2017-05-19T03:02:45Z"
+    },
+    "message" : "#3  #30  第三次作业",
+    "tree" : {
+      "sha" : "01353f7924638c90ecd9581da7fa8dfd7ae7e04b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/01353f7924638c90ecd9581da7fa8dfd7ae7e04b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/154db1282832f05e3c95521b08f49095a7f32756",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/154db1282832f05e3c95521b08f49095a7f32756/comments",
+  "files" : [ {
+    "sha" : "7f83299a5ff487099c2900fbfea7e6641a91b64a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 114,
+    "changes" : 114,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/newaccount_1414080903240.xml?ref=9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "patch" : "@@ -1,114 +0,0 @@\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:orientation=\"vertical\"\n-    android:background=\"#8ab6fd\"\n-    >\n-    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-        xmlns:tools=\"http://schemas.android.com/tools\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"170dp\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"40dp\"\n-\n-        android:orientation=\"horizontal\"\n-        android:id=\"@+id/aaa\"\n-        android:background=\"#ffffff\"\n-\n-        >\n-\n-    <LinearLayout\n-        android:id=\"@+id/regist_username\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        style=\"@style/a\"\n-\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"40dp\"\n-        android:layout_marginBottom=\"20dp\"\n-        android:orientation=\"horizontal\"\n-        >\n-\n-        <TextView\n-\n-            android:layout_width=\"120dp\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-\n-            android:text=\"消费金额：\"\n-\n-            />\n-\n-        <EditText\n-            android:inputType=\"number\"\n-            android:id=\"@+id/et_value\"\n-            android:layout_width=\"180dp\"\n-            android:layout_height=\"30dp\"\n-            android:background=\"#ffffff\"\n-            android:paddingLeft=\"5dp\"\n-            android:hint=\"请输入您的本次的消费金额\"\n-            android:textSize=\"14dp\"\n-            />\n-\n-    </LinearLayout>\n-        <View style=\"@style/bg_line\" android:layout_below=\"@+id/regist_username\"/>\n-    <LinearLayout\n-        android:id=\"@+id/regist_password\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-\n-        android:layout_marginTop=\"20dp\"\n-        android:orientation=\"horizontal\"\n-\n-        android:layout_below=\"@+id/regist_username\"\n-        android:layout_alignLeft=\"@+id/regist_username\"\n-        android:layout_alignStart=\"@+id/regist_username\">\n-\n-        <TextView\n-\n-            android:layout_width=\"120dp\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"消费类型：\"\n-\n-            />\n-\n-        <Spinner\n-            android:id=\"@+id/spinner1\"\n-            android:layout_width=\"180dp\"\n-            android:layout_height=\"30dp\"\n-            android:entries=\"@array/languages\"\n-            android:layout_marginTop=\"1dp\"\n-            android:layout_below=\"@+id/regist_password\"\n-            android:layout_alignLeft=\"@+id/regist_password\"\n-            android:layout_alignStart=\"@+id/regist_password\"\n-            android:layout_weight=\"1\" />\n-\n-\n-    </LinearLayout>\n-\n-\n-\n-\n-    </RelativeLayout>\n-\n-    <Button\n-    android:id=\"@+id/button\"\n-    android:layout_width=\"200dp\"\n-    android:layout_height=\"100dp\"\n-\n-    android:color=\"#f7f7ed\"\n-    android:textColor=\"#226663\"\n-    android:text=\"提交消费记录\"\n-    android:background=\"@drawable/button_style\"\n-        android:layout_below=\"@+id/aaa\"\n-        android:layout_alignLeft=\"@+id/aaa\"\n-        android:layout_alignStart=\"@+id/aaa\"\n-        android:layout_marginLeft=\"72dp\"\n-        android:layout_marginStart=\"72dp\" />\n-</RelativeLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "26c5fc9a895da382f67ee7dc94512fca0f2e3696",
+    "filename" : "AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 254,
+    "changes" : 254,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/orderrecord_1414080903240.xml?ref=9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "patch" : "@@ -1,254 +0,0 @@\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:orientation=\"vertical\"\n-    android:background=\"#8ab6fd\"\n-    >\n-    <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-        xmlns:tools=\"http://schemas.android.com/tools\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"300dp\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"40dp\"\n-        android:orientation=\"horizontal\"\n-        android:id=\"@+id/aaa\"\n-\n-        android:background=\"#ffffff\"\n-        >\n-    <LinearLayout\n-        android:id=\"@+id/regist_username\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"50dp\"\n-        android:layout_marginBottom=\"10dp\"\n-        android:orientation=\"horizontal\"\n-        >\n-        <TextView\n-            android:id=\"@+id/value_name\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\" 总 金 额 ： \"\n-            />\n-        <TextView\n-            android:id=\"@+id/tt_value\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-\n-            />\n-    </LinearLayout>\n-\n-    <LinearLayout\n-        android:id=\"@+id/food\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_below=\"@+id/regist_username\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n-        android:layout_marginBottom=\"10dp\"\n-        android:orientation=\"horizontal\"\n-        >\n-        <TextView\n-            android:id=\"@+id/food_name\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"饮食花销： \"\n-            />\n-        <ProgressBar\n-            android:id=\"@+id/food_bar\"\n-            style=\"?android:attr/progressBarStyleHorizontal\"\n-            android:layout_width=\"240dp\"\n-            android:layout_weight=\"0.78\"\n-            android:layout_height=\"wrap_content\"\n-            android:progress=\"50\"\n-            />\n-\n-        <TextView\n-            android:id=\"@+id/food_value\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"25\"\n-            />\n-    </LinearLayout>\n-    <LinearLayout\n-        android:id=\"@+id/cheer\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_below=\"@+id/food\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n-        android:layout_marginBottom=\"10dp\"\n-        android:orientation=\"horizontal\"\n-        >\n-        <TextView\n-            android:id=\"@+id/cheer_name\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"娱乐花销： \"\n-            />\n-        <ProgressBar\n-            android:id=\"@+id/cheer_bar\"\n-            style=\"?android:attr/progressBarStyleHorizontal\"\n-            android:layout_width=\"240dp\"\n-            android:layout_weight=\"0.78\"\n-            android:layout_height=\"wrap_content\"\n-            android:progress=\"50\"\n-            android:indeterminate=\"false\" />\n-\n-        <TextView\n-            android:id=\"@+id/cheer_value\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"25\"\n-            />\n-    </LinearLayout>\n-    <LinearLayout\n-        android:id=\"@+id/dress\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_below=\"@+id/cheer\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n-        android:layout_marginBottom=\"10dp\"\n-        android:orientation=\"horizontal\"\n-        android:weightSum=\"1\">\n-        <TextView\n-            android:id=\"@+id/dress_name\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"服装花销： \"\n-            />\n-        <ProgressBar\n-            android:id=\"@+id/dress_bar\"\n-            style=\"?android:attr/progressBarStyleHorizontal\"\n-            android:layout_width=\"240dp\"\n-            android:layout_weight=\"0.78\"\n-            android:layout_height=\"wrap_content\"\n-            android:progress=\"50\"\n-            />\n-        <TextView\n-            android:id=\"@+id/dress_value\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"25\"\n-            />\n-\n-\n-    </LinearLayout>\n-    <LinearLayout\n-        android:id=\"@+id/car\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_below=\"@+id/dress\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n-        android:layout_marginBottom=\"10dp\"\n-        android:orientation=\"horizontal\"\n-        android:weightSum=\"1\">\n-        <TextView\n-            android:id=\"@+id/car_name\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"车费花销： \"\n-            />\n-        <ProgressBar\n-            android:id=\"@+id/car_bar\"\n-            style=\"?android:attr/progressBarStyleHorizontal\"\n-            android:layout_width=\"240dp\"\n-            android:layout_weight=\"0.78\"\n-            android:layout_height=\"wrap_content\"\n-            android:progress=\"50\"\n-            />\n-\n-\n-        <TextView\n-            android:id=\"@+id/car_value\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"25\"\n-            />\n-\n-\n-    </LinearLayout>\n-\n-    <LinearLayout\n-        android:id=\"@+id/gift\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_below=\"@+id/car\"\n-        android:layout_marginLeft=\"10dp\"\n-        android:layout_marginRight=\"10dp\"\n-        android:layout_marginTop=\"10dp\"\n-        android:layout_marginBottom=\"10dp\"\n-        android:orientation=\"horizontal\"\n-        >\n-        <TextView\n-            android:id=\"@+id/gift_name\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"礼物花销： \"\n-            />\n-        <ProgressBar\n-            android:id=\"@+id/gift_bar\"\n-            style=\"@android:style/Widget.Material.Light.ProgressBar.Horizontal\"\n-            android:layout_width=\"240dp\"\n-            android:layout_weight=\"0.78\"\n-            android:layout_height=\"wrap_content\"\n-            android:centerColor=\"#ff5a5d5a\"\n-            android:centerY=\"0.75\"\n-            android:endColor=\"#ff747674\"\n-            android:startColor=\"#ff9d9e9d\"\n-            android:progress=\"10\"\n-            android:indeterminate=\"false\" />\n-        <TextView\n-            android:id=\"@+id/gift_value\"\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:gravity=\"right\"\n-            android:paddingRight=\"5dp\"\n-            android:text=\"25\"\n-            />\n-    </LinearLayout>\n-    </RelativeLayout>\n-    <Button\n-        android:id=\"@+id/button\"\n-        android:layout_width=\"200dp\"\n-        android:layout_height=\"100dp\"\n-        android:background=\"@drawable/button_style\"\n-        android:color=\"#f7f7ed\"\n-        android:textColor=\"#226663\"\n-        android:text=\"查看详情\"\n-        android:layout_below=\"@+id/aaa\"\n-        android:layout_centerHorizontal=\"true\"\n-        android:layout_marginTop=\"50dp\" />\n-</RelativeLayout>"
+  } ],
+  "sha" : "154db1282832f05e3c95521b08f49095a7f32756",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/154db1282832f05e3c95521b08f49095a7f32756",
+  "parents" : [ {
+    "sha" : "9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9457e9eaca4a2ab6a3a0d7aa8a2dff21c6c70c7b"
+  } ]
+}

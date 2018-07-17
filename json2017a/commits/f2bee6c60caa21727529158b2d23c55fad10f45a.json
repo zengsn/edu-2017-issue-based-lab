@@ -1,0 +1,107 @@
+{
+  "committer" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 68,
+    "additions" : 66,
+    "deletions" : 2
+  },
+  "author" : {
+    "login" : "nickgezi",
+    "id" : 16288805,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/16288805?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/nickgezi",
+    "html_url" : "https://github.com/nickgezi",
+    "followers_url" : "https://api.github.com/users/nickgezi/followers",
+    "following_url" : "https://api.github.com/users/nickgezi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/nickgezi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/nickgezi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/nickgezi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/nickgezi/orgs",
+    "repos_url" : "https://api.github.com/users/nickgezi/repos",
+    "events_url" : "https://api.github.com/users/nickgezi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/nickgezi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f2bee6c60caa21727529158b2d23c55fad10f45a",
+  "commit" : {
+    "author" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-05-15T13:40:26Z"
+    },
+    "committer" : {
+      "name" : "wzk2333",
+      "email" : "1017722647@qq.com",
+      "date" : "2017-05-15T13:40:26Z"
+    },
+    "message" : "#4 #16 第四次实验\n\n第四次实验",
+    "tree" : {
+      "sha" : "081daf0189e9e04fb3810820928de9d08dde29d7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/081daf0189e9e04fb3810820928de9d08dde29d7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f2bee6c60caa21727529158b2d23c55fad10f45a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f2bee6c60caa21727529158b2d23c55fad10f45a/comments",
+  "files" : [ {
+    "sha" : "74a6c9b38158e482a3c82ec9803ffa06a4a65385",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/net1414080903112Activity.java",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f2bee6c60caa21727529158b2d23c55fad10f45a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/net1414080903112Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f2bee6c60caa21727529158b2d23c55fad10f45a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/net1414080903112Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903112/net1414080903112Activity.java?ref=f2bee6c60caa21727529158b2d23c55fad10f45a",
+    "patch" : "@@ -10,7 +10,7 @@\n import android.widget.Spinner;\n import android.widget.TextView;\n \n-public class net1414080903112Activity extends AppCompatActivity {\n+public class Net1414080903112Activity extends AppCompatActivity {\n \n \n     private static final String[] m={\"星期一\",\"星期二\",\"星期三\",\"星期四\",\"星期五\"};\n@@ -35,7 +35,7 @@ protected void onCreate(Bundle savedInstanceState) {\n             public void onClick(View v) {\n \n                 // 给bnt1添加点击响应事件,即带参数跳转到另一页面（参数为空课室数据的筛选参数）\n-                Intent intent =new Intent(net1414080903112Activity.this,result1414080903112.class);\n+                Intent intent =new Intent(Net1414080903112Activity.this,result1414080903112.class);\n                 intent.putExtra(\"weekday\", view.getText());\n                 intent.putExtra(\"time\", view2.getText());\n                 //启动"
+  }, {
+    "sha" : "99bf96190fc7483745bf05ecbf84bcda25c63225",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_result1414080903112.xml",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f2bee6c60caa21727529158b2d23c55fad10f45a/AndroidLabs/app/src/main/res/layout/activity_result1414080903112.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f2bee6c60caa21727529158b2d23c55fad10f45a/AndroidLabs/app/src/main/res/layout/activity_result1414080903112.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_result1414080903112.xml?ref=f2bee6c60caa21727529158b2d23c55fad10f45a",
+    "patch" : "@@ -0,0 +1,12 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <TextView\n+        android:text=\"1-118 1-203 1-213 1-302 1-305 1-308 1-404 1-412 1-514 1-610 1-616 1-702 1-703 1-802 1-803 2-105 2-114 2-203 2-204 2-211 2-212 2-305 2-308 2-316A 2-402 2-404 2-405 2-408 2-409 2-411 2-502 2-507（机房） 2-511 2-604 2-608 2-609 2-610 2-611 2-702 2-703 5-213 5-214 5-215 5-217 5-225 5-304 5-406 5-407 5-417 5-F201 6-102 6-105 6-201 6-204 6-305 6-401 7-101 7-110 7-111 7-209 7-304 7-305 7-401B 7-406\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/textView\"\n+        android:layout_weight=\"1\" />\n+</LinearLayout>"
+  }, {
+    "sha" : "c5aa97919419799d5af02ddd2deecc7ff9e1a448",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_select1414080903112.xml",
+    "status" : "added",
+    "additions" : 52,
+    "deletions" : 0,
+    "changes" : 52,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/f2bee6c60caa21727529158b2d23c55fad10f45a/AndroidLabs/app/src/main/res/layout/activity_select1414080903112.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/f2bee6c60caa21727529158b2d23c55fad10f45a/AndroidLabs/app/src/main/res/layout/activity_select1414080903112.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_select1414080903112.xml?ref=f2bee6c60caa21727529158b2d23c55fad10f45a",
+    "patch" : "@@ -0,0 +1,52 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout\n+    xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"fill_parent\"\n+    android:layout_height=\"fill_parent\"\n+    android:orientation=\"vertical\"\n+    >\n+    <LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"128dp\"\n+        android:orientation=\"horizontal\">\n+    <ImageView\n+        android:layout_width=\"152dp\"\n+        android:layout_height=\"101dp\"\n+        app:srcCompat=\"@drawable/timetable\"\n+        android:id=\"@+id/imageView\" />\n+\n+    <DatePicker\n+        android:layout_width=\"232dp\"\n+        android:layout_height=\"125dp\"\n+        android:id=\"@+id/datePicker\" />\n+    </LinearLayout>\n+    <TextView android:id=\"@+id/spinnerText\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"></TextView>\n+    <Spinner android:id=\"@+id/Spinner01\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"></Spinner>\n+\n+    <Space\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"20px\" />\n+\n+    <Space\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"20px\" />\n+\n+    <TextView android:id=\"@+id/spinnerText2\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"></TextView>\n+    <Spinner android:id=\"@+id/Spinner02\"\n+        android:layout_width=\"fill_parent\"\n+        android:layout_height=\"wrap_content\"></Spinner>\n+\n+    <Button\n+        android:text=\" 查询 \"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/button\"\n+        style=\"@style/Widget.AppCompat.Button\" />\n+</LinearLayout>"
+  } ],
+  "sha" : "f2bee6c60caa21727529158b2d23c55fad10f45a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f2bee6c60caa21727529158b2d23c55fad10f45a",
+  "parents" : [ {
+    "sha" : "e7f7e6b7dbcf634f683cb8b24651df82c2fc8684",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e7f7e6b7dbcf634f683cb8b24651df82c2fc8684",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e7f7e6b7dbcf634f683cb8b24651df82c2fc8684"
+  } ]
+}

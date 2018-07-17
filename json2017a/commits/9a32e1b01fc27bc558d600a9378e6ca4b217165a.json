@@ -1,0 +1,228 @@
+{
+  "committer" : {
+    "login" : "JCLin0318",
+    "id" : 26159058,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159058?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/JCLin0318",
+    "html_url" : "https://github.com/JCLin0318",
+    "followers_url" : "https://api.github.com/users/JCLin0318/followers",
+    "following_url" : "https://api.github.com/users/JCLin0318/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/JCLin0318/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/JCLin0318/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/JCLin0318/subscriptions",
+    "organizations_url" : "https://api.github.com/users/JCLin0318/orgs",
+    "repos_url" : "https://api.github.com/users/JCLin0318/repos",
+    "events_url" : "https://api.github.com/users/JCLin0318/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/JCLin0318/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 563,
+    "additions" : 543,
+    "deletions" : 20
+  },
+  "author" : {
+    "login" : "JCLin0318",
+    "id" : 26159058,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26159058?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/JCLin0318",
+    "html_url" : "https://github.com/JCLin0318",
+    "followers_url" : "https://api.github.com/users/JCLin0318/followers",
+    "following_url" : "https://api.github.com/users/JCLin0318/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/JCLin0318/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/JCLin0318/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/JCLin0318/subscriptions",
+    "organizations_url" : "https://api.github.com/users/JCLin0318/orgs",
+    "repos_url" : "https://api.github.com/users/JCLin0318/repos",
+    "events_url" : "https://api.github.com/users/JCLin0318/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/JCLin0318/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+  "commit" : {
+    "author" : {
+      "name" : "Your NameJCLin0318",
+      "email" : "835842295@qq.com",
+      "date" : "2017-05-25T15:11:11Z"
+    },
+    "committer" : {
+      "name" : "Your NameJCLin0318",
+      "email" : "835842295@qq.com",
+      "date" : "2017-05-25T15:11:11Z"
+    },
+    "message" : "#5 #128 第五次作业",
+    "tree" : {
+      "sha" : "4b17c5198d37e7f765f7156c9d6c67ce6f19924b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4b17c5198d37e7f765f7156c9d6c67ce6f19924b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9a32e1b01fc27bc558d600a9378e6ca4b217165a/comments",
+  "files" : [ {
+    "sha" : "380fe77dca69126fa1f0a04f1a1ff572ffcb4fe4",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java",
+    "status" : "modified",
+    "additions" : 31,
+    "deletions" : 2,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117FeeActivity.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -1,17 +1,46 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n \n+import android.content.Intent;\n+import android.content.SharedPreferences;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.TextView;\n \n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903117FeeActivity extends AppCompatActivity {\n \n+    TextView tvWater;\n+    TextView tvEle;\n+\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903117_fee);\n+        tvWater= (TextView) findViewById(R.id.tv_fee_water);\n+        tvEle= (TextView) findViewById(R.id.tv_fee_ele);\n+        Button bt= (Button) findViewById(R.id.bt_fee_submit);\n+        bt.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivityForResult(new Intent(Net1414080903117FeeActivity.this,Net1414080903117SubmitActivity.class),1);\n+            }\n+        });\n+        setData();\n+    }\n+    public void setData(){\n+        SharedPreferences sp=getSharedPreferences(\"fee\",MODE_PRIVATE);\n+        tvWater.setText(sp.getInt(\"water\",0)+\"元\");\n+        tvEle.setText(sp.getInt(\"ele\",0)+\"元\");\n+    }\n \n-\n+    @Override\n+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {\n+        super.onActivityResult(requestCode, resultCode, data);\n+        if(resultCode==1){\n+            setData();\n+        }\n     }\n-}\n\\ No newline at end of file\n+}"
+  }, {
+    "sha" : "a3fad9e2caf23510ec31ef9c2e6f89c848bb93e9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MainActivity.java",
+    "status" : "added",
+    "additions" : 53,
+    "deletions" : 0,
+    "changes" : 53,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MainActivity.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,53 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903117MainActivity extends AppCompatActivity {\n+\n+\n+    EditText etUsername;\n+    EditText etPassword;\n+\n+    Button btLogin;\n+\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903117_main);\n+\n+        etUsername = (EditText) findViewById(R.id.et_main_username);\n+        etPassword = (EditText) findViewById(R.id.et_main_password);\n+\n+        btLogin = (Button) findViewById(R.id.bt_login);\n+\n+        btLogin.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                String username = etUsername.getText().toString();\n+                String password = etPassword.getText().toString();\n+                if (check(username, password)) {\n+                    startActivity(new Intent(Net1414080903117MainActivity.this, Net1414080903117MenuActivity.class));\n+                } else {\n+                    Toast.makeText(Net1414080903117MainActivity.this, \"账号/密码错误！！\", Toast.LENGTH_SHORT).show();\n+                }\n+\n+            }\n+        });\n+    }\n+\n+\n+    public boolean check(String username, String password) {\n+        if (username.equals(\"linjianchao\") && password.equals(\"123\"))\n+            return true;\n+        return false;\n+    }\n+}"
+  }, {
+    "sha" : "b848aa54d5ff469f4a59599b07b4a2327b100227",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java",
+    "status" : "modified",
+    "additions" : 10,
+    "deletions" : 8,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MenuActivity.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -1,6 +1,6 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n \n-\n+import android.content.Intent;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n import android.view.View;\n@@ -10,25 +10,27 @@\n \n public class Net1414080903117MenuActivity extends AppCompatActivity {\n \n+    Button btFee;\n+    Button btRecord;\n+\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903117_menu);\n+        btFee= (Button) findViewById(R.id.bt_menu_fee);\n+        btRecord= (Button) findViewById(R.id.bt_menu_record);\n \n-        Button shuidianfei = (Button)findViewById(R.id.shuidianfei);\n-        Button kanjilu = (Button)findViewById(R.id.kanjilu);\n-\n-        shuidianfei.setOnClickListener(new View.OnClickListener() {\n+        btFee.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-\n+                startActivity(new Intent(Net1414080903117MenuActivity.this,Net1414080903117FeeActivity.class));\n             }\n         });\n \n-        kanjilu.setOnClickListener(new View.OnClickListener() {\n+        btRecord.setOnClickListener(new View.OnClickListener() {\n             @Override\n             public void onClick(View v) {\n-\n+                startActivity(new Intent(Net1414080903117MenuActivity.this,Net1414080903117RecordActivity.class));\n             }\n         });\n     }"
+  }, {
+    "sha" : "a6453362c2dcb233997a8a95d6d5f679a0f1db68",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MySQLiteOpenHelper.java",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MySQLiteOpenHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MySQLiteOpenHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117MySQLiteOpenHelper.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,31 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by Administrator on 2017/4/27.\n+ */\n+\n+public class Net1414080903117MySQLiteOpenHelper extends SQLiteOpenHelper {\n+\n+\n+    public Net1414080903117MySQLiteOpenHelper(Context context) {\n+        super(context, \"fee\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(\"create table record(\\n\" +\n+                \"electricity double,\\n\" +\n+                \"water double,\\n\" +\n+                \"date varchar(20)\\n\" +\n+                \");\");\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}"
+  }, {
+    "sha" : "166b67d277b666ac91243dd2bc698217197beb8c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordActivity.java",
+    "status" : "added",
+    "additions" : 88,
+    "deletions" : 0,
+    "changes" : 88,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordActivity.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,88 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import android.content.Context;\n+import android.database.Cursor;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.BaseAdapter;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+\n+import java.util.ArrayList;\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903117RecordActivity extends AppCompatActivity {\n+\n+    ListView lv;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903117_record);\n+        lv= (ListView) findViewById(R.id.lv);\n+        MyAdapter adapter=new MyAdapter(getData(),this);\n+        lv.setAdapter(adapter);\n+    }\n+    public List<Net1414080903117RecordBean> getData(){\n+        List<Net1414080903117RecordBean> beans=new ArrayList<>();\n+        Net1414080903117MySQLiteOpenHelper helper=new Net1414080903117MySQLiteOpenHelper(this);\n+        SQLiteDatabase db=helper.getReadableDatabase();\n+        Cursor cursor=db.query(\"record\",null,null,null,null,null,null);\n+        while(cursor.moveToNext()){\n+            Net1414080903117RecordBean bean=new Net1414080903117RecordBean();\n+            bean.setDate(cursor.getString(cursor.getColumnIndex(\"date\")));\n+            bean.setElectricity(cursor.getDouble(cursor.getColumnIndex(\"electricity\")));\n+            bean.setWater(cursor.getDouble(cursor.getColumnIndex(\"water\")));\n+            beans.add(bean);\n+        }\n+        return beans;\n+    }\n+\n+\n+    public class MyAdapter extends BaseAdapter{\n+\n+        List<Net1414080903117RecordBean> beans;\n+        Context context;\n+\n+        public MyAdapter(List<Net1414080903117RecordBean> beans, Context context) {\n+            this.beans = beans;\n+            this.context = context;\n+        }\n+\n+        @Override\n+        public int getCount() {\n+            return beans.size();\n+        }\n+\n+        @Override\n+        public Object getItem(int position) {\n+            return beans.get(position);\n+        }\n+\n+        @Override\n+        public long getItemId(int position) {\n+            return 0;\n+        }\n+\n+        @Override\n+        public View getView(int position, View convertView, ViewGroup parent) {\n+            if(convertView==null)\n+                convertView=LayoutInflater.from(context).inflate(R.layout.item_net1414080903117_recoed,null);\n+            TextView tvElectricity= (TextView) convertView.findViewById(R.id.tv_item_electricity);\n+            TextView tvWater= (TextView) convertView.findViewById(R.id.tv_item_water);\n+            TextView tvTotal= (TextView) convertView.findViewById(R.id.tv_item_total);\n+            TextView tvDate= (TextView) convertView.findViewById(R.id.tv_item_date);\n+            tvElectricity.setText(String.valueOf(beans.get(position).getElectricity()));\n+            tvWater.setText(String.valueOf(beans.get(position).getWater()));\n+            tvTotal.setText(String.valueOf(beans.get(position).getElectricity()+beans.get(position).getWater()));\n+            tvDate.setText(beans.get(position).getDate());\n+            return convertView;\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "44b6fcf45a8fb907ed57cd8284e2a9de77a1eecd",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordBean.java",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordBean.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordBean.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117RecordBean.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,36 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+/**\n+ * Created by Administrator on 2017/4/27.\n+ */\n+\n+public class Net1414080903117RecordBean {\n+\n+    double electricity;\n+    double water;\n+    String date;\n+\n+    public double getElectricity() {\n+        return electricity;\n+    }\n+\n+    public void setElectricity(double electricity) {\n+        this.electricity = electricity;\n+    }\n+\n+    public double getWater() {\n+        return water;\n+    }\n+\n+    public void setWater(double water) {\n+        this.water = water;\n+    }\n+\n+    public String getDate() {\n+        return date;\n+    }\n+\n+    public void setDate(String date) {\n+        this.date = date;\n+    }\n+}"
+  }, {
+    "sha" : "dc2e83c1f01789e2ea3096cdcd04c4b7ca728f3d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java",
+    "status" : "modified",
+    "additions" : 41,
+    "deletions" : 0,
+    "changes" : 41,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117SubmitActivity.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -1,15 +1,56 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n \n+import android.content.ContentValues;\n+import android.content.SharedPreferences;\n+import android.database.sqlite.SQLiteDatabase;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n \n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903117SubmitActivity extends AppCompatActivity {\n \n+    EditText etElectricity;\n+    EditText etWater;\n+\n+    Button btSubmit;\n+\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903117_submit);\n+\n+        etElectricity= (EditText) findViewById(R.id.et_submit_electricity);\n+        etWater= (EditText) findViewById(R.id.et_submit_water);\n+\n+        btSubmit= (Button) findViewById(R.id.bt_submit_submit);\n+\n+        btSubmit.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                SharedPreferences sp=Net1414080903117SubmitActivity.this.getSharedPreferences(\"fee\",MODE_PRIVATE);\n+                SharedPreferences.Editor editor=sp.edit();\n+                int water=sp.getInt(\"water\",0);\n+                water+=Integer.parseInt(etWater.getText().toString().trim());\n+                editor.putInt(\"water\",water);\n+                int ele=sp.getInt(\"ele\",0);\n+                ele+=Integer.parseInt(etElectricity.getText().toString().trim());\n+                editor.putInt(\"ele\",ele);\n+                editor.apply();\n+                Net1414080903117MySQLiteOpenHelper helper=new Net1414080903117MySQLiteOpenHelper(Net1414080903117SubmitActivity.this);\n+                SQLiteDatabase db=helper.getWritableDatabase();\n+                ContentValues values=new ContentValues();\n+                values.put(\"electricity\",etElectricity.getText().toString());\n+                values.put(\"water\",etWater.getText().toString());\n+                values.put(\"date\", Net1414080903117TimeUtil.getDateYMD());\n+                db.insert(\"record\",null,values);\n+                db.close();\n+                setResult(1);\n+                finish();\n+            }\n+        });\n     }\n }"
+  }, {
+    "sha" : "c2fca07c4344ef0f857779570bb0a6f6d391da88",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117TimeUtil.java",
+    "status" : "added",
+    "additions" : 16,
+    "deletions" : 0,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117TimeUtil.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117TimeUtil.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903117/Net1414080903117TimeUtil.java?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,16 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903117;\n+\n+import java.text.SimpleDateFormat;\n+import java.util.Date;\n+\n+/**\n+ * Created by Administrator on 2017/4/27.\n+ */\n+\n+public class Net1414080903117TimeUtil {\n+\n+    public static  String getDateYMD(){\n+        SimpleDateFormat format=new SimpleDateFormat(\"yyyy-MM-dd\");\n+        return format.format(new Date());\n+    }\n+}"
+  }, {
+    "sha" : "afb6cff6b11a867493a113de8cad1d006188d69a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903117_fee.xml",
+    "status" : "modified",
+    "additions" : 10,
+    "deletions" : 7,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_fee.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_fee.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_fee.xml?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -89,7 +89,7 @@\n                 android:textSize=\"18sp\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"wrap_content\"\n-                android:text=\"23\"/>\n+                android:text=\"3.5元/吨\"/>\n             <TextView\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"1dp\"\n@@ -100,18 +100,19 @@\n                 android:textSize=\"18sp\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"wrap_content\"\n-                android:text=\"用量\"/>\n+                android:text=\"20吨\"/>\n             <TextView\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"1dp\"\n                 android:background=\"#000000\"/>\n             <TextView\n+                android:id=\"@+id/tv_fee_water\"\n                 android:layout_margin=\"10dp\"\n                 android:gravity=\"center\"\n                 android:textSize=\"18sp\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"wrap_content\"\n-                android:text=\"余额\"/>\n+                android:text=\"100元\"/>\n         </LinearLayout>\n     </LinearLayout>\n \n@@ -201,7 +202,7 @@\n                 android:textSize=\"18sp\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"wrap_content\"\n-                android:text=\"23\"/>\n+                android:text=\"0.69元/度\"/>\n             <TextView\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"1dp\"\n@@ -212,23 +213,25 @@\n                 android:textSize=\"18sp\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"wrap_content\"\n-                android:text=\"用量\"/>\n+                android:text=\"1000\"/>\n             <TextView\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"1dp\"\n                 android:background=\"#000000\"/>\n             <TextView\n+                android:id=\"@+id/tv_fee_ele\"\n                 android:layout_margin=\"10dp\"\n                 android:gravity=\"center\"\n                 android:textSize=\"18sp\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"wrap_content\"\n-                android:text=\"余额\"/>\n+                android:text=\"100元\"/>\n         </LinearLayout>\n-    </LinearLayout>\\\n+    </LinearLayout>\n \n \n     <Button\n+        android:id=\"@+id/bt_fee_submit\"\n         android:layout_marginLeft=\"60dp\"\n         android:layout_marginRight=\"60dp\"\n         android:layout_marginTop=\"15dp\""
+  }, {
+    "sha" : "fc5ef64eedaada1e0b228180804d7c7868281d2c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903117_main.xml",
+    "status" : "added",
+    "additions" : 84,
+    "deletions" : 0,
+    "changes" : 84,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_main.xml?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,84 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:gravity=\"center_horizontal\"\n+    android:orientation=\"vertical\">\n+\n+\n+    <ImageView\n+    android:layout_marginTop=\"30dp\"\n+    android:layout_width=\"wrap_content\"\n+    android:layout_height=\"wrap_content\"\n+    android:src=\"@drawable/net1414080903117\"/>\n+\n+    <TextView\n+        android:layout_marginTop=\"20dp\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"26sp\"\n+        android:text=\"宿舍水电费\"/>\n+\n+\n+    <LinearLayout\n+        android:paddingLeft=\"50dp\"\n+        android:paddingRight=\"50dp\"\n+        android:gravity=\"center_horizontal\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textColor=\"@color/colorPrimary\"\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"账 号：\"/>\n+        <EditText\n+            android:id=\"@+id/et_main_username\"\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"0dp\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\" />\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:paddingLeft=\"50dp\"\n+        android:paddingRight=\"50dp\"\n+        android:gravity=\"center_horizontal\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textColor=\"@color/colorPrimary\"\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"密 码：\"/>\n+\n+        <EditText\n+            android:textSize=\"20sp\"\n+            android:layout_width=\"0dp\"\n+            android:layout_weight=\"1\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/et_main_password\" />\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/bt_login\"\n+        android:layout_marginLeft=\"60dp\"\n+        android:layout_marginRight=\"60dp\"\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textColor=\"#ffffff\"\n+        android:text=\"登录\"\n+        android:textSize=\"18sp\"\n+        android:background=\"@color/colorPrimary\"/>\n+\n+\n+\n+\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "3e340579bcecf38f7590fc3179e5fbc3d29c0cfa",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903117_menu.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_menu.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_menu.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_menu.xml?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -20,6 +20,7 @@\n         android:text=\"宿舍水电费\"/>\n \n     <Button\n+        android:id=\"@+id/bt_menu_fee\"\n         android:layout_marginLeft=\"60dp\"\n         android:layout_marginRight=\"60dp\"\n         android:layout_marginTop=\"15dp\"\n@@ -28,17 +29,16 @@\n         android:textColor=\"#ffffff\"\n         android:text=\"水电费\"\n         android:textSize=\"18sp\"\n-        android:id=\"@+id/shuidianfei\"\n         android:background=\"@color/colorPrimary\"/>\n \n     <Button\n+        android:id=\"@+id/bt_menu_record\"\n         android:layout_marginLeft=\"60dp\"\n         android:layout_marginRight=\"60dp\"\n         android:layout_marginTop=\"15dp\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:textColor=\"#ffffff\"\n-        android:id=\"@+id/kanjilu\"\n         android:text=\"查看记录\"\n         android:textSize=\"18sp\"\n         android:background=\"@color/colorPrimary\"/>"
+  }, {
+    "sha" : "ad05cf9260ebc726c8f413356d225bd5f9416629",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903117_record.xml",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_record.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_record.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_record.xml?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,12 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\">\n+\n+    <ListView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/lv\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "c162e2484a26f74b9dc6b5768ab28a4f31eb4691",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903117_submit.xml",
+    "status" : "modified",
+    "additions" : 10,
+    "deletions" : 1,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_submit.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_submit.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903117_submit.xml?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -6,6 +6,12 @@\n     android:background=\"#22CDCDC1\"\n     android:orientation=\"vertical\">\n \n+    <ImageView\n+        android:layout_marginTop=\"30dp\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:src=\"@drawable/net1414080903117\"/>\n+\n     <LinearLayout\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n@@ -21,6 +27,7 @@\n             android:text=\"电    费： \"/>\n \n         <EditText\n+            android:id=\"@+id/et_submit_electricity\"\n             android:gravity=\"right\"\n             android:layout_width=\"0dp\"\n             android:layout_weight=\"1\"\n@@ -49,6 +56,7 @@\n             android:text=\"水    费： \"/>\n \n         <EditText\n+            android:id=\"@+id/et_submit_water\"\n             android:gravity=\"right\"\n             android:layout_width=\"0dp\"\n             android:layout_weight=\"1\"\n@@ -71,5 +79,6 @@\n         android:textColor=\"#ffffff\"\n         android:text=\"交      费\"\n         android:textSize=\"18sp\"\n-        android:background=\"@color/colorPrimary\"/>\n+        android:background=\"@color/colorPrimary\"\n+        android:id=\"@+id/bt_submit_submit\" />\n </LinearLayout>"
+  }, {
+    "sha" : "384e4fc2700ef9619e97240ef67083af346f2dfe",
+    "filename" : "AndroidLabs/app/src/main/res/layout/item_net1414080903117_recoed.xml",
+    "status" : "added",
+    "additions" : 119,
+    "deletions" : 0,
+    "changes" : 119,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/item_net1414080903117_recoed.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9a32e1b01fc27bc558d600a9378e6ca4b217165a/AndroidLabs/app/src/main/res/layout/item_net1414080903117_recoed.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/item_net1414080903117_recoed.xml?ref=9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+    "patch" : "@@ -0,0 +1,119 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"vertical\"\n+    android:padding=\"20dp\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"wrap_content\">\n+\n+    <TextView\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:textSize=\"18sp\"\n+        android:gravity=\"center_horizontal\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"交费记录\"/>\n+\n+    <TextView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"1sp\"\n+        android:background=\"#33000000\"/>\n+\n+    <TextView\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:textSize=\"16sp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"交费金额（总共）：\"\n+        android:id=\"@+id/textView2\" />\n+\n+    <LinearLayout\n+        android:background=\"#ffffff\"\n+        android:gravity=\"center_horizontal\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:id=\"@+id/tv_item_total\"\n+            android:gravity=\"center_horizontal\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"50sp\"\n+            android:textColor=\"@color/colorPrimary\"\n+            android:text=\"333\"/>\n+\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:layout_marginLeft=\"10dp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"元\"/>\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"水       费：\"/>\n+        <TextView\n+            android:id=\"@+id/tv_item_water\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"16sp\"/>\n+        <TextView\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"16sp\"\n+            android:text=\"元\"/>\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"电       费：\"/>\n+        <TextView\n+            android:id=\"@+id/tv_item_electricity\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"16sp\"/>\n+        <TextView\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"16sp\"\n+            android:text=\"元\"/>\n+    </LinearLayout>\n+\n+    <LinearLayout\n+        android:background=\"#ffffff\"\n+        android:padding=\"10dp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"horizontal\">\n+        <TextView\n+            android:textSize=\"16sp\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"收费时间：\"/>\n+        <TextView\n+            android:id=\"@+id/tv_item_date\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"16sp\"/>\n+    </LinearLayout>\n+\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9a32e1b01fc27bc558d600a9378e6ca4b217165a",
+  "parents" : [ {
+    "sha" : "f92b7ad56f36b6a82540d2f48e0bf65dde02329a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f92b7ad56f36b6a82540d2f48e0bf65dde02329a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f92b7ad56f36b6a82540d2f48e0bf65dde02329a"
+  } ]
+}

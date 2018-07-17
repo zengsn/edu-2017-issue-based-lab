@@ -1,0 +1,32 @@
+[ {
+  "sha" : "e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+  "commit" : {
+    "author" : {
+      "name" : "IcyvE",
+      "email" : "了l",
+      "date" : "2017-05-26T07:29:43Z"
+    },
+    "committer" : {
+      "name" : "IcyvE",
+      "email" : "了l",
+      "date" : "2017-05-26T07:29:43Z"
+    },
+    "message" : "#4 #134 第四次作业",
+    "tree" : {
+      "sha" : "4132b9f27a7c18bfea7428f45ce7bd5e68ce85ba",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4132b9f27a7c18bfea7428f45ce7bd5e68ce85ba"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e5f9be49ed66a4f1513a5ac8dc3eafc282e7918a/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "2aac081bb329694cc9eafd4f2c5053a16ae172be",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2aac081bb329694cc9eafd4f2c5053a16ae172be",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2aac081bb329694cc9eafd4f2c5053a16ae172be"
+  } ]
+} ]

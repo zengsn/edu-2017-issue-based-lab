@@ -1,0 +1,95 @@
+{
+  "committer" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 39,
+    "additions" : 18,
+    "deletions" : 21
+  },
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0762a72642112eaf5d26038a77e3b209c5f875e0",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-05-11T16:08:59Z"
+    },
+    "committer" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-05-11T16:08:59Z"
+    },
+    "message" : "#3 #28 第三次作业",
+    "tree" : {
+      "sha" : "697618038ea310a4319358b2d2481a0c1ce8ad66",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/697618038ea310a4319358b2d2481a0c1ce8ad66"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0762a72642112eaf5d26038a77e3b209c5f875e0",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0762a72642112eaf5d26038a77e3b209c5f875e0/comments",
+  "files" : [ {
+    "sha" : "e1b414c991dfd12c1996c6e018cdbeb36add693f",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/main_back_Net1414080903127.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0762a72642112eaf5d26038a77e3b209c5f875e0/AndroidLabs/app/src/main/res/drawable/main_back_Net1414080903127.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0762a72642112eaf5d26038a77e3b209c5f875e0/AndroidLabs/app/src/main/res/drawable/main_back_Net1414080903127.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/main_back_Net1414080903127.png?ref=0762a72642112eaf5d26038a77e3b209c5f875e0"
+  }, {
+    "sha" : "5e35d0822bc3db0d831d39bd9bd39a56489d94b1",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml",
+    "status" : "modified",
+    "additions" : 18,
+    "deletions" : 21,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0762a72642112eaf5d26038a77e3b209c5f875e0/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0762a72642112eaf5d26038a77e3b209c5f875e0/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml?ref=0762a72642112eaf5d26038a77e3b209c5f875e0",
+    "patch" : "@@ -1,27 +1,24 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<android.support.constraint.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n+    android:background=\"@drawable/main_back_Net1414080903127\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n     tools:context=\"edu.hzuapps.androidlabs.Net1414080903127MainActivity\">\n \n-    <RelativeLayout\n-        android:layout_width=\"368dp\"\n-        android:layout_height=\"495dp\"\n-        tools:layout_editor_absoluteY=\"8dp\"\n-        tools:layout_editor_absoluteX=\"8dp\">\n-        <Button\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:id=\"@+id/rank\"\n-            android:text=\"查看排名\" />\n-        <Button\n-            android:layout_width=\"wrap_content\"\n-            android:layout_height=\"wrap_content\"\n-            android:id=\"@+id/start\"\n-            android:text=\"开始游戏\"\n-            android:layout_below=\"@id/rank\"/>\n-\n-    </RelativeLayout>\n-</android.support.constraint.ConstraintLayout>\n+    <Button\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/rank\"\n+        android:text=\"查看排名\" />\n+    <Button\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/start\"\n+        android:text=\"开始游戏\"\n+        android:layout_below=\"@id/rank\"/>\n+</RelativeLayout>"
+  } ],
+  "sha" : "0762a72642112eaf5d26038a77e3b209c5f875e0",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0762a72642112eaf5d26038a77e3b209c5f875e0",
+  "parents" : [ {
+    "sha" : "ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ac04214c3087f1c71c102d2be157fb4c6009b424"
+  } ]
+}

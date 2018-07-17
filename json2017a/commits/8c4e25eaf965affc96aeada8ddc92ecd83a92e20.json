@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 68,
+    "additions" : 61,
+    "deletions" : 7
+  },
+  "author" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/8c4e25eaf965affc96aeada8ddc92ecd83a92e20",
+  "commit" : {
+    "author" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-06-02T15:17:41Z"
+    },
+    "committer" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-06-02T15:17:41Z"
+    },
+    "message" : "#5 #131 第五次作业",
+    "tree" : {
+      "sha" : "8033560f217ae7a5a21c28d213181531df17c999",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8033560f217ae7a5a21c28d213181531df17c999"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/8c4e25eaf965affc96aeada8ddc92ecd83a92e20",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8c4e25eaf965affc96aeada8ddc92ecd83a92e20/comments",
+  "files" : [ {
+    "sha" : "bb09862c9845e50ae09d41f9193f0cd35c242ec4",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java",
+    "status" : "modified",
+    "additions" : 29,
+    "deletions" : 7,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8c4e25eaf965affc96aeada8ddc92ecd83a92e20/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8c4e25eaf965affc96aeada8ddc92ecd83a92e20/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118MainActivity.java?ref=8c4e25eaf965affc96aeada8ddc92ecd83a92e20",
+    "patch" : "@@ -23,6 +23,7 @@\n     private static final String TAG = \"MainActivity\";\n     Cursor cursor;\n     ListView lv;\n+    private RecordDatabaseHelper dbHelper;\n \n     public List<VideoInfo> sysVideoList = new ArrayList<>();\n \n@@ -35,14 +36,18 @@ protected void onCreate(Bundle savedInstanceState) {\n         final MyAdapter adapter=new MyAdapter(this,sysVideoList);\n         lv.setAdapter(adapter);\n         lv.setEmptyView(LayoutInflater.from(this).inflate(R.layout.empty_list,null));\n+        createRecord(sysVideoList);\n         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {\n-           @Override\n-           public void onItemClick(AdapterView<?> parent, View view, int position, long id) {\n-               Intent intent=new Intent(Net1414080903118MainActivity.this,Net1414080903118PlayActivity.class);\n-               intent.putExtra(\"path\",(String)adapter.getItem(position));\n-               startActivity(intent);\n-           }\n-       });\n+            @Override\n+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {\n+            \tString name = sysVideoList.get(position);\n+            \tupdateRecord(name);\t\n+\n+                Intent intent=new Intent(Net1414080903118MainActivity.this,Net1414080903118PlayActivity.class);\n+                intent.putExtra(\"path\",(String)adapter.getItem(position));\n+                startActivity(intent);\n+            }\n+        });\n     }\n \n     private void setVideoList() {\n@@ -99,4 +104,21 @@ private void setVideoList() {\n         }\n     }\n \n+    private void updateRecord(String name){\n+    \tSQliteDatabase db = dbHelper.getWritableDatabase();\n+    \tContentValues values = new ContentValues();\n+    \tvalues.put(\"watched\",1);\n+    \tdb.update(\"Record\",values,\"name=?\",new String[]{name});\n+    }\n+\n+    private void createRecord(List VideoList){\n+    \tSQliteDatabase db = dbHelper.getWritableDatabase();\n+    \tString check = \"if not exists(select * from Record where name=?)\";\n+    \tfor(VideoInfo v:sysVideoList){\n+    \t\tString name = v.getDisplayName();\n+    \t\tdb.execSQL(\"insert into Record (name,watched) values(?,?) \"+check,\n+    \t\t\t\tnew String[]{name,0,name});\n+    \t}\n+    }\n+\n }"
+  }, {
+    "sha" : "ff9d65251ef81bfdcfdcd85e9ba6699a3236e78f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118RecordDatabaseHelper.java",
+    "status" : "added",
+    "additions" : 32,
+    "deletions" : 0,
+    "changes" : 32,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/8c4e25eaf965affc96aeada8ddc92ecd83a92e20/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118RecordDatabaseHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/8c4e25eaf965affc96aeada8ddc92ecd83a92e20/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118RecordDatabaseHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903118/Net1414080903118RecordDatabaseHelper.java?ref=8c4e25eaf965affc96aeada8ddc92ecd83a92e20",
+    "patch" : "@@ -0,0 +1,32 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903118;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+public class RecordDatabaseHelper extends SQLiteOpenHelper{\n+\tpublic static final String CREATE_RECORD = \"create table Record(\"\n+\t\t+\"id integer primary key autoincrement,\"\n+\t\t+\"name text,\"\n+\t\t+\"watched integer)\";\n+\n+\tprivate Context recordContext;\n+\n+\tpublic RecordDatabaseHelper(Context context,String name,\n+\t\t\t\t\t\t\t\tSQLiteDatabase.CursorFactory factory,\n+\t\t\t\t\t\t\t\tint version){\n+\t\tsuper(context,name,factory,version);\n+\t\trecordContext = context;\n+\t}\n+\n+\t@Override\n+    public void onCreate(SQLiteDatabase db) {\n+        db.execSQL(CREATE_RECORD);\n+\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\n+\n+    }\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "8c4e25eaf965affc96aeada8ddc92ecd83a92e20",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/8c4e25eaf965affc96aeada8ddc92ecd83a92e20",
+  "parents" : [ {
+    "sha" : "fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fb98d372007e22434e9b1e9803e95fa2ff3e0271"
+  } ]
+}

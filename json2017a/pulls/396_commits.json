@@ -1,0 +1,68 @@
+[ {
+  "sha" : "05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+  "commit" : {
+    "author" : {
+      "name" : "14lihaoming",
+      "email" : "1015479190@qq.com",
+      "date" : "2017-05-28T12:04:52Z"
+    },
+    "committer" : {
+      "name" : "14lihaoming",
+      "email" : "1015479190@qq.com",
+      "date" : "2017-05-28T12:04:52Z"
+    },
+    "message" : "#5 #85 第五次作业",
+    "tree" : {
+      "sha" : "2ce55226c4407063c90e2aa827ab0ec2dff191c0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2ce55226c4407063c90e2aa827ab0ec2dff191c0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/05a365eb47e07dcae73abac5a14dd737dafe4fd7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/05a365eb47e07dcae73abac5a14dd737dafe4fd7/comments",
+  "author" : {
+    "login" : "14lihaoming",
+    "id" : 26020903,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26020903?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14lihaoming",
+    "html_url" : "https://github.com/14lihaoming",
+    "followers_url" : "https://api.github.com/users/14lihaoming/followers",
+    "following_url" : "https://api.github.com/users/14lihaoming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14lihaoming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14lihaoming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14lihaoming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14lihaoming/orgs",
+    "repos_url" : "https://api.github.com/users/14lihaoming/repos",
+    "events_url" : "https://api.github.com/users/14lihaoming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14lihaoming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "14lihaoming",
+    "id" : 26020903,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26020903?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14lihaoming",
+    "html_url" : "https://github.com/14lihaoming",
+    "followers_url" : "https://api.github.com/users/14lihaoming/followers",
+    "following_url" : "https://api.github.com/users/14lihaoming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14lihaoming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14lihaoming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14lihaoming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14lihaoming/orgs",
+    "repos_url" : "https://api.github.com/users/14lihaoming/repos",
+    "events_url" : "https://api.github.com/users/14lihaoming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14lihaoming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "a85dd57197b81dff398a4307b78d7999aa47f9ef",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a85dd57197b81dff398a4307b78d7999aa47f9ef",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a85dd57197b81dff398a4307b78d7999aa47f9ef"
+  } ]
+} ]

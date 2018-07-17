@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "net217ptz",
+    "id" : 26159076,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159076?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/net217ptz",
+    "html_url" : "https://github.com/net217ptz",
+    "followers_url" : "https://api.github.com/users/net217ptz/followers",
+    "following_url" : "https://api.github.com/users/net217ptz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/net217ptz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/net217ptz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/net217ptz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/net217ptz/orgs",
+    "repos_url" : "https://api.github.com/users/net217ptz/repos",
+    "events_url" : "https://api.github.com/users/net217ptz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/net217ptz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 6,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "net217ptz",
+    "id" : 26159076,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26159076?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/net217ptz",
+    "html_url" : "https://github.com/net217ptz",
+    "followers_url" : "https://api.github.com/users/net217ptz/followers",
+    "following_url" : "https://api.github.com/users/net217ptz/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/net217ptz/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/net217ptz/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/net217ptz/subscriptions",
+    "organizations_url" : "https://api.github.com/users/net217ptz/orgs",
+    "repos_url" : "https://api.github.com/users/net217ptz/repos",
+    "events_url" : "https://api.github.com/users/net217ptz/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/net217ptz/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/16aae7a1d3e10114f49e1a07a939555f0eb9b406",
+  "commit" : {
+    "author" : {
+      "name" : "net217ptz",
+      "email" : "254093288@qq.com",
+      "date" : "2017-06-20T03:01:45Z"
+    },
+    "committer" : {
+      "name" : "net217ptz",
+      "email" : "254093288@qq.com",
+      "date" : "2017-06-20T03:01:45Z"
+    },
+    "message" : "实验六解析文件",
+    "tree" : {
+      "sha" : "7293a105e0e66c1a7d61aedc600ad65609f523eb",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7293a105e0e66c1a7d61aedc600ad65609f523eb"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/16aae7a1d3e10114f49e1a07a939555f0eb9b406",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/16aae7a1d3e10114f49e1a07a939555f0eb9b406/comments",
+  "files" : [ {
+    "sha" : "df950b8bc6d90c50d1cd24d0479ceeea5e1fc2c6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/1414080903217ptz.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/16aae7a1d3e10114f49e1a07a939555f0eb9b406/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/1414080903217ptz.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/16aae7a1d3e10114f49e1a07a939555f0eb9b406/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/1414080903217ptz.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903217/1414080903217ptz.xml?ref=16aae7a1d3e10114f49e1a07a939555f0eb9b406",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n+<po>\n+  <p1>\n+   my name is peng tianzhu\n+  </p1>\n+</po>\n\\ No newline at end of file"
+  } ],
+  "sha" : "16aae7a1d3e10114f49e1a07a939555f0eb9b406",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/16aae7a1d3e10114f49e1a07a939555f0eb9b406",
+  "parents" : [ {
+    "sha" : "0f7f2ea707951cc3a28d941ed64b253fde8d36b4",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0f7f2ea707951cc3a28d941ed64b253fde8d36b4",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0f7f2ea707951cc3a28d941ed64b253fde8d36b4"
+  } ]
+}

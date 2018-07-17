@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 28,
+    "additions" : 28,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9b7025f219d662449343f9bd520d20d3b4c27118",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-03-03T15:15:27Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-03-03T15:15:27Z"
+    },
+    "message" : "#1 #76 第1次实验",
+    "tree" : {
+      "sha" : "f54c9438a8ea345df7cdd390f3ad365c02c8b4e2",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f54c9438a8ea345df7cdd390f3ad365c02c8b4e2"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9b7025f219d662449343f9bd520d20d3b4c27118",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9b7025f219d662449343f9bd520d20d3b4c27118/comments",
+  "files" : [ {
+    "sha" : "8cb8b8348dbf99d7779e3c8fe81f6f2e9c87a143",
+    "filename" : "AndroidLabs/homeworks/net1414080903220/Net1414080903220Activity.java",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9b7025f219d662449343f9bd520d20d3b4c27118/AndroidLabs/homeworks/net1414080903220/Net1414080903220Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9b7025f219d662449343f9bd520d20d3b4c27118/AndroidLabs/homeworks/net1414080903220/Net1414080903220Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/homeworks/net1414080903220/Net1414080903220Activity.java?ref=9b7025f219d662449343f9bd520d20d3b4c27118",
+    "patch" : "@@ -0,0 +1,17 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220;\n+\n+import android.app.Activity;\n+import android.os.Bundle;\n+\n+/**\n+ * Created by cheng on 2017/3/3.\n+ */\n+\n+public class Net1414080903220Activity extends Activity {\n+    @Override\n+    public   void onCreate(Bundle savedInstanceState){\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.net1414080903220activity);\n+    }\n+\n+}"
+  }, {
+    "sha" : "fb3fc1be2e77c0d7f92938205d1df922fd26bb1c",
+    "filename" : "AndroidLabs/homeworks/net1414080903220/net1414080903220activity.xml",
+    "status" : "added",
+    "additions" : 11,
+    "deletions" : 0,
+    "changes" : 11,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9b7025f219d662449343f9bd520d20d3b4c27118/AndroidLabs/homeworks/net1414080903220/net1414080903220activity.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9b7025f219d662449343f9bd520d20d3b4c27118/AndroidLabs/homeworks/net1414080903220/net1414080903220activity.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/homeworks/net1414080903220/net1414080903220activity.xml?ref=9b7025f219d662449343f9bd520d20d3b4c27118",
+    "patch" : "@@ -0,0 +1,11 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+    <TextView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:text=\"Hello world\"\n+        android:layout_gravity=\"center\"\n+        android:gravity=\"center\"/>\n+</LinearLayout>"
+  } ],
+  "sha" : "9b7025f219d662449343f9bd520d20d3b4c27118",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9b7025f219d662449343f9bd520d20d3b4c27118",
+  "parents" : [ {
+    "sha" : "2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/2253a7dedaf35ded0df1fe7f46175b13505f3036",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/2253a7dedaf35ded0df1fe7f46175b13505f3036"
+  } ]
+}

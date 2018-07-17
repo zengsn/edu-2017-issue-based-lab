@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "Feirty",
+    "id" : 26110956,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26110956?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Feirty",
+    "html_url" : "https://github.com/Feirty",
+    "followers_url" : "https://api.github.com/users/Feirty/followers",
+    "following_url" : "https://api.github.com/users/Feirty/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Feirty/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Feirty/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Feirty/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Feirty/orgs",
+    "repos_url" : "https://api.github.com/users/Feirty/repos",
+    "events_url" : "https://api.github.com/users/Feirty/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Feirty/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 270,
+    "additions" : 270,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Feirty",
+    "id" : 26110956,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26110956?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Feirty",
+    "html_url" : "https://github.com/Feirty",
+    "followers_url" : "https://api.github.com/users/Feirty/followers",
+    "following_url" : "https://api.github.com/users/Feirty/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Feirty/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Feirty/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Feirty/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Feirty/orgs",
+    "repos_url" : "https://api.github.com/users/Feirty/repos",
+    "events_url" : "https://api.github.com/users/Feirty/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Feirty/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+  "commit" : {
+    "author" : {
+      "name" : "Feirty",
+      "email" : "1050416617@qq.com",
+      "date" : "2017-06-01T13:57:58Z"
+    },
+    "committer" : {
+      "name" : "Feirty",
+      "email" : "1050416617@qq.com",
+      "date" : "2017-06-01T13:57:58Z"
+    },
+    "message" : "#1 #43 第五次试验",
+    "tree" : {
+      "sha" : "1e93f1f80a7f7b363294c3a280477d63558e719c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1e93f1f80a7f7b363294c3a280477d63558e719c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/comments",
+  "files" : [ {
+    "sha" : "42d56e016b70be899701677710d6a166c4f5a659",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/CreateSchedule.java",
+    "status" : "added",
+    "additions" : 89,
+    "deletions" : 0,
+    "changes" : 89,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/CreateSchedule.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/CreateSchedule.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/CreateSchedule.java?ref=6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+    "patch" : "@@ -0,0 +1,89 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903229;\n+import android.os.Environment;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.util.Xml;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+\n+import org.xmlpull.v1.XmlSerializer;\n+\n+import java.io.File;\n+import java.io.FileOutputStream;\n+\n+/**\n+ * Created by Administrator on 2017-4-14.\n+ */\n+\n+public class CreateSchedule extends AppCompatActivity {\n+    private EditText event;\n+    private EditText time;\n+    private EditText content;\n+    private Button save;\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.createschedule_net1414080903229);\n+        event = (EditText) findViewById(R.id.JH);\n+        time = (EditText) findViewById(R.id.time);\n+        content = (EditText) findViewById(R.id.add_content);\n+        save = (Button) findViewById(R.id.btn_ok);\n+        save.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+             public void onClick(View v) {\n+                String event1 = event.getText().toString();\n+                String time1 = time.getText().toString();\n+                String content1 = content.getText().toString();\n+                if(event1==null || event1.equals(\"\")){\n+                    Toast.makeText(CreateSchedule.this,\"计划名称不为空！\",Toast.LENGTH_SHORT).show();\n+                }else if(time1==null ||time1.equals(\"\")){\n+                    Toast.makeText(CreateSchedule.this, \"时间不为空！\", Toast.LENGTH_SHORT).show();\n+                }else if(content1==null || content1.equals(\"\")){\n+                    Toast.makeText(CreateSchedule.this,\"内容不为空！\",Toast.LENGTH_SHORT).show();\n+                }else{\n+                    PlanInfo plan = new PlanInfo();\n+                    plan.setEvent(event1);\n+                    plan.setTime(time1);\n+                    plan.setContent(content1);\n+                    saveXml(plan);\n+                }\n+            }\n+        }\n+        );\n+    }\n+    // 保存信息\n+    public void saveXml(PlanInfo plan) {\n+        try {\n+            File file = new File(Environment.getExternalStorageDirectory(), \"plans.xml\");\n+            FileOutputStream fos = new FileOutputStream(file);\n+            // 获得一个序列化工具\n+            XmlSerializer serializer = Xml.newSerializer();\n+            serializer.setOutput(fos, \"utf-8\");\n+            // 设置文件头\n+            serializer.startDocument(\"utf-8\", true);\n+            serializer.startTag(null, \"plans\");\n+            serializer.startTag(null,\"plan\");\n+            // 写事件\n+            serializer.startTag(null, \"event\");\n+            serializer.text(plan.getEvent());\n+            serializer.endTag(null, \"event\");\n+            // 写时间\n+            serializer.startTag(null, \"time\");\n+            serializer.text(plan.getTime());\n+            serializer.endTag(null, \"time\");\n+            //写内容\n+            serializer.startTag(null, \"content\");\n+            serializer.text(plan.getContent());\n+            serializer.endTag(null, \"content\");\n+            serializer.endTag(null, \"plan\");\n+            serializer.endTag(null, \"plans\");\n+            serializer.endDocument();\n+            fos.close();\n+            Toast.makeText(getApplicationContext(), \"计划创建成功！\", Toast.LENGTH_SHORT).show();\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+            Toast.makeText(getApplicationContext(), \"计划创建失败！\", Toast.LENGTH_SHORT).show();\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "0b0c4acebca87545b522f30b2830cd7d0787bc4f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlanInfo.java",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlanInfo.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlanInfo.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlanInfo.java?ref=6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+    "patch" : "@@ -0,0 +1,36 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903229;\n+\n+/**\n+ * Created by Administrator on 2017-6-1.\n+ */\n+\n+public class PlanInfo {\n+    private String event;\n+    private String time;\n+    private String content;\n+\n+    public PlanInfo(){\n+        super();\n+    }\n+\n+    public void setEvent(String event){\n+        this.event = event;\n+    }\n+    public String getEvent(){\n+        return event;\n+    }\n+    public void setTime(String time){\n+        this.time = time;\n+    }\n+    public String getTime(){\n+        return time;\n+    }\n+    public void setContent(String content){\n+        this.content = content;\n+    }\n+    public String getContent(){\n+        return  content;\n+    }\n+\n+\n+}"
+  }, {
+    "sha" : "fe4abb0cf928fdfc0622d37c610a7cba02ea0d77",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlansService.java",
+    "status" : "added",
+    "additions" : 51,
+    "deletions" : 0,
+    "changes" : 51,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlansService.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlansService.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/PlansService.java?ref=6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+    "patch" : "@@ -0,0 +1,51 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903229;\n+\n+import android.os.Environment;\n+import android.support.v7.app.AppCompatActivity;\n+import android.util.Xml;\n+\n+import org.xmlpull.v1.XmlPullParser;\n+\n+import java.io.File;\n+import java.io.FileInputStream;\n+\n+/**\n+ * Created by Administrator on 2017-6-1.\n+ */\n+\n+public class PlansService extends AppCompatActivity {\n+    public static PlanInfo getPlanInfo(String filename) throws Exception{\n+        XmlPullParser parser = Xml.newPullParser();\n+        File sdDir = Environment.getExternalStorageDirectory();\n+        File file = new File(sdDir, filename);\n+        FileInputStream fis = new FileInputStream(file);\n+        parser.setInput(fis,\"utf-8\");\n+        PlanInfo planinfo =null;\n+        int type= parser.getEventType();\n+        while (type!=XmlPullParser.END_DOCUMENT){\n+            switch (type){\n+                case XmlPullParser.START_TAG:\n+                    if(\"plans\".equals(parser.getName())){\n+\n+                    }else if(\"plan\".equals(parser.getName())){\n+                        planinfo = new PlanInfo();\n+                    }else if(\"event\".equals(parser.getName())){\n+                        String event = parser.nextText();\n+                        planinfo.setEvent(event);\n+                    }else if(\"time\".equals(parser.getName())){\n+                        String time = parser.nextText();\n+                        planinfo.setTime(time);\n+                    }else if(\"content\".equals(parser.getName())){\n+                        String content = parser.nextText();\n+                        planinfo.setContent(content);\n+                    }\n+                    break;\n+                case XmlPullParser.END_TAG:\n+                    break;\n+            }\n+            type = parser.next();\n+        }\n+        return planinfo;\n+    }\n+\n+}"
+  }, {
+    "sha" : "6d2f2d7d75e209a07686fbd7a34852e6c47a327d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/UpdateSchedule.java",
+    "status" : "added",
+    "additions" : 94,
+    "deletions" : 0,
+    "changes" : 94,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/UpdateSchedule.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/UpdateSchedule.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903229/UpdateSchedule.java?ref=6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+    "patch" : "@@ -0,0 +1,94 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903229;\n+import android.os.Bundle;\n+import android.os.Environment;\n+import android.support.v7.app.AppCompatActivity;\n+import android.util.Xml;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+import android.widget.Toast;\n+import org.xmlpull.v1.XmlSerializer;\n+import java.io.File;\n+import java.io.FileOutputStream;\n+\n+/**\n+ * Created by Administrator on 2017-4-28.\n+ */\n+\n+public class UpdateSchedule extends AppCompatActivity {\n+    private EditText event;\n+    private EditText time;\n+    private EditText content;\n+    private Button save;\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.updateschedule_net1414080903229);\n+        event = (EditText) findViewById(R.id.JH);\n+        time = (EditText) findViewById(R.id.time);\n+        content = (EditText) findViewById(R.id.add_content);\n+        save = (Button) findViewById(R.id.btn_ok);\n+        try {\n+            PlanInfo plan = null;\n+            plan = new PlansService().getPlanInfo(\"plans.xml\");\n+            event.setText(plan.getEvent());\n+            time.setText(plan.getTime());\n+            content.setText(plan.getContent());\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+        }\n+        save.setOnClickListener(new View.OnClickListener() {\n+                                    @Override\n+          public void onClick(View v) {\n+               try {\n+                     String event1 = event.getText().toString();\n+                     String time1 = time.getText().toString();\n+                     String content1 = content.getText().toString();\n+                     PlanInfo plan =new PlanInfo();\n+                     plan.setEvent(event1);\n+                     plan.setContent(content1);\n+                     plan.setTime(time1);\n+                     saveXml(plan);\n+               } catch (Exception e) {\n+                     e.printStackTrace();\n+                }\n+           }\n+         }\n+        );\n+    }\n+    // 保存信息\n+    public void saveXml(PlanInfo plan) {\n+        try {\n+            File file = new File(Environment.getExternalStorageDirectory(), \"plans.xml\");\n+            FileOutputStream fos = new FileOutputStream(file);\n+            // 获得一个序列化工具\n+            XmlSerializer serializer = Xml.newSerializer();\n+            serializer.setOutput(fos, \"utf-8\");\n+            // 设置文件头\n+            serializer.startDocument(\"utf-8\", true);\n+            serializer.startTag(null, \"plans\");\n+            serializer.startTag(null,\"plan\");\n+            // 写事件\n+            serializer.startTag(null, \"event\");\n+            serializer.text(plan.getEvent());\n+            serializer.endTag(null, \"event\");\n+            // 写时间\n+            serializer.startTag(null, \"time\");\n+            serializer.text(plan.getTime());\n+            serializer.endTag(null, \"time\");\n+            //写内容\n+            serializer.startTag(null, \"content\");\n+            serializer.text(plan.getContent());\n+            serializer.endTag(null, \"content\");\n+            serializer.endTag(null, \"plan\");\n+            serializer.endTag(null, \"plans\");\n+            serializer.endDocument();\n+            fos.close();\n+            Toast.makeText(getApplicationContext(), \"计划修改成功！\", Toast.LENGTH_SHORT).show();\n+        } catch (Exception e) {\n+            e.printStackTrace();\n+            Toast.makeText(getApplicationContext(), \"计划修改失败！\", Toast.LENGTH_SHORT).show();\n+        }\n+    }\n+\n+\n+}"
+  } ],
+  "sha" : "6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/6ae2d4d2e1ebbe8a5d80458e40b23ebf216db261",
+  "parents" : [ {
+    "sha" : "204ded51c0ce3d6d8af518371603eee531f6292d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/204ded51c0ce3d6d8af518371603eee531f6292d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/204ded51c0ce3d6d8af518371603eee531f6292d"
+  } ]
+}

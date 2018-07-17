@@ -1,0 +1,160 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 250,
+    "additions" : 218,
+    "deletions" : 32
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ba8b51433484cbb3694160067d193b57819acc63",
+  "commit" : {
+    "author" : {
+      "name" : "liuzezhao",
+      "email" : "liuzezhao",
+      "date" : "2017-04-21T12:01:19Z"
+    },
+    "committer" : {
+      "name" : "liuzezhao",
+      "email" : "liuzezhao",
+      "date" : "2017-04-21T12:01:19Z"
+    },
+    "message" : "#2 #20 第二次实验",
+    "tree" : {
+      "sha" : "1f4e64f7272e86288afee8fb49b321de11d22b69",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1f4e64f7272e86288afee8fb49b321de11d22b69"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ba8b51433484cbb3694160067d193b57819acc63",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ba8b51433484cbb3694160067d193b57819acc63/comments",
+  "files" : [ {
+    "sha" : "e7538835784d97f8025cfbac5d15cdab4f8b2467",
+    "filename" : "AndroidLabs/app/src/main/AndroidManifest.xml",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 15,
+    "changes" : 24,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/AndroidManifest.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/AndroidManifest.xml?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -1,35 +1,29 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    package=\"edu.hzuapps.androidlabs\">\n+    package=\"edu.hzuapps.androidlabs.homeworks.net1414080903213\">\n \n     <application\n         android:allowBackup=\"true\"\n         android:icon=\"@mipmap/ic_launcher\"\n         android:label=\"@string/app_name\"\n         android:supportsRtl=\"true\"\n         android:theme=\"@style/AppTheme\">\n-        <activity android:name=\".MainActivity\">\n+        <activity android:name=\".Net1414080903213_Activity\"\n+            android:label=\"安卓备忘录\">\n             <intent-filter>\n                 <action android:name=\"android.intent.action.MAIN\" />\n \n                 <category android:name=\"android.intent.category.LAUNCHER\" />\n             </intent-filter>\n         </activity>\n-        <activity\n-            android:name=\".BackActivity\"\n-            android:label=\"@string/title_activity_back\">\n+        <activity android:name=\".Net1414080903213_Schedule\"\n+            android:label=\"日程安排\">\n         </activity>\n-        <activity\n-            android:name=\".examples.ViewBasicActivity\"\n-            android:label=\"@string/title_activity_view_basic\">\n+        <activity android:name=\".Net1414080903213_Note\"\n+            android:label=\"笔记本\">\n         </activity>\n-        <activity\n-            android:name=\".examples.ActivityBasicActivity\"\n-            android:label=\"@string/title_activity_activity_basic\">\n-        </activity>\n-        <activity\n-            android:name=\".examples.ActivityBasic2Activity\"\n-            android:label=\"@string/title_activity_activity_basic2\">\n+        <activity android:name=\".Net1414080903213_Calendar\"\n+            android:label=\"日历\">\n         </activity>\n     </application>\n "
+  }, {
+    "sha" : "e05309cf7004c865a62f236c26a258bdc0f2d51d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Activity.java",
+    "status" : "added",
+    "additions" : 48,
+    "deletions" : 0,
+    "changes" : 48,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Activity.java?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,48 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903213;\n+\n+import android.app.Activity;\n+import android.content.Intent;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+\n+/**\n+ * Created by 刘泽钊 on 2017/4/21.\n+ */\n+\n+public class Net1414080903213_Activity extends Activity {\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903213);\n+\n+        Button b1 = (Button) findViewById(R.id.button1);\n+        Button b2 = (Button) findViewById(R.id.button2);\n+        Button b3 = (Button) findViewById(R.id.button3);\n+        b1.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903213_Activity.this,Net1414080903213_Schedule.class);\n+                startActivity(intent);\n+            }\n+        });\n+        b2.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903213_Activity.this,Net1414080903213_Calendar.class);\n+                startActivity(intent);\n+            }\n+        });\n+        b3.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent = new Intent(Net1414080903213_Activity.this,Net1414080903213_Note.class);\n+                startActivity(intent);\n+            }\n+        });\n+\n+        }\n+}\n+\n+\n+"
+  }, {
+    "sha" : "0b754ada0bf5f008813ab3e01d4d37fb983cd217",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Calendar.java",
+    "status" : "added",
+    "additions" : 21,
+    "deletions" : 0,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Calendar.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Calendar.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Calendar.java?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,21 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903213;\n+\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+\n+/**\n+ * Created by 刘泽钊 on 2017/4/16.\n+ */\n+\n+public class Net1414080903213_Calendar extends AppCompatActivity {\n+\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.calendar_net1414080903213);\n+\n+\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "7ab562451dbff8d409d7884b14881c399f6c1c75",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Data.java",
+    "status" : "added",
+    "additions" : 41,
+    "deletions" : 0,
+    "changes" : 41,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Data.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Data.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Data.java?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,41 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903213;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+import android.database.sqlite.SQLiteDatabase.CursorFactory;\n+\n+\n+/**这是保存备忘录信息的表\n+ * Created by 刘泽钊 on 2017/4/16.\n+ */\n+\n+public class Net1414080903213_Data extends SQLiteOpenHelper {\n+    public Net1414080903213_Data(Context context, String name, CursorFactory factory, int version) {\n+        super(context, name, factory, version);\n+\n+    }\n+\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase db) {\n+        StringBuilder sql = new StringBuilder();\n+        sql.append(\"create table if not exists tb_bwl(\")\n+                .append(\"id integer primary key autoincrement,\")\n+                .append(\"title varchar(50),\")\n+                .append(\"content varchar(200),\")\n+                .append(\"createDate varchar(10),\")\n+                .append(\"noticeDate varchar(10),\")\n+                .append(\"noticeTime varchar(5) )\");\n+        db.execSQL(sql.toString());\n+\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {\n+        // TODO Auto-generated method stub\n+\n+    }\n+\n+\n+}"
+  }, {
+    "sha" : "ac9ca2743f2eca7b1bd5ff0c9ca801add68cdeeb",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Note.java",
+    "status" : "renamed",
+    "additions" : 12,
+    "deletions" : 4,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Note.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Note.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Note.java?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -1,13 +1,21 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903213;\n \n-import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+\n+/**\n+ * Created by 刘泽钊 on 2017/4/16.\n+ */\n+\n+public class Net1414080903213_Note extends AppCompatActivity {\n \n-public class Net1414080903213Activity extends AppCompatActivity {\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n+\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_net1414080903213);\n+        setContentView(R.layout.note_net1414080903213);\n+\n+\n     }\n-}\n+}\n\\ No newline at end of file",
+    "previous_filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213Activity.java"
+  }, {
+    "sha" : "a6e5070d630223d35a9b4f81951ff272549cab28",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Schedule.java",
+    "status" : "added",
+    "additions" : 21,
+    "deletions" : 0,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Schedule.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Schedule.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903213/Net1414080903213_Schedule.java?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,21 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903213;\n+\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+\n+/**\n+ * Created by 刘泽钊 on 2017/4/16.\n+ */\n+\n+public class Net1414080903213_Schedule extends AppCompatActivity {\n+\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.schedule_net1414080903213);\n+\n+\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "2e0bca6882dcaf4dca2428f4c11cbcb047d5743a",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml",
+    "status" : "modified",
+    "additions" : 28,
+    "deletions" : 13,
+    "changes" : 41,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903213.xml?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -1,17 +1,32 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_main\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903213.Net1414080903213Activity\">\n+    android:layout_height=\"match_parent\">\n \n-    <TextView\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n-</RelativeLayout>\n+    <Button\n+        android:text=\"我的日程安排\"\n+        android:layout_width=\"82dp\"\n+        android:layout_height=\"61dp\"\n+        android:id=\"@+id/button1\"\n+        android:elevation=\"0dp\"\n+        style=\"@android:style/Widget.Button\"\n+        android:textColorLink=\"@android:color/holo_blue_light\"\n+        android:layout_weight=\"0.38\" />\n+\n+    <Button\n+        android:text=\"日历\"\n+        android:layout_width=\"82dp\"\n+        android:layout_height=\"61dp\"\n+        android:id=\"@+id/button2\"\n+        android:layout_weight=\"0.48\"\n+        style=\"@android:style/Widget.Button\" />\n+\n+    <Button\n+        android:text=\"笔记本\"\n+        android:layout_width=\"82dp\"\n+        android:layout_height=\"61dp\"\n+        android:id=\"@+id/button3\"\n+        android:layout_weight=\"0.45\"\n+        style=\"@android:style/Widget.Button\" />\n+</LinearLayout>"
+  }, {
+    "sha" : "c48c7db9a1e9f01037af8acedee0eef68d59e3c7",
+    "filename" : "AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/calendar_net1414080903213.xml?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,12 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <CalendarView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:id=\"@+id/calendarView2\"\n+        android:layout_weight=\"1\" />\n+</LinearLayout>"
+  }, {
+    "sha" : "02819368807212ee8bbf55ed2e93f6e1d10dd311",
+    "filename" : "AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml",
+    "status" : "added",
+    "additions" : 14,
+    "deletions" : 0,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/note_net1414080903213.xml?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,14 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <EditText\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:inputType=\"textPersonName\"\n+        android:id=\"@+id/editText3\"\n+        android:layout_weight=\"1\"\n+        android:textSize=\"18dp\"\n+        android:hint=\"开始做笔记\" />\n+</LinearLayout>"
+  }, {
+    "sha" : "f9504c9a46c8fe568984e06dfe3f98d42f8c616f",
+    "filename" : "AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/schedule_net1414080903213.xml?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "f9504c9a46c8fe568984e06dfe3f98d42f8c616f",
+    "filename" : "AndroidLabs/app/src/main/res/layout/theme_net1414080903213.xml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/theme_net1414080903213.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ba8b51433484cbb3694160067d193b57819acc63/AndroidLabs/app/src/main/res/layout/theme_net1414080903213.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/theme_net1414080903213.xml?ref=ba8b51433484cbb3694160067d193b57819acc63",
+    "patch" : "@@ -0,0 +1,6 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+</LinearLayout>"
+  } ],
+  "sha" : "ba8b51433484cbb3694160067d193b57819acc63",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ba8b51433484cbb3694160067d193b57819acc63",
+  "parents" : [ {
+    "sha" : "3529f86c1b7259fcb148751289e9e6aef9ba6f39",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3529f86c1b7259fcb148751289e9e6aef9ba6f39",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3529f86c1b7259fcb148751289e9e6aef9ba6f39"
+  } ]
+}

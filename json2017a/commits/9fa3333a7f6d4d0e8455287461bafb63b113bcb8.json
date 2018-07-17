@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 336,
+    "additions" : 336,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "duguhaojie",
+    "id" : 16165732,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/16165732?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/duguhaojie",
+    "html_url" : "https://github.com/duguhaojie",
+    "followers_url" : "https://api.github.com/users/duguhaojie/followers",
+    "following_url" : "https://api.github.com/users/duguhaojie/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/duguhaojie/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/duguhaojie/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/duguhaojie/subscriptions",
+    "organizations_url" : "https://api.github.com/users/duguhaojie/orgs",
+    "repos_url" : "https://api.github.com/users/duguhaojie/repos",
+    "events_url" : "https://api.github.com/users/duguhaojie/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/duguhaojie/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+  "commit" : {
+    "author" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-05-15T12:25:01Z"
+    },
+    "committer" : {
+      "name" : "duguhaojie",
+      "email" : "1197293005@qq.com",
+      "date" : "2017-05-15T12:25:01Z"
+    },
+    "message" : "#2 #35 第二次作业",
+    "tree" : {
+      "sha" : "974ef9f43508566761416d0da03944e03218e42c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/974ef9f43508566761416d0da03944e03218e42c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/comments",
+  "files" : [ {
+    "sha" : "9db60598d5bd565e1be3dd37092014f76e761bc9",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101ConnectActivity.java",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101ConnectActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101ConnectActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101ConnectActivity.java?ref=9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "patch" : "@@ -0,0 +1,17 @@\n+package edu.hzuapps.androidlabs.homeworks.Net1414080903101;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.widget.TextView;\n+\n+public class Net1414080903101ConnectActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903101_connect);\n+        String a =getIntent().getStringExtra(\"connect\");\n+        TextView tv= (TextView) findViewById(R.id.tv_connect);\n+        tv.setText(a);\n+    }\n+}"
+  }, {
+    "sha" : "d673385ef31fad323f2ad81f4351baa8e76db4ae",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MainActivity.java",
+    "status" : "added",
+    "additions" : 98,
+    "deletions" : 0,
+    "changes" : 98,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MainActivity.java?ref=9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "patch" : "@@ -0,0 +1,98 @@\n+package edu.hzuapps.androidlabs.homeworks.Net1414080903101;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.TextView;\n+\n+public class Net1414080903101MainActivity extends AppCompatActivity {\n+\n+    TextView tv1;\n+    TextView tv2;\n+    TextView tv3;\n+    TextView tv4;\n+    TextView tv5;\n+    TextView tv6;\n+    TextView tv7;\n+    TextView tv8;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903101_main);\n+        tv1= (TextView) findViewById(R.id.tv1);\n+        tv2= (TextView) findViewById(R.id.tv2);\n+        tv3= (TextView) findViewById(R.id.tv3);\n+        tv4= (TextView) findViewById(R.id.tv4);\n+        tv5= (TextView) findViewById(R.id.tv5);\n+        tv6= (TextView) findViewById(R.id.tv6);\n+        tv7= (TextView) findViewById(R.id.tv7);\n+        tv8= (TextView) findViewById(R.id.tv8);\n+\n+        tv1.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",1);\n+                startActivity(intent);\n+            }\n+        });\n+        tv2.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",2);\n+                startActivity(intent);\n+            }\n+        });\n+        tv3.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",3);\n+                startActivity(intent);\n+            }\n+        });\n+        tv4.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",4);\n+                startActivity(intent);\n+            }\n+        });\n+        tv5.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",5);\n+                startActivity(intent);\n+            }\n+        });\n+        tv6.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",6);\n+                startActivity(intent);\n+            }\n+        });\n+        tv7.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",7);\n+                startActivity(intent);\n+            }\n+        });\n+        tv8.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Intent intent=new Intent(Net1414080903101MainActivity.this,Net1414080903101MasterActivity.class);\n+                intent.putExtra(\"type\",8);\n+                startActivity(intent);\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "9892edf8aed4718e1178575e6db1754916d83546",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MasterActivity.java",
+    "status" : "added",
+    "additions" : 61,
+    "deletions" : 0,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MasterActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MasterActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903101/Net1414080903101MasterActivity.java?ref=9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "patch" : "@@ -0,0 +1,61 @@\n+package edu.hzuapps.androidlabs.homeworks.Net1414080903101;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.TextView;\n+\n+public class Net1414080903101MasterActivity extends AppCompatActivity implements View.OnClickListener{\n+\n+    TextView tv1;\n+    TextView tv2;\n+    TextView tv3;\n+\n+    String a;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903101_master);\n+        tv1= (TextView) findViewById(R.id.tv_master1);\n+        tv2= (TextView) findViewById(R.id.tv_master2);\n+        tv3= (TextView) findViewById(R.id.tv_master3);\n+        int type=getIntent().getIntExtra(\"type\",1);\n+        switch (type){\n+            case 1:\n+                a=\"http://www.56.com/w99/play_album-aid-9172784_vid-NDczODQ3MDY.html\";\n+                break;\n+            case 2:\n+                a=\"http://www.56.com/w99/play_album-aid-9172784_vid-NDczODQ3MDY.html\";\n+                break;\n+            case 3:\n+                a=\"http://v.youku.com/v_show/id_XMTkwNTgxNzQw.html\";\n+                break;\n+            case 4:\n+                a=\"http://pan.baidu.com/s/1eRYJe50\";\n+                break;\n+            case 5:\n+                a=\"http://pan.baidu.com/s/1nv3CSNR\";\n+                break;\n+            case 6:\n+                a=\"http://pan.baidu.com/s/1pKAKeJx\";\n+                break;\n+            case 7:\n+                a=\"http://pan.baidu.com/s/1kVicqTD\";\n+                break;\n+            case 8:\n+                a=\"http://pan.baidu.com/s/1i44kJf3\";\n+                break;\n+        }\n+        tv1.setOnClickListener(this);\n+        tv2.setOnClickListener(this);\n+        tv3.setOnClickListener(this);\n+    }\n+\n+    @Override\n+    public void onClick(View v) {\n+        Intent intent=new Intent(Net1414080903101MasterActivity.this,Net1414080903101ConnectActivity.class);\n+        intent.putExtra(\"connect\",a);\n+        startActivity(intent);\n+    }\n+}"
+  }, {
+    "sha" : "72cbba10decd090d069e2ce2ba7acabecec9a2b1",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903101_connect.xml",
+    "status" : "added",
+    "additions" : 28,
+    "deletions" : 0,
+    "changes" : 28,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_connect.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_connect.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_connect.xml?ref=9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "patch" : "@@ -0,0 +1,28 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_connect\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.Net1414080903101.Net1414080903101ConnectActivity\">\n+\n+\n+    <TextView\n+        android:id=\"@+id/aa\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"视频链接如下，请自行下载观看：\"/>\n+\n+    <TextView\n+        android:layout_marginTop=\"10dp\"\n+        android:layout_below=\"@id/aa\"\n+        android:textSize=\"18dp\"\n+        android:id=\"@+id/tv_connect\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\" />\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "2fedeedda49261d25e85708d783a2ca63fc3e84e",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903101_main.xml",
+    "status" : "added",
+    "additions" : 97,
+    "deletions" : 0,
+    "changes" : 97,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_main.xml?ref=9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "patch" : "@@ -0,0 +1,97 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    android:background=\"#22000000\"\n+    android:layout_height=\"match_parent\">\n+\n+    <TextView\n+        android:gravity=\"center\"\n+        android:padding=\"10dp\"\n+        android:textSize=\"18sp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"套            路\" />\n+\n+    <TextView\n+        android:id=\"@+id/tv1\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"1.陈式太极拳老架一路\"/>\n+    <TextView\n+        android:id=\"@+id/tv2\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"2.陈式太极拳老架二路\"/>\n+    <TextView\n+        android:id=\"@+id/tv3\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"3.陈式太极拳新架一路\"/>\n+    <TextView\n+        android:id=\"@+id/tv4\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"4.陈式太极拳新架二路\"/>\n+    <TextView\n+        android:gravity=\"center\"\n+        android:padding=\"10dp\"\n+        android:textSize=\"18sp\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"武 术 器 械\" />\n+\n+    <TextView\n+        android:id=\"@+id/tv5\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"1.陈式太极单剑\"/>\n+    <TextView\n+        android:id=\"@+id/tv6\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"2.陈式春秋大刀\"/>\n+    <TextView\n+        android:id=\"@+id/tv7\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"3.陈式太极枪\"/>\n+\n+    <TextView\n+        android:id=\"@+id/tv8\"\n+        android:layout_marginTop=\"1dp\"\n+        android:background=\"#ffffff\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:textSize=\"18sp\"\n+        android:padding=\"15dp\"\n+        android:text=\"4.陈式太极单刀\"/>\n+</LinearLayout>"
+  }, {
+    "sha" : "1139b9d98afd180d168f4f880ccd1616e90c94b5",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/9fa3333a7f6d4d0e8455287461bafb63b113bcb8/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903101_master.xml?ref=9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+    "patch" : "@@ -0,0 +1,35 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <TextView\n+        android:layout_margin=\"30dp\"\n+        android:id=\"@+id/tv_master1\"\n+        android:drawableTop=\"@drawable/m1\"\n+        android:layout_width=\"100dp\"\n+        android:layout_height=\"180dp\"\n+        android:gravity=\"center\"\n+        android:text=\"陈式太极拳\\n陈自强\"/>\n+\n+    <TextView\n+        android:layout_margin=\"30dp\"\n+        android:layout_toRightOf=\"@id/tv_master1\"\n+        android:id=\"@+id/tv_master2\"\n+        android:drawableTop=\"@drawable/m2\"\n+        android:layout_width=\"100dp\"\n+        android:layout_height=\"180dp\"\n+        android:gravity=\"center\"\n+        android:text=\"陈式太极拳\\n陈炳\"/>\n+    <TextView\n+        android:layout_below=\"@id/tv_master2\"\n+        android:layout_margin=\"30dp\"\n+        android:id=\"@+id/tv_master3\"\n+        android:drawableTop=\"@drawable/m3\"\n+        android:layout_width=\"100dp\"\n+        android:layout_height=\"180dp\"\n+        android:gravity=\"center\"\n+        android:text=\"陈式太极拳\\n刘豪杰\"/>\n+\n+\n+</RelativeLayout>"
+  } ],
+  "sha" : "9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/9fa3333a7f6d4d0e8455287461bafb63b113bcb8",
+  "parents" : [ {
+    "sha" : "3b042bbd4c0826ca2016ad955638044cefb1a89b",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/3b042bbd4c0826ca2016ad955638044cefb1a89b",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/3b042bbd4c0826ca2016ad955638044cefb1a89b"
+  } ]
+}

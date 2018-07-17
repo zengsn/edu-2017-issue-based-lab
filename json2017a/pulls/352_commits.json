@@ -1,0 +1,68 @@
+[ {
+  "sha" : "61eb62b71e013c4a6947d5a5bc0a44c0aa074b8a",
+  "commit" : {
+    "author" : {
+      "name" : "14YuQingBin",
+      "email" : "452798073@qq.com",
+      "date" : "2017-05-19T01:04:07Z"
+    },
+    "committer" : {
+      "name" : "14YuQingBin",
+      "email" : "452798073@qq.com",
+      "date" : "2017-05-19T01:04:07Z"
+    },
+    "message" : "#4 #129 第四次作业",
+    "tree" : {
+      "sha" : "89349a5df60d4355a562e5db3fadbe1a917cf8c0",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/89349a5df60d4355a562e5db3fadbe1a917cf8c0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/61eb62b71e013c4a6947d5a5bc0a44c0aa074b8a",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/61eb62b71e013c4a6947d5a5bc0a44c0aa074b8a",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/61eb62b71e013c4a6947d5a5bc0a44c0aa074b8a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/61eb62b71e013c4a6947d5a5bc0a44c0aa074b8a/comments",
+  "author" : {
+    "login" : "14YuQingBin",
+    "id" : 26153217,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26153217?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14YuQingBin",
+    "html_url" : "https://github.com/14YuQingBin",
+    "followers_url" : "https://api.github.com/users/14YuQingBin/followers",
+    "following_url" : "https://api.github.com/users/14YuQingBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14YuQingBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14YuQingBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14YuQingBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14YuQingBin/orgs",
+    "repos_url" : "https://api.github.com/users/14YuQingBin/repos",
+    "events_url" : "https://api.github.com/users/14YuQingBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14YuQingBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "14YuQingBin",
+    "id" : 26153217,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26153217?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/14YuQingBin",
+    "html_url" : "https://github.com/14YuQingBin",
+    "followers_url" : "https://api.github.com/users/14YuQingBin/followers",
+    "following_url" : "https://api.github.com/users/14YuQingBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/14YuQingBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/14YuQingBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/14YuQingBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/14YuQingBin/orgs",
+    "repos_url" : "https://api.github.com/users/14YuQingBin/repos",
+    "events_url" : "https://api.github.com/users/14YuQingBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/14YuQingBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "32ca578f9c70611a6ea67a4ae39651c6d4088db9",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/32ca578f9c70611a6ea67a4ae39651c6d4088db9",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/32ca578f9c70611a6ea67a4ae39651c6d4088db9"
+  } ]
+} ]

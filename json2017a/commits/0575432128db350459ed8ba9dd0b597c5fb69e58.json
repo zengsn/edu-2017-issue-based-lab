@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 165,
+    "additions" : 162,
+    "deletions" : 3
+  },
+  "author" : {
+    "login" : "wetstreet",
+    "id" : 11594139,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/11594139?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wetstreet",
+    "html_url" : "https://github.com/wetstreet",
+    "followers_url" : "https://api.github.com/users/wetstreet/followers",
+    "following_url" : "https://api.github.com/users/wetstreet/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wetstreet/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wetstreet/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wetstreet/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wetstreet/orgs",
+    "repos_url" : "https://api.github.com/users/wetstreet/repos",
+    "events_url" : "https://api.github.com/users/wetstreet/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wetstreet/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0575432128db350459ed8ba9dd0b597c5fb69e58",
+  "commit" : {
+    "author" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-04-19T15:29:16Z"
+    },
+    "committer" : {
+      "name" : "wetstreet",
+      "email" : "chenyirun1996@yahoo.com",
+      "date" : "2017-04-19T15:29:16Z"
+    },
+    "message" : "#2 #10 第二次实验",
+    "tree" : {
+      "sha" : "734cf67a6e37f7e8af9c32881e0b3521d257325f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/734cf67a6e37f7e8af9c32881e0b3521d257325f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0575432128db350459ed8ba9dd0b597c5fb69e58",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0575432128db350459ed8ba9dd0b597c5fb69e58/comments",
+  "files" : [ {
+    "sha" : "b366f364b75ec7f58303dc12674d29a7d722455f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java",
+    "status" : "modified",
+    "additions" : 162,
+    "deletions" : 3,
+    "changes" : 165,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0575432128db350459ed8ba9dd0b597c5fb69e58/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0575432128db350459ed8ba9dd0b597c5fb69e58/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903226/Net1414080903226Activity.java?ref=0575432128db350459ed8ba9dd0b597c5fb69e58",
+    "patch" : "@@ -1,15 +1,174 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903226;\n \n+import android.content.Context;\n+import android.os.Vibrator;\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.view.InputDevice;\n+import android.view.KeyEvent;\n+import android.view.MotionEvent;\n \n import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903226Activity extends AppCompatActivity {\n+    private Vibrator vibrator;\n+    private Renderer mRenderer;\n+    private InputManagerCompat mInputManager;\n+    private InputDevice mInputDevice;\n \n     @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n+    public void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_net1414080903226);\n+\n+        initializeGvrView();\n+        vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);\n+\n+        mInputManager = InputManagerCompat.Factory.getInputManager(getApplicationContext());\n+        mInputManager.registerInputDeviceListener(this, null);\n+    }\n+\n+    public void initializeGvrView() {\n+        setContentView(R.layout.common_ui);\n+\n+        GvrView gvrView = (GvrView) findViewById(R.id.gvr_view);\n+        //Install a config chooser which will choose a config with at least the specified depthSize\n+        //and stencilSize, and exactly the specified redSize, greenSize, blueSize and alphaSize.\n+        gvrView.setEGLConfigChooser(8, 8, 8, 8, 16, 8);\n+\n+        mRenderer = new Renderer(getApplicationContext(), this.getResources());\n+        gvrView.setRenderer(mRenderer);\n+\n+        gvrView.setTransitionViewEnabled(true);\n+\n+        // Enable Cardboard-trigger feedback with Daydream headsets. This is a simple way of supporting\n+        // Daydream controller input for basic interactions using the existing Cardboard trigger API.\n+        gvrView.enableCardboardTriggerEmulation();\n+\n+        if (gvrView.setAsyncReprojectionEnabled(true)) {\n+            // Async reprojection decouples the app framerate from the display framerate,\n+            // allowing immersive interaction even at the throttled clockrates set by\n+            // sustained performance mode.\n+            AndroidCompat.setSustainedPerformanceMode(this, true);\n+        }\n+\n+        setGvrView(gvrView);\n+    }\n+\n+    @Override\n+    public void onPause() {\n+        super.onPause();\n+    }\n+\n+    @Override\n+    public void onResume() {\n+        super.onResume();\n+    }\n+\n+    @Override\n+    public void onDestroy(){\n+        mRenderer.onDestroy();\n+        super.onDestroy();\n+    }\n+\n+    @Override\n+    public void onCardboardTrigger() {\n+        // always give user feedback\n+        vibrator.vibrate(50);\n+        mRenderer.pressX();\n+    }\n+\n+    @Override\n+    public void onInputDeviceAdded(int deviceId) {\n+        vibrator.vibrate(50);\n+        mInputDevice = InputDevice.getDevice(deviceId);\n+    }\n+\n+    @Override\n+    public void onInputDeviceRemoved(int deviceId) {\n+        vibrator.vibrate(50);\n+    }\n+\n+    @Override\n+    public void onInputDeviceChanged(int deviceId) {\n+        vibrator.vibrate(50);\n+        mInputDevice = InputDevice.getDevice(deviceId);\n+    }\n+\n+    @Override\n+    public boolean dispatchGenericMotionEvent(MotionEvent ev) {\n+        int eventSource = ev.getSource();\n+        if ((((eventSource & InputDevice.SOURCE_GAMEPAD) == InputDevice.SOURCE_GAMEPAD) ||\n+                ((eventSource & InputDevice.SOURCE_JOYSTICK) == InputDevice.SOURCE_JOYSTICK))\n+                && ev.getAction() == MotionEvent.ACTION_MOVE) {\n+            int id = ev.getDeviceId();\n+            if (-1 != id) {\n+                if (mRenderer.onGenericMotionEvent(ev, mInputDevice)) {\n+                    return true;\n+                }\n+            }\n+        }\n+        return super.dispatchGenericMotionEvent(ev);\n+    }\n+\n+    @Override\n+    public boolean dispatchKeyEvent(KeyEvent event) {\n+        int keyCode = event.getKeyCode();\n+        switch (keyCode){\n+            case KeyEvent.KEYCODE_VOLUME_UP:\n+                processVolumeUp(event.getAction(), event.getRepeatCount());\n+                return true;\n+            case KeyEvent.KEYCODE_VOLUME_DOWN:\n+                processVolumeDown(event.getAction(), event.getRepeatCount());\n+                return true;\n+        }\n+        if ((event.getSource() & InputDevice.SOURCE_GAMEPAD) == InputDevice.SOURCE_GAMEPAD) {\n+            if (event.getRepeatCount() == 0) {\n+                switch (keyCode){\n+                    case KeyEvent.KEYCODE_BUTTON_A:\n+                    case KeyEvent.KEYCODE_BUTTON_THUMBL:\n+                        mRenderer.jump();\n+                        return true;\n+                    case KeyEvent.KEYCODE_BUTTON_X:\n+                        mRenderer.pressX();\n+                        return true;\n+                    case KeyEvent.KEYCODE_BUTTON_B:\n+                        mRenderer.pressB();\n+                        return true;\n+                }\n+            }\n+        }\n+        return super.dispatchKeyEvent(event);\n+    }\n+\n+    private void processVolumeUp(int action, int repeatCount) {\n+        // On long press, we receive a sequence of ACTION_DOWN, ignore all after the first one.\n+        if (repeatCount > 0) {\n+            return;\n+        }\n+\n+        switch (action) {\n+            case KeyEvent.ACTION_DOWN:\n+                mRenderer.walk(Steve.WALKING_FORWARD);\n+                break;\n+            case KeyEvent.ACTION_UP:\n+                mRenderer.walk(Steve.NOT_WALKING);\n+                break;\n+        }\n+    }\n+\n+    private void processVolumeDown(int action, int repeatCount) {\n+        // On long press, we receive a sequence of ACTION_DOWN, ignore all after the first one.\n+        if (repeatCount > 0) {\n+            return;\n+        }\n+\n+        switch (action) {\n+            case KeyEvent.ACTION_DOWN:\n+                mRenderer.walk(Steve.WALKING_BACKWARD);\n+                break;\n+            case KeyEvent.ACTION_UP:\n+                mRenderer.walk(Steve.NOT_WALKING);\n+                break;\n+        }\n     }\n-}\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "0575432128db350459ed8ba9dd0b597c5fb69e58",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0575432128db350459ed8ba9dd0b597c5fb69e58",
+  "parents" : [ {
+    "sha" : "a39ab5a1dfeda961ad63fa54810b8fab7fc1fe9a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a39ab5a1dfeda961ad63fa54810b8fab7fc1fe9a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a39ab5a1dfeda961ad63fa54810b8fab7fc1fe9a"
+  } ]
+}

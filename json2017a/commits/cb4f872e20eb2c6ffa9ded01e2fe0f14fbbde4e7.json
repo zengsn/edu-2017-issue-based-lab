@@ -1,0 +1,402 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 765,
+    "additions" : 712,
+    "deletions" : 53
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-17T12:00:26Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-17T12:00:26Z"
+    },
+    "message" : "#4 #76 第4次实验",
+    "tree" : {
+      "sha" : "607d42c3ab4e4eac31e728be4c82785e27ffd956",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/607d42c3ab4e4eac31e728be4c82785e27ffd956"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/comments",
+  "files" : [ {
+    "sha" : "f75f73f3441f4573d52029b5071d7540e5378020",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java",
+    "status" : "modified",
+    "additions" : 9,
+    "deletions" : 13,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/Net1414080903220MainActivity.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,13 +1,12 @@\n package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity;\n \n-import android.net.Uri;\n+\n import android.support.v4.app.FragmentTransaction;\n import android.support.v4.view.GravityCompat;\n import android.support.v4.view.ViewPager;\n import android.support.v4.widget.DrawerLayout;\n-import android.support.v7.app.ActionBarDrawerToggle;\n-import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n import android.util.Log;\n import android.view.LayoutInflater;\n import android.view.View;\n@@ -48,18 +47,12 @@\n     private NewsFragment newsFragment;\n     private DevFragment devFragment;\n \n-\n-\n-\n-\n-\n-\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         requestWindowFeature(Window.FEATURE_NO_TITLE);\n         setContentView(R.layout.activity_net1414080903220_main);\n-        knowFragmentPagerAdapter = new KnowFragmentPagerAdapter(getSupportFragmentManager());\n+        knowFragmentPagerAdapter = new KnowFragmentPagerAdapter(this.getSupportFragmentManager());\n \n         newsFragment = new NewsFragment();\n         devFragment = new DevFragment();\n@@ -88,15 +81,18 @@ private void initView() {\n         devRb = (RadioButton) findViewById(R.id.rb_dev_article);\n \n         drawerLayout= (DrawerLayout)findViewById(R.id.dl_left);\n-        knowDevToolbar= (KnowDevToolbar) findViewById(R.id.knowDevToolbar);\n+\n+        LayoutInflater inflater;\n+/*        LayoutInflater.from(R.layout.);\n+        knowDevToolbar= (KnowDevToolbar) findViewById(R.id.knowDevToolbar);*/\n \n         viewPager = (ViewPager) findViewById(R.id.vpager);\n         viewPager.setAdapter(knowFragmentPagerAdapter);\n         viewPager.setCurrentItem(0);\n         viewPager.addOnPageChangeListener(this);\n         viewPager.setOffscreenPageLimit(0);\n         newsRb.setChecked(true);\n-        initDrawer();\n+       // initDrawer();\n     }\n \n     private void initDrawer() {\n@@ -119,7 +115,7 @@ public void onPageScrolled(int position, float positionOffset, int positionOffse\n \n     @Override\n     public void onPageSelected(int position) {\n-\n+        Log.i(\"activity\",\"the position is\"+position);\n     }\n \n     /**"
+  }, {
+    "sha" : "bb0407dce6525a135d846409159c8ef9b6d8ff89",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/NewsDetailActivity1414080903220.java",
+    "status" : "added",
+    "additions" : 19,
+    "deletions" : 0,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/NewsDetailActivity1414080903220.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/NewsDetailActivity1414080903220.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/activity/NewsDetailActivity1414080903220.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,19 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity;\n+\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity\n+ * Class describe:新闻详情界面\n+ * Author: cheng\n+ * Create time: 2017/5/16 0:09\n+ */\n+public class NewsDetailActivity1414080903220 extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+    }\n+}"
+  }, {
+    "sha" : "18ee7fb06986750a07e15d890dc8a18618e3bb72",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/DevAdapter.java",
+    "status" : "added",
+    "additions" : 86,
+    "deletions" : 0,
+    "changes" : 86,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/DevAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/DevAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/DevAdapter.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,86 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter;\n+\n+import android.content.Context;\n+import android.support.v7.widget.RecyclerView;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.ImageView;\n+import android.widget.TextView;\n+\n+import com.squareup.picasso.Picasso;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/16 15:09\n+ */\n+public class DevAdapter extends RecyclerView.Adapter<DevAdapter.ViewHolder> {\n+\n+    private LayoutInflater layoutInflater;\n+    String []type;\n+    String[]images;\n+    String []descs;\n+    String []authors;\n+    String []time;\n+    Context context;\n+    public DevAdapter(Context context){\n+        this.context=context;\n+        /*\n+        以下数据只是测试\n+         */\n+        type=new String[]{\"Android\",\"Android\",\"Android\",\"Android\",\"Android\"};\n+        images=new String[]{\"http://img.gank.io/fbaa3bd1-a372-4eb1-8e40-cffeedc38a9f\",\"http://img.gank.io/a85956f6-f82b-4d4a-8226-01fb259a60c0\",\n+        \"http://img.gank.io/4eaa8f16-3acb-4a84-af07-b8e0c63690d4\",\"http://mmbiz.qpic.cn/mmbiz_png/zXuqh9EzOT8z0z2NXN2pZWK4EZLlTvnIVYpibNicRHNTiaMKm6vj82PFOp6kZ6G8ibTPKV88ebsZWX8T63xo7y52CQ/640?wx_fmt=png&tp=webp&wxfrom=5\",\"http://img.gank.io/b6a9c5b4-a6da-4bfa-8423-14b10a5c0d50\"};\n+        descs=new String[]{\"Android灵魂画家的18种混合模式\",\"这次我们抛开术语和概念，从例子入手，由浅入深地讲解 Java 的类加载机制\",\n+                \"Android setContentView源码分析\",\"Android电量优化的点点滴滴，全告诉你！\",\"横向堆叠效果的自定义Layout\"};\n+        authors=new String[]{\"陈宇明\",\"wingjay\",\"HuYounger\",\"null\",\"stone\"};\n+        time=new String[]{\"2017-05-15\",\"2017-05-16\",\"2017-05-16\",\"2017-05-16\",\"2017-05-16\"};\n+    }\n+    @Override\n+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {\n+        layoutInflater=LayoutInflater.from(context);\n+        View view=layoutInflater.inflate(R.layout.template_dev_item_net1414080903220,parent,false);\n+        DevAdapter.ViewHolder viewHolder=new DevAdapter.ViewHolder(view);\n+        return viewHolder;\n+    }\n+\n+    @Override\n+    public void onBindViewHolder(ViewHolder holder, int position) {\n+        Picasso.with(context).load(images[position]).into(holder.imageView);\n+        holder.typeTv.setText(type[position]);\n+        holder.descTv.setText(descs[position]);\n+        holder.authorTv.setText(authors[position]);\n+        holder.timeTv.setText(\"于\"+time[position]);\n+    }\n+\n+    @Override\n+    public int getItemCount() {\n+        return type.length;\n+    }\n+\n+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{\n+        TextView typeTv;\n+        ImageView imageView;\n+        TextView descTv;\n+        TextView authorTv;\n+        TextView timeTv;\n+        public ViewHolder(View itemView) {\n+            super(itemView);\n+            typeTv= (TextView) itemView.findViewById(R.id.tv_type);\n+            imageView= (ImageView) itemView.findViewById(R.id.img_devarticle);\n+            descTv= (TextView) itemView.findViewById(R.id.title_article);\n+            authorTv= (TextView) itemView.findViewById(R.id.tv_author);\n+            timeTv= (TextView) itemView.findViewById(R.id.time_article);\n+        }\n+\n+        @Override\n+        public void onClick(View v) {\n+\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "5a6c19eefe3f71b37e55c9236f206ee60d20b092",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 4,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/KnowFragmentPagerAdapter.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -24,14 +24,11 @@\n \n     private NewsFragment newsFragment;\n     private DevFragment devFragment;\n-    //private List<Fragment>fragmentList;\n     public static final int FragmentCount=2;\n     public KnowFragmentPagerAdapter(FragmentManager fm) {\n         super(fm);\n-        //fragmentList=new ArrayList<Fragment>();\n         newsFragment=new NewsFragment();\n         devFragment=new DevFragment();\n-       // fragmentList.add(newsFragment);\n \n     }\n \n@@ -66,7 +63,6 @@ public Object instantiateItem(ViewGroup vg, int position) {\n \n     @Override\n     public void destroyItem(ViewGroup container, int position, Object object) {\n-        System.out.println(\"position Destory\" + position);\n         super.destroyItem(container, position, object);\n     }\n }"
+  }, {
+    "sha" : "114c03fe4b2e6b5cac258465ab8f13c6bf73cfbc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/NewsAdapter.java",
+    "status" : "added",
+    "additions" : 117,
+    "deletions" : 0,
+    "changes" : 117,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/NewsAdapter.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/NewsAdapter.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/adapter/NewsAdapter.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,117 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter;\n+\n+import android.content.Context;\n+import android.support.v7.widget.RecyclerView;\n+import android.util.Log;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.ImageView;\n+import android.widget.TextView;\n+\n+import com.squareup.picasso.Picasso;\n+\n+import java.util.List;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean.News;\n+\n+/**\n+ * ProjectName: knowdev\n+ * PackName：edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter\n+ * Class describe:\n+ * Author: cheng\n+ * Create time: 2017/5/15 22:12\n+ */\n+public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {\n+\n+    private List<News>newsList;\n+    private LayoutInflater layoutInflater;\n+\n+    private Context context;\n+\n+    OnNewsTypeClickListener listener;\n+\n+\n+    String[] newsImagesTest;\n+    String[] newsTitleTest;\n+    String[] newsTimeTest;\n+    String[] newsDescTest;\n+\n+\n+    public NewsAdapter(List<News>newsList,Context context){\n+        this.newsList=newsList;\n+        this.context=context;\n+    }\n+\n+    public NewsAdapter(Context context){\n+        this.context=context;\n+          /*\n+            以下为测试数据\n+         */\n+        newsImagesTest=new String[]{\"http://inews.gtimg.com/newsapp_ls/0/1554927630_300240/0\",\n+                \"http://inews.gtimg.com/newsapp_ls/0/1554995711_300240/0\",\n+                \"http://inews.gtimg.com/newsapp_ls/0/1554242214_300240/0\",\"http://inews.gtimg.com/newsapp_ls/0/1554921842_300240/0\",\"http://inews.gtimg.com/newsapp_ls/0/1554268705_300240/0\"};\n+        newsTitleTest=new String[]{\"苹果紧急提供23个安全补丁 修补电脑手机系统漏洞\",\"传联想原执行副总裁刘军回归：个人微博现端倪\"\n+                ,\"罗永浩：坚果Pro有爆款迹象 锤子今年出货目标四五百万\",\"全球互联网遭勒索 企业安全意识薄弱\",\"百胜中国收购“到家美食会”控股股权 发展外卖服务\"};\n+        newsTimeTest=new String[]{\"2017-05-16 06:40\",\"2017-05-16 07:29\",\"2017-05-15 22:10\",\"2017-05-16 06:32\",\"2017-05-15 22:15\"};\n+        newsDescTest=new String[]{\"腾讯科技\",\"腾讯科技\",\"腾讯科技\",\"腾讯科技\",\"腾讯科技\"};\n+\n+\n+    }\n+\n+    public void setOnNewsTypeClickListener(OnNewsTypeClickListener listener){\n+        this.listener=listener;\n+    }\n+\n+    @Override\n+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {\n+        layoutInflater=LayoutInflater.from(context);\n+        View view=layoutInflater.inflate(R.layout.template_newlist_item_net1414080903220,parent,false);\n+        ViewHolder viewHolder=new ViewHolder(view);\n+        return viewHolder;\n+    }\n+\n+    @Override\n+    public void onBindViewHolder(ViewHolder holder, int position) {\n+           Picasso.with(context).load(newsImagesTest[position]).into(holder.newsImg);\n+           holder.newstTitle.setText(newsTitleTest[position]);\n+           holder.newsTime.setText(newsTimeTest[position]);\n+           holder.newsDesc.setText(\"来源:\"+newsDescTest[position]);\n+\n+    }\n+\n+    @Override\n+    public int getItemCount() {\n+        return newsImagesTest.length;\n+    }\n+\n+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{\n+\n+        private ImageView newsImg;\n+        private TextView newstTitle;\n+        private TextView newsTime;\n+        private TextView newsDesc;\n+\n+        public ViewHolder(View itemView) {\n+            super(itemView);\n+            newsImg= (ImageView) itemView.findViewById(R.id.img_news);\n+            newstTitle= (TextView) itemView.findViewById(R.id.title_news);\n+            newsTime= (TextView) itemView.findViewById(R.id.time_news);\n+            newsDesc= (TextView) itemView.findViewById(R.id.source_tv);\n+        }\n+\n+        @Override\n+        public void onClick(View v) {\n+            News news=newsList.get(getLayoutPosition());\n+            if(listener!=null){\n+                listener.onClick(v,news.getUrl());\n+                }\n+            }\n+    }\n+\n+    public  interface OnNewsTypeClickListener{\n+        void onClick(View view,String url);\n+    };\n+\n+}"
+  }, {
+    "sha" : "64ede27ea4f12c386b88be6264da241c5cf317b8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java",
+    "status" : "modified",
+    "additions" : 79,
+    "deletions" : 4,
+    "changes" : 83,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/DevFragment.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -2,14 +2,20 @@\n \n import android.content.Context;\n import android.os.Bundle;\n+import android.support.design.widget.TabLayout;\n import android.support.v4.app.Fragment;\n+import android.support.v4.view.GravityCompat;\n+import android.support.v4.widget.DrawerLayout;\n+import android.support.v7.widget.LinearLayoutManager;\n+import android.support.v7.widget.RecyclerView;\n import android.util.Log;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n \n import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity.Net1414080903220MainActivity;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter.DevAdapter;\n import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar;\n \n /**\n@@ -19,24 +25,93 @@\n  * Author: cheng\n  * Create time: 2017/5/5 10:03\n  */\n-public class DevFragment extends Fragment {\n+public class DevFragment extends Fragment implements TabLayout.OnTabSelectedListener,View.OnClickListener{\n     LayoutInflater inflater;\n+    DrawerLayout drawerLayout;\n     private KnowDevToolbar knowDevToolbar;\n+    TabLayout devTypeTabLayout;\n+    DevAdapter devAdapter;\n+    RecyclerView devRv;\n+    public static final int TAG_ANDROID=0;\n+    public static final int TAG_IOS=1;\n+    public static final int TAG_WEB=2;\n+    public static final int TAG_EXPAND=3;\n+\n+\n+    int texts[]={R.string.android,R.string.ios,R.string.web,R.string.expand};\n+    int tags[]={TAG_ANDROID,TAG_IOS,TAG_WEB,TAG_EXPAND};\n+\n+\n     @Override\n     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n         View view=inflater.inflate(R.layout.fragment_net1414080903220_dev_article,container,false);\n+        devRv= (RecyclerView) view.findViewById(R.id.rv_dev);\n+        knowDevToolbar= (KnowDevToolbar) view.findViewById(R.id.knowDevToolbar);\n \n+        knowDevToolbar.setMenuButtonOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                drawerLayout.openDrawer(GravityCompat.START);\n+            }\n+        });\n+\n+        initTab(view);\n+        initData();\n         return view;\n     }\n \n+    private void initData() {\n+        devAdapter=new DevAdapter(getActivity());\n+        devRv.setAdapter(devAdapter);\n+        devRv.setLayoutManager(new LinearLayoutManager(DevFragment.this.getActivity()));\n+    }\n+\n+    private void initTab(View view) {\n+        devTypeTabLayout=(TabLayout)view.findViewById(R.id.tab_dev_layout);\n+\n+        for(int i=0;i<texts.length;i++){\n+            TabLayout.Tab tab=devTypeTabLayout.newTab();\n+            tab.setText(texts[i]);\n+            tab.setTag(tags[i]);\n+            devTypeTabLayout.addTab(tab);\n+        }\n+    }\n+\n     @Override\n     public void onAttach(Context context){\n         super.onAttach(context);\n-        Net1414080903220MainActivity mainActivity= (Net1414080903220MainActivity) context;\n-        knowDevToolbar= (KnowDevToolbar) mainActivity.findViewById(R.id.knowDevToolbar);\n-        initToolbar();\n+        if(context instanceof Net1414080903220MainActivity){\n+           Net1414080903220MainActivity mainActivity= (Net1414080903220MainActivity) context;\n+            drawerLayout= (DrawerLayout) mainActivity.findViewById(R.id.dl_left);\n+\n+          /*   knowDevToolbar= (KnowDevToolbar) mainActivity.findViewById(R.id.knowDevToolbar);*/\n+\n+        }\n+\n+        //initToolbar();\n     }\n+/*    void initToolbar(){\n+        knowDevToolbar.setTitle(\"每日干货\");\n+    }*/\n \n \n+    @Override\n+    public void onTabSelected(TabLayout.Tab tab) {\n \n+    }\n+\n+    @Override\n+    public void onTabUnselected(TabLayout.Tab tab) {\n+\n+    }\n+\n+    @Override\n+    public void onTabReselected(TabLayout.Tab tab) {\n+\n+    }\n+\n+    @Override\n+    public void onClick(View v) {\n+\n+    }\n }"
+  }, {
+    "sha" : "f8ff6906bdd61973edaad99d42ca40bacb7a82dc",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java",
+    "status" : "modified",
+    "additions" : 36,
+    "deletions" : 8,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/fragment/NewsFragment.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -6,13 +6,19 @@\n import android.support.v4.app.Fragment;\n import android.support.v4.view.GravityCompat;\n import android.support.v4.widget.DrawerLayout;\n+import android.support.v7.widget.LinearLayoutManager;\n+import android.support.v7.widget.RecyclerView;\n import android.util.Log;\n import android.view.LayoutInflater;\n import android.view.View;\n import android.view.ViewGroup;\n \n+import java.util.List;\n+\n import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.R;\n import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.activity.Net1414080903220MainActivity;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.adapter.NewsAdapter;\n+import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.bean.News;\n import edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar;\n \n /**\n@@ -36,43 +42,65 @@\n \n     private KnowDevToolbar knowDevToolbar;\n     private DrawerLayout drawerLayout;\n-\n+    private RecyclerView newsItemRV;\n     String FragmentTAG=\"NewsFragment\";\n+\n+    NewsAdapter newsAdapter;\n+    List<News>newlist;\n+    News news;\n     View view;\n     @Override\n     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+\n         view=inflater.inflate(R.layout.fragment_net1414080903220_newslist,container,false);\n+        newsItemRV= (RecyclerView) view.findViewById(R.id.recyclerview_news);\n \n- \n         initTab(view);\n+        initData();\n+\n+        knowDevToolbar= (KnowDevToolbar) view.findViewById(R.id.knowDevToolbar);\n+\n+        knowDevToolbar.setMenuButtonOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                drawerLayout.openDrawer(GravityCompat.START);\n+            }\n+        });\n \n         return view;\n     }\n \n+    private void initData() {\n+        newsAdapter=new NewsAdapter(getActivity());\n+        newsItemRV.setAdapter(newsAdapter);\n+        newsItemRV.setLayoutManager(new LinearLayoutManager(NewsFragment.this.getActivity()));\n+    }\n+\n \n     @Override\n     public void onAttach(Context context){\n         super.onAttach(context);\n         Log.i(\"news\",\"attach\");\n+        if(context instanceof Net1414080903220MainActivity){\n+            Net1414080903220MainActivity mainActivity= (Net1414080903220MainActivity) context;\n+            drawerLayout= (DrawerLayout) mainActivity.findViewById(R.id.dl_left);\n \n-        View contentView = getLayoutInflater().inflate(R.layout.activity_net1414080903220_rg, null);\n-        Net1414080903220MainActivity mainActivity= (Net1414080903220MainActivity) context;\n-        inflater=LayoutInflater.from(context);\n-        View contentView =inflater.inflate(R.layout.activity_net1414080903220_rg, null);\n-        knowDevToolbar= (KnowDevToolbar) contentView.findViewById(R.id.knowDevToolbar);\n \n+        }\n     }\n \n \n \n+\n     public void initTab(View view){\n-        newsTypeTabLayout=(TabLayout)view.findViewById(R.id.tab_layout);\n+        newsTypeTabLayout=(TabLayout)view.findViewById(R.id.tab_news_layout);\n         for(int i=0;i<4;i++){\n             TabLayout.Tab tab=newsTypeTabLayout.newTab();\n             tab.setText(texts[i]);\n             tab.setTag(tags[i]);\n             newsTypeTabLayout.addTab(tab);\n         }\n+        newsTypeTabLayout.addOnTabSelectedListener(this);\n     }\n \n     @Override"
+  }, {
+    "sha" : "2dfae1700f5b1fbe21d636251f92523b039f6403",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java",
+    "status" : "modified",
+    "additions" : 12,
+    "deletions" : 6,
+    "changes" : 18,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/knowdev/widget/KnowDevToolbar.java?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -22,6 +22,9 @@\n  * Class describe:自定义toolbar\n  * Author: cheng\n  * Create time: 2017/5/3 16:12\n+ * Variable:\n+ * change:\n+ * chang time:\n  */\n public class KnowDevToolbar extends Toolbar {\n     private LayoutInflater inflater;\n@@ -30,28 +33,31 @@\n     private Button shareBt;\n     private TextView title;\n     public KnowDevToolbar(Context context) {\n+        //super(context);\n         this(context,null);\n     }\n \n     public KnowDevToolbar(Context context, @Nullable AttributeSet attrs) {\n+        //super(context,attrs);\n         this(context, attrs, 0);\n     }\n \n     public KnowDevToolbar(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {\n         super(context, attrs, defStyleAttr);\n         initView();\n        if(attrs!=null){\n+\n            final TintTypedArray tintTypedArray = TintTypedArray.obtainStyledAttributes(getContext(), attrs, R.styleable.KnowDevToolBar, defStyleAttr, 0);\n            final Drawable menuIcon=tintTypedArray.getDrawable(R.styleable.KnowDevToolBar_toolbarMenuIcon);\n-           String toolTile=tintTypedArray.getString(R.styleable.KnowDevToolBar_toolbarTile);\n+           //String toolTile=tintTypedArray.getString(R.styleable.KnowDevToolBar_toolbarTile);\n            final Drawable shareIcon=tintTypedArray.getDrawable(R.styleable.KnowDevToolBar_toolbarShareIcon);\n \n            if(menuIcon!=null){\n                setMenuIcon(menuIcon);\n            }\n-           if(toolTile!=null){\n-               setTitle(toolTile);\n-           }\n+          // if(toolTile!=null){\n+          ///     setTitle(toolTile);\n+          // }\n            if(shareIcon!=null){\n                setShareIcon(shareIcon);\n            }\n@@ -113,14 +119,14 @@ public void isHideShareBt(boolean flag){\n     }\n \n     public  void setMenuButtonOnClickListener(OnClickListener listen){\n-       // Log.i(\"toolbar\",\"点击了菜单按钮\");\n+        Log.i(\"toolbar\",\"点击了菜单按钮\");\n         menuBt.setOnClickListener(listen);\n \n     }\n \n     public  void setShareButtonOnClickListener(OnClickListener listen){\n         shareBt.setOnClickListener(listen);\n-        //Log.i(\"toolbar\",\"点击了分享按钮\");\n+        Log.i(\"toolbar\",\"点击了分享按钮\");\n     }\n \n "
+  }, {
+    "sha" : "554e1fc81d464bafd995e5520ba1ec947100de84",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/dev_textview_shape1414080903220.xml",
+    "status" : "added",
+    "additions" : 14,
+    "deletions" : 0,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/dev_textview_shape1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/dev_textview_shape1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/dev_textview_shape1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,14 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<shape xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:shape=\"rectangle\">\n+    <!-- 实心 -->\n+    <solid android:color=\"?attr/colorPrimary\"/>\n+    <!-- 边框 -->\n+    <stroke\n+        android:width=\"0.5dp\"\n+        android:color=\"#123456\"/>\n+    <!-- 圆角 -->\n+    <corners android:bottomRightRadius=\"5dp\"/>\n+    <!-- 边距 -->\n+\n+</shape>\n\\ No newline at end of file"
+  }, {
+    "sha" : "1bab38d1e839df3f0383660da2564baefb5eabcd",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/example_dev_thumb1414080903220.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/example_dev_thumb1414080903220.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/example_dev_thumb1414080903220.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/example_dev_thumb1414080903220.png?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7"
+  }, {
+    "sha" : "cb5605a39d477892f2fa9993e608bc70d0c1dd1d",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/example_news_thumb1414080903220.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/example_news_thumb1414080903220.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/example_news_thumb1414080903220.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/example_news_thumb1414080903220.png?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7"
+  }, {
+    "sha" : "450e06d00af4fdf49ef049c3abdc7b275bcb0b85",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 2,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,5 +1,6 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n-    <item android:drawable=\"@drawable/vector_drawable_icon_dev_article_green_net1414080903220\" android:state_checked=\"true\" />\n-    <item android:drawable=\"@drawable/vector_drawable_icon_dev_article_black_net1414080903220\" />\n+    <item android:drawable=\"@drawable/vector_drawable_icon_dev_organ_net1414080903220\"\n+        android:state_checked=\"true\"/>\n+    <item android:drawable=\"@drawable/vector_drawable_icon_dev_black_ne1414080903220\" />\n </selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "62fa506e880c2d885ec9ec16a82698e9910f9141",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 1,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,5 +1,6 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n-    <item android:drawable=\"@drawable/vector_drawable_icon_news_green_net1414080903220\" android:state_checked=\"true\" />\n+    <item android:drawable=\"@drawable/vector_drawable_icon_news_organ1414080903220\"\n+        android:state_checked=\"true\" />\n     <item android:drawable=\"@drawable/vector_drawable_icon_news_black_net1414080903220\" />\n </selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "7cd05595a808ff966709770c28b122a1122f4977",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,5 +1,5 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n-    <item android:color=\"@color/text_green\" android:state_checked=\"true\" />\n+    <item android:color=\"@color/text_organ\" android:state_checked=\"true\" />\n     <item android:color=\"@android:color/black\" />\n </selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "c1faaf4e852799d0fb35a5578aa91203d269ae66",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -2,7 +2,7 @@\n <selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n     <item android:state_checked=\"true\">\n         <shape>\n-            <solid android:color=\"#FFC4C4C4\" />\n+            <solid android:color=\"#ffffff\" />\n         </shape>\n     </item>\n     <item>"
+  }, {
+    "sha" : "55f58d5ff1bfb69a52c6199179def41c1ea95191",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_black_ne1414080903220.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_black_ne1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_black_ne1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_black_ne1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"24dp\" android:height=\"24dp\">\n+    <path\n+        android:pathData=\"M664.576 479.296H162.88C73.088 479.296 0 407.04 0 318.272a27.2 27.2 0 0 1 54.464 0c0 58.816 48.64 106.624 108.416 106.624h501.696c59.776 0 108.48-47.808 108.48-106.624a27.136 27.136 0 1 1 54.336 0c0 88.768-73.088 161.024-162.816 161.024z\"\n+        android:fillColor=\"#2C2C2C\" />\n+    <path\n+        android:pathData=\"M663.552 970.88H163.904c-89.472 0-162.24-72.064-162.24-160.448V317.184c0-88.512 72.768-160.448 162.24-160.448h52.736a27.2 27.2 0 0 1 0 54.336h-52.736c-59.52 0-107.904 47.616-107.904 106.112v493.312c0 58.432 48.384 105.92 107.904 105.92h499.712c59.584 0 107.904-47.488 107.904-105.92V317.184c0-58.496-48.32-106.112-107.904-106.112H596.544a27.2 27.2 0 1 1 0-54.336h67.008c89.472 0 162.24 72 162.24 160.448v493.312c0 88.32-72.704 160.384-162.24 160.384z\"\n+        android:fillColor=\"#2C2C2C\" />\n+    <path\n+        android:pathData=\"M811.648 798.784a27.2 27.2 0 0 1 0-54.528c87.104 0 157.888-69.76 157.888-155.456 0-85.696-70.72-155.456-157.888-155.456a27.2 27.2 0 0 1 0-54.4c117.056 0 212.352 94.144 212.352 209.92 0 115.712-95.296 209.92-212.352 209.92zM340.928 343.488a29.056 29.056 0 0 1-12.032-2.688 27.392 27.392 0 0 1-12.416-36.48c7.808-16.064 23.552-64.384 2.56-92.864-46.72-63.424-2.24-128.064-0.32-130.752a27.136 27.136 0 0 1 37.888-6.528 27.072 27.072 0 0 1 6.72 37.696c-2.56 3.776-23.296 36.352-0.448 67.328 44.928 60.992 4.224 145.536 2.496 149.12a27.072 27.072 0 0 1-24.448 15.168zM483.392 343.488a27.264 27.264 0 0 1-24.448-39.168c7.808-16.064 23.552-64.32 2.496-92.8-46.72-63.488-2.24-128.128-0.256-130.816a27.072 27.072 0 0 1 37.888-6.528c12.16 8.576 15.104 25.408 6.656 37.696-2.56 3.776-23.296 36.352-0.448 67.328 44.992 60.992 4.288 145.536 2.56 149.12a27.2 27.2 0 0 1-24.448 15.168z\"\n+        android:fillColor=\"#2C2C2C\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "9254e2c3b9781d55bab57d98b01c9b9d8b17148b",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_organ_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_organ_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_organ_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_organ_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"24dp\" android:height=\"24dp\">\n+    <path\n+        android:pathData=\"M664.576 479.296H162.88C73.088 479.296 0 407.04 0 318.272a27.2 27.2 0 0 1 54.464 0c0 58.816 48.64 106.624 108.416 106.624h501.696c59.776 0 108.48-47.808 108.48-106.624a27.136 27.136 0 1 1 54.336 0c0 88.768-73.088 161.024-162.816 161.024z\"\n+        android:fillColor=\"#F98000\" />\n+    <path\n+        android:pathData=\"M663.552 970.88H163.904c-89.472 0-162.24-72.064-162.24-160.448V317.184c0-88.512 72.768-160.448 162.24-160.448h52.736a27.2 27.2 0 0 1 0 54.336h-52.736c-59.52 0-107.904 47.616-107.904 106.112v493.312c0 58.432 48.384 105.92 107.904 105.92h499.712c59.584 0 107.904-47.488 107.904-105.92V317.184c0-58.496-48.32-106.112-107.904-106.112H596.544a27.2 27.2 0 1 1 0-54.336h67.008c89.472 0 162.24 72 162.24 160.448v493.312c0 88.32-72.704 160.384-162.24 160.384z\"\n+        android:fillColor=\"#F98000\" />\n+    <path\n+        android:pathData=\"M811.648 798.784a27.2 27.2 0 0 1 0-54.528c87.104 0 157.888-69.76 157.888-155.456 0-85.696-70.72-155.456-157.888-155.456a27.2 27.2 0 0 1 0-54.4c117.056 0 212.352 94.144 212.352 209.92 0 115.712-95.296 209.92-212.352 209.92zM340.928 343.488a29.056 29.056 0 0 1-12.032-2.688 27.392 27.392 0 0 1-12.416-36.48c7.808-16.064 23.552-64.384 2.56-92.864-46.72-63.424-2.24-128.064-0.32-130.752a27.136 27.136 0 0 1 37.888-6.528 27.072 27.072 0 0 1 6.72 37.696c-2.56 3.776-23.296 36.352-0.448 67.328 44.928 60.992 4.224 145.536 2.496 149.12a27.072 27.072 0 0 1-24.448 15.168zM483.392 343.488a27.264 27.264 0 0 1-24.448-39.168c7.808-16.064 23.552-64.32 2.496-92.8-46.72-63.488-2.24-128.128-0.256-130.816a27.072 27.072 0 0 1 37.888-6.528c12.16 8.576 15.104 25.408 6.656 37.696-2.56 3.776-23.296 36.352-0.448 67.328 44.992 60.992 4.288 145.536 2.56 149.12a27.2 27.2 0 0 1-24.448 15.168z\"\n+        android:fillColor=\"#F98000\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "fdbfa80970d6106e30b176780d500a7d0962b4c4",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -1,6 +1,6 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n-    android:viewportHeight=\"1024\" android:width=\"32dp\" android:height=\"32dp\">\n+    android:viewportHeight=\"1024\" android:width=\"24dp\" android:height=\"24dp\">\n     <path\n         android:pathData=\"M892.121212 62.060606 131.878788 62.060606c-29.990788 0-54.30303 24.312242-54.30303 54.30303l0 791.272727c0 29.990788 24.312242 54.30303 54.30303 54.30303l760.242424 0c29.990788 0 54.30303-24.312242 54.30303-54.30303L946.424242 116.363636C946.424242 86.372848 922.112 62.060606 892.121212 62.060606zM899.878788 882.812121c0 17.994473-14.62303 32.581818-32.660945 32.581818L156.782158 915.393939C138.742691 915.393939 124.121212 900.806594 124.121212 882.812121L124.121212 141.187879c0-17.994473 14.621479-32.581818 32.660945-32.581818l710.435685 0C885.255758 108.606061 899.878788 123.193406 899.878788 141.187879L899.878788 882.812121z\"\n         android:fillColor=\"#FF000000\" />"
+  }, {
+    "sha" : "0c1bbefb58836d2483f8d5e634f726593536eb9c",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_organ1414080903220.xml",
+    "status" : "added",
+    "additions" : 16,
+    "deletions" : 0,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_organ1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_organ1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_organ1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,16 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"24dp\" android:height=\"24dp\">\n+    <path\n+        android:pathData=\"M361.907 690.684H209.416c-10.539 0-19.055 10.633-19.055 23.742v0.162c0 13.113 8.516 23.744 19.055 23.744h152.491c10.518 0 19.055-10.631 19.055-23.744v-0.162c0-13.109-8.538-23.742-19.055-23.742zM276.17 433.609l102.048-104.176 102.048 104.176a18.373 18.373 0 0 0 26.382 0c7.309-7.445 7.309-19.533 0-26.99l-6.373-6.503 30.991-31.618 63.752 65.111a18.43 18.43 0 0 0 26.43 0c7.283-7.445 7.283-19.533 0-26.99l-74.686-76.255c-0.65-0.92-1.023-1.968-1.838-2.793-3.771-3.839-8.75-5.618-13.658-5.503-4.934-0.128-9.912 1.664-13.68 5.503-0.791 0.825-1.164 1.874-1.816 2.793l-41.903 42.788-80.154-81.854c-0.629-0.919-1.001-1.965-1.816-2.781-3.769-3.85-8.747-5.641-13.679-5.514-4.934-0.127-9.913 1.664-13.681 5.514-0.791 0.815-1.163 1.862-1.792 2.781L249.762 406.619c-7.282 7.458-7.282 19.545 0 26.99 7.329 7.445 19.147 7.445 26.408 0zM361.883 547.733H209.416c-10.515 0-19.055 10.666-19.055 23.826 0 13.166 8.54 23.836 19.055 23.836h152.467c10.542 0 19.079-10.67 19.079-23.836 0-13.16-8.538-23.826-19.079-23.826zM623.959 690.684H471.493c-10.539 0-19.055 10.668-19.055 23.824s8.516 23.824 19.055 23.824h152.466c10.541 0 19.08-10.668 19.08-23.824s-8.539-23.824-19.08-23.824z\"\n+        android:fillColor=\"#FF9800\" />\n+    <path\n+        android:pathData=\"M762.164 357.131V118.88c0-11.249-12.748-23.813-23.826-23.813H91.279c-11.074 0-20.043 9.097-20.043 20.334v793.185c0 11.229 8.969 20.348 20.043 20.348h621v-0.059h120.242v-1.605c5.236 0.723 10.426 1.605 15.869 1.605 57.654 0 104.373-47.439 104.373-105.967V357.236l-190.599-0.105z m-47.65 524.152l-575.792-0.094c-10.959 0-19.834-8.945-19.834-19.973V162.679c0-11.04 8.875-19.974 19.834-19.974H690.69c10.936 0 23.824 12.785 23.824 23.824v643.279c-3.537 29.607 5.537 51.129 23.824 71.475h-23.824z m190.601-71.474c0 38.6-33.457 71.475-71.477 71.475-39.459 0-71.475-31.398-71.475-71.475v-405.04h142.951v405.04z\"\n+        android:fillColor=\"#FF9800\" />\n+    <path\n+        android:pathData=\"M623.959 547.733H471.493c-10.539 0-19.055 10.666-19.055 23.826 0 13.166 8.516 23.836 19.055 23.836h152.466c10.541 0 19.08-10.67 19.08-23.836 0-13.16-8.539-23.826-19.08-23.826z\"\n+        android:fillColor=\"#FF9800\" />\n+    <path\n+        android:pathData=\"M483.083 269.917m-28.917 0a28.917 28.917 0 1 0 57.834 0 28.917 28.917 0 1 0-57.834 0Z\"\n+        android:fillColor=\"#FF9800\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "11c210e37c49ae4401244570b6647a8f1b299e87",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml",
+    "status" : "modified",
+    "additions" : 8,
+    "deletions" : 5,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -4,14 +4,15 @@\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\">\n \n+\n     <RadioGroup\n         android:id=\"@+id/rg_tab_bar\"\n         android:layout_width=\"match_parent\"\n-        android:layout_height=\"64dp\"\n+        android:layout_height=\"52dp\"\n         android:orientation=\"horizontal\"\n         android:layout_alignParentBottom=\"true\"\n-        android:background=\"?attr/colorPrimary\"\n-        >\n+        android:layout_alignParentStart=\"true\">\n+\n         <RadioButton\n             android:id=\"@+id/rb_news\"\n             style=\"@style/tab_menu_item\"\n@@ -29,6 +30,8 @@\n         android:id=\"@+id/vpager\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"match_parent\"\n-        android:layout_above=\"@id/rg_tab_bar\"\n-        />\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentStart=\"true\"\n+        android:layout_above=\"@id/rg_tab_bar\"/>\n+\n </RelativeLayout>"
+  }, {
+    "sha" : "618bedaabc55456cb8a30e8cf96d5b21a256b832",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml",
+    "status" : "modified",
+    "additions" : 10,
+    "deletions" : 6,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -4,10 +4,11 @@\n     android:layout_height=\"match_parent\">\n     <Button\n         android:id=\"@+id/toolbar_menu\"\n-        android:layout_width=\"40dp\"\n-        android:layout_height=\"40dp\"\n+        android:layout_width=\"30dp\"\n+        android:layout_height=\"30dp\"\n         android:layout_alignParentLeft=\"true\"\n-        android:layout_marginLeft=\"5dp\"\n+        android:paddingTop=\"10dp\"\n+        android:layout_marginLeft=\"8dp\"\n         android:background=\"@drawable/icon_menu_net1414080903220\"\n         android:visibility=\"visible\"/>\n \n@@ -16,15 +17,18 @@\n         android:layout_width=\"0dp\"\n         android:layout_height=\"wrap_content\"\n         android:layout_weight=\"1\"\n-        android:textSize=\"35sp\"\n+        android:paddingTop=\"5dp\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:textSize=\"20sp\"\n         android:gravity=\"center\"\n         android:text=\"@string/news\" />\n \n     <Button\n         android:id=\"@+id/toolbar_share\"\n-        android:layout_width=\"40dp\"\n-        android:layout_height=\"40dp\"\n+        android:layout_width=\"30dp\"\n+        android:layout_height=\"30dp\"\n         android:layout_alignParentRight=\"true\"\n+        android:layout_alignParentLeft=\"true\"\n         android:background=\"@drawable/icon_share_net1414080903220\"\n         android:visibility=\"gone\"/>\n "
+  }, {
+    "sha" : "7aeb2c28bf4854ece62a440dba86943362d4b5fc",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -31,6 +31,7 @@\n             </android.support.design.widget.TabLayout>\n \n             <android.support.v7.widget.RecyclerView\n+                android:id=\"@+id/rv_dev\"\n                 android:layout_width=\"match_parent\"\n                 android:layout_height=\"match_parent\">\n             </android.support.v7.widget.RecyclerView>"
+  }, {
+    "sha" : "5901bf546e82cfcd69b30365af2ef021ed309ce4",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -33,7 +33,7 @@\n     </android.support.design.widget.TabLayout>\n \n     <android.support.v7.widget.RecyclerView\n-        android:id=\"@+id/recyclerview\"\n+        android:id=\"@+id/recyclerview_news\"\n         android:layout_width=\"match_parent\"\n         android:layout_height=\"wrap_content\"\n         android:layout_below=\"@id/tab_news_layout\""
+  }, {
+    "sha" : "751586e89f60eb90744f4cbaf57020a181272dbc",
+    "filename" : "AndroidLabs/app/src/main/res/layout/template_dev_item_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 76,
+    "deletions" : 0,
+    "changes" : 76,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/template_dev_item_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/template_dev_item_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/template_dev_item_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,76 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.v7.widget.CardView xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:card_view=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/card_view\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"wrap_content\"\n+    android:layout_marginLeft=\"2dp\"\n+    android:layout_marginRight=\"2dp\"\n+    android:layout_marginTop=\"2dp\"\n+    card_view:cardBackgroundColor=\"@android:color/white\"\n+    card_view:cardCornerRadius=\"5dp\"\n+    card_view:cardElevation=\"2dp\">\n+\n+        <RelativeLayout\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:paddingTop=\"5dp\"\n+            >\n+            <ImageView\n+                android:id=\"@+id/img_devarticle\"\n+                android:layout_width=\"300px\"\n+                android:layout_height=\"300px\"\n+                android:src=\"@drawable/example_dev_thumb1414080903220\"/>\n+\n+            <TextView\n+                android:id=\"@+id/title_article\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_toRightOf=\"@id/img_devarticle\"\n+                android:paddingTop=\"15dp\"\n+                android:paddingRight=\"3dp\"\n+                android:maxEms=\"20\"\n+                android:maxLines=\"5\"\n+                android:ellipsize=\"end\"\n+                android:hint=\"基于 RxSwift 实现的 State 状态管理工具\"\n+                android:layout_gravity=\"center\"\n+                android:gravity=\"center\"\n+                />\n+\n+            <TextView\n+                android:id=\"@+id/tv_author\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:text=\"Allen\"\n+                android:textSize=\"10sp\"\n+                android:paddingLeft=\"5dp\"\n+                android:layout_marginBottom=\"5dp\"\n+                android:layout_toRightOf=\"@id/img_devarticle\"\n+                android:layout_alignBottom=\"@id/img_devarticle\"\n+                />\n+\n+            <TextView\n+                android:id=\"@+id/time_article\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:text=\"于2017-05-15\"\n+                android:textSize=\"10sp\"\n+                android:layout_marginBottom=\"5dp\"\n+                android:layout_toRightOf=\"@id/tv_author\"\n+                android:layout_alignBottom=\"@+id/img_devarticle\"\n+                 />\n+            <TextView\n+                android:id=\"@+id/tv_type\"\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_alignParentRight=\"true\"\n+                android:layout_alignParentEnd=\"true\"\n+                android:layout_alignBottom=\"@id/img_devarticle\"\n+                android:layout_marginBottom=\"5dp\"\n+                android:textSize=\"10sp\"\n+                android:paddingRight=\"5dp\"\n+                android:text=\"@string/android\"/>\n+        </RelativeLayout>\n+\n+</android.support.v7.widget.CardView>"
+  }, {
+    "sha" : "a2c5a05df7b18f270f804298316322200e524217",
+    "filename" : "AndroidLabs/app/src/main/res/layout/template_newlist_item_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 65,
+    "deletions" : 0,
+    "changes" : 65,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/template_newlist_item_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/layout/template_newlist_item_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/template_newlist_item_net1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,65 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.v7.widget.CardView xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:card_view=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/card_view\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"wrap_content\"\n+    android:layout_marginLeft=\"2dp\"\n+    android:layout_marginRight=\"2dp\"\n+    android:layout_marginTop=\"2dp\"\n+    card_view:cardBackgroundColor=\"@android:color/white\"\n+    card_view:cardCornerRadius=\"5dp\"\n+    card_view:cardElevation=\"2dp\">\n+\n+    <RelativeLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        >\n+        <ImageView\n+            android:id=\"@+id/img_news\"\n+            android:layout_width=\"300px\"\n+            android:layout_height=\"300px\"\n+            android:src=\"@drawable/example_news_thumb1414080903220\"/>\n+\n+        <TextView\n+            android:id=\"@+id/title_news\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_toRightOf=\"@id/img_news\"\n+            android:paddingTop=\"15dp\"\n+            android:maxEms=\"20\"\n+            android:maxLines=\"5\"\n+            android:ellipsize=\"end\"\n+            android:hint=\"付费搜索效应被夸大，以及对企业推广的四个启示\"\n+            android:layout_gravity=\"center\"\n+            android:gravity=\"center\"\n+            />\n+\n+        <TextView\n+            android:id=\"@+id/source_tv\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"来源：移动互联\"\n+            android:textSize=\"10sp\"\n+            android:layout_marginBottom=\"5dp\"\n+            android:layout_alignBottom=\"@id/img_news\"\n+            android:layout_alignParentEnd=\"true\"\n+            android:paddingRight=\"5dp\"\n+            />\n+\n+        <TextView\n+            android:id=\"@+id/time_news\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:text=\"时间：2017-05-12 08:58\"\n+            android:textSize=\"10sp\"\n+            android:paddingLeft=\"8dp\"\n+            android:layout_alignBaseline=\"@+id/source_tv\"\n+            android:layout_alignBottom=\"@+id/source_tv\"\n+            android:layout_toEndOf=\"@+id/img_news\" />\n+\n+\n+    </RelativeLayout>\n+\n+</android.support.v7.widget.CardView>"
+  }, {
+    "sha" : "d71e97956bf190c9e0d9159c7e8fb581e3b0dcd8",
+    "filename" : "AndroidLabs/app/src/main/res/values/attrs1414080903220.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/attrs1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/attrs1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/attrs1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,8 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <declare-styleable name=\"KnowDevToolBar\">\n+        <attr name=\"toolbarMenuIcon\" format=\"reference\"/>\n+        <attr name=\"toolbarTile\" format=\"reference\"/>\n+        <attr name=\"toolbarShareIcon\" format=\"reference\"/>\n+    </declare-styleable>\n+</resources>"
+  }, {
+    "sha" : "8072a29cc8b29dc66bc2ab334904c4693b01f2f9",
+    "filename" : "AndroidLabs/app/src/main/res/values/colors1414080903220.xml",
+    "status" : "added",
+    "additions" : 14,
+    "deletions" : 0,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/colors1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/colors1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/colors1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,14 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <color name=\"colorPrimary\">#3f51b5</color>\n+    <color name=\"colorPrimaryDark\">#303F9F</color>\n+    <color name=\"colorAccent\">#FF4081</color>\n+    <color name=\"transparent\">#00FFFFFF</color>\n+    <color name=\"bg_white\">#FFFFFF</color>\n+    <color name=\"text_organ\">#ff9800</color>\n+    <color name=\"primary_material_light_1\">#795548</color>\n+    <color name=\"primary_material_light_2\">#795548</color>\n+    <color name=\"primary_material_light_3\">#ff9800</color>\n+    <color name=\"primary_material_light_4\">#ff9800</color>\n+    <color name=\"primary_material_light_5\">#ff9800</color>\n+</resources>"
+  }, {
+    "sha" : "f26fcf9e7d30b722a1b40ae38d96cae24fd45079",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings141408090220.xml",
+    "status" : "added",
+    "additions" : 51,
+    "deletions" : 0,
+    "changes" : 51,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/strings141408090220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/strings141408090220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings141408090220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,51 @@\n+<resources>\n+    <string name=\"app_name\">Android开发</string>\n+    <string name=\"news\">头条新闻</string>\n+    <string name=\"dev_article\">每日干货</string>\n+    <string name=\"keji\">科技新闻</string>\n+    <string name=\"startup\">创业新闻</string>\n+    <string name=\"mobile\">移动互联</string>\n+    <string name=\"it\">IT资讯</string>\n+    <string name=\"android\">Android</string>\n+    <string name=\"ios\">IOS</string>\n+    <string name=\"web\">前端</string>\n+    <string name=\"expand\">扩展</string>\n+    <string name=\"about\">关于</string>\n+    <string name=\"author\">作者吴步城</string>\n+    <string name=\"studentNumber\">学号：1414080903220</string>\n+    <string name=\"action_settings\">设置</string>\n+\n+    <string name=\"title_activity_back\">活动模板（返回）</string>\n+\n+    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n+    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n+\n+    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n+    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n+\n+    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n+    <string name=\"title_activity_fragment_content\">内容</string>\n+    <string name=\"demo_content\">演示内容</string>\n+    <string name=\"title_activity_net123456\">Net123456Activity</string>\n+    <string name=\"title_activity_com123456\">Com123456Activity</string>\n+    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n+    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n+    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n+    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n+    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n+    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n+    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n+    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n+    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n+    <string name=\"title_activity_list_view\">ListViewActivity</string>\n+    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n+    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n+    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n+    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n+    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n+    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n+    <string name=\"title_activity_file_share\">FileShareActivity</string>\n+    <string name=\"title_activity_network\">NetworkActivity</string>\n+    <!-- TODO: Remove or change this placeholder text -->\n+    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\n+</resources>"
+  }, {
+    "sha" : "cb6b963764382e5685ea8b04772d22e2ee0fcb50",
+    "filename" : "AndroidLabs/app/src/main/res/values/styles1414080903220.xml",
+    "status" : "added",
+    "additions" : 51,
+    "deletions" : 0,
+    "changes" : 51,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/styles1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/styles1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/styles1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,51 @@\n+<resources>\n+\n+    <!-- Base application theme. -->\n+    <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\n+        <!-- Customize your theme here. -->\n+        <item name=\"colorPrimary\">@color/colorPrimary</item>\n+        <item name=\"colorPrimaryDark\">@color/colorPrimaryDark</item>\n+        <item name=\"colorAccent\">@color/colorAccent</item>\n+    </style>\n+\n+    <style name=\"tab_menu_item\">\n+        <item name=\"android:layout_width\">0dp</item>\n+        <item name=\"android:layout_weight\">1</item>\n+        <item name=\"android:layout_height\">match_parent</item>\n+        <item name=\"android:button\">@null</item>\n+        <item name=\"android:gravity\">center</item>\n+        <item name=\"android:paddingTop\">3dp</item>\n+        <item name=\"android:background\">#ffffff</item>\n+        <item name=\"android:textColor\">@drawable/tab_item_text_net1414080903220</item>\n+        <item name=\"android:textSize\">18sp</item>\n+    </style>\n+\n+    <style name=\"customTabLayout\" parent=\"Widget.Design.TabLayout\">\n+        <item name=\"tabIndicatorColor\">?attr/colorPrimary</item>\n+        <item name=\"tabIndicatorHeight\">2dp</item>\n+        <item name=\"tabPaddingStart\">12dp</item>\n+        <item name=\"tabPaddingEnd\">12dp</item>\n+        <item name=\"tabBackground\">?attr/colorPrimary</item>\n+        <item name=\"android:textSize\">14sp</item>\n+        <item name=\"textAllCaps\">true</item>\n+        <item name=\"tabSelectedTextColor\">#fff</item>\n+    </style>\n+\n+    <style name=\"nav_text_author\">\n+        <item name=\"android:layout_width\">wrap_content</item>\n+        <item name=\"android:layout_height\">wrap_content</item>\n+        <item name=\"android:textColor\">#fff</item>\n+        <item name=\"android:textSize\">14sp</item>\n+    </style>\n+\n+    <style name=\"nav_text\" parent=\"nav_text_author\">\n+        <item name=\"android:layout_alignParentBottom\">true</item>\n+    </style>\n+\n+    <style name=\"konwTheme\" parent=\"Theme.AppCompat.Light.NoActionBar\" >\n+        <item name=\"colorPrimary\">@color/primary_material_light_3</item>\n+    </style>\n+\n+    <style name=\"Know\" parent=\"AppTheme\" />\n+\n+</resources>"
+  }, {
+    "sha" : "88ac815420684b6b40dcc12149b2bce881ff7649",
+    "filename" : "AndroidLabs/app/src/main/res/values/values1414080903220.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/values1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7/AndroidLabs/app/src/main/res/values/values1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/values1414080903220.xml?ref=cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <color name=\"primary_dark_material_light\">#ff9800</color>\n+    <color name=\"accent_material_light\">#ff9800</color>\n+</resources>\n\\ No newline at end of file"
+  } ],
+  "sha" : "cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cb4f872e20eb2c6ffa9ded01e2fe0f14fbbde4e7",
+  "parents" : [ {
+    "sha" : "302958d0296907a24cff2c00fc9818364c7ef7fe",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/302958d0296907a24cff2c00fc9818364c7ef7fe",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/302958d0296907a24cff2c00fc9818364c7ef7fe"
+  } ]
+}

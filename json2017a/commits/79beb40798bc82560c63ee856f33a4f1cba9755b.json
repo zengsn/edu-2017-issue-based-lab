@@ -1,0 +1,49 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/79beb40798bc82560c63ee856f33a4f1cba9755b",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "全冠桥",
+      "date" : "2017-03-03T14:48:42Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "全冠桥",
+      "date" : "2017-03-03T14:48:42Z"
+    },
+    "message" : "#1 #71 第一次作业",
+    "tree" : {
+      "sha" : "c4d8bd46f3ada74d540b36f68b45151994ccdb9b",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c4d8bd46f3ada74d540b36f68b45151994ccdb9b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/79beb40798bc82560c63ee856f33a4f1cba9755b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/79beb40798bc82560c63ee856f33a4f1cba9755b/comments",
+  "files" : [ {
+    "sha" : "d78421d857028d3a13e21c077d6386c62cd76305",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/net1414080903114Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/79beb40798bc82560c63ee856f33a4f1cba9755b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/net1414080903114Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/79beb40798bc82560c63ee856f33a4f1cba9755b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/net1414080903114Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903114/net1414080903114Activity.java?ref=79beb40798bc82560c63ee856f33a4f1cba9755b",
+    "patch" : "@@ -3,7 +3,7 @@\n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n-public class net1414080903114Activity extends AppCompatActivity {\n+public class Net1414080903114Activity extends AppCompatActivity {\n \n     @Override\n     protected void onCreate(Bundle savedInstanceState) {"
+  } ],
+  "sha" : "79beb40798bc82560c63ee856f33a4f1cba9755b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/79beb40798bc82560c63ee856f33a4f1cba9755b",
+  "parents" : [ {
+    "sha" : "c9ba86b6deb43c4420f0451358a6985097cdba44",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c9ba86b6deb43c4420f0451358a6985097cdba44",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c9ba86b6deb43c4420f0451358a6985097cdba44"
+  } ]
+}

@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 100,
+    "additions" : 89,
+    "deletions" : 11
+  },
+  "author" : {
+    "login" : "ileyinan",
+    "id" : 26106952,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26106952?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ileyinan",
+    "html_url" : "https://github.com/ileyinan",
+    "followers_url" : "https://api.github.com/users/ileyinan/followers",
+    "following_url" : "https://api.github.com/users/ileyinan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ileyinan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ileyinan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ileyinan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ileyinan/orgs",
+    "repos_url" : "https://api.github.com/users/ileyinan/repos",
+    "events_url" : "https://api.github.com/users/ileyinan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ileyinan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4be3689f94561a4f5fc0017323972e30f8ac307d",
+  "commit" : {
+    "author" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-04-22T03:36:42Z"
+    },
+    "committer" : {
+      "name" : "ileyinan",
+      "email" : "905102629@qq.com",
+      "date" : "2017-04-22T03:36:42Z"
+    },
+    "message" : "#1 #26第二次作业",
+    "tree" : {
+      "sha" : "0969106e9684ca341deb3f5a7532bbe9e34b4c9f",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/0969106e9684ca341deb3f5a7532bbe9e34b4c9f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4be3689f94561a4f5fc0017323972e30f8ac307d/comments",
+  "files" : [ {
+    "sha" : "5ab40d5a1b7b29dad0395d669f99340d0561411f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231Activity.java?ref=4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903231;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231activity;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;"
+  }, {
+    "sha" : "646bd826544152a86530c7ba84d4ade257bd8826",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_clock.java",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_clock.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_clock.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_clock.java?ref=4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "patch" : "@@ -0,0 +1,13 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231activity;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+public class Net1414080903231_clock extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903231_clock);\n+    }\n+}"
+  }, {
+    "sha" : "621d95fbcce9742dfe3e9f1d243c4f76080b13a2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_setting.java",
+    "status" : "added",
+    "additions" : 21,
+    "deletions" : 0,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_setting.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_setting.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_setting.java?ref=4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "patch" : "@@ -0,0 +1,21 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231activity;\n+\n+import edu.hzuapps.androidlabs.homeworks.net1414080903231activity.Net1414080903231_time;\n+/**\n+ * Created by hzu on 2017/4/21.\n+ */\n+\n+public class Net1414080903231_setting {\n+    private int clock_id;\n+    private  Net1414080903231_time clock_time;\n+    private String clock_name;\n+    private int clock_ringnum;\n+    private String clock_music;\n+    public void Net1414080903231_setting(int id,Net1414080903231_time time, String name,int ringnum,String music){\n+        clock_id=id;\n+        clock_time=time;\n+        clock_name=name;\n+        clock_ringnum=ringnum;\n+        clock_music=music;\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "8c4dbcac8d5c841655f56d9d8976845f2b442c8f",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_time.java",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_time.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_time.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903231/Net1414080903231_time.java?ref=4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "patch" : "@@ -0,0 +1,13 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903231activity;\n+\n+/**\n+ * Created by hzu on 2017/4/21.\n+ */\n+\n+public class Net1414080903231_time {\n+    private int t_year;\n+    public int t_month;\n+    public int t_day;\n+    public int t_hour;\n+    public int t_min;\n+}"
+  }, {
+    "sha" : "74ea448b988aa4b1d4ad528d20477efdceef6447",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903231.xml",
+    "status" : "modified",
+    "additions" : 28,
+    "deletions" : 10,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/res/layout/activity_net1414080903231.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/res/layout/activity_net1414080903231.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903231.xml?ref=4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "patch" : "@@ -1,17 +1,35 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_net1414080903231\"\n     android:layout_width=\"match_parent\"\n     android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903231activity.Net1414080903231\">\n+    android:orientation=\"vertical\">\n+\n+    <LinearLayout\n+        android:layout_width=\"368dp\"\n+        android:layout_height=\"495dp\"\n+        android:orientation=\"vertical\"\n+        tools:layout_editor_absoluteY=\"8dp\"\n+        tools:layout_editor_absoluteX=\"8dp\">\n+\n+        <Button\n+            android:id=\"@+id/btn_music\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_alignParentTop=\"true\"\n+            android:layout_centerHorizontal=\"true\"\n+            android:layout_marginTop=\"150dp\"\n+            android:layout_marginLeft=\"150dp\"\n+            android:text=\"睡眠曲\"/>\n+\n+\n+        <Button\n+            android:id=\"@+id/btn_clock\"\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:layout_marginTop=\"50dp\"\n+            android:layout_marginLeft=\"150dp\"\n+            android:text=\"闹钟\"/>\n+    </LinearLayout>\n \n-    <TextView\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"Hello World!\" />\n </RelativeLayout>"
+  }, {
+    "sha" : "45f16606f1e792380ce99eec7f5466304bd03c9c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/4be3689f94561a4f5fc0017323972e30f8ac307d/AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903231_clock.xml?ref=4be3689f94561a4f5fc0017323972e30f8ac307d",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903231_clock\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903231activity.Net1414080903231_clock\">\n+\n+</RelativeLayout>"
+  } ],
+  "sha" : "4be3689f94561a4f5fc0017323972e30f8ac307d",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4be3689f94561a4f5fc0017323972e30f8ac307d",
+  "parents" : [ {
+    "sha" : "cfa08dd71a2e05812a58453989f1a1c94da588d9",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/cfa08dd71a2e05812a58453989f1a1c94da588d9",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/cfa08dd71a2e05812a58453989f1a1c94da588d9"
+  } ]
+}

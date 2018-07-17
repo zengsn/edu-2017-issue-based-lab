@@ -1,0 +1,202 @@
+[ {
+  "sha" : "de1d480974b8ce54bd914c45813a200044d2d365",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-06T14:52:05Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-06T14:52:05Z"
+    },
+    "message" : "#6 #76 第6次实验",
+    "tree" : {
+      "sha" : "e6b8bd2c9e7788dc4dc908488a15ebdbe2b5d186",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e6b8bd2c9e7788dc4dc908488a15ebdbe2b5d186"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/de1d480974b8ce54bd914c45813a200044d2d365",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/de1d480974b8ce54bd914c45813a200044d2d365",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/de1d480974b8ce54bd914c45813a200044d2d365",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/de1d480974b8ce54bd914c45813a200044d2d365/comments",
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/00444f27fe0b10f88e1b57bfeab9eda4f41cb9b9"
+  } ]
+}, {
+  "sha" : "e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-06T15:02:40Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-06T15:02:40Z"
+    },
+    "message" : "#6 #76 第6次实验",
+    "tree" : {
+      "sha" : "5bbc13418d9b8e5e37961f8113af12184983ae68",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5bbc13418d9b8e5e37961f8113af12184983ae68"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d/comments",
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "de1d480974b8ce54bd914c45813a200044d2d365",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/de1d480974b8ce54bd914c45813a200044d2d365",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/de1d480974b8ce54bd914c45813a200044d2d365"
+  } ]
+}, {
+  "sha" : "0e07009cb5aa818b39542afd54cffced313afaa2",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-08T07:49:18Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-06-08T07:49:18Z"
+    },
+    "message" : "#6 #76 第6次实验",
+    "tree" : {
+      "sha" : "9eb346ceb8918fcb0da1680698ce394ac18aa9a4",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9eb346ceb8918fcb0da1680698ce394ac18aa9a4"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0e07009cb5aa818b39542afd54cffced313afaa2",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0e07009cb5aa818b39542afd54cffced313afaa2",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0e07009cb5aa818b39542afd54cffced313afaa2",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0e07009cb5aa818b39542afd54cffced313afaa2/comments",
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e1a8e13a8a76761b0bda57ed760e90e53c4cb60d"
+  } ]
+} ]

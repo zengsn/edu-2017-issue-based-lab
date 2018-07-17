@@ -1,0 +1,32 @@
+[ {
+  "sha" : "f4e8730f2f15525cb6405439d9fe65372a22aebe",
+  "commit" : {
+    "author" : {
+      "name" : "xiwu zhong",
+      "email" : "xiwu zhong",
+      "date" : "2017-06-05T15:37:22Z"
+    },
+    "committer" : {
+      "name" : "xiwu zhong",
+      "email" : "xiwu zhong",
+      "date" : "2017-06-05T15:37:22Z"
+    },
+    "message" : "#5 #90 第五次作业",
+    "tree" : {
+      "sha" : "ddcb4b690f9edcedcca1b98543547ea7706e0c4a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ddcb4b690f9edcedcca1b98543547ea7706e0c4a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f4e8730f2f15525cb6405439d9fe65372a22aebe",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f4e8730f2f15525cb6405439d9fe65372a22aebe",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f4e8730f2f15525cb6405439d9fe65372a22aebe",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f4e8730f2f15525cb6405439d9fe65372a22aebe/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "7f72b8e46b20feaa8f996a8a437ed79bed37e3e6",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/7f72b8e46b20feaa8f996a8a437ed79bed37e3e6",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/7f72b8e46b20feaa8f996a8a437ed79bed37e3e6"
+  } ]
+} ]

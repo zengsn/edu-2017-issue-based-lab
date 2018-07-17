@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e242e080ff2041054f30e82d7b6c09fbb8ade902",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-27T07:44:20Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-05-27T07:44:20Z"
+    },
+    "message" : "#6 #15 第六次实验",
+    "tree" : {
+      "sha" : "7fb714c4ba837d9069408884a1623b94c05803f4",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7fb714c4ba837d9069408884a1623b94c05803f4"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/e242e080ff2041054f30e82d7b6c09fbb8ade902",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e242e080ff2041054f30e82d7b6c09fbb8ade902/comments",
+  "files" : [ {
+    "sha" : "eb9b2697ef9cafb5f2e1285d32d6b84948461a87",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/e242e080ff2041054f30e82d7b6c09fbb8ade902/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/e242e080ff2041054f30e82d7b6c09fbb8ade902/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java?ref=e242e080ff2041054f30e82d7b6c09fbb8ade902",
+    "patch" : "@@ -67,7 +67,7 @@ public void run() {\n     class submitOnClieckListener implements View.OnClickListener {\n         @Override\n         public void onClick(View v) {\n-//本地机器部署为服务器，从本地下载a.txt文件内容在textView上显示\n+\t\t//从github上抓取数据\n             new Thread(){\n                 public void run(){\n                     try {"
+  } ],
+  "sha" : "e242e080ff2041054f30e82d7b6c09fbb8ade902",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e242e080ff2041054f30e82d7b6c09fbb8ade902",
+  "parents" : [ {
+    "sha" : "bcb02cac36460f6f20fb91c9c99b5ff606e3ea88",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/bcb02cac36460f6f20fb91c9c99b5ff606e3ea88",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/bcb02cac36460f6f20fb91c9c99b5ff606e3ea88"
+  } ]
+}

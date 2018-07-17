@@ -1,0 +1,184 @@
+{
+  "committer" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 387,
+    "additions" : 374,
+    "deletions" : 13
+  },
+  "author" : {
+    "login" : "shezhiming",
+    "id" : 13965087,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/13965087?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/shezhiming",
+    "html_url" : "https://github.com/shezhiming",
+    "followers_url" : "https://api.github.com/users/shezhiming/followers",
+    "following_url" : "https://api.github.com/users/shezhiming/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/shezhiming/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/shezhiming/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/shezhiming/subscriptions",
+    "organizations_url" : "https://api.github.com/users/shezhiming/orgs",
+    "repos_url" : "https://api.github.com/users/shezhiming/repos",
+    "events_url" : "https://api.github.com/users/shezhiming/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/shezhiming/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/274839a24e781830a84b2f6baab181d96ad70a85",
+  "commit" : {
+    "author" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-04-24T05:05:04Z"
+    },
+    "committer" : {
+      "name" : "shezhiming",
+      "email" : "505306252@qq.com",
+      "date" : "2017-04-24T05:05:04Z"
+    },
+    "message" : "#2 #15第二次实验",
+    "tree" : {
+      "sha" : "2aaa222d7e47145810602bfe1a7bd39f913b75bb",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2aaa222d7e47145810602bfe1a7bd39f913b75bb"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/274839a24e781830a84b2f6baab181d96ad70a85",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/274839a24e781830a84b2f6baab181d96ad70a85/comments",
+  "files" : [ {
+    "sha" : "362c899c70d1d3b036c8fdf31a7df61f26586f51",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230Activity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 13,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/50f5a0305bb9c2b727dbfc426fd243aec2a1965e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/50f5a0305bb9c2b727dbfc426fd243aec2a1965e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230Activity.java?ref=50f5a0305bb9c2b727dbfc426fd243aec2a1965e",
+    "patch" : "@@ -1,13 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903230;\n-\n-import android.support.v7.app.AppCompatActivity;\n-import android.os.Bundle;\n-\n-public class Net1414080903230Activity extends AppCompatActivity {\n-\n-    @Override\n-    protected void onCreate(Bundle savedInstanceState) {\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.activity_net1414080903230);\n-    }\n-}"
+  }, {
+    "sha" : "66e2a52ee5432fc455436038974fdbaff428cbe6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_DiaryFragment.java?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,22 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903230.net1414080903230;\n+\n+import android.os.Bundle;\n+import android.support.v4.app.Fragment;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+\n+/**\n+ * A simple {@link Fragment} subclass.\n+ * Activities that contain this fragment must implement the\n+ * {@link Net1414080903230_DiaryFragment.OnFragmentInteractionListener} interface\n+ * to handle interaction events.\n+ * Use the {@link Net1414080903230_DiaryFragment#newInstance} factory method to\n+ * create an instance of this fragment.\n+ */\n+public class Net1414080903230_DiaryFragment extends Fragment {\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        View view = inflater.inflate(R.layout.fragment_net1414080903230__diary, container, false);\n+        return view;\n+    }\n+}"
+  }, {
+    "sha" : "cb10bdb9e060885f25ea9380285642c262d03818",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "status" : "added",
+    "additions" : 23,
+    "deletions" : 0,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_UserFragment.java?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,23 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903230.net1414080903230;\n+\n+import android.os.Bundle;\n+import android.support.v4.app.Fragment;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+\n+\n+/**\n+ * A simple {@link Fragment} subclass.\n+ * Activities that contain this fragment must implement the\n+ * {@link Net1414080903230_UserFragment.OnFragmentInteractionListener} interface\n+ * to handle interaction events.\n+ * Use the {@link Net1414080903230_UserFragment#newInstance} factory method to\n+ * create an instance of this fragment.\n+ */\n+public class Net1414080903230_UserFragment extends Fragment {\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        View view = inflater.inflate(R.layout.fragment_net1414080903230__user, container, false);\n+        return view;\n+    }\n+}"
+  }, {
+    "sha" : "974505ecff70cd0818a2c7766aab4f24d6bec7f8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "status" : "added",
+    "additions" : 29,
+    "deletions" : 0,
+    "changes" : 29,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net1414080903230_WriteDiaryActivity.java?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,29 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903230.net1414080903230;\n+\n+import android.os.Bundle;\n+import android.support.design.widget.FloatingActionButton;\n+import android.support.design.widget.Snackbar;\n+import android.support.v7.app.AppCompatActivity;\n+import android.support.v7.widget.Toolbar;\n+import android.view.View;\n+\n+public class Net1414080903230_WriteDiaryActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903230__write_diary);\n+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);\n+        setSupportActionBar(toolbar);\n+\n+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);\n+        fab.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View view) {\n+                Snackbar.make(view, \"Replace with your own action\", Snackbar.LENGTH_LONG)\n+                        .setAction(\"Action\", null).show();\n+            }\n+        });\n+    }\n+\n+}"
+  }, {
+    "sha" : "fbe35a2b4faa1d536c70f7321da55771b8c931c7",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net414080903230_MainActivity.java",
+    "status" : "added",
+    "additions" : 139,
+    "deletions" : 0,
+    "changes" : 139,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net414080903230_MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net414080903230_MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903230/Net414080903230_MainActivity.java?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,139 @@\n+package edu.hzuapps.androidlabs.homework.net1414080903230.net1414080903230;\n+\n+import android.os.Bundle;\n+import android.support.v4.app.FragmentActivity; // 注意这里我们导入的V4的包，不要导成app的包了\n+import android.support.v4.app.FragmentManager;\n+import android.support.v4.app.FragmentTransaction;\n+import android.view.View;\n+import android.widget.FrameLayout;\n+import android.widget.ImageView;\n+import android.widget.RelativeLayout;\n+import android.widget.TextView;\n+/**\n+ * 主页面内容\n+ * Created by dm on 16-1-19.\n+ */\n+public class Net414080903230_MainActivity extends FragmentActivity implements View.OnClickListener {\n+    // 初始化顶部栏显示\n+    private ImageView titleLeftImv;\n+    private TextView titleTv;\n+    // 定义4个Fragment对象\n+    private Net1414080903230_DiaryFragment fg1;\n+    private Net1414080903230_UserFragment fg2;\n+    // 帧布局对象，用来存放Fragment对象\n+    private FrameLayout frameLayout;\n+    // 定义每个选项中的相关控件\n+    private RelativeLayout firstLayout;\n+    private RelativeLayout secondLayout;\n+    private ImageView firstImage;\n+    private ImageView secondImage;\n+    private TextView firstText;\n+    private TextView secondText;\n+    // 定义几个颜色\n+    private int whirt = 0xFFFFFFFF;\n+    private int gray = 0xFF7597B3;\n+    private int dark = 0xff000000;\n+    // 定义FragmentManager对象管理器\n+    private FragmentManager fragmentManager;\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903230__main);\n+        fragmentManager = getSupportFragmentManager();\n+        initView(); // 初始化界面控件\n+        setChioceItem(0); // 初始化页面加载时显示第一个选项卡\n+    }\n+    /**\n+     * 初始化页面\n+     */\n+    private void initView() {\n+// 初始化页面标题栏\n+        titleLeftImv = (ImageView) findViewById(R.id.title_imv);\n+        titleTv = (TextView) findViewById(R.id.title_text_tv);\n+        titleTv.setText(\"首 页\");\n+// 初始化底部导航栏的控件\n+        firstImage = (ImageView) findViewById(R.id.first_image);\n+        secondImage = (ImageView) findViewById(R.id.second_image);\n+        firstText = (TextView) findViewById(R.id.first_text);\n+        secondText = (TextView) findViewById(R.id.second_text);\n+        firstLayout = (RelativeLayout) findViewById(R.id.first_layout);\n+        secondLayout = (RelativeLayout) findViewById(R.id.second_layout);\n+        firstLayout.setOnClickListener(Net414080903230_MainActivity.this);\n+        secondLayout.setOnClickListener(Net414080903230_MainActivity.this);\n+    }\n+    @Override\n+    public void onClick(View v) {\n+        switch (v.getId()) {\n+            case R.id.first_layout:\n+                setChioceItem(0);\n+                break;\n+            case R.id.second_layout:\n+                setChioceItem(1);\n+                break;\n+\n+        }\n+    }\n+    /**\n+     * 设置点击选项卡的事件处理\n+     *\n+     * @param index 选项卡的标号：0, 1, 2, 3\n+     */\n+    private void setChioceItem(int index) {\n+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();\n+        clearChioce(); // 清空, 重置选项, 隐藏所有Fragment\n+        hideFragments(fragmentTransaction);\n+        switch (index) {\n+            case 0:\n+// firstImage.setImageResource(R.drawable.XXXX); 需要的话自行修改\n+                firstText.setTextColor(dark);\n+                firstLayout.setBackgroundColor(gray);\n+// 如果fg1为空，则创建一个并添加到界面上\n+                if (fg1 == null) {\n+                    fg1 = new Net1414080903230_DiaryFragment();\n+                    fragmentTransaction.add(R.id.content, fg1);\n+                } else {\n+// 如果不为空，则直接将它显示出来\n+                    fragmentTransaction.show(fg1);\n+                }\n+                break;\n+            case 1:\n+// secondImage.setImageResource(R.drawable.XXXX);\n+                secondText.setTextColor(dark);\n+                secondLayout.setBackgroundColor(gray);\n+                if (fg2 == null) {\n+                    fg2 = new Net1414080903230_UserFragment();\n+                    fragmentTransaction.add(R.id.content, fg2);\n+                } else {\n+                    fragmentTransaction.show(fg2);\n+                }\n+                break;\n+\n+        }\n+        fragmentTransaction.commit(); // 提交\n+    }\n+    /**\n+     * 当选中其中一个选项卡时，其他选项卡重置为默认\n+     */\n+    private void clearChioce() {\n+// firstImage.setImageResource(R.drawable.XXX);\n+        firstText.setTextColor(gray);\n+        firstLayout.setBackgroundColor(whirt);\n+// secondImage.setImageResource(R.drawable.XXX);\n+        secondText.setTextColor(gray);\n+        secondLayout.setBackgroundColor(whirt);\n+    }\n+    /**\n+     * 隐藏Fragment\n+     *\n+     * @param fragmentTransaction\n+     */\n+    private void hideFragments(FragmentTransaction fragmentTransaction) {\n+        if (fg1 != null) {\n+            fragmentTransaction.hide(fg1);\n+        }\n+        if (fg2 != null) {\n+            fragmentTransaction.hide(fg2);\n+        }\n+\n+    }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "fe2d866ccfe0c42bb3472e9bf44bd2cc86648809",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903230__main.xml",
+    "status" : "added",
+    "additions" : 79,
+    "deletions" : 0,
+    "changes" : 79,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/activity_net1414080903230__main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/activity_net1414080903230__main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903230__main.xml?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,79 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:background=\"@color/colorAccent\"\n+    android:orientation=\"vertical\">\n+    <!--1. 顶部标题栏-->\n+    <include\n+        android:id=\"@+id/show_main_title\"\n+        layout=\"@layout/title_layout_net1414080903230\" />\n+    <!--2. 存放四个Fragment-->\n+    <FrameLayout\n+        android:id=\"@+id/content\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"0dp\"\n+        android:layout_weight=\"1\"\n+        android:background=\"@color/whitesmoke\"></FrameLayout>\n+    <!--3. 底部的四个选项菜单-->\n+    <LinearLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"60dp\"\n+        android:background=\"#FFFFFF\">\n+        <!--四个部分都一样：ImageView + TextView-->\n+        <RelativeLayout\n+            android:id=\"@+id/first_layout\"\n+            android:layout_width=\"0dp\"\n+            android:layout_height=\"match_parent\"\n+            android:layout_weight=\"1\">\n+            <LinearLayout\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_centerVertical=\"true\"\n+                android:orientation=\"vertical\">\n+                <ImageView\n+                    android:id=\"@+id/first_image\"\n+                    android:layout_width=\"wrap_content\"\n+                    android:layout_height=\"wrap_content\"\n+                    android:layout_gravity=\"center_horizontal\"\n+                    android:src=\"@android:drawable/ic_menu_compass\" />\n+                <TextView\n+                    android:id=\"@+id/first_text\"\n+                    android:layout_width=\"wrap_content\"\n+                    android:layout_height=\"wrap_content\"\n+                    android:layout_gravity=\"center_horizontal\"\n+                    android:layout_marginTop=\"5dp\"\n+                    android:text=\"消息\"\n+                    android:textColor=\"#7597B3\" />\n+            </LinearLayout>\n+        </RelativeLayout>\n+        <RelativeLayout\n+            android:id=\"@+id/second_layout\"\n+            android:layout_width=\"0dp\"\n+            android:layout_height=\"match_parent\"\n+            android:layout_weight=\"1\">\n+            <LinearLayout\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_centerVertical=\"true\"\n+                android:orientation=\"vertical\">\n+                <ImageView\n+                    android:id=\"@+id/second_image\"\n+                    android:layout_width=\"wrap_content\"\n+                    android:layout_height=\"wrap_content\"\n+                    android:layout_gravity=\"center_horizontal\"\n+                    android:src=\"@android:drawable/ic_menu_agenda\" />\n+                <TextView\n+                    android:id=\"@+id/second_text\"\n+                    android:layout_width=\"wrap_content\"\n+                    android:layout_height=\"wrap_content\"\n+                    android:layout_gravity=\"center_horizontal\"\n+                    android:layout_marginTop=\"5dp\"\n+                    android:text=\"发现\"\n+                    android:textColor=\"#7597B3\" />\n+            </LinearLayout>\n+        </RelativeLayout>\n+\n+\n+    </LinearLayout>\n+</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "7831d4944b3b32890a9dc0d470fdccadf4d4c129",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903230__write_diary.xml",
+    "status" : "added",
+    "additions" : 34,
+    "deletions" : 0,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/activity_net1414080903230__write_diary.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/activity_net1414080903230__write_diary.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903230__write_diary.xml?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,34 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.design.widget.CoordinatorLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:fitsSystemWindows=\"true\"\n+    tools:context=\"edu.hzuapps.androidlabs.homework.net1414080903230.net1414080903230.Net1414080903230_WriteDiaryActivity\">\n+\n+    <android.support.design.widget.AppBarLayout\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:theme=\"@style/AppTheme.AppBarOverlay\">\n+\n+        <android.support.v7.widget.Toolbar\n+            android:id=\"@+id/toolbar\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"?attr/actionBarSize\"\n+            android:background=\"?attr/colorPrimary\"\n+            app:popupTheme=\"@style/AppTheme.PopupOverlay\" />\n+\n+    </android.support.design.widget.AppBarLayout>\n+\n+    <include layout=\"@layout/content_net1414080903230__write_diary\" />\n+\n+    <android.support.design.widget.FloatingActionButton\n+        android:id=\"@+id/fab\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_gravity=\"bottom|end\"\n+        android:layout_margin=\"@dimen/fab_margin\"\n+        app:srcCompat=\"@android:drawable/ic_dialog_email\" />\n+\n+</android.support.design.widget.CoordinatorLayout>"
+  }, {
+    "sha" : "a7c9bce1ed614eeebe3c4127ab6e618d6c2c3b61",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__diary.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__diary.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__diary.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__diary.xml?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:gravity=\"center\"\n+    android:background=\"@color/aquamarine\"\n+    android:orientation=\"vertical\">\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"第二个页面\"\n+        android:textSize=\"22sp\"/>\n+</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "e2d51f6ceb9cc233db6710ca03ff6188fd78817c",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903230__user.xml?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:gravity=\"center\"\n+    android:background=\"@color/aquamarine\"\n+    android:orientation=\"vertical\">\n+    <TextView\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"第一个页面\"\n+        android:textSize=\"22sp\"/>\n+</LinearLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "e27dc2600dd00195c95f6e9c9310a87b867669e1",
+    "filename" : "AndroidLabs/app/src/main/res/layout/title_layout_net1414080903230.xml",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/title_layout_net1414080903230.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/274839a24e781830a84b2f6baab181d96ad70a85/AndroidLabs/app/src/main/res/layout/title_layout_net1414080903230.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/title_layout_net1414080903230.xml?ref=274839a24e781830a84b2f6baab181d96ad70a85",
+    "patch" : "@@ -0,0 +1,22 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"56dp\"\n+    android:background=\"@color/colorPrimaryDark\"\n+    android:orientation=\"horizontal\">\n+    <ImageView\n+        android:id=\"@+id/title_imv\"\n+        android:layout_width=\"30dp\"\n+        android:layout_height=\"30dp\"\n+        android:layout_centerVertical=\"true\"\n+        android:layout_marginLeft=\"10dp\"\n+        android:src=\"@android:drawable/ic_menu_more\" />\n+    <TextView\n+        android:id=\"@+id/title_text_tv\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_centerInParent=\"true\"\n+        android:text=\"首 页\"\n+        android:textSize=\"20sp\"\n+        android:textColor=\"@color/bg_color\"/>\n+</RelativeLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "274839a24e781830a84b2f6baab181d96ad70a85",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/274839a24e781830a84b2f6baab181d96ad70a85",
+  "parents" : [ {
+    "sha" : "50f5a0305bb9c2b727dbfc426fd243aec2a1965e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/50f5a0305bb9c2b727dbfc426fd243aec2a1965e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/50f5a0305bb9c2b727dbfc426fd243aec2a1965e"
+  } ]
+}

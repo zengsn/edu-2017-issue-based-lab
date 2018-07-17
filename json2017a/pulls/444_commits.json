@@ -1,0 +1,269 @@
+[ {
+  "sha" : "1b23edd4df47822c982ff5c7eaae312125da0030",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T08:51:56Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T08:51:56Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "970249920fdb65f977d19d3b3ff3034bc75f4ddf",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/970249920fdb65f977d19d3b3ff3034bc75f4ddf"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1b23edd4df47822c982ff5c7eaae312125da0030",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b23edd4df47822c982ff5c7eaae312125da0030",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b23edd4df47822c982ff5c7eaae312125da0030",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b23edd4df47822c982ff5c7eaae312125da0030/comments",
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "631614df86edba616440856cb02591a9046e926f",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/631614df86edba616440856cb02591a9046e926f",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/631614df86edba616440856cb02591a9046e926f"
+  } ]
+}, {
+  "sha" : "513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T09:01:46Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T09:01:46Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "7275688dafa557c7bdbee2c83fb5c333dddb4b37",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7275688dafa557c7bdbee2c83fb5c333dddb4b37"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce/comments",
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1b23edd4df47822c982ff5c7eaae312125da0030",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b23edd4df47822c982ff5c7eaae312125da0030",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b23edd4df47822c982ff5c7eaae312125da0030"
+  } ]
+}, {
+  "sha" : "4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T12:47:40Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T12:47:40Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "a7756733930fdd148ec61548b4f87a55106e1c3e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/a7756733930fdd148ec61548b4f87a55106e1c3e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788/comments",
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/513ce42a8dbcd33dc5d155ced045f16273e5f2ce",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/513ce42a8dbcd33dc5d155ced045f16273e5f2ce"
+  } ]
+}, {
+  "sha" : "5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+  "commit" : {
+    "author" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T14:12:47Z"
+    },
+    "committer" : {
+      "name" : "HardyYao",
+      "email" : "694297760@qq.com",
+      "date" : "2017-06-08T14:12:47Z"
+    },
+    "message" : "#6 #13 第六次实验",
+    "tree" : {
+      "sha" : "b670848f6cd1e9ac708bdf281fb16ed521171c8c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b670848f6cd1e9ac708bdf281fb16ed521171c8c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5fee90e52203a4610f6a1fb6f113ba6cb6d04424",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5fee90e52203a4610f6a1fb6f113ba6cb6d04424/comments",
+  "author" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "HardyYao",
+    "id" : 22211184,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/22211184?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/HardyYao",
+    "html_url" : "https://github.com/HardyYao",
+    "followers_url" : "https://api.github.com/users/HardyYao/followers",
+    "following_url" : "https://api.github.com/users/HardyYao/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/HardyYao/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/HardyYao/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/HardyYao/subscriptions",
+    "organizations_url" : "https://api.github.com/users/HardyYao/orgs",
+    "repos_url" : "https://api.github.com/users/HardyYao/repos",
+    "events_url" : "https://api.github.com/users/HardyYao/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/HardyYao/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4e7dc66ed23d7187c32c38d503fa236ba8ab0788",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4e7dc66ed23d7187c32c38d503fa236ba8ab0788"
+  } ]
+} ]

@@ -1,0 +1,68 @@
+[ {
+  "sha" : "406a278d2c501242ce3a6ae1b6a51b9e19208d33",
+  "commit" : {
+    "author" : {
+      "name" : "kewu621700",
+      "email" : "930269289@qq.com",
+      "date" : "2017-03-16T08:32:58Z"
+    },
+    "committer" : {
+      "name" : "kewu621700",
+      "email" : "930269289@qq.com",
+      "date" : "2017-03-16T08:32:58Z"
+    },
+    "message" : "#1 #149  第一次作业",
+    "tree" : {
+      "sha" : "63c2ed8972eee228f41f2a341dc16edd2786567a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/63c2ed8972eee228f41f2a341dc16edd2786567a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/406a278d2c501242ce3a6ae1b6a51b9e19208d33",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/406a278d2c501242ce3a6ae1b6a51b9e19208d33",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/406a278d2c501242ce3a6ae1b6a51b9e19208d33",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/406a278d2c501242ce3a6ae1b6a51b9e19208d33/comments",
+  "author" : {
+    "login" : "kewu621700",
+    "id" : 26290674,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26290674?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/kewu621700",
+    "html_url" : "https://github.com/kewu621700",
+    "followers_url" : "https://api.github.com/users/kewu621700/followers",
+    "following_url" : "https://api.github.com/users/kewu621700/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/kewu621700/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/kewu621700/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/kewu621700/subscriptions",
+    "organizations_url" : "https://api.github.com/users/kewu621700/orgs",
+    "repos_url" : "https://api.github.com/users/kewu621700/repos",
+    "events_url" : "https://api.github.com/users/kewu621700/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/kewu621700/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "kewu621700",
+    "id" : 26290674,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/26290674?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/kewu621700",
+    "html_url" : "https://github.com/kewu621700",
+    "followers_url" : "https://api.github.com/users/kewu621700/followers",
+    "following_url" : "https://api.github.com/users/kewu621700/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/kewu621700/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/kewu621700/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/kewu621700/subscriptions",
+    "organizations_url" : "https://api.github.com/users/kewu621700/orgs",
+    "repos_url" : "https://api.github.com/users/kewu621700/repos",
+    "events_url" : "https://api.github.com/users/kewu621700/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/kewu621700/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "833e1b865248b148a903eb100b4a90bea832d1d7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/833e1b865248b148a903eb100b4a90bea832d1d7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/833e1b865248b148a903eb100b4a90bea832d1d7"
+  } ]
+} ]

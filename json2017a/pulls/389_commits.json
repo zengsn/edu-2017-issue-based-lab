@@ -1,0 +1,202 @@
+[ {
+  "sha" : "f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+  "commit" : {
+    "author" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-26T12:58:37Z"
+    },
+    "committer" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-26T12:58:37Z"
+    },
+    "message" : "#5 #142 第五次作业",
+    "tree" : {
+      "sha" : "e8776ee4c016ecf06dcc672bb4cce2b15996a953",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e8776ee4c016ecf06dcc672bb4cce2b15996a953"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2/comments",
+  "author" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "92c4fff273f724c5170b3dde0638b1413ba63d46",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/92c4fff273f724c5170b3dde0638b1413ba63d46",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/92c4fff273f724c5170b3dde0638b1413ba63d46"
+  } ]
+}, {
+  "sha" : "767deecb1f1895bd4efc445d27d65d864169c181",
+  "commit" : {
+    "author" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T09:05:23Z"
+    },
+    "committer" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T09:05:23Z"
+    },
+    "message" : "#5 #142 第五次作业",
+    "tree" : {
+      "sha" : "4881d60d71421e327411a95b9aea105885e692cf",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4881d60d71421e327411a95b9aea105885e692cf"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/767deecb1f1895bd4efc445d27d65d864169c181",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/767deecb1f1895bd4efc445d27d65d864169c181",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/767deecb1f1895bd4efc445d27d65d864169c181",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/767deecb1f1895bd4efc445d27d65d864169c181/comments",
+  "author" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f26db9262a58c7b6c5bab846c5edfbc753ddcdc2"
+  } ]
+}, {
+  "sha" : "ca0add5bc40183c5119e893414680b2a9820fe1d",
+  "commit" : {
+    "author" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T14:30:10Z"
+    },
+    "committer" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T14:30:10Z"
+    },
+    "message" : "#5 #142 第五次作业（已修改1）",
+    "tree" : {
+      "sha" : "ba80effd2cc99f1e4cd61cc2c9745373a1f980ac",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ba80effd2cc99f1e4cd61cc2c9745373a1f980ac"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ca0add5bc40183c5119e893414680b2a9820fe1d",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ca0add5bc40183c5119e893414680b2a9820fe1d",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ca0add5bc40183c5119e893414680b2a9820fe1d/comments",
+  "author" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "767deecb1f1895bd4efc445d27d65d864169c181",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/767deecb1f1895bd4efc445d27d65d864169c181",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/767deecb1f1895bd4efc445d27d65d864169c181"
+  } ]
+} ]

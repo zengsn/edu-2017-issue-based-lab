@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 17,
+    "additions" : 0,
+    "deletions" : 17
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/be211875b2598ee095896219886a4939c0f72830",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-06T08:00:49Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-05-06T08:00:49Z"
+    },
+    "message" : "Delete Net1414080903220Activity.java",
+    "tree" : {
+      "sha" : "c8b7e066a758d577e9be1881aa28170e7442080e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/c8b7e066a758d577e9be1881aa28170e7442080e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/be211875b2598ee095896219886a4939c0f72830",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/be211875b2598ee095896219886a4939c0f72830/comments",
+  "files" : [ {
+    "sha" : "8cb8b8348dbf99d7779e3c8fe81f6f2e9c87a143",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/Net1414080903220Activity.java",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 17,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/Net1414080903220Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/baaa18df94e8113ef11d5628139bdb91220d7b1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/Net1414080903220Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903220/Net1414080903220Activity.java?ref=baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "patch" : "@@ -1,17 +0,0 @@\n-package edu.hzuapps.androidlabs.homeworks.net1414080903220;\n-\n-import android.app.Activity;\n-import android.os.Bundle;\n-\n-/**\n- * Created by cheng on 2017/3/3.\n- */\n-\n-public class Net1414080903220Activity extends Activity {\n-    @Override\n-    public   void onCreate(Bundle savedInstanceState){\n-        super.onCreate(savedInstanceState);\n-        setContentView(R.layout.net1414080903220activity);\n-    }\n-\n-}"
+  } ],
+  "sha" : "be211875b2598ee095896219886a4939c0f72830",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/be211875b2598ee095896219886a4939c0f72830",
+  "parents" : [ {
+    "sha" : "baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/baaa18df94e8113ef11d5628139bdb91220d7b1d",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/baaa18df94e8113ef11d5628139bdb91220d7b1d"
+  } ]
+}

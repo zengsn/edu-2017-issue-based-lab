@@ -1,0 +1,60 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 6,
+    "additions" : 3,
+    "deletions" : 3
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ebde8fd335c2e824005ce4a6e00580dfe539f246",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "Áִó˧@PC-20160115CMBC.hzucs.cn",
+      "date" : "2017-03-16T11:53:42Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "Áִó˧@PC-20160115CMBC.hzucs.cn",
+      "date" : "2017-03-16T11:53:42Z"
+    },
+    "message" : "#1 #158 第一次作业",
+    "tree" : {
+      "sha" : "5bd3f270939617aed995e1b7aad67dfb146b0f99",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/5bd3f270939617aed995e1b7aad67dfb146b0f99"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ebde8fd335c2e824005ce4a6e00580dfe539f246",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ebde8fd335c2e824005ce4a6e00580dfe539f246/comments",
+  "files" : [ {
+    "sha" : "e521d1483e8e31365cef7a6341e885e3242c4a01",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903119/Net1414080903119Activity.java",
+    "status" : "modified",
+    "additions" : 2,
+    "deletions" : 2,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ebde8fd335c2e824005ce4a6e00580dfe539f246/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903119/Net1414080903119Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ebde8fd335c2e824005ce4a6e00580dfe539f246/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903119/Net1414080903119Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903119/Net1414080903119Activity.java?ref=ebde8fd335c2e824005ce4a6e00580dfe539f246",
+    "patch" : "@@ -1,9 +1,9 @@\n-package edu.hzuapps.myapplication.homeworks.net1414080903119;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903119;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;\n \n-import edu.hzuapps.myapplication.R;\n+import edu.hzuapps.androidlabs.R;\n \n public class Net1414080903119Activity extends AppCompatActivity {\n "
+  }, {
+    "sha" : "56eb7a7d07b68e68e0941059b0c47501908f5939",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903119.xml",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ebde8fd335c2e824005ce4a6e00580dfe539f246/AndroidLabs/app/src/main/res/layout/activity_net1414080903119.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ebde8fd335c2e824005ce4a6e00580dfe539f246/AndroidLabs/app/src/main/res/layout/activity_net1414080903119.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903119.xml?ref=ebde8fd335c2e824005ce4a6e00580dfe539f246",
+    "patch" : "@@ -8,7 +8,7 @@\n     android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n     android:paddingRight=\"@dimen/activity_horizontal_margin\"\n     android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.myapplication.homeworks.net1414080903119.Net1414080903119Activity\">\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903119.Net1414080903119Activity\">\n \n     <TextView\n         android:layout_width=\"wrap_content\""
+  } ],
+  "sha" : "ebde8fd335c2e824005ce4a6e00580dfe539f246",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ebde8fd335c2e824005ce4a6e00580dfe539f246",
+  "parents" : [ {
+    "sha" : "ed8dc71d3def132d6b5d7b74ff7babeac86442cc",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ed8dc71d3def132d6b5d7b74ff7babeac86442cc",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ed8dc71d3def132d6b5d7b74ff7babeac86442cc"
+  } ]
+}

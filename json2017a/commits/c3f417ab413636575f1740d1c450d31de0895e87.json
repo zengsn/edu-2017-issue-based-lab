@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "xiaochenfff",
+    "id" : 17422540,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/17422540?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaochenfff",
+    "html_url" : "https://github.com/xiaochenfff",
+    "followers_url" : "https://api.github.com/users/xiaochenfff/followers",
+    "following_url" : "https://api.github.com/users/xiaochenfff/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaochenfff/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaochenfff/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaochenfff/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaochenfff/orgs",
+    "repos_url" : "https://api.github.com/users/xiaochenfff/repos",
+    "events_url" : "https://api.github.com/users/xiaochenfff/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaochenfff/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 79,
+    "additions" : 79,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "xiaochenfff",
+    "id" : 17422540,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/17422540?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaochenfff",
+    "html_url" : "https://github.com/xiaochenfff",
+    "followers_url" : "https://api.github.com/users/xiaochenfff/followers",
+    "following_url" : "https://api.github.com/users/xiaochenfff/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaochenfff/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaochenfff/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaochenfff/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaochenfff/orgs",
+    "repos_url" : "https://api.github.com/users/xiaochenfff/repos",
+    "events_url" : "https://api.github.com/users/xiaochenfff/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaochenfff/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c3f417ab413636575f1740d1c450d31de0895e87",
+  "commit" : {
+    "author" : {
+      "name" : "xiaochenfff",
+      "email" : "614742102@qq.com",
+      "date" : "2017-06-16T10:19:49Z"
+    },
+    "committer" : {
+      "name" : "xiaochenfff",
+      "email" : "614742102@qq.com",
+      "date" : "2017-06-16T10:19:49Z"
+    },
+    "message" : "#88 #第六次作业",
+    "tree" : {
+      "sha" : "2298402329a1866bc45e1217968dfa2ef0f2a236",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/2298402329a1866bc45e1217968dfa2ef0f2a236"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c3f417ab413636575f1740d1c450d31de0895e87",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c3f417ab413636575f1740d1c450d31de0895e87/comments",
+  "files" : [ {
+    "sha" : "27e031d94091326ce4be319ab9c4cea3b85cbaf4",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook.java",
+    "status" : "added",
+    "additions" : 44,
+    "deletions" : 0,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c3f417ab413636575f1740d1c450d31de0895e87/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c3f417ab413636575f1740d1c450d31de0895e87/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook.java?ref=c3f417ab413636575f1740d1c450d31de0895e87",
+    "patch" : "@@ -0,0 +1,44 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903138;\n+\n+import android.content.Intent;\n+import android.provider.CalendarContract;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.Toast;\n+\n+import edu.hzuapps.androidlabs.R;\n+\n+public class Net1414080903138Cashbook extends AppCompatActivity {\n+\n+    Button CashReturn;\n+    Button CashSave;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903138_cashbook);\n+        CashReturn = (Button)findViewById(R.id.cashbook_But);\n+        CashSave = (Button)findViewById(R.id.but_save);\n+    }\n+    //返回主页面\n+    public void onClick(View v) {\n+        if (v.getId() == R.id.cash_return) {\n+            Intent intent = new Intent(this, Net1414080903138Activity.class);\n+        }\n+        if (v.getId() == R.id.but_save)\n+        {\n+            boolean isSaveSuccess = Net1414080903138Cashbook_Utils.saveCashbook(this,0,0);\n+            if(isSaveSuccess)\n+            {\n+                Toast.makeText(this,\"消费记录保存成功\",Toast.LENGTH_SHORT).show();\n+            }\n+            else\n+            {\n+                Toast.makeText(this,\"消费记录未保存成功\",Toast.LENGTH_SHORT).show();\n+            }\n+        }\n+    }\n+}\n+"
+  }, {
+    "sha" : "febd8d4cb5b2de515e9c7b737cbeba3d4681f95c",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook_Utils.java",
+    "status" : "added",
+    "additions" : 35,
+    "deletions" : 0,
+    "changes" : 35,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/c3f417ab413636575f1740d1c450d31de0895e87/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook_Utils.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/c3f417ab413636575f1740d1c450d31de0895e87/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook_Utils.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903138/Net1414080903138Cashbook_Utils.java?ref=c3f417ab413636575f1740d1c450d31de0895e87",
+    "patch" : "@@ -0,0 +1,35 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903138;\n+\n+import android.content.Context;\n+import android.content.SharedPreferences;\n+\n+import java.util.HashMap;\n+import java.util.Map;\n+\n+/**\n+ * Created by Administrator on 2017/5/28.\n+ */\n+public class Net1414080903138Cashbook_Utils\n+{\n+    //保存日消费和月消费到data.xml文件中\n+    public static boolean saveCashbook(Context context,int daycost,int monthcost)\n+    {\n+        SharedPreferences sp = context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n+        SharedPreferences.Editor edit = sp.edit();\n+        edit.putInt(\"Daycost\",daycost);\n+        edit.putInt(\"Monthcost\",monthcost);\n+        edit.commit();\n+        return true;\n+    }\n+    //从data.xml文件获取存储的日消费与月消费额\n+    public static Map<String,String>getCashbook(Context context)\n+    {\n+        SharedPreferences sp = context.getSharedPreferences(\"data\",Context.MODE_PRIVATE);\n+        String daycost = sp.getString(\"Daycost\",null);\n+        String monthcost = sp.getString(\"Monthcost\",null);\n+        Map<String,String> userMap = new HashMap<String, String>();\n+        userMap.put(\"daycost\",daycost);\n+        userMap.put(\"monthcost\",monthcost);\n+        return userMap;\n+    }\n+}"
+  } ],
+  "sha" : "c3f417ab413636575f1740d1c450d31de0895e87",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c3f417ab413636575f1740d1c450d31de0895e87",
+  "parents" : [ {
+    "sha" : "c7eb06fc0cb7b89db74ad36ec1c14428ee301444",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c7eb06fc0cb7b89db74ad36ec1c14428ee301444",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c7eb06fc0cb7b89db74ad36ec1c14428ee301444"
+  } ]
+}

@@ -1,0 +1,373 @@
+{
+  "committer" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 441,
+    "additions" : 327,
+    "deletions" : 114
+  },
+  "author" : {
+    "login" : "AmoTF",
+    "id" : 26158599,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26158599?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/AmoTF",
+    "html_url" : "https://github.com/AmoTF",
+    "followers_url" : "https://api.github.com/users/AmoTF/followers",
+    "following_url" : "https://api.github.com/users/AmoTF/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/AmoTF/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/AmoTF/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/AmoTF/subscriptions",
+    "organizations_url" : "https://api.github.com/users/AmoTF/orgs",
+    "repos_url" : "https://api.github.com/users/AmoTF/repos",
+    "events_url" : "https://api.github.com/users/AmoTF/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/AmoTF/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b28c9a3b322758ef73d8d5a85596c823476df609",
+  "commit" : {
+    "author" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-05-16T01:01:52Z"
+    },
+    "committer" : {
+      "name" : "AmoTF",
+      "email" : "1013174936@qq.com",
+      "date" : "2017-05-16T01:01:52Z"
+    },
+    "message" : "#4 #27 第四次实验",
+    "tree" : {
+      "sha" : "8ae1511ae4d6d5faafc70023feabe5e041e16118",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/8ae1511ae4d6d5faafc70023feabe5e041e16118"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b28c9a3b322758ef73d8d5a85596c823476df609",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b28c9a3b322758ef73d8d5a85596c823476df609/comments",
+  "files" : [ {
+    "sha" : "d3a252c8d949b579bab61070431bdade6637dda0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java",
+    "status" : "added",
+    "additions" : 90,
+    "deletions" : 0,
+    "changes" : 90,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/FirstFragment1414080903222.java?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,90 @@\n+package edu.hzuapps.androidlabs.homeworks.net1414080903222;\n+\n+import android.app.Fragment;\n+import android.media.MediaRecorder;\n+import android.os.Bundle;\n+import android.os.Environment;\n+import android.support.annotation.Nullable;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.Button;\n+import android.widget.ImageView;\n+import android.widget.TextView;\n+import android.widget.Toast;\n+\n+import java.io.File;\n+\n+\n+\n+public class FirstFragment1414080903222 extends Fragment\n+\n+   private Button btn_start, btn_stop,btn_play;\n+    private File sdcardfile = null;\n+   // private String[] files;\n+    private MediaRecorder recorder = null;\n+    private File file;\n+    //文件路径\n+    private String filePath;\n+    //文件夹路径\n+    private File FolderPath;\n+    View view;\n+\n+\n+    private ImageView mImageView;\n+    private TextView mTextView;\n+\n+\n+\n+    @Nullable\n+\n+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {\n+        view = inflater.inflate(R.layout.first_fragment1414080903222,container,false);\n+        initView();\n+        getSDCardFile();\n+        return view;\n+    }\n+\n+    /**\n+     * ① 实例化控件\n+     */\n+    private void initView() {\n+        //录音按键\n+        btn_start = (Button) view.findViewById(R.id.Astart);\n+        btn_stop = (Button) view.findViewById(R.id.Astop);\n+        btn_play= (Button) view.findViewById(R.id.Aplay);\n+\n+        //时间控件\n+        mImageView = (ImageView) view.findViewById(R.id.iv_recording_icon);\n+        mTextView = (TextView) view.findViewById(R.id.tv_recording_time);\n+\n+        //⑤给按钮添加监听事件\n+        btn_start.setOnClickListener(this);\n+        btn_stop.setOnClickListener(this);\n+        btn_play.setOnClickListener(this);\n+\n+        //设置起始状态开始按钮可用，停止按钮不可用\n+        btn_start.setEnabled(true);\n+        btn_stop.setEnabled(false);\n+        btn_play.setEnabled(false);\n+    }\n+\n+    /**\n+     * ②获取内存卡中文件的方法\n+     */\n+    private void getSDCardFile() {\n+        if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {//内存卡存在\n+            sdcardfile = Environment.getExternalStorageDirectory();//获取目录文件\n+\n+      //      Toast.makeText(getActivity(), \"找到内存卡\", Toast.LENGTH_SHORT).show();\n+        } else {\n+            Toast.makeText(getActivity(), \"未找到内存卡\", Toast.LENGTH_SHORT).show();\n+        }\n+    }\n+\n+\n+\n+}\n+\n+\n+"
+  }, {
+    "sha" : "27737432af8c58ea22a9d83bb56d169dcacf6c0b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/Net1414080903222Activity.java",
+    "status" : "modified",
+    "additions" : 71,
+    "deletions" : 56,
+    "changes" : 127,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/Net1414080903222Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/Net1414080903222Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903222/Net1414080903222Activity.java?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -1,78 +1,93 @@\n-﻿package edu.hzuapps.androidlabs.homeworks.net1414080903222;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903222;\n \n-import android.graphics.PixelFormat;\n-import android.media.MediaRecorder;\n-import android.os.Bundle;\n+import android.app.FragmentManager;\n+import android.app.FragmentTransaction;\n import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n import android.view.Window;\n-import android.view.WindowManager;\n-import android.widget.Button;\n-import android.widget.ListView;\n+import android.widget.FrameLayout;\n+import android.widget.TextView;\n+\n+public class MainActivity extends AppCompatActivity implements View.OnClickListener {\n \n-import java.io.File;\n+    private TextView topBar;\n+    private TextView tabRecoder;\n+    private TextView tabList;\n \n-public class Net1414080903222Activity extends AppCompatActivity  {\n+    private FirstFragment1414080903222 f1,f2;\n+    private Net1414080903222Activity net1414080903222Activity;\n+    private FrameLayout ly_content;\n+    private FragmentManager fragmentManager;\n \n-    private Button btn_start, btn_stop,btn_play;\n-    private File sdcardfile = null;\n-   // private String[] files;\n-    private MediaRecorder recorder = null;\n-    private File file;\n-    //文件路径\n-    private String filePath;\n-    //文件夹路径\n-    private File FolderPath;\n \n-     protected void onCreate(Bundle savedInstanceState) {\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n-        getWindow().setFormat(PixelFormat.TRANSLUCENT);// 让界面横屏\n-        requestWindowFeature(Window.FEATURE_NO_TITLE);// 去掉界面标题\n-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,\n-                WindowManager.LayoutParams.FLAG_FULLSCREEN);\n-        // 重新设置界面大小\n-        setContentView(R.layout.first_fragment1414080903222);\n-        initView();\n-        getSDCardFile();\n-    }\n+        requestWindowFeature(Window.FEATURE_NO_TITLE);\n+        setContentView(R.layout.activity_net1414080903222);\n+        bindView();\n \n+    }\n \n-   \n-    /**\n-     * 实例化控件\n-     */\n-    private void initView() {\n-        btn_start = (Button) findViewById(R.id.Astart);\n-        btn_stop = (Button) findViewById(R.id.Astop);\n- \tbtn_play= (Button) findViewById(R.id.Aplay);\n+    //UI组件初始化与事件绑定\n+    private void bindView() {\n+      //  topBar = (TextView)this.findViewById(R.id.txt_top);\n+        tabRecoder = (TextView)this.findViewById(R.id.recorder);\n+        tabList = (TextView)this.findViewById(R.id.list);\n+        ly_content = (FrameLayout) findViewById(R.id.fragment_container);\n \n- \t//时间控件\n-        mImageView = (ImageView) findViewById(R.id.iv_recording_icon);\n-        mTextView = (TextView) findViewById(R.id.tv_recording_time);\n+        tabRecoder.setOnClickListener(this);\n+        tabList.setOnClickListener(this);\n \n+    }\n \n-        //给按钮添加监听事件\n-        btn_start.setOnClickListener(this);\n-        btn_stop.setOnClickListener(this);\n- \tbtn_play.setOnClickListener(this);\n+    //重置所有文本的选中状态\n+    public void selected(){\n+        tabRecoder.setSelected(false);\n+        tabList.setSelected(false);\n+    }\n \n-        //设置起始状态开始按钮可用，停止按钮不可用\n-        btn_start.setEnabled(true);\n-        btn_stop.setEnabled(false);\n-        btn_play.setEnabled(false);\n+    //隐藏所有Fragment\n+    public void hideAllFragment(FragmentTransaction transaction){\n+        if(f1!=null){\n+           transaction.hide(f1);\n+        }\n+       if(f2!=null){\n+            transaction.hide(f2);\n+        }\n \n     }\n \n-    /**\n-     * 获取内存卡中文件的方法\n-     */\n-    private void getSDCardFile() {\n-        if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {//内存卡存在\n-            sdcardfile = Environment.getExternalStorageDirectory();//获取目录文件\n+    @Override\n+    public void onClick(View v) {\n+        FragmentTransaction transaction = getFragmentManager().beginTransaction();\n+        hideAllFragment(transaction);\n+        switch(v.getId()){\n+            case R.id.recorder:\n+               selected();\n+                tabRecoder.setSelected(true);\n+                if(f1==null){\n+                    f1 = new FirstFragment1414080903222();\n+                    transaction.add(R.id.fragment_container,f1);\n+                }else{\n+                    transaction.show(f1);\n+                }\n+                break;\n+\n+            case R.id.list:\n+                selected();\n+                tabList.setSelected(true);\n+                if(f2==null){\n+\n+                    transaction.add(R.id.fragment_container,f2);\n+                }else{\n+                    transaction.show(f2);\n+                }\n+                break;\n \n-            Toast.makeText(this, \"找到内存卡\", Toast.LENGTH_SHORT).show();\n-        } else {\n-            Toast.makeText(this, \"未找到内存卡\", Toast.LENGTH_SHORT).show();\n         }\n+        transaction.commit();\n     }\n \n "
+  }, {
+    "sha" : "afc689e8a3beb8ffa4e7984671fbf5a6d4fec42e",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_bg1414080903222.xml",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_bg1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_bg1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_bg1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,15 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+\n+    <item android:state_selected=\"true\">\n+        <shape>\n+            <solid android:color=\"#FFC4C4C4\"/>\n+        </shape>\n+    </item>\n+    <item>\n+        <shape>\n+            <solid android:color=\"@color/transparent\" />\n+        </shape>\n+    </item>\n+\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "e31ffaa085e3b2e4a9be15877cff0a803c25d390",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_list1414080903222.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_list1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_list1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_list1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@mipmap/ic_menu_list_on\" android:state_selected=\"true\"/>\n+    <item android:drawable=\"@mipmap/ic_menu_list_off\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "ccba099725bd7ac3e7c843a394cb2e51cb507c45",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_list_text1414080903222.xml",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_list_text1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_list_text1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_list_text1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,7 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+\n+    <item android:color=\"@color/text_blue\" android:state_selected=\"true\"/>\n+    <item android:color=\"@color/text_gray\" />\n+\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "c341e4eb6d9ca9f2979427244776207b1d5302c6",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_recorder1414080903222.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_recorder1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_recorder1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_recorder1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@mipmap/ic_menu_recorder_on\" android:state_selected=\"true\"/>\n+    <item android:drawable=\"@mipmap/ic_menu_recorder_off\"/>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "ccba099725bd7ac3e7c843a394cb2e51cb507c45",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_recorder_text1414080903222.xml",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_recorder_text1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/drawable/tab_menu_recorder_text1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_recorder_text1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,7 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+\n+    <item android:color=\"@color/text_blue\" android:state_selected=\"true\"/>\n+    <item android:color=\"@color/text_gray\" />\n+\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "1b8a528cef3146fc8e92a9d5b9b5f43da72018f7",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903222.xml",
+    "status" : "modified",
+    "additions" : 55,
+    "deletions" : 58,
+    "changes" : 113,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/layout/activity_net1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/layout/activity_net1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -1,72 +1,69 @@\n <?xml version=\"1.0\" encoding=\"utf-8\"?>\n <RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n     xmlns:tools=\"http://schemas.android.com/tools\"\n-    android:id=\"@+id/activity_net1414080903222\"\n     android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n-    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n-    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n-    android:paddingTop=\"@dimen/activity_vertical_margin\"\n-    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903222.Net1414080903222Activity\">\n-\n+    android:layout_height=\"match_parent\">\n+    \n \n     <LinearLayout\n-        android:background=\"@drawable/record_microphone_bj1414080903222\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_width=\"wrap_content\"\n-        android:orientation=\"vertical\"\n-        android:gravity=\"center\"\n-        android:padding=\"16dp\"\n-        android:layout_alignParentTop=\"true\"\n-        android:layout_centerHorizontal=\"true\"\n-        android:layout_marginTop=\"55dp\">\n+        android:id=\"@+id/tab_menu\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"63dp\"\n+        android:orientation=\"horizontal\"\n+        android:layout_alignParentBottom=\"true\">\n \n-        <ImageView\n-            android:layout_width=\"48dp\"\n-            android:layout_height=\"48dp\"\n-            android:id=\"@+id/iv_recording_icon\"\n-            android:src=\"@drawable/record_microphone1414080903222\" />\n \n         <TextView\n-            android:layout_height=\"wrap_content\"\n-            android:layout_marginTop=\"6dp\"\n-            android:id=\"@+id/tv_recording_time\"\n-            android:layout_width=\"114dp\"\n-            android:textColor=\"#FFFFFF\"\n+            android:id=\"@+id/recorder\"\n+            android:layout_width=\"0dp\"\n+            android:layout_height=\"match_parent\"\n+            android:layout_weight=\"1\"\n+            android:background=\"@drawable/tab_menu_bg1414080903222\"\n+            android:drawablePadding=\"3dp\"\n+            android:drawableTop=\"@drawable/tab_menu_recorder1414080903222\"\n             android:gravity=\"center\"\n-            android:textSize=\"16sp\"\n-            android:text=\"00:00\" />\n-    </LinearLayout>\n+            android:textColor=\"@drawable/tab_menu_recorder_text1414080903222\"\n+            android:text=\"录音\"\n+            android:textSize=\"10sp\"/>\n+\n+        <TextView\n+            android:id=\"@+id/list\"\n+            android:layout_width=\"0dp\"\n+            android:layout_height=\"match_parent\"\n+            android:layout_weight=\"1\"\n+            android:background=\"@drawable/tab_menu_bg1414080903222\"\n+            android:drawablePadding=\"3dp\"\n+            android:drawableTop=\"@drawable/tab_menu_list1414080903222\"\n+            android:gravity=\"center\"\n+            android:textColor=\"@drawable/tab_menu_list_text1414080903222\"\n+            android:text=\"列表\"\n+            android:textSize=\"10sp\" />/>\n \n-    <Button\n-        android:id=\"@+id/Astart\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"start\"\n-        android:layout_marginEnd=\"19dp\"\n-        android:layout_above=\"@+id/Aplay\"\n-        android:layout_toStartOf=\"@+id/Aplay\"\n-        android:layout_marginBottom=\"34dp\" />\n \n-    <Button\n-        android:id=\"@+id/Astop\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_marginRight=\"40dp\"\n-        android:text=\"stop\"\n-        android:layout_alignBaseline=\"@+id/Astart\"\n-        android:layout_alignBottom=\"@+id/Astart\"\n-        android:layout_toEndOf=\"@+id/Aplay\"\n-        android:layout_marginStart=\"19dp\" />\n+    </LinearLayout>\n \n-    <Button\n-        android:id=\"@+id/Aplay\"\n-        style=\"?android:attr/buttonStyleSmall\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:text=\"play\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_centerHorizontal=\"true\" />\n+    <View\n+        android:id=\"@+id/div_tab_bar\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"2px\"\n+        android:background=\"@color/text_gray\"\n+        android:layout_above=\"@id/tab_menu\"/>\n \n-</RelativeLayout>\n+    <FrameLayout\n+        android:id=\"@+id/fragment_container\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:layout_above=\"@id/tab_menu\"\n+        android:background=\"@color/transparent\">\n+    </FrameLayout>\n+    <!--\n+    <FrameLayout\n+        android:id=\"@+id/fragment_container\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:layout_below=\"@id/tab_title\"\n+        android:layout_above=\"@id/tab_menu\"\n+        android:background=\"@color/transparent\">\n+    </FrameLayout>\n+-->\n+</RelativeLayout>\n\\ No newline at end of file"
+  }, {
+    "sha" : "82ff650f7a02a7f3178a5a7b34e82aa6da09b84b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/first_fragment1414080903222.xml",
+    "status" : "added",
+    "additions" : 72,
+    "deletions" : 0,
+    "changes" : 72,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/layout/first_fragment1414080903222.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/layout/first_fragment1414080903222.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/first_fragment1414080903222.xml?ref=b28c9a3b322758ef73d8d5a85596c823476df609",
+    "patch" : "@@ -0,0 +1,72 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:id=\"@+id/activity_net1414080903222\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:paddingBottom=\"@dimen/activity_vertical_margin\"\n+    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\n+    android:paddingRight=\"@dimen/activity_horizontal_margin\"\n+    android:paddingTop=\"@dimen/activity_vertical_margin\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903222.Net1414080903222Activity\">\n+\n+\n+    <LinearLayout\n+        android:background=\"@drawable/record_microphone_bj1414080903222\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_width=\"wrap_content\"\n+        android:orientation=\"vertical\"\n+        android:gravity=\"center\"\n+        android:padding=\"16dp\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_centerHorizontal=\"true\"\n+        android:layout_marginTop=\"55dp\">\n+\n+        <ImageView\n+            android:layout_width=\"48dp\"\n+            android:layout_height=\"48dp\"\n+            android:id=\"@+id/iv_recording_icon\"\n+            android:src=\"@drawable/record_microphone1414080903222\" />\n+\n+        <TextView\n+            android:layout_height=\"wrap_content\"\n+            android:layout_marginTop=\"6dp\"\n+            android:id=\"@+id/tv_recording_time\"\n+            android:layout_width=\"114dp\"\n+            android:textColor=\"#FFFFFF\"\n+            android:gravity=\"center\"\n+            android:textSize=\"16sp\"\n+            android:text=\"00:00\" />\n+    </LinearLayout>\n+\n+    <Button\n+        android:id=\"@+id/Astart\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"start\"\n+        android:layout_marginEnd=\"19dp\"\n+        android:layout_above=\"@+id/Aplay\"\n+        android:layout_toStartOf=\"@+id/Aplay\"\n+        android:layout_marginBottom=\"34dp\" />\n+\n+    <Button\n+        android:id=\"@+id/Astop\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_marginRight=\"40dp\"\n+        android:text=\"stop\"\n+        android:layout_alignBaseline=\"@+id/Astart\"\n+        android:layout_alignBottom=\"@+id/Astart\"\n+        android:layout_toEndOf=\"@+id/Aplay\"\n+        android:layout_marginStart=\"19dp\" />\n+\n+    <Button\n+        android:id=\"@+id/Aplay\"\n+        style=\"?android:attr/buttonStyleSmall\"\n+        android:layout_width=\"wrap_content\"\n+        android:layout_height=\"wrap_content\"\n+        android:text=\"play\"\n+        android:layout_alignParentBottom=\"true\"\n+        android:layout_centerHorizontal=\"true\" />\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "5e95ee1df884af99eb0a9f052a9115a093563c55",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "5e95ee1df884af99eb0a9f052a9115a093563c55",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_list_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "a8e95707642843dc23a0262625ac6feabdaf9684",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "a8e95707642843dc23a0262625ac6feabdaf9684",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-hdpi/ic_menu_recorder_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "15a72a6868c442a2b4aafbab3b044ab03e37777b",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "15a72a6868c442a2b4aafbab3b044ab03e37777b",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_list_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "746febc210ef706c7dfed4cff4c4b4346e46f0b3",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "746febc210ef706c7dfed4cff4c4b4346e46f0b3",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-mdpi/ic_menu_recorder_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "bf8ba84e452d2f84866c909a4f8862a2a2acce96",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "bf8ba84e452d2f84866c909a4f8862a2a2acce96",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_list_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "592f6cf8a949d191483b4b392da9964747fd3072",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "592f6cf8a949d191483b4b392da9964747fd3072",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xhdpi/ic_menu_recorder_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "81ff8c380c085271bf1678674bf00769c71289cd",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "81ff8c380c085271bf1678674bf00769c71289cd",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_list_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "9f7dde9dbc0733deb39d13bfdb81bc94a587d703",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "9f7dde9dbc0733deb39d13bfdb81bc94a587d703",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxhdpi/ic_menu_recorder_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "8c71ffe0188663b5476b8548c4174b2cb7fb0234",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "8c71ffe0188663b5476b8548c4174b2cb7fb0234",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_list_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "1b2b9b515652945c3436043d8b0d07aa48b0397e",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_off.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_off.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_off.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_off.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  }, {
+    "sha" : "1b2b9b515652945c3436043d8b0d07aa48b0397e",
+    "filename" : "AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_on.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_on.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b28c9a3b322758ef73d8d5a85596c823476df609/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_on.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/mipmap-xxxhdpi/ic_menu_recorder_on.png?ref=b28c9a3b322758ef73d8d5a85596c823476df609"
+  } ],
+  "sha" : "b28c9a3b322758ef73d8d5a85596c823476df609",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b28c9a3b322758ef73d8d5a85596c823476df609",
+  "parents" : [ {
+    "sha" : "b242aa5e2a39adea0c4b42b1a585c3ef044c9bee",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b242aa5e2a39adea0c4b42b1a585c3ef044c9bee",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b242aa5e2a39adea0c4b42b1a585c3ef044c9bee"
+  } ]
+}

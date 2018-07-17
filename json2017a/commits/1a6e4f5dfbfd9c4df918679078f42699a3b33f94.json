@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "web-flow",
+    "id" : 19864447,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/19864447?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/web-flow",
+    "html_url" : "https://github.com/web-flow",
+    "followers_url" : "https://api.github.com/users/web-flow/followers",
+    "following_url" : "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url" : "https://api.github.com/users/web-flow/orgs",
+    "repos_url" : "https://api.github.com/users/web-flow/repos",
+    "events_url" : "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/web-flow/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 36,
+    "additions" : 0,
+    "deletions" : 36
+  },
+  "author" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1a6e4f5dfbfd9c4df918679078f42699a3b33f94",
+  "commit" : {
+    "author" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-06-01T14:17:44Z"
+    },
+    "committer" : {
+      "name" : "GitHub",
+      "email" : "noreply@github.com",
+      "date" : "2017-06-01T14:17:44Z"
+    },
+    "message" : "Delete menu_item.xml",
+    "tree" : {
+      "sha" : "f6762c953681f5cdeb25ecb8c9f183fe7e82a4ad",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f6762c953681f5cdeb25ecb8c9f183fe7e82a4ad"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1a6e4f5dfbfd9c4df918679078f42699a3b33f94",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1a6e4f5dfbfd9c4df918679078f42699a3b33f94/comments",
+  "files" : [ {
+    "sha" : "1f86e75d07574c962652c1c37c64f06f3a49691f",
+    "filename" : "AndroidLabs/app/src/main/res/layout/menu_item.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 36,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fb98d372007e22434e9b1e9803e95fa2ff3e0271/AndroidLabs/app/src/main/res/layout/menu_item.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fb98d372007e22434e9b1e9803e95fa2ff3e0271/AndroidLabs/app/src/main/res/layout/menu_item.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/menu_item.xml?ref=fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "patch" : "@@ -1,36 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:orientation=\"horizontal\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\"\n-    android:padding=\"15dp\">\n-\n-    <ImageView\n-        android:src=\"@mipmap/ic_launcher\"\n-        android:layout_width=\"75dp\"\n-        android:layout_height=\"80dp\"\n-        android:id=\"@+id/iv_item\"/>\n-\n-    <LinearLayout\n-        android:layout_marginLeft=\"15dp\"\n-        android:layout_width=\"0dp\"\n-        android:layout_weight=\"1\"\n-        android:layout_height=\"wrap_content\"\n-        android:orientation=\"vertical\">\n-        <TextView\n-            android:id=\"@+id/tv_item_title\"\n-            android:textSize=\"16sp\"\n-            android:layout_width=\"match_parent\"\n-            android:layout_height=\"wrap_content\" />\n-\n-        <TextView\n-            android:layout_marginTop=\"10dp\"\n-            android:id=\"@+id/tv_item_duration\"\n-            android:layout_width=\"match_parent\"\n-            android:layout_height=\"wrap_content\"\n-            android:textSize=\"14sp\"/>\n-\n-\n-    </LinearLayout>\n-\n-</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "1a6e4f5dfbfd9c4df918679078f42699a3b33f94",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1a6e4f5dfbfd9c4df918679078f42699a3b33f94",
+  "parents" : [ {
+    "sha" : "fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fb98d372007e22434e9b1e9803e95fa2ff3e0271"
+  } ]
+}

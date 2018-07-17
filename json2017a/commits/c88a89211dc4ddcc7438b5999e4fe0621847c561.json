@@ -1,0 +1,89 @@
+{
+  "committer" : {
+    "login" : "zhangdixi",
+    "id" : 26159065,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26159065?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangdixi",
+    "html_url" : "https://github.com/zhangdixi",
+    "followers_url" : "https://api.github.com/users/zhangdixi/followers",
+    "following_url" : "https://api.github.com/users/zhangdixi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangdixi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangdixi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangdixi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangdixi/orgs",
+    "repos_url" : "https://api.github.com/users/zhangdixi/repos",
+    "events_url" : "https://api.github.com/users/zhangdixi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangdixi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 24,
+    "additions" : 0,
+    "deletions" : 24
+  },
+  "author" : {
+    "login" : "zhangdixi",
+    "id" : 26159065,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26159065?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zhangdixi",
+    "html_url" : "https://github.com/zhangdixi",
+    "followers_url" : "https://api.github.com/users/zhangdixi/followers",
+    "following_url" : "https://api.github.com/users/zhangdixi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zhangdixi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zhangdixi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zhangdixi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zhangdixi/orgs",
+    "repos_url" : "https://api.github.com/users/zhangdixi/repos",
+    "events_url" : "https://api.github.com/users/zhangdixi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zhangdixi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/c88a89211dc4ddcc7438b5999e4fe0621847c561",
+  "commit" : {
+    "author" : {
+      "name" : "zhangdixi",
+      "email" : "617017863@qq.com",
+      "date" : "2017-05-27T08:49:58Z"
+    },
+    "committer" : {
+      "name" : "zhangdixi",
+      "email" : "617017863@qq.com",
+      "date" : "2017-05-27T08:49:58Z"
+    },
+    "message" : "Merge branch 'master' of https://github.com/123dolala/android-labs-2017",
+    "tree" : {
+      "sha" : "6e051d43596cabbf5ae030a05d65375fb538ae20",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/6e051d43596cabbf5ae030a05d65375fb538ae20"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/c88a89211dc4ddcc7438b5999e4fe0621847c561",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c88a89211dc4ddcc7438b5999e4fe0621847c561/comments",
+  "files" : [ {
+    "sha" : "8dfe3cfd7122f4a7e1dc5712a18d530e1d3b6d59",
+    "filename" : "AndroidLabs/app/src/main/res/layout/view_note_net1414080903111.xml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 24,
+    "changes" : 24,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/693729274eb1c6c844e6c71731e8a0ed56cc1914/AndroidLabs/app/src/main/res/layout/view_note_net1414080903111.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/693729274eb1c6c844e6c71731e8a0ed56cc1914/AndroidLabs/app/src/main/res/layout/view_note_net1414080903111.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/view_note_net1414080903111.xml?ref=693729274eb1c6c844e6c71731e8a0ed56cc1914",
+    "patch" : "@@ -1,24 +0,0 @@\n-<?xml version=\"1.0\" encoding=\"utf-8\"?>\n-<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n-    android:layout_width=\"match_parent\"\n-    android:layout_height=\"match_parent\">\n-\n-    <TextView\n-        android:id=\"@+id/view_title\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\" />\n-\n-    <TextView\n-        android:id=\"@+id/view_content\"\n-        android:layout_width=\"match_parent\"\n-        android:layout_height=\"wrap_content\" />\n-\n-    <Button\n-        android:id=\"@+id/edit_note\"\n-        android:layout_width=\"wrap_content\"\n-        android:layout_height=\"wrap_content\"\n-        android:layout_alignParentBottom=\"true\"\n-        android:layout_alignParentEnd=\"true\"\n-        android:text=\"edit_note\" />\n-\n-</RelativeLayout>"
+  } ],
+  "sha" : "c88a89211dc4ddcc7438b5999e4fe0621847c561",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/c88a89211dc4ddcc7438b5999e4fe0621847c561",
+  "parents" : [ {
+    "sha" : "693729274eb1c6c844e6c71731e8a0ed56cc1914",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/693729274eb1c6c844e6c71731e8a0ed56cc1914",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/693729274eb1c6c844e6c71731e8a0ed56cc1914"
+  }, {
+    "sha" : "a2b8c73b060e75aa0f60d601d8baebbc70d2977a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a2b8c73b060e75aa0f60d601d8baebbc70d2977a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a2b8c73b060e75aa0f60d601d8baebbc70d2977a"
+  } ]
+}

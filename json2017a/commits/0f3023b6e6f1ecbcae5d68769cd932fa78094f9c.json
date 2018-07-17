@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 9,
+    "additions" : 5,
+    "deletions" : 4
+  },
+  "author" : {
+    "login" : "czb125",
+    "id" : 26143994,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26143994?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/czb125",
+    "html_url" : "https://github.com/czb125",
+    "followers_url" : "https://api.github.com/users/czb125/followers",
+    "following_url" : "https://api.github.com/users/czb125/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/czb125/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/czb125/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/czb125/subscriptions",
+    "organizations_url" : "https://api.github.com/users/czb125/orgs",
+    "repos_url" : "https://api.github.com/users/czb125/repos",
+    "events_url" : "https://api.github.com/users/czb125/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/czb125/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0f3023b6e6f1ecbcae5d68769cd932fa78094f9c",
+  "commit" : {
+    "author" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-05-26T07:03:17Z"
+    },
+    "committer" : {
+      "name" : "czb125",
+      "email" : "1172246665@qq.com",
+      "date" : "2017-05-26T07:03:17Z"
+    },
+    "message" : "#5 #14 第五次实验",
+    "tree" : {
+      "sha" : "ecb22853aadd962a6662679ea312d6498d4cc59a",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ecb22853aadd962a6662679ea312d6498d4cc59a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/0f3023b6e6f1ecbcae5d68769cd932fa78094f9c",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0f3023b6e6f1ecbcae5d68769cd932fa78094f9c/comments",
+  "files" : [ {
+    "sha" : "06921687d9bd250403824b2f8acb8a4a8060fc76",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java",
+    "status" : "modified",
+    "additions" : 5,
+    "deletions" : 4,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/0f3023b6e6f1ecbcae5d68769cd932fa78094f9c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/0f3023b6e6f1ecbcae5d68769cd932fa78094f9c/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903125/MusicService.java?ref=0f3023b6e6f1ecbcae5d68769cd932fa78094f9c",
+    "patch" : "@@ -3,6 +3,7 @@\n import android.app.Service;\n import android.content.Intent;\n import android.media.MediaPlayer;\n+import android.os.Environment;\n import android.os.Binder;\n import android.os.IBinder;\n \n@@ -24,10 +25,10 @@ MusicService getService() {\n \n \n     private String[] musicDir = new String[]{\n-            \"mnt/sdcard/也罢.mp3\",\n-            \"mnt/sdcard/对号入座.mp3\",\n-            \"mnt/sdcard/春风十里不及你.mp3\",\n-            \"mnt/sdcard/恋爱的犀牛.mp3\"\n+            Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/也罢.mp3\",\n+            Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/对号入座.mp3\",\n+            Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/春风十里不及你.mp3\",\n+            Environment.getExternalStorageDirectory().getAbsolutePath()+\"mnt/sdcard/恋爱的犀牛.mp3\"\n \n     };\n     private int musicNumber = 1;"
+  } ],
+  "sha" : "0f3023b6e6f1ecbcae5d68769cd932fa78094f9c",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0f3023b6e6f1ecbcae5d68769cd932fa78094f9c",
+  "parents" : [ {
+    "sha" : "907fa04bfcfa46c2e0a0591b5ba75b2a5ef0b08c",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/907fa04bfcfa46c2e0a0591b5ba75b2a5ef0b08c",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/907fa04bfcfa46c2e0a0591b5ba75b2a5ef0b08c"
+  } ]
+}

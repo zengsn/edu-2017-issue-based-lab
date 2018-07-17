@@ -1,0 +1,49 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b3315bda16484df03076901b97f38445633dd93b",
+  "commit" : {
+    "author" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-03-04T14:50:11Z"
+    },
+    "committer" : {
+      "name" : "xiang",
+      "email" : "xiang",
+      "date" : "2017-03-04T14:50:11Z"
+    },
+    "message" : "#1 #67 第一次作业",
+    "tree" : {
+      "sha" : "33019640eecc51912fc08dfabd299fc1606e6e10",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/33019640eecc51912fc08dfabd299fc1606e6e10"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b3315bda16484df03076901b97f38445633dd93b",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b3315bda16484df03076901b97f38445633dd93b/comments",
+  "files" : [ {
+    "sha" : "f17c7383dee9a47590147c143f462f004bfde033",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/b3315bda16484df03076901b97f38445633dd93b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/b3315bda16484df03076901b97f38445633dd93b/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903108/Net1414080903108Activity.java?ref=b3315bda16484df03076901b97f38445633dd93b",
+    "patch" : "@@ -1,4 +1,4 @@\n-package com.example.myapplication;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903108;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;"
+  } ],
+  "sha" : "b3315bda16484df03076901b97f38445633dd93b",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b3315bda16484df03076901b97f38445633dd93b",
+  "parents" : [ {
+    "sha" : "e5986fd5d9d35e06e23218f18af45823a8c2cf22",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/e5986fd5d9d35e06e23218f18af45823a8c2cf22",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/e5986fd5d9d35e06e23218f18af45823a8c2cf22"
+  } ]
+}

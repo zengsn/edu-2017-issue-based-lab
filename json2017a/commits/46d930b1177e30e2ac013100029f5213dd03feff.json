@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 132,
+    "additions" : 132,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/46d930b1177e30e2ac013100029f5213dd03feff",
+  "commit" : {
+    "author" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-06-12T12:23:43Z"
+    },
+    "committer" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-06-12T12:23:43Z"
+    },
+    "message" : "#5 #146 第五次作业",
+    "tree" : {
+      "sha" : "b5dc25f3f43e7c24b416796a08a7e7abf9378d8d",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/b5dc25f3f43e7c24b416796a08a7e7abf9378d8d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/46d930b1177e30e2ac013100029f5213dd03feff",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/46d930b1177e30e2ac013100029f5213dd03feff/comments",
+  "files" : [ {
+    "sha" : "286f9c62da46126240b3f6484605a8bc55067df0",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235_Number.java",
+    "status" : "added",
+    "additions" : 132,
+    "deletions" : 0,
+    "changes" : 132,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/46d930b1177e30e2ac013100029f5213dd03feff/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235_Number.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/46d930b1177e30e2ac013100029f5213dd03feff/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235_Number.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903235/Net1414080903235_Number.java?ref=46d930b1177e30e2ac013100029f5213dd03feff",
+    "patch" : "@@ -0,0 +1,132 @@\n+/**\n+ * Created by Administrator on 2017/6/10.\n+ */\n+\n+public abstract class Net1414080903235_Number {\n+    // 定义81个数字\n+    // str1、str2 各代表一个关卡\n+    private final String str1 = \"600040800084005032000090700563180400009027000708604391\" +\n+            \"392476518150900200047512063\";\n+    private final String str2 = \"102004007000080000006000000050000380000000000000902000\" +\n+            \"000000070000000102089030000\";\n+\n+    // 实例化一个下标81的数组\n+    private int number[] = new int[9*9];\n+\n+    // 存储不可用数据\n+    private int used[][][] = new int[9][9][];\n+\n+    public void Number(){\n+        number = fromPuzzleString(str1);\n+    }\n+\n+    public void Number(int str){\n+        if (str == 1){\n+            number = fromPuzzleString(str1);\n+        }else if (str == 2){\n+            number = fromPuzzleString(str2);\n+        }\n+        calculateAllUsedTiles(); // 获取当前关卡不可用数字数组\n+    }\n+\n+    // 把81个数字设置到数组中，为0的设置为空\n+    private int[] fromPuzzleString(String str) {\n+        int[] number = new int[str.length()];\n+        for (int i = 0; i < number.length; i++) {\n+            number[i] = str.charAt(i) - '0';\n+        }\n+        return number;\n+    }\n+\n+    // 根据数字在第几行第几个，获取其在数组中的下表\n+    private int getTile(int x, int y){\n+        //return number[y * 9 + x];\n+        if (y * 9 + x < 81){\n+            return number[y * 9 + x];\n+        }else {\n+            return 0;\n+        }\n+    }\n+\n+    // 获取数字的字符串类型\n+    public String getTileString(int x, int y){\n+        int v = getTile(x,y);\n+        if (v == 0){\n+            return \"\";\n+        }else\n+            return String.valueOf(v);\n+    }\n+\n+\n+\n+\n+\n+\n+    public int[] getUsedTilesByCoor(int x,int y){\n+        return used[x][y];\n+    }\n+\n+    public void calculateAllUsedTiles() {\n+        for (int x = 0; x < 9; x++) {\n+            for (int y = 0; y < 9; y++) {\n+                used[x][y] = calculateUsedTiles(x, y);\n+            }\n+        }\n+    }\n+\n+    /**\n+     * 获取当前关卡不可用数字数组\n+     */\n+    public int[] calculateUsedTiles(int x, int y) {\n+        int c[] = new int[9];\n+\n+        for (int i = 0; i < 9; i++) {\n+            if (i == y)\n+                continue;\n+            int t = getTile(x, i);\n+            if (t != 0)\n+                c[t - 1] = t;\n+        }\n+\n+        for (int i = 0; i < 9; i++) {\n+            if (i == x)\n+                continue;\n+            int t = getTile(i, y);\n+            if (t != 0)\n+                c[t - 1] = t;\n+        }\n+\n+        int startx = (x / 3) * 3;\n+        int starty = (y / 3) * 3;\n+        for (int i = startx; i < startx + 3; i++) {\n+            for (int j = starty; j < starty + 3; j++) {\n+                if (i == x && j == y)\n+                    continue;\n+                int t = getTile(i, j);\n+                if (t != 0)\n+                    c[t - 1] = t;\n+            }\n+        }\n+        // compress\n+        int nused = 0;\n+        for (int t : c) {\n+            if (t != 0)\n+                nused++;\n+        }\n+        int c1[] = new int[nused];\n+        nused = 0;\n+        for (int t : c) {\n+            if (t != 0)\n+                c1[nused++] = t;\n+        }\n+        return c1;\n+    }\n+\n+    public abstract int intValue();\n+\n+    public abstract long longValue();\n+\n+    public abstract float floatValue();\n+\n+    public abstract double doubleValue();\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "46d930b1177e30e2ac013100029f5213dd03feff",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/46d930b1177e30e2ac013100029f5213dd03feff",
+  "parents" : [ {
+    "sha" : "1063815f8e794295e75a312448c6449bf6ed84fe",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1063815f8e794295e75a312448c6449bf6ed84fe",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1063815f8e794295e75a312448c6449bf6ed84fe"
+  } ]
+}

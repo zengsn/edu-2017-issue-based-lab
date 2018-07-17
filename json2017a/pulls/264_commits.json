@@ -1,0 +1,197 @@
+[ {
+  "sha" : "1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+  "commit" : {
+    "author" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-04-30T06:50:25Z"
+    },
+    "committer" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-04-30T06:50:25Z"
+    },
+    "message" : "#2 #177 第二次作业",
+    "tree" : {
+      "sha" : "cec98877e27aae6db98a4484b57c9b7e00032194",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/cec98877e27aae6db98a4484b57c9b7e00032194"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc/comments",
+  "author" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "5529bcfe68987b11a853184b6633b270496072c1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5529bcfe68987b11a853184b6633b270496072c1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5529bcfe68987b11a853184b6633b270496072c1"
+  } ]
+}, {
+  "sha" : "f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "武阳飞",
+      "date" : "2017-05-05T13:33:05Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "武阳飞",
+      "date" : "2017-05-05T13:33:05Z"
+    },
+    "message" : "#177 第二次作业",
+    "tree" : {
+      "sha" : "832e9dd5e0cba623c779686f9d79cac90903d013",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/832e9dd5e0cba623c779686f9d79cac90903d013"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f02169730e82dac0e39abe3a7f1eb2a06e46c6da/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b7ef41d9e1fd8bf01d846c48beb7e8c7a7baabc"
+  } ]
+}, {
+  "sha" : "a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "武阳飞",
+      "date" : "2017-05-05T14:02:06Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "武阳飞",
+      "date" : "2017-05-05T14:02:06Z"
+    },
+    "message" : "#1 #177 第二次作业",
+    "tree" : {
+      "sha" : "6247d2746d2490b4ce722498e932469ddc04ccd8",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/6247d2746d2490b4ce722498e932469ddc04ccd8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f02169730e82dac0e39abe3a7f1eb2a06e46c6da",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f02169730e82dac0e39abe3a7f1eb2a06e46c6da"
+  } ]
+}, {
+  "sha" : "b5113faf0f8acfd8792cb9325026ad7eb3ee4473",
+  "commit" : {
+    "author" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-05-06T12:04:48Z"
+    },
+    "committer" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-05-06T12:04:48Z"
+    },
+    "message" : "#2 #177 第二次作业",
+    "tree" : {
+      "sha" : "832e9dd5e0cba623c779686f9d79cac90903d013",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/832e9dd5e0cba623c779686f9d79cac90903d013"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/b5113faf0f8acfd8792cb9325026ad7eb3ee4473",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b5113faf0f8acfd8792cb9325026ad7eb3ee4473",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b5113faf0f8acfd8792cb9325026ad7eb3ee4473",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b5113faf0f8acfd8792cb9325026ad7eb3ee4473/comments",
+  "author" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/a1d05da8fa1ac36616a77e13edf58f8b9e895091",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/a1d05da8fa1ac36616a77e13edf58f8b9e895091"
+  } ]
+} ]

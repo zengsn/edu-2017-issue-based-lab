@@ -1,0 +1,356 @@
+{
+  "committer" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 467,
+    "additions" : 424,
+    "deletions" : 43
+  },
+  "author" : {
+    "login" : "wubucheng",
+    "id" : 11130313,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/11130313?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wubucheng",
+    "html_url" : "https://github.com/wubucheng",
+    "followers_url" : "https://api.github.com/users/wubucheng/followers",
+    "following_url" : "https://api.github.com/users/wubucheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wubucheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wubucheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wubucheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wubucheng/orgs",
+    "repos_url" : "https://api.github.com/users/wubucheng/repos",
+    "events_url" : "https://api.github.com/users/wubucheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wubucheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+  "commit" : {
+    "author" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-11T11:31:10Z"
+    },
+    "committer" : {
+      "name" : "wubucheng",
+      "email" : "835080800@qq.com",
+      "date" : "2017-05-11T11:31:10Z"
+    },
+    "message" : "#3 #76 第三次实验",
+    "tree" : {
+      "sha" : "613b1fd24afa7371a98849388fbf1aac29f35198",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/613b1fd24afa7371a98849388fbf1aac29f35198"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/comments",
+  "files" : [ {
+    "sha" : "c3997b2e460e8651d4a5adb699fe89600c9fa297",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/drawable_dev_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/drawable_dev_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/drawable_dev_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/drawable_dev_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,7 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"32dp\" android:height=\"32dp\">\n+    <path\n+        android:pathData=\"M850.102 184.023 172.68 184.023c-33.553 0-46.72 15.642-46.72 41.995l0 551.344c0 46.835 13.165 62.475 46.72 62.475l677.422 0c33.56 0 46.73-15.64 46.73-62.475L896.832 226.021C896.822 199.668 883.662 184.023 850.102 184.023zM172.68 209.488l677.422 0c13.7 0 24.84 13.003 24.84 28.99l0 156.995L147.84 395.473 147.84 238.478c0-15.985 11.14-28.99 24.838-28.99L172.68 209.488zM850.102 817.957 172.68 817.957c-13.695 0-24.835-12.065-24.835-26.895L147.845 419.099l727.097 0 0 371.964c0 14.83-11.135 26.895-24.835 26.895L850.102 817.958zM239.616 300.971c-0.007 20.998 17.01 38.03 38.008 38.038 20.998 0.01 38.03-17.01 38.04-38.008 0-0.01 0-0.02 0-0.03 0.007-21-17.01-38.03-38.008-38.04-21-0.007-38.03 17.01-38.04 38.008C239.616 300.951 239.616 300.958 239.616 300.971zM342.706 300.971c-0.008 20.998 17.01 38.03 38.01 38.038 20.998 0.01 38.03-17.01 38.038-38.008 0-0.01 0-0.02 0-0.03 0.01-21-17.01-38.03-38.008-38.04-21-0.007-38.03 17.01-38.04 38.008C342.706 300.951 342.706 300.958 342.706 300.971zM445.796 300.971c0-21 17.025-38.025 38.025-38.025 21 0 38.02 17.025 38.02 38.025l0 0c0 21-17.017 38.022-38.02 38.022C462.821 338.993 445.796 321.971 445.796 300.971L445.796 300.971zM468.974 722.112l29.508 0.205 65.435-203.726-29.405 0.05-65.535 203.47L468.974 722.111zM239.456 627.732l-0.037 10.33 0.018 10.495 132.35 51.735 0.015-24.37-84.725-37.07 85.3-33.97 0.125-25.415L239.456 627.732 239.456 627.732zM665.712 581.607l0.13 25.415 85.3 33.97-84.73 37.065 0.02 24.38 132.345-51.735 0.015-10.495-0.035-10.335L665.712 581.607 665.712 581.607z\"\n+        android:fillColor=\"#FF000000\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "5404e7c9bf2589e34c54bbfe5aed67ec6755323b",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_back_net1414080903220.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_back_net1414080903220.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_back_net1414080903220.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_back_net1414080903220.png?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a"
+  }, {
+    "sha" : "e92837daa382e83b9fa94730a2bf5f3069b6163c",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_item_dev_article_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@drawable/vector_drawable_icon_dev_article_green_net1414080903220\" android:state_checked=\"true\" />\n+    <item android:drawable=\"@drawable/vector_drawable_icon_dev_article_black_net1414080903220\" />\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "794306222ff59e69b9c7aa356ba55a85b210834e",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_item_news_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:drawable=\"@drawable/vector_drawable_icon_news_green_net1414080903220\" android:state_checked=\"true\" />\n+    <item android:drawable=\"@drawable/vector_drawable_icon_news_black_net1414080903220\" />\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "06e05a051d3e264c30bc84b2e0d3cc56887709f7",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_menu_net1414080903220.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_menu_net1414080903220.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_menu_net1414080903220.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_menu_net1414080903220.png?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a"
+  }, {
+    "sha" : "8b6632678a1cb9a1aada8660c43dd7ba07747e4a",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/icon_share_net1414080903220.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_share_net1414080903220.png",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/icon_share_net1414080903220.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/icon_share_net1414080903220.png?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a"
+  }, {
+    "sha" : "b1d4d8f1b5ff1e244710367599daf3d799f8e367",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/img_head_net1414080903220.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/img_head_net1414080903220.jpg",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/img_head_net1414080903220.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/img_head_net1414080903220.jpg?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a"
+  }, {
+    "sha" : "c8b7eab84dff35b461b599fce1c0489b41aa95ac",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_item_text_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,5 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:color=\"@color/text_green\" android:state_checked=\"true\" />\n+    <item android:color=\"@android:color/black\" />\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "ce110756d66ed0a8eed1ee1dad3aaf4bc9c129d5",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/tab_menu_bg_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,13 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n+    <item android:state_checked=\"true\">\n+        <shape>\n+            <solid android:color=\"#FFC4C4C4\" />\n+        </shape>\n+    </item>\n+    <item>\n+        <shape>\n+            <solid android:color=\"@color/transparent\" />\n+        </shape>\n+    </item>\n+</selector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "acdc964661d8045b6ae6fb73b4ca0ccfbf20d5f9",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_about_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_about_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_about_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_about_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,10 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"16dp\" android:height=\"16dp\">\n+    <path\n+        android:pathData=\"M839.429843 383.486044c-18.74697-44.324508-45.582151-84.128049-79.759555-118.305453-34.17638-34.17638-73.980945-61.012585-118.30443-79.759555-45.899376-19.414165-94.646614-29.257348-144.886855-29.257348s-98.986455 9.844206-144.885831 29.257348c-44.324508 18.747993-84.128049 45.583175-118.305453 79.759555-34.177404 34.177404-61.012585 73.980945-79.759555 118.305453-19.414165 45.899376-29.257348 94.646614-29.257348 144.885831 0 50.240241 9.844206 98.986455 29.257348 144.885831 18.747993 44.324508 45.582151 84.129072 79.759555 118.305453 34.177404 34.177404 73.980945 61.012585 118.305453 79.759555 45.899376 19.415189 94.646614 29.258371 144.885831 29.258371s98.986455-9.843182 144.886855-29.258371c44.323485-18.74697 84.128049-45.582151 118.30443-79.759555 34.177404-34.17638 61.012585-73.980945 79.759555-118.305453 19.415189-45.899376 29.258371-94.64559 29.258371-144.885831C868.688213 478.132658 858.845031 429.385421 839.429843 383.486044zM496.479003 863.744109c-184.92371 0-335.370187-150.447501-335.370187-335.37121s150.446477-335.370187 335.370187-335.370187c184.92371 0 335.370187 150.446477 335.370187 335.370187S681.402713 863.744109 496.479003 863.744109z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M569.108161 728.656435c-18.182105 7.15905-26.076912 4.904707-36.913724 8.676613-10.837836 3.77293-23.417339 5.656837-37.745672 5.656837-22.042016 0-39.168068-5.402033-51.380204-16.111956-12.218276-10.771321-25.461905-24.38948-25.461905-40.932248 0-0.783853-1.77339-31.999808 8.510838-53.336766l31.56081-73.837682c2.038426-7.711636 3.748371-15.015995 5.123694-21.896706 1.375324-6.888897 2.062985-7.671727 2.062985-13.362332 0-10.285251-6.522554-17.454534-10.758018-21.481244-4.235464-4.045129-22.248723-6.074346-34.228569-6.074346-5.89015 0-11.924587 0.926092-18.095124 2.750647-6.169513 1.838881-12.82612 3.588735-17.245779 5.242398l1.661849-30.30419c14.898315-6.066159 44.834114-14.554484 58.436924-18.876929 13.609972-4.299933 26.477025-6.472412 38.623669-6.472412 21.88238 0 44.201711 5.290493 56.06183 15.847943 11.853979 10.556427 26.605961 27.595498 26.605961 44.497447 0 3.484358-0.415462 9.630335-1.240247 18.453281-0.822738 8.822946-2.339278 16.902972-4.546549 24.246217l-36.930097 73.566506c-1.838881 6.426363-3.500731 13.777795-4.970198 22.024619-1.478677 8.280594-2.214435 25.413809-2.214435 29.650297 0 10.661827 2.382257 17.918092 7.15291 21.75549 4.771677 3.866051 9.719362 10.213619 21.458731 10.213619 15.927761 0 14.96176 2.668783 30.538527-4.683672L569.108161 728.656435zM568.692698 397.735583c-9.893324 9.190313-21.802562 15.855106-35.731806 15.855106s-25.885554-6.664793-35.859719-15.855106c-9.973142-9.214872-14.960737-21.370727-14.960737-34.44551 0-13.06762 4.987594-25.278733 14.960737-34.574447 9.974166-9.28548 21.930475-14.960737 35.859719-14.960737s25.837458 4.643764 35.731806 13.93743c9.887184 9.287527 14.824637 22.529109 14.824637 35.596729C583.518359 376.364857 578.579883 388.520711 568.692698 397.735583z\"\n+        android:fillColor=\"#FF000000\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "34c40d82dfcf6bdaa0c89ac4ab584572176756bd",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_black_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_black_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_black_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_black_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,31 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"32dp\" android:height=\"32dp\">\n+    <path\n+        android:pathData=\"M964.431811 861.950254c0 53.44012-43.324738 96.762811-96.763834 96.762811L153.816736 958.713065c-53.44012 0-96.763834-43.322691-96.763834-96.762811L57.052902 162.05077c0-53.439096 43.323715-96.763834 96.763834-96.763834l713.851241 0c53.439096 0 96.763834 43.323715 96.763834 96.763834L964.431811 861.950254zM908.593062 162.05077c0-22.602787-18.322297-40.925085-40.925085-40.925085L153.816736 121.125685c-22.602787 0-40.925085 18.322297-40.925085 40.925085l0 699.899484c0 22.602787 18.322297 40.924061 40.925085 40.924061l713.851241 0c22.602787 0 40.925085-18.321274 40.925085-40.924061L908.593062 162.05077z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M931.195849 274.68199 79.655689 274.68199c-7.716752 0-13.959943-6.244214-13.959943-13.959943 0-7.716752 6.244214-13.959943 13.959943-13.959943l851.54016 0c7.701402 0 13.95892 6.243191 13.95892 13.959943C945.154769 268.437775 938.898275 274.68199 931.195849 274.68199z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M177.373245 204.88432l-13.959943 0c-7.715729 0-13.959943-6.244214-13.959943-13.959943 0-7.715729 6.244214-13.959943 13.959943-13.959943l13.959943 0c7.702426 0 13.959943 6.244214 13.959943 13.959943C191.333188 198.640106 185.075671 204.88432 177.373245 204.88432z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M275.0908 204.88432l-13.959943 0c-7.715729 0-13.959943-6.244214-13.959943-13.959943 0-7.715729 6.244214-13.959943 13.959943-13.959943l13.959943 0c7.702426 0 13.959943 6.244214 13.959943 13.959943C289.050744 198.640106 282.793226 204.88432 275.0908 204.88432z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M372.808356 204.88432l-13.959943 0c-7.716752 0-13.959943-6.244214-13.959943-13.959943 0-7.715729 6.243191-13.959943 13.959943-13.959943l13.959943 0c7.702426 0 13.959943 6.244214 13.959943 13.959943C386.768299 198.640106 380.510782 204.88432 372.808356 204.88432z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M361.180528 769.984702c-4.062526 0-8.097422-1.77032-10.851139-5.152347L222.360855 606.912673c-4.14439-5.126764-4.14439-12.459776 0-17.58654l78.836533-97.302093c4.853541-5.970992 13.645788-6.884804 19.631106-2.057869 5.998621 4.852518 6.91141 13.639648 2.058892 19.637246l-71.707159 88.502683 120.838136 149.138692c4.853541 5.997598 3.925403 14.777565-2.058892 19.631106C367.369483 768.976746 364.260679 769.984702 361.180528 769.984702z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M348.406596 469.885833c-3.081175 0-6.188956-1.022283-8.779967-3.122107-5.984295-4.853541-6.91141-13.645788-2.058892-19.631106l12.760628-15.732309c4.866844-5.985318 13.645788-6.898107 19.631106-2.045589 5.984295 4.853541 6.91141 13.645788 2.058892 19.631106l-12.760628 15.732309C356.504018 468.113467 352.469122 469.885833 348.406596 469.885833z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M663.630954 769.984702c-3.094478 0-6.203282-1.006933-8.778944-3.107781-5.997598-4.852518-6.91141-13.632485-2.058892-19.631106l120.838136-149.138692L652.793118 448.986851c-4.852518-5.997598-3.939729-14.790868 2.058892-19.644409 5.957689-4.839215 14.764262-3.926426 19.631106 2.058892l127.95523 157.925822c4.15667 5.126764 4.15667 12.459776 0 17.58654L674.482093 764.831332C671.71405 768.213359 667.692457 769.984702 663.630954 769.984702z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M454.2359 695.824679c-3.081175 0-6.188956-1.00898-8.778944-3.107781-5.985318-4.854565-6.91141-13.632485-2.058892-19.631106L571.366597 515.166109c4.852518-5.970992 13.646811-6.898107 19.631106-2.071172 5.984295 4.852518 6.91141 13.659091 2.058892 19.657712L465.087039 690.670286C462.333322 694.051289 458.298426 695.824679 454.2359 695.824679z\"\n+        android:fillColor=\"#FF000000\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "30836d227f0564b5c1504e24cb8df1c81e30d1bf",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_green_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_green_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_green_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_dev_article_green_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,31 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"32dp\" android:height=\"32dp\">\n+    <path\n+        android:pathData=\"M964.431811 861.950254c0 53.44012-43.324738 96.762811-96.763834 96.762811L153.816736 958.713065c-53.44012 0-96.763834-43.322691-96.763834-96.762811L57.052902 162.05077c0-53.439096 43.323715-96.763834 96.763834-96.763834l713.851241 0c53.439096 0 96.763834 43.323715 96.763834 96.763834L964.431811 861.950254zM908.593062 162.05077c0-22.602787-18.322297-40.925085-40.925085-40.925085L153.816736 121.125685c-22.602787 0-40.925085 18.322297-40.925085 40.925085l0 699.899484c0 22.602787 18.322297 40.924061 40.925085 40.924061l713.851241 0c22.602787 0 40.925085-18.321274 40.925085-40.924061L908.593062 162.05077z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M931.195849 274.68199 79.655689 274.68199c-7.716752 0-13.959943-6.244214-13.959943-13.959943 0-7.716752 6.244214-13.959943 13.959943-13.959943l851.54016 0c7.701402 0 13.95892 6.243191 13.95892 13.959943C945.154769 268.437775 938.898275 274.68199 931.195849 274.68199z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M177.373245 204.88432l-13.959943 0c-7.715729 0-13.959943-6.244214-13.959943-13.959943 0-7.715729 6.244214-13.959943 13.959943-13.959943l13.959943 0c7.702426 0 13.959943 6.244214 13.959943 13.959943C191.333188 198.640106 185.075671 204.88432 177.373245 204.88432z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M275.0908 204.88432l-13.959943 0c-7.715729 0-13.959943-6.244214-13.959943-13.959943 0-7.715729 6.244214-13.959943 13.959943-13.959943l13.959943 0c7.702426 0 13.959943 6.244214 13.959943 13.959943C289.050744 198.640106 282.793226 204.88432 275.0908 204.88432z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M372.808356 204.88432l-13.959943 0c-7.716752 0-13.959943-6.244214-13.959943-13.959943 0-7.715729 6.243191-13.959943 13.959943-13.959943l13.959943 0c7.702426 0 13.959943 6.244214 13.959943 13.959943C386.768299 198.640106 380.510782 204.88432 372.808356 204.88432z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M361.180528 769.984702c-4.062526 0-8.097422-1.77032-10.851139-5.152347L222.360855 606.912673c-4.14439-5.126764-4.14439-12.459776 0-17.58654l78.836533-97.302093c4.853541-5.970992 13.645788-6.884804 19.631106-2.057869 5.998621 4.852518 6.91141 13.639648 2.058892 19.637246l-71.707159 88.502683 120.838136 149.138692c4.853541 5.997598 3.925403 14.777565-2.058892 19.631106C367.369483 768.976746 364.260679 769.984702 361.180528 769.984702z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M348.406596 469.885833c-3.081175 0-6.188956-1.022283-8.779967-3.122107-5.984295-4.853541-6.91141-13.645788-2.058892-19.631106l12.760628-15.732309c4.866844-5.985318 13.645788-6.898107 19.631106-2.045589 5.984295 4.853541 6.91141 13.645788 2.058892 19.631106l-12.760628 15.732309C356.504018 468.113467 352.469122 469.885833 348.406596 469.885833z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M663.630954 769.984702c-3.094478 0-6.203282-1.006933-8.778944-3.107781-5.997598-4.852518-6.91141-13.632485-2.058892-19.631106l120.838136-149.138692L652.793118 448.986851c-4.852518-5.997598-3.939729-14.790868 2.058892-19.644409 5.957689-4.839215 14.764262-3.926426 19.631106 2.058892l127.95523 157.925822c4.15667 5.126764 4.15667 12.459776 0 17.58654L674.482093 764.831332C671.71405 768.213359 667.692457 769.984702 663.630954 769.984702z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M454.2359 695.824679c-3.081175 0-6.188956-1.00898-8.778944-3.107781-5.985318-4.854565-6.91141-13.632485-2.058892-19.631106L571.366597 515.166109c4.852518-5.970992 13.646811-6.898107 19.631106-2.071172 5.984295 4.852518 6.91141 13.659091 2.058892 19.657712L465.087039 690.670286C462.333322 694.051289 458.298426 695.824679 454.2359 695.824679z\"\n+        android:fillColor=\"#1AFA29\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "e71c5c655184a7be12ae1b0f19572ad59dd4b3e6",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_black_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,22 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"32dp\" android:height=\"32dp\">\n+    <path\n+        android:pathData=\"M892.121212 62.060606 131.878788 62.060606c-29.990788 0-54.30303 24.312242-54.30303 54.30303l0 791.272727c0 29.990788 24.312242 54.30303 54.30303 54.30303l760.242424 0c29.990788 0 54.30303-24.312242 54.30303-54.30303L946.424242 116.363636C946.424242 86.372848 922.112 62.060606 892.121212 62.060606zM899.878788 882.812121c0 17.994473-14.62303 32.581818-32.660945 32.581818L156.782158 915.393939C138.742691 915.393939 124.121212 900.806594 124.121212 882.812121L124.121212 141.187879c0-17.994473 14.621479-32.581818 32.660945-32.581818l710.435685 0C885.255758 108.606061 899.878788 123.193406 899.878788 141.187879L899.878788 882.812121z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M479.418182 232.727273 249.793939 232.727273c-17.994473 0-32.581818 14.587345-32.581818 32.581818l0 229.624242c0 17.994473 14.587345 32.581818 32.581818 32.581818l229.624242 0c17.994473 0 32.581818-14.587345 32.581818-32.581818L512 265.309091C512 247.314618 497.412655 232.727273 479.418182 232.727273zM465.454545 457.69697c0 12.852752-10.419976 23.272727-23.272727 23.272727L287.030303 480.969697c-12.852752 0-23.272727-10.419976-23.272727-23.272727L263.757576 302.545455c0-12.852752 10.419976-23.272727 23.272727-23.272727l155.151515 0c12.852752 0 23.272727 10.419976 23.272727 23.272727L465.454545 457.69697z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M581.818182 325.818182l15.515152 0 170.666667 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727s-10.419976-23.272727-23.272727-23.272727l-15.515152 0L597.333333 279.272727l-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727S568.96543 325.818182 581.818182 325.818182z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M783.515152 434.424242l-15.515152 0L597.333333 434.424242l-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727s10.419976 23.272727 23.272727 23.272727l15.515152 0 170.666667 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727S796.367903 434.424242 783.515152 434.424242z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M783.515152 744.727273l-15.515152 0-15.515152 0L271.515152 744.727273l-15.515152 0-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727s10.419976 23.272727 23.272727 23.272727l15.515152 0 15.515152 0 480.969697 0 15.515152 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727S796.367903 744.727273 783.515152 744.727273z\"\n+        android:fillColor=\"#FF000000\" />\n+    <path\n+        android:pathData=\"M240.484848 636.121212l15.515152 0 15.515152 0 480.969697 0 15.515152 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727s-10.419976-23.272727-23.272727-23.272727l-15.515152 0-15.515152 0L271.515152 589.575758l-15.515152 0-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727S227.632097 636.121212 240.484848 636.121212z\"\n+        android:fillColor=\"#FF000000\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "bcf767d9dfd7898e40f91c7365c85f7696c4c46d",
+    "filename" : "AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_green_net1414080903220.xml",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_green_net1414080903220.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_green_net1414080903220.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/drawable/vector_drawable_icon_news_green_net1414080903220.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,22 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" android:viewportWidth=\"1024\"\n+    android:viewportHeight=\"1024\" android:width=\"32dp\" android:height=\"32dp\">\n+    <path\n+        android:pathData=\"M892.121212 62.060606 131.878788 62.060606c-29.990788 0-54.30303 24.312242-54.30303 54.30303l0 791.272727c0 29.990788 24.312242 54.30303 54.30303 54.30303l760.242424 0c29.990788 0 54.30303-24.312242 54.30303-54.30303L946.424242 116.363636C946.424242 86.372848 922.112 62.060606 892.121212 62.060606zM899.878788 882.812121c0 17.994473-14.62303 32.581818-32.660945 32.581818L156.782158 915.393939C138.742691 915.393939 124.121212 900.806594 124.121212 882.812121L124.121212 141.187879c0-17.994473 14.621479-32.581818 32.660945-32.581818l710.435685 0C885.255758 108.606061 899.878788 123.193406 899.878788 141.187879L899.878788 882.812121z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M479.418182 232.727273 249.793939 232.727273c-17.994473 0-32.581818 14.587345-32.581818 32.581818l0 229.624242c0 17.994473 14.587345 32.581818 32.581818 32.581818l229.624242 0c17.994473 0 32.581818-14.587345 32.581818-32.581818L512 265.309091C512 247.314618 497.412655 232.727273 479.418182 232.727273zM465.454545 457.69697c0 12.852752-10.419976 23.272727-23.272727 23.272727L287.030303 480.969697c-12.852752 0-23.272727-10.419976-23.272727-23.272727L263.757576 302.545455c0-12.852752 10.419976-23.272727 23.272727-23.272727l155.151515 0c12.852752 0 23.272727 10.419976 23.272727 23.272727L465.454545 457.69697z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M581.818182 325.818182l15.515152 0 170.666667 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727s-10.419976-23.272727-23.272727-23.272727l-15.515152 0L597.333333 279.272727l-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727S568.96543 325.818182 581.818182 325.818182z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M783.515152 434.424242l-15.515152 0L597.333333 434.424242l-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727s10.419976 23.272727 23.272727 23.272727l15.515152 0 170.666667 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727S796.367903 434.424242 783.515152 434.424242z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M783.515152 744.727273l-15.515152 0-15.515152 0L271.515152 744.727273l-15.515152 0-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727s10.419976 23.272727 23.272727 23.272727l15.515152 0 15.515152 0 480.969697 0 15.515152 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727S796.367903 744.727273 783.515152 744.727273z\"\n+        android:fillColor=\"#1AFA29\" />\n+    <path\n+        android:pathData=\"M240.484848 636.121212l15.515152 0 15.515152 0 480.969697 0 15.515152 0 15.515152 0c12.852752 0 23.272727-10.419976 23.272727-23.272727s-10.419976-23.272727-23.272727-23.272727l-15.515152 0-15.515152 0L271.515152 589.575758l-15.515152 0-15.515152 0c-12.852752 0-23.272727 10.419976-23.272727 23.272727S227.632097 636.121212 240.484848 636.121212z\"\n+        android:fillColor=\"#1AFA29\" />\n+</vector>\n\\ No newline at end of file"
+  }, {
+    "sha" : "674de481ab404d6eb615016744779bac688931aa",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220_drawer.xml",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_drawer.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_drawer.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_drawer.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,22 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.v4.widget.DrawerLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:id=\"@+id/dl_left\">\n+\n+\n+    <include layout=\"@layout/activity_net1414080903220_rg\"/>\n+\n+    <android.support.design.widget.NavigationView\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:layout_gravity=\"start\"\n+        app:menu=\"@menu/nav_menu\"\n+        app:headerLayout=\"@layout/net1414080903220_nav_header\"\n+        >\n+\n+    </android.support.design.widget.NavigationView>\n+\n+\n+</android.support.v4.widget.DrawerLayout>"
+  }, {
+    "sha" : "e62fa1b0b6e98ced3fb7bce82b29641fdb7c90cf",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220_main.xml",
+    "status" : "added",
+    "additions" : 14,
+    "deletions" : 0,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_main.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,14 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:orientation=\"vertical\"\n+    >\n+\n+    <include layout=\"@layout/activity_net1414080903220_drawer\" />\n+\n+\n+\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "d49dd8dd3545c3bb356e8706b58107993aec82e5",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml",
+    "status" : "added",
+    "additions" : 34,
+    "deletions" : 0,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_rg.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,34 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+\n+    <RadioGroup\n+        android:id=\"@+id/rg_tab_bar\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"64dp\"\n+        android:orientation=\"horizontal\"\n+        android:layout_alignParentBottom=\"true\"\n+        android:background=\"?attr/colorPrimary\"\n+        >\n+        <RadioButton\n+            android:id=\"@+id/rb_news\"\n+            style=\"@style/tab_menu_item\"\n+            android:drawableTop=\"@drawable/icon_item_news_net1414080903220\"\n+            android:text=\"@string/news\" />\n+\n+        <RadioButton\n+            android:id=\"@+id/rb_dev_article\"\n+            style=\"@style/tab_menu_item\"\n+            android:drawableTop=\"@drawable/icon_item_dev_article_net1414080903220\"\n+            android:text=\"@string/dev_article\"/>\n+    </RadioGroup>\n+\n+    <android.support.v4.view.ViewPager\n+        android:id=\"@+id/vpager\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"match_parent\"\n+        android:layout_above=\"@id/rg_tab_bar\"\n+        />\n+</RelativeLayout>"
+  }, {
+    "sha" : "c9389e9bcd349b5d6174e2b13999187e8b42a1b3",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903220_toolbar.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,31 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\">\n+    <Button\n+        android:id=\"@+id/toolbar_menu\"\n+        android:layout_width=\"40dp\"\n+        android:layout_height=\"40dp\"\n+        android:layout_alignParentLeft=\"true\"\n+        android:layout_marginLeft=\"5dp\"\n+        android:background=\"@drawable/icon_menu_net1414080903220\"\n+        android:visibility=\"visible\"/>\n+\n+    <TextView\n+        android:id=\"@+id/toolbar_title\"\n+        android:layout_width=\"0dp\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_weight=\"1\"\n+        android:textSize=\"35sp\"\n+        android:gravity=\"center\"\n+        android:text=\"@string/news\" />\n+\n+    <Button\n+        android:id=\"@+id/toolbar_share\"\n+        android:layout_width=\"40dp\"\n+        android:layout_height=\"40dp\"\n+        android:layout_alignParentRight=\"true\"\n+        android:background=\"@drawable/icon_share_net1414080903220\"\n+        android:visibility=\"gone\"/>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "81eb4951667237ceb369b4734731a3ddaf0b51ab",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_dev_article.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,38 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:id=\"@+id/fragment_dev_article\"\n+    android:orientation=\"vertical\">\n+\n+    <edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar\n+        android:id=\"@+id/knowDevToolbar\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:background=\"?attr/colorPrimary\"\n+        android:minHeight=\"?attr/actionBarSize\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentStart=\"true\"\n+        app:title=\"@string/dev_article\"\n+        >\n+    </edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar>\n+\n+            <android.support.design.widget.TabLayout\n+                android:id=\"@+id/tab_dev_layout\"\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"wrap_content\"\n+                style=\"@style/customTabLayout\"\n+                app:tabGravity=\"fill\"\n+                app:tabMode=\"fixed\"\n+                android:layout_alignParentTop=\"true\"\n+                android:layout_alignParentStart=\"true\">\n+\n+            </android.support.design.widget.TabLayout>\n+\n+            <android.support.v7.widget.RecyclerView\n+                android:layout_width=\"match_parent\"\n+                android:layout_height=\"match_parent\">\n+            </android.support.v7.widget.RecyclerView>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "52215a99b7d024f815f46b7ee259a7d01767e26b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml",
+    "status" : "added",
+    "additions" : 43,
+    "deletions" : 0,
+    "changes" : 43,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/fragment_net1414080903220_newslist.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,43 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:id=\"@+id/fragment_news\"\n+    android:orientation=\"vertical\"\n+\n+    >\n+\n+    <edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar\n+        android:id=\"@+id/knowDevToolbar\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:background=\"?attr/colorPrimary\"\n+        android:minHeight=\"?attr/actionBarSize\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentStart=\"true\"\n+        >\n+    </edu.hzuapps.androidlabs.homeworks.net1414080903220.knowdev.widget.KnowDevToolbar>\n+\n+    <android.support.design.widget.TabLayout\n+        android:id=\"@+id/tab_news_layout\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        style=\"@style/customTabLayout\"\n+        app:tabGravity=\"fill\"\n+        app:tabMode=\"fixed\"\n+        android:layout_alignParentTop=\"true\"\n+        android:layout_alignParentStart=\"true\"\n+\n+        >\n+    </android.support.design.widget.TabLayout>\n+\n+    <android.support.v7.widget.RecyclerView\n+        android:id=\"@+id/recyclerview\"\n+        android:layout_width=\"match_parent\"\n+        android:layout_height=\"wrap_content\"\n+        android:layout_below=\"@id/tab_news_layout\"\n+        >\n+    </android.support.v7.widget.RecyclerView>\n+\n+</LinearLayout>"
+  }, {
+    "sha" : "2844f59131a59c368091dba723f3677cf548d71b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/net1414080903220_nav_header.xml",
+    "status" : "added",
+    "additions" : 26,
+    "deletions" : 0,
+    "changes" : 26,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/net1414080903220_nav_header.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/layout/net1414080903220_nav_header.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/net1414080903220_nav_header.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,26 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"180dp\"\n+    android:padding=\"10dp\"\n+    android:background=\"?attr/colorPrimary\"\n+    >\n+    <ImageView\n+        android:layout_width=\"60dp\"\n+        android:layout_height=\"60dp\"\n+        android:src=\"@drawable/img_head_net1414080903220\"\n+        android:layout_centerInParent=\"true\"\n+        />\n+    <TextView\n+        android:id=\"@+id/tv_number\"\n+        style=\"@style/nav_text\"\n+        android:text=\"@string/studentNumber\"\n+        />\n+\n+    <TextView\n+        android:id=\"@+id/tv_author\"\n+        style=\"@style/nav_text_author\"\n+        android:text=\"@string/author\"\n+        android:layout_above=\"@id/tv_number\"/>\n+\n+</RelativeLayout>"
+  }, {
+    "sha" : "d71e97956bf190c9e0d9159c7e8fb581e3b0dcd8",
+    "filename" : "AndroidLabs/app/src/main/res/values/attrs.xml",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/attrs.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/attrs.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/attrs.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -0,0 +1,8 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<resources>\n+    <declare-styleable name=\"KnowDevToolBar\">\n+        <attr name=\"toolbarMenuIcon\" format=\"reference\"/>\n+        <attr name=\"toolbarTile\" format=\"reference\"/>\n+        <attr name=\"toolbarShareIcon\" format=\"reference\"/>\n+    </declare-styleable>\n+</resources>"
+  }, {
+    "sha" : "30e81e37e7c5759cf45454a7dc005fdf25bdb538",
+    "filename" : "AndroidLabs/app/src/main/res/values/colors.xml",
+    "status" : "modified",
+    "additions" : 3,
+    "deletions" : 0,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/colors.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/colors.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/colors.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -3,4 +3,7 @@\n     <color name=\"colorPrimary\">#3F51B5</color>\n     <color name=\"colorPrimaryDark\">#303F9F</color>\n     <color name=\"colorAccent\">#FF4081</color>\n+    <color name=\"transparent\">#00FFFFFF</color>\n+    <color name=\"bg_white\">#FFFFFF</color>\n+    <color name=\"text_green\">#00ff00</color>\n </resources>"
+  }, {
+    "sha" : "47c82246738c4d056e8030d3a259206f42e8e15d",
+    "filename" : "AndroidLabs/app/src/main/res/values/dimens.xml",
+    "status" : "modified",
+    "additions" : 0,
+    "deletions" : 2,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/dimens.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/dimens.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -2,6 +2,4 @@\n     <!-- Default screen margins, per the Android Design guidelines. -->\n     <dimen name=\"activity_horizontal_margin\">16dp</dimen>\n     <dimen name=\"activity_vertical_margin\">16dp</dimen>\n-    <dimen name=\"activity_horizontal_margin0\">0dp</dimen>\n-    <dimen name=\"activity_vertical_margin0\">0dp</dimen>\n </resources>"
+  }, {
+    "sha" : "11b19fdcae43f428414e315bb7e456a8fa1af50c",
+    "filename" : "AndroidLabs/app/src/main/res/values/strings.xml",
+    "status" : "modified",
+    "additions" : 16,
+    "deletions" : 33,
+    "changes" : 49,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/strings.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/strings.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/strings.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -1,36 +1,19 @@\n <resources>\n-    <string name=\"app_name\">Android开发</string>\n-    <string name=\"action_settings\">设置</string>\n+    <string name=\"app_name\">knowdev</string>\n+    <string name=\"news\">头条新闻</string>\n+    <string name=\"dev_article\">每日干货</string>\n+    <string name=\"keji\">科技新闻</string>\n+    <string name=\"startup\">创业新闻</string>\n+    <string name=\"mobile\">移动互联</string>\n+    <string name=\"it\">IT资讯</string>\n+    <string name=\"android\">Android</string>\n+    <string name=\"ios\">IOS</string>\n+    <string name=\"web\">前端</string>\n+    <string name=\"expand\">扩展</string>\n+    <string name=\"about\">关于</string>\n+    <string name=\"author\">作者吴步城</string>\n+    <string name=\"studentNumber\">学号：1414080903220</string>\n \n-    <string name=\"title_activity_back\">活动模板（返回）</string>\n-\n-    <string name=\"title_activity_activity_basic\">活动: 基本用法（打开）</string>\n-    <string name=\"title_activity_activity_basic2\">活动: 基本用法（关闭）</string>\n-\n-    <string name=\"title_activity_view_basic\">视图: 基本用法</string>\n-    <string name=\"text_demo\">这里显示一些文字.由Java填入.</string>\n-\n-    <string name=\"title_activity_fragment\">碎片: 功能演示</string>\n-    <string name=\"title_activity_fragment_content\">内容</string>\n-    <string name=\"demo_content\">演示内容</string>\n-    <string name=\"title_activity_net123456\">Net123456Activity</string>\n-    <string name=\"title_activity_com123456\">Com123456Activity</string>\n-    <string name=\"title_activity_service_demo\">服务: 功能演示</string>\n-    <string name=\"title_activity_broadcast_receiver\">广播: 功能演示</string>\n-    <string name=\"title_activity_content_provider\">内容提供者: 功能演示</string>\n-    <string name=\"content_provider_name\">edu.hzuapps.androidworks.BOOKS</string>\n-    <string name=\"title_activity_linear_layout\">LinearLayoutActivity</string>\n-    <string name=\"title_activity_relative_layout\">RelativeLayoutActivity</string>\n-    <string name=\"title_activity_frame_layout\">FrameLayoutActivity</string>\n-    <string name=\"title_activity_table_layout\">TableLayoutActivity</string>\n-    <string name=\"title_activity_absolute_layout\">AbsoluteLayoutActivity</string>\n-    <string name=\"title_activity_list_view\">ListViewActivity</string>\n-    <string name=\"title_activity_view_demo\">ViewDemoActivity</string>\n-    <string name=\"title_activity_grid_view\">GridViewActivity</string>\n-    <string name=\"title_activity_grid_view_one\">GridViewOneActivity</string>\n-    <string name=\"title_activity_shared_preferences\">SharedPreferencesActivity</string>\n-    <string name=\"title_activity_file_storage\">FileStorageActivity</string>\n-    <string name=\"title_activity_file_select\">FileSelectActivity</string>\n-    <string name=\"title_activity_file_share\">FileShareActivity</string>\n-    <string name=\"title_activity_network\">NetworkActivity</string>\n+    <!-- TODO: Remove or change this placeholder text -->\n+    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\n </resources>"
+  }, {
+    "sha" : "e84dd7e49cca63c9d0cf93e5df96975001b43c20",
+    "filename" : "AndroidLabs/app/src/main/res/values/styles.xml",
+    "status" : "modified",
+    "additions" : 38,
+    "deletions" : 8,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/styles.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/d8a45d74e507d588f3c7f3e47ef6c52392a9966a/AndroidLabs/app/src/main/res/values/styles.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/values/styles.xml?ref=d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+    "patch" : "@@ -2,14 +2,44 @@\n \n     <!-- Base application theme. -->\n     <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\n-        <!--<item name=\"android:layout_width\">fill_parent</item>-->\n-        <!--<item name=\"android:layout_height\">wrap_content</item>-->\n-        <!--<item name=\"android:capitalize\">characters</item>-->\n-        <!--<item name=\"android:typeface\">monospace</item>-->\n-        <!--<item name=\"android:textSize\">12pt</item>-->\n-        <!--<item name=\"android:textColor\">#00FF00</item>/>-->\n-    </style>\n-    <style name=\"CustomFontStyle\">\n+        <!-- Customize your theme here. -->\n+        <item name=\"colorPrimary\">@color/colorPrimary</item>\n+        <item name=\"colorPrimaryDark\">@color/colorPrimaryDark</item>\n+        <item name=\"colorAccent\">@color/colorAccent</item>\n+    </style>\n+\n+    <style name=\"tab_menu_item\">\n+        <item name=\"android:layout_width\">0dp</item>\n+        <item name=\"android:layout_weight\">1</item>\n+        <item name=\"android:layout_height\">match_parent</item>\n+        <item name=\"android:button\">@null</item>\n+        <item name=\"android:gravity\">center</item>\n+        <item name=\"android:paddingTop\">3dp</item>\n+        <item name=\"android:background\">@drawable/tab_menu_bg_net1414080903220</item>\n+        <item name=\"android:textColor\">@drawable/tab_item_text_net1414080903220</item>\n+        <item name=\"android:textSize\">18sp</item>\n+    </style>\n+\n+    <style name=\"customTabLayout\" parent=\"Widget.Design.TabLayout\">\n+        <item name=\"tabIndicatorColor\">?attr/colorPrimary</item>\n+        <item name=\"tabIndicatorHeight\">2dp</item>\n+        <item name=\"tabPaddingStart\">12dp</item>\n+        <item name=\"tabPaddingEnd\">12dp</item>\n+        <item name=\"tabBackground\">?attr/colorPrimary</item>\n+        <item name=\"android:textSize\">14sp</item>\n+        <item name=\"textAllCaps\">true</item>\n+        <item name=\"tabSelectedTextColor\">#fff</item>\n+    </style>\n+\n+    <style name=\"nav_text_author\">\n+        <item name=\"android:layout_width\">wrap_content</item>\n+        <item name=\"android:layout_height\">wrap_content</item>\n+        <item name=\"android:textColor\">#fff</item>\n+        <item name=\"android:textSize\">14sp</item>\n+    </style>\n+\n+    <style name=\"nav_text\" parent=\"nav_text_author\">\n+        <item name=\"android:layout_alignParentBottom\">true</item>\n     </style>\n \n </resources>"
+  } ],
+  "sha" : "d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/d8a45d74e507d588f3c7f3e47ef6c52392a9966a",
+  "parents" : [ {
+    "sha" : "be211875b2598ee095896219886a4939c0f72830",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/be211875b2598ee095896219886a4939c0f72830",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/be211875b2598ee095896219886a4939c0f72830"
+  } ]
+}

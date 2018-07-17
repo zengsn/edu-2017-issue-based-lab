@@ -1,0 +1,118 @@
+{
+  "committer" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 156,
+    "additions" : 155,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "mamingjian",
+    "id" : 26477870,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/26477870?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mamingjian",
+    "html_url" : "https://github.com/mamingjian",
+    "followers_url" : "https://api.github.com/users/mamingjian/followers",
+    "following_url" : "https://api.github.com/users/mamingjian/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mamingjian/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mamingjian/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mamingjian/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mamingjian/orgs",
+    "repos_url" : "https://api.github.com/users/mamingjian/repos",
+    "events_url" : "https://api.github.com/users/mamingjian/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mamingjian/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+  "commit" : {
+    "author" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-15T07:13:18Z"
+    },
+    "committer" : {
+      "name" : "mamingjian",
+      "email" : "925392152@qq.com",
+      "date" : "2017-06-15T07:13:18Z"
+    },
+    "message" : "#2 #178 第二次作业",
+    "tree" : {
+      "sha" : "4bc52733d6a0c57e5959a97277b684ad7199d3a4",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/4bc52733d6a0c57e5959a97277b684ad7199d3a4"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/74e354738c5404e0cf2d6774fee25f73cf58a3c5/comments",
+  "files" : [ {
+    "sha" : "0e878a0125bad4c9b8e8c22e48bcaa4ffee577a8",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109AddActivity.java",
+    "status" : "added",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109AddActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109AddActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109AddActivity.java?ref=74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "patch" : "@@ -0,0 +1,39 @@\n+package edu.hzuapps.androidlabs.net1414080903109;\n+\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.View;\n+import android.widget.Button;\n+import android.widget.EditText;\n+\n+import com.example.administrator.maminjian.R;\n+\n+/**\n+ * Created by Administrator on 2017/6/3.\n+ */\n+\n+public class Net1414080903109AddActivity extends AppCompatActivity {\n+\n+    EditText etName;\n+    EditText etOccur;\n+\n+    Button bt;\n+\n+    @Override\n+ /*��ӽڼ��� ������ӹ���*/\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903109_add);\n+        etName= (EditText) findViewById(R.id.et_add_name);\n+        etOccur= (EditText) findViewById(R.id.et_add_age);\n+        bt= (Button) findViewById(R.id.bt_add);\n+        bt.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                Net1414080903109DayBean day=new Net1414080903109DayBean();\n+                day.setName(etName.getText().toString());\n+                day.setOccur(etOccur.getText().toString());\n+            }\n+        });\n+    }\n+}"
+  }, {
+    "sha" : "30002f99930e64f02abf2bef14c3a8091a59a817",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109DayBean.java",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109DayBean.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109DayBean.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109DayBean.java?ref=74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "patch" : "@@ -0,0 +1,27 @@\n+package edu.hzuapps.androidlabs.net1414080903109;\n+\n+/**\n+ * Created by Administrator on 2017/6/3.\n+ */\n+/*���JavaBean��*/\n+public class Net1414080903109DayBean {\n+\n+    String name;\n+    String occur;\n+\n+    public String getOccur() {\n+        return occur;\n+    }\n+\n+    public void setOccur(String occur) {\n+        this.occur = occur;\n+    }\n+\n+    public String getName() {\n+        return name;\n+    }\n+\n+    public void setName(String name) {\n+        this.name = name;\n+    }\n+}"
+  }, {
+    "sha" : "2b8512ba1c444fddcb770026cc6750aa87c322c2",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109ListActivity.java",
+    "status" : "added",
+    "additions" : 70,
+    "deletions" : 0,
+    "changes" : 70,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109ListActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109ListActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109ListActivity.java?ref=74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "patch" : "@@ -0,0 +1,70 @@\n+package edu.hzuapps.androidlabs.net1414080903109;\n+\n+import android.os.Bundle;\n+import android.support.v7.app.AppCompatActivity;\n+import android.view.LayoutInflater;\n+import android.view.View;\n+import android.view.ViewGroup;\n+import android.widget.AdapterView;\n+import android.widget.BaseAdapter;\n+import android.widget.ListView;\n+import android.widget.TextView;\n+\n+import com.example.administrator.maminjian.R;\n+\n+import java.util.List;\n+\n+public class Net1414080903109ListActivity extends AppCompatActivity {\n+\n+    ListView lv;\n+    List<Net1414080903109DayBean> list;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903109_list);\n+        list= Net1414080903109Presenter.getInstance(this).list();\n+        final MyAdapter adapter=new MyAdapter();\n+        lv.setAdapter(adapter);\n+        lv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {\n+            @Override\n+            /*������ʵ��ɾ����,�ں�����ݴ���ʵ���ټ���*/\n+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {\n+                adapter.notifyDataSetChanged();\n+                return false;\n+            }\n+        });\n+    }\n+\n+    class MyAdapter extends BaseAdapter{\n+\n+        @Override\n+        public int getCount() {\n+            return list.size();\n+        }\n+\n+        @Override\n+        public Object getItem(int position) {\n+            return list.get(position);\n+        }\n+\n+        @Override\n+        public long getItemId(int position) {\n+            return position;\n+        }\n+\n+        @Override\n+        /*�г����нڼ���*/\n+        public View getView(int position, View convertView, ViewGroup parent) {\n+            if (convertView==null){\n+                convertView= LayoutInflater.from(Net1414080903109ListActivity.this).inflate(R.layout.item_net1414080903109,null);\n+            }\n+            Net1414080903109DayBean day=list.get(position);\n+            TextView tvName= (TextView) findViewById(R.id.tv_item_name);\n+            TextView tvOccur= (TextView) findViewById(R.id.tv_item_occur);;\n+            tvOccur.setText(day.getOccur());\n+            tvName.setText(day.getName());\n+            return convertView;\n+        }\n+    }\n+}"
+  }, {
+    "sha" : "929564a5a97343bead96cea36d406e3ce9c21569",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109MainActivity.java",
+    "status" : "modified",
+    "additions" : 19,
+    "deletions" : 1,
+    "changes" : 20,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/74e354738c5404e0cf2d6774fee25f73cf58a3c5/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903109/Net1414080903109MainActivity.java?ref=74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+    "patch" : "@@ -10,10 +10,28 @@\n \n public class Net1414080903109MainActivity extends AppCompatActivity {\n \n+    Button btAdd;\n+    Button btList;\n+\n     @Override\n     protected void onCreate(Bundle savedInstanceState) {\n         super.onCreate(savedInstanceState);\n         setContentView(R.layout.activity_net1414080903109_main);\n-        \n+        btAdd= (Button) findViewById(R.id.bt_to_add);\n+        btList= (Button) findViewById(R.id.bt_to_list);\n+\n+        btAdd.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1414080903109MainActivity.this,Net1414080903109AddActivity.class));\n+            }\n+        });\n+\n+        btList.setOnClickListener(new View.OnClickListener() {\n+            @Override\n+            public void onClick(View v) {\n+                startActivity(new Intent(Net1414080903109MainActivity.this,Net1414080903109ListActivity.class));\n+            }\n+        });\n     }\n }"
+  } ],
+  "sha" : "74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/74e354738c5404e0cf2d6774fee25f73cf58a3c5",
+  "parents" : [ {
+    "sha" : "0eaf714d0a5f4df63bb9b2d60998ae4c37e7c3c7",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/0eaf714d0a5f4df63bb9b2d60998ae4c37e7c3c7",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/0eaf714d0a5f4df63bb9b2d60998ae4c37e7c3c7"
+  } ]
+}

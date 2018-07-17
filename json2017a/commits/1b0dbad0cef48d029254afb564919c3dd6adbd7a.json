@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 28,
+    "additions" : 28,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Lee20170303",
+    "id" : 26154841,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26154841?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lee20170303",
+    "html_url" : "https://github.com/Lee20170303",
+    "followers_url" : "https://api.github.com/users/Lee20170303/followers",
+    "following_url" : "https://api.github.com/users/Lee20170303/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lee20170303/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lee20170303/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lee20170303/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lee20170303/orgs",
+    "repos_url" : "https://api.github.com/users/Lee20170303/repos",
+    "events_url" : "https://api.github.com/users/Lee20170303/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lee20170303/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1b0dbad0cef48d029254afb564919c3dd6adbd7a",
+  "commit" : {
+    "author" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-05-19T04:46:22Z"
+    },
+    "committer" : {
+      "name" : "Lee20170303",
+      "email" : "1805407781@qq.com",
+      "date" : "2017-05-19T04:46:22Z"
+    },
+    "message" : "#3 #146 第三次实验",
+    "tree" : {
+      "sha" : "9e180f186efda3031f8f30332ad98154f2a90a6e",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/9e180f186efda3031f8f30332ad98154f2a90a6e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1b0dbad0cef48d029254afb564919c3dd6adbd7a",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b0dbad0cef48d029254afb564919c3dd6adbd7a/comments",
+  "files" : [ {
+    "sha" : "37d942cf8b47f089a2eeea51fc6683d985ea5c43",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903235__start_game.xml",
+    "status" : "added",
+    "additions" : 28,
+    "deletions" : 0,
+    "changes" : 28,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1b0dbad0cef48d029254afb564919c3dd6adbd7a/AndroidLabs/app/src/main/res/layout/activity_net1414080903235__start_game.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1b0dbad0cef48d029254afb564919c3dd6adbd7a/AndroidLabs/app/src/main/res/layout/activity_net1414080903235__start_game.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903235__start_game.xml?ref=1b0dbad0cef48d029254afb564919c3dd6adbd7a",
+    "patch" : "@@ -0,0 +1,28 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.constraint.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    tools:context=\"edu.hzuapps.androidlabs.homeworks.net1414080903235.Net1414080903235_StartGame\"\n+    android:background=\"@drawable/Bground1\">\n+\n+\n+    <Button\n+        android:id=\"@+id/btn_start\"\n+        android:layout_width=\"139dp\"\n+        android:layout_height=\"56dp\"\n+        android:onClick=\"btn_start\"\n+        android:text=\"开始游戏\"\n+        tools:layout_editor_absoluteX=\"123dp\"\n+        tools:layout_editor_absoluteY=\"118dp\" />\n+\n+    <Button\n+        android:id=\"@+id/btn_goon\"\n+        android:layout_width=\"139dp\"\n+        android:layout_height=\"56dp\"\n+        android:onClick=\"btn_goon\"\n+        android:text=\"继续游戏\"\n+        tools:layout_editor_absoluteX=\"123dp\"\n+        tools:layout_editor_absoluteY=\"251dp\" />\n+</android.support.constraint.ConstraintLayout>"
+  } ],
+  "sha" : "1b0dbad0cef48d029254afb564919c3dd6adbd7a",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1b0dbad0cef48d029254afb564919c3dd6adbd7a",
+  "parents" : [ {
+    "sha" : "37150f7c57fa44a50811b1490f2b00cc842b0971",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/37150f7c57fa44a50811b1490f2b00cc842b0971",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/37150f7c57fa44a50811b1490f2b00cc842b0971"
+  } ]
+}

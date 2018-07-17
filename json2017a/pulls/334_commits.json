@@ -1,0 +1,32 @@
+[ {
+  "sha" : "879500b9e94efa5c9bc14a63d7c109ae39b0969d",
+  "commit" : {
+    "author" : {
+      "name" : "liuzezhao",
+      "email" : "liuzezhao",
+      "date" : "2017-05-17T07:47:56Z"
+    },
+    "committer" : {
+      "name" : "liuzezhao",
+      "email" : "liuzezhao",
+      "date" : "2017-05-17T07:47:56Z"
+    },
+    "message" : "#4 #20 第四次实验\n\n美化了界面，添加了颜色的值",
+    "tree" : {
+      "sha" : "e606efeb8183e8b116393e1e1b40dc2f81c5fc84",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/e606efeb8183e8b116393e1e1b40dc2f81c5fc84"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/879500b9e94efa5c9bc14a63d7c109ae39b0969d",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/879500b9e94efa5c9bc14a63d7c109ae39b0969d",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/879500b9e94efa5c9bc14a63d7c109ae39b0969d",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/879500b9e94efa5c9bc14a63d7c109ae39b0969d/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/b03e8cf4d9415d73c237f0be08c662fa7b2d946a",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/b03e8cf4d9415d73c237f0be08c662fa7b2d946a"
+  } ]
+} ]

@@ -1,0 +1,151 @@
+{
+  "committer" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 14,
+    "additions" : 7,
+    "deletions" : 7
+  },
+  "author" : {
+    "login" : "LittleUncle",
+    "id" : 26004267,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26004267?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/LittleUncle",
+    "html_url" : "https://github.com/LittleUncle",
+    "followers_url" : "https://api.github.com/users/LittleUncle/followers",
+    "following_url" : "https://api.github.com/users/LittleUncle/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/LittleUncle/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/LittleUncle/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/LittleUncle/subscriptions",
+    "organizations_url" : "https://api.github.com/users/LittleUncle/orgs",
+    "repos_url" : "https://api.github.com/users/LittleUncle/repos",
+    "events_url" : "https://api.github.com/users/LittleUncle/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/LittleUncle/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ca0add5bc40183c5119e893414680b2a9820fe1d",
+  "commit" : {
+    "author" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T14:30:10Z"
+    },
+    "committer" : {
+      "name" : "LittleUncle",
+      "email" : "812346412@qq.com",
+      "date" : "2017-05-28T14:30:10Z"
+    },
+    "message" : "#5 #142 第五次作业（已修改1）",
+    "tree" : {
+      "sha" : "ba80effd2cc99f1e4cd61cc2c9745373a1f980ac",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/ba80effd2cc99f1e4cd61cc2c9745373a1f980ac"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ca0add5bc40183c5119e893414680b2a9820fe1d/comments",
+  "files" : [ {
+    "sha" : "9026fb740f13439893b2b53f2d6368b6a59f69c6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135Activity.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;"
+  }, {
+    "sha" : "85f5c5699670976b02149973fd12e110762fa2d6",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AddObject.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.content.ContentValues;\n import android.content.Intent;"
+  }, {
+    "sha" : "c1203a423e8da2674c889098e55b6bee562f5d7b",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135AdminActivity.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.content.Intent;\n import android.os.Bundle;"
+  }, {
+    "sha" : "d2570a3157a687d243bac4d8634135fc0e3b68be",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135ChangeActivity.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.content.ContentValues;\n import android.content.Intent;"
+  }, {
+    "sha" : "baae483558fcf657ecc1f65736652aaed924ad77",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135LoginActivity.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.content.Intent;\n import android.os.Bundle;"
+  }, {
+    "sha" : "311a3c94a8a9d6b977e5f19e10c9932d79d46c76",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/Net1414080903135SelectActivity.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;"
+  }, {
+    "sha" : "4f5a730399ed2a00d866c5f1b6b0ce18c969cdbe",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/WorkDatabaseHelper.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/WorkDatabaseHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ca0add5bc40183c5119e893414680b2a9820fe1d/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/WorkDatabaseHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903135/WorkDatabaseHelper.java?ref=ca0add5bc40183c5119e893414680b2a9820fe1d",
+    "patch" : "@@ -1,4 +1,4 @@\n-package edu.hzuapp.androidlabs.homeworks.net1414080903135;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903135;\n \n import android.content.Context;\n import android.database.sqlite.SQLiteDatabase;"
+  } ],
+  "sha" : "ca0add5bc40183c5119e893414680b2a9820fe1d",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ca0add5bc40183c5119e893414680b2a9820fe1d",
+  "parents" : [ {
+    "sha" : "767deecb1f1895bd4efc445d27d65d864169c181",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/767deecb1f1895bd4efc445d27d65d864169c181",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/767deecb1f1895bd4efc445d27d65d864169c181"
+  } ]
+}

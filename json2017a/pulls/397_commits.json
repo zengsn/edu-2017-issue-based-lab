@@ -1,0 +1,68 @@
+[ {
+  "sha" : "5b6b7cda77f9f9ff0f7016c069fa74b2a5faa745",
+  "commit" : {
+    "author" : {
+      "name" : "xiaochenfff",
+      "email" : "614742102@qq.com",
+      "date" : "2017-05-28T16:20:09Z"
+    },
+    "committer" : {
+      "name" : "xiaochenfff",
+      "email" : "614742102@qq.com",
+      "date" : "2017-05-28T16:20:09Z"
+    },
+    "message" : "#5 #88 第五次作业",
+    "tree" : {
+      "sha" : "1854701ddf9f132ed077bb645fed0f1953f42294",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1854701ddf9f132ed077bb645fed0f1953f42294"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/5b6b7cda77f9f9ff0f7016c069fa74b2a5faa745",
+    "comment_count" : 0
+  },
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b6b7cda77f9f9ff0f7016c069fa74b2a5faa745",
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5b6b7cda77f9f9ff0f7016c069fa74b2a5faa745",
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5b6b7cda77f9f9ff0f7016c069fa74b2a5faa745/comments",
+  "author" : {
+    "login" : "xiaochenfff",
+    "id" : 17422540,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/17422540?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaochenfff",
+    "html_url" : "https://github.com/xiaochenfff",
+    "followers_url" : "https://api.github.com/users/xiaochenfff/followers",
+    "following_url" : "https://api.github.com/users/xiaochenfff/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaochenfff/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaochenfff/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaochenfff/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaochenfff/orgs",
+    "repos_url" : "https://api.github.com/users/xiaochenfff/repos",
+    "events_url" : "https://api.github.com/users/xiaochenfff/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaochenfff/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xiaochenfff",
+    "id" : 17422540,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/17422540?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaochenfff",
+    "html_url" : "https://github.com/xiaochenfff",
+    "followers_url" : "https://api.github.com/users/xiaochenfff/followers",
+    "following_url" : "https://api.github.com/users/xiaochenfff/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaochenfff/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaochenfff/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaochenfff/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaochenfff/orgs",
+    "repos_url" : "https://api.github.com/users/xiaochenfff/repos",
+    "events_url" : "https://api.github.com/users/xiaochenfff/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaochenfff/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "049cba21a25e5eefeeaf18dcc234fa7c66d8c9d1",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/049cba21a25e5eefeeaf18dcc234fa7c66d8c9d1",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/049cba21a25e5eefeeaf18dcc234fa7c66d8c9d1"
+  } ]
+} ]

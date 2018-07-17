@@ -1,0 +1,140 @@
+{
+  "committer" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 274,
+    "additions" : 274,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "hshaohua",
+    "id" : 26158904,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26158904?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/hshaohua",
+    "html_url" : "https://github.com/hshaohua",
+    "followers_url" : "https://api.github.com/users/hshaohua/followers",
+    "following_url" : "https://api.github.com/users/hshaohua/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/hshaohua/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/hshaohua/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/hshaohua/subscriptions",
+    "organizations_url" : "https://api.github.com/users/hshaohua/orgs",
+    "repos_url" : "https://api.github.com/users/hshaohua/repos",
+    "events_url" : "https://api.github.com/users/hshaohua/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/hshaohua/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/ac04214c3087f1c71c102d2be157fb4c6009b424",
+  "commit" : {
+    "author" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-04-26T08:54:48Z"
+    },
+    "committer" : {
+      "name" : "hshaohua",
+      "email" : "945327536@qq.com",
+      "date" : "2017-04-26T08:54:48Z"
+    },
+    "message" : "#2 #28 第二次作业",
+    "tree" : {
+      "sha" : "7c881fefc9a4b8f5e56ac440a31e909b3c6cb64c",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/7c881fefc9a4b8f5e56ac440a31e909b3c6cb64c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ac04214c3087f1c71c102d2be157fb4c6009b424/comments",
+  "files" : [ {
+    "sha" : "865d739114f293b87def611b9620788381de66be",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127GameActivity.java",
+    "status" : "added",
+    "additions" : 106,
+    "deletions" : 0,
+    "changes" : 106,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127GameActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127GameActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127GameActivity.java?ref=ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "patch" : "@@ -0,0 +1,106 @@\n+package edu.hzuapps.androidlabs;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+public class Net1414080903127GameActivity extends AppCompatActivity {\n+    private Button Brock;\n+    private Button Bscissors;\n+    private Button Bpaper;\n+    private Button Bascertain;\n+    private int option;//玩家的选项。\n+    private int result;//表示结果，0表示平局，1表示玩家赢，2表示玩家输。\n+    private int time;//记录游戏进行的次数。\n+    private int grade;//游戏分数。\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903127_game);\n+        Brock=(Button)findViewById(R.id.rock);\n+        Bscissors=(Button)findViewById(R.id.scissors);\n+        Bpaper=(Button)findViewById(R.id.paper);\n+        Bascertain=(Button)findViewById(R.id.ascertain);\n+        Brock.setOnClickListener(gamelistener);\n+        Bscissors.setOnClickListener(gamelistener);\n+        Bpaper.setOnClickListener(gamelistener);\n+        Bascertain.setOnClickListener(gamelistener);\n+    }\n+\n+    View.OnClickListener gamelistener=new View.OnClickListener() {\n+        @Override\n+        public void onClick(View v) {\n+            switch (v.getId()){\n+                case R.id.rock:\n+                    option=0;\n+                    break;\n+                case R.id.scissors:\n+                    option=1;\n+                    break;\n+                case R.id.paper:\n+                    option=2;\n+                    break;\n+                case R.id.ascertain:\n+                    /*调用GetRandomNumber()函数和compare()函数，然后记录分数和游戏的次数，完成10局游戏时跳转下一界面。*/\n+                    break;\n+                default:\n+                    break;\n+            }\n+        }\n+    };\n+    public int GetRandomNumber(){\n+        int RNumber;\n+        /*Soption等于一个随机数%3，获得0，1，2中的一个；*/\n+        RNumber=1;\n+        return RNumber;\n+\n+    }\n+    public int compare(int a,int b){\n+        /*比较系统和玩家的出拳结果*/\n+        switch(a){\n+            case 0:\n+                if(b==0){\n+                    result=0;\n+                    break;\n+                }\n+                else if(b==1){\n+                    result=1;\n+                    break;\n+                }\n+                else if(b==2){\n+                    result=2;\n+                    break;\n+                }\n+            case 1:\n+                if(b==0){\n+                    result=2;\n+                    break;\n+                }\n+                else if(b==1){\n+                    result=0;\n+                    break;\n+                }\n+                else if(b==2){\n+                    result=1;\n+                    break;\n+                }\n+            case 2:\n+                if(b==0){\n+                    result=1;\n+                    break;\n+                }\n+                else if(b==1){\n+                    result=2;\n+                    break;\n+                }else if(b==2){\n+                    result=0;\n+                    break;\n+                }\n+            default:\n+                break;\n+        }\n+        return result;\n+    }\n+}"
+  }, {
+    "sha" : "96be0fe9dfddab1227fa0e4ff738970bafa1ee84",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127MainActivity.java",
+    "status" : "added",
+    "additions" : 45,
+    "deletions" : 0,
+    "changes" : 45,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127MainActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127MainActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127MainActivity.java?ref=ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "patch" : "@@ -0,0 +1,45 @@\n+package edu.hzuapps.androidlabs;\n+\n+import android.content.Intent;\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+import android.view.View;\n+import android.widget.Button;\n+\n+public class Net1414080903127MainActivity extends AppCompatActivity {\n+    private Button Brank;\n+    private Button Bstart;\n+\n+    private Intent intent;\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903127_main);\n+        Brank=(Button)findViewById(R.id.rank);\n+        Bstart=(Button)findViewById(R.id.start);\n+        Brank.setOnClickListener(mylistener);\n+        Bstart.setOnClickListener(mylistener);\n+    }\n+    View.OnClickListener mylistener=new View.OnClickListener(){\n+        @Override\n+        public void onClick(View v){\n+            switch(v.getId()){\n+                case R.id.rank:\n+                    intent=new Intent();\n+                    intent.setClass(Net1414080903127MainActivity.this,Net1414080903127RankActivity.class);\n+                    Net1414080903127MainActivity.this.startActivity(intent);\n+                    break;\n+                case R.id.start:\n+                    intent=new Intent();\n+                    intent.setClass(Net1414080903127MainActivity.this,Net1414080903127GameActivity.class);\n+                    Net1414080903127MainActivity.this.startActivity(intent);\n+                    break;\n+                default:\n+                    break;\n+\n+            }\n+        }\n+    };\n+\n+}"
+  }, {
+    "sha" : "7d912010f943dd6616732e97a3ef8a109aac9f8d",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127RankActivity.java",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127RankActivity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127RankActivity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903127/Net1414080903127RankActivity.java?ref=ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "patch" : "@@ -0,0 +1,13 @@\n+package edu.hzuapps.androidlabs;\n+\n+import android.support.v7.app.AppCompatActivity;\n+import android.os.Bundle;\n+\n+public class Net1414080903127RankActivity extends AppCompatActivity {\n+\n+    @Override\n+    protected void onCreate(Bundle savedInstanceState) {\n+        super.onCreate(savedInstanceState);\n+        setContentView(R.layout.activity_net1414080903127_rank);\n+    }\n+}"
+  }, {
+    "sha" : "27577610be1e013d066291482861495b238f153b",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903127_game.xml",
+    "status" : "added",
+    "additions" : 38,
+    "deletions" : 0,
+    "changes" : 38,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_game.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_game.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_game.xml?ref=ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "patch" : "@@ -0,0 +1,38 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.constraint.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    tools:context=\"edu.hzuapps.androidlabs.Net1414080903127GameActivity\">\n+    <RelativeLayout\n+        android:layout_width=\"368dp\"\n+        android:layout_height=\"495dp\"\n+        tools:layout_editor_absoluteY=\"8dp\"\n+        tools:layout_editor_absoluteX=\"8dp\">\n+        <Button\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/rock\"\n+            android:text=\"石头\"/>\n+        <Button\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/scissors\"\n+            android:text=\"剪刀\"\n+            android:layout_toRightOf=\"@id/rock\"/>\n+        <Button\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/paper\"\n+            android:text=\"布\"\n+            android:layout_toRightOf=\"@id/scissors\"/>\n+        <Button\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/ascertain\"\n+            android:text=\"确定\"\n+            android:layout_below=\"@id/rock\"/>\n+    </RelativeLayout>\n+\n+</android.support.constraint.ConstraintLayout>"
+  }, {
+    "sha" : "c220c95b1e3a6fbf21b3094738bb18ff82f5c53d",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_main.xml?ref=ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "patch" : "@@ -0,0 +1,27 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.constraint.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    tools:context=\"edu.hzuapps.androidlabs.Net1414080903127MainActivity\">\n+\n+    <RelativeLayout\n+        android:layout_width=\"368dp\"\n+        android:layout_height=\"495dp\"\n+        tools:layout_editor_absoluteY=\"8dp\"\n+        tools:layout_editor_absoluteX=\"8dp\">\n+        <Button\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/rank\"\n+            android:text=\"查看排名\" />\n+        <Button\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\"\n+            android:id=\"@+id/start\"\n+            android:text=\"开始游戏\"\n+            android:layout_below=\"@id/rank\"/>\n+\n+    </RelativeLayout>\n+</android.support.constraint.ConstraintLayout>"
+  }, {
+    "sha" : "ba3dc29108b118caec82bb8a90b580cb6b3ee589",
+    "filename" : "AndroidLabs/app/src/main/res/layout/activity_net1414080903127_rank.xml",
+    "status" : "added",
+    "additions" : 45,
+    "deletions" : 0,
+    "changes" : 45,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_rank.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/ac04214c3087f1c71c102d2be157fb4c6009b424/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_rank.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/activity_net1414080903127_rank.xml?ref=ac04214c3087f1c71c102d2be157fb4c6009b424",
+    "patch" : "@@ -0,0 +1,45 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<android.support.constraint.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n+    xmlns:tools=\"http://schemas.android.com/tools\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    tools:context=\"edu.hzuapps.androidlabs.Net1414080903127RankActivity\">\n+\n+        <RelativeLayout\n+            android:layout_width=\"wrap_content\"\n+            android:layout_height=\"wrap_content\">\n+            <TextView\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:id=\"@+id/ranking\"\n+                android:text=\"名次\"\n+                android:padding=\"20dp\"/>\n+            <TextView\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_toRightOf=\"@id/ranking\"\n+                android:id=\"@+id/grade\"\n+                android:text=\"分数\"\n+                android:padding=\"20dp\" />\n+            <TextView\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_below=\"@id/ranking\"\n+                android:id=\"@+id/first\"\n+                android:text=\"first\"\n+                android:padding=\"20dp\"/>\n+            <TextView\n+                android:layout_width=\"wrap_content\"\n+                android:layout_height=\"wrap_content\"\n+                android:layout_toRightOf=\"@id/first\"\n+                android:layout_below=\"@id/grade\"\n+                android:id=\"@+id/firstGrade\"\n+                android:text=\"grade\"\n+                android:padding=\"20dp\"/>\n+        </RelativeLayout>\n+\n+\n+\n+</android.support.constraint.ConstraintLayout>\n+"
+  } ],
+  "sha" : "ac04214c3087f1c71c102d2be157fb4c6009b424",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/ac04214c3087f1c71c102d2be157fb4c6009b424",
+  "parents" : [ {
+    "sha" : "5a73d9c750a08bb91dff83d6fc81041b4b00ef0e",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/5a73d9c750a08bb91dff83d6fc81041b4b00ef0e",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/5a73d9c750a08bb91dff83d6fc81041b4b00ef0e"
+  } ]
+}

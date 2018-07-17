@@ -1,0 +1,96 @@
+{
+  "committer" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 46,
+    "additions" : 46,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "mowenzi",
+    "id" : 26250318,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26250318?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/mowenzi",
+    "html_url" : "https://github.com/mowenzi",
+    "followers_url" : "https://api.github.com/users/mowenzi/followers",
+    "following_url" : "https://api.github.com/users/mowenzi/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/mowenzi/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/mowenzi/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/mowenzi/subscriptions",
+    "organizations_url" : "https://api.github.com/users/mowenzi/orgs",
+    "repos_url" : "https://api.github.com/users/mowenzi/repos",
+    "events_url" : "https://api.github.com/users/mowenzi/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/mowenzi/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+  "commit" : {
+    "author" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-05-28T15:26:31Z"
+    },
+    "committer" : {
+      "name" : "mowenzi",
+      "email" : "775747553@qq.com",
+      "date" : "2017-05-28T15:26:31Z"
+    },
+    "message" : "#4 #131 第四次作业",
+    "tree" : {
+      "sha" : "1bd402b2914910ac6f57856bec86f7ecc98ee596",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/1bd402b2914910ac6f57856bec86f7ecc98ee596"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fb98d372007e22434e9b1e9803e95fa2ff3e0271/comments",
+  "files" : [ {
+    "sha" : "87d1c1dd38dfa39276abc16a8ada64449bde7bf0",
+    "filename" : "AndroidLabs/app/src/main/res/layout/empty_net1414080903118_list.xml",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fb98d372007e22434e9b1e9803e95fa2ff3e0271/AndroidLabs/app/src/main/res/layout/empty_net1414080903118_list.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fb98d372007e22434e9b1e9803e95fa2ff3e0271/AndroidLabs/app/src/main/res/layout/empty_net1414080903118_list.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/empty_net1414080903118_list.xml?ref=fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "patch" : "@@ -0,0 +1,10 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<TextView xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:gravity=\"center\"\n+    android:textSize=\"20sp\"\n+    android:padding=\"40dp\"\n+    android:text=\"未找到符合格式的視頻文件，本播放器仅支持3pg,mp4格式的视频\">\n+\n+</TextView>\n\\ No newline at end of file"
+  }, {
+    "sha" : "1f86e75d07574c962652c1c37c64f06f3a49691f",
+    "filename" : "AndroidLabs/app/src/main/res/layout/menu_net1414080903118_item.xml",
+    "status" : "added",
+    "additions" : 36,
+    "deletions" : 0,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/fb98d372007e22434e9b1e9803e95fa2ff3e0271/AndroidLabs/app/src/main/res/layout/menu_net1414080903118_item.xml",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/fb98d372007e22434e9b1e9803e95fa2ff3e0271/AndroidLabs/app/src/main/res/layout/menu_net1414080903118_item.xml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/res/layout/menu_net1414080903118_item.xml?ref=fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+    "patch" : "@@ -0,0 +1,36 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?>\n+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n+    android:orientation=\"horizontal\"\n+    android:layout_width=\"match_parent\"\n+    android:layout_height=\"match_parent\"\n+    android:padding=\"15dp\">\n+\n+    <ImageView\n+        android:src=\"@mipmap/ic_launcher\"\n+        android:layout_width=\"75dp\"\n+        android:layout_height=\"80dp\"\n+        android:id=\"@+id/iv_item\"/>\n+\n+    <LinearLayout\n+        android:layout_marginLeft=\"15dp\"\n+        android:layout_width=\"0dp\"\n+        android:layout_weight=\"1\"\n+        android:layout_height=\"wrap_content\"\n+        android:orientation=\"vertical\">\n+        <TextView\n+            android:id=\"@+id/tv_item_title\"\n+            android:textSize=\"16sp\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\" />\n+\n+        <TextView\n+            android:layout_marginTop=\"10dp\"\n+            android:id=\"@+id/tv_item_duration\"\n+            android:layout_width=\"match_parent\"\n+            android:layout_height=\"wrap_content\"\n+            android:textSize=\"14sp\"/>\n+\n+\n+    </LinearLayout>\n+\n+</LinearLayout>\n\\ No newline at end of file"
+  } ],
+  "sha" : "fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/fb98d372007e22434e9b1e9803e95fa2ff3e0271",
+  "parents" : [ {
+    "sha" : "4f77aaba732c5c88a4f8da44a6446e527a7c6224",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/4f77aaba732c5c88a4f8da44a6446e527a7c6224",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/4f77aaba732c5c88a4f8da44a6446e527a7c6224"
+  } ]
+}

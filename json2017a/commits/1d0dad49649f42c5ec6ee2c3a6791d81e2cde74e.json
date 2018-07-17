@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 26,
+    "additions" : 26,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "vwuyang",
+    "id" : 26477828,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477828?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/vwuyang",
+    "html_url" : "https://github.com/vwuyang",
+    "followers_url" : "https://api.github.com/users/vwuyang/followers",
+    "following_url" : "https://api.github.com/users/vwuyang/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/vwuyang/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/vwuyang/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/vwuyang/subscriptions",
+    "organizations_url" : "https://api.github.com/users/vwuyang/orgs",
+    "repos_url" : "https://api.github.com/users/vwuyang/repos",
+    "events_url" : "https://api.github.com/users/vwuyang/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/vwuyang/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+  "commit" : {
+    "author" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-05-31T14:27:39Z"
+    },
+    "committer" : {
+      "name" : "vwuyang",
+      "email" : "857728098@qq.com",
+      "date" : "2017-05-31T14:27:39Z"
+    },
+    "message" : "#5 #第五次实验",
+    "tree" : {
+      "sha" : "04a471fa9d0bf4aa850878eddca5f797905b00b7",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/04a471fa9d0bf4aa850878eddca5f797905b00b7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e/comments",
+  "files" : [ {
+    "sha" : "3e82aca513208a3840e30f80a99574f1abde1b67",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/MySQLiteHelper.java",
+    "status" : "added",
+    "additions" : 26,
+    "deletions" : 0,
+    "changes" : 26,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/MySQLiteHelper.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/MySQLiteHelper.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903139/MySQLiteHelper.java?ref=1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+    "patch" : "@@ -0,0 +1,26 @@\n+package edu.hzuapps.andridlabs.homeworks.net1414080903139;\n+\n+import android.content.Context;\n+import android.database.sqlite.SQLiteDatabase;\n+import android.database.sqlite.SQLiteOpenHelper;\n+\n+/**\n+ * Created by 阳飞 on 2017/4/29.\n+ */\n+\n+public class MySQLiteHelper extends SQLiteOpenHelper {\n+\n+    public MySQLiteHelper(Context context) {\n+        super(context, \"birthday\", null, 1);\n+    }\n+\n+    @Override\n+    public void onCreate(SQLiteDatabase sqLiteDatabase) {\n+        sqLiteDatabase.execSQL(\"create table birthday(name varchar(20),birthday varchar(20));\");\n+    }\n+\n+    @Override\n+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {\n+\n+    }\n+}"
+  } ],
+  "sha" : "1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/1d0dad49649f42c5ec6ee2c3a6791d81e2cde74e",
+  "parents" : [ {
+    "sha" : "f86d8c7c293ec044e40c3af62b9360ab7af14337",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/f86d8c7c293ec044e40c3af62b9360ab7af14337",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/f86d8c7c293ec044e40c3af62b9360ab7af14337"
+  } ]
+}

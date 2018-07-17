@@ -1,0 +1,85 @@
+{
+  "committer" : {
+    "login" : "Lyonly",
+    "id" : 26104878,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26104878?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lyonly",
+    "html_url" : "https://github.com/Lyonly",
+    "followers_url" : "https://api.github.com/users/Lyonly/followers",
+    "following_url" : "https://api.github.com/users/Lyonly/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lyonly/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lyonly/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lyonly/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lyonly/orgs",
+    "repos_url" : "https://api.github.com/users/Lyonly/repos",
+    "events_url" : "https://api.github.com/users/Lyonly/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lyonly/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2,
+    "additions" : 1,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "Lyonly",
+    "id" : 26104878,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/26104878?v=3",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Lyonly",
+    "html_url" : "https://github.com/Lyonly",
+    "followers_url" : "https://api.github.com/users/Lyonly/followers",
+    "following_url" : "https://api.github.com/users/Lyonly/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Lyonly/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Lyonly/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Lyonly/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Lyonly/orgs",
+    "repos_url" : "https://api.github.com/users/Lyonly/repos",
+    "events_url" : "https://api.github.com/users/Lyonly/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Lyonly/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/18ece1a644a471f79afc159c3c18bd43f8ca2769",
+  "commit" : {
+    "author" : {
+      "name" : "Lyonly",
+      "email" : "994638734@qq.com",
+      "date" : "2017-03-04T15:07:35Z"
+    },
+    "committer" : {
+      "name" : "Lyonly",
+      "email" : "994638734@qq.com",
+      "date" : "2017-03-04T15:07:35Z"
+    },
+    "message" : "#1 #31 第一次作业",
+    "tree" : {
+      "sha" : "f8b66b10403c0abb7432df6f50d8e4d29806c534",
+      "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/trees/f8b66b10403c0abb7432df6f50d8e4d29806c534"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/git/commits/18ece1a644a471f79afc159c3c18bd43f8ca2769",
+    "comment_count" : 0
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/18ece1a644a471f79afc159c3c18bd43f8ca2769/comments",
+  "files" : [ {
+    "sha" : "fa02dde58a596b199b2a6659530d8ca5aa78f661",
+    "filename" : "AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java",
+    "status" : "modified",
+    "additions" : 1,
+    "deletions" : 1,
+    "changes" : 2,
+    "blob_url" : "https://github.com/hzuapps/android-labs-2017/blob/18ece1a644a471f79afc159c3c18bd43f8ca2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java",
+    "raw_url" : "https://github.com/hzuapps/android-labs-2017/raw/18ece1a644a471f79afc159c3c18bd43f8ca2769/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java",
+    "contents_url" : "https://api.github.com/repos/hzuapps/android-labs-2017/contents/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/homeworks/net1414080903209/Net1414080903209Activity.java?ref=18ece1a644a471f79afc159c3c18bd43f8ca2769",
+    "patch" : "@@ -1,4 +1,4 @@\n-package net1414080903209Activity.java;\n+package edu.hzuapps.androidlabs.homeworks.net1414080903209;\n \n import android.support.v7.app.AppCompatActivity;\n import android.os.Bundle;"
+  } ],
+  "sha" : "18ece1a644a471f79afc159c3c18bd43f8ca2769",
+  "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/18ece1a644a471f79afc159c3c18bd43f8ca2769",
+  "parents" : [ {
+    "sha" : "015b03ba6ce279b8d19b63b39840fb15ab36a331",
+    "url" : "https://api.github.com/repos/hzuapps/android-labs-2017/commits/015b03ba6ce279b8d19b63b39840fb15ab36a331",
+    "html_url" : "https://github.com/hzuapps/android-labs-2017/commit/015b03ba6ce279b8d19b63b39840fb15ab36a331"
+  } ]
+}
